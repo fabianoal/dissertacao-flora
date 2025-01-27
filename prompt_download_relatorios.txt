@@ -1,0 +1,15 @@
+I need a R script using rSelenium and the firefox browser to download files from this url: "https://consultaauditoria.saude.gov.br/visao/pages/principal.html?0".
+To get the list of pages where the link to the file can be found it's necessary to fill some fields in a form.
+Since the form has a maximum time range that we are allowed to search, it’s necessary to loop through the years from 2023 to 2025.
+For each year, the fields must be filled as it follows:
+1)	The field represented by a <select> element with id equals to "comboOrgao" need to set to the <option> whose “value” property is "21".
+2)	The field represented by a <select> element with id equals to "comboTipoAtividade" need to set to the <option> whose “value” property is "28".
+3)	The field represented by a <input> element with id equals to "campoDtInicio" must be filled with the date corresponding with the first day of the year following the pt-BR format.
+4)	The field represented by a <input> element with id equals to "campoDtFim" must be filled with the date representing the last day of the year also using the pt-BR format.
+The element to submit the form is a <input type=”submit”> and has the “name” property set to “botaoConsultar”. It must be clicked and it’s necessary to wait until the results are presented in a <table> that is the first child of a <div> element of the class “container_16 marginTop20 positionR”. Since we will be paginating this table, it’s not sufficient just to check if the table is filled. So, as the query usually runs fast, it will suffice to wait 4 seconds before proceed. 
+Now, it’s time to iterate over the lines of the table (<tr> elements).  On each line, The element that has the link to the page is a <a> element child of a <td> element and has its text contents equals to “Relatório”. Click it and wait for the next page to load.
+On the new page, the link to download the file will be on a <a> element that has a child <img> element with it’s “src” property equals to “../../common/images/download.gif”. 
+Since we are downloading a file, it’s necessary to instruct firefox not to ask where to save the file and, instead, download it to the default location.
+After downloading the file, it’s necessary to go back to the page from where we were. For that, the <input> element with property “name” is “voltar” must be clicked.
+Then, proceed to the next row until all files have been downloaded.
+The table that has the results of the query is a paginated one. Hence, after all lines have been iterated over, it’s necessary to check if there is more pages and, if it is the case, go to the next page and iterate over the lines again. For that, a <a> element that has a child <span> element of the class “controlNext” must be clicked on. If this combination of elements are not present, than it means that we are on the last page and we can proceed to the next year.

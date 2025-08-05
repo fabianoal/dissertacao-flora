@@ -3,39 +3,64 @@ library(RSelenium)
 library(dplyr)
 library(stringr)
 library(lubridate)
-# install.packages("RSelenium")
-# Function to set up Firefox profile with desired preferences
-setup_firefox_profile <- function(download_dir) {
-  # Create a Firefox profile
-  fprof <- makeFirefoxProfile(list(
-    "browser.download.folderList" = 2, # Use custom download path
-    "browser.download.dir" = download_dir,
-    "browser.helperApps.neverAsk.saveToDisk" = "application/octet-stream,application/vnd.ms-excel,text/csv,application/pdf",
-    "pdfjs.disabled" = TRUE, # Disable built-in PDF viewer
-    "browser.download.manager.showWhenStarting" = FALSE,
-    "browser.download.useDownloadDir" = TRUE,
-    "browser.download.manager.focusWhenStarting" = FALSE,
-    "browser.download.manager.alertOnEXEOpen" = FALSE,
-    "browser.download.manager.closeWhenDone" = TRUE,
-    "browser.download.manager.showAlertOnComplete" = FALSE,
-    "browser.download.manager.useWindow" = FALSE
-  ))
-  return(fprof)
+
+# Function to set up Chrome options with desired preferences
+setup_chrome_options <- function(download_dir) {
+  # Define Chrome options
+  chrome_options <- list(
+    chromeOptions = list(
+      args = c(
+        "--headless", # Run in headless mode
+        "--disable-gpu",
+        "--remote-allow-origins=*",
+        "--window-size=1920,1080",
+        "--no-sandbox",
+        "--disable-search-engine-choice-screen",
+        "--disable-dev-shm-usage"
+      ),
+      prefs = list(
+        "download.default_directory" = download_dir, # Set download directory
+        "download.prompt_for_download" = FALSE,      # Disable download prompt
+        "download.directory_upgrade" = TRUE,
+        "safebrowsing.enabled" = TRUE,
+        "safebrowsing.disable_download_protection" = TRUE
+      )
+    )
+  )
+  
+  return(chrome_options)
 }
 
-# Specify the download directory (you can change this to your desired path)
+# Specify the download directory (ensure this directory exists)
 download_directory <- normalizePath("./Downloads", winslash = "/")
 
-# Set up Firefox profile
-firefox_profile <- setup_firefox_profile(download_directory)
+# Set up Chrome options
+chrome_profile <- setup_chrome_options(download_directory)
 
-# Start RSelenium with Firefox
-rD <- rsDriver(browser = "firefox",
-               port = 4545L,
-               verbose = FALSE,
-               extraCapabilities = firefox_profile)
+# Initialize RSelenium Remote Driver
 
-remDr <- rD$client
+# chromedriver --allowed-origins=* --port=40629  --enable-chrome-logs --log-level=INFO
+
+
+rsDriver
+remDr <- rsDriver(
+  browser = "chrome", 
+  geckover = NULL,
+  iedrver = NULL,
+  phantomver = NULL, 
+  verbose = TRUE,
+  extraCapabilities = chrome_profile, 
+  port = 37261L)
+
+remDr <- remoteDriver(
+  extraCapabilities = chrome_profile, 
+  port = 40629L)
+
+# Open the Remote Driver
+remDr$open()
+
+chrome_ver(chromecheck[["platform"]], chromever)
+
 
 # Define the target URL
 target_url <- "https://consultaauditoria.saude.gov.br/visao/pages/principal.html?0"
@@ -48,8 +73,38 @@ format_pt_br <- function(date) {
   return(format(date, "%d/%m/%Y"))
 }
 
+# Function to wait for an element to be present
+wait_for_element <- function(remDr, using, value, timeout = 10) {
+  for (i in 1:timeout) {
+    elements <- remDr$findElements(using = using, value = value)
+    if (length(elements) > 0) {
+      return(elements[[1]])
+    }
+    Sys.sleep(1)
+  }
+  stop(paste("Element not found:", using, value))
+}
+
+# Function to wait for a download to complete
+wait_for_download <- function(download_dir, timeout = 120) {
+  for (i in 1:timeout) {
+    # Check for any .crdownload files (Chrome's temporary download files)
+    tmp_files <- list.files(download_dir, pattern = "\\.crdownload$", full.names = TRUE)
+    if (length(tmp_files) == 0) {
+      # Additionally, check if there are any new files in the download directory
+      # This is a simplistic check and may need refinement
+      return(TRUE)
+    }
+    Sys.sleep(1)
+  }
+  return(FALSE)
+}
+
 # Loop through each year
 for (year in years) {
+  #year <- years[1]
+  message(paste("Processing year:", year))
+  
   # Navigate to the target URL
   remDr$navigate(target_url)
   
@@ -58,16 +113,18 @@ for (year in years) {
   
   # Fill the "comboOrgao" select field
   tryCatch({
-    orgao_select <- remDr$findElement(using = "id", value = "comboOrgao")
+    orgao_select <- wait_for_element(remDr, "id", "comboOrgao", timeout = 15)
     orgao_select$sendKeysToElement(list("21"))
+    Sys.sleep(1) # Brief pause to allow options to update
   }, error = function(e) {
     message(paste("Error selecting comboOrgao for year", year, ":", e$message))
   })
   
   # Fill the "comboTipoAtividade" select field
   tryCatch({
-    tipo_atividade_select <- remDr$findElement(using = "id", value = "comboTipoAtividade")
+    tipo_atividade_select <- wait_for_element(remDr, "id", "comboTipoAtividade", timeout = 15)
     tipo_atividade_select$sendKeysToElement(list("28"))
+    Sys.sleep(1) # Brief pause to allow options to update
   }, error = function(e) {
     message(paste("Error selecting comboTipoAtividade for year", year, ":", e$message))
   })
@@ -75,7 +132,7 @@ for (year in years) {
   # Fill the "campoDtInicio" input field
   tryCatch({
     dt_inicio <- paste0("01/01/", year)
-    campo_dt_inicio <- remDr$findElement(using = "id", value = "campoDtInicio")
+    campo_dt_inicio <- wait_for_element(remDr, "id", "campoDtInicio", timeout = 15)
     campo_dt_inicio$clearElement()
     campo_dt_inicio$sendKeysToElement(list(dt_inicio))
   }, error = function(e) {
@@ -85,7 +142,7 @@ for (year in years) {
   # Fill the "campoDtFim" input field
   tryCatch({
     dt_fim <- paste0("31/12/", year)
-    campo_dt_fim <- remDr$findElement(using = "id", value = "campoDtFim")
+    campo_dt_fim <- wait_for_element(remDr, "id", "campoDtFim", timeout = 15)
     campo_dt_fim$clearElement()
     campo_dt_fim$sendKeysToElement(list(dt_fim))
   }, error = function(e) {
@@ -94,7 +151,7 @@ for (year in years) {
   
   # Click the submit button ("botaoConsultar")
   tryCatch({
-    submit_button <- remDr$findElement(using = "name", value = "botaoConsultar")
+    submit_button <- wait_for_element(remDr, "name", "botaoConsultar", timeout = 15)
     submit_button$clickElement()
   }, error = function(e) {
     message(paste("Error clicking submit button for year", year, ":", e$message))
@@ -116,7 +173,7 @@ for (year in years) {
                                         value = "div.container_16.marginTop20.positionR > table")
     }, error = function(e) {
       message(paste("Error finding results table for year", year, ":", e$message))
-      return(NULL)
+      next
     })
     
     # Get all rows in the table body
@@ -152,7 +209,10 @@ for (year in years) {
       })
       
       # Wait for the download to complete
-      Sys.sleep(5)
+      download_success <- wait_for_download(download_directory, timeout = 120)
+      if (!download_success) {
+        message(paste("Download did not complete within the expected time for year", year))
+      }
       
       # Click the "voltar" button to go back
       tryCatch({
@@ -184,7 +244,3 @@ for (year in years) {
 
 # Close the RSelenium client and server
 remDr$close()
-rD$server$stop()
-
-# Optional: Remove the temporary geckodriver and other temporary files created by RSelenium
-# This step may vary depending on your RSelenium setup

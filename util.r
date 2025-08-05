@@ -1,22 +1,24 @@
 library(tidyverse)
-library(xml2)
-library(httr)
-library(jsonlite)
+library(colorDF)
+library(extrafont)
+library(ggplot2)
+library(ggthemes)
+library(kableExtra)
+library(formattable)
 
-# Options -----------------------------------------------
 options(scipen=999,
-    vsc.dev.args = list(width = 1080, height = 1080),
-    max.print = 15, 
-    width = 180, 
+    vsc.dev.args = list(width = 1920, height = 1080),
+    max.print = 300, 
+    tibble.print_max = 300, 
+    tibble.print_min = 20, 
+    width = 220, 
     digits = 2, 
     knitr.kable.NA = "",
     colorDF_theme = "dark")
 
-# Coisas Microsoft Graph  -------------------------------------
+pt_BR_locale_para_readr <- locale(date_names = "pt", decimal_mark = ",", grouping_mark = ".", encoding = "UTF-8")
 
-base_url <- 'https://graph.microsoft.com/'
-
-# Utilidades de processamento de texto
+pasta_base_dados <- "/mnt/c/Users/fabia/Repos/dissertacao-flora/Downloads"
 
 letras <- "[a-záàâãçéêíóôõú]"
 letras_especiais <- str_replace(letras, fixed("[a-z"), "[")
@@ -31,55 +33,44 @@ LETRAS_ <- str_to_upper(letras_)
 letRAS <- str_replace(str_glue("{letras}{LETRAS}"), fixed("]["), "")
 letRAS_e_numeros <- str_replace(letRAS, fixed("]"), "0-9]")
 letRAS_ <- str_replace(letRAS, fixed("]"), " ]")
+letRAS_parenteses <- str_replace(letRAS, fixed("]"), " \\(\\)]")
 nao_letRAS <- str_replace(letRAS, fixed("["), "[^")
 nao_letRAS_ <- str_replace(letRAS_, fixed("["), "[^")
+
+loadfonts(device = "all", quiet = TRUE)
 
 retira_caracteres_especiais <- function(texto){
     texto |>
     iconv(to='ASCII//TRANSLIT')
 }
 
-canoniza_texto <- function(texto){
-    texto |>
-    retira_caracteres_especiais() |>
-    str_to_lower() |>
-    str_replace_all("[^a-z]", " ") |>
-    str_trim() |>
-    str_replace_all("( e)? [a-z]{1,3} ", " ")  |>
-    str_replace_all(" {2,}", " ") 
-}
+converte_numero <- function(texto_numero)
+    parse_number(texto_numero, locale = pt_BR_locale_para_readr) 
 
-quebra_linha_meio <- function(coluna_origem){
-    regex_para_quebra <- "(?<=.{#in,#out}?) (?!([aàeo] |ao |d[eao]s? ))"
 
-    cria_regex <- function(str_regex, inicio, fim){
-        regex_para_quebra |>
-        str_replace("#in", as.character(inicio)) |>
-        str_replace("#out", as.character(fim)) 
+funcao_log <- function(prefixo){
+    arquivo_log <- now() |> as.character() |> str_replace_all("(:|\\.)", "-")
+    arquivo_log <- str_glue("./logs/{prefixo}_{arquivo_log}.txt")
+    function(mensagem){
+        data_hora <- now() |> as.character()
+        print(str_glue("{data_hora}; {mensagem}"))
+        write_lines(str_glue("{data_hora}; {mensagem}"), arquivo_log, append = TRUE)
     }
-    
-    posicao_metade = ceiling(mean(str_length(coluna_origem))  * .5)
-    posicao_fim = ceiling(posicao_metade * 1.2)
-    regex = cria_regex(regex_para_quebra, posicao_metade, posicao_fim)
-    str_replace(coluna_origem, regex(regex, ignore_case = TRUE), "\n")
 }
 
-quebra_linha_espacos <- function(coluna_origem){
-    regex_para_quebra <- regex(" (?!([aàeo] |ao |d[eao]s? ))", ignore_case = TRUE)
-    str_replace_all(coluna_origem, regex_para_quebra, "\n")
+formata_tabela <- function(df, notas_rodape, digitos = 0, numeros = c()){
+    df |>
+    # gt::gt()
+    kbl(
+        digits = digitos, 
+        format.args = list(big.mark = ".", decimal.mark = ",", scientific = FALSE)) |>
+    kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) |>
+    kableExtra::footnote(
+        general_title = "",
+        general = notas_rodape, 
+        number = numeros, 
+        footnote_as_chunk = T)
 }
-
-duas_primeiras_palavras <- function(coluna){
-    regex_para_quebra <- regex(" ([aàeo] |ao |d[eao]s? )", ignore_case = TRUE)
-    regex_extracao <- regex("(.*?\\n.*?)[ \\n]", ignore_case = TRUE)
-    coluna |>
-    str_replace_all(regex_para_quebra, "\n") |>
-    str_extract(regex_extracao, 1)
-}
-
-# Utilidades de gráficos ----------------------------------
-
-loadfonts(device = "all", quiet = TRUE)
 
 meu_tema <- theme(
     text = element_text(family = "Noto Sans", color = "#002042"),
@@ -100,10 +91,4 @@ meu_tema <- theme(
     axis.ticks.y = element_line(colour="grey", linewidth = 0.2, linetype = "solid"),
     axis.ticks.x = element_blank()
 ) 
-
-# Utilidades para leitura de arquivos ----------------------------------
-pt_BR_locale_para_readr <- locale(date_names = "pt", decimal_mark = ",", grouping_mark = ".", encoding = "UTF-8")
-
-converte_numero <- function(texto_numero)
-    parse_number(texto_numero, locale = pt_BR_locale_para_readr) 
 

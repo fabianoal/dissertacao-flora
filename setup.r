@@ -1,0 +1,9 @@
+install.packages(
+    c(
+        "tidyverse",
+        "httr2",
+        "dotenv",
+        "duckdb",
+        "languageserver"
+    )
+)

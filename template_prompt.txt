@@ -1,0 +1,12 @@
+Classifique as recomendações abaixo conforme as categorias Estruturante ou Conjuntural. Siga os critérios:
+
+1. Estruturante: Recomendações com impacto sistêmico e perene (ex.: criação de políticas, reformulação de processos, implementação de controles).
+2. Conjuntural: Ações pontuais ou ajustes contextuais (ex.: correção de repasses, revisão de um projeto).
+3. Se houver elementos de ambas, priorize Estruturante.
+
+Resposta obrigatória em JSON, usando o ID de cada recomendação como chave. Formato:
+{"ID_1": {"classificacao": "Estruturante", "justificativa": "..."}, "ID_2": {...}}
+
+Recomendações:
+
+<recomendacoes>

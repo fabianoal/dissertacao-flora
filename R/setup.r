@@ -4,6 +4,9 @@ install.packages(
         "httr2",
         "dotenv",
         "duckdb",
-        "languageserver"
+        "languageserver",
+        "RSelenium",
+        "wdman",
+        "readxl"
     )
 )

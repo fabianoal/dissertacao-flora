@@ -8,5 +8,6 @@ install.packages(
         "RSelenium",
         "wdman",
         "readxl"
-    )
+    ),
+    quiet = TRUE
 )

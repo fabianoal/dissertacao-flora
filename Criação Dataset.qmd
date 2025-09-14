@@ -1,0 +1,842 @@
+
+```{r}
+#| label: setup
+#| include: false
+#| echo: false
+
+pacotes_instalados <- installed.packages()[, 1]
+
+pacotes_necessarios <- c("tidyverse", "httr2", "dotenv", "duckdb",
+        "readxl", "doParallel", "gt", "gtsummary", "pdftools", "tidytext",
+        "colorDF", "extrafont")
+
+pacotes_para_instalar <- setdiff(pacotes_necessarios, pacotes_instalados)
+
+install.packages(pacotes_para_instalar, quiet = TRUE)
+
+library(tidyverse)
+
+dotenv::load_dot_env()
+
+options(scipen = 999,
+    width = 220, 
+    digits = 2, 
+    colorDF_theme = "dark")
+```
+
+# Introdução
+
+O presente documento registra os passos tomados para obter os dados referentes as auditorias realizadas pelo Denasus e classificá-las.
+
+# Obtenção dos Relatórios
+
+Inicialmente, foi realizada a consulta dos relatórios publicados no site [https://consultaauditoria.saude.gov.br/visao/pages/principal.html] no período entre 01/01/2023 e 31/07/2025, selecionando o órgão **MS/SGEP/Departamento Nacional de Auditoria do Sus** e o tipo de atividade **Auditoria**. Os dados dessa consulta foram salvos em uma planilha cuja amostra dos dados pode ser conferida abaixo.
+
+```{r}
+#| label: carrega_dados_basicos
+#| echo: false
+#| eval: true
+
+auditorias <- readxl::read_excel("lista de relatórios.xlsx")
+lista_arquivos <- list.files("./Downloads", pattern = "*.pdf", full.names = TRUE)
+
+qtd_relatorios <- length(lista_arquivos)
+
+# dataset gerado em "extracao_textos"
+textos_relatorios <- read_rds("./Dados Gerados/textos_relatorios.rds")
+
+qtd_paginas <- textos_relatorios |>
+    ungroup() |>
+    select(nome_arquivo, `Qtd Páginas`) |>
+    distinct() |>
+    summarise(`Total de Páginas` = sum(`Qtd Páginas`)) |>
+    chuck("Total de Páginas") |>
+    pluck(1)
+
+# dataset gerado em "extracao_dados_estruturados"
+dados_auditorias <- read_rds("./Dados Gerados/dados_auditorias.rds")
+```
+
+Dos dados acima, podemos ver que as as auditorias são identificadas pelo número da atividade. Dessa forma, usando essa informação, usamos o script abaixo coma extensão UI.Vision para realizar o download dos relatórios.
+
+```{json}
+{
+  "Name": "download_relatorios",
+  "CreationDate": "2025-9-3",
+  "Commands": [
+    {
+      "Command": "store",
+      "Target": "19759|19760|19761|19762|19763|19764|19765|19766|19767|19768|19769|19770|19771|19772|19773|19774|19775|19776|19777|19778|19779|19780|19781|19782|19783|19784|19785|19786|19787|19788|19790|19791|19792|19793|19794|19795|19796|19797|19798|19799|19800|19801|19802|19803|19804|19805|19806|19807|19808|19809|19810|19811|19812|19813|19814|19815|19816|19817|19818|19819|19820|19821|19822|19823|19824|19825|19826|19827|19828|19829|19831|19832|19833|19834|19835|19836|19837|19839|19840|19841|19842|19843|19844|19845|19847|19848|19849|19850|19851|19852|19853|19854|19855|19857|19858|19859|19860|19861|19862|19863|19864|19867|19869|19871|19872|19875|19876|19877|19879|19882|19883|19885|19886|19887|19889|19890|19891|19892|19893|19899",
+      "Value": "lista_concatenada",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return ${lista_concatenada}.split('|')",
+      "Value": "itens",
+      "Description": ""
+    },
+    {
+      "Command": "forEach",
+      "Target": "itens",
+      "Value": "item",
+      "Description": ""
+    },
+    {
+      "Command": "waitForElementPresent",
+      "Target": "css=input[name=\"campoNumero\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "css=input[name=\"campoNumero\"]",
+      "Value": "${item}",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "css=input[type=\"submit\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "waitForElementPresent",
+      "Target": "xpath=//td/span[contains(text(),\"${item}\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "xpath=//a[contains(text(), \"Relatório\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "1700",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "waitForElementPresent // xpath=//td/a[contains(@href, \"linkDownload\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeXpathCount",
+      "Target": "xpath=//td/a[contains(@href, \"linkDownload\")]",
+      "Value": "str_qtd_relatorios",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return parseInt(${str_qtd_relatorios})",
+      "Value": "qtd_relatorios",
+      "Description": ""
+    },
+    {
+      "Command": "times",
+      "Target": "${qtd_relatorios}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "onDownload",
+      "Target": "${item}_${!times}.pdf",
+      "Value": "true",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=(//td/a[contains(@href, \"linkDownload\")])[${!times}]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "xpath=//input[@name=\"voltar\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementNotPresent",
+      "Target": "xpath=//span[contains(text(), \"Erro inesperado\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${!statusOK} == false",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "xpath=//a[contains(text(), \"Inicial\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}
+```
+
+O processo gerou `{r} lista_arquivos |> length()` arquivos. Ressalta-se que há auditorias que tem mais de um relatório registrado, ponto esse que será melhor explorado mais a frente.
+
+# Extração de Texto
+
+Com os arquivos baixados, usamos o pacote pdftools para extrair o texto desses arquivos e consolidamos todos esses dados em uma tabela, cuja amostra pode ser conferida abaixo.
+
+```{r}
+#| label: extracao_textos
+#| echo: false
+#| eval: false
+
+converte_pdf_dataframe <- function(nome_do_arquivo) {
+    # nome_do_arquivo <- str_glue("{pasta_base_dados}/Relatório Consolidado(7).pdf")
+    print(str_glue("Convertendo arquivo {nome_do_arquivo}"))
+
+    texto_pdf <- pdftools::pdf_text(nome_do_arquivo)
+
+    # unlist(str_split(texto_pdf[[2]], "\\n"))
+    total_paginas <- length(texto_pdf)
+
+    tibble(
+        nome_arquivo = basename(nome_do_arquivo),
+        numero_pagina_fisica = 1:total_paginas,
+        pagina_original = texto_pdf
+    ) |>
+    mutate(linhas = map(pagina_original, \(pagina) unlist(str_split(pagina, "\\n")))) |>
+    unnest_longer(linhas) |>
+    mutate(linha = str_trim(linhas), .keep = "unused") |>
+    select(-pagina_original) |>
+    mutate(numero_linha = row_number(), .by = "numero_pagina_fisica") |>
+    mutate(numero_linha_geral = row_number()) |>
+    mutate(`Qtd Páginas` = total_paginas) |>
+    filter(linha != "" & numero_pagina_fisica != 2) |> # sumário
+    mutate(linha_final_pagina = max(numero_linha), .by = numero_pagina_fisica)
+}
+
+lista_arquivos |>
+map(converte_pdf_dataframe) |>
+bind_rows() |>
+write_rds("./Dados Gerados/textos_relatorios.rds")
+```
+
+
+```{r}
+#| label: amostra_textos_relatorios
+#| eval: true
+#| echo: false
+
+textos_relatorios |> 
+filter(nome_arquivo == max(nome_arquivo)) |>
+head(10)
+```
+
+# Limpeza
+
+Abaixo, temos o texto extraído da 3ª página do arquivo `19796_1.pdf`. 
+
+```{r}
+#| label: amostra_textos_relatorios
+#| eval: true
+#| echo: false
+
+textos_relatorios |> 
+#filter(numero_pagina_fisica == max(numero_pagina_fisica))
+filter(nome_arquivo == "19796_1.pdf" & numero_pagina_fisica == 4) |>
+select(linha) |>
+print(n = 100)
+```
+
+
+Conforme vemos acima, é possível detectar um texto que se parece com um cabeçalho até a linha 3 e, depois da linha 39, certamente temos um rodapé. No cabeçalho, parece se tratar de um texto fixo, e no rodapé, o que vai variar são os números das páginas e a data de geração do relatório. Assim, para validar de que esse é o caso, podemos retirar os números das linhas e verificar se elas se repetem em grande parte das páginas de todos os documentos. Se for esse o caso, podemos eliminá-las. 
+
+Para melhor assegurar que estamos realmente detectando o cabeçalho e rodapé, vamos filtrar somente as quatro primeiras e quatro últimas linhas. Além disso, vamos calcular os máximos e mínimos do número da linha onde a ocorrência foi encontrada (no caso do rodapé, vamos essas métricas serão calculadas com base na distância para a última linha, já que o número total de linhas das páginas varia muito).
+
+```{r}
+#| label: identificacao_cabecalhos_rodapes
+#| eval: true
+#| echo: false
+textos_relatorios <- textos_relatorios |>
+    mutate(
+        linha_tratada = linha |>
+                        str_replace_all(" {2,}", " ") |>
+                        str_trim(),
+        linha_sem_num = linha_tratada |>
+                        str_replace_all("\\d", "") |>
+                        str_trim())
+
+
+textos_relatorios |>
+filter(
+    numero_linha <= 3 | numero_linha >= (max(numero_linha) - 3),
+    .by = c(nome_arquivo, numero_pagina_fisica)
+) |>
+mutate(
+    linha_referencia = if_else(
+                    numero_linha <= 3, 
+                    numero_linha, 
+                    linha_final_pagina - numero_linha),
+    secao = if_else(numero_linha <=3, "cabeçalho", "rodapé")) |>
+summarise(
+    ocorrencias = n(), 
+    min_linha_relativa = min(linha_referencia),
+    max_linha_relativa = max(linha_referencia),
+    .by = c(linha_sem_num, secao)) |>
+arrange(desc(ocorrencias)) 
+```
+
+A tabela acima confirma a hipótese. Assim, para cada página, podemos eliminar as que precedem a linha "Relatório" caso ela ocorra até a linha 3. No caso do rodapé, podemos usar como primeiro critério a linha "Gerado em..." ou a linha "Auditoria nº" caso ela ocorra na posição relativa 2 ou 1.
+
+```{r}
+#| label: eliminacao_cabecalhos_rodapes
+#| eval: true
+#| echo: false
+
+textos_relatorios <- textos_relatorios |>
+    mutate(
+        cabecalho = na_if(linha_sem_num == "Relatório" & numero_linha <= 3, FALSE),
+        rodape = 
+            linha_sem_num == "Gerado em: // - :: Página  de  Fonte: Sisaud/SUS" |
+            (
+                linha_sem_num == "Auditoria nº" & 
+                (linha_final_pagina - numero_linha) <= 2
+            ) |>
+            na_if(FALSE),
+    ) |>
+    group_by(nome_arquivo, numero_pagina_fisica) |>
+    fill(rodape, .direction = "down") |>
+    fill(cabecalho, .direction = "up") |>
+    ungroup()
+    
+
+# cabecalhos_rodapes <- textos_relatorios |>
+#     filter(cabecalho | rodape)
+
+# cabecalhos_rodapes |>
+# filter(nome_arquivo == "19796_1.pdf" & numero_pagina_fisica == 3)
+
+textos_relatorios <- textos_relatorios |>
+    filter(is.na(cabecalho) & is.na(rodape)) |>
+    select(-cabecalho, -rodape)
+
+textos_relatorios |> 
+#filter(numero_pagina_fisica == max(numero_pagina_fisica))
+filter(nome_arquivo == "19796_1.pdf" & numero_pagina_fisica == 3) |>
+select(linha) |>
+print(n = 100)
+``` 
+
+Abaixo realizamos uma limpeza adicional removendo linhas vazias e linhas que não contém nenhum caractere ou número.
+
+```{r}
+#| label: eliminacao_linhas_sem_conteudo
+#| eval: true
+#| echo: false
+
+textos_relatorios <- textos_relatorios |>
+    filter(str_detect(linha, "[a-zA-Z0-9]"))
+``` 
+
+# Tabulação de Dados
+
+## Rótulos de Campos
+
+Os relatórios de auditoria são gerados de por um sistema, de forma que a formatação dos dados segue um padrão. Dessa forma, vamos executar alguns passos para descobrir as possibilidades de obtenção de dados estruturados. 
+
+Conforme já visto nas amostras acima, identificamos que alguns campos seguem o padrão `<Rótulo>: <conteúdo>`. Se selecionarmos as linhas que tem o caractere `:` em duas partes, a primeira parte conterá os rótulos. Tal procedimento irá gerar vários falsos positivos, pois várias linhas podem possuir o caracter `:`. Entretanto, como temos mais de 300 arquivos, podemos desconsiderar os rótulos que tiverem menos ocorrências. Isso nos permitirá eliminar praticamente todos os falso positivos. 
+
+
+```{r}
+#| label: deteccao_rotulos
+#| echo: true
+#| eval: false
+
+letras <- "[a-záàâãçéêíóôõú]"
+LETRAS <- str_to_upper(letras)
+letRAS <- str_replace(str_glue("{letras}{LETRAS}"), fixed("]["), "")
+letras_ <- str_replace(letras, fixed("]"), " ]")
+LETRAS_ <- str_to_upper(letras_)
+
+rotulos_candidatos <- textos_relatorios |>
+    filter(str_detect(linha_tratada, fixed(":"))) |>
+    separate_wider_delim(
+        linha_tratada, 
+        delim = ":",
+        names = c("Rótulo", "Conteúdo"), 
+        too_few = "align_end", 
+        too_many = "merge") |>
+    filter(!is.na(`Rótulo`)) |>
+    mutate(across(c("Rótulo", "Conteúdo"), str_trim)) |>
+    summarise(
+        `Ocorrências` = n(),
+        .by = `Rótulo`
+    )
+```
+
+Para diferenciar o que é rótulo e o que é falso positivo, ordenamos os rótulos candidatos encontrados por número de ocorrências e buscamos os rótulos que tem um número de ocorrências pelo menos próximo do número de relatórios. 
+
+Como podemos ver abaixo, isso aconteceu com o rótulo da posição 33 ("Fonte", com 390 ocorrências). 
+
+```{r}
+#| label: amostra_textos_relatorios
+#| eval: true
+#| tbl-cap: "Amostra de rótulos com maior número de ocorrências"
+#| echo: false
+
+
+rotulos <- rotulos_candidatos |>
+    arrange(desc(`Ocorrências`)) |>
+    mutate(`Posição` = row_number())
+    
+rotulos |>
+filter(between(`Posição`, 30, 45)) |>
+select(`Posição`, `Rótulo`, `Ocorrências`)
+```
+
+Analisando o entorno desse rótulo vemos que até a posição 46 temos bons candidatos. Assim sendo, vamos trabalhar com os rótulos até essa posição, retirando alguns falsos positivos tais como "http", "https" e e "28/9/2017 (Origem".
+
+```{r}
+#| label: listagem_rotulos
+#| eval: true
+#| echo: false
+
+rotulos <- rotulos |>
+    filter(`Posição` <= 46) |>
+    arrange(`Rótulo`) |>
+    filter(!str_detect(`Rótulo`, "http") & !str_starts(`Rótulo`, "[0-9]")) |>
+    select(`Posição`, `Rótulo`, `Ocorrências`)
+
+rotulos$`Rótulo`
+```
+
+## Marcadores
+
+Outra coisa que verificamos é que alguns identificadores de campos não seguem tal padrão, tal como o próprio campo com o número da auditoria. Entende-se que isso pode ocorrer com outros campos. Assim, podemos gerar uma versão da linha eliminando todos os números e contar as ocorrências, linhas que se repetirem em quantidades similares ou maiores que o número de documentos, provavelmente se tratam de campos ou até mesmo de marcadores, como vimos acima na linha "I - DADOS BÁSICOS" que claramente delimita uma seção do relatório.
+
+```{r}
+#| label: deteccao_marcadores
+#| echo: true
+#| eval: false
+
+letras <- "[a-záàâãçéêíóôõú]"
+LETRAS <- str_to_upper(letras)
+letRAS <- str_replace(str_glue("{letras}{LETRAS}"), fixed("]["), "")
+letras_ <- str_replace(letras, fixed("]"), " ]")
+LETRAS_ <- str_to_upper(letras_)
+
+marcadores_candidatos <- textos_relatorios |>
+    filter(!str_detect(linha_tratada, fixed(":"))) |>
+    filter(str_detect(linha_sem_num, sprintf("%s{3,}", letRAS))) |>
+    summarise(
+        `Ocorrências` = n(),
+        .by = linha_sem_num
+    )
+
+```
+
+
+Analisando os marcadores encontrados usando técnica similar à usada na detecção de rótulos, vemos que o ponto de corte está no marcador da posição 20 ("V - CONCLUSÃO", com 335 ocorrências).
+
+Vejamos abaixo uma amostra do entorno desse marcador
+
+```{r}
+#| label: amostra_textos_marcadores
+#| eval: true
+#| tbl-cap: "Amostra de marcadores"
+#| echo: false
+
+marcadores <- marcadores_candidatos |>
+    arrange(desc(`Ocorrências`)) |>
+    mutate(`Posição` = row_number()) |>
+    select(`Posição`, linha_sem_num, `Ocorrências`) |>
+    rename(Marcador = linha_sem_num) 
+
+marcadores |>
+filter(between(`Posição`, 17, 22))
+```
+
+Retirando alguns outros claros falso-positivos, ficamos com a seguinte lista de marcadores:
+
+```{r}
+#| label: lista_marcadores
+#| eval: true
+#| echo: false
+
+marcadores <- marcadores |>
+    filter(`Posição` <= 20) |>
+    filter(
+        !str_starts(Marcador, "[a-z]") &
+        !str_starts(Marcador, "Inciso") &
+        !str_starts(Marcador, "MS/SGEP") &
+        !str_starts(Marcador, "S/ M- SESI") &
+        Marcador != "Relatório" &
+        !str_starts(Marcador, fixed("Vendas"))) 
+
+marcadores$Marcador
+```
+
+## Seções
+
+Embora os marcadores acima já tenham identificado a maior parte das seções, há caso em que, pelo fato de o relatório não incluir uma ou outra seção, ela pode aparecer com uma numeração diferente, por exemplo, normalmente, a seção de constatações é a IV mas, há casos, de ela aprecer com outra numeração, conforme podemos ver na tabela abaixo.
+
+```{r}
+#| label: amostra_diferenca_numeracao_secoes
+#| eval: true
+#| tbl-cap: "Amostra de seções com diferentes numerações"
+#| echo: false
+
+textos_relatorios |>
+filter(str_ends(linha_tratada, "CONSTATAÇÕES")) |>
+ungroup() |>
+summarise(
+    `Ocorrências` = n(),
+    .by = linha_tratada
+)
+```
+
+Veja que em um relatório, tal seção apareceu com a numeração "II". Assim, usar o critério numérico de ocorrências não será suficiente para delimitarmos as possibilidades de seções. Entretanto, se retirarmos a numeração, o número de ocorrências do texto que vem em caixa alta é suficiente para descobrirmos as possibilidades de seções, conforme vemos na tabela abaixo.
+
+
+```{r}
+#| label: possibilidades_secoes
+#| eval: true
+#| tbl-cap: "Amostra de seções com diferentes numerações"
+#| echo: false
+
+regex_secoes <- regex(str_glue("^[IVX]{{1,4}} \\- {LETRAS_}{{5,50}}")) 
+
+secoes_possiveis <- textos_relatorios |>
+    ungroup() |>
+    filter(str_detect(linha_tratada, regex_secoes)) |>
+    separate_wider_delim(
+        linha_tratada, 
+        delim = "-",
+        names = c("Numeração", "Identificação"),
+        too_many = "merge",
+        too_few = "error",
+        cols_remove = FALSE) |>
+    mutate(across(c("Numeração", "Identificação"), str_trim))
+    
+secoes_candidatas <- secoes_possiveis |>
+    summarise(
+        `Ocorrências` = n(),
+        `Numerações Possíveis` = str_flatten(unique(`Numeração`), collapse=", "),
+        .by = `Identificação`
+    ) |>
+    arrange(desc(`Ocorrências`))
+    
+secoes_candidatas |> print(n = 30)
+```
+
+Conforme vemos acima, a partir da identificação "DA CONCLUSÃO", com 9 ocorrências, desconsiderar. Fazendo assim, ficamos com uma lista de 18 seções possíveis, mostrada abaixo.
+
+```{r}
+#| label: secoes
+#| eval: true
+#| echo: true
+
+secoes <- secoes_possiveis |>
+    semi_join(
+        secoes_candidatas |>
+        filter(`Ocorrências` > 150),
+        by = "Identificação"
+    ) |>
+    select(linha_tratada) |>
+    distinct() |>
+    mutate(Seção = linha_tratada)
+secoes$`Seção`
+```
+
+
+## Estruturação dos Dados
+
+De posse dos rótulos e marcadores, basta associá-los às linhas dos textos dos relatórios de forma que, quando houver correspondência, teremos uma linha que se trata de um rótulo ou um marcador. 
+
+Em nossa exploração, foi descoberto que mesmo marcadores de seção podem estar duplicados no decorrer do documento. Dessa forma, é necessário diferenciar as ocorrências das seções para melhorar os resultados.
+
+Por fim, alteramos o Marcador para `NA` caso ele seja igual à `Seção`.
+
+```{r}
+#| label: amostra_textos_rotulados
+#| eval: true
+#| tbl-cap: "Amostra de linhas sem números com maior número de ocorrências"
+#| echo: false
+
+textos_rotulados <- textos_relatorios |>
+    separate_wider_delim(
+        linha_tratada, 
+        delim = ":",
+        names = c("chave_rotulo", "valor_rotulo"), 
+        too_few = "align_end", 
+        too_many = "merge",
+        cols_remove = FALSE) |>
+    mutate(across(c("chave_rotulo", "valor_rotulo"), str_trim)) |>
+    left_join(
+        marcadores |> select(Marcador) |> mutate(linha_sem_num = Marcador),
+        by = "linha_sem_num"
+    ) |>
+    left_join(
+        rotulos |> select(`Rótulo`) |> mutate(chave_rotulo = `Rótulo`),
+        by = "chave_rotulo"
+    ) |>
+    left_join(
+        secoes,
+        by = "linha_tratada"
+    ) |>
+    mutate(`Ocorrência Seção` = if_else(is.na(`Seção`), 0 , 1)) |>
+    group_by(nome_arquivo) |>
+    fill(`Seção`) |>
+    mutate(`Ocorrência Seção` = cumsum(`Ocorrência Seção`)) |>
+    mutate(
+        `Seção` = coalesce(`Seção`, "0 - NÃO IDENTIFICADO"),
+        Marcador = na_if(Marcador, `Seção`)) |>
+    ungroup()
+    
+
+textos_rotulados |>
+select(nome_arquivo, `Seção`, `Rótulo`, valor_rotulo, Marcador) |>
+head(10)
+```
+
+
+Conforme vemos acima, temos uma tabela onde as linhas que são rótulos ou marcações estão devidamente identificadas. Além disso, as linhas já estão devidamente ligadas às suas respectivas seções. Agora passamos para a parte de estruturar os dados com base nessas marcações. No caso dos rótulos, a princípio, já temos o valor de cada rótulo, visto que se trata da parte que vem após o caractere `:`. Entretanto, há casos em que o valor transcede o limite da linha, como é o caso valor para o rótulo "Finalidade", presente na tabela acima.
+
+Para consolidar o valor de campos como esse, precisamos concatenar o dado da linha onde achamos o rótulo com a linha posterior se, e somente se, a linha posterior não for um outro rótulo ou marcador. Na tabela atual, o Rótulo e o Marcador são mutuamente exclusivos (não há linha que tenha ambos os campos preenchidos). Assim, vamos consolidar o conteúdo desses dois campos em um campo "Identificador Informação", realizar um preenchimento desse campo nas linhas sem marcação e concatenar o conteúdo de "valor_rotulo" para cada "Identificador Informação", sempre agrupando por arquivo e por seção. Entretanto, uma consideração precisa ser feita com relação a rótulos com múltiplas ocorrências dentro de cada seção. Vejamos abaixo um exemplo de uma página onde temos uma constatação.
+
+```{r}
+#| label: exemplo_constatacao
+#| eval: true
+#| tbl-cap: "Exemplo de página contendo constatação"
+#| echo: false
+
+textos_rotulados |>
+filter(nome_arquivo == "18714_1.pdf" & numero_pagina_fisica == 11) |>
+select(Seção, Rótulo, linha_tratada) |>
+print(n = 60)
+
+```
+
+Conforme vemos acima, podemos verificar que poderemos ter várias ocorrências do rótulo "Constatação" em um dado relatório. Nesse caso, se concatenarmos os textos agrupando por Seção e Rótulo corremos o risco de mesclar diferentes constatações.
+
+Para ter uma visão mais genérica de onde tal fenômeno pode ocorrer, vejamos o resumo abaixo.
+
+```{r}
+#| label: ocorrencias_rotulos_por_secao
+#| eval: true
+#| tbl-cap: "Exemplo de página contendo constatação"
+#| echo: false
+
+rotulos_multiplas_ocorrencias <- textos_rotulados |>
+    filter(!is.na(`Rótulo`)) |>
+    summarise(
+        `Ocorrências` = n(),
+        .by = c(nome_arquivo, `Seção`, `Rótulo`)
+    ) |>
+    summarise(
+        `Mínimo` = min(`Ocorrências`),
+        `Máximo` = max(`Ocorrências`),
+        .by=c(`Seção`, `Rótulo`)
+    ) |>
+    filter(`Máximo` > 1)
+
+rotulos_multiplas_ocorrencias
+```
+
+Dessa forma, além de usar o relatório, a seção e o rótulo para agrupar os conteúdos, é necessário antes numerar as ocorrências de cada rótulo/marcador dentro de cada seção e usar também essa numeração para concatenar os valores.
+
+```{r}
+#| label: conteudo_estruturado
+#| eval: true
+#| echo: true
+
+conteudo_estruturado <- textos_rotulados |>
+    mutate(
+        `Identificador Informação` = coalesce(`Rótulo`, Marcador),
+        `Ocorrência` = if_else(!is.na(`Identificador Informação`), 1, 0)) |>
+    group_by(nome_arquivo, `Seção`, `Ocorrência Seção`) |>
+    fill(`Identificador Informação`, `Ocorrência`) |>
+    mutate(`Identificador Informação` = coalesce(`Identificador Informação`, "Não Rotulado")) |>
+    group_by(`Identificador Informação`, .add = TRUE) |>
+    mutate(`Ocorrência` = cumsum(`Ocorrência`)) |>
+    group_by(`Ocorrência`, .add = TRUE) |>
+    summarise(
+        `Conteúdo` = str_flatten(str_trim(valor_rotulo), collapse = " "),
+        `Linhas` = str_flatten(numero_linha_geral, collapse = ", "),
+        `Linha Inicial` = min(numero_linha_geral),
+        `Linha Final` = max(numero_linha_geral),
+        `Qtd Linhas` = (`Linha Final` - `Linha Inicial`) + 1,
+        `Página Inicial` = min(numero_pagina_fisica),
+        `Qtd Páginas` = max(`Qtd Páginas`),
+        .groups = "drop"
+    ) 
+```
+
+# Validação
+
+O processo realizado até o momento envolveu uma série de passos para estruturar informações constantes em centenas de relatórios. Uma checagem inicial consiste em avaliar comparar a quantidade de linhas usada em cada Rótulo nos vários relatórios. Valores fora da curva podem indicar um possíveis problemas (por exemplo, algum delimitador de seção ou rótulo não ser encontrado corretamente e uma quantidade maior de linhas serem ligadas a um determinado campo). 
+
+Para tanto, podemos avaliar os quartis das quantidades de linhas usadas em cada variável. A tabela abaixo mostra esses quartis, filtrando casos onde a mediana é pelo menos o dobro do segundo quartil.
+
+```{r}
+#| label: validacao_quartis
+#| eval: true
+#| tbl-cap: "Quartis das variáveis"
+#| echo: false
+
+metricas_avaliacao <- conteudo_estruturado |>
+    mutate(`Qtd Linhas` = (`Linha Final` - `Linha Inicial`) + 1) |>
+    summarise(
+        `Min Qtd Linhas` = min(`Qtd Linhas`),
+        `Q.25 Qtd Linhas` = quantile(`Qtd Linhas`, probs = .25, names = TRUE),
+        `Mediana` = median(`Qtd Linhas`),
+        `Q.75 Qtd Linhas` = quantile(`Qtd Linhas`, probs = .75, names = TRUE),
+        `Max Qtd Linhas` = max(`Qtd Linhas`),
+        .by = c(`Seção`, `Identificador Informação`) 
+    )
+
+metricas_avaliacao |>
+filter(Mediana > `Q.25 Qtd Linhas` * 2) |>
+arrange(desc(`Max Qtd Linhas`)) |>
+print(n = 15)
+```
+
+O quadro acima é interessante para guiar o processo de validação. Tivemos somente oito ocorrências dado o filtro proposto. 
+
+Notamos, por exemplo, que o rótulo "Justificativa" e o rótulo "Análise Justificativa" no filtro da mediana sendo o dobro do segundo quartil. Entretanto, dados os nomes desses campos, entende-se que o tamanho da análise da justificativa estará muito correlacionada com o toamanhoa da justificativa dada. Assim, tal dado parece estar totalmente dentro do que se espera.
+
+Notamos também que há uma variabilidade em textos sem identificarod (Identificador Informação = "Não Rotulado") e principalmente em seções de anexos.
+
+Se retirarmos as seções de **anexos**, **metodologia**, **proposições de devolução**, **conclusão** e dados cujo identificador de informação **não** seja *Não Rotulado*, obtemos o seguinte quadro:
+
+```{r}
+#| label: validacao_quartis_exceto_nao_identificados_e_anexos
+#| eval: true
+#| tbl-cap: "Quartis das variáveis"
+#| echo: false
+
+metricas_avaliacao |>
+filter(
+    Mediana > `Q.25 Qtd Linhas` * 2 & 
+    !str_ends(`Seção`, "ANEXOS") & 
+    !str_ends(`Seção`, "METODOLOGIA") & 
+    !str_ends(`Seção`, "DEVOLUÇÃO") & 
+    !str_ends(`Seção`, "CONCLUSÃO") & 
+    `Identificador Informação` != "Não Rotulado") |>
+arrange(desc(`Max Qtd Linhas`)) |>
+print(n = 15)
+```
+
+As justificativas e suas respectivas análises não serão necessárias para o presente estudo. Mesmo assim, analisaremos esses casos extremos para fins de validação da sistemática de extração de dados.
+
+Abaixo, temos esses dois casos.
+
+```{r}
+#| label: casos_extremos
+#| eval: true
+#| tbl-cap: "Casos extremos de quantidade de linhas"
+#| echo: false
+
+conteudo_estruturado |>
+filter(
+    `Qtd Linhas` %in% c(289, 231) & 
+    str_ends(`Seção`, "CONSTATAÇÕES")) |>
+select(nome_arquivo, `Linha Inicial`, `Linha Final`)
+```
+
+O caso ocorrido no arquivo `19484_1.pdf` entre as linhas `2569` e `2799` pode ser conferido abaixo.
+
+```{r}
+#| label: caso_1
+#| eval: true
+#| tbl-cap: "Primeiro caso"
+#| echo: false
+
+textos_rotulados |>
+filter(
+    `nome_arquivo` == "19484_1.pdf" & 
+    between(numero_linha_geral, 2569, 2799)) |>
+select(numero_linha_geral, linha_tratada) |>
+rename(`#` = numero_linha_geral) |>
+print(n = 5000)
+```
+
+Conforme se vê, trata-se realmente de uma análise de justificativa longa que foi corretamente detectada pelo processo de tratamento de dados aqui empreendido.
+
+Vejamos agora o segundo caso ocorrido no arquivo `19514_1.pdf` entre as linhas `645` e `933`.
+
+```{r}
+#| label: caso_2
+#| eval: true
+#| tbl-cap: "Segundo caso"
+#| echo: false
+
+textos_rotulados |>
+filter(
+    `nome_arquivo` == "19514_1.pdf" & 
+    between(numero_linha_geral, 645, 933)) |>
+select(numero_linha_geral, linha_tratada) |>
+rename(`#` = numero_linha_geral) |>
+print(n = 5000)
+```
+
+Conforme vemos acima, trata-se de uma longa justificativa que foi corretamente detectada pelo processo de tratamento de dados.
+
+# Melhorias
+
+Nessa parte do estudo, nos dedicaremos a realizar algumas melhorias nos dados extraídos dos relatórios.
+
+Abaixo, realizamos a detecção do número da auditoria e a vinculação estrutural de tal número a todas as informações detectadas dos relatórios. Cabe ressaltar que o número da atividade (que compõe o nome do arquivo) deveria coincidir com o número encontrado no contúdo do relatório.
+
+Entretanto, vemos que em 29 casos, essa regra não se confirmou. Em que pese esse dado não ter coincidido, optamos por usar a informação que está no conteúdo do arquivo como identificador mais confiável.
+
+Os casos em que tais informações não coincidiram estão listados na tabela abaixo.
+
+```{r}
+#| label: problemas_ids_atividades
+#| eval: true
+#| echo: false
+
+conteudo_estruturado_melhorado  <-  conteudo_estruturado |>
+    mutate(
+        `No. Auditoria` = str_extract(`Conteúdo`, "^Auditoria n. (\\d{3,10}).*$", 1), 
+        `No. Auditoria do Nome` =  str_extract(nome_arquivo, "(\\d{1,})_", 1)
+        )
+
+conteudo_estruturado_melhorado |>
+filter(`No. Auditoria` != `No. Auditoria do Nome`) |>
+select(nome_arquivo, `No. Auditoria`, `No. Auditoria do Nome`) |>
+distinct()
+```
+
+Por fim, o conjunto de dados preparado para análise pode ser criado.
+
+```{r}
+#| label: dataset_final
+#| eval: true
+#| echo: true
+
+conteudo_estruturado_melhorado |>
+write_rds("./Dados Gerados/dataset_final.rds")
+```

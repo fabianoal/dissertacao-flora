@@ -21,6 +21,11 @@ pt_BR_locale_para_readr <- locale(date_names = "pt", decimal_mark = ",", groupin
 pasta_base_dados <- "/mnt/c/Users/fabia/Repos/dissertacao-flora/Downloads"
 
 letras <- "[a-záàâãçéêíóôõú]"
+letras_ <- str_replace(letras, fixed("]"), " ]")
+LETRAS_ <- str_to_upper(letras_)
+
+
+letras <- "[a-záàâãçéêíóôõú]"
 letras_especiais <- str_replace(letras, fixed("[a-z"), "[")
 letras_ <- str_replace(letras, fixed("]"), " ]")
 nao_letras <- str_replace(letras, fixed("["), "[^")

@@ -1,0 +1,28 @@
+{
+  "id": "53cbc3d4-b4ae-400b-9bc3-2e69cf9eb60c",
+  "object": "chat.completion",
+  "created": 1758482474,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe medidas estruturais e de longo prazo, como disponibilizar veículos adequadamente equipados, estabelecer rotinas de desinfecção, implementar checklists de monitoramento, calibrar regularmente termômetros e capacitar motoristas, visando prevenir a recorrência das inconformidades na cadeia de frio, em vez de apenas corrigir as condições atuais.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1323,
+    "completion_tokens": 105,
+    "total_tokens": 1428,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 363
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

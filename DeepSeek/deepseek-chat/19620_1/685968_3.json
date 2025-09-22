@@ -1,0 +1,28 @@
+{
+  "id": "518a7ec6-3eef-4f94-aaab-831047c75851",
+  "object": "chat.completion",
+  "created": 1758478110,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de medidas administrativas para garantir a devolução de valores e, implicitamente, reforçar a conformidade com normas, visando prevenir futuras falhas na rastreabilidade de OPME, o que se alinha com soluções de longo prazo para evitar a recorrência do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1115,
+    "completion_tokens": 89,
+    "total_tokens": 1204,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 155
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

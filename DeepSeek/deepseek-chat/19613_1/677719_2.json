@@ -1,0 +1,28 @@
+{
+  "id": "905d8561-6a41-499e-90b0-c47b1ad559c6",
+  "object": "chat.completion",
+  "created": 1758477130,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a orientação de fiscais e gestores para realizar conferências sistemáticas da documentação comprobatória, conforme normas específicas, visando prevenir a recorrência de emissão antecipada de notas fiscais e pagamentos, abordando a causa subjacente de falhas no processo de controle e conformidade, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1149,
+    "completion_tokens": 103,
+    "total_tokens": 1252,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 189
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "e4786fc9-3ca3-4b0d-b6dc-b73bd6f453ae",
+  "object": "chat.completion",
+  "created": 1758473014,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de medidas corretivas para assegurar a correta identificação visual do SAMU 192, o que envolve a implementação de padrões e conformidades de longo prazo, visando prevenir a recorrência da condição observada, em vez de apenas corrigir a situação atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1201,
+    "completion_tokens": 94,
+    "total_tokens": 1295,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 241
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

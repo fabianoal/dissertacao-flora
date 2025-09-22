@@ -1,0 +1,28 @@
+{
+  "id": "6b72f72c-cd71-48cd-bcb0-4e724cf9c681",
+  "object": "chat.completion",
+  "created": 1758470618,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de realizar processos de contratação que atendam integralmente aos preceitos legais, incluindo a justificativa adequada para inexigibilidade de licitação, o que visa prevenir a recorrência de não conformidades futuras, abordando a causa raiz em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1245,
+    "completion_tokens": 94,
+    "total_tokens": 1339,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 285
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

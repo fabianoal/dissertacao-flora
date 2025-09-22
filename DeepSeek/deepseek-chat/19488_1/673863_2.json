@@ -1,0 +1,28 @@
+{
+  "id": "714138c4-4c8a-45c5-a729-91333ac0c2cc",
+  "object": "chat.completion",
+  "created": 1758473266,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações como renovação, instalação de placas, implementação de sinalização e, principalmente, o estabelecimento de um plano de manutenção regular, que visa evitar a recorrência da condição inadequada ao longo do tempo, focando em soluções de longo prazo e prevenção.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1200,
+    "completion_tokens": 90,
+    "total_tokens": 1290,
+    "prompt_tokens_details": {
+      "cached_tokens": 1152
+    },
+    "prompt_cache_hit_tokens": 1152,
+    "prompt_cache_miss_tokens": 48
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "f279ffe5-88ea-41e8-b5c8-0436121f16ff",
+  "object": "chat.completion",
+  "created": 1758487844,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação foca em ações de longo prazo, como articular com a Vigilância em Saúde e implementar estratégias da Política Nacional, visando estabelecer processos sustentáveis para a adoção de protocolos e evitar a recorrência da não conformidade, em vez de apenas corrigir a condição atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1204,
+    "completion_tokens": 88,
+    "total_tokens": 1292,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 244
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "5ced6fb3-fb22-424d-bd91-fb5700c634e8",
+  "object": "chat.completion",
+  "created": 1758482694,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a criação de um plano anual de capacitação e relatório de execução, visando estabelecer uma solução de longo prazo para prevenir a falta de treinamentos regulares, abordando a causa subjacente da deficiência em controles internos, em vez de apenas corrigir a condição atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1121,
+    "completion_tokens": 93,
+    "total_tokens": 1214,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 161
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

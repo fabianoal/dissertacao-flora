@@ -1,0 +1,28 @@
+{
+  "id": "6b9a5545-3fb3-4fcd-9336-14385181cbe7",
+  "object": "chat.completion",
+  "created": 1758477022,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração de relatórios mensais com base em informações fidedignas e a adoção de medidas preventivas ou corretivas, o que visa evitar a recorrência das impropriedades, alinhando-se com soluções de longo prazo para corrigir as causas subjacentes.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1148,
+    "completion_tokens": 89,
+    "total_tokens": 1237,
+    "prompt_tokens_details": {
+      "cached_tokens": 1088
+    },
+    "prompt_cache_hit_tokens": 1088,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

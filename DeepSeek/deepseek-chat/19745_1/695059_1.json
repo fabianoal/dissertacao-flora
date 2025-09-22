@@ -1,0 +1,28 @@
+{
+  "id": "34364401-565d-4e23-ad48-a6f968dcad58",
+  "object": "chat.completion",
+  "created": 1758481574,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a criação de normas e rotinas permanentes para verificação do funcionamento dos equipamentos, o que visa prevenir a recorrência da falta de controle, caracterizando uma solução de longo prazo e focada na causa raiz da constatação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1094,
+    "completion_tokens": 78,
+    "total_tokens": 1172,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 134
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

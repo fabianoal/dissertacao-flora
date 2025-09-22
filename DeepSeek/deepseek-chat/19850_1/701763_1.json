@@ -1,0 +1,28 @@
+{
+  "id": "40d67996-951d-41bb-a7f1-56cc215c4ede",
+  "object": "chat.completion",
+  "created": 1758487772,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração e implementação de um fluxo de distribuição de vagas por meio de protocolos, o que visa abordar a causa subjacente da irregularidade (falta de um processo estruturado) para prevenir a reocorrência do problema, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1141,
+    "completion_tokens": 95,
+    "total_tokens": 1236,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 181
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

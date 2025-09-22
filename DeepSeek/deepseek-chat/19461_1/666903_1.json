@@ -1,0 +1,28 @@
+{
+  "id": "983e51d6-61b5-4076-8655-36c5110bc7c2",
+  "object": "chat.completion",
+  "created": 1758470538,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe orientar e verificar o correto preenchimento do documento CFI, o que envolve ações educativas e de supervisão contínua para prevenir a recorrência das irregularidades, alinhando-se com soluções de longo prazo que abordam a causa raiz do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1167,
+    "completion_tokens": 87,
+    "total_tokens": 1254,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 207
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "dfd95725-833b-4901-a309-4dd1059bff2d",
+  "object": "chat.completion",
+  "created": 1758479494,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a estruturação de salas específicas, o que envolve uma solução de longo prazo para prevenir a reocorrência da condição (falta de sala adequada), alinhando-se com a definição de recomendações cause-based que visam evitar problemas futuros através de mudanças estruturais.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1056,
+    "completion_tokens": 91,
+    "total_tokens": 1147,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 96
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

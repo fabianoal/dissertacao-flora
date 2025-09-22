@@ -1,0 +1,28 @@
+{
+  "id": "cb9be559-4237-45a5-a455-edc2d18f9988",
+  "object": "chat.completion",
+  "created": 1758477902,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação visa corrigir a condição específica encontrada (ausência do contrato) ao exigir sua inserção no sistema, fornecendo uma solução temporária e direta para a inconformidade atual, sem abordar as causas subjacentes que levaram à omissão.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1045,
+    "completion_tokens": 82,
+    "total_tokens": 1127,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 85
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

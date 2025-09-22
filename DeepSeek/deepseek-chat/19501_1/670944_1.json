@@ -1,0 +1,28 @@
+{
+  "id": "5f15f4f2-20fb-40fc-9f6b-01b1024bdf10",
+  "object": "chat.completion",
+  "created": 1758473494,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação solicita a adoção de procedimentos formais e legais para prevenir futuras ocorrências de dispensação sem comprovação, focando em mudanças sistêmicas e de longo prazo, como estabelecido em decretos, em vez de apenas corrigir a condição específica observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1192,
+    "completion_tokens": 87,
+    "total_tokens": 1279,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 232
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

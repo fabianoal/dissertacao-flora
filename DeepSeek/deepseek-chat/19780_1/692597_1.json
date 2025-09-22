@@ -1,0 +1,28 @@
+{
+  "id": "4fbd2923-dd46-4e5c-ae04-c7ea8da0a70b",
+  "object": "chat.completion",
+  "created": 1758482950,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um cronograma de manutenção periódica e a realização de manutenções preventivas e corretivas, o que visa estabelecer controles internos permanentes para evitar a recorrência da falta de manutenção e documentação, abordando a causa raiz da inconformidade em vez de apenas corrigir a condição atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1191,
+    "completion_tokens": 104,
+    "total_tokens": 1295,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 231
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

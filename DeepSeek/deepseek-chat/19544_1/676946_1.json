@@ -1,0 +1,28 @@
+{
+  "id": "1c2fa3ee-2042-4bbd-a509-a7d2fe045739",
+  "object": "chat.completion",
+  "created": 1758474562,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de instrumentos orientativos e o cumprimento de diretrizes normativas para melhorar o processo de preenchimento de prontuários, visando prevenir a reocorrência da condição inadequada através de mudanças estruturais e de longo prazo no sistema de registro de informações.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1211,
+    "completion_tokens": 90,
+    "total_tokens": 1301,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 315
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

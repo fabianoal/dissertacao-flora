@@ -1,0 +1,28 @@
+{
+  "id": "624ac33a-57ad-4eb5-b73d-1c5c23d9f424",
+  "object": "chat.completion",
+  "created": 1758482930,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração de planos de contingência, o que envolve a criação de um sistema preventivo e de longo prazo para evitar que emergências futuras afetem a Cadeia de Frio, focando na causa raiz da falta de preparo para lidar com intercorrências, em vez de apenas corrigir uma condição específica atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1184,
+    "completion_tokens": 102,
+    "total_tokens": 1286,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 224
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

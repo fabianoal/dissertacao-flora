@@ -1,0 +1,28 @@
+{
+  "id": "6c01fcae-46d1-4b58-bca1-aa2d29424205",
+  "object": "chat.completion",
+  "created": 1758475682,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo de fiscalização, auditoria, validação ou alteração do cadastro no SCNES, visando prevenir futuras discrepâncias entre os registros e a realidade física, abordando a causa raiz (falhas no sistema de cadastro ou atualização) em vez de apenas corrigir a condição atual específica.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1103,
+    "completion_tokens": 103,
+    "total_tokens": 1206,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 79
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

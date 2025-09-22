@@ -1,0 +1,28 @@
+{
+  "id": "49896838-ee58-424c-b5e5-61e22e095c30",
+  "object": "chat.completion",
+  "created": 1758477738,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de a convenente apresentar justificativas e documentação comprobatória para validar a despesa, alinhando-se com normas legais e promovendo a transparência e conformidade contínua nos processos de contratação, o que visa prevenir a recorrência de situações similares no futuro, caracterizando um foco na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1128,
+    "completion_tokens": 107,
+    "total_tokens": 1235,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 168
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

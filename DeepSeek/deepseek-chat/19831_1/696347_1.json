@@ -1,0 +1,28 @@
+{
+  "id": "9641520e-0b96-4c1b-8299-c6be8ed18a34",
+  "object": "chat.completion",
+  "created": 1758485094,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações como desenvolver protocolos, estabelecer uma 'sala de situação' e realizar coleta sistemática de dados, que visam implementar mudanças estruturais e de longo prazo para prevenir a recorrência da falta de avaliação e monitoramento, focando nas causas subjacentes em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1256,
+    "completion_tokens": 96,
+    "total_tokens": 1352,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 296
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

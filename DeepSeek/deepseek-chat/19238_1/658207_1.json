@@ -1,0 +1,28 @@
+{
+  "id": "46bafed4-9547-4419-af7b-e9ba1331ea7a",
+  "object": "chat.completion",
+  "created": 1758469170,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a integralização dos recursos estaduais, o que implica uma ação estrutural e de longo prazo para garantir o financiamento adequado e contínuo da PNAISP, alinhando-se com a definição de recomendações que focam na causa para prevenir a reocorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1140,
+    "completion_tokens": 92,
+    "total_tokens": 1232,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 180
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

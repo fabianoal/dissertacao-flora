@@ -1,0 +1,28 @@
+{
+  "id": "0112ac07-9ae4-4222-886a-5241432a950f",
+  "object": "chat.completion",
+  "created": 1758489024,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a apresentação de toda informação necessária e facilitação do acesso a documentos, pessoas e instalações, o que visa implementar mudanças estruturais no processo de controle e auditoria para prevenir a reocorrência da falta de documentação, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1201,
+    "completion_tokens": 88,
+    "total_tokens": 1289,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 305
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "e7f86b9e-0b52-4d42-a70c-af0e3b858d2e",
+  "object": "chat.completion",
+  "created": 1758480434,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de instrumentos de gestão (Plano de Saúde, Programações Anuais de Saúde e Relatório Anual de Gestão) conforme a portaria, visando estabelecer um processo cíclico de planejamento e monitoramento contínuo para prevenir a ocorrência futura de lacunas no monitoramento da produção ambulatorial, abordando assim a causa subjacente da falta de referência nos instrumentos de gestão.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1331,
+    "completion_tokens": 119,
+    "total_tokens": 1450,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 435
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

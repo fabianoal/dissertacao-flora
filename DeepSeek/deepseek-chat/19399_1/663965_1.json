@@ -1,0 +1,28 @@
+{
+  "id": "58e5f225-5c65-4423-85ba-fb48d1388df5",
+  "object": "chat.completion",
+  "created": 1758470194,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação solicita a adoção de procedimentos específicos conforme decretos estabelecidos, visando prevenir futuras irregularidades e elidir danos, o que indica um foco em ações corretivas de longo prazo para evitar a recorrência do problema, alinhando-se com a definição de recomendações cause-based.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1197,
+    "completion_tokens": 92,
+    "total_tokens": 1289,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 237
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

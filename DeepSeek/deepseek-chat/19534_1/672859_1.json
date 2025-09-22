@@ -1,0 +1,28 @@
+{
+  "id": "baac2eef-d8bc-451a-b7cf-dc17fb410a0f",
+  "object": "chat.completion",
+  "created": 1758474170,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistemático de manutenção e arquivamento de documentos por um prazo prolongado (10 anos), visando prevenir futuras irregularidades similares, como dispensações em nome de pessoas falecidas, ao assegurar a disponibilidade de evidências para auditorias futuras e conformidade contínua com a legislação, caracterizando uma solução de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1181,
+    "completion_tokens": 112,
+    "total_tokens": 1293,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 221
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

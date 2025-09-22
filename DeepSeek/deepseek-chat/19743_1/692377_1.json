@@ -1,0 +1,28 @@
+{
+  "id": "960fde43-ca2f-408b-95e1-531ca18d646b",
+  "object": "chat.completion",
+  "created": 1758481514,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe o desenvolvimento e implementação de um plano de gerenciamento de resíduos, o que visa estabelecer controles e protocolos permanentes para prevenir a recorrência da ausência de tal plano, focando em soluções de longo prazo e na causa raiz da não conformidade.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1102,
+    "completion_tokens": 87,
+    "total_tokens": 1189,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 142
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

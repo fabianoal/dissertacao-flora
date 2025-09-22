@@ -1,0 +1,28 @@
+{
+  "id": "a5b77cef-7009-4ef2-bf3d-0e7392a4f81d",
+  "object": "chat.completion",
+  "created": 1758479954,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a incompletude dos relatórios, ao solicitar a inserção dos relatórios na periodicidade estipulada, sem propor ações para prevenir a recorrência do problema, como melhorias em processos ou políticas subjacentes.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1096,
+    "completion_tokens": 88,
+    "total_tokens": 1184,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 136
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

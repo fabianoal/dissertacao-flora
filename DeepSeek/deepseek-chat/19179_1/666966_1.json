@@ -1,0 +1,28 @@
+{
+  "id": "4b5af5a0-2f91-4297-b72c-752ea3dafa95",
+  "object": "chat.completion",
+  "created": 1758468810,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação exige o cumprimento de normas específicas que envolvem a implementação de estruturas físicas, dependências essenciais e equipamentos com manutenção adequada, o que requer mudanças sistêmicas e de longo prazo para prevenir a reocorrência da condição inadequada, alinhando-se com soluções que abordam a causa raiz.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1177,
+    "completion_tokens": 100,
+    "total_tokens": 1277,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 217
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

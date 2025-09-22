@@ -1,0 +1,28 @@
+{
+  "id": "732da4f2-4808-4a08-b96e-62382ebd125d",
+  "object": "chat.completion",
+  "created": 1758482538,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de cumprir uma disposição legal que estabelece a obrigação de fornecer informações e facilitar o acesso para auditorias, visando prevenir a ocorrência futura de não disponibilização de documentação, caracterizando uma solução de longo prazo para a causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1119,
+    "completion_tokens": 88,
+    "total_tokens": 1207,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 159
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

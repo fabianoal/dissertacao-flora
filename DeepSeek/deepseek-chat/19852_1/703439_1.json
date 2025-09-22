@@ -1,0 +1,28 @@
+{
+  "id": "a534ade8-64c6-46f7-bbd9-9139f7fda06b",
+  "object": "chat.completion",
+  "created": 1758487880,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação aborda a necessidade de prestação de contas, manutenção de instalações e apoio matricial, que são ações voltadas para corrigir causas subjacentes, como falhas na gestão e na estrutura organizacional, visando prevenir a reocorrência da falta de equipamentos e melhorar as condições de forma sustentável a longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1254,
+    "completion_tokens": 97,
+    "total_tokens": 1351,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 294
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

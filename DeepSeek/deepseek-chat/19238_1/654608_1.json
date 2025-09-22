@@ -1,0 +1,28 @@
+{
+  "id": "a43ed57e-5b6c-4d82-bd21-78e9f771938f",
+  "object": "chat.completion",
+  "created": 1758469194,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe adequações estruturais nos serviços de saúde prisional para garantir conformidade contínua com normas e regulamentos, visando prevenir a recorrência da precariedade observada, o que caracteriza um foco na causa subjacente e soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1078,
+    "completion_tokens": 82,
+    "total_tokens": 1160,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 118
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

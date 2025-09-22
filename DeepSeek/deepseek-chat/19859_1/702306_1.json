@@ -1,0 +1,28 @@
+{
+  "id": "a3224889-253b-4239-b3b6-abd3f586bbc5",
+  "object": "chat.completion",
+  "created": 1758488200,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a adoção de procedimentos estabelecidos em normativos legais para garantir a compatibilidade entre dados inseridos e serviços realizados, visando prevenir a reocorrência da inconformidade e promover mudanças estruturais na gestão, o que se alinha com o foco em causas subjacentes.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1129,
+    "completion_tokens": 89,
+    "total_tokens": 1218,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 169
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

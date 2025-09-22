@@ -1,0 +1,28 @@
+{
+  "id": "5de8fd60-b46a-490e-9167-19c2bab214b2",
+  "object": "chat.completion",
+  "created": 1758478306,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a criação de indicadores objetivos e mensuráveis para avaliar continuamente as capacidades das entidades proponentes, visando prevenir futuras deficiências na análise de documentos e pareceres, o que se alinha com soluções de longo prazo para evitar a recorrência do problema, caracterizando um foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1238,
+    "completion_tokens": 96,
+    "total_tokens": 1334,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 214
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

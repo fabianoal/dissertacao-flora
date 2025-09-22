@@ -1,0 +1,28 @@
+{
+  "id": "9041861c-68a5-468e-9696-b44e28bd6209",
+  "object": "chat.completion",
+  "created": 1758473078,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a devolução do valor transferido indevidamente, sem propor ações para prevenir a recorrência da discrepância entre transferências e produção informada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1195,
+    "completion_tokens": 69,
+    "total_tokens": 1264,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 235
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

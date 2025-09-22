@@ -1,0 +1,28 @@
+{
+  "id": "b2eacf0f-8554-4762-9b56-c759e7ee57cb",
+  "object": "chat.completion",
+  "created": 1758480958,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a instituição da Comissão de Acompanhamento em convênios futuros, conforme prazos contratuais, visando prevenir a recorrência da não constituição da comissão e assegurar o acompanhamento contínuo de metas, o que envolve uma solução de longo prazo para evitar que a condição observada se repita.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1145,
+    "completion_tokens": 103,
+    "total_tokens": 1248,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 185
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

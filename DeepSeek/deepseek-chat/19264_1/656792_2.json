@@ -1,0 +1,28 @@
+{
+  "id": "74f93093-3dbe-441f-abf2-2b1f9005e2a1",
+  "object": "chat.completion",
+  "created": 1758469243,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistemático e permanente para garantir a fixação de etiquetas de identificação de DMIs nos prontuários e outros documentos, alinhando-se com normas e manuais existentes, o que visa prevenir a recorrência da falta de etiquetas no futuro, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1339,
+    "completion_tokens": 103,
+    "total_tokens": 1442,
+    "prompt_tokens_details": {
+      "cached_tokens": 1152
+    },
+    "prompt_cache_hit_tokens": 1152,
+    "prompt_cache_miss_tokens": 187
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

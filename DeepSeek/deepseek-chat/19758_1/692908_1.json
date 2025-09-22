@@ -1,0 +1,28 @@
+{
+  "id": "38e5858e-adda-4ec2-bc2b-0b77dc0c945a",
+  "object": "chat.completion",
+  "created": 1758482082,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a complementação e atualização do Plano de Contingência para incluir ações específicas em diversas situações de emergência, visando prevenir futuras ocorrências similares e fortalecer os controles internos de forma duradoura, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1183,
+    "completion_tokens": 94,
+    "total_tokens": 1277,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 223
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "99c133b9-dc8e-49d1-a394-19498c916961",
+  "object": "chat.completion",
+  "created": 1758488124,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação inclui ações como estabelecer controles financeiros permanentes e confrontar a execução física com notas fiscais, que visam prevenir a reocorrência da condição observada, focando em soluções de longo prazo para melhorar processos e evitar inconformidades futuras.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1272,
+    "completion_tokens": 82,
+    "total_tokens": 1354,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 312
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "e5f1cd42-6462-4c2a-8a25-7293d9fafd27",
+  "object": "chat.completion",
+  "created": 1758474526,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistemático de cadastramento e atualização mensal ou imediata dos dados dos profissionais no SCNES, visando prevenir futuras divergências de informações, o que se alinha com soluções de longo prazo para evitar a recorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1165,
+    "completion_tokens": 89,
+    "total_tokens": 1254,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 269
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

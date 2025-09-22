@@ -1,0 +1,28 @@
+{
+  "id": "65cd8f76-db85-4127-9d11-bfeb7f594b7c",
+  "object": "chat.completion",
+  "created": 1758475326,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de estratégias contidas em documentos orientadores para alcançar a meta do indicador, o que implica implementar mudanças estruturais e de processo de longo prazo para prevenir a recorrência da não adoção de ações, focando na causa subjacente da ineficiência.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1128,
+    "completion_tokens": 88,
+    "total_tokens": 1216,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 168
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "f2aec791-b80f-431a-9b5f-d04a1d81e697",
+  "object": "chat.completion",
+  "created": 1758478934,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de aderir continuamente às regras de execução do programa, incluindo a manutenção de documentação por um período prolongado (10 anos) e a apresentação de documentos quando solicitado, o que visa prevenir a recorrência da irregularidade ao estabelecer práticas sustentáveis de conformidade, em vez de apenas corrigir a condição específica observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1231,
+    "completion_tokens": 106,
+    "total_tokens": 1337,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 271
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

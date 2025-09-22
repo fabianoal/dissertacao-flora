@@ -1,0 +1,28 @@
+{
+  "id": "56e6180f-f6d9-40fa-a5ac-8cbf93805423",
+  "object": "chat.completion",
+  "created": 1758474394,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação orienta o município a adotar ações estratégicas de longo prazo, conforme documentos orientadores, para melhorar a cobertura vacinal de forma sustentável, focando na causa subjacente da não conformidade e não apenas em corrigir a condição atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1075,
+    "completion_tokens": 81,
+    "total_tokens": 1156,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 115
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

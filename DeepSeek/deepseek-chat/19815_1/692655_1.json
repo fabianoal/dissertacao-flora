@@ -1,0 +1,28 @@
+{
+  "id": "491c93a4-223b-44ae-801e-3dfea5595bc8",
+  "object": "chat.completion",
+  "created": 1758484434,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a inclusão de condutas específicas no plano de contingência para todos os agentes e situações de transporte, visando prevenir futuras falhas na Cadeia de Frio, o que se alinha com soluções de longo prazo para evitar a recorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1089,
+    "completion_tokens": 88,
+    "total_tokens": 1177,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 129
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

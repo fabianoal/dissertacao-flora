@@ -1,0 +1,28 @@
+{
+  "id": "1513d210-9265-4687-9c64-d569ea36eb45",
+  "object": "chat.completion",
+  "created": 1758480550,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe o estabelecimento de fluxos e prazos para o envio de dados, o que visa implementar mudanças estruturais e de processo para prevenir a recorrência da não notificação, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1125,
+    "completion_tokens": 78,
+    "total_tokens": 1203,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 165
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

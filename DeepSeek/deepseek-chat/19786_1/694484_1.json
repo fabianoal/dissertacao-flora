@@ -1,0 +1,28 @@
+{
+  "id": "6cf28064-10f8-42cf-ade5-bf05340103b2",
+  "object": "chat.completion",
+  "created": 1758483190,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a inserção de critérios de monitoramento e avaliação no Plano Municipal de Saúde e a implementação de um processo de revisão, o que visa prevenir a recorrência da falta de informações sobre o PNI, abordando a causa subjacente (ausência de mecanismos de controle e atualização) e não apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1089,
+    "completion_tokens": 101,
+    "total_tokens": 1190,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 129
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

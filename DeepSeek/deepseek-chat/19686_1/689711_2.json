@@ -1,0 +1,28 @@
+{
+  "id": "424fca09-fff7-4e1f-bf2f-7ec13d3d4fda",
+  "object": "chat.completion",
+  "created": 1758480270,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca em corrigir a condição específica identificada (falta de prestação de contas) ao solicitar providências para prosseguimento dos atos de cobrança, sem propor ações para prevenir a recorrência do problema, como melhorias em processos ou políticas de gestão.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1073,
+    "completion_tokens": 85,
+    "total_tokens": 1158,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 113
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "4f0c13a1-544d-4dcf-ba63-291fc8d91d47",
+  "object": "chat.completion",
+  "created": 1758489220,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de procedimentos para acompanhar a recomposição de recursos ao Fundo Nacional de Saúde, visando evitar a repetição de pagamentos indevidos e alinhar-se com princípios administrativos, o que sugere uma solução de longo prazo para prevenir a ocorrência futura de inconformidades.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1203,
+    "completion_tokens": 94,
+    "total_tokens": 1297,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 179
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

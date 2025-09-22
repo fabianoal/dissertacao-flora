@@ -1,0 +1,28 @@
+{
+  "id": "4622c87f-6f4d-46de-9b36-8c35296b2f38",
+  "object": "chat.completion",
+  "created": 1758483682,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a instituição de procedimentos operacionais padrões e o efetivo monitoramento contínuo para garantir a alimentação correta e consistente dos sistemas de informação, abordando a causa raiz da incompatibilidade de dados ao estabelecer processos de longo prazo e prevenção de recorrências, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1447,
+    "completion_tokens": 99,
+    "total_tokens": 1546,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 487
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

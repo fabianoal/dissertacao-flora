@@ -1,0 +1,28 @@
+{
+  "id": "346e2ba8-834d-42ad-87b7-985c280b3aa0",
+  "object": "chat.completion",
+  "created": 1758478178,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo de monitoramento periódico dos cadastros no CNES para compatibilizar serviços e corpo técnico, visando prevenir futuras incompatibilidades e não apenas corrigir a condição atual, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1161,
+    "completion_tokens": 86,
+    "total_tokens": 1247,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 265
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

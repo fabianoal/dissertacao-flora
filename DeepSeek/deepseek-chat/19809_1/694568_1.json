@@ -1,0 +1,28 @@
+{
+  "id": "01f8e07f-88c4-470a-b6e4-155513544858",
+  "object": "chat.completion",
+  "created": 1758484050,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração e implementação de protocolos, capacitação de profissionais e estruturação da RAPS, que são ações preventivas e de longo prazo destinadas a evitar a recorrência da falta de acolhimento em urgências de saúde mental, focando nas causas subjacentes em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1250,
+    "completion_tokens": 96,
+    "total_tokens": 1346,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 290
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

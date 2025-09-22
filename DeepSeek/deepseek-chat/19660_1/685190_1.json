@@ -1,0 +1,28 @@
+{
+  "id": "703747d4-e6f2-49f5-b858-3d6128a4637e",
+  "object": "chat.completion",
+  "created": 1758479382,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a criação de fluxos e processos para melhorar a identificação e acompanhamento nominal de pessoas com hipertensão, focando em ações de longo prazo que visam prevenir a recorrência da condição observada, em vez de apenas corrigir a situação atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1113,
+    "completion_tokens": 86,
+    "total_tokens": 1199,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 153
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

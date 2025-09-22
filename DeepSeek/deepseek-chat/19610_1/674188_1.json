@@ -1,0 +1,28 @@
+{
+  "id": "c062bcfa-f133-41f3-9e0c-f448666a918d",
+  "object": "chat.completion",
+  "created": 1758476458,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação solicita uma manifestação da convenente sobre a contratação, o que visa investigar e abordar as causas subjacentes das impropriedades no processo de cotação, como a não atuação da empresa no objeto e sua abertura recente, potencialmente prevenindo futuras ocorrências similares e promovendo mudanças estruturais.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1081,
+    "completion_tokens": 97,
+    "total_tokens": 1178,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 121
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

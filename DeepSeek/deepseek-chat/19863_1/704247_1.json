@@ -1,0 +1,28 @@
+{
+  "id": "b60f253c-a87e-4776-8036-ecc9e292d75d",
+  "object": "chat.completion",
+  "created": 1758488324,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação exige a elaboração de um Plano de Segurança do Paciente, o que constitui uma ação estrutural e de longo prazo para prevenir a recorrência da não conformidade, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1081,
+    "completion_tokens": 80,
+    "total_tokens": 1161,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 121
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

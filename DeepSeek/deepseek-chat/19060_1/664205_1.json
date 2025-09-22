@@ -1,0 +1,28 @@
+{
+  "id": "b4cdd3f7-4f66-42e3-ab4f-d10e9f04de44",
+  "object": "chat.completion",
+  "created": 1758468734,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a inclusão de uma cláusula específica em futuros convênios para prevenir a ocorrência de despesas inadequadas, abordando a causa raiz (falta de proibição explícita) e não apenas corrigindo a condição atual, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1282,
+    "completion_tokens": 94,
+    "total_tokens": 1376,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 322
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

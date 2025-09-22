@@ -1,0 +1,28 @@
+{
+  "id": "0cb172c0-966c-4287-aac9-91d7515ebce1",
+  "object": "chat.completion",
+  "created": 1758483250,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação visa implementar mudanças estruturais e de longo prazo, como treinamento da equipe, criação de um documento padrão de planejamento e orientação para alimentação adequada de sistemas de informação, abordando as causas subjacentes da falha no controle interno da Cadeia de Frio, em vez de apenas corrigir a condição imediata.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1108,
+    "completion_tokens": 100,
+    "total_tokens": 1208,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 148
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

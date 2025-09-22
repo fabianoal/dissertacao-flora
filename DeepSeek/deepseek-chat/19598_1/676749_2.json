@@ -1,0 +1,28 @@
+{
+  "id": "8a920f47-cdf8-41f9-917d-3e20a7a0ac19",
+  "object": "chat.completion",
+  "created": 1758475906,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações de educação continuada para profissionais, visando prevenir a ocorrência de lacunas temporais sem profissional médico logado, o que aborda a causa subjacente (falta de capacitação ou engajamento) e não apenas corrige a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1035,
+    "completion_tokens": 85,
+    "total_tokens": 1120,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 75
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

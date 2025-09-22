@@ -1,0 +1,28 @@
+{
+  "id": "af3ff9c5-6d57-4848-ba3b-7a8da40d81b8",
+  "object": "chat.completion",
+  "created": 1758470402,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação solicita a adoção de procedimentos administrativos para prevenir a ocorrência futura de dispensação de medicamentos sem comprovação de aquisição, focando em medidas de longo prazo e conformidade legal, em vez de apenas corrigir a condição específica identificada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1212,
+    "completion_tokens": 83,
+    "total_tokens": 1295,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 252
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

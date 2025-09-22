@@ -1,0 +1,28 @@
+{
+  "id": "130dd144-47cf-4a98-8c84-4cf2eed78f0d",
+  "object": "chat.completion",
+  "created": 1758479322,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações como indicar profissionais com formação adequada, arquivar certificados, revisar documentação, atualizar procedimentos internos, capacitar e realizar auditorias internas, visando prevenir a reocorrência da condição de falta de qualificação e fortalecer processos de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1185,
+    "completion_tokens": 86,
+    "total_tokens": 1271,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 225
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

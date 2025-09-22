@@ -1,0 +1,28 @@
+{
+  "id": "86f918b9-3eda-437e-8722-7d1e57f640cb",
+  "object": "chat.completion",
+  "created": 1758475454,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a ausência de documentação específica comprovando metas de indicadores de qualidade, ao instruir a entidade auditada a manter os relatórios disponíveis para verificação, sem propor ações para prevenir a recorrência da falha, como a implementação de políticas ou processos de monitoramento contínuo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1084,
+    "completion_tokens": 104,
+    "total_tokens": 1188,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 124
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

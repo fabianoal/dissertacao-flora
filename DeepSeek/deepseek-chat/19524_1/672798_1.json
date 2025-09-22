@@ -1,0 +1,28 @@
+{
+  "id": "5cdadc14-033b-42cc-97e7-78ccb4af6459",
+  "object": "chat.completion",
+  "created": 1758474078,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada (pagamentos em atraso), solicitando o envio de comprovantes para regularizar a situação, sem propor ações para prevenir a recorrência do atraso no futuro.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1063,
+    "completion_tokens": 74,
+    "total_tokens": 1137,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 103
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

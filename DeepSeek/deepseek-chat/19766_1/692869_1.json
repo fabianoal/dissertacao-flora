@@ -1,0 +1,28 @@
+{
+  "id": "9bef5180-c078-487e-9123-a8f16d3002e8",
+  "object": "chat.completion",
+  "created": 1758482410,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a adoção de providências para cumprir uma norma estrutural (Art. 99 da Portaria de Consolidação n.º 1/2017), que exige a inclusão adequada de dados no Relatório de Gestão anualmente. Isso visa implementar um processo contínuo e preventivo para evitar a recorrência da falha na informação, caracterizando uma solução de longo prazo focada na causa subjacente da não conformidade, em vez de apenas corrigir a condição específica do ano de 2022.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1192,
+    "completion_tokens": 143,
+    "total_tokens": 1335,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 232
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

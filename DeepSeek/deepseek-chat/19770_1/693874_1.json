@@ -1,0 +1,28 @@
+{
+  "id": "90698bd2-944f-483b-a8bf-3cf3fb86b894",
+  "object": "chat.completion",
+  "created": 1758482562,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistemático para garantir o registro completo e a identificação dos médicos em todos os atendimentos, o que visa prevenir a recorrência da condição observada, alinhando-se com soluções de longo prazo e mudanças estruturais na gestão municipal de saúde.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1107,
+    "completion_tokens": 88,
+    "total_tokens": 1195,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 147
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

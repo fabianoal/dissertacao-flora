@@ -1,0 +1,28 @@
+{
+  "id": "01a890a1-02f5-49bd-b86a-b5b3fedee29a",
+  "object": "chat.completion",
+  "created": 1758476046,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de regularização das contribuições financeiras mensais, o que visa prevenir a recorrência da não conformidade ao estabelecer uma prática contínua e alinhada com a legislação, promovendo melhorias estruturais de longo prazo na gestão e operacionalização do SAMU 192.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1206,
+    "completion_tokens": 93,
+    "total_tokens": 1299,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 246
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

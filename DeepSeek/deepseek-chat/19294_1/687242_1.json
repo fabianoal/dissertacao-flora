@@ -1,0 +1,28 @@
+{
+  "id": "4e9b2b66-cc14-4175-a7fe-7be0ed7dbcc9",
+  "object": "chat.completion",
+  "created": 1758469478,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de medidas administrativas para a formalização e manutenção de contratos, o que visa estabelecer um processo contínuo e preventivo para evitar a recorrência da falta de contratos, focando na causa subjacente da não conformidade, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1182,
+    "completion_tokens": 96,
+    "total_tokens": 1278,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 222
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

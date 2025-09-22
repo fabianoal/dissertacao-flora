@@ -1,0 +1,28 @@
+{
+  "id": "203b255a-f4d3-48a8-aa29-700c3ea77eb2",
+  "object": "chat.completion",
+  "created": 1758482882,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe adequações estruturais permanentes na Central Municipal da Rede de Frio, alinhadas a requisitos normativos de longo prazo (RDC n.º 63/2011), visando prevenir a reocorrência da condição inadequada e assegurar a manutenção contínua da cadeia de frio, caracterizando um foco na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1233,
+    "completion_tokens": 106,
+    "total_tokens": 1339,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 273
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

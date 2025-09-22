@@ -1,0 +1,28 @@
+{
+  "id": "affe5b32-5727-4f20-aa24-fbf825904bc7",
+  "object": "chat.completion",
+  "created": 1758478778,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistemático (registro de informações de rastreabilidade) para prevenir a recorrência da condição observada (falta de anexação de folhas de requisição), alinhando-se com práticas de longo prazo e conformidade normativa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1121,
+    "completion_tokens": 86,
+    "total_tokens": 1207,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 97
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

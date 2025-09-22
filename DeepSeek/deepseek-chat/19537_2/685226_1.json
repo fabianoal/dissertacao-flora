@@ -1,0 +1,28 @@
+{
+  "id": "02bc1f8a-6c44-4c40-902c-f3fdf734b28c",
+  "object": "chat.completion",
+  "created": 1758474346,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de observar uma disposição legal que estabelece a obrigação de prestar informações e facilitar o acesso durante auditorias, visando prevenir a reocorrência da falta de documentação em auditorias futuras, o que se alinha com soluções de longo prazo para evitar a causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1126,
+    "completion_tokens": 91,
+    "total_tokens": 1217,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 166
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

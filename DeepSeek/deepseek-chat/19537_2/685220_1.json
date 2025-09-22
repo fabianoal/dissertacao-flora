@@ -1,0 +1,28 @@
+{
+  "id": "e3e68bd4-60a6-48c4-80d7-bc61a7a23376",
+  "object": "chat.completion",
+  "created": 1758474274,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a observação de prazos legais em futuras contratações, visando prevenir a recorrência do atraso na divulgação, o que envolve uma solução de longo prazo e foco na causa subjacente (não cumprimento de normas), em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1171,
+    "completion_tokens": 96,
+    "total_tokens": 1267,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 211
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

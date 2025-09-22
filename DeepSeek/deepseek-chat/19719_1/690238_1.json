@@ -1,0 +1,28 @@
+{
+  "id": "03612cae-8d6b-4d09-8bfc-569881a5a580",
+  "object": "chat.completion",
+  "created": 1758480922,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um Programa de Capacitação Permanente, incluindo treinamentos específicos, escala para novos funcionários e documentação adequada, o que visa prevenir a recorrência da falta de capacitação e assegurar atendimento adequado a longo prazo, alinhando-se com soluções estruturais e duradouras.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1145,
+    "completion_tokens": 98,
+    "total_tokens": 1243,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 185
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

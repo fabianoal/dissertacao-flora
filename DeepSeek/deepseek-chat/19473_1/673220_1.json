@@ -1,0 +1,28 @@
+{
+  "id": "38b4bf9d-b7f7-4b7b-9736-90e84f493080",
+  "object": "chat.completion",
+  "created": 1758472975,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de indicadores específicos para monitoramento e avaliação contínua do serviço, visando prevenir a reocorrência da condição observada (falta de uso de indicadores) e promovendo melhorias estruturais de longo prazo, como a elaboração de relatórios e ações para aprimorar o serviço.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1205,
+    "completion_tokens": 100,
+    "total_tokens": 1305,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 245
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

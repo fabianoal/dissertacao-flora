@@ -1,0 +1,28 @@
+{
+  "id": "b32b019a-ab30-4ceb-817b-8baec641a22f",
+  "object": "chat.completion",
+  "created": 1758474634,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação exige o cumprimento de normas técnicas específicas para a estrutura física, o que implica a implementação de mudanças estruturais, como a instalação de isolamento acústico, visando prevenir a reocorrência da condição inadequada a longo prazo, em vez de apenas corrigir temporariamente a situação atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1088,
+    "completion_tokens": 92,
+    "total_tokens": 1180,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 128
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

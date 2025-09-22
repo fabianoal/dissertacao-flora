@@ -1,0 +1,28 @@
+{
+  "id": "0a321d6f-6e35-4453-8dcb-2b69c43fcfe4",
+  "object": "chat.completion",
+  "created": 1758482494,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação aborda a causa raiz da ausência do Plano de Gerenciamento de Resíduos Sólidos em Saúde (PGRSS) ao propor ações como elaborar um PGRSS específico, designar um local adequado, capacitar profissionais e estabelecer monitoramento contínuo, focando em soluções de longo prazo para prevenir a recorrência da não conformidade, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1372,
+    "completion_tokens": 116,
+    "total_tokens": 1488,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 412
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

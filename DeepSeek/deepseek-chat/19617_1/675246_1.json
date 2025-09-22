@@ -1,0 +1,28 @@
+{
+  "id": "95407668-0d30-4a07-95d5-a22b8738a891",
+  "object": "chat.completion",
+  "created": 1758477910,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada (ausência do contrato no sistema), exigindo sua inserção para conformidade com a norma, sem propor ações para prevenir a recorrência ou abordar causas subjacentes.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1056,
+    "completion_tokens": 73,
+    "total_tokens": 1129,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 96
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

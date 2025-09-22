@@ -1,0 +1,28 @@
+{
+  "id": "4a2ad404-f400-4d81-ad36-b57372d8ae9b",
+  "object": "chat.completion",
+  "created": 1758468618,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de aderir estritamente às disposições legais e contratuais, como a Portaria Interministerial e a Lei Federal 8.666, para garantir que despesas futuras sejam devidamente autorizadas e relacionadas ao objeto do contrato, visando prevenir a recorrência de pagamentos irregulares, o que caracteriza um foco na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1351,
+    "completion_tokens": 109,
+    "total_tokens": 1460,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 391
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

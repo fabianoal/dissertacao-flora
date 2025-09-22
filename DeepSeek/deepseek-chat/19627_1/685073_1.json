@@ -1,0 +1,28 @@
+{
+  "id": "2161fb5b-3735-49fe-8636-cb0c1703a47d",
+  "object": "chat.completion",
+  "created": 1758478338,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de parâmetros para análise e aprovação de composição de despesas, o que visa estabelecer um processo sistemático e preventivo para evitar futuras deficiências, alinhando-se com soluções de longo prazo que abordam a causa raiz do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1054,
+    "completion_tokens": 87,
+    "total_tokens": 1141,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 94
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

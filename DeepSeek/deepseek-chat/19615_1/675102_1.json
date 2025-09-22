@@ -1,0 +1,28 @@
+{
+  "id": "9d57444f-edaf-4854-93ad-eb8085955db0",
+  "object": "chat.completion",
+  "created": 1758477658,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistemático (inserção da avaliação de desempenho no Transferegov) para evitar a recorrência da ausência de avaliação, alinhando-se com soluções de longo prazo que abordam a causa subjacente da não conformidade.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1063,
+    "completion_tokens": 87,
+    "total_tokens": 1150,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 103
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

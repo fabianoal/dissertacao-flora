@@ -1,0 +1,28 @@
+{
+  "id": "21bbdf1e-5ef3-44ab-b16d-f05c67b95df5",
+  "object": "chat.completion",
+  "created": 1758488944,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações abrangentes, como aprimorar o monitoramento e controle, reforçar a equipe técnica com capacitação contínua, e implementar notificações e monitoramento de cumprimento, visando prevenir a recorrência da condição observada e promover melhorias estruturais de longo prazo no sistema de saúde.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1442,
+    "completion_tokens": 95,
+    "total_tokens": 1537,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 546
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "dff0c768-6393-4b50-9d53-d6911e29280e",
+  "object": "chat.completion",
+  "created": 1758479358,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe o aperfeiçoamento de mecanismos de controle, monitoramento e avaliação, o que visa implementar soluções de longo prazo para prevenir a ocorrência futura de recebimento indevido de recursos, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1083,
+    "completion_tokens": 90,
+    "total_tokens": 1173,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 123
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d7faa6a0-9c04-46d9-86b0-aa193c4e1d7d",
+  "object": "chat.completion",
+  "created": 1758474842,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação exige a implementação de um processo sistemático e obrigatório para a inscrição de pacientes na CNCDO dentro de um prazo específico após o início do tratamento dialítico, visando prevenir a recorrência da condição (ausência de data de entrada na fila) e promovendo uma mudança estrutural de longo prazo na gestão da fila de transplantes.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1186,
+    "completion_tokens": 106,
+    "total_tokens": 1292,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 226
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

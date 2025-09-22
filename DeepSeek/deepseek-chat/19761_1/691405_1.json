@@ -1,0 +1,28 @@
+{
+  "id": "5577f025-f5db-4ef5-9f5d-845cc07b4c53",
+  "object": "chat.completion",
+  "created": 1758482222,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração de um plano de manutenção periódica e a documentação das manutenções realizadas, além de calibrações e qualificações térmicas, o que visa implementar controles preventivos e sistemáticos para evitar a recorrência da falta de manutenção, alinhando-se com soluções de longo prazo que abordam a causa raiz da não conformidade.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1130,
+    "completion_tokens": 110,
+    "total_tokens": 1240,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 170
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

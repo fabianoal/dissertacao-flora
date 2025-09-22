@@ -1,0 +1,28 @@
+{
+  "id": "7bc11788-fc57-4a55-ad09-8d38976f2af6",
+  "object": "chat.completion",
+  "created": 1758468946,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação instrui a implementação de processos de pagamento completos com toda a documentação obrigatória, focando em mudanças sistêmicas para prevenir a disponibilização incompleta no futuro, alinhando-se com a definição de recomendações que abordam a causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1053,
+    "completion_tokens": 84,
+    "total_tokens": 1137,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 93
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

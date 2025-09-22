@@ -1,0 +1,28 @@
+{
+  "id": "ebb62ee2-748b-4834-a1ad-0f6ea61985bb",
+  "object": "chat.completion",
+  "created": 1758480934,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistemático e contínuo de atualização do CNES, incluindo cadastramento e atualização mensal ou imediata após mudanças, o que visa prevenir a reocorrência da desatualização ao abordar a causa subjacente (falta de um procedimento regular), em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1259,
+    "completion_tokens": 108,
+    "total_tokens": 1367,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 299
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

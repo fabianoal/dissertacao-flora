@@ -1,0 +1,28 @@
+{
+  "id": "26e0269f-3569-44d6-be53-1446aae1f7cf",
+  "object": "chat.completion",
+  "created": 1758484146,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de registros e estratégias de atendimento nos processos de trabalho das unidades de saúde, o que visa estabelecer uma solução de longo prazo para prevenir a reocorrência da falta de estratégias definidas, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1209,
+    "completion_tokens": 91,
+    "total_tokens": 1300,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 313
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

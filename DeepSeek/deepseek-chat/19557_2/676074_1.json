@@ -1,0 +1,28 @@
+{
+  "id": "c90a850d-a116-4cd9-b248-dff33803046f",
+  "object": "chat.completion",
+  "created": 1758474830,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação foca na implementação de um processo contínuo e sistemático para garantir que os pacientes sejam informados sobre a possibilidade de transplante, conforme a portaria, o que visa prevenir a recorrência da condição observada, em vez de apenas corrigir a falha atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1175,
+    "completion_tokens": 87,
+    "total_tokens": 1262,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 215
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

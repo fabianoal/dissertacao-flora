@@ -1,0 +1,28 @@
+{
+  "id": "b6bb4b5c-2b02-4a8f-b43c-fbdc831ec691",
+  "object": "chat.completion",
+  "created": 1758476486,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada (incompletude e intempestividade na inserção dos relatórios), solicitando a inserção específica dos relatórios de 2022 no Transferegov, sem propor ações para prevenir a recorrência do problema no futuro.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1103,
+    "completion_tokens": 88,
+    "total_tokens": 1191,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 143
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

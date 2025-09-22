@@ -1,0 +1,28 @@
+{
+  "id": "aa6fe8d8-12f7-4720-be2d-2ea0ed21f881",
+  "object": "chat.completion",
+  "created": 1758484530,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a criação e implementação de ações específicas para o apoio e acompanhamento de familiares, o que visa abordar a causa subjacente da não realização do acompanhamento, promovendo uma solução de longo prazo para prevenir a recorrência da condição observada, em vez de apenas corrigir a situação atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1092,
+    "completion_tokens": 100,
+    "total_tokens": 1192,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 196
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

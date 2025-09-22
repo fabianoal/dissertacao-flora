@@ -1,0 +1,28 @@
+{
+  "id": "3632b260-9e6e-49d0-b848-be88a0f9eb94",
+  "object": "chat.completion",
+  "created": 1758481062,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um aprimoramento na conferência dos dados, visando garantir a compatibilidade futura entre os dados inseridos e a produção real, o que é uma solução de longo prazo para prevenir a recorrência da incompatibilidade observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1123,
+    "completion_tokens": 81,
+    "total_tokens": 1204,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 163
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

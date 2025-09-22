@@ -1,0 +1,28 @@
+{
+  "id": "4e58c803-619d-4918-963f-2c7c0d3a8e85",
+  "object": "chat.completion",
+  "created": 1758478678,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a nomeação de uma área responsável para implementar controles internos, o que visa estabelecer uma solução permanente e preventiva para evitar a recorrência da falta de acompanhamento e controle no processo de gestão de OPME, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1120,
+    "completion_tokens": 95,
+    "total_tokens": 1215,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 160
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "b7a68f80-7631-495a-915f-c214f935b17c",
+  "object": "chat.completion",
+  "created": 1758478626,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de controles internos e políticas de governança, o que visa abordar a causa raiz da ausência de documentação (notas fiscais) ao estabelecer estruturas e processos permanentes para prevenir futuras ocorrências, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1061,
+    "completion_tokens": 92,
+    "total_tokens": 1153,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 101
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

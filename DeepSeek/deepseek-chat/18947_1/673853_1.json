@@ -1,0 +1,28 @@
+{
+  "id": "b2a75a4c-6070-4eac-9860-41253d6e5626",
+  "object": "chat.completion",
+  "created": 1758468638,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação sugere o acompanhamento de recomendações baseadas em diretrizes normativas, o que implica a implementação de processos contínuos e preventivos para evitar a recorrência de despesas não comprovadas, focando na causa subjacente de falta de conformidade com a legislação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1075,
+    "completion_tokens": 88,
+    "total_tokens": 1163,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 115
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "e5e33891-6342-42d3-8713-d8bba22f7748",
+  "object": "chat.completion",
+  "created": 1758473722,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de implementar práticas permanentes para garantir o registro fidedigno e contínuo da produção ambulatorial, alinhando-se com normas e responsabilidades de longo prazo, visando prevenir a recorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1302,
+    "completion_tokens": 80,
+    "total_tokens": 1382,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 342
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

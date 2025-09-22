@@ -1,0 +1,28 @@
+{
+  "id": "78d21685-1d0b-4a72-8005-6d39e32a6d2f",
+  "object": "chat.completion",
+  "created": 1758469882,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação sugere a adoção de procedimentos para melhor controle, monitoramento e avaliação das produções informadas, o que visa implementar mudanças sistêmicas e de longo prazo para prevenir a recorrência de divergências, alinhando-se com o foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1135,
+    "completion_tokens": 81,
+    "total_tokens": 1216,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 175
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

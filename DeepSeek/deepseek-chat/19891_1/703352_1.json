@@ -1,0 +1,28 @@
+{
+  "id": "b7ba7566-96c0-4a46-93ef-616d149bcc3b",
+  "object": "chat.completion",
+  "created": 1758491288,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação sugere aprimorar o registro do código CID de acordo com o manual técnico, o que implica a implementação de mudanças processuais ou de treinamento para garantir conformidade futura, abordando a causa raiz da incompatibilidade observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1100,
+    "completion_tokens": 77,
+    "total_tokens": 1177,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 204
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

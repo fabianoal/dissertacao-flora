@@ -1,0 +1,28 @@
+{
+  "id": "dae4fc24-fc01-498a-aee4-757ef5221588",
+  "object": "chat.completion",
+  "created": 1758483122,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo de registro e atualização de sistemas de informações oficiais, o que visa corrigir a causa raiz da gestão ineficiente da informação, promovendo uma solução de longo prazo para prevenir a recorrência da condição observada, em vez de apenas remediar temporariamente os registros incorretos atuais.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1190,
+    "completion_tokens": 104,
+    "total_tokens": 1294,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 230
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

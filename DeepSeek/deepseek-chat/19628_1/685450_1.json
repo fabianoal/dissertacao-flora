@@ -1,0 +1,28 @@
+{
+  "id": "eb9ae438-8c08-45cf-88c4-dcd468f728ad",
+  "object": "chat.completion",
+  "created": 1758478606,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe o estabelecimento de medidas para assegurar a fixação das etiquetas de rastreabilidade em múltiplos documentos, visando prevenir a recorrência da falha identificada, o que envolve mudanças processuais e de longo prazo, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1270,
+    "completion_tokens": 97,
+    "total_tokens": 1367,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 310
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

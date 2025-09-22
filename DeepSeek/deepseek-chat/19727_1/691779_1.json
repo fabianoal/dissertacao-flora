@@ -1,0 +1,28 @@
+{
+  "id": "e90a9364-c574-42e9-a9b4-929515185887",
+  "object": "chat.completion",
+  "created": 1758481066,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração de um Relatório Anual de Gestão com prestação de contas detalhada, o que visa estabelecer um processo contínuo e estruturado de planejamento, monitoramento e avaliação, abordando a causa subjacente da falta de informações adequadas nos instrumentos de gestão, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1145,
+    "completion_tokens": 107,
+    "total_tokens": 1252,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 249
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

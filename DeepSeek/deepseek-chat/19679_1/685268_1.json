@@ -1,0 +1,28 @@
+{
+  "id": "ce42900c-9621-4302-82c8-7443a681391e",
+  "object": "chat.completion",
+  "created": 1758479674,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de providências para orientar o fiscal e o gestor concedente, visando melhorar o acompanhamento dos processos de contratualização e execução, o que aborda a causa raiz da prorrogação indevida ao promover mudanças estruturais e de longo prazo na gestão, conforme os dispositivos legais citados.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1087,
+    "completion_tokens": 101,
+    "total_tokens": 1188,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 127
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

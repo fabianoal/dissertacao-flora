@@ -1,0 +1,28 @@
+{
+  "id": "d34f978c-1fba-452f-9609-cddd44d81246",
+  "object": "chat.completion",
+  "created": 1758472990,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a melhoria do método de monitoramento e registro dos bens, o que visa abordar a causa raiz da não incorporação integral ao patrimônio, implementando uma solução de longo prazo para prevenir a recorrência do problema, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1108,
+    "completion_tokens": 87,
+    "total_tokens": 1195,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 148
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "cae7d6ee-144c-4f29-8045-4f27bc0eafbe",
+  "object": "chat.completion",
+  "created": 1758487640,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a divergência entre a documentação e os registros no SIA/SUS, ao instruir o registro adequado das informações existentes, sem propor ações para prevenir a recorrência da causa subjacente, como falhas em processos ou treinamento.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1170,
+    "completion_tokens": 92,
+    "total_tokens": 1262,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 210
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

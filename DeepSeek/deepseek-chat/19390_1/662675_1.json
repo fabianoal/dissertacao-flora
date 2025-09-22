@@ -1,0 +1,28 @@
+{
+  "id": "4669f5fe-9fb6-432d-814b-ed5cdf76150f",
+  "object": "chat.completion",
+  "created": 1758469922,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a manutenção atualizada da base de dados do CNES, o que visa prevenir futuras inconformidades relacionadas à capacidade instalada e profissionais médicos, abordando a causa raiz (gestão inadequada de dados) em vez de apenas corrigir a condição atual específica.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1081,
+    "completion_tokens": 86,
+    "total_tokens": 1167,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 121
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

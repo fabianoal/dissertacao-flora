@@ -1,0 +1,28 @@
+{
+  "id": "d6481135-1848-496c-8ebe-02c108efd951",
+  "object": "chat.completion",
+  "created": 1758469627,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação enfoca a correção imediata da condição encontrada, que é a ausência de exames comprobatórios de imagenologia pós-operatório nos prontuários médicos, ao exigir o cumprimento de normas específicas para anexar tais exames, sem propor ações para prevenir a recorrência da causa subjacente, como falhas em processos ou treinamento.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1210,
+    "completion_tokens": 109,
+    "total_tokens": 1319,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 250
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

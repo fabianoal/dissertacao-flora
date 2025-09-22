@@ -1,0 +1,28 @@
+{
+  "id": "7604879a-72fb-4e62-95e3-f45ca7d3d740",
+  "object": "chat.completion",
+  "created": 1758485042,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de processos estruturados e duradouros, como a criação de documentos operacionais, capacitação de equipes e adoção de procedimentos padrão, visando prevenir a recorrência da falta de critérios definidos para classificação de risco, abordando as causas subjacentes em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1443,
+    "completion_tokens": 100,
+    "total_tokens": 1543,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 547
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

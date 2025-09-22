@@ -1,0 +1,28 @@
+{
+  "id": "4ac17bbd-c2a8-401a-9fa6-b78d1ccca314",
+  "object": "chat.completion",
+  "created": 1758483266,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo de manutenções periódicas e manutenção de registros, alinhado a diretrizes normativas, visando prevenir a recorrência da falta de manutenção e estabelecer uma solução de longo prazo para assegurar a Cadeia de Frio, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1193,
+    "completion_tokens": 108,
+    "total_tokens": 1301,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 233
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

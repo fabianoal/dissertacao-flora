@@ -1,0 +1,28 @@
+{
+  "id": "eb5a42af-f961-4e3a-9a72-4e02aa2c3719",
+  "object": "chat.completion",
+  "created": 1758468818,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação exige o cumprimento integral de requisitos legais específicos, o que implica a implementação de mudanças estruturais e organizacionais de longo prazo para garantir conformidade contínua e prevenir a recorrência da deficiência, alinhando-se com o foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1107,
+    "completion_tokens": 84,
+    "total_tokens": 1191,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 147
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

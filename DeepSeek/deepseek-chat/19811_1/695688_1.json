@@ -1,0 +1,28 @@
+{
+  "id": "f81ce607-d17c-4f5e-9e3a-be00cd479303",
+  "object": "chat.completion",
+  "created": 1758484198,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção regular de Projetos Terapêuticos Singulares com a participação do paciente, o que envolve a implementação de uma prática contínua e estrutural para personalizar o cuidado, promover autonomia, fortalecer vínculos e garantir integralidade, abordando a causa subjacente da falta de desenvolvimento dos PTS e não apenas corrigindo a condição atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1187,
+    "completion_tokens": 109,
+    "total_tokens": 1296,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 227
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

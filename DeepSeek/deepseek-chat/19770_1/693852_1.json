@@ -1,0 +1,28 @@
+{
+  "id": "c27bc88e-3901-4a9c-85c3-57c6225040d7",
+  "object": "chat.completion",
+  "created": 1758482550,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de processos contínuos de controle, avaliação e monitoramento das ações e serviços de saúde, o que visa abordar a causa raiz da falta de atividades adequadas, promovendo uma solução de longo prazo para prevenir a recorrência da condição observada, em vez de apenas corrigir a situação atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1175,
+    "completion_tokens": 100,
+    "total_tokens": 1275,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 215
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

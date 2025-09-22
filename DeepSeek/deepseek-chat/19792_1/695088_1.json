@@ -1,0 +1,28 @@
+{
+  "id": "5fa1a2dc-04f6-436f-9944-45484415d447",
+  "object": "chat.completion",
+  "created": 1758483466,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações estruturais e de longo prazo, como estabelecer rotinas permanentes de verificação de temperatura, adequar equipamentos para monitoramento de umidade, e implementar um planejamento logístico para otimizar a capacidade instalada, visando prevenir a recorrência das inconformidades identificadas no processo de armazenamento, em vez de apenas corrigir as condições atuais de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1215,
+    "completion_tokens": 111,
+    "total_tokens": 1326,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 255
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

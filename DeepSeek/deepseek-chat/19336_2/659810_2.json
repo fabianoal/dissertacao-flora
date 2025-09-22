@@ -1,0 +1,28 @@
+{
+  "id": "3fa7a5ab-fca1-4178-ab97-ac9934279563",
+  "object": "chat.completion",
+  "created": 1758469710,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza o cumprimento de normas legais e regulatórias que estabelecem procedimentos permanentes para a preservação e apresentação de prontuários, visando prevenir a recorrência da falta de documentação no futuro, em vez de apenas corrigir a condição específica encontrada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1136,
+    "completion_tokens": 86,
+    "total_tokens": 1222,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 176
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

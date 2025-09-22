@@ -1,0 +1,28 @@
+{
+  "id": "6110a225-7933-4e6c-802d-b709eed4a25a",
+  "object": "chat.completion",
+  "created": 1758470114,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de procedimentos permanentes (como verificação de documentos e prescrições) para prevenir futuras ocorrências de dispensação irregular, alinhando-se com soluções de longo prazo que abordam a causa raiz da não conformidade.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1124,
+    "completion_tokens": 80,
+    "total_tokens": 1204,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 164
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

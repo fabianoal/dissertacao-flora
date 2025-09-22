@@ -1,0 +1,28 @@
+{
+  "id": "e272ab6f-3533-4014-ad17-01028fc3f955",
+  "object": "chat.completion",
+  "created": 1758480606,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de processos contínuos de controle, monitoramento e acompanhamento da produção ambulatorial, alinhados a normas legais e operacionais, visando prevenir futuras incompatibilidades entre dados inseridos e serviços realizados, o que caracteriza um foco na causa subjacente das inconformidades.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1309,
+    "completion_tokens": 93,
+    "total_tokens": 1402,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 349
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

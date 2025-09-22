@@ -1,0 +1,28 @@
+{
+  "id": "1f76e6d7-0de6-4e35-8599-29af248d0595",
+  "object": "chat.completion",
+  "created": 1758475258,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações como capacitação de profissionais, estabelecimento de rotinas e preferência por prontuários eletrônicos, que visam abordar as causas subjacentes das discrepâncias nos dados, promovendo mudanças estruturais e de longo prazo para prevenir a recorrência do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1111,
+    "completion_tokens": 89,
+    "total_tokens": 1200,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 151
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

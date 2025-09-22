@@ -1,0 +1,28 @@
+{
+  "id": "9682fdd0-ca6a-4e3b-a3e4-8280e4c26590",
+  "object": "chat.completion",
+  "created": 1758491348,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de garantir o cumprimento contínuo de normas e manuais técnicos, como o Manual Técnico Operacional do SIA/SUS e a Portaria SAES/MS nº 470, que exigem autorização prévia para procedimentos oncológicos. Isso visa implementar mudanças estruturais e processuais de longo prazo para prevenir a recorrência da não observância da autorização da APAC, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1148,
+    "completion_tokens": 132,
+    "total_tokens": 1280,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 188
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

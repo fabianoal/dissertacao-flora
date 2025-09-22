@@ -1,0 +1,28 @@
+{
+  "id": "5f18aa4c-5979-4839-bba1-9e9e3e13b98c",
+  "object": "chat.completion",
+  "created": 1758481758,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de diretrizes e estruturas permanentes, como a definição de ações, gerenciamento de instrumentos formais e funcionamento regular de uma comissão, visando prevenir a não contratualização no futuro, em vez de apenas corrigir a condição atual específica.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1167,
+    "completion_tokens": 88,
+    "total_tokens": 1255,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 143
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

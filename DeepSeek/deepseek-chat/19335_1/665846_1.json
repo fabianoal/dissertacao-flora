@@ -1,0 +1,28 @@
+{
+  "id": "9dae63a7-4ea1-444a-a319-e33248f60d51",
+  "object": "chat.completion",
+  "created": 1758469634,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de controles radiológicos e documentação sistemática para prevenir futuras discrepâncias entre cobranças e implantes, abordando a causa raiz (falta de verificação adequada) e promovendo mudanças de longo prazo, como a adesão a manuais e práticas estabelecidas.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1266,
+    "completion_tokens": 95,
+    "total_tokens": 1361,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 370
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

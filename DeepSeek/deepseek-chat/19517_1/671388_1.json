@@ -1,0 +1,28 @@
+{
+  "id": "1d77b9be-11df-46bf-a174-097eead8646e",
+  "object": "chat.completion",
+  "created": 1758473782,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações sistêmicas e de longo prazo, como a implementação de procedimentos de acesso à informação, conformidade contínua com as regras do PFPB, e a manutenção organizada de documentos por 10 anos, visando prevenir a recorrência de irregularidades, em vez de apenas corrigir a condição específica encontrada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1317,
+    "completion_tokens": 100,
+    "total_tokens": 1417,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 357
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

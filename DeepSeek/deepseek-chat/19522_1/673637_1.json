@@ -1,0 +1,28 @@
+{
+  "id": "044250ce-c165-40e2-8b7e-a3402e13392e",
+  "object": "chat.completion",
+  "created": 1758473942,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de controles e avaliações sistemáticas conforme manuais e portarias, visando prevenir a ocorrência futura de inserções não comprovadas, promovendo mudanças estruturais de longo prazo na gestão dos dados do SUS.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1215,
+    "completion_tokens": 79,
+    "total_tokens": 1294,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 255
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

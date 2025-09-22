@@ -1,0 +1,28 @@
+{
+  "id": "91f91037-2a7a-42dd-9393-927e34dd4049",
+  "object": "chat.completion",
+  "created": 1758474602,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é o pagamento indevido de despesas, ao exigir a devolução do valor específico, sem propor ações para prevenir a recorrência do problema subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1124,
+    "completion_tokens": 75,
+    "total_tokens": 1199,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 164
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

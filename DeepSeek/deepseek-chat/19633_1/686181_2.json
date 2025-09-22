@@ -1,0 +1,28 @@
+{
+  "id": "58913236-6908-4590-bf49-c32e9701a889",
+  "object": "chat.completion",
+  "created": 1758478858,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação solicita à SAES/MS a adoção de procedimentos estabelecidos em decretos e portaria, visando prevenir futuras ocorrências de inserção e não comprovação de produções ambulatoriais, o que implica uma abordagem de longo prazo para eliminar a causa raiz do problema, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1175,
+    "completion_tokens": 99,
+    "total_tokens": 1274,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 215
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

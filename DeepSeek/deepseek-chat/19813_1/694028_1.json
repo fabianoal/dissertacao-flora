@@ -1,0 +1,28 @@
+{
+  "id": "ed769ab2-032f-4628-ba15-271079a0f8f2",
+  "object": "chat.completion",
+  "created": 1758484306,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de ações contínuas e estruturais, como orientação e suporte aos familiares, para fortalecer a rede de apoio e promover mudanças de longo prazo na prática das equipes de ESF, alinhando-se com a definição de recomendações com foco na causa, que visam evitar a recorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1217,
+    "completion_tokens": 103,
+    "total_tokens": 1320,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 257
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

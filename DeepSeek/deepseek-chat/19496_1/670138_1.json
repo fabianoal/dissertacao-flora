@@ -1,0 +1,28 @@
+{
+  "id": "c0da3504-c33a-47d8-af3d-acf8443cd65b",
+  "object": "chat.completion",
+  "created": 1758473314,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de um processo sistemático e duradouro para manter e arquivar documentação, conforme exigido por normas, visando prevenir futuras não conformidades relacionadas à apresentação de cupons e receitas, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1207,
+    "completion_tokens": 87,
+    "total_tokens": 1294,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 247
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

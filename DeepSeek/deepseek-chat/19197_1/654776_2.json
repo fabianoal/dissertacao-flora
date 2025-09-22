@@ -1,0 +1,28 @@
+{
+  "id": "95b1e32b-144d-4287-903b-ccba509a9a57",
+  "object": "chat.completion",
+  "created": 1758469038,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de diretrizes abrangentes e sistêmicas do Manual de Boas Práticas, que incluem aquisição, recebimento, armazenagem, distribuição, utilização, controle, rastreabilidade e tecnovigilância. Isso visa estabelecer processos e sistemas duradouros para prevenir a ocorrência futura de trocas de materiais sem nota fiscal, indo além da correção imediata da condição específica.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1423,
+    "completion_tokens": 125,
+    "total_tokens": 1548,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 463
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

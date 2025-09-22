@@ -1,0 +1,28 @@
+{
+  "id": "c18cfc25-260b-4649-996e-e87310ec97bd",
+  "object": "chat.completion",
+  "created": 1758475198,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a organização da política e o desenvolvimento de um plano municipal abrangente e integrado, com foco na prevenção, tratamento e cuidado integral em todos os níveis de atenção, o que visa abordar a causa subjacente da falta de articulação e organização da rede, promovendo uma solução de longo prazo e sustentável.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1186,
+    "completion_tokens": 96,
+    "total_tokens": 1282,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 290
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

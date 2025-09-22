@@ -1,0 +1,28 @@
+{
+  "id": "36241956-0e35-420f-aaa1-e892e1a14689",
+  "object": "chat.completion",
+  "created": 1758476018,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a organização dos horários de descanso para manter o quantitativo mínimo de profissionais, o que visa abordar a causa raiz da inobservância (possivelmente fadiga ou má gestão de escalas) e implementar uma solução duradoura para prevenir a recorrência da condição, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1057,
+    "completion_tokens": 109,
+    "total_tokens": 1166,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 97
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

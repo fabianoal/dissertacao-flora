@@ -1,0 +1,28 @@
+{
+  "id": "ba0aee0e-88b3-418e-ac33-a1f1529c4ddc",
+  "object": "chat.completion",
+  "created": 1758473682,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de implementar controles e avaliações contínuas da produção ambulatorial, conforme diretrizes normativas, para assegurar que os dados inseridos sejam fidedignos e evitar a recorrência de inserções não comprovadas, focando em soluções de longo prazo e mudanças estruturais no processo de gestão.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1318,
+    "completion_tokens": 99,
+    "total_tokens": 1417,
+    "prompt_tokens_details": {
+      "cached_tokens": 1152
+    },
+    "prompt_cache_hit_tokens": 1152,
+    "prompt_cache_miss_tokens": 166
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "5f73d37e-aff8-4bb8-a479-dd8956b91cd4",
+  "object": "chat.completion",
+  "created": 1758480054,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é o pagamento indevido de adicional de insalubridade, ao determinar o levantamento das despesas e o ressarcimento dos valores, sem propor ações para prevenir a recorrência do problema, como mudanças em processos ou políticas de concessão de benefícios.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1168,
+    "completion_tokens": 96,
+    "total_tokens": 1264,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 208
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

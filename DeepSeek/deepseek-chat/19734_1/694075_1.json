@@ -1,0 +1,28 @@
+{
+  "id": "f5e86931-c331-4f7f-85bb-dca194fd50c6",
+  "object": "chat.completion",
+  "created": 1758481254,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de uma equipe assistencial dimensionada de forma permanente e qualitativa, alinhada com as diretrizes normativas, visando prevenir a recorrência da condição de equipes incompletas, o que caracteriza uma solução de longo prazo para a causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1084,
+    "completion_tokens": 90,
+    "total_tokens": 1174,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 124
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

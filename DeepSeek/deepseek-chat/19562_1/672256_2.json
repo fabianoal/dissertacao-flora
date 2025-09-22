@@ -1,0 +1,28 @@
+{
+  "id": "8af8c5af-0797-40bd-8a88-8ff18e614e4c",
+  "object": "chat.completion",
+  "created": 1758475038,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfoca a implementação de um processo contínuo de atualização de dados no SCNES, alinhado a uma norma específica, visando prevenir a recorrência da incomposição mínima das equipes, caracterizando uma solução de longo prazo para a causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1072,
+    "completion_tokens": 85,
+    "total_tokens": 1157,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 112
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

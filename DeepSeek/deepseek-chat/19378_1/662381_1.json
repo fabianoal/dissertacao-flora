@@ -1,0 +1,28 @@
+{
+  "id": "ca299f82-9a0d-40fc-8b4e-c927863b91ec",
+  "object": "chat.completion",
+  "created": 1758469770,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação solicita à SAES/MS a adoção de procedimentos específicos conforme legislação vigente, visando prevenir futuras ocorrências similares de inserção irregular de procedimentos e devolução de recursos, o que se alinha com soluções de longo prazo para evitar a recorrência do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1197,
+    "completion_tokens": 87,
+    "total_tokens": 1284,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 237
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

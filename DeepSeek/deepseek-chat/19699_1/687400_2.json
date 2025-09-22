@@ -1,0 +1,28 @@
+{
+  "id": "bfb40983-74c0-4dc3-8f5c-a659ac97237b",
+  "object": "chat.completion",
+  "created": 1758480478,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação direciona a adoção de procedimentos organizacionais e executivos para a prevenção e controle de doenças, visando uma solução de longo prazo que aborda a causa subjacente da não disponibilização dos exames, em vez de apenas corrigir a condição imediata.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1146,
+    "completion_tokens": 84,
+    "total_tokens": 1230,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 122
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

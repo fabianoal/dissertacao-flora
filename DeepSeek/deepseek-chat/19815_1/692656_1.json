@@ -1,0 +1,28 @@
+{
+  "id": "f5cb8149-50a4-476b-88f5-a8b7dfea7f2b",
+  "object": "chat.completion",
+  "created": 1758484430,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implantação de métodos de monitoramento contínuo, o que visa aprimorar e sustentar os controles existentes a longo prazo, abordando a causa subjacente da falta de monitoramento, em vez de apenas corrigir uma condição específica atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1091,
+    "completion_tokens": 83,
+    "total_tokens": 1174,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 131
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

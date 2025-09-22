@@ -1,0 +1,28 @@
+{
+  "id": "eaad8ee0-a1eb-4bf3-93e9-6ecebbe10dff",
+  "object": "chat.completion",
+  "created": 1758484978,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de processos sistêmicos e contínuos, como a integração cíclica dos instrumentos de planejamento (Plano de Saúde, Programações Anuais de Saúde, Relatório Anual de Gestão), monitoramento regular dos dados do SIA/SUS, e submissão do RAG ao Conselho de Saúde, visando evitar a reocorrência da falta de informações sobre dados dos procedimentos e promovendo melhorias de longo prazo na gestão, transparência e eficiência do sistema de saúde.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1283,
+    "completion_tokens": 140,
+    "total_tokens": 1423,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 323
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

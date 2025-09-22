@@ -1,0 +1,28 @@
+{
+  "id": "e97d007e-4cfa-4bdc-bcf8-76124acab723",
+  "object": "chat.completion",
+  "created": 1758469582,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é o ressarcimento do valor cobrado indevidamente ao SUS, sem propor ações para prevenir a recorrência da irregularidade, como melhorias em processos de cobrança ou fiscalização.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1121,
+    "completion_tokens": 78,
+    "total_tokens": 1199,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 161
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

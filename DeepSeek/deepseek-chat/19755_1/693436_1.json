@@ -1,0 +1,28 @@
+{
+  "id": "2baffcea-4dc5-4471-aec7-2caac4d71ed3",
+  "object": "chat.completion",
+  "created": 1758481970,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um sistema de gestão da qualidade para documentar, verificar e assegurar requisitos específicos, o que visa abordar a causa raiz da não conformidade ao estabelecer processos estruturados e preventivos para evitar recorrências, em vez de apenas corrigir a condição atual de transporte inadequado.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1102,
+    "completion_tokens": 95,
+    "total_tokens": 1197,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 142
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

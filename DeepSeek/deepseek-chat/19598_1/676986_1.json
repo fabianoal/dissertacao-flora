@@ -1,0 +1,28 @@
+{
+  "id": "a93a834d-ffd4-4a1c-80b2-abf054bc9980",
+  "object": "chat.completion",
+  "created": 1758475982,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe uma revisão sistemática dos cálculos e uma verificação de processos subjacentes para identificar e corrigir as causas das divergências, visando prevenir a recorrência do problema, o que se alinha com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1108,
+    "completion_tokens": 82,
+    "total_tokens": 1190,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 148
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

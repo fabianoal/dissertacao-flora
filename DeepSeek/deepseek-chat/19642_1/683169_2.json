@@ -1,0 +1,28 @@
+{
+  "id": "1c1bb0e1-545e-47dc-a413-f254ddf57c8b",
+  "object": "chat.completion",
+  "created": 1758479050,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação orienta a adoção de procedimentos administrativos específicos conforme decretos vigentes, visando prevenir futuras ocorrências similares e garantir a conformidade contínua, o que se alinha com soluções de longo prazo típicas de recomendações focadas na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1192,
+    "completion_tokens": 84,
+    "total_tokens": 1276,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 232
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

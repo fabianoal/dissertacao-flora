@@ -1,0 +1,28 @@
+{
+  "id": "171e4c7e-b228-47b7-ba35-084a73582a04",
+  "object": "chat.completion",
+  "created": 1758488580,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de mecanismos de controle e medidas de segurança permanentes, como estabelecidos em leis, para prevenir falhas futuras na gestão de acesso e proteção de prontuários, focando na causa subjacente das inconformidades identificadas.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1155,
+    "completion_tokens": 80,
+    "total_tokens": 1235,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 195
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

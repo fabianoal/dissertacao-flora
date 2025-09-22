@@ -1,0 +1,28 @@
+{
+  "id": "123b4d7a-ad17-4f6a-9738-ccf6afcfd38f",
+  "object": "chat.completion",
+  "created": 1758479170,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações contínuas e de longo prazo, como cadastrar e manter atualizadas as informações no Sisab, além de estabelecer práticas permanentes de transparência e acesso para auditorias, visando prevenir a recorrência da falha no preenchimento de prontuários e melhorar a gestão em saúde de forma sustentável.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1196,
+    "completion_tokens": 99,
+    "total_tokens": 1295,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 300
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

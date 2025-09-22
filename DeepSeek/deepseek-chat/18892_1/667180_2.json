@@ -1,0 +1,28 @@
+{
+  "id": "505666b5-bda1-4fb7-b487-9bbaa3c3c18d",
+  "object": "chat.completion",
+  "created": 1758468554,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações como adotar medidas para cumprir normativas sobre carga horária, dotar a equipe de um profissional médico específico e restabelecer o funcionamento de uma unidade móvel, visando resolver as causas subjacentes do descumprimento das normativas e prevenir sua recorrência, em vez de apenas corrigir temporariamente as condições atuais.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1311,
+    "completion_tokens": 104,
+    "total_tokens": 1415,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 351
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

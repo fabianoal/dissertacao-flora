@@ -1,0 +1,28 @@
+{
+  "id": "949e77f9-e07b-4531-adcb-7c4ceb85ed2c",
+  "object": "chat.completion",
+  "created": 1758488472,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação solicita a apresentação de comprovação documental para corrigir a condição atual de não comprovação da implementação do ACR, focando em uma solução temporária e imediata para a inconformidade encontrada, sem abordar as causas subjacentes que levaram à não implementação ou à falta de documentação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1128,
+    "completion_tokens": 96,
+    "total_tokens": 1224,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 168
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

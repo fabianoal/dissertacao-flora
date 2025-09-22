@@ -1,0 +1,28 @@
+{
+  "id": "772fb46c-02d3-45ef-9f62-2f33ab1db518",
+  "object": "chat.completion",
+  "created": 1758483098,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de uma mudança estrutural nos instrumentos de gestão da SMS para incluir informações suficientes sobre o PNI, visando assegurar o efetivo planejamento, monitoramento e avaliação contínua, o que aborda a causa raiz da deficiência identificada e previne sua recorrência a longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1119,
+    "completion_tokens": 101,
+    "total_tokens": 1220,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 159
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "eb403d97-8df2-4fe8-9870-5fbb0d52cc0d",
+  "object": "chat.completion",
+  "created": 1758479938,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação visa assegurar o cumprimento de uma disposição normativa de forma contínua e preventiva, focando na implementação de processos ou políticas (como a realização regular de visitas técnicas) para evitar a recorrência da ausência de supervisão, caracterizando uma solução de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1043,
+    "completion_tokens": 89,
+    "total_tokens": 1132,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 83
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

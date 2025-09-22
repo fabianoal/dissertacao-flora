@@ -1,0 +1,28 @@
+{
+  "id": "4d36750b-1e37-4fd6-8a10-e085f02910e1",
+  "object": "chat.completion",
+  "created": 1758478058,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe uma ação que visa estabelecer ou reforçar um processo de acompanhamento contínuo e sistemático, conforme a normativa, para prevenir futuras ausências de fiscalização, abordando a causa subjacente da falta de supervisão em vez de apenas corrigir a condição específica atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1064,
+    "completion_tokens": 88,
+    "total_tokens": 1152,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 104
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

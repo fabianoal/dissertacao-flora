@@ -1,0 +1,28 @@
+{
+  "id": "041f57e1-34e9-45e9-b0e3-465d8c6a8784",
+  "object": "chat.completion",
+  "created": 1758470234,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe que a SAES/MS realize acompanhamento e adote medidas administrativas para garantir a devolução dos recursos, focando em ações sistêmicas de gestão e controle que visam prevenir futuras não conformidades, alinhando-se com soluções de longo prazo para evitar a recorrência do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1216,
+    "completion_tokens": 90,
+    "total_tokens": 1306,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 256
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "1e2eb928-6a5f-4a19-a42f-40bf6c2e1f34",
+  "object": "chat.completion",
+  "created": 1758475282,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um sistema de prontuário eletrônico e a informatização das unidades de saúde, juntamente com treinamento e capacitação, o que visa resolver a causa raiz da discrepância entre os dados consolidados e os prontuários, promovendo uma solução de longo prazo para evitar a recorrência do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1118,
+    "completion_tokens": 102,
+    "total_tokens": 1220,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 158
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

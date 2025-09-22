@@ -1,0 +1,28 @@
+{
+  "id": "06589d0a-589a-49c8-9b9c-c1ab16111088",
+  "object": "chat.completion",
+  "created": 1758473442,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação solicita a implementação de um processo contínuo para garantir que as etiquetas de rastreabilidade sejam solicitadas ao fornecedor e anexadas aos prontuários, abordando a causa raiz da ausência de identificação e prevenindo futuras ocorrências, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1144,
+    "completion_tokens": 93,
+    "total_tokens": 1237,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 184
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

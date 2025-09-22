@@ -1,0 +1,28 @@
+{
+  "id": "21f06748-8c47-42f1-828e-3db781d48567",
+  "object": "chat.completion",
+  "created": 1758478662,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de controles internos e políticas de governança, que são ações preventivas e de longo prazo destinadas a evitar a recorrência das divergências encontradas, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1088,
+    "completion_tokens": 81,
+    "total_tokens": 1169,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

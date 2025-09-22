@@ -1,0 +1,28 @@
+{
+  "id": "67c36fcc-f701-4203-bc0c-85e1c642cbc5",
+  "object": "chat.completion",
+  "created": 1758473426,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a perda financeira devido à não localização dos prontuários, ao exigir a devolução dos recursos com acréscimos legais, sem propor ações para prevenir a recorrência do problema subjacente, como a implementação de um sistema de gestão de prontuários ou políticas de controle de acesso.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1129,
+    "completion_tokens": 107,
+    "total_tokens": 1236,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 169
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

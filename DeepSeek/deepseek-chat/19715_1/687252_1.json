@@ -1,0 +1,28 @@
+{
+  "id": "7edc7e63-030d-44f6-88a9-e9763f215ddf",
+  "object": "chat.completion",
+  "created": 1758480766,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfoca a necessidade de estabelecer uma contratualização vigente que formalize a relação entre gestores e hospitais, definindo responsabilidades e obrigações para promover a qualificação da assistência e gestão, o que visa prevenir a recorrência da ausência de documentação válida no futuro, caracterizando uma solução de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1182,
+    "completion_tokens": 97,
+    "total_tokens": 1279,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 286
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

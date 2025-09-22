@@ -1,0 +1,28 @@
+{
+  "id": "fffc8da5-c877-498a-b00f-d0aa0a104200",
+  "object": "chat.completion",
+  "created": 1758480214,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a adoção de providências administrativas para garantir conformidade com normas e portarias específicas, visando implementar controles e avaliações sistemáticas que previnam a recorrência de irregularidades na produção inserida nos sistemas do SUS, caracterizando um foco na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1247,
+    "completion_tokens": 87,
+    "total_tokens": 1334,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 287
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

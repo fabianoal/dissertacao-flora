@@ -1,0 +1,28 @@
+{
+  "id": "80b591ef-2df7-499a-b9eb-a8e4e40286b2",
+  "object": "chat.completion",
+  "created": 1758481058,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo de manutenção dos dados cadastrais, alinhado a normas específicas, visando prevenir futuras desatualizações e garantir conformidade permanente, o que caracteriza uma solução de longo prazo focada na causa raiz do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1097,
+    "completion_tokens": 88,
+    "total_tokens": 1185,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 137
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

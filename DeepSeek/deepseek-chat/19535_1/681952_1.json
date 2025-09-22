@@ -1,0 +1,28 @@
+{
+  "id": "27e8e4c2-0a8e-4c5b-affc-74fcce9542db",
+  "object": "chat.completion",
+  "created": 1758474242,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de apresentação contínua e proativa de documentação conforme exigências regulatórias, visando estabelecer um processo sistemático para evitar a não apresentação no futuro, alinhando-se com soluções de longo prazo para causas subjacentes, como a falta de conformidade com normas.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1191,
+    "completion_tokens": 89,
+    "total_tokens": 1280,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 231
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

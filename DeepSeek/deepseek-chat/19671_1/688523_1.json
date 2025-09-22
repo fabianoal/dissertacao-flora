@@ -1,0 +1,28 @@
+{
+  "id": "4aa79990-5476-4e60-83df-992f65c1367c",
+  "object": "chat.completion",
+  "created": 1758479518,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a adoção de medidas para prevenir danos futuros e o desenvolvimento de mecanismos de gestão, controle, monitoramento e avaliação, visando melhorias estruturais e de longo prazo na atenção especializada à saúde, alinhando-se com soluções que abordam a causa subjacente das inconformidades.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1205,
+    "completion_tokens": 92,
+    "total_tokens": 1297,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 245
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "e1401533-06f2-43f9-96d5-d6b52d5d5ae0",
+  "object": "chat.completion",
+  "created": 1758488776,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação estabelece mecanismos de monitoramento e fiscalização para prevenir futuras irregularidades, além de incluir ações corretivas como a perícia pós-operatória e a responsabilização para ressarcimento, focando em soluções de longo prazo para evitar a recorrência da condição irregular.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1518,
+    "completion_tokens": 86,
+    "total_tokens": 1604,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 622
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

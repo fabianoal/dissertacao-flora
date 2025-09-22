@@ -1,0 +1,28 @@
+{
+  "id": "16ff7adc-21f8-4177-92dd-8aa6a40603d0",
+  "object": "chat.completion",
+  "created": 1758480410,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação sugere a implementação de um processo contínuo de verificação e conformidade com os códigos CBO para prevenir futuras ocorrências de profissionais não aptos realizando procedimentos, focando na causa raiz (falta de atenção aos códigos) em vez de apenas corrigir a condição específica observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1179,
+    "completion_tokens": 93,
+    "total_tokens": 1272,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 283
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

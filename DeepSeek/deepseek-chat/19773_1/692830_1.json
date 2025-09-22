@@ -1,0 +1,28 @@
+{
+  "id": "2a9a8859-e226-4a17-84e6-d8cb1c75dd50",
+  "object": "chat.completion",
+  "created": 1758482606,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe adequar a estrutura física para cumprir padrões estabelecidos, o que envolve mudanças estruturais de longo prazo para prevenir a recorrência da condição inadequada, alinhando-se com soluções que abordam a causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1113,
+    "completion_tokens": 79,
+    "total_tokens": 1192,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 153
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

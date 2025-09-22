@@ -1,0 +1,28 @@
+{
+  "id": "fc298f8d-fcda-42c9-9f7b-4f5a4d9b945f",
+  "object": "chat.completion",
+  "created": 1758477286,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistemático para futuros convênios, exigindo que os Planos de Trabalho incluam demonstrativos de pesquisas de preço, o que visa prevenir a recorrência da ausência de definição de preço de referência, caracterizando uma solução de longo prazo e foco na causa raiz.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1167,
+    "completion_tokens": 99,
+    "total_tokens": 1266,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 143
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

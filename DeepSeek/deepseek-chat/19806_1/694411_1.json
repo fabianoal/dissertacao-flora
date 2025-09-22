@@ -1,0 +1,28 @@
+{
+  "id": "d0b97633-2816-4ff0-8aaa-1dff1eea0735",
+  "object": "chat.completion",
+  "created": 1758483954,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implantação de mecanismos de acompanhamento para prevenir a reocorrência da condição observada, focando em uma solução de longo prazo que envolve mudanças estruturais no processo de trabalho da APS, alinhando-se com a definição de recomendações cause-based.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1116,
+    "completion_tokens": 87,
+    "total_tokens": 1203,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 156
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

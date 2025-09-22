@@ -1,0 +1,28 @@
+{
+  "id": "714941e7-a009-4466-83db-5d872f82a7c0",
+  "object": "chat.completion",
+  "created": 1758470414,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação solicita a adoção de procedimentos específicos conforme decretos estabelecidos, visando prevenir futuras ocorrências similares e garantir conformidade contínua, o que caracteriza um foco na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1186,
+    "completion_tokens": 70,
+    "total_tokens": 1256,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 226
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "fba79ad1-ea19-4916-bd03-77f87a7a6b25",
+  "object": "chat.completion",
+  "created": 1758475898,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de mecanismos de monitoramento contínuo, o que visa prevenir a recorrência da divergência de informações no CNES, abordando a causa subjacente (falta de atualização sistemática) em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1039,
+    "completion_tokens": 86,
+    "total_tokens": 1125,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 79
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

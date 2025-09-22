@@ -1,0 +1,28 @@
+{
+  "id": "7f007c7d-0139-4941-bb9e-7d2f7d69de4b",
+  "object": "chat.completion",
+  "created": 1758509014,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a ausência da APAC concomitante, ao exigir sua manutenção futura em conformidade com a portaria, sem propor ações para prevenir a causa raiz da não apresentação, como melhorias em processos ou treinamentos.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1098,
+    "completion_tokens": 89,
+    "total_tokens": 1187,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 202
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "3a71ff97-a42f-4658-b76f-d682dce7da32",
+  "object": "chat.completion",
+  "created": 1758482282,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um procedimento estruturado e permanente para instruir processos de compras de forma racionalizada, alinhando-se com orientações normativas específicas, o que visa prevenir a recorrência da condição irregular observada, caracterizando uma solução de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1196,
+    "completion_tokens": 87,
+    "total_tokens": 1283,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 236
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "50396fca-0c33-4768-a143-20270abc33f4",
+  "object": "chat.completion",
+  "created": 1758468546,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação visa garantir a disponibilidade contínua de equipamentos e insumos, abordando a causa raiz da falta de recursos ao exigir conformidade com normas de infraestrutura e gestão, promovendo uma solução de longo prazo para evitar a recorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1196,
+    "completion_tokens": 86,
+    "total_tokens": 1282,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 236
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

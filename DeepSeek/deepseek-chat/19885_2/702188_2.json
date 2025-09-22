@@ -1,0 +1,28 @@
+{
+  "id": "a7b47e16-5fa5-4466-a0d4-2010272abdc4",
+  "object": "chat.completion",
+  "created": 1758489048,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações de capacitação, monitoramento e avaliação contínuos para garantir a correta codificação e descrição dos procedimentos, alinhando-se com manuais e tabelas atualizadas, o que visa prevenir a recorrência da inconsistência identificada, caracterizando um foco na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1125,
+    "completion_tokens": 90,
+    "total_tokens": 1215,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 165
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

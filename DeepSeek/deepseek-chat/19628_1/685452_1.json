@@ -1,0 +1,28 @@
+{
+  "id": "a5161a18-5a31-4d2f-8108-3efebc5827b9",
+  "object": "chat.completion",
+  "created": 1758478622,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe o estabelecimento de medidas para assegurar a anexação correta de cópias de notas fiscais nos prontuários, o que visa prevenir a recorrência da ausência desses documentos, abordando a causa subjacente (falta de processos ou controles) e promovendo uma solução de longo prazo, em vez de apenas corrigir a condição atual de ausência.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1174,
+    "completion_tokens": 111,
+    "total_tokens": 1285,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 214
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

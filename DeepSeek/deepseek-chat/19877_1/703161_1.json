@@ -1,0 +1,28 @@
+{
+  "id": "961347c5-3380-4fbe-900c-565a402fcc0c",
+  "object": "chat.completion",
+  "created": 1758488808,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a adoção de procedimentos estabelecidos em decretos e portarias para prevenir a recorrência do fato, focando em ações de longo prazo que abordam a causa subjacente da irregularidade, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1119,
+    "completion_tokens": 80,
+    "total_tokens": 1199,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 159
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

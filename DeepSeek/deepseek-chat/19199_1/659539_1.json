@@ -1,0 +1,28 @@
+{
+  "id": "3c8355f6-a1dc-4f13-8efd-68e73a257aa9",
+  "object": "chat.completion",
+  "created": 1758469138,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a observância de disposições legais específicas (Lei 8.666/1993 e Lei 14.133/2021) para garantir conformidade futura na celebração de contratos de locação, abordando a causa raiz da não realização do laudo de vistoria ao estabelecer práticas preventivas e de longo prazo, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1187,
+    "completion_tokens": 112,
+    "total_tokens": 1299,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 227
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "3bbbee63-3d42-4ef2-a3dd-65ce37cc3604",
+  "object": "chat.completion",
+  "created": 1758468854,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação se concentra em corrigir a condição atual de não conformidade com os requisitos específicos da RDC/ANVISA, sem propor ações para prevenir a recorrência das distorções na conservação/adaptação predial.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1055,
+    "completion_tokens": 73,
+    "total_tokens": 1128,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 95
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

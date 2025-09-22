@@ -1,0 +1,28 @@
+{
+  "id": "23c06cee-b547-47a1-b98d-b3002f310529",
+  "object": "chat.completion",
+  "created": 1758484586,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de Projetos Terapêuticos Singulares (PTS) com participação ativa do paciente, família e comunidade, visando estabelecer um processo contínuo e estruturado de cuidado que previna a recorrência da condição observada (falta de desenvolvimento de PTS), promovendo mudanças de longo prazo na prática clínica e na cultura organizacional, em conformidade com as normas citadas.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1228,
+    "completion_tokens": 120,
+    "total_tokens": 1348,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 268
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

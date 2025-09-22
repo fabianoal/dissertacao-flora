@@ -1,0 +1,28 @@
+{
+  "id": "f259de4e-8bb3-444c-aff6-3cdcc72d72a9",
+  "object": "chat.completion",
+  "created": 1758480294,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a sistematização de um processo para reposição ou ampliação do quadro de profissionais, o que visa abordar a causa raiz da incompatibilidade entre a produção registrada e a capacidade instalada, promovendo uma solução de longo prazo para evitar a recorrência do problema, em vez de apenas corrigir a condição atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1041,
+    "completion_tokens": 99,
+    "total_tokens": 1140,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 81
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

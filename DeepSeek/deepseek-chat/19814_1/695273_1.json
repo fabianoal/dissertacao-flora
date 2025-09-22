@@ -1,0 +1,28 @@
+{
+  "id": "27fd1092-e905-4827-9c7f-b81ea839d60f",
+  "object": "chat.completion",
+  "created": 1758484378,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um sistema de informação para registro detalhado e atualizado das ações de saúde, o que visa prevenir a reocorrência da condição de registros inadequados, envolvendo mudanças estruturais de longo prazo, como a melhoria da gestão e planejamento, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1134,
+    "completion_tokens": 106,
+    "total_tokens": 1240,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 174
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

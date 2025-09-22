@@ -1,0 +1,28 @@
+{
+  "id": "86fed711-9cd8-4c9b-81b6-cc85db989874",
+  "object": "chat.completion",
+  "created": 1758479122,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a adoção de providências para o correto cadastramento e atualização contínua dos dados, o que visa prevenir a recorrência de duplicidades no futuro, alinhando-se com soluções de longo prazo para evitar a causa do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1060,
+    "completion_tokens": 80,
+    "total_tokens": 1140,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 100
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

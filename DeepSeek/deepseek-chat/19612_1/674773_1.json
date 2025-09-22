@@ -1,0 +1,28 @@
+{
+  "id": "5245ed2f-aa04-4106-af0b-ebf83b439efc",
+  "object": "chat.completion",
+  "created": 1758476934,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a orientação de fiscais e gestores para realizar conferências sistemáticas da documentação comprobatória em conformidade com normativos específicos, visando prevenir futuras ocorrências de contratações irregulares por inexigibilidade, o que se alinha com soluções de longo prazo para evitar a reincidência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1189,
+    "completion_tokens": 101,
+    "total_tokens": 1290,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 229
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "f12c765b-a855-48b1-9032-141acf38ac34",
+  "object": "chat.completion",
+  "created": 1758488508,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação visa garantir que a SES/TO implemente uma sistematização documental permanente da linha de cuidado do trauma, o que aborda a causa subjacente da falta de documentação e previne futuras ocorrências similares, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1121,
+    "completion_tokens": 82,
+    "total_tokens": 1203,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 161
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

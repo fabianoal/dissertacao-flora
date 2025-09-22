@@ -1,0 +1,28 @@
+{
+  "id": "ab72f3d3-cea5-4ec6-8342-3eac61c6e226",
+  "object": "chat.completion",
+  "created": 1758477346,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, notificando a convenente para apresentar justificativas sobre a não realização de cotação de preços, sem propor ações para prevenir a recorrência da impropriedade no futuro.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1042,
+    "completion_tokens": 77,
+    "total_tokens": 1119,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 82
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

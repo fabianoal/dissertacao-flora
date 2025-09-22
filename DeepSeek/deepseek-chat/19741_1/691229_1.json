@@ -1,0 +1,28 @@
+{
+  "id": "1b2098a7-119c-44c5-bf1d-a3d0c7a2ba33",
+  "object": "chat.completion",
+  "created": 1758481426,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adequação ou substituição do veículo de transporte para atender aos requisitos normativos de forma permanente, visando prevenir a recorrência da condição inadequada, o que caracteriza uma solução de longo prazo focada na causa raiz do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1112,
+    "completion_tokens": 81,
+    "total_tokens": 1193,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 152
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

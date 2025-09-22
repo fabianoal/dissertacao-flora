@@ -1,0 +1,28 @@
+{
+  "id": "dd166eba-6529-4319-96ab-a828179bc299",
+  "object": "chat.completion",
+  "created": 1758485030,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo de compartilhamento de registros, o que visa prevenir a recorrência da não compartilhamento, alinhando-se com soluções de longo prazo para a causa subjacente, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1049,
+    "completion_tokens": 89,
+    "total_tokens": 1138,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 89
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "63526ee8-e00c-4f8b-afc0-50c15f3375c4",
+  "object": "chat.completion",
+  "created": 1758477070,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de critérios mínimos de detalhamento das despesas em planos de trabalho, incluindo definições de quantitativo, datas e plano de ação, o que visa prevenir a recorrência da ausência de discriminação de despesas administrativas, abordando a causa subjacente e promovendo uma solução de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1151,
+    "completion_tokens": 103,
+    "total_tokens": 1254,
+    "prompt_tokens_details": {
+      "cached_tokens": 1088
+    },
+    "prompt_cache_hit_tokens": 1088,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

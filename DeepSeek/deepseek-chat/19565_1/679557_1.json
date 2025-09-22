@@ -1,0 +1,28 @@
+{
+  "id": "1fc3de67-a514-44da-b71c-0a584bcbb36a",
+  "object": "chat.completion",
+  "created": 1758475050,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a ausência de comprovação da execução das despesas, ao exigir a devolução do valor específico ao Fundo Nacional de Saúde, sem propor ações para prevenir a recorrência da irregularidade no futuro.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1160,
+    "completion_tokens": 86,
+    "total_tokens": 1246,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 200
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

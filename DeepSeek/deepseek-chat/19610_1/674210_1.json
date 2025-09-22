@@ -1,0 +1,28 @@
+{
+  "id": "0e2f4c31-5c4f-4d21-9acc-8c596f9f20d9",
+  "object": "chat.completion",
+  "created": 1758476518,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a inserção dos relatórios de monitoramento no sistema Transferegov, o que envolve a implementação de um processo ou procedimento contínuo para garantir a conformidade futura, abordando a causa raiz da ausência dos relatórios e promovendo uma solução de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1054,
+    "completion_tokens": 91,
+    "total_tokens": 1145,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 94
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

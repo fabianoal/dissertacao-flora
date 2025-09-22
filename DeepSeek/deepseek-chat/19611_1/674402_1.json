@@ -1,0 +1,28 @@
+{
+  "id": "54ae957b-fd9b-4bce-90fa-d062d6c8417c",
+  "object": "chat.completion",
+  "created": 1758476658,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, solicitando notificação, apuração e justificativas para o fato específico, sem propor ações para prevenir ocorrências futuras ou abordar causas subjacentes.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1072,
+    "completion_tokens": 72,
+    "total_tokens": 1144,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 112
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

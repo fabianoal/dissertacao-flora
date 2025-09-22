@@ -1,0 +1,28 @@
+{
+  "id": "9008fca3-1c23-4e1b-835f-8d4ab87b5914",
+  "object": "chat.completion",
+  "created": 1758469442,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a capacitação contínua dos servidores em gestão e fiscalização de contratos, alinhada a normas específicas, visando prevenir a baixa comprovação de capacitação no futuro, o que caracteriza uma solução de longo prazo para evitar a recorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1149,
+    "completion_tokens": 91,
+    "total_tokens": 1240,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 253
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

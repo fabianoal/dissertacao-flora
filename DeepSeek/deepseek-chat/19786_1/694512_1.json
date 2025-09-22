@@ -1,0 +1,28 @@
+{
+  "id": "3f1240c7-1874-4185-8be4-1539bae4d70b",
+  "object": "chat.completion",
+  "created": 1758483210,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada (falta de calibração e qualificação térmica), sem propor ações para prevenir a recorrência, como implementação de processos contínuos ou políticas de manutenção.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1073,
+    "completion_tokens": 74,
+    "total_tokens": 1147,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 113
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

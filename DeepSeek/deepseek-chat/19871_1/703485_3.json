@@ -1,0 +1,28 @@
+{
+  "id": "791433ca-3d40-4ccb-808a-e186d7e6b662",
+  "object": "chat.completion",
+  "created": 1758488676,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a avaliação e promoção de ajustes para alinhar os normativos vigentes, o que envolve mudanças sistêmicas e de longo prazo, como a implementação de processos contínuos de compatibilidade entre procedimentos e diagnósticos, visando prevenir a recorrência da incompatibilidade observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1185,
+    "completion_tokens": 93,
+    "total_tokens": 1278,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 161
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

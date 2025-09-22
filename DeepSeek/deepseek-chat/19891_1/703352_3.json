@@ -1,0 +1,28 @@
+{
+  "id": "431fd324-4cec-4e9e-82cb-bdf76b148263",
+  "object": "chat.completion",
+  "created": 1758491296,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a avaliação e promoção de ajustes para alinhar normativos vigentes, o que envolve mudanças estruturais e de longo prazo para prevenir a recorrência da incompatibilidade entre procedimentos e diagnósticos, além de instruir procedimentos para acompanhamento da devolução de recursos, focando na causa raiz do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1376,
+    "completion_tokens": 99,
+    "total_tokens": 1475,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 352
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

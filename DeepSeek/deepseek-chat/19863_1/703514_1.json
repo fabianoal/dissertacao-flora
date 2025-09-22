@@ -1,0 +1,28 @@
+{
+  "id": "bc3feb92-7a9f-40b0-95ca-8313d8bc240c",
+  "object": "chat.completion",
+  "created": 1758488344,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de cumprir um compromisso de revisão ou elaboração do regimento interno, o que implica uma ação estrutural e de longo prazo para prevenir a não conformidade futura, alinhando-se com o foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1095,
+    "completion_tokens": 77,
+    "total_tokens": 1172,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 135
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

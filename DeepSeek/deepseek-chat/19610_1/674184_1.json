@@ -1,0 +1,28 @@
+{
+  "id": "eb1fb0a3-5131-4a16-b202-4a225dfbd220",
+  "object": "chat.completion",
+  "created": 1758476438,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistemático de conferência documental por fiscais e gestores, visando prevenir futuras ocorrências de pagamentos sem cobertura contratual, o que envolve uma solução de longo prazo e foca na causa raiz (falta de verificação adequada) em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1066,
+    "completion_tokens": 100,
+    "total_tokens": 1166,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 106
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

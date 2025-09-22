@@ -1,0 +1,28 @@
+{
+  "id": "f2dc6e0a-5437-4f09-9518-7371c6ed7513",
+  "object": "chat.completion",
+  "created": 1758480826,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a revisão das orientações do Procedimento Operacional Padrão (POP) para garantir o aporte nutricional suficiente, abordando a causa subjacente (falhas nos procedimentos operacionais) para prevenir a recorrência da condição insuficiente, em vez de apenas corrigir a situação específica observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1142,
+    "completion_tokens": 94,
+    "total_tokens": 1236,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 182
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

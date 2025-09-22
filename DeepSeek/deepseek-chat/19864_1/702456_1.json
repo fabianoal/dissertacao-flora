@@ -1,0 +1,28 @@
+{
+  "id": "89c31bb4-29ac-4a86-b0be-5bb655dbc2c0",
+  "object": "chat.completion",
+  "created": 1758488560,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de mecanismos de controle, acesso e proteção para prontuários eletrônicos, visando prevenir a ocorrência futura de acessos não autorizados e garantir conformidade legal de forma sustentável, o que se alinha com soluções de longo prazo para evitar a recorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1082,
+    "completion_tokens": 98,
+    "total_tokens": 1180,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 122
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

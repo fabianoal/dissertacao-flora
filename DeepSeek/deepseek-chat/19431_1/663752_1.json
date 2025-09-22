@@ -1,0 +1,28 @@
+{
+  "id": "da019cf1-6ac8-4976-8ec9-5fcdf1832d30",
+  "object": "chat.completion",
+  "created": 1758470350,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação exige a apresentação e posse de documentação específica conforme normas estabelecidas, visando garantir conformidade contínua e prevenir futuras inconformidades, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1151,
+    "completion_tokens": 69,
+    "total_tokens": 1220,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 255
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

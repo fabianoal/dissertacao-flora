@@ -1,0 +1,28 @@
+{
+  "id": "4d7e04f6-2bd5-4774-b412-e649cefa10d3",
+  "object": "chat.completion",
+  "created": 1758468490,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de executar o contrato fielmente de acordo com cláusulas específicas e legislação aplicável, visando estabelecer práticas permanentes de conformidade e prevenção de futuras inconformidades, em vez de apenas corrigir a condição atual de pagamento indevido.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1342,
+    "completion_tokens": 90,
+    "total_tokens": 1432,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 382
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

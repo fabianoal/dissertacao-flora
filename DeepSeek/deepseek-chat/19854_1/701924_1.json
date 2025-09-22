@@ -1,0 +1,28 @@
+{
+  "id": "0f79d41d-15cf-4ba7-9e64-0ecdd7191477",
+  "object": "chat.completion",
+  "created": 1758487932,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a criação de um programa de capacitação permanente, o que visa abordar a causa subjacente (falta de capacitação contínua) para prevenir a reocorrência da condição (profissionais não capacitados), alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1109,
+    "completion_tokens": 84,
+    "total_tokens": 1193,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 149
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

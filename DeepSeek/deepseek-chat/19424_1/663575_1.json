@@ -1,0 +1,28 @@
+{
+  "id": "bfaea9a7-55f5-4543-87d9-4a50745d0e60",
+  "object": "chat.completion",
+  "created": 1758470302,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a falta de documentação comprobatória do estoque, ao exigir o encaminhamento da documentação quando solicitada, sem propor ações para prevenir a recorrência da causa subjacente, como a implementação de processos sistemáticos de registro e manutenção de inventários.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1203,
+    "completion_tokens": 99,
+    "total_tokens": 1302,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 243
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

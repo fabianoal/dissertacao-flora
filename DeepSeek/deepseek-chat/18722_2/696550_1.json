@@ -1,0 +1,28 @@
+{
+  "id": "fa9edbc2-cf10-42bf-a022-85e4c12c0f9f",
+  "object": "chat.completion",
+  "created": 1758468479,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a adoção de medidas legais para responsabilizar gestores anteriores e prevenir futuras irregularidades, indo além da simples correção da condição atual (devolução de recursos) para abordar a causa subjacente de omissão na prestação de contas e promover mudanças institucionais de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1607,
+    "completion_tokens": 94,
+    "total_tokens": 1701,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 647
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

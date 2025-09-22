@@ -1,0 +1,28 @@
+{
+  "id": "9d9a59d9-e8a2-4b42-9a56-062009d4d68a",
+  "object": "chat.completion",
+  "created": 1758468870,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a realização de um estudo técnico para demonstrar a necessidade de contratação complementar, abordando a causa raiz (falta de análise adequada da demanda e capacidade operacional) para prevenir futuras impropriedades em contratações, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1202,
+    "completion_tokens": 89,
+    "total_tokens": 1291,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 242
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

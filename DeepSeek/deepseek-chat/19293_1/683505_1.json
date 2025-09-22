@@ -1,0 +1,28 @@
+{
+  "id": "15fa5a7c-c893-4d0f-8ef1-ef39c7c49301",
+  "object": "chat.completion",
+  "created": 1758469378,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a criação de fluxos de monitoramento periódico e mecanismos de controle para mitigar riscos de desatualização no SCNES, focando em ações preventivas e de longo prazo que visam evitar a recorrência da condição, em vez de apenas corrigir a desatualização atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1218,
+    "completion_tokens": 91,
+    "total_tokens": 1309,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 258
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "f02912b7-0ea0-4ce3-8150-0adf261445fb",
+  "object": "chat.completion",
+  "created": 1758479202,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe uma ação organizacional que visa ajustar a estrutura das equipes de Saúde da Família para atender aos parâmetros normativos de forma contínua, abordando a causa subjacente da não conformidade (desorganização na alocação de população) e promovendo uma solução de longo prazo, em vez de apenas corrigir a condição atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1094,
+    "completion_tokens": 105,
+    "total_tokens": 1199,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 134
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

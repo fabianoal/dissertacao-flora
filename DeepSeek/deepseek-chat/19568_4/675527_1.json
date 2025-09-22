@@ -1,0 +1,28 @@
+{
+  "id": "cf63d5be-23ab-4a3e-a947-ee27e599aa17",
+  "object": "chat.completion",
+  "created": 1758475274,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo de divulgação de informações em veículo público de comunicação municipal, o que visa prevenir a recorrência da indisponibilidade de resultados e promover transparência sustentável a longo prazo, alinhando-se com a definição de cause-based ao abordar a causa subjacente da falta de acesso público.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1123,
+    "completion_tokens": 99,
+    "total_tokens": 1222,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 163
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

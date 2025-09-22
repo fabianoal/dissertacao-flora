@@ -1,0 +1,28 @@
+{
+  "id": "f62b8af2-86f2-4351-903f-9d7df973b994",
+  "object": "chat.completion",
+  "created": 1758484194,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de atividades contínuas e o registro adequado no Programa Saúde na Escola, o que visa estabelecer processos sustentáveis para prevenir a recorrência da falta de ações de saúde mental, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1143,
+    "completion_tokens": 78,
+    "total_tokens": 1221,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 183
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

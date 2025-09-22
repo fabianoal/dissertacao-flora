@@ -1,0 +1,28 @@
+{
+  "id": "d2ba7af7-e0f6-4791-a714-b278bc48bcae",
+  "object": "chat.completion",
+  "created": 1758480942,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação propõe a devolução de valores financeiros para corrigir a condição específica de pagamentos indevidos identificada na auditoria, sem abordar ações preventivas ou mudanças sistêmicas para evitar a recorrência do problema, focando apenas na solução temporária da inconformidade atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1194,
+    "completion_tokens": 87,
+    "total_tokens": 1281,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 170
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6d2be97f-825b-4dcf-85fc-43c32b16e461",
+  "object": "chat.completion",
+  "created": 1758477318,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo de acompanhamento e monitoramento dos registros de horário de trabalho, o que visa prevenir a recorrência da inconformidade ao abordar a causa subjacente (falta de controle e fiscalização), em vez de apenas corrigir a condição específica observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1057,
+    "completion_tokens": 93,
+    "total_tokens": 1150,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 97
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

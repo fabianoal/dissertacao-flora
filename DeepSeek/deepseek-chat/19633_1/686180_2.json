@@ -1,0 +1,28 @@
+{
+  "id": "449d5913-5b63-44b3-89f7-8b7f620fc48e",
+  "object": "chat.completion",
+  "created": 1758478850,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação sugere a adoção de procedimentos para melhor controle, monitoramento e avaliação das produções informadas, focando em ações preventivas e de longo prazo para evitar a reocorrência da inserção não comprovada de dados, alinhando-se com a definição de recomendações cause-based.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1290,
+    "completion_tokens": 88,
+    "total_tokens": 1378,
+    "prompt_tokens_details": {
+      "cached_tokens": 1152
+    },
+    "prompt_cache_hit_tokens": 1152,
+    "prompt_cache_miss_tokens": 138
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

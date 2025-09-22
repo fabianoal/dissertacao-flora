@@ -1,0 +1,28 @@
+{
+  "id": "3302d4e9-b2b1-43a9-a48a-67f7dc6dd30f",
+  "object": "chat.completion",
+  "created": 1758469950,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo de negociação com fornecedores para ajustar preços com base nas condições de mercado, o que visa prevenir a ocorrência futura de estimativas de preço inadequadas, alinhando-se com soluções de longo prazo e foco na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1065,
+    "completion_tokens": 92,
+    "total_tokens": 1157,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 169
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

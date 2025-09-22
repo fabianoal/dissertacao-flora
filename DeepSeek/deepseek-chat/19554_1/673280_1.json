@@ -1,0 +1,28 @@
+{
+  "id": "87ca0ebd-678f-42cc-ba2e-9c200c3afdf8",
+  "object": "chat.completion",
+  "created": 1758474798,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de uma prática contínua de divulgação de informações, alinhada à legislação, para prevenir a recorrência da não divulgação, focando na causa subjacente (falta de processos ou políticas) em vez de apenas corrigir a condição atual específica.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1072,
+    "completion_tokens": 89,
+    "total_tokens": 1161,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 112
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

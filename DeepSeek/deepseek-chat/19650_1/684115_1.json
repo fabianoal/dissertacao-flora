@@ -1,0 +1,28 @@
+{
+  "id": "3c454a38-a5d2-4eac-979d-9030b10ade02",
+  "object": "chat.completion",
+  "created": 1758479206,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações estruturais e de longo prazo, como exercer a administração orçamentária, elaborar instrumentos de planejamento detalhados, prestar contas regularmente e utilizar sistemas digitais específicos, visando prevenir a não apresentação do RAG e outras inconformidades futuras, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1433,
+    "completion_tokens": 107,
+    "total_tokens": 1540,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 473
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "de10cf42-9044-4c1a-9f22-70c410401c5f",
+  "object": "chat.completion",
+  "created": 1758473558,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de medidas para assegurar o cumprimento de normativos e a atualização de instrumentos normativos, visando prevenir a recorrência da inconformidade no recebimento de OPME, alinhando-se com soluções de longo prazo para evitar que a condição volte a ocorrer.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1102,
+    "completion_tokens": 93,
+    "total_tokens": 1195,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 206
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

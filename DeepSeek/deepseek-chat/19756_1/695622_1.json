@@ -1,0 +1,28 @@
+{
+  "id": "8644b7bd-5513-47c9-93b4-d88e74162d0b",
+  "object": "chat.completion",
+  "created": 1758481998,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de medidas estruturais, como a contratação de empresa para manutenções, calibração, documentação e gerenciamento, visando prevenir a recorrência da falta de manutenção e assegurar a confiabilidade contínua dos equipamentos, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1300,
+    "completion_tokens": 97,
+    "total_tokens": 1397,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 340
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

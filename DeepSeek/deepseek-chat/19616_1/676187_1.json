@@ -1,0 +1,28 @@
+{
+  "id": "c14a75ba-dae3-45f5-aba5-d838b7221921",
+  "object": "chat.completion",
+  "created": 1758477690,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a criação de critérios para contratações e a instituição de controles de frequência e acompanhamento de atividades, o que visa prevenir a recorrência da ausência de critérios e garantir conformidade contínua, caracterizando uma solução de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1183,
+    "completion_tokens": 85,
+    "total_tokens": 1268,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 223
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

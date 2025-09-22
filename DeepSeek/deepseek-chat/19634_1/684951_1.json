@@ -1,0 +1,28 @@
+{
+  "id": "6672720e-fd20-4276-a825-a94833a8ab39",
+  "object": "chat.completion",
+  "created": 1758478882,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação solicita à Secretaria de Atenção Especializada à Saúde (SAES/MS) que adote procedimentos conforme normas estabelecidas, visando prevenir a ocorrência futura de incompatibilidades entre dados inseridos e serviços efetivamente realizados, o que se alinha com a definição de recomendações cause-based que focam em ações de longo prazo para evitar a recorrência do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1213,
+    "completion_tokens": 109,
+    "total_tokens": 1322,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 253
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

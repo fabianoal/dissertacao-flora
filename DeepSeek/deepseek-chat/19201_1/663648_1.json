@@ -1,0 +1,28 @@
+{
+  "id": "ce645014-51c8-4f30-a705-4aeeb45545ef",
+  "object": "chat.completion",
+  "created": 1758469154,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de obedecer a normas legais e estabelecer práticas contínuas para garantir a publicação adequada em jornais de grande circulação, visando prevenir futuras não conformidades e promovendo mudanças estruturais na condução de licitações, em vez de apenas corrigir a condição específica encontrada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1213,
+    "completion_tokens": 94,
+    "total_tokens": 1307,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 253
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

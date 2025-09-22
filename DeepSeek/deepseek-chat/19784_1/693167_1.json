@@ -1,0 +1,28 @@
+{
+  "id": "930fff11-ca77-4b1c-a398-3ca968f3537a",
+  "object": "chat.completion",
+  "created": 1758483154,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe uma adequação física do espaço de recepção/expedição, o que é uma ação estrutural de longo prazo para prevenir a exposição inadequada à temperatura ambiente, abordando a causa raiz da condição observada e não apenas corrigindo a condição atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1100,
+    "completion_tokens": 86,
+    "total_tokens": 1186,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 140
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

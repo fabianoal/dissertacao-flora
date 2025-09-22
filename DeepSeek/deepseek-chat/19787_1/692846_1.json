@@ -1,0 +1,28 @@
+{
+  "id": "486d1234-117d-4ddc-b7c4-01ee40e2751e",
+  "object": "chat.completion",
+  "created": 1758483258,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração de instrumentos de gestão que incluam informações sobre o PNI, o que visa estabelecer um controle interno permanente e preventivo para assegurar a adequação da Cadeia de Frio a longo prazo, abordando a causa raiz da falta de informações nos instrumentos existentes.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1142,
+    "completion_tokens": 90,
+    "total_tokens": 1232,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 182
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a27dba93-9f79-4b29-a272-49e5ab8d4f93",
+  "object": "chat.completion",
+  "created": 1758487652,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um controle padronizado de registro de demandas, o que envolve a criação de um sistema ou processo estruturado para evitar a recorrência da falta de registros detalhados, caracterizando uma solução de longo prazo focada na causa raiz do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1200,
+    "completion_tokens": 87,
+    "total_tokens": 1287,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 240
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

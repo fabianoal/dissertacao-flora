@@ -1,0 +1,28 @@
+{
+  "id": "74f2205e-1dc8-4d9d-98ed-f1e8cb72f41b",
+  "object": "chat.completion",
+  "created": 1758482098,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe uma análise de viabilidade para adequar a estrutura física da CMRF, incluindo áreas específicas e identificadas, o que visa implementar mudanças estruturais de longo prazo para prevenir a reocorrência da condição inadequada, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1241,
+    "completion_tokens": 94,
+    "total_tokens": 1335,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 281
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

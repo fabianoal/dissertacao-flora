@@ -1,0 +1,28 @@
+{
+  "id": "6b244645-3d8a-4526-9dc2-f6115c49942a",
+  "object": "chat.completion",
+  "created": 1758476678,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a inserção de um Termo Aditivo no sistema Transferegov, o que envolve uma ação processual e normativa para regularizar a situação contratual e prevenir futuras ocorrências similares, alinhando-se com soluções de longo prazo que abordam a causa subjacente da inconformidade.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1050,
+    "completion_tokens": 94,
+    "total_tokens": 1144,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 90
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

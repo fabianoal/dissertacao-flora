@@ -1,0 +1,28 @@
+{
+  "id": "b93ee8be-9a3b-4164-8d07-857862c76a2a",
+  "object": "chat.completion",
+  "created": 1758481082,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adequação permanente da identificação visual de acordo com manuais e programas estabelecidos, visando evitar a reocorrência da condição de não conformidade e promovendo melhorias estruturais de longo prazo na segurança, eficiência e conformidade do serviço.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1155,
+    "completion_tokens": 83,
+    "total_tokens": 1238,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 195
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

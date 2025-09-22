@@ -1,0 +1,28 @@
+{
+  "id": "bd3d441e-4416-43dd-8a59-950ca13bbc01",
+  "object": "chat.completion",
+  "created": 1758475770,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de critérios e procedimentos permanentes, como considerar o quantitativo potencial de pessoas cadastradas por equipe de acordo com a classificação geográfica, utilizar dados do SISAB para cálculos financeiros, e respeitar os quantitativos preconizados na PNAB, visando prevenir a recorrência da não conformidade e promover mudanças estruturais no sistema de gestão do programa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1243,
+    "completion_tokens": 113,
+    "total_tokens": 1356,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 283
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

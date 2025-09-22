@@ -1,0 +1,28 @@
+{
+  "id": "bb7f6d88-57f3-4a1d-99b9-cec076ec02dd",
+  "object": "chat.completion",
+  "created": 1758478082,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de medidas estruturais e de longo prazo, como estabelecer a atuação de uma comissão, implementar controles internos, políticas de governança e sistemas de supervisão, visando prevenir a recorrência da gestão inadequada do descarte de OPME, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1267,
+    "completion_tokens": 104,
+    "total_tokens": 1371,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 307
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

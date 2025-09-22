@@ -1,0 +1,28 @@
+{
+  "id": "b32f00cd-916f-4a3d-8b6b-1052cf550af7",
+  "object": "chat.completion",
+  "created": 1758470410,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um sistema de arquivamento e manutenção de documentos por um prazo estendido (10 anos), com cópias em meios físico e digital, o que visa prevenir a reocorrência da falta de documentação através de uma solução estrutural e de longo prazo, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1255,
+    "completion_tokens": 107,
+    "total_tokens": 1362,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 295
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a681eb62-f841-465b-8cb3-b2b39e4505a9",
+  "object": "chat.completion",
+  "created": 1758488116,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a adoção de procedimentos estabelecidos em normativo específico (Portaria GM/MS n.º 885/2021) para prevenir futuras ocorrências de pagamentos antieconômicos, focando em ações de longo prazo que visam eliminar a causa raiz do problema, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1071,
+    "completion_tokens": 99,
+    "total_tokens": 1170,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 111
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

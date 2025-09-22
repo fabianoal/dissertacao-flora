@@ -1,0 +1,28 @@
+{
+  "id": "4c9f9b36-bc9e-4859-a9c1-d33b514078ff",
+  "object": "chat.completion",
+  "created": 1758478774,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implantação de uma rotina permanente para inserção de cópias das folhas de requisição de OPME nos prontuários, o que visa prevenir a recorrência da condição observada (ausência de anexos) ao estabelecer um processo contínuo e estruturado, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1147,
+    "completion_tokens": 102,
+    "total_tokens": 1249,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 187
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

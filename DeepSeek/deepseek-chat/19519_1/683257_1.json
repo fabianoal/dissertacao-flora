@@ -1,0 +1,28 @@
+{
+  "id": "e28d942f-cb46-4c70-b6cd-0f78a9128c7a",
+  "object": "chat.completion",
+  "created": 1758473890,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo e sistemático para garantir conformidade com a legislação em todos os processos administrativos futuros, focando na causa raiz das falhas (falta de instrução adequada) e não apenas na correção pontual dos documentos ausentes, alinhando-se com soluções de longo prazo para prevenir a recorrência.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1115,
+    "completion_tokens": 104,
+    "total_tokens": 1219,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 155
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

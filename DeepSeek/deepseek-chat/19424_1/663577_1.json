@@ -1,0 +1,28 @@
+{
+  "id": "263e13c6-61a0-40a5-8144-2781f898c684",
+  "object": "chat.completion",
+  "created": 1758470314,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a adoção de procedimentos administrativos e legais para prevenir futuras ocorrências similares, focando em mudanças estruturais e de longo prazo, como a implementação de diretrizes baseadas em decretos, o que visa evitar a reincidência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1194,
+    "completion_tokens": 89,
+    "total_tokens": 1283,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 234
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

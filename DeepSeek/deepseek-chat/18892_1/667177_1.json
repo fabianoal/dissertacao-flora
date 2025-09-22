@@ -1,0 +1,28 @@
+{
+  "id": "2758c2aa-d72c-434c-8953-15c3ec4d4089",
+  "object": "chat.completion",
+  "created": 1758468542,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfoca a adoção de providências para garantir o cumprimento contínuo das normas de higiene e limpeza, o que implica a implementação de processos ou políticas (como manutenção regular) para prevenir a recorrência da condição inadequada, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1110,
+    "completion_tokens": 90,
+    "total_tokens": 1200,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 150
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

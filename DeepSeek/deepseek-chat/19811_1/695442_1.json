@@ -1,0 +1,28 @@
+{
+  "id": "4f4d7d41-345a-4399-9c46-32136779f608",
+  "object": "chat.completion",
+  "created": 1758484182,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a definição de critérios para classificação de risco e monitoramento da implantação e uso desses critérios, o que envolve a criação de uma política ou processo estruturado para prevenir a recorrência da condição observada, focando em soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1269,
+    "completion_tokens": 87,
+    "total_tokens": 1356,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 309
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

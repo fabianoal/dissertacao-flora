@@ -1,0 +1,28 @@
+{
+  "id": "2cd4b8a7-4e2a-449e-8a25-cdd913d841d0",
+  "object": "chat.completion",
+  "created": 1758482006,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração de um procedimento operacional padrão que abrange todas as etapas do processo logístico da Cadeia de Frio, incluindo recebimento, distribuição, monitoramento de temperatura, gerenciamento de estoque, prevenção de desvios de qualidade, transporte e organização, com base no Manual da Rede de Frio de 2017. Isso visa estabelecer controles permanentes e preventivos para evitar a recorrência da condição observada (ausência de documentação padronizada), caracterizando uma solução de longo prazo focada na causa raiz da inconformidade.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1126,
+    "completion_tokens": 156,
+    "total_tokens": 1282,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 166
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "97c8347a-ee8c-43de-82d2-f0a87b6bab86",
+  "object": "chat.completion",
+  "created": 1758488392,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação visa implementar a operacionalização da Comissão de Infecção Hospitalar em múltiplos hospitais, o que envolve a criação e manutenção de uma estrutura organizacional para prevenir futuras ocorrências de não cumprimento, caracterizando uma solução de longo prazo focada na causa subjacente da constatação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1100,
+    "completion_tokens": 96,
+    "total_tokens": 1196,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 140
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "3a80d254-1722-4d47-8210-56b62e8564c1",
+  "object": "chat.completion",
+  "created": 1758477354,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação visa notificar a convenente para apresentar justificativas e inserir documentação no Transferegov, o que implica a implementação de processos ou controles para evitar a reocorrência de contratações sem apresentação de produtos, focando na causa subjacente da inobservância normativa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1080,
+    "completion_tokens": 87,
+    "total_tokens": 1167,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 120
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

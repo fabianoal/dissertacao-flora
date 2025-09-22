@@ -1,0 +1,28 @@
+{
+  "id": "3d3ff6e2-383e-4d9f-8c43-a7f90500f9c1",
+  "object": "chat.completion",
+  "created": 1758470422,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação visa à adoção de procedimentos administrativos para prevenir futuras irregularidades, conforme estabelecido em decretos, focando em medidas de longo prazo para evitar a recorrência do problema, em vez de apenas corrigir a condição atual específica.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1186,
+    "completion_tokens": 76,
+    "total_tokens": 1262,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 226
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

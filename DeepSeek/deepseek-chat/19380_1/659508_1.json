@@ -1,0 +1,28 @@
+{
+  "id": "7f39ceb8-7678-4032-b735-2764af58faeb",
+  "object": "chat.completion",
+  "created": 1758469810,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de implementar controles e avaliações sistemáticas, conforme manuais e portarias, para garantir que os dados inseridos nos sistemas correspondam fielmente à produção real, abordando a causa raiz das discrepâncias e promovendo mudanças estruturais de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1409,
+    "completion_tokens": 86,
+    "total_tokens": 1495,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 449
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

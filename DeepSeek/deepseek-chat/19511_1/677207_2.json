@@ -1,0 +1,28 @@
+{
+  "id": "6429d663-7c56-45cd-9db7-75dc15e58c96",
+  "object": "chat.completion",
+  "created": 1758473590,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe o estabelecimento de medidas para assegurar a atuação de uma comissão específica, visando abordar a causa raiz da falha na fixação e legibilidade das etiquetas, promovendo uma solução de longo prazo e prevenindo a recorrência do problema, em vez de apenas corrigir a condição atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1102,
+    "completion_tokens": 102,
+    "total_tokens": 1204,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 78
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

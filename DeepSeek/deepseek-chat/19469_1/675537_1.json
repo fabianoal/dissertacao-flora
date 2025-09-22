@@ -1,0 +1,28 @@
+{
+  "id": "5f3e3c4c-ecc3-42ee-b03d-e6569d5a33f3",
+  "object": "chat.completion",
+  "created": 1758470658,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe uma adequação estrutural permanente da infraestrutura física para garantir conformidade contínua com os critérios legais, focando em prevenir a reocorrência da condição inadequada a longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1103,
+    "completion_tokens": 71,
+    "total_tokens": 1174,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 143
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

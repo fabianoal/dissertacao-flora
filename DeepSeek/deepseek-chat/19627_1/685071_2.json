@@ -1,0 +1,28 @@
+{
+  "id": "052dac7f-4f65-4969-9712-2c61379ff994",
+  "object": "chat.completion",
+  "created": 1758478302,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a capacitação dos servidores para melhorar a análise de documentos e emissão de pareceres, visando prevenir futuras deficiências na verificação da idoneidade e qualificação das convenentes, o que é uma solução de longo prazo para evitar a recorrência do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1237,
+    "completion_tokens": 87,
+    "total_tokens": 1324,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 213
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ca137d13-02a4-44ca-b329-1ae980d39996",
+  "object": "chat.completion",
+  "created": 1758469578,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a ausência de exames nos prontuários, ao instruir a anexação dos documentos específicos, sem abordar medidas preventivas ou de longo prazo para evitar a recorrência da falha.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1122,
+    "completion_tokens": 83,
+    "total_tokens": 1205,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 162
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

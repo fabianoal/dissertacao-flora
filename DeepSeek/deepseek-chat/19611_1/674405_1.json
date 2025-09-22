@@ -1,0 +1,28 @@
+{
+  "id": "8f98618a-a12e-42c9-903f-82d7df148220",
+  "object": "chat.completion",
+  "created": 1758476674,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a orientação de fiscais e gestores para conferir documentação comprobatória em processos de contratação, visando prevenir futuras ocorrências de pagamentos sem cobertura contratual, alinhando-se com soluções de longo prazo para evitar a recorrência da causa raiz.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1077,
+    "completion_tokens": 89,
+    "total_tokens": 1166,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 117
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

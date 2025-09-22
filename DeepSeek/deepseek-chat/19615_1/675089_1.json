@@ -1,0 +1,28 @@
+{
+  "id": "eec31cb9-f57e-4df9-bd2d-91aef0cffddb",
+  "object": "chat.completion",
+  "created": 1758477590,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de um processo contínuo de acompanhamento e adoção de providências administrativas, visando prevenir a recorrência da ausência de atuação do fiscal técnico, o que se alinha com soluções de longo prazo para evitar que a condição volte a ocorrer.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1083,
+    "completion_tokens": 89,
+    "total_tokens": 1172,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 123
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

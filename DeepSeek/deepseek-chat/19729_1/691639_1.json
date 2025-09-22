@@ -1,0 +1,28 @@
+{
+  "id": "e65d3c7d-a948-4443-ae46-026db46ed0b0",
+  "object": "chat.completion",
+  "created": 1758481150,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adequação e manutenção preventiva e corretiva da estrutura física, o que envolve ações contínuas e de longo prazo para evitar a reocorrência da má conservação, alinhando-se com soluções que abordam a causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1204,
+    "completion_tokens": 83,
+    "total_tokens": 1287,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 244
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

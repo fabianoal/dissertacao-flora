@@ -1,0 +1,28 @@
+{
+  "id": "64f81747-7731-4f6b-990f-c25fb717de30",
+  "object": "chat.completion",
+  "created": 1758470322,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de processos administrativos permanentes para garantir o pagamento correto de despesas, conforme a legislação vigente, visando prevenir a recorrência de pagamentos indevidos no futuro, o que se alinha com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1242,
+    "completion_tokens": 89,
+    "total_tokens": 1331,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 346
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

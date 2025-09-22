@@ -1,0 +1,28 @@
+{
+  "id": "c77e659f-73b1-4c68-bd26-61325011fe81",
+  "object": "chat.completion",
+  "created": 1758487616,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza ações de longo prazo, como capacitação contínua, fortalecimento de controles internos e cooperação técnica, visando prevenir a recorrência de inconsistências e fragilidades nos registros, em vez de apenas corrigir as condições atuais.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1263,
+    "completion_tokens": 80,
+    "total_tokens": 1343,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 303
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "3a0cec58-168d-45e0-851e-3c493a48e2c0",
+  "object": "chat.completion",
+  "created": 1758478234,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação principal exige a adoção de medidas para comprovar a execução dos serviços e, em caso de irregularidade, estabelece um processo de saneamento ou apresentação de informações, o que visa abordar a causa subjacente da falta de comprovação e prevenir futuras ocorrências, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1213,
+    "completion_tokens": 97,
+    "total_tokens": 1310,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 317
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

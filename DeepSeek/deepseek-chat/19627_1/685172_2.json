@@ -1,0 +1,28 @@
+{
+  "id": "3490f290-6b46-4bf1-8528-9a047fbf1343",
+  "object": "chat.completion",
+  "created": 1758478462,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração contínua de relatórios mensais e a adoção de medidas preventivas ou corretivas para evitar a ausência futura desses relatórios, focando em soluções de longo prazo que abordam a causa raiz da não conformidade, como a implementação de processos sistemáticos e o cumprimento de normas estabelecidas.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1181,
+    "completion_tokens": 102,
+    "total_tokens": 1283,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 221
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

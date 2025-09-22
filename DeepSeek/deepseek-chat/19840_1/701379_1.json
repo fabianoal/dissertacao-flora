@@ -1,0 +1,28 @@
+{
+  "id": "f1c1f9ea-1c74-4f2c-9d4c-a341358c9e08",
+  "object": "chat.completion",
+  "created": 1758487487,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a inscrição no CNPJ, que é uma ação necessária para evitar que a falta de comprovação de CNPJ volte a ocorrer, envolvendo uma solução de longo prazo e alinhada com requisitos normativos permanentes.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1070,
+    "completion_tokens": 79,
+    "total_tokens": 1149,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 110
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

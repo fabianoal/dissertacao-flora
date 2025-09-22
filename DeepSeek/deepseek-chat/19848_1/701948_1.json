@@ -1,0 +1,28 @@
+{
+  "id": "8290330c-bfeb-4f38-8263-04239f319ccb",
+  "object": "chat.completion",
+  "created": 1758487628,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a apresentação e formalização de projetos e planos de ação para análise e aprovação da Comissão Técnica, visando estabelecer um processo estruturado e contínuo para garantir a conformidade futura e prevenir a recorrência da não comprovação, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1203,
+    "completion_tokens": 97,
+    "total_tokens": 1300,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 243
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

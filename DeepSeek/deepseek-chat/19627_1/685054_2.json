@@ -1,0 +1,28 @@
+{
+  "id": "63057ace-f178-42a0-9bcb-232a87f3ab7d",
+  "object": "chat.completion",
+  "created": 1758478418,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é o pagamento indevido, ao exigir o ressarcimento do valor ao Fundo Nacional de Saúde, sem propor ações para prevenir a recorrência do problema, como melhorias nos processos de planejamento ou controle de pagamentos.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1141,
+    "completion_tokens": 88,
+    "total_tokens": 1229,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 181
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

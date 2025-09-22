@@ -1,0 +1,28 @@
+{
+  "id": "ff94af31-f0b8-464f-8ed8-103dbdcbe930",
+  "object": "chat.completion",
+  "created": 1758470478,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a devolução dos recursos recebidos indevidamente, sem propor ações para prevenir a recorrência da inserção de informações adulteradas ou melhorar os processos de controle e auditoria interna.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1663,
+    "completion_tokens": 78,
+    "total_tokens": 1741,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 703
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

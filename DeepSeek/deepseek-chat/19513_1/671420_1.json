@@ -1,0 +1,28 @@
+{
+  "id": "ecfb7c50-db79-4a0c-8fac-af742596af96",
+  "object": "chat.completion",
+  "created": 1758473666,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de medidas organizacionais e de proteção para documentos de arquivo, alinhadas com a legislação, visando garantir a gestão documental de forma contínua e prevenir a reocorrência da condição desorganizada, caracterizando uma solução de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1120,
+    "completion_tokens": 88,
+    "total_tokens": 1208,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 160
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

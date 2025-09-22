@@ -1,0 +1,28 @@
+{
+  "id": "955f80de-fd5c-45ab-83c6-5e8afdf6366a",
+  "object": "chat.completion",
+  "created": 1758481358,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe mudanças estruturais e a adoção de boas práticas para prevenir a reocorrência da condição inadequada, focando em soluções de longo prazo, como adequação da estrutura física e implementação de áreas refrigeradas, em vez de apenas corrigir a condição atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1182,
+    "completion_tokens": 88,
+    "total_tokens": 1270,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 222
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

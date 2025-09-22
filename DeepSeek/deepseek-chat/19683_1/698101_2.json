@@ -1,0 +1,28 @@
+{
+  "id": "5b923de4-1796-4463-818a-e2d09d9d9c6c",
+  "object": "chat.completion",
+  "created": 1758480114,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca em corrigir a condição atual, solicitando justificativas e evidenciando a falta de cotação de preços, sem propor ações preventivas de longo prazo para evitar a recorrência da inconformidade.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1066,
+    "completion_tokens": 70,
+    "total_tokens": 1136,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 106
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

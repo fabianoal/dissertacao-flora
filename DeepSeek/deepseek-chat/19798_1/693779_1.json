@@ -1,0 +1,28 @@
+{
+  "id": "d30cf03e-6ce5-413e-858b-0a530b6b2efc",
+  "object": "chat.completion",
+  "created": 1758483666,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de cumprir normas que estabelecem responsabilidades permanentes para cadastramento, manutenção e fiscalização de dados no CNES, visando prevenir futuras desatualizações e promover uma solução de longo prazo, alinhando-se com o foco em causas subjacentes.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1160,
+    "completion_tokens": 91,
+    "total_tokens": 1251,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 264
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

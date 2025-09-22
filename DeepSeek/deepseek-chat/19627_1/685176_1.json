@@ -1,0 +1,28 @@
+{
+  "id": "9405d4b8-82a4-4fb2-a743-39ed02facf96",
+  "object": "chat.completion",
+  "created": 1758478486,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações de apoio, orientação e supervisão para melhorar processos e garantir a inserção correta de dados, visando prevenir a recorrência das incompletudes e inconsistências identificadas, o que se alinha com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1081,
+    "completion_tokens": 79,
+    "total_tokens": 1160,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 121
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

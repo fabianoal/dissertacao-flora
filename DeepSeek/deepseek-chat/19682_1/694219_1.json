@@ -1,0 +1,28 @@
+{
+  "id": "2225ed67-d622-4ec6-81bf-74e74ba786e4",
+  "object": "chat.completion",
+  "created": 1758479942,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfoca a elaboração de relatórios mensais e a adoção de medidas preventivas ou corretivas para evitar a recorrência de impropriedades no acompanhamento, alinhando-se com soluções de longo prazo que abordam a causa subjacente, conforme definido para recomendações cause-based.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1164,
+    "completion_tokens": 91,
+    "total_tokens": 1255,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 204
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

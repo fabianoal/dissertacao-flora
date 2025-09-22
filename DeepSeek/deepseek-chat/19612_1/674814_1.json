@@ -1,0 +1,28 @@
+{
+  "id": "1074a20e-a903-4c06-8bf2-637045bd27ed",
+  "object": "chat.completion",
+  "created": 1758476994,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a apresentação de justificativa ou inserção de relatórios no sistema Transferegov, o que visa estabelecer um processo formal e contínuo para garantir a realização e documentação adequada das visitas técnicas, abordando a causa raiz da ausência de supervisão e prevenindo sua recorrência, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1077,
+    "completion_tokens": 106,
+    "total_tokens": 1183,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 117
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

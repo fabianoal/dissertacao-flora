@@ -1,0 +1,28 @@
+{
+  "id": "2cdd1088-e1a2-43eb-b976-6e2151e5f97f",
+  "object": "chat.completion",
+  "created": 1758474034,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a designação formal de um servidor para fiscalizar contratos, com ações específicas como registro de ocorrências, regularização de faltas e solicitação de providências superiores, visando prevenir futuras deficiências no processo de fiscalização, alinhando-se com soluções de longo prazo para evitar a recorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1160,
+    "completion_tokens": 101,
+    "total_tokens": 1261,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 200
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "723d43c3-4d64-440a-8905-21a08fddafde",
+  "object": "chat.completion",
+  "created": 1758470030,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de medidas administrativas de apuração e cobrança para recompor recursos indevidamente utilizados, visando prevenir futuras ocorrências similares através de processos estruturados e conformidade com normas legais, o que caracteriza um foco na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1237,
+    "completion_tokens": 87,
+    "total_tokens": 1324,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 213
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

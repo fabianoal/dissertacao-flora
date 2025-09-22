@@ -1,0 +1,28 @@
+{
+  "id": "1d425a97-54c5-4bc3-af1b-67a42c856d37",
+  "object": "chat.completion",
+  "created": 1758487680,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a criação e formalização de uma comissão permanente (CISTT) para assessorar o conselho na definição de políticas e prioridades, o que visa prevenir a não instituição da comissão no futuro e envolve uma solução de longo prazo, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1188,
+    "completion_tokens": 100,
+    "total_tokens": 1288,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 228
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

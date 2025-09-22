@@ -1,0 +1,28 @@
+{
+  "id": "44892d49-0e4e-4b6c-9396-2e59192cabb3",
+  "object": "chat.completion",
+  "created": 1758481766,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de providências para garantir o cumprimento contínuo dos requisitos mínimos de produção, o que envolve implementar mudanças estruturais ou processuais de longo prazo para prevenir a não conformidade futura, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1183,
+    "completion_tokens": 92,
+    "total_tokens": 1275,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 223
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "9af2ac3f-8039-4d93-853f-0bb6bbeaaccb",
+  "object": "chat.completion",
+  "created": 1758481166,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a realização de um estudo de efetividade para aprimorar a metodologia de manutenção e uso das viaturas de reserva, visando garantir a disponibilidade constante do quantitativo mínimo exigido. Isso aborda a causa subjacente (gestão inadequada da frota) para prevenir a recorrência da condição (insuficiência de ambulâncias), alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1138,
+    "completion_tokens": 120,
+    "total_tokens": 1258,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 178
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

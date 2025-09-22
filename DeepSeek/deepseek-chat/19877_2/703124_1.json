@@ -1,0 +1,28 @@
+{
+  "id": "56d8bec2-4bad-4996-8a3f-862a2a3588cc",
+  "object": "chat.completion",
+  "created": 1758488828,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de medidas para adequar os códigos dos procedimentos e assegurar a veracidade das informações, o que envolve mudanças sistêmicas e de longo prazo, como conformidade com critérios normativos e manuais, visando prevenir a recorrência de cobranças irregulares.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1132,
+    "completion_tokens": 94,
+    "total_tokens": 1226,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 172
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

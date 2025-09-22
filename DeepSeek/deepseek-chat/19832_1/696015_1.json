@@ -1,0 +1,28 @@
+{
+  "id": "4b85c889-2749-4ddc-a22f-c35ee4d3d861",
+  "object": "chat.completion",
+  "created": 1758485126,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações estruturais e de longo prazo, como campanhas educativas regulares, articulação com a rede de educação para grupos vulneráveis e treinamentos continuados para profissionais, visando prevenir a recorrência da não realização das ações do programa, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1237,
+    "completion_tokens": 94,
+    "total_tokens": 1331,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 341
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

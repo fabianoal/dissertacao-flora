@@ -1,0 +1,28 @@
+{
+  "id": "2a286b7a-3313-416d-ae97-c80f7e555e47",
+  "object": "chat.completion",
+  "created": 1758468313,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a inclusão sistemática de necessidades, objetivos, metas e seu alcance nos instrumentos de planejamento da saúde, o que visa prevenir a ocorrência futura de falhas no planejamento, alinhando-se com soluções de longo prazo para evitar a reincidência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1138,
+    "completion_tokens": 93,
+    "total_tokens": 1231,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 178
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

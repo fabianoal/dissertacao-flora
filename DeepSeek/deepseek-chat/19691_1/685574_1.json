@@ -1,0 +1,28 @@
+{
+  "id": "51d53b8d-3614-4517-8201-2cd7a19ae08a",
+  "object": "chat.completion",
+  "created": 1758480374,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de processos organizacionais e de controle, como a organização e disponibilização de documentação comprobatória e a criação de um sistema de autorização por comissão, visando prevenir a recorrência da não conformidade ao estabelecer mudanças estruturais de longo prazo, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1259,
+    "completion_tokens": 105,
+    "total_tokens": 1364,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 299
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

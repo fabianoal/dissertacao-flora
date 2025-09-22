@@ -1,0 +1,28 @@
+{
+  "id": "8395b347-1cb0-4ea8-8f6c-091f4a297533",
+  "object": "chat.completion",
+  "created": 1758485150,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada (cadastro não atualizado no CNES), sem propor ações para prevenir a recorrência da falha, como a implementação de um processo contínuo de monitoramento ou revisão de cadastros.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1134,
+    "completion_tokens": 79,
+    "total_tokens": 1213,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 174
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c4a7f20f-a2bd-45a8-8bfe-314c9f4f28d4",
+  "object": "chat.completion",
+  "created": 1758476886,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de critérios mínimos de detalhamento para evitar a recorrência da falta de clareza nos planos de trabalho, envolvendo mudanças estruturais e de longo prazo, como a definição de quantitativos, datas e inclusão de planos de ação, alinhando-se com normas específicas para garantir conformidade futura.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1175,
+    "completion_tokens": 102,
+    "total_tokens": 1277,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 215
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

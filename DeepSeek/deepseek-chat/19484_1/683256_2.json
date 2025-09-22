@@ -1,0 +1,28 @@
+{
+  "id": "9a6fb9e9-93c6-4682-9e38-54e1d3124db8",
+  "object": "chat.completion",
+  "created": 1758473118,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de medidas corretivas no fluxo documental e processual para evitar ou mitigar futuras irregularidades, incluindo o cumprimento de leis e portarias específicas, o que indica um foco na causa subjacente dos problemas identificados, visando soluções de longo prazo e prevenção de recorrências.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1489,
+    "completion_tokens": 97,
+    "total_tokens": 1586,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 529
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

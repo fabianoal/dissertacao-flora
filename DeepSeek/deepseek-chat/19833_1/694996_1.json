@@ -1,0 +1,28 @@
+{
+  "id": "7325be7c-6f0b-42a1-a120-1369ec397e34",
+  "object": "chat.completion",
+  "created": 1758485162,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações como manutenção preventiva e atualização de inventário, que visam estabelecer controles permanentes para evitar a reocorrência da condição inadequada dos equipamentos, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1144,
+    "completion_tokens": 76,
+    "total_tokens": 1220,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 184
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "e487c834-e0dc-44e2-bf28-5be4e829f63a",
+  "object": "chat.completion",
+  "created": 1758479834,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de ações de saúde pública para melhorar o acesso à Atenção Primária em Saúde, referenciando diretrizes específicas de uma nota técnica, o que visa implementar mudanças estruturais e de longo prazo para prevenir a recorrência da falha em atingir a meta do indicador, em vez de apenas corrigir a condição imediata.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1102,
+    "completion_tokens": 104,
+    "total_tokens": 1206,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 142
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

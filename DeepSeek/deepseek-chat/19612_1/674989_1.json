@@ -1,0 +1,28 @@
+{
+  "id": "f1864f3a-b60d-456f-9a70-35ef651d9688",
+  "object": "chat.completion",
+  "created": 1758477030,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada (ausência de relatórios no sistema), solicitando a inserção dos documentos específicos de 2022, sem propor ações para prevenir a recorrência da falha em períodos futuros ou abordar causas subjacentes como processos ou políticas deficientes.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1057,
+    "completion_tokens": 90,
+    "total_tokens": 1147,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 97
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

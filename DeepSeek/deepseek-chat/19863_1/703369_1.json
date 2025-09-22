@@ -1,0 +1,28 @@
+{
+  "id": "371ceb04-3753-47b7-b721-41eb7a734ad2",
+  "object": "chat.completion",
+  "created": 1758488312,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a revisão ou elaboração do Regimento Interno do hospital, o que é uma ação estrutural e de longo prazo para garantir conformidade contínua e prevenir a recorrência da não revisão, alinhando-se com a definição de recomendações cause-based que focam em resolver a causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1097,
+    "completion_tokens": 94,
+    "total_tokens": 1191,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 137
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "985af93d-559d-4f1c-8120-5a8568917cf3",
+  "object": "chat.completion",
+  "created": 1758482722,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a publicação de um organograma ou documento similar para formalizar a estrutura organizacional da SMS e da CMRF, o que visa estabelecer controles permanentes e prevenir a recorrência da falta de formalização, alinhando-se com soluções de longo prazo e abordando a causa subjacente da constatação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1114,
+    "completion_tokens": 95,
+    "total_tokens": 1209,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 154
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

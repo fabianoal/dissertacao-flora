@@ -1,0 +1,28 @@
+{
+  "id": "e8abf609-177f-4fbe-aea9-1b0cdd0c772f",
+  "object": "chat.completion",
+  "created": 1758487692,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a formalização de uma rede sentinela, o que envolve a criação de uma estrutura permanente e coordenada para prevenir a recorrência da ausência de gestão adequada, alinhando-se com soluções de longo prazo que abordam a causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1096,
+    "completion_tokens": 83,
+    "total_tokens": 1179,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 136
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

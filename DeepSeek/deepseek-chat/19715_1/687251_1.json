@@ -1,0 +1,28 @@
+{
+  "id": "6f6d0050-a989-4ddb-bb5d-a68a7dfcc2e4",
+  "object": "chat.completion",
+  "created": 1758480794,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de medidas estruturais, como o cumprimento de cláusulas contratuais e a criação de uma Comissão de Revisão de Prontuários, visando prevenir a recorrência das impropriedades documentais, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1192,
+    "completion_tokens": 90,
+    "total_tokens": 1282,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 296
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

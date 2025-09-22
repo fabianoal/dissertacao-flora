@@ -1,0 +1,28 @@
+{
+  "id": "d2a1f6a1-01b0-4a5a-a448-ffa4fb88a16d",
+  "object": "chat.completion",
+  "created": 1758477258,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação visa assegurar a elaboração e inserção contínua dos relatórios no sistema, abordando a causa raiz da ausência ao estabelecer um processo permanente de conformidade, em vez de apenas corrigir a condição específica de 2022.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1076,
+    "completion_tokens": 77,
+    "total_tokens": 1153,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 116
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

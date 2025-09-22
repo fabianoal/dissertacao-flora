@@ -1,0 +1,28 @@
+{
+  "id": "ff824fd8-b3be-45c8-90a5-38a0ab5dd4cf",
+  "object": "chat.completion",
+  "created": 1758470022,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de cumprir normas estabelecidas em manuais técnicos, o que implica a implementação de processos sistemáticos e duradouros para garantir a apresentação de exames comprobatórios em prontuários médicos, abordando a causa subjacente de não conformidade em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1213,
+    "completion_tokens": 98,
+    "total_tokens": 1311,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 253
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

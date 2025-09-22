@@ -1,0 +1,28 @@
+{
+  "id": "0dab9279-8444-478d-bf8f-a8b18c79b2d0",
+  "object": "chat.completion",
+  "created": 1758476058,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um controle rigoroso e um processo de notificação para prevenir a ocorrência futura de repasses financeiros insuficientes, focando em ações de longo prazo que abordam a causa raiz do problema, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1304,
+    "completion_tokens": 86,
+    "total_tokens": 1390,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 280
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

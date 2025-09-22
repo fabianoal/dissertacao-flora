@@ -1,0 +1,28 @@
+{
+  "id": "7041bbec-b2e3-40ed-a1fa-2cfa01a83e7a",
+  "object": "chat.completion",
+  "created": 1758488288,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um sistema de registro e acompanhamento para garantir a documentação adequada e o planejamento orçamentário contínuo, abordando a causa raiz da falta de transparência e conformidade, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1213,
+    "completion_tokens": 88,
+    "total_tokens": 1301,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 253
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

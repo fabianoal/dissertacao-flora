@@ -1,0 +1,28 @@
+{
+  "id": "1546e9a3-5aba-445f-b5cf-3e60d14126bd",
+  "object": "chat.completion",
+  "created": 1758474918,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação exige o cumprimento de uma política de longo prazo (Portaria GM/MS nº 1535/2014) que visa aumentar gradualmente a oferta de diálise peritoneal ao longo de dois anos, abordando a causa subjacente da baixa oferta ao estabelecer uma meta estrutural e sustentável, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1063,
+    "completion_tokens": 105,
+    "total_tokens": 1168,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 167
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

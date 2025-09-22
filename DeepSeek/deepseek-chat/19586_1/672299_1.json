@@ -1,0 +1,28 @@
+{
+  "id": "104fdcb8-ea84-429a-8319-e67b94bbfc89",
+  "object": "chat.completion",
+  "created": 1758475478,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação aborda a causa raiz da constatação ao propor a implementação de soluções de longo prazo, como a informatização das UBS e o uso do Prontuário Eletrônico, que visam prevenir a recorrência do preenchimento inadequado dos prontuários, indo além da correção imediata da condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1237,
+    "completion_tokens": 100,
+    "total_tokens": 1337,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 341
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

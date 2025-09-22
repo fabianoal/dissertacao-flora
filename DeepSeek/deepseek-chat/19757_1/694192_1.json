@@ -1,0 +1,28 @@
+{
+  "id": "c38c6b19-a98b-4242-943d-34a7c969acbf",
+  "object": "chat.completion",
+  "created": 1758482038,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a inclusão de ações específicas no Plano de Contingência para prevenir a ocorrência de situações de emergência que possam comprometer a cadeia de frio, focando em soluções de longo prazo para evitar a recorrência da condição observada, alinhando-se com a definição de recomendações cause-based que visam abordar a causa raiz e não apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1109,
+    "completion_tokens": 117,
+    "total_tokens": 1226,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 149
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

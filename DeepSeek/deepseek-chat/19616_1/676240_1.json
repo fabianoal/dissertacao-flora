@@ -1,0 +1,28 @@
+{
+  "id": "23bee411-9a44-45cb-a1a1-f27a95affec4",
+  "object": "chat.completion",
+  "created": 1758477830,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada (não cumprimento do prazo e impropriedades no acompanhamento), solicitando o envio dos relatórios conforme a norma, sem propor ações para prevenir a recorrência do problema a longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1085,
+    "completion_tokens": 83,
+    "total_tokens": 1168,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 125
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

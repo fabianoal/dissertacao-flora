@@ -1,0 +1,28 @@
+{
+  "id": "c4a20888-3bad-4e0f-82e8-0d18bde737a9",
+  "object": "chat.completion",
+  "created": 1758479602,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de critérios detalhados para contratações futuras, visando prevenir a ausência de tais critérios em convênios subsequentes, o que constitui uma solução de longo prazo para evitar a recorrência da condição observada, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1189,
+    "completion_tokens": 102,
+    "total_tokens": 1291,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 229
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "b66d4f5e-ba07-469f-8249-baf8662fe5d1",
+  "object": "chat.completion",
+  "created": 1758488616,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de medidas permanentes, como assegurar a fidedignidade e documentação adequada da produção ambulatorial, alinhada a normas legais e operacionais, visando prevenir a ocorrência futura de inconsistências, em vez de apenas corrigir a condição específica identificada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1276,
+    "completion_tokens": 91,
+    "total_tokens": 1367,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 316
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "373d0587-5850-4b30-933d-9fbcb58f7ac9",
+  "object": "chat.completion",
+  "created": 1758480482,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação direciona-se à SVSA/MS para adotar procedimentos organizacionais e executivos conforme o decreto, visando a prevenção e controle contínuos da hanseníase, o que aborda a causa subjacente da não disponibilização dos exames e promove mudanças estruturais de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1141,
+    "completion_tokens": 90,
+    "total_tokens": 1231,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 181
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

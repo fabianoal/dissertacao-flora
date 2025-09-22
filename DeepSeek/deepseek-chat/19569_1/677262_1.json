@@ -1,0 +1,28 @@
+{
+  "id": "d2ee7d43-6754-499a-afce-85739a3061a6",
+  "object": "chat.completion",
+  "created": 1758475298,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação integral do preconizado pela PNAB, o que envolve mudanças estruturais e de longo prazo, como ajustes na gestão e na organização das equipes de saúde da família, visando prevenir a recorrência da não conformidade com a população adscrita, em vez de apenas corrigir a condição específica observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1300,
+    "completion_tokens": 100,
+    "total_tokens": 1400,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 340
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

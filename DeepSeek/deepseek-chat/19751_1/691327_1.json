@@ -1,0 +1,28 @@
+{
+  "id": "feb595fe-d936-448a-8d36-c4356d31abef",
+  "object": "chat.completion",
+  "created": 1758481798,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um sistema automatizado de monitoramento da temperatura e a manutenção de documentação detalhada, o que visa prevenir a recorrência da falta de registros de inspeção, abordando a causa raiz ao estabelecer controles permanentes e melhorias de longo prazo, em vez de apenas corrigir a condição atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1201,
+    "completion_tokens": 102,
+    "total_tokens": 1303,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 241
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

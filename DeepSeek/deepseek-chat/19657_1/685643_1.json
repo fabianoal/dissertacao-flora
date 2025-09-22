@@ -1,0 +1,28 @@
+{
+  "id": "65bf1758-9e83-4854-8fcb-e29be7e85107",
+  "object": "chat.completion",
+  "created": 1758479270,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de ações mais efetivas e assertivas para o acompanhamento das gestantes, visando garantir a realização adequada das consultas pré-natal de forma contínua e preventiva, o que se alinha com soluções de longo prazo para evitar a recorrência da condição observada, em vez de apenas corrigir a situação atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1142,
+    "completion_tokens": 107,
+    "total_tokens": 1249,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 246
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

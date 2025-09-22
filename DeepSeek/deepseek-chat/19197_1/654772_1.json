@@ -1,0 +1,28 @@
+{
+  "id": "df4e4d7a-8ed9-4720-b499-e7d6f23665e9",
+  "object": "chat.completion",
+  "created": 1758468966,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição observada (inadequação no fluxo de distribuição e dispensação de OPME), ao exigir o cumprimento de determinações legais específicas, sem propor ações para prevenir a recorrência da causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1058,
+    "completion_tokens": 84,
+    "total_tokens": 1142,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 98
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

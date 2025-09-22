@@ -1,0 +1,28 @@
+{
+  "id": "13d8ee3e-1663-494b-bd01-aea53e178730",
+  "object": "chat.completion",
+  "created": 1758484134,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de uma mudança estrutural na rotina de trabalho das UBS, visando incorporar a construção do Projeto Terapêutico Singular (PTS) como parte do processo de atendimento em saúde mental. Isso aborda a causa raiz da constatação, que é a ausência de PTS, ao estabelecer uma prática contínua e preventiva para garantir a continuidade do cuidado, alinhada com normativas, em vez de apenas corrigir casos específicos existentes.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1139,
+    "completion_tokens": 132,
+    "total_tokens": 1271,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 243
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

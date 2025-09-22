@@ -1,0 +1,28 @@
+{
+  "id": "d8dafb20-876b-4860-975a-8f54850ffc98",
+  "object": "chat.completion",
+  "created": 1758487920,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção e o seguimento de manuais de utilização dos sistemas de informação para garantir a precisão no registro e armazenamento de dados, o que visa prevenir a recorrência da condição observada (falta de registro adequado) através de uma solução de longo prazo, como a implementação de práticas padronizadas e contínuas, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1116,
+    "completion_tokens": 120,
+    "total_tokens": 1236,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 156
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

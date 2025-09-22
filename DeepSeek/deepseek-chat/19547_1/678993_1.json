@@ -1,0 +1,28 @@
+{
+  "id": "b7d70ea5-917d-4f92-842c-1b4aaa8730bc",
+  "object": "chat.completion",
+  "created": 1758474674,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe uma ação contínua e preventiva para garantir que a composição mínima das equipes seja mantida no futuro, abordando a causa subjacente da não conformidade, em vez de apenas corrigir a condição específica observada nos períodos mencionados.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1132,
+    "completion_tokens": 81,
+    "total_tokens": 1213,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 172
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

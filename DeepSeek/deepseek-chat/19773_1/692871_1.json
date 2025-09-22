@@ -1,0 +1,28 @@
+{
+  "id": "02fb4390-cd69-47de-9c6a-660a85506c7b",
+  "object": "chat.completion",
+  "created": 1758482622,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistemático de verificação e registro das condições de transporte e armazenagem em cada operação de recebimento, o que visa prevenir a recorrência da condição inadequada ao estabelecer controles contínuos e de longo prazo, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1085,
+    "completion_tokens": 100,
+    "total_tokens": 1185,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 125
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

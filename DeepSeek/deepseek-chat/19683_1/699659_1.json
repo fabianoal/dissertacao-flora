@@ -1,0 +1,28 @@
+{
+  "id": "b70caec6-8e79-4edf-9ade-fd8566604f64",
+  "object": "chat.completion",
+  "created": 1758480070,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação orienta a implementação de um processo sistemático de conferência documental por fiscais e gestores, visando prevenir futuras ocorrências de ausência de contratos e outras irregularidades, alinhando-se com soluções de longo prazo para evitar a recorrência do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1194,
+    "completion_tokens": 83,
+    "total_tokens": 1277,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 234
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

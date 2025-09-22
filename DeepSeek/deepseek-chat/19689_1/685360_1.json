@@ -1,0 +1,28 @@
+{
+  "id": "921e8e6d-5a02-4119-8c77-61e038545a35",
+  "object": "chat.completion",
+  "created": 1758480326,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada (postos de trabalho não preenchidos), sem propor ações para prevenir a recorrência do problema, como melhorias nos processos de fiscalização ou contratação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1063,
+    "completion_tokens": 70,
+    "total_tokens": 1133,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 103
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

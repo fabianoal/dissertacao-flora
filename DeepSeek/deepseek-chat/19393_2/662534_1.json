@@ -1,0 +1,28 @@
+{
+  "id": "0d14b7e0-9866-4dbc-a8dd-4539ac6ee5e2",
+  "object": "chat.completion",
+  "created": 1758470006,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistemático para afixar e manter etiquetas de identificação de DMIs em prontuários e outros documentos, conforme normas específicas, visando prevenir a recorrência da não afixação e garantir conformidade contínua, o que se alinha com soluções de longo prazo para evitar a causa subjacente do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1240,
+    "completion_tokens": 104,
+    "total_tokens": 1344,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 280
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

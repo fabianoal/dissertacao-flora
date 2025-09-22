@@ -1,0 +1,28 @@
+{
+  "id": "b41d60d0-b0c1-4d28-90f5-da7b7fc07ba9",
+  "object": "chat.completion",
+  "created": 1758488636,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação sugere a adoção de medidas de apuração e cobrança administrativa, o que implica em ações corretivas de longo prazo para evitar a reincidência de registros incompatíveis e garantir a conformidade com as normas estabelecidas, focando na causa subjacente da irregularidade.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1214,
+    "completion_tokens": 88,
+    "total_tokens": 1302,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 190
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

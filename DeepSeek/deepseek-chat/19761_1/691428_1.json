@@ -1,0 +1,28 @@
+{
+  "id": "33b477ad-1af1-488c-a626-e8c8d2734abf",
+  "object": "chat.completion",
+  "created": 1758482270,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de medidas estruturais e processuais, como a elaboração e atualização periódica de um plano de contingência, a difusão de procedimentos escritos, e a instalação de sistemas de emergência (gerador automático, câmaras com autonomia, estabilizador), que visam prevenir futuras ocorrências de falhas na Cadeia de Frio, abordando as causas subjacentes das inconformidades identificadas, em vez de apenas corrigir a condição atual de falta de um plano.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1366,
+    "completion_tokens": 141,
+    "total_tokens": 1507,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 406
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

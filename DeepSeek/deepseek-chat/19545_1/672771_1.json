@@ -1,0 +1,28 @@
+{
+  "id": "4452b663-ccef-4bb3-8e1f-96bed0140770",
+  "object": "chat.completion",
+  "created": 1758474642,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação se concentra em corrigir a condição específica encontrada (não apresentação da declaração da empresa de telefonia), exigindo o cumprimento imediato de um requisito legal, sem propor ações para prevenir a recorrência da causa subjacente, como a implementação de um processo de monitoramento contínuo ou revisão de políticas.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1047,
+    "completion_tokens": 99,
+    "total_tokens": 1146,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 87
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

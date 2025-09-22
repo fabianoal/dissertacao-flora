@@ -1,0 +1,28 @@
+{
+  "id": "60aaa6f6-7bc8-48f6-8f16-b7a4e8388aeb",
+  "object": "chat.completion",
+  "created": 1758469818,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a devolução dos recursos recebidos indevidamente, sem propor ações para prevenir a ocorrência futura de informações adulteradas ou melhorar processos de controle e alimentação de dados.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1669,
+    "completion_tokens": 77,
+    "total_tokens": 1746,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 709
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

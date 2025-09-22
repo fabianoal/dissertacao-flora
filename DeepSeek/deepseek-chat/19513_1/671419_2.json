@@ -1,0 +1,28 @@
+{
+  "id": "3445143b-4572-4649-8148-bf82c9a5ad92",
+  "object": "chat.completion",
+  "created": 1758473650,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação sugere a adoção de procedimentos para melhor controle, monitoramento e avaliação das produções informadas, o que visa prevenir a ocorrência futura de subnotificações ou alimentações parciais nos sistemas, caracterizando uma solução de longo prazo e foco na causa raiz do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1167,
+    "completion_tokens": 88,
+    "total_tokens": 1255,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 143
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

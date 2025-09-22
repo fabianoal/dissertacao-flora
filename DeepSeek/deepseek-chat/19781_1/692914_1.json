@@ -1,0 +1,28 @@
+{
+  "id": "a7606e2f-2709-41c1-8e7f-85f9d443be08",
+  "object": "chat.completion",
+  "created": 1758483046,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de monitoramento contínuo e o uso de indicadores de gestão para aprimorar os controles da Cadeia de Frio, focando em ações preventivas e de longo prazo que visam evitar a recorrência da falha, como estabelecido no manual referenciado, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1198,
+    "completion_tokens": 102,
+    "total_tokens": 1300,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 238
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

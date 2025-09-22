@@ -1,0 +1,28 @@
+{
+  "id": "42ea8be9-c096-4187-82dc-e4df3087e087",
+  "object": "chat.completion",
+  "created": 1758477010,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo de conferência sistemático para evitar a manutenção de informações incorretas no sistema, focando na causa raiz (falta de verificação) que leva às impropriedades, em vez de apenas corrigir as informações incorretas existentes.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1087,
+    "completion_tokens": 86,
+    "total_tokens": 1173,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 127
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

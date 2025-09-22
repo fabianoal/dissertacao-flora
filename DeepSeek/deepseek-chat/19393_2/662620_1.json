@@ -1,0 +1,28 @@
+{
+  "id": "765e3e4b-ceb6-41e5-a2a6-c35eddb9dbe9",
+  "object": "chat.completion",
+  "created": 1758470050,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistemático de registro, preenchimento e anexação de espelhos de AIH, conforme normas estabelecidas, o que visa prevenir a reocorrência da falha ao abordar a causa raiz (falta de procedimentos adequados) em vez de apenas corrigir a condição atual específica.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1092,
+    "completion_tokens": 98,
+    "total_tokens": 1190,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 132
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

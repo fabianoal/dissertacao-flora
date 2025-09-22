@@ -1,0 +1,28 @@
+{
+  "id": "65d918ca-ca0d-40d9-8392-04ed7d3e897b",
+  "object": "chat.completion",
+  "created": 1758482638,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a revisão do Plano de Contingência para adequá-lo às possíveis intercorrências, o que envolve uma ação preventiva e de longo prazo para evitar que a condição (falta de cobertura de emergências) volte a ocorrer, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1100,
+    "completion_tokens": 99,
+    "total_tokens": 1199,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 140
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

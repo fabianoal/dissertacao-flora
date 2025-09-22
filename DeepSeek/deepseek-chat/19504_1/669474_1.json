@@ -1,0 +1,28 @@
+{
+  "id": "c0e7c167-6f36-4071-a104-c55a0d7f5829",
+  "object": "chat.completion",
+  "created": 1758473526,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação orienta a adoção de procedimentos específicos conforme dispositivos legais, visando prevenir futuras ocorrências similares e garantir conformidade contínua, o que se alinha com soluções de longo prazo para evitar a reincidência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1162,
+    "completion_tokens": 81,
+    "total_tokens": 1243,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 202
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

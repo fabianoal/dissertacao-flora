@@ -1,0 +1,28 @@
+{
+  "id": "38c083ad-a9c9-4c3c-a7d8-456d292ac9be",
+  "object": "chat.completion",
+  "created": 1758477638,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a elaboração de documentos de acompanhamento em conformidade com leis específicas, visando estabelecer práticas permanentes para garantir a confiabilidade, autenticidade, acessibilidade, compreensibilidade e completude dos registros, o que aborda a causa raiz da ausência de relatórios e promove mudanças estruturais de longo prazo no processo de documentação e transparência.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1145,
+    "completion_tokens": 112,
+    "total_tokens": 1257,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 185
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "25e35c1b-5a48-402f-b227-0759c925ac63",
+  "object": "chat.completion",
+  "created": 1758477610,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo de conferência de documentação para evitar a manutenção de informações incorretas no sistema, o que visa prevenir a recorrência da impropriedade identificada, caracterizando uma solução de longo prazo focada na causa raiz.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1080,
+    "completion_tokens": 86,
+    "total_tokens": 1166,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 120
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

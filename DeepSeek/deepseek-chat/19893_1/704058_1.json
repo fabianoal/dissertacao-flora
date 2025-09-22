@@ -1,0 +1,28 @@
+{
+  "id": "981dcb16-9d65-475b-a20c-0735b2daa885",
+  "object": "chat.completion",
+  "created": 1758509002,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de cumprir a legislação que garante a reconstrução mamária no mesmo tempo cirúrgico quando houver condições técnicas, abordando a causa subjacente da não realização da reconstrução (possivelmente falta de conformidade com a lei ou protocolos) e promovendo uma mudança estrutural de longo prazo para prevenir futuras ocorrências, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1209,
+    "completion_tokens": 123,
+    "total_tokens": 1332,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 249
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

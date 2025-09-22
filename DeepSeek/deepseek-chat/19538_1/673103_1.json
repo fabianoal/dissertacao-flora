@@ -1,0 +1,28 @@
+{
+  "id": "2bc0e38e-e6d6-45b0-be3c-e3837a67a2d3",
+  "object": "chat.completion",
+  "created": 1758474386,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a adoção de estratégias e ações de saúde pública conforme orientações documentadas, visando melhorar o indicador de forma sustentável e prevenir a recorrência da não conformidade, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1068,
+    "completion_tokens": 76,
+    "total_tokens": 1144,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 108
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

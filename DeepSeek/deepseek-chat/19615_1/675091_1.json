@@ -1,0 +1,28 @@
+{
+  "id": "eced37e1-7eff-4cae-87b1-dd335b5ded48",
+  "object": "chat.completion",
+  "created": 1758477602,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistemático (inserção de relatórios de visita técnica em uma plataforma específica) para garantir a conformidade contínua com a portaria, abordando a causa raiz da ausência de supervisão ao estabelecer um mecanismo permanente de documentação e acompanhamento, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1066,
+    "completion_tokens": 107,
+    "total_tokens": 1173,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 106
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

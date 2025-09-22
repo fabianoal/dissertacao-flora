@@ -1,0 +1,28 @@
+{
+  "id": "354437a8-4985-4592-b4e9-58d227997556",
+  "object": "chat.completion",
+  "created": 1758483974,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo de registro detalhado e de qualidade nas UBS, visando evitar a reocorrência da condição de registros inadequados e subsidiar a gestão em planejamento e avaliação, o que envolve mudanças estruturais de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1124,
+    "completion_tokens": 89,
+    "total_tokens": 1213,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 164
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

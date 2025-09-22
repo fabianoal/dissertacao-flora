@@ -1,0 +1,28 @@
+{
+  "id": "cfe2265f-b8a7-4797-8156-6eb88742c868",
+  "object": "chat.completion",
+  "created": 1758476242,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação exige o cumprimento de uma proporção mínima de profissionais médicos conforme normativa, o que implica a implementação de uma mudança estrutural e permanente na gestão de recursos humanos para prevenir a recorrência da condição de inadequação, alinhando-se com soluções de longo prazo típicas de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1210,
+    "completion_tokens": 99,
+    "total_tokens": 1309,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 250
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "80916e1d-169c-464f-9d0e-571ed858e749",
+  "object": "chat.completion",
+  "created": 1758481046,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a análise ou alteração do contrato para garantir que futuros pagamentos considerem o relatório de crítica, abordando a causa raiz da irregularidade ao modificar processos ou acordos contratuais para prevenir recorrências, em vez de apenas corrigir a condição específica de abril de 2022.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1244,
+    "completion_tokens": 91,
+    "total_tokens": 1335,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 348
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

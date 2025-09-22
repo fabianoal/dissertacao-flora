@@ -1,0 +1,28 @@
+{
+  "id": "7fa1576a-2f1f-4bc1-bd78-8d3669d002a2",
+  "object": "chat.completion",
+  "created": 1758469106,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a criação de um plano de ação para mapear pontos críticos e agir de forma eficaz em todo o processo, desde a aquisição até a implantação, o que visa abordar a causa raiz da fragilidade no controle interno, promovendo soluções de longo prazo e prevenindo a recorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1090,
+    "completion_tokens": 100,
+    "total_tokens": 1190,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 130
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

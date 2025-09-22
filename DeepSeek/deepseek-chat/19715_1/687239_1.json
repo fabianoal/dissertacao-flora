@@ -1,0 +1,28 @@
+{
+  "id": "6398ec29-7134-4537-9833-de3ddad4bf43",
+  "object": "chat.completion",
+  "created": 1758480790,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a restituição dos valores cobrados indevidamente e o cumprimento de normas específicas para evitar repetição no curto prazo, sem propor mudanças estruturais ou de longo prazo para prevenir a causa raiz das irregularidades.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1339,
+    "completion_tokens": 89,
+    "total_tokens": 1428,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 379
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

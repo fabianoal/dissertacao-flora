@@ -1,0 +1,28 @@
+{
+  "id": "c6144b83-7080-41d2-824c-39f1b1e7bf7e",
+  "object": "chat.completion",
+  "created": 1758474359,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de implementar práticas de registro adequadas nos prontuários dos pacientes, o que visa prevenir a recorrência da inconformidade ao assegurar que os dados futuros sejam corretamente suportados e contabilizados, caracterizando uma solução de longo prazo para a causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1096,
+    "completion_tokens": 93,
+    "total_tokens": 1189,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 136
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

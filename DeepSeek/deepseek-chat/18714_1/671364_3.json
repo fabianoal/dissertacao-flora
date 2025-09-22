@@ -1,0 +1,28 @@
+{
+  "id": "755f2bbb-6d20-4cd8-9870-64c6a44e6a27",
+  "object": "chat.completion",
+  "created": 1758468297,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a despesa irregular com recursos federais, ao determinar a recomposição do Fundo Municipal de Saúde no valor específico e atualizado, sem propor ações para prevenir a recorrência do problema, como melhorias em processos de controle orçamentário ou capacitação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1184,
+    "completion_tokens": 95,
+    "total_tokens": 1279,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 160
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

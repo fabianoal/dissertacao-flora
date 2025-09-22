@@ -1,0 +1,28 @@
+{
+  "id": "aa9a600b-91b8-4a14-986b-08135bb3d8ef",
+  "object": "chat.completion",
+  "created": 1758470394,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a adoção de procedimentos para prevenir futuras irregularidades, alinhando-se com soluções de longo prazo, como a implementação de medidas administrativas para evitar a recorrência de dispensações irregulares.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1198,
+    "completion_tokens": 71,
+    "total_tokens": 1269,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 238
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "7c293e12-d989-4a9a-a7cf-ca9212961fd5",
+  "object": "chat.completion",
+  "created": 1758474254,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de procedimentos documentais permanentes, como a manutenção e arquivamento adequado de notas fiscais por um prazo prolongado (10 anos) e em múltiplos formatos, visando prevenir a recorrência da falta de comprovação de aquisição, o que se alinha com soluções de longo prazo para abordar a causa subjacente da irregularidade.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1241,
+    "completion_tokens": 112,
+    "total_tokens": 1353,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 281
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

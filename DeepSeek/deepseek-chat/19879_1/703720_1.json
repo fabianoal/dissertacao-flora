@@ -1,0 +1,28 @@
+{
+  "id": "eea895c4-4fb2-4fd0-99a6-fd3c3ec9e060",
+  "object": "chat.completion",
+  "created": 1758488864,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a avaliação e ajuste de normativos para garantir alinhamento permanente entre procedimentos e diagnósticos, visando prevenir futuras incompatibilidades, o que caracteriza uma solução de longo prazo focada na causa raiz do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1203,
+    "completion_tokens": 77,
+    "total_tokens": 1280,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 307
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

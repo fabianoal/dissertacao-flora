@@ -1,0 +1,28 @@
+{
+  "id": "64eeb076-8d46-44cd-a6a2-1c42e2b03eb3",
+  "object": "chat.completion",
+  "created": 1758483246,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a criação de um plano de gerenciamento de resíduos, o que é uma ação preventiva e de longo prazo para evitar a recorrência da condição observada (ausência do plano), alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1048,
+    "completion_tokens": 87,
+    "total_tokens": 1135,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 88
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

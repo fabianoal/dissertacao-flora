@@ -1,0 +1,28 @@
+{
+  "id": "c80119f9-4aac-4e2e-8c82-bd74275eea04",
+  "object": "chat.completion",
+  "created": 1758508995,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de cumprir regulamentações específicas para garantir a supervisão, processamento e avaliação analítica da produção, o que visa implementar mudanças estruturais e de longo prazo nos processos de regulação e auditoria, prevenindo a recorrência da inconformidade observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1154,
+    "completion_tokens": 89,
+    "total_tokens": 1243,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 194
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

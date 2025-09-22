@@ -1,0 +1,28 @@
+{
+  "id": "a9cc3340-af8b-4c2a-b751-2147d4610758",
+  "object": "chat.completion",
+  "created": 1758482746,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de manutenção preventiva e corretiva contínua, seja por meios próprios ou contratados, o que visa estabelecer um processo sistemático para evitar falhas futuras na cadeia de frio, alinhando-se com soluções de longo prazo para eliminar a causa raiz da deficiência observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1125,
+    "completion_tokens": 99,
+    "total_tokens": 1224,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 165
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

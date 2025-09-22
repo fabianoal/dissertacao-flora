@@ -1,0 +1,28 @@
+{
+  "id": "2f2812e9-dd12-4afa-85da-f57cb15a8162",
+  "object": "chat.completion",
+  "created": 1758482358,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração e implementação de POPs e o treinamento da equipe, que são ações estruturais e de longo prazo destinadas a prevenir a recorrência da falta de rotina de verificação diária, abordando a causa subjacente e não apenas corrigindo a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1229,
+    "completion_tokens": 89,
+    "total_tokens": 1318,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 269
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

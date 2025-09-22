@@ -1,0 +1,28 @@
+{
+  "id": "96491bf6-f33d-4aa0-8caa-14d05634cf7a",
+  "object": "chat.completion",
+  "created": 1758476362,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação sugere aprimorar instrumentos de análise, como pareceres técnicos, para atender a requisitos normativos, o que visa prevenir futuras irregularidades ao fortalecer processos de controle e conformidade, caracterizando uma solução de longo prazo e foco na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1058,
+    "completion_tokens": 85,
+    "total_tokens": 1143,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 98
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

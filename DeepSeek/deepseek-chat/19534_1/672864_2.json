@@ -1,0 +1,28 @@
+{
+  "id": "ed474632-271e-4358-b46a-cc88a7e84bcd",
+  "object": "chat.completion",
+  "created": 1758474206,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação solicita a adoção de procedimentos específicos conforme decretos estabelecidos, visando prevenir a ocorrência futura de dispensação sem comprovação de aquisição, o que indica um foco em resolver a causa subjacente e implementar mudanças estruturais ou processuais de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1172,
+    "completion_tokens": 89,
+    "total_tokens": 1261,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 212
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

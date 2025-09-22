@@ -1,0 +1,28 @@
+{
+  "id": "e80c8e0e-92df-4a04-92ff-f06af9ebf75c",
+  "object": "chat.completion",
+  "created": 1758476970,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação orienta os coordenadores a observarem princípios de moralidade administrativa, o que visa prevenir a ocorrência de práticas irregulares no futuro, abordando a causa subjacente (falta de aderência a normas éticas) e promovendo mudanças comportamentais duradouras, em vez de apenas corrigir a condição específica relatada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1075,
+    "completion_tokens": 102,
+    "total_tokens": 1177,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

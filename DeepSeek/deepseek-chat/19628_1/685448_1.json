@@ -1,0 +1,28 @@
+{
+  "id": "6e968996-334e-43e4-b635-be006447702b",
+  "object": "chat.completion",
+  "created": 1758478586,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de um processo contínuo de fornecimento de informações e acesso a documentos para auditorias futuras, visando prevenir a recorrência da indisponibilidade de inventários, o que se alinha com soluções de longo prazo para evitar a causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1080,
+    "completion_tokens": 85,
+    "total_tokens": 1165,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 120
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

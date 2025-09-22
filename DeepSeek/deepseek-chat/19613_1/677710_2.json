@@ -1,0 +1,28 @@
+{
+  "id": "573cc352-aba0-4a12-81e1-0d501d31d4b8",
+  "object": "chat.completion",
+  "created": 1758477078,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo de atualização periódica das informações no CNES, o que visa prevenir a recorrência do excesso de carga horária ao assegurar que os dados estejam sempre corretos e em conformidade com a normativa, caracterizando uma solução de longo prazo focada na causa raiz do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1056,
+    "completion_tokens": 100,
+    "total_tokens": 1156,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 96
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

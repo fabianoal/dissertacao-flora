@@ -1,0 +1,28 @@
+{
+  "id": "2adc0f75-e9a4-4e4e-acf6-0493e34171a4",
+  "object": "chat.completion",
+  "created": 1758487672,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um contrato formal que inclua não apenas a correção imediata da condição (falta de suporte técnico e plano de continuidade), mas também medidas estruturais, como a garantia de suporte técnico e planos de continuidade, visando prevenir a recorrência de problemas de conectividade no futuro, alinhando-se com a definição de recomendações cause-based que focam em soluções de longo prazo para evitar a repetição da inconformidade.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1175,
+    "completion_tokens": 132,
+    "total_tokens": 1307,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 215
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

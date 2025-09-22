@@ -1,0 +1,28 @@
+{
+  "id": "e39a9b1b-3b66-45ef-b231-2a14b51dde47",
+  "object": "chat.completion",
+  "created": 1758473774,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação solicita a adoção de procedimentos administrativos conforme decretos específicos para prevenir futuras ocorrências similares, focando em ações sistêmicas e de longo prazo para evitar danos ou impropriedades com recursos federais, em vez de apenas corrigir a condição imediata.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1187,
+    "completion_tokens": 87,
+    "total_tokens": 1274,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 227
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

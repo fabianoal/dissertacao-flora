@@ -1,0 +1,28 @@
+{
+  "id": "85162fc5-85bd-42ee-9f95-0962f449a0a9",
+  "object": "chat.completion",
+  "created": 1758470354,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de apresentar documentação e seguir regras de execução do programa para prevenir práticas irregulares no futuro, focando em ações corretivas de longo prazo, como a adesão a normas e procedimentos, em vez de apenas corrigir a condição imediata da falta de documentação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1210,
+    "completion_tokens": 92,
+    "total_tokens": 1302,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 314
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

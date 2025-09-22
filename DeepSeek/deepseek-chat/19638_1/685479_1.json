@@ -1,0 +1,28 @@
+{
+  "id": "ebf23552-cb5d-4301-bfb4-e7213c8d7ebc",
+  "object": "chat.completion",
+  "created": 1758478978,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um controle interno institucionalizado, o que visa prevenir a recorrência da condição (ausência de controle interno) ao estabelecer uma solução estrutural e de longo prazo, alinhada com normas específicas.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1028,
+    "completion_tokens": 76,
+    "total_tokens": 1104,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 68
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

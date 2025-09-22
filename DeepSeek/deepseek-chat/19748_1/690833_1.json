@@ -1,0 +1,28 @@
+{
+  "id": "4b3fca41-beaf-46d7-864e-561a1416e10d",
+  "object": "chat.completion",
+  "created": 1758481694,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação inclui medidas como processar e enviar apenas produção comprovada e prestar informações necessárias, que visam prevenir a reocorrência da condição irregular ao estabelecer processos de longo prazo e conformidade contínua.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1370,
+    "completion_tokens": 71,
+    "total_tokens": 1441,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 410
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "3a7508cd-b752-4d59-9bf1-5eef6a949d35",
+  "object": "chat.completion",
+  "created": 1758480306,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a sistematização e descentralização do processo de lançamento de procedimentos, visando prevenir a ocorrência futura de falhas na comprovação da produção, alinhando-se com soluções de longo prazo para evitar a reincidência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1136,
+    "completion_tokens": 87,
+    "total_tokens": 1223,
+    "prompt_tokens_details": {
+      "cached_tokens": 1088
+    },
+    "prompt_cache_hit_tokens": 1088,
+    "prompt_cache_miss_tokens": 48
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

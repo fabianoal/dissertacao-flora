@@ -1,0 +1,28 @@
+{
+  "id": "4cf2455c-3ddc-4016-a741-9f1ba7ccb414",
+  "object": "chat.completion",
+  "created": 1758473698,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de cumprir uma disposição normativa que estabelece a sistemática de alimentação dos bancos de dados, visando garantir que os dados reflitam fidedignamente a produção realizada. Isso implica a implementação de processos ou controles permanentes para prevenir a subnotificação recorrente, caracterizando um foco na causa subjacente da discrepância observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1231,
+    "completion_tokens": 106,
+    "total_tokens": 1337,
+    "prompt_tokens_details": {
+      "cached_tokens": 1088
+    },
+    "prompt_cache_hit_tokens": 1088,
+    "prompt_cache_miss_tokens": 143
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

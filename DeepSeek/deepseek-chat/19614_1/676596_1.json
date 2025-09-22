@@ -1,0 +1,28 @@
+{
+  "id": "bd76c2ef-266d-45d6-b663-9b85cd12c54c",
+  "object": "chat.completion",
+  "created": 1758477402,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação visa notificar a convenente para apresentar justificativas e observar o cumprimento de requisitos formais em processos de subcontratação, com o objetivo de evitar impropriedades futuras e garantir conformidade normativa de longo prazo, focando na causa das inconformidades identificadas.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1309,
+    "completion_tokens": 86,
+    "total_tokens": 1395,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 349
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

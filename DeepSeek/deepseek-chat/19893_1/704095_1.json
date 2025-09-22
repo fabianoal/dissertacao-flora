@@ -1,0 +1,28 @@
+{
+  "id": "c02b1a3c-b72f-48bb-9b4a-3e5f124bc8cd",
+  "object": "chat.completion",
+  "created": 1758509002,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de uma Comissão de Revisão de Prontuários e o cumprimento de normativos específicos, visando prevenir a recorrência de inconsistências nos dados das APACs por meio de mudanças estruturais e de longo prazo na gestão dos registros médicos, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1293,
+    "completion_tokens": 108,
+    "total_tokens": 1401,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 333
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "de52d152-7149-451c-9b09-8376fa171b7e",
+  "object": "chat.completion",
+  "created": 1758483042,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um programa de treinamento estruturado e regular, o que visa abordar a causa subjacente da falta de capacitação, promovendo uma solução de longo prazo para prevenir a recorrência da condição observada, conforme definido pelo IIA para recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1248,
+    "completion_tokens": 95,
+    "total_tokens": 1343,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 288
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "8ac34de4-55ae-4307-b673-e217ccc996d0",
+  "object": "chat.completion",
+  "created": 1758487481,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação inclui ações como implantar rotinas sistemáticas de verificação de dados, capacitar profissionais e implementar mecanismos de rastreabilidade, que visam prevenir a recorrência da irregularidade ao abordar causas subjacentes, como falta de processos e treinamento, além de uma medida corretiva temporária de restituição de recursos.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1419,
+    "completion_tokens": 95,
+    "total_tokens": 1514,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 459
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

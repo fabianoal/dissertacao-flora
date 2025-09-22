@@ -1,0 +1,28 @@
+{
+  "id": "a89a916e-af2b-4638-9b39-d58b183c3045",
+  "object": "chat.completion",
+  "created": 1758480006,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfoca a implementação de um processo contínuo de avaliação semestral pela CGPO, visando prevenir a recorrência da ausência de avaliação, alinhando-se com soluções de longo prazo para evitar a causa subjacente da inconformidade.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1051,
+    "completion_tokens": 80,
+    "total_tokens": 1131,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 91
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "3a042f85-275f-4fce-9800-3f630f6e4bd2",
+  "object": "chat.completion",
+  "created": 1758479026,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de procedimentos permanentes, como a manutenção de documentação por 10 anos em meios físico e digital, conforme normativas, visando prevenir a recorrência de dispensações irregulares a beneficiários falecidos, ao invés de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1223,
+    "completion_tokens": 89,
+    "total_tokens": 1312,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 263
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "133780ff-2be3-4000-9333-7299bdf5de58",
+  "object": "chat.completion",
+  "created": 1758481994,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe adequar a estrutura física da CMRF para atender aos requisitos normativos de forma permanente, visando prevenir futuras não conformidades e garantir a manutenção contínua da cadeia de frio, o que caracteriza uma solução de longo prazo focada na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1134,
+    "completion_tokens": 89,
+    "total_tokens": 1223,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 174
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

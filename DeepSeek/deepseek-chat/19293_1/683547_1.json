@@ -1,0 +1,28 @@
+{
+  "id": "23779717-bc64-4b2c-a532-437709d4947d",
+  "object": "chat.completion",
+  "created": 1758469394,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações como aperfeiçoar o monitoramento, reforçar a comunicação, programar o sistema para emitir alertas e fechamento automático, e realizar treinamentos, que visam abordar as causas subjacentes do descumprimento de prazos, promovendo mudanças estruturais e de longo prazo para prevenir a recorrência do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1238,
+    "completion_tokens": 104,
+    "total_tokens": 1342,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 278
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

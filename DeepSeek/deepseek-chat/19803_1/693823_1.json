@@ -1,0 +1,28 @@
+{
+  "id": "525f49f0-bc0a-43ce-8292-61b5e3fc5464",
+  "object": "chat.completion",
+  "created": 1758483822,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe o desenvolvimento de estratégias para garantir o acompanhamento dos familiares, o que envolve a implementação de mudanças estruturais e de longo prazo na forma como as equipes atuam, visando prevenir a recorrência da condição observada, em vez de apenas corrigir a situação atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1180,
+    "completion_tokens": 94,
+    "total_tokens": 1274,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 284
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

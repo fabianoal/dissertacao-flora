@@ -1,0 +1,28 @@
+{
+  "id": "c1a72441-21e1-469b-8cad-dee7454b4060",
+  "object": "chat.completion",
+  "created": 1758488916,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de processos e conformidade com manuais e portarias para garantir a autorização prévia de procedimentos oncológicos, visando prevenir a recorrência da condição observada (emissão de APACs após o início do tratamento), o que se alinha com soluções de longo prazo e mudanças estruturais no sistema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1185,
+    "completion_tokens": 99,
+    "total_tokens": 1284,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 161
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

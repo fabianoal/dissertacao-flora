@@ -1,0 +1,28 @@
+{
+  "id": "d17ea2b2-5422-4fbc-8c39-7f9ea187e337",
+  "object": "chat.completion",
+  "created": 1758469858,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo de registro fidedigno no SIA/SUS, alinhado com normas e manuais, visando prevenir a reocorrência da discrepância entre dados registrados e produção real, caracterizando uma solução de longo prazo focada na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1344,
+    "completion_tokens": 91,
+    "total_tokens": 1435,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 384
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

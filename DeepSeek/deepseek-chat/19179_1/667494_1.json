@@ -1,0 +1,28 @@
+{
+  "id": "1ac74c4b-ce05-455d-b53d-e68289f516bf",
+  "object": "chat.completion",
+  "created": 1758468862,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistemático de verificação de obrigações trabalhistas antes do pagamento, visando prevenir futuras ocorrências de impropriedades similares, o que se alinha com soluções de longo prazo para evitar a recorrência do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1118,
+    "completion_tokens": 84,
+    "total_tokens": 1202,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 158
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "fecba02a-57ec-4bf2-b0ec-32108f24b654",
+  "object": "chat.completion",
+  "created": 1758475662,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a definição de metas quanti-qualitativas no contrato com o prestador do serviço para garantir o encaminhamento oportuno de pacientes, abordando a causa raiz do atraso ao estabelecer um mecanismo estrutural de longo prazo que visa prevenir a recorrência da condição, em vez de apenas corrigir a situação atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1262,
+    "completion_tokens": 101,
+    "total_tokens": 1363,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 238
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "b5a8b67a-8398-4435-9b4e-9900e994c015",
+  "object": "chat.completion",
+  "created": 1758491220,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação sugere que a SAES/MS adote medidas cabíveis conforme a portaria mencionada, incluindo a cobrança administrativa de recursos para evitar danos futuros, o que implica ações preventivas e de longo prazo para evitar a recorrência da irregularidade, alinhando-se com o foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1193,
+    "completion_tokens": 90,
+    "total_tokens": 1283,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 297
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

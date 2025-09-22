@@ -1,0 +1,28 @@
+{
+  "id": "327e502f-ac9d-4c88-a2eb-1537d0d20a65",
+  "object": "chat.completion",
+  "created": 1758469930,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de controles e avaliações sistemáticas, conforme manuais e portarias, para garantir a fidedignidade dos dados de produção ambulatorial a longo prazo, visando prevenir a reocorrência da não comprovação de procedimentos, em vez de apenas corrigir a condição atual específica.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1192,
+    "completion_tokens": 94,
+    "total_tokens": 1286,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 232
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

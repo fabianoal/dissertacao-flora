@@ -1,0 +1,28 @@
+{
+  "id": "83d9d2d2-fd07-4616-aa65-abfd626a4005",
+  "object": "chat.completion",
+  "created": 1758474294,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de uma nova portaria para orientar futuras contratações, focando em prevenir a recorrência da não observância de normas, o que envolve uma solução de longo prazo para evitar que a condição de irregularidade volte a ocorrer.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1113,
+    "completion_tokens": 82,
+    "total_tokens": 1195,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 153
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

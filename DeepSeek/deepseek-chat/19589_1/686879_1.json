@@ -1,0 +1,28 @@
+{
+  "id": "93422da8-4f26-450f-bda4-d3f081d86bf7",
+  "object": "chat.completion",
+  "created": 1758475554,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação visa garantir a conformidade contínua com os indicadores estabelecidos pela portaria, focando na implementação de processos ou sistemas para coletar e disponibilizar regularmente essas informações, o que aborda a causa subjacente da não disponibilização e previne sua recorrência a longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1286,
+    "completion_tokens": 87,
+    "total_tokens": 1373,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 326
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

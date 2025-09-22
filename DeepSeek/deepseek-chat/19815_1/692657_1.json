@@ -1,0 +1,28 @@
+{
+  "id": "af7e3236-a461-4170-af5e-79f17fe73c73",
+  "object": "chat.completion",
+  "created": 1758484402,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de procedimentos sistemáticos e documentados para manutenções periódicas, conforme normas específicas, visando prevenir futuras falhas na cadeia de frio, o que caracteriza uma solução de longo prazo focada na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1314,
+    "completion_tokens": 81,
+    "total_tokens": 1395,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 354
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

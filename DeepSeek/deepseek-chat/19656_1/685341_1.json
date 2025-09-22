@@ -1,0 +1,28 @@
+{
+  "id": "6be30c36-11e7-432b-8825-d1cc028aa7c0",
+  "object": "chat.completion",
+  "created": 1758479238,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a adoção de recomendações para melhorar os resultados do indicador e a realização de exames conforme a nota técnica, focando em ações preventivas e de longo prazo para evitar a não conformidade futura, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1144,
+    "completion_tokens": 90,
+    "total_tokens": 1234,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 184
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

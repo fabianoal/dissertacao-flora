@@ -1,0 +1,28 @@
+{
+  "id": "ae7cfdb7-4edb-429e-8713-d39eae13478d",
+  "object": "chat.completion",
+  "created": 1758476794,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição identificada (ausência de visita técnica ou documentação), solicitando justificativa ou inserção de relatórios, sem propor ações para prevenir a recorrência do problema a longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1040,
+    "completion_tokens": 74,
+    "total_tokens": 1114,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 80
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

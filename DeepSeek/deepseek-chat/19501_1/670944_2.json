@@ -1,0 +1,28 @@
+{
+  "id": "32228355-6881-4d56-9e5b-345e5059c5c6",
+  "object": "chat.completion",
+  "created": 1758473498,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de aderir continuamente às regras e manter documentação por um período prolongado (10 anos), visando prevenir a reocorrência da falta de comprovação de aquisição, o que se alinha com soluções de longo prazo para evitar a causa raiz do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1228,
+    "completion_tokens": 90,
+    "total_tokens": 1318,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 268
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "efe3aa53-03f1-4055-a40d-1c791cd92c77",
+  "object": "chat.completion",
+  "created": 1758481662,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a aquisição e implementação de equipamentos e instrumentos adequados para controlar e monitorar temperatura e umidade, o que visa prevenir futuras ocorrências de não conformidade com os normativos, abordando a causa raiz da inadequação dos equipamentos existentes e promovendo uma solução de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1151,
+    "completion_tokens": 95,
+    "total_tokens": 1246,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 191
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

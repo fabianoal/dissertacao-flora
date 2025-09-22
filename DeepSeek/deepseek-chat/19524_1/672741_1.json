@@ -1,0 +1,28 @@
+{
+  "id": "827d567f-35bb-4e3b-8a9e-1f603b351bef",
+  "object": "chat.completion",
+  "created": 1758474026,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca em corrigir a condição imediata de falta de acesso à informação, exigindo a apresentação de documentos específicos quando solicitado, sem propor ações para prevenir a recorrência da causa subjacente, como a implementação de políticas de documentação ou treinamento.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1088,
+    "completion_tokens": 82,
+    "total_tokens": 1170,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 192
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6d45d58f-0819-4327-81f0-3b82910d9926",
+  "object": "chat.completion",
+  "created": 1758476698,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, exigindo a apresentação de justificativas e documentação comprobatória para regularizar a despesa específica, sem propor ações preventivas de longo prazo para evitar a recorrência da ausência de cotação prévia ou justificativa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1130,
+    "completion_tokens": 90,
+    "total_tokens": 1220,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 170
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "4a54c04c-b5a4-427c-9a73-bcee2fff24ae",
+  "object": "chat.completion",
+  "created": 1758480586,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, especificamente na devolução dos recursos financeiros indevidamente utilizados, sem propor ações para prevenir a ocorrência futura de incompatibilidades entre dados de produção e execução efetiva.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1187,
+    "completion_tokens": 78,
+    "total_tokens": 1265,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 227
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

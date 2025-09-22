@@ -1,0 +1,28 @@
+{
+  "id": "2af8e330-d7d4-4107-8dd7-9afe0ee390be",
+  "object": "chat.completion",
+  "created": 1758469666,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a organização do preenchimento de formulários e registros nos prontuários dos pacientes, o que envolve a implementação de processos estruturados e contínuos para prevenir a recorrência da precariedade observada, alinhando-se com soluções de longo prazo para evitar que a condição volte a ocorrer.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1057,
+    "completion_tokens": 96,
+    "total_tokens": 1153,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 97
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

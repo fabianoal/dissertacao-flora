@@ -1,0 +1,28 @@
+{
+  "id": "b36801ef-b23e-4c4e-b9fc-a33b40d6412b",
+  "object": "chat.completion",
+  "created": 1758482422,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe o estabelecimento de medidas para assegurar o cumprimento de requisitos legais e normativos, como a manutenção adequada de registros no prontuário e a efetiva atuação do setor de controle, o que visa prevenir a reocorrência da inconformidade ao abordar as causas subjacentes, como a falta de documentação e controle, em vez de apenas corrigir a condição imediata.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1255,
+    "completion_tokens": 121,
+    "total_tokens": 1376,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 295
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

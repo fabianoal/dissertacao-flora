@@ -1,0 +1,28 @@
+{
+  "id": "b11e2d45-7c8e-4f6c-951e-b8a465011b3d",
+  "object": "chat.completion",
+  "created": 1758475158,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe uma revisão e incorporação de novos indicadores para monitorar momentos críticos de resposta, o que visa prevenir a reocorrência da insuficiência na visão abrangente dos tempos de resposta, representando uma solução de longo prazo para melhorar a gestão e o funcionamento do serviço.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1127,
+    "completion_tokens": 93,
+    "total_tokens": 1220,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 167
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

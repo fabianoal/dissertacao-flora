@@ -1,0 +1,28 @@
+{
+  "id": "ac93d965-b467-44ef-abca-660c33cdd5b1",
+  "object": "chat.completion",
+  "created": 1758487836,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de processos sistêmicos e contínuos, como estabelecer prioridades comuns para atuação integrada e analisar o perfil produtivo e de saúde, visando evitar a recorrência da falha de mapeamento e promover melhorias estruturais de longo prazo na gestão dos CERESTs.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1268,
+    "completion_tokens": 95,
+    "total_tokens": 1363,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 308
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

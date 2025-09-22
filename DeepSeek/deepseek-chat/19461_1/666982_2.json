@@ -1,0 +1,28 @@
+{
+  "id": "9574b82d-d2a6-4d3a-a0cd-61527205c3a8",
+  "object": "chat.completion",
+  "created": 1758470546,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo e sistemático para garantir o acesso dos usuários às informações sobre seu estado de saúde, alinhado com normas legais, visando prevenir a recorrência de irregularidades no preenchimento de documentos como o CFI, ao invés de apenas corrigir a condição específica encontrada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1143,
+    "completion_tokens": 96,
+    "total_tokens": 1239,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 119
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

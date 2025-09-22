@@ -1,0 +1,28 @@
+{
+  "id": "e89784f9-7aaf-4369-8440-a90bb45a3d4a",
+  "object": "chat.completion",
+  "created": 1758475666,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo e sistemático (envio trimestral de amostras e informações) para garantir conformidade futura com a legislação, abordando a causa raiz da não conformidade, que é a falta de procedimentos regulares, em vez de apenas corrigir a condição específica observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1193,
+    "completion_tokens": 97,
+    "total_tokens": 1290,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 233
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

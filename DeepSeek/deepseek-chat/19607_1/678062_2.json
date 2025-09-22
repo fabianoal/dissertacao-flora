@@ -1,0 +1,28 @@
+{
+  "id": "888c3bdd-51c8-4a65-91e0-3f36b93b46eb",
+  "object": "chat.completion",
+  "created": 1758476266,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, propondo a devolução de valores e dedução de pagamentos não comprovados, sem abordar ações preventivas ou de longo prazo para evitar a reocorrência da falta de documentação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1280,
+    "completion_tokens": 79,
+    "total_tokens": 1359,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 320
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

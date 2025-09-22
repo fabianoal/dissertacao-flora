@@ -1,0 +1,28 @@
+{
+  "id": "b1ceadd3-1f1f-489f-adf5-ba7060fd4cf1",
+  "object": "chat.completion",
+  "created": 1758487832,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a inserção de ações e indicadores específicos nos instrumentos de planejamento (Planos de Saúde e Programações Anuais de Saúde) para organizar a atenção integral à saúde do trabalhador, abordando múltiplas áreas de forma abrangente. Isso visa estabelecer uma estrutura permanente e preventiva, alinhada com normativas, para evitar a recorrência da falta de planejamento identificada, caracterizando uma solução de longo prazo focada na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1147,
+    "completion_tokens": 129,
+    "total_tokens": 1276,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 187
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

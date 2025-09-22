@@ -1,0 +1,28 @@
+{
+  "id": "e425ac35-72bb-469a-a545-a8e0287f6ae5",
+  "object": "chat.completion",
+  "created": 1758480674,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a inclusão de um documento descritivo e cláusulas de prestação de contas em contratos futuros, visando prevenir a recorrência da ausência documental e melhorar a gestão e fiscalização de forma sustentável, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1355,
+    "completion_tokens": 89,
+    "total_tokens": 1444,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 459
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

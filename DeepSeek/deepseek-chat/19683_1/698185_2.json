@@ -1,0 +1,28 @@
+{
+  "id": "48ae524f-941d-488e-ba71-2663e2f21e6c",
+  "object": "chat.completion",
+  "created": 1758480122,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a orientação de fiscais e gestores para realizar conferências sistemáticas da documentação comprobatória em processos de contratação, visando prevenir a ocorrência futura de pagamentos sem cobertura contratual, o que se alinha com soluções de longo prazo para evitar a causa raiz do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1064,
+    "completion_tokens": 93,
+    "total_tokens": 1157,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 104
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

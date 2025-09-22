@@ -1,0 +1,28 @@
+{
+  "id": "5be81ca9-fb36-459c-9add-6619d5cf19c2",
+  "object": "chat.completion",
+  "created": 1758488972,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfoca a implementação de um processo contínuo e sistemático para inserir informações no SIH/SUS e manter documentação comprobatória no prontuário, visando prevenir a recorrência da não comprovação da infusão endovenosa contínua, o que se alinha com soluções de longo prazo para evitar a condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1188,
+    "completion_tokens": 103,
+    "total_tokens": 1291,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 228
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

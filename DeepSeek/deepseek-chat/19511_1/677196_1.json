@@ -1,0 +1,28 @@
+{
+  "id": "eec7a2c8-28b7-4234-8cef-779cebe373f8",
+  "object": "chat.completion",
+  "created": 1758473562,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adequação física das instalações prediais para armazenagem de OPME, o que envolve mudanças estruturais e de longo prazo para garantir conformidade contínua com normas, visando prevenir a reocorrência da condição inadequada, em vez de apenas corrigir temporariamente a situação atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1200,
+    "completion_tokens": 93,
+    "total_tokens": 1293,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 240
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

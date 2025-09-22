@@ -1,0 +1,28 @@
+{
+  "id": "849e0ca7-2380-4b72-b2a4-1fdc6898cb4b",
+  "object": "chat.completion",
+  "created": 1758487592,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de processos organizacionais e de controle contínuos, como a organização e disponibilização de documentação comprobatória conforme normas estabelecidas, visando prevenir a recorrência da falta de documentação e promovendo melhorias estruturais no sistema de gestão do TFD.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1272,
+    "completion_tokens": 88,
+    "total_tokens": 1360,
+    "prompt_tokens_details": {
+      "cached_tokens": 1088
+    },
+    "prompt_cache_hit_tokens": 1088,
+    "prompt_cache_miss_tokens": 184
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

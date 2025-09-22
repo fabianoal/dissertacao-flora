@@ -1,0 +1,28 @@
+{
+  "id": "a54fdf88-7d7e-44f5-9241-46251cabb7a5",
+  "object": "chat.completion",
+  "created": 1758485330,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a criação e implementação de rotinas, protocolos e/ou fluxos formais para acompanhamento de pacientes, o que visa prevenir a recorrência da condição observada (falta de acompanhamento) através de mudanças estruturais de longo prazo, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1225,
+    "completion_tokens": 100,
+    "total_tokens": 1325,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 265
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

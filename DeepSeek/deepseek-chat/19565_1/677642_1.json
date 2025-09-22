@@ -1,0 +1,28 @@
+{
+  "id": "698f5c6b-ab57-4b14-8fa6-2eb8f6d4948c",
+  "object": "chat.completion",
+  "created": 1758475086,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações estruturais e de longo prazo, como adequação a normativas arquitetônicas, manutenção preventiva conforme normas técnicas, e garantia de documentação essencial, visando prevenir a recorrência das inconformidades identificadas, em vez de apenas corrigir as condições atuais de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1248,
+    "completion_tokens": 92,
+    "total_tokens": 1340,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 288
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

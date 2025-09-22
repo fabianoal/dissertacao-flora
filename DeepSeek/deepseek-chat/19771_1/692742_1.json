@@ -1,0 +1,28 @@
+{
+  "id": "a66f2da7-ac96-4c89-9181-6c9101e7cdba",
+  "object": "chat.completion",
+  "created": 1758482582,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe uma ação estrutural de readequação do número de leitos para garantir conformidade permanente com normas de infraestrutura, focando na causa raiz (excesso de pacientes devido à inadequação dos leitos) para prevenir a recorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1076,
+    "completion_tokens": 82,
+    "total_tokens": 1158,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 180
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

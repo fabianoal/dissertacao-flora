@@ -1,0 +1,28 @@
+{
+  "id": "9704be46-f543-49e1-a389-e3e53fcbed8b",
+  "object": "chat.completion",
+  "created": 1758485394,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação inclui uma ação corretiva imediata (restituição de valores) que é condition-based, mas também exige medidas preventivas de longo prazo para garantir a veracidade, compatibilidade e comprovação documental da produção ambulatorial no sistema, visando evitar a recorrência da irregularidade, o que a caracteriza predominantemente como cause-based.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1437,
+    "completion_tokens": 101,
+    "total_tokens": 1538,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 477
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c196a2b4-5a9f-492e-9222-9c2af117fbdc",
+  "object": "chat.completion",
+  "created": 1758488016,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a instituição e manutenção de um programa de capacitação contínua e específica, o que visa prevenir a recorrência da falta de capacitação dos profissionais, abordando a causa subjacente e promovendo uma solução de longo prazo, alinhada com as diretrizes nacionais.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1224,
+    "completion_tokens": 91,
+    "total_tokens": 1315,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 264
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

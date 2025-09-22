@@ -1,0 +1,28 @@
+{
+  "id": "e87ce468-9ef3-446a-9d07-e0f2c30728f1",
+  "object": "chat.completion",
+  "created": 1758476334,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de uma ação de supervisão contínua e sistemática (orientar os superiores imediatos a assinarem as folhas de frequência), visando prevenir a recorrência da ausência de assinaturas no futuro, o que caracteriza um foco na causa subjacente da falha de supervisão, em vez de apenas corrigir a condição atual específica.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1057,
+    "completion_tokens": 113,
+    "total_tokens": 1170,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 97
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

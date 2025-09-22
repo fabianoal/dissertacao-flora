@@ -1,0 +1,28 @@
+{
+  "id": "ec920ac1-8910-47d0-a22d-c097760b3e0f",
+  "object": "chat.completion",
+  "created": 1758483714,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a aquisição de equipamentos apropriados e a garantia de seu uso exclusivo para fins específicos, além de assegurar a capacidade adequada e o cumprimento de normas, visando soluções de longo prazo para prevenir a recorrência da condição inadequada de armazenamento, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1294,
+    "completion_tokens": 108,
+    "total_tokens": 1402,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 334
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

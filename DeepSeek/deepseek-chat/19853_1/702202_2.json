@@ -1,0 +1,28 @@
+{
+  "id": "6b301128-b233-4cfc-a8ab-b3a17fd59222",
+  "object": "chat.completion",
+  "created": 1758487904,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação exige a adoção de procedimentos legais e normativos específicos para prevenir futuras discrepâncias na produção de dados, focando em ações de longo prazo para evitar a reocorrência da condição, em vez de apenas corrigir a situação atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1158,
+    "completion_tokens": 78,
+    "total_tokens": 1236,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 198
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

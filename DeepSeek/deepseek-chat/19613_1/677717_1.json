@@ -1,0 +1,28 @@
+{
+  "id": "4be3d8a8-1367-4a25-8716-b035ee7513ea",
+  "object": "chat.completion",
+  "created": 1758477110,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, exigindo justificativas e, se necessário, ressarcimento dos valores, sem propor ações para prevenir futuras inconsistências na demanda e aquisição de materiais.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1160,
+    "completion_tokens": 71,
+    "total_tokens": 1231,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 200
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

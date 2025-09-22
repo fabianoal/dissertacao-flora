@@ -1,0 +1,28 @@
+{
+  "id": "fb45adb1-0afb-471a-948d-b92007e66dfe",
+  "object": "chat.completion",
+  "created": 1758489128,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, especificamente na devolução do valor irregular ao Fundo Nacional de Saúde, sem propor ações para prevenir a recorrência da inconsistência nos registros do Espelho da AIH.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1165,
+    "completion_tokens": 74,
+    "total_tokens": 1239,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 205
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

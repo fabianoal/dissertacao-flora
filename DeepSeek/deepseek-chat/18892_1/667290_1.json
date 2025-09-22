@@ -1,0 +1,28 @@
+{
+  "id": "2f172c5e-5aff-42e7-8941-6b23fbd00d02",
+  "object": "chat.completion",
+  "created": 1758468582,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é o pagamento indevido, ao exigir a restituição do valor, sem propor ações para prevenir a reocorrência do problema subjacente, como melhorias nos processos de controle de entrada de materiais.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1132,
+    "completion_tokens": 84,
+    "total_tokens": 1216,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 172
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "95d0696c-f93e-4392-b23b-27dd4040a4b8",
+  "object": "chat.completion",
+  "created": 1758483194,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição específica encontrada (ausência da PAS 2024), ao sugerir sua realização conforme a norma, sem propor ações para prevenir a recorrência da não apresentação em anos futuros.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1047,
+    "completion_tokens": 74,
+    "total_tokens": 1121,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 87
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

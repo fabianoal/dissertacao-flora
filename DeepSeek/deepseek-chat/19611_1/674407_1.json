@@ -1,0 +1,28 @@
+{
+  "id": "29f57a72-e352-4d8b-957b-b76b619cca74",
+  "object": "chat.completion",
+  "created": 1758476682,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de a convenente apresentar justificativas e observar cumprimento de requisitos formais para evitar impropriedades futuras, focando em ações preventivas e de longo prazo, como o atendimento a normas específicas, o que se alinha com a definição de recomendações cause-based que visam evitar a recorrência da condição.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1242,
+    "completion_tokens": 103,
+    "total_tokens": 1345,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 282
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

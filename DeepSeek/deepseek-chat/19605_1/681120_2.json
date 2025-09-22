@@ -1,0 +1,28 @@
+{
+  "id": "a05dd96d-69c2-42e8-a467-c2e67ec91fc0",
+  "object": "chat.completion",
+  "created": 1758476138,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a organização da política e o desenvolvimento de um plano integrado e abrangente, focando em ações estruturais de longo prazo para prevenir a reocorrência da falta de articulação e integração, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1174,
+    "completion_tokens": 86,
+    "total_tokens": 1260,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 214
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

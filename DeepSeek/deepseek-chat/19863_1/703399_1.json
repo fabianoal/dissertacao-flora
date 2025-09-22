@@ -1,0 +1,28 @@
+{
+  "id": "af0b9845-5fdf-4211-b24d-2e5ace0062f2",
+  "object": "chat.completion",
+  "created": 1758488404,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a ausência de documentação comprobatória da publicação da portaria, sem propor ações para prevenir a recorrência do problema subjacente, como melhorias em processos de documentação ou monitoramento.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1121,
+    "completion_tokens": 81,
+    "total_tokens": 1202,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 161
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

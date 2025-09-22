@@ -1,0 +1,28 @@
+{
+  "id": "7dd5cb63-9548-465f-910d-eec653a1ec14",
+  "object": "chat.completion",
+  "created": 1758473246,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações para evitar a reocorrência da omissão no Relatório Anual de Gestão, incluindo a revisão do processo de elaboração e a garantia de atendimento a exigências legais em relatórios futuros, focando em soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1156,
+    "completion_tokens": 85,
+    "total_tokens": 1241,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 196
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

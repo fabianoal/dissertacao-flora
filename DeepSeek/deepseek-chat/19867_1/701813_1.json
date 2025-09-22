@@ -1,0 +1,28 @@
+{
+  "id": "ab3a8922-7024-418a-8f30-c9426f0c4baf",
+  "object": "chat.completion",
+  "created": 1758488612,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de medidas estruturais e permanentes, como a compatibilização contínua da produção registrada com a capacidade instalada, alinhada a normativas específicas, visando prevenir a reocorrência da incompatibilidade observada, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1190,
+    "completion_tokens": 93,
+    "total_tokens": 1283,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 230
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

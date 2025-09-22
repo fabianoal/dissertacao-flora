@@ -1,0 +1,28 @@
+{
+  "id": "b8ac6d70-c3ab-4b41-9664-9e3ef7294a01",
+  "object": "chat.completion",
+  "created": 1758487924,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um controle efetivo para monitorar e sanar demandas reprimidas, o que envolve a criação ou melhoria de processos de gestão para evitar a recorrência do problema, alinhando-se com soluções de longo prazo e foco na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1143,
+    "completion_tokens": 90,
+    "total_tokens": 1233,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 183
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

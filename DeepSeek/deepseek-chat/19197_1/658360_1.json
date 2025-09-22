@@ -1,0 +1,28 @@
+{
+  "id": "28ae9b51-2e74-4d90-9547-704e70c8ab0a",
+  "object": "chat.completion",
+  "created": 1758468886,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de instrumentos centralizados para aquisições de OPMEs, como sistemas de registro de preços, o que visa abordar a causa raiz da ausência de planejamento ao estabelecer estruturas e processos duradouros, em vez de apenas corrigir a condição atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1129,
+    "completion_tokens": 91,
+    "total_tokens": 1220,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 169
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

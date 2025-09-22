@@ -1,0 +1,28 @@
+{
+  "id": "d584b762-5ea9-4a67-ba5e-7f8e7322c83b",
+  "object": "chat.completion",
+  "created": 1758484630,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implantação de um grupo condutor e a criação de um plano detalhado com objetivos, metas, indicadores e prazos, o que visa estabelecer uma estrutura permanente para evitar a recorrência da falta de acompanhamento e avaliação, focando em soluções de longo prazo e não apenas na correção imediata da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1133,
+    "completion_tokens": 102,
+    "total_tokens": 1235,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 237
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

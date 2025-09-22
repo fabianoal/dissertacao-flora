@@ -1,0 +1,28 @@
+{
+  "id": "4dac8551-f390-4999-a1c8-0ef54ea1bc8b",
+  "object": "chat.completion",
+  "created": 1758470154,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um sistema de arquivamento de documentos fiscais que previne a ocorrência futura de dispensação de medicamentos sem comprovação adequada, focando em uma solução de longo prazo e alinhada com normativas, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1131,
+    "completion_tokens": 91,
+    "total_tokens": 1222,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 171
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

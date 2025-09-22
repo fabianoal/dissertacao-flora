@@ -1,0 +1,28 @@
+{
+  "id": "2d6be35c-fb49-44e4-ae66-6b08f0572f33",
+  "object": "chat.completion",
+  "created": 1758469450,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de garantir que o processo de gestão e fiscalização de contratos seja realizado integralmente conforme a legislação aplicável, incluindo a aplicação de sanções administrativas e a observância de dispositivos legais específicos para evitar futuras infrações contratuais, focando em mudanças estruturais de longo prazo no processo de gestão.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1332,
+    "completion_tokens": 100,
+    "total_tokens": 1432,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 372
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

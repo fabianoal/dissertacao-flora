@@ -1,0 +1,28 @@
+{
+  "id": "98632068-5ce3-4768-8c14-cfa04ceb893f",
+  "object": "chat.completion",
+  "created": 1758476450,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, solicitando justificativas para a prorrogação irregular do contrato, sem propor ações para prevenir a recorrência do problema, como mudanças em políticas ou procedimentos de contratação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1047,
+    "completion_tokens": 77,
+    "total_tokens": 1124,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 87
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

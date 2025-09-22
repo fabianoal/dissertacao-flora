@@ -1,0 +1,28 @@
+{
+  "id": "794db799-b651-4dcf-a45d-1e7c464bffb7",
+  "object": "chat.completion",
+  "created": 1758483686,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a inserção da Rede de Frio na estrutura organizacional e a atualização de documentos normativos, como o regimento interno, para definir responsabilidades e competências de forma permanente, visando prevenir a recorrência da falta de controles internos adequados, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1119,
+    "completion_tokens": 93,
+    "total_tokens": 1212,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 159
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

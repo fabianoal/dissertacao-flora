@@ -1,0 +1,28 @@
+{
+  "id": "03f6c494-912c-46d8-aed4-36f2dcd68b2b",
+  "object": "chat.completion",
+  "created": 1758484030,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição identificada (subutilização do sistema e-SUS), ao instruir o preenchimento dos campos específicos, sem propor ações para prevenir a recorrência, como melhorias em processos, treinamentos ou políticas de monitoramento.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1124,
+    "completion_tokens": 82,
+    "total_tokens": 1206,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 228
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

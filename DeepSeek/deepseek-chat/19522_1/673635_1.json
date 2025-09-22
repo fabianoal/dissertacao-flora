@@ -1,0 +1,28 @@
+{
+  "id": "e5f75eb4-e56d-44d1-8df1-c7ccff380f60",
+  "object": "chat.completion",
+  "created": 1758473930,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza o cumprimento de normas e procedimentos contínuos para manter o cadastro atualizado, abordando a causa raiz da desatualização ao invés de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1220,
+    "completion_tokens": 72,
+    "total_tokens": 1292,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 260
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

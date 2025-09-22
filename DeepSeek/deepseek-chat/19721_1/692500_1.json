@@ -1,0 +1,28 @@
+{
+  "id": "e2d876de-bc0a-4e9b-86b6-ab8bf14d77c8",
+  "object": "chat.completion",
+  "created": 1758481002,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo de fiscalização pela Vigilância Sanitária, o que visa prevenir a reocorrência da condição de licença sanitária desatualizada, alinhando-se com soluções de longo prazo para evitar problemas futuros.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1063,
+    "completion_tokens": 84,
+    "total_tokens": 1147,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 103
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

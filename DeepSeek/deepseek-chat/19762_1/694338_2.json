@@ -1,0 +1,28 @@
+{
+  "id": "07bd2307-8e18-4bce-9955-2c0b7a265b29",
+  "object": "chat.completion",
+  "created": 1758482290,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de uma justificativa formal e sistemática para futuras adesões a pregões, visando prevenir a recorrência da inadequação na motivação, o que envolve uma mudança processual de longo prazo e alinhamento com requisitos legais, focando na causa raiz do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1129,
+    "completion_tokens": 94,
+    "total_tokens": 1223,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 169
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

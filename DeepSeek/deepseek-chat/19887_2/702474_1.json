@@ -1,0 +1,28 @@
+{
+  "id": "906c9fdd-3fce-4059-85e7-85ef53ae1f84",
+  "object": "chat.completion",
+  "created": 1758489164,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a devolução de recursos financeiros ao Fundo Nacional de Saúde para elidir o dano ocorrido, sem propor ações para prevenir a recorrência da incompatibilidade entre CIDs e critérios do SIGTAP.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1236,
+    "completion_tokens": 86,
+    "total_tokens": 1322,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 340
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

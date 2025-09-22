@@ -1,0 +1,28 @@
+{
+  "id": "de9fd2d5-d392-4d59-9738-96055c254b12",
+  "object": "chat.completion",
+  "created": 1758475242,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação visa garantir a realização tempestiva dos exames de imagem de forma contínua e sistemática, alinhando-se com a política nacional e promovendo mudanças estruturais no processo de atendimento para prevenir a recorrência da condição observada, em vez de apenas corrigir casos isolados.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1078,
+    "completion_tokens": 87,
+    "total_tokens": 1165,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 118
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

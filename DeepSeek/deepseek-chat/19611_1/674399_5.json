@@ -1,0 +1,28 @@
+{
+  "id": "ddd2e8e5-8749-4974-a224-c32a2935bc09",
+  "object": "chat.completion",
+  "created": 1758476642,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção da condição específica encontrada, que é a irregularidade no pagamento de remuneração, ao propor um levantamento de valores para serem acrescidos, sem abordar as causas subjacentes ou propor medidas preventivas de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1037,
+    "completion_tokens": 77,
+    "total_tokens": 1114,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 13
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "625c463b-31ce-4c9c-ba61-6bf09f486930",
+  "object": "chat.completion",
+  "created": 1758478798,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação foca em estabelecer um processo contínuo de prestação de informações e acesso a documentos para facilitar atividades de controle, avaliação e auditoria, o que visa prevenir a reocorrência da condição de registros inadequados no SIH/SUS, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1092,
+    "completion_tokens": 89,
+    "total_tokens": 1181,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 132
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

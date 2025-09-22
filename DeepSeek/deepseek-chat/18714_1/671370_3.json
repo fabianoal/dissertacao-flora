@@ -1,0 +1,28 @@
+{
+  "id": "53ccedaa-6d01-46ab-8729-e536b702bc44",
+  "object": "chat.completion",
+  "created": 1758468297,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a adoção de medidas para assegurar a compatibilidade futura entre a aplicação de recursos e os objetos definidos no Programa de Trabalho, visando prevenir a reocorrência da inconformidade, em vez de apenas corrigir a condição específica observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1086,
+    "completion_tokens": 84,
+    "total_tokens": 1170,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 126
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a9f0bc6a-3089-4927-8918-319dd280f901",
+  "object": "chat.completion",
+  "created": 1758476226,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo de registro e manutenção de documentação, visando prevenir a recorrência da falta de fichas assinadas, alinhando-se com soluções de longo prazo para garantir conformidade normativa e evitar futuras inconformidades.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1103,
+    "completion_tokens": 85,
+    "total_tokens": 1188,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 143
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

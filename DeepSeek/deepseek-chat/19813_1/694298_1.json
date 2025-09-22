@@ -1,0 +1,28 @@
+{
+  "id": "16dadd7a-504c-4a36-b3c6-49d7ee9dfd16",
+  "object": "chat.completion",
+  "created": 1758484338,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração de um Plano de Ação Municipal, que é uma medida estrutural e de longo prazo destinada a organizar e programar ações de saúde mental, definindo atribuições, responsabilidades e recursos. Isso visa prevenir a recorrência da falta de planejamento, abordando a causa subjacente da constatação, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1218,
+    "completion_tokens": 114,
+    "total_tokens": 1332,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 258
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

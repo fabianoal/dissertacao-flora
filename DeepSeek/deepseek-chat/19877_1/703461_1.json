@@ -1,0 +1,28 @@
+{
+  "id": "9e70f7bb-72cd-4a1a-8233-96d5143e651f",
+  "object": "chat.completion",
+  "created": 1758488820,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a inscrição no CNPJ, que é uma ação necessária para regularizar a situação permanentemente e evitar futuras inconformidades relacionadas à ausência de CNPJ, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1081,
+    "completion_tokens": 81,
+    "total_tokens": 1162,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 185
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

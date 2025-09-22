@@ -1,0 +1,28 @@
+{
+  "id": "a3ba39d7-468f-47b9-a078-84272b513ec6",
+  "object": "chat.completion",
+  "created": 1758485098,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a instituição de um processo permanente de compartilhamento de registros, o que visa evitar a recorrência da condição observada (não compartilhamento) através de uma solução de longo prazo, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1110,
+    "completion_tokens": 88,
+    "total_tokens": 1198,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 150
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

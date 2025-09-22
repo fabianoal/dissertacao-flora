@@ -1,0 +1,28 @@
+{
+  "id": "da73239d-822c-4c62-baec-5b3da064dbe3",
+  "object": "chat.completion",
+  "created": 1758487824,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de cumprir procedimentos de habilitação e subsidiar tecnicamente ações de saúde, o que visa implementar mudanças estruturais e de longo prazo para prevenir a não conformidade futura, alinhando-se com soluções que abordam a causa raiz.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1168,
+    "completion_tokens": 85,
+    "total_tokens": 1253,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 208
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

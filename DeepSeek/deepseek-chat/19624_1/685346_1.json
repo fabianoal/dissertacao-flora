@@ -1,0 +1,28 @@
+{
+  "id": "e3accf09-f234-4629-be7f-9732f4b337a6",
+  "object": "chat.completion",
+  "created": 1758478266,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de processos sistemáticos de acompanhamento, verificação de conformidade e inserção de documentos no TransfereGov, além de estabelecer procedimentos para ressarcimento em caso de não comprovação, visando prevenir a recorrência de inconformidades e promover melhorias de longo prazo na gestão do convênio.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1269,
+    "completion_tokens": 99,
+    "total_tokens": 1368,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 373
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

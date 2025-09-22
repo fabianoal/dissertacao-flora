@@ -1,0 +1,28 @@
+{
+  "id": "7edcf610-b790-4ccd-95e4-b66be08d016d",
+  "object": "chat.completion",
+  "created": 1758482698,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo de cadastramento e atualização da Rede de Frio no CNES, alinhado a uma portaria específica, o que visa prevenir a recorrência da não conformidade e estabelecer um controle interno permanente, caracterizando uma solução de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1054,
+    "completion_tokens": 90,
+    "total_tokens": 1144,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 94
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "26791edb-99c7-4edb-9380-39f42db806c7",
+  "object": "chat.completion",
+  "created": 1758480886,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um sistema de arquivamento e manutenção de documentos por um prazo prolongado (10 anos) em meios físico e digital, com cópias e organização específicas, visando prevenir a não apresentação de documentos no futuro, o que aborda a causa subjacente da irregularidade e promove uma solução de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1258,
+    "completion_tokens": 101,
+    "total_tokens": 1359,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 298
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

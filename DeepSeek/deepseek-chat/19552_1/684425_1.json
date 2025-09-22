@@ -1,0 +1,28 @@
+{
+  "id": "f138f544-163f-4d39-b0e5-e507fa8cdac2",
+  "object": "chat.completion",
+  "created": 1758474714,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração de um plano estadual que integre instrumentos de gestão e metas, visando organizar e fortalecer a linha de cuidado integral de forma sustentável, abordando causas estruturais e promovendo mudanças de longo prazo para prevenir a recorrência das fragilidades identificadas.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1207,
+    "completion_tokens": 89,
+    "total_tokens": 1296,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 311
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

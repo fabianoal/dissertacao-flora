@@ -1,0 +1,28 @@
+{
+  "id": "f6e5da1b-1c5e-4a71-9cd4-8e03901d3fcd",
+  "object": "chat.completion",
+  "created": 1758468930,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca em corrigir a condição específica encontrada (realização inadequada da pesquisa de preços) ao exigir que seja realizada conforme a legislação vigente, sem propor ações para evitar a recorrência da causa subjacente, como melhorias em processos ou treinamentos.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1052,
+    "completion_tokens": 84,
+    "total_tokens": 1136,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 92
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

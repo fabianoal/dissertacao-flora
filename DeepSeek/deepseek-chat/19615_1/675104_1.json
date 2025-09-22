@@ -1,0 +1,28 @@
+{
+  "id": "1e361772-8d99-4fb1-84a6-6cdc48dfdf2f",
+  "object": "chat.completion",
+  "created": 1758477666,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação sugere uma ação que visa estabelecer um processo formal de acompanhamento e manifestação sobre a conformidade financeira, o que pode prevenir a ausência de fiscalização no futuro, alinhando-se com soluções de longo prazo para evitar a recorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1060,
+    "completion_tokens": 83,
+    "total_tokens": 1143,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 100
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

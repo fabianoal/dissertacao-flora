@@ -1,0 +1,28 @@
+{
+  "id": "979bdc9a-a05e-4de8-8b80-ef97a1bdd90c",
+  "object": "chat.completion",
+  "created": 1758479446,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adequação da capacidade instalada para atender a estimativa de prevalência, o que envolve uma solução de longo prazo para evitar a recorrência da insuficiência na oferta de serviços, focando na causa subjacente da discrepância observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1162,
+    "completion_tokens": 83,
+    "total_tokens": 1245,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 202
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

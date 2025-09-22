@@ -1,0 +1,28 @@
+{
+  "id": "59d312c0-e988-42b3-8a51-11aac172f0ca",
+  "object": "chat.completion",
+  "created": 1758470646,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de medidas corretivas para garantir a eficiência e continuidade da comunicação e do registro, o que envolve mudanças estruturais ou processuais de longo prazo para prevenir a recorrência da ineficiência observada, alinhando-se com soluções que abordam a causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1124,
+    "completion_tokens": 93,
+    "total_tokens": 1217,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 164
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

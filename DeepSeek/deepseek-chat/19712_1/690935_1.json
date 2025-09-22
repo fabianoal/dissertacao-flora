@@ -1,0 +1,28 @@
+{
+  "id": "f5dc0108-2ae2-4735-ac3e-31cff8bc199f",
+  "object": "chat.completion",
+  "created": 1758480762,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação obrigatória do sistema DigiSUS Gestor - Módulo Planejamento (DGMP) para registro de informações e documentos relacionados ao Plano de Saúde, Programação Anual de Saúde e Relatório Anual de Gestão, conforme normativa estabelecida. Isso visa criar uma estrutura permanente de monitoramento e gestão, abordando a causa subjacente da falta de instrumentos de gestão para monitorar a produção ambulatorial, promovendo uma solução de longo prazo para prevenir a recorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1121,
+    "completion_tokens": 143,
+    "total_tokens": 1264,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 161
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

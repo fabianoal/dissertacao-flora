@@ -1,0 +1,28 @@
+{
+  "id": "979c5c35-6b57-45fc-aae9-3bb9b43efaf6",
+  "object": "chat.completion",
+  "created": 1758473554,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação visa implementar procedimentos administrativos permanentes, conforme decretos específicos, para prevenir futuras ocorrências de falta de documentação e garantir a regularidade na execução do programa, abordando a causa subjacente da não conformidade.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1254,
+    "completion_tokens": 74,
+    "total_tokens": 1328,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 294
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "68503946-2c62-4135-8df8-bdbcd74d6236",
+  "object": "chat.completion",
+  "created": 1758468714,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a manutenção contínua e atualizada das informações no CNES, alinhando-se com requisitos normativos de longo prazo, o que visa prevenir futuras discrepâncias entre dados cadastrados e a realidade operacional, caracterizando um foco na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1152,
+    "completion_tokens": 86,
+    "total_tokens": 1238,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 192
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a20e9993-3cf8-4bfb-93b7-52ee0947169f",
+  "object": "chat.completion",
+  "created": 1758482910,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ajustes estruturais no processo de transporte, incluindo a implementação de controles de temperatura e a adequação do uso de caixas térmicas, alinhados a normas legais e manuais, visando prevenir a recorrência da condição inadequada e assegurar conformidade contínua, o que caracteriza um foco na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1328,
+    "completion_tokens": 104,
+    "total_tokens": 1432,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 368
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

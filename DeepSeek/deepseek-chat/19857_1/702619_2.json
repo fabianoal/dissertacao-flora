@@ -1,0 +1,28 @@
+{
+  "id": "aa9f122e-a4cb-4f46-9606-c27d25fa3078",
+  "object": "chat.completion",
+  "created": 1758488108,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação inclui ações como estabelecer controles financeiros e realizar conciliação bancária para prevenir futuras ocorrências de transações sem comprovação, focando em mudanças estruturais de longo prazo, além de corrigir a condição atual com a devolução de valores.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1283,
+    "completion_tokens": 82,
+    "total_tokens": 1365,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 323
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

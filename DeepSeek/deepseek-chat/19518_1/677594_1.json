@@ -1,0 +1,28 @@
+{
+  "id": "360bb1e9-8a04-410a-8d41-2d7ee209e0a3",
+  "object": "chat.completion",
+  "created": 1758473858,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a formulação de estratégias e o controle da execução da política de saúde, o que visa abordar a causa subjacente da falta de controle social, promovendo mudanças estruturais e de longo prazo para prevenir a recorrência da condição observada, em vez de apenas corrigir a situação atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1096,
+    "completion_tokens": 96,
+    "total_tokens": 1192,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 136
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

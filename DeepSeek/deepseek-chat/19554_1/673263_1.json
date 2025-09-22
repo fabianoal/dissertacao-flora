@@ -1,0 +1,28 @@
+{
+  "id": "80f286e2-81f5-423f-979f-96ecd6f97a35",
+  "object": "chat.completion",
+  "created": 1758474758,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações estruturais e de longo prazo, como garantir a oferta cotidiana de vacinas e elaborar protocolos locais para organizar a atenção e busca ativa, visando prevenir a recorrência da baixa cobertura vacinal e divergência de dados, em vez de apenas corrigir a condição atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1170,
+    "completion_tokens": 95,
+    "total_tokens": 1265,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 210
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

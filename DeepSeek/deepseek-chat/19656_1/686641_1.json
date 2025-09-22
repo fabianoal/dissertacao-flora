@@ -1,0 +1,28 @@
+{
+  "id": "126cd3b6-dcfe-4c42-8894-492e6f41abb2",
+  "object": "chat.completion",
+  "created": 1758479226,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de boas práticas de registros de informação nos sistemas de saúde, o que visa prevenir a reocorrência da falta de envio de prontuários, abordando a causa subjacente (práticas inadequadas de registro) e promovendo melhorias de longo prazo para o monitoramento e avaliação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1092,
+    "completion_tokens": 96,
+    "total_tokens": 1188,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 132
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

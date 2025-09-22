@@ -1,0 +1,28 @@
+{
+  "id": "ccc12460-c42c-403b-9079-42ca762cea1d",
+  "object": "chat.completion",
+  "created": 1758487612,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de medidas corretivas que incluem a revisão dos processos de preenchimento e a capacitação das equipes, focando em mudanças sistêmicas para prevenir a recorrência das inconsistências e fragilidades nos registros, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1202,
+    "completion_tokens": 90,
+    "total_tokens": 1292,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 242
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

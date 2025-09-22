@@ -1,0 +1,28 @@
+{
+  "id": "9064c196-cf5e-486d-9d45-6149913b00c6",
+  "object": "chat.completion",
+  "created": 1758482162,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de controles de inspeção com registro documentado, o que visa estabelecer um processo sistemático e contínuo para garantir a preservação dos imunobiológicos, abordando a causa raiz da falta de controles adequados e promovendo uma solução de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1158,
+    "completion_tokens": 89,
+    "total_tokens": 1247,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 198
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "e211cb14-2598-4b05-ac45-0755a578afcd",
+  "object": "chat.completion",
+  "created": 1758480134,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação visa assegurar o cumprimento de uma norma específica (Portaria de Consolidação nº 01, de SESAI/MS/2020) pelas áreas técnicas, o que implica a implementação de processos ou políticas contínuas para prevenir a ausência de visitas técnicas no futuro, focando na causa raiz da não conformidade.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1040,
+    "completion_tokens": 95,
+    "total_tokens": 1135,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 80
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

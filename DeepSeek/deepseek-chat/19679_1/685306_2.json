@@ -1,0 +1,28 @@
+{
+  "id": "40226333-d153-4a1a-9987-321913aea20a",
+  "object": "chat.completion",
+  "created": 1758479730,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistemático (inserção de comprovantes no sistema Transferegov) para garantir que futuros afastamentos sejam devidamente documentados, abordando a causa raiz da falta de documentação e prevenindo a recorrência, em vez de apenas corrigir os casos existentes.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1089,
+    "completion_tokens": 93,
+    "total_tokens": 1182,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 129
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

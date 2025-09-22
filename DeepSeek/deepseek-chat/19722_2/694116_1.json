@@ -1,0 +1,28 @@
+{
+  "id": "7b8b1431-3d05-4ff7-a7f2-5dff305f91ec",
+  "object": "chat.completion",
+  "created": 1758481054,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de cumprir obrigações contratuais e princípios legais, como a Vinculação ao Edital, visando prevenir a reocorrência da inconformidade através de mudanças estruturais na gestão de contratos, em vez de apenas corrigir a condição específica observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1144,
+    "completion_tokens": 89,
+    "total_tokens": 1233,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 248
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

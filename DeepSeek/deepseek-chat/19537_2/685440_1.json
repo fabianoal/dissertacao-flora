@@ -1,0 +1,28 @@
+{
+  "id": "def7ff95-1125-49c9-b5d7-9679ffd9a73a",
+  "object": "chat.completion",
+  "created": 1758474290,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a observância contínua de um dispositivo legal para monitorar a manutenção das condições de habilitação dos contratados durante toda a execução do contrato, visando prevenir a recorrência da falha identificada, o que caracteriza uma solução de longo prazo focada na causa raiz do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1138,
+    "completion_tokens": 92,
+    "total_tokens": 1230,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 178
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

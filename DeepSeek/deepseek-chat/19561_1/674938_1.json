@@ -1,0 +1,28 @@
+{
+  "id": "f50e09cd-3633-44a3-a864-c5c70b98ec40",
+  "object": "chat.completion",
+  "created": 1758474922,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de medidas para garantir o preenchimento adequado dos dados dos prontuários, o que envolve a implementação de processos e orientações contínuas para prevenir a recorrência da condição inadequada, focando em soluções de longo prazo e não apenas na correção imediata.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1220,
+    "completion_tokens": 92,
+    "total_tokens": 1312,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 324
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "23a8c42e-ff69-4728-a3cb-ff360988a1d1",
+  "object": "chat.completion",
+  "created": 1758470326,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é o pagamento excessivo, ao solicitar a devolução dos recursos financeiros, sem propor ações para prevenir a recorrência do problema, como melhorias nos processos de verificação de identidade ou contratação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1193,
+    "completion_tokens": 83,
+    "total_tokens": 1276,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 233
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

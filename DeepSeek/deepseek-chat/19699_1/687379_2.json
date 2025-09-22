@@ -1,0 +1,28 @@
+{
+  "id": "29ce84cf-3a2f-4414-ae39-eff47a7227fd",
+  "object": "chat.completion",
+  "created": 1758480486,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a instituição de uma rotina e disponibilização contínua de testes rápidos e de biologia molecular, o que visa implementar uma solução estrutural e de longo prazo para garantir o diagnóstico precoce e prevenir a recorrência da condição observada, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1199,
+    "completion_tokens": 102,
+    "total_tokens": 1301,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 175
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

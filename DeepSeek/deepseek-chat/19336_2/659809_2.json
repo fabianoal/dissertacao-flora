@@ -1,0 +1,28 @@
+{
+  "id": "f86b3226-85ba-450c-8476-05a35cf8a365",
+  "object": "chat.completion",
+  "created": 1758469698,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de procedimentos de acompanhamento para a recomposição de recursos ao Fundo Nacional de Saúde, visando prevenir danos futuros e garantir conformidade contínua com normas legais, o que indica um foco na causa subjacente (gestão inadequada de recursos) em vez de apenas corrigir a condição imediata (ausência de exames).\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1162,
+    "completion_tokens": 107,
+    "total_tokens": 1269,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 202
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

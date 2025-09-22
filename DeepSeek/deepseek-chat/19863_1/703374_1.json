@@ -1,0 +1,28 @@
+{
+  "id": "0a7343a7-855e-4d08-94ca-61d28ffe3acb",
+  "object": "chat.completion",
+  "created": 1758488336,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação exige a revisão ou elaboração do Regimento Interno, o que implica a implementação de um processo ou política para evitar a não conformidade futura, focando na causa subjacente da falta de documentação adequada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1093,
+    "completion_tokens": 71,
+    "total_tokens": 1164,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 133
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

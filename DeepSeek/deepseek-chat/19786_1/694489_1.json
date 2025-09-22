@@ -1,0 +1,28 @@
+{
+  "id": "ae4fd758-a751-4d1d-a786-01faf35abe1a",
+  "object": "chat.completion",
+  "created": 1758483234,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de práticas de monitoramento contínuo e articulado, visando prevenir futuras falhas na Cadeia de Frio, o que se alinha com soluções de longo prazo para eliminar a causa raiz da constatação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1071,
+    "completion_tokens": 80,
+    "total_tokens": 1151,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 111
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

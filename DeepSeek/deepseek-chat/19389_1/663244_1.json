@@ -1,0 +1,28 @@
+{
+  "id": "196e89c2-8b1b-4f42-a8b3-3feeff1c23af",
+  "object": "chat.completion",
+  "created": 1758469894,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de cumprir regulamentações que estabelecem responsabilidades e processos para cadastramento e manutenção atualizada no CNES, visando corrigir a causa raiz da não conformidade (falta de atualização e gestão adequada dos dados) para prevenir recorrências futuras, em vez de apenas corrigir a condição atual específica.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1124,
+    "completion_tokens": 103,
+    "total_tokens": 1227,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 228
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

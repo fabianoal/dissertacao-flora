@@ -1,0 +1,28 @@
+{
+  "id": "e61a0851-72f9-4e2d-92c7-41080ed3e3ce",
+  "object": "chat.completion",
+  "created": 1758479194,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de processos contínuos e sistemáticos para manter atualizados os cadastros no sistema, alinhando-se com normas e critérios estabelecidos, o que visa prevenir a recorrência da condição de desatualização, caracterizando uma solução de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1183,
+    "completion_tokens": 87,
+    "total_tokens": 1270,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 287
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

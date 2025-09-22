@@ -1,0 +1,28 @@
+{
+  "id": "627d61fe-ae6a-4cab-ae7c-d52c4e66a922",
+  "object": "chat.completion",
+  "created": 1758481194,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação orienta a implementação de um processo cíclico de planejamento conforme a portaria, focando na integração e operacionalização sistêmica dos instrumentos de gestão (PS, PAS, RAG) para garantir a regularidade futura da produção de dados, abordando a causa raiz da ausência de informações nos instrumentos, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1289,
+    "completion_tokens": 106,
+    "total_tokens": 1395,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 329
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

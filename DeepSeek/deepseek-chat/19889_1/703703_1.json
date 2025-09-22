@@ -1,0 +1,28 @@
+{
+  "id": "76ecd1af-172a-433d-b908-677632098539",
+  "object": "chat.completion",
+  "created": 1758489232,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza o cumprimento de disposições regulatórias que envolvem ações de supervisão, processamento e avaliação analítica da produção, visando estabelecer processos contínuos e sistemáticos para prevenir futuras inconsistências na produção de procedimentos, alinhando-se com soluções de longo prazo para evitar a recorrência do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1143,
+    "completion_tokens": 97,
+    "total_tokens": 1240,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 183
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

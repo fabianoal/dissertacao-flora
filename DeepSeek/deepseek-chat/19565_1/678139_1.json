@@ -1,0 +1,28 @@
+{
+  "id": "22ff7c7f-995f-4783-88a8-abed2b918cb9",
+  "object": "chat.completion",
+  "created": 1758475106,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações que visam resolver as causas subjacentes da redução no quantitativo de ambulâncias e do revezamento entre equipes, como reparo e manutenção de veículos inoperantes, agilização de compras para renovação da frota e estabelecimento de uma reserva técnica funcional, todas medidas de longo prazo que previnem a recorrência do problema e promovem melhorias estruturais no serviço.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1270,
+    "completion_tokens": 121,
+    "total_tokens": 1391,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 310
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

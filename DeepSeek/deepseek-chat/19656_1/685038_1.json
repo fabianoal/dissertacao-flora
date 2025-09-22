@@ -1,0 +1,28 @@
+{
+  "id": "316aa1df-3010-4769-8cbc-730b51cd411d",
+  "object": "chat.completion",
+  "created": 1758479230,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a manutenção contínua da composição mínima das equipes de saúde da família, alinhada com normativas específicas, visando prevenir futuras inconsistências no cadastro e garantir conformidade permanente, o que caracteriza uma solução de longo prazo focada na causa subjacente da não atualização do cadastro.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1160,
+    "completion_tokens": 96,
+    "total_tokens": 1256,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 200
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "e12dd160-0dec-4855-bece-fa4a0248cb7d",
+  "object": "chat.completion",
+  "created": 1758475162,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a revisão e atualização dos relatórios de indicadores para incluir todos os indicadores recomendados, o que visa estabelecer um processo contínuo de monitoramento e avaliação, abordando a causa subjacente da falha na gestão (ausência de monitoramento completo) e promovendo uma solução de longo prazo para evitar a recorrência da condição.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1180,
+    "completion_tokens": 107,
+    "total_tokens": 1287,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 220
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6f9bb0c9-3b35-42df-ba83-ebab62c2bb83",
+  "object": "chat.completion",
+  "created": 1758482822,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a aquisição de equipamentos adequados, o que constitui uma ação de longo prazo para resolver a causa subjacente da inadequação dos equipamentos, prevenindo futuras ocorrências e alinhando-se com os requisitos normativos permanentes.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1094,
+    "completion_tokens": 80,
+    "total_tokens": 1174,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 134
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

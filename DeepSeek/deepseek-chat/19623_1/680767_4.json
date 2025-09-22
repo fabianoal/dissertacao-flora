@@ -1,0 +1,28 @@
+{
+  "id": "d95bec17-ce2f-467b-9159-3c0430366083",
+  "object": "chat.completion",
+  "created": 1758478202,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe o acompanhamento da devolução de valores, o que visa implementar um processo contínuo de fiscalização e controle para prevenir futuras inconformidades semelhantes, alinhando-se com soluções de longo prazo que abordam a causa subjacente de falhas na gestão de recursos.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1133,
+    "completion_tokens": 89,
+    "total_tokens": 1222,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 173
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

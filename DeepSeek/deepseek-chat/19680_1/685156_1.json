@@ -1,0 +1,28 @@
+{
+  "id": "a6612d70-85ae-4464-81fc-d19a4e6a20ee",
+  "object": "chat.completion",
+  "created": 1758479818,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação sugere a adoção de ações de saúde pública recomendadas em uma nota técnica, o que implica a implementação de medidas estruturais e de longo prazo para melhorar a proporção de gestantes com exames realizados, focando na causa subjacente da baixa performance do indicador, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1094,
+    "completion_tokens": 99,
+    "total_tokens": 1193,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 134
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

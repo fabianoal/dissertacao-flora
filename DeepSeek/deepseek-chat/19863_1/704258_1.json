@@ -1,0 +1,28 @@
+{
+  "id": "669c3de4-5aef-4379-86d0-d432dabe8341",
+  "object": "chat.completion",
+  "created": 1758488304,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração de um Plano de Segurança do Paciente, o que envolve a criação de uma política ou sistema estruturado para prevenir futuros incidentes, alinhando-se com soluções de longo prazo que abordam a causa subjacente da não conformidade, em vez de apenas corrigir a condição atual de ausência do plano.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1109,
+    "completion_tokens": 100,
+    "total_tokens": 1209,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 149
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

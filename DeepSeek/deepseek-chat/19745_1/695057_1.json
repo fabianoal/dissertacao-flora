@@ -1,0 +1,28 @@
+{
+  "id": "623295fc-41d3-4ffd-b1fb-5ed714e83d9d",
+  "object": "chat.completion",
+  "created": 1758481570,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a realização de manutenções preventivas e o estabelecimento de um cronograma, o que visa implementar um controle contínuo e sistemático para evitar a recorrência da falta de manutenção periódica, focando na causa subjacente (ausência de processos estruturados) em vez de apenas corrigir a condição atual (equipamentos sem manutenção).\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1132,
+    "completion_tokens": 109,
+    "total_tokens": 1241,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 172
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

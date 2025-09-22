@@ -1,0 +1,28 @@
+{
+  "id": "a9923149-b2ad-4aa7-a8d4-5386e711d4b5",
+  "object": "chat.completion",
+  "created": 1758474282,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação orienta a observância de uma disposição legal que estabelece procedimentos permanentes para acompanhamento e fiscalização de contratos, visando prevenir a recorrência da falha identificada, ao invés de apenas corrigir a condição específica atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1156,
+    "completion_tokens": 77,
+    "total_tokens": 1233,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 196
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

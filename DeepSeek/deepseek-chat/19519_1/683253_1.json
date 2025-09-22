@@ -1,0 +1,28 @@
+{
+  "id": "7834074f-4728-4800-992a-168edabfed5d",
+  "object": "chat.completion",
+  "created": 1758473886,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistemático para repasses regulares, baseado em prazos específicos após o crédito de recursos, visando prevenir a recorrência da irregularidade e assegurar a continuidade dos serviços de saúde, caracterizando uma solução de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1169,
+    "completion_tokens": 86,
+    "total_tokens": 1255,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 209
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

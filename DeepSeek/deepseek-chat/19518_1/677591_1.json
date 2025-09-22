@@ -1,0 +1,28 @@
+{
+  "id": "3a5967fe-0017-41d2-ab00-849ac81fb069",
+  "object": "chat.completion",
+  "created": 1758473842,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de ações específicas e orientações documentadas para melhorar sistematicamente o resultado e atingir a meta do indicador, focando em mudanças de longo prazo e prevenção de recorrências, em vez de apenas corrigir a condição atual de não comprovação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1133,
+    "completion_tokens": 88,
+    "total_tokens": 1221,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 173
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

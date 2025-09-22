@@ -1,0 +1,28 @@
+{
+  "id": "cf00bcf4-ea15-443a-8d4a-47030285cc78",
+  "object": "chat.completion",
+  "created": 1758468562,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração de instrumentos de gestão com definição de objetivos, metas, estratégias, indicadores e recursos orçamentários, além de monitoramento e avaliação periódica, visando estabelecer processos sustentáveis de planejamento e gestão do ciclo da assistência farmacêutica. Isso aborda a causa raiz da não conformidade, que é a falta de estrutura de gestão adequada, promovendo mudanças de longo prazo para prevenir a recorrência do problema, em vez de apenas corrigir sintomas imediatos.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1371,
+    "completion_tokens": 144,
+    "total_tokens": 1515,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 411
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

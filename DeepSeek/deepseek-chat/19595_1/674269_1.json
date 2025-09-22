@@ -1,0 +1,28 @@
+{
+  "id": "d3c392bc-50da-484e-8a56-c088427687c1",
+  "object": "chat.completion",
+  "created": 1758475806,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo de registro regular de dados no SISAB, alinhado a normas específicas, visando prevenir a discrepância futura entre sistemas, o que caracteriza uma solução de longo prazo focada na causa raiz da inconsistência.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1102,
+    "completion_tokens": 84,
+    "total_tokens": 1186,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 142
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

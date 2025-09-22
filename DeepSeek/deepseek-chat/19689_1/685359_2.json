@@ -1,0 +1,28 @@
+{
+  "id": "c7741023-ae3b-4978-9521-d28180af8779",
+  "object": "chat.completion",
+  "created": 1758480350,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada (superfaturamento), ao propor a devolução do valor indevidamente pago, sem abordar ações preventivas de longo prazo para evitar a recorrência do problema, como melhorias nos processos de contratação ou fiscalização.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1109,
+    "completion_tokens": 87,
+    "total_tokens": 1196,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 149
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

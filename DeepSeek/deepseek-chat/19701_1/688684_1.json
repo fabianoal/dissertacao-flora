@@ -1,0 +1,28 @@
+{
+  "id": "e09be965-09b6-4d8e-be57-8085986f6db1",
+  "object": "chat.completion",
+  "created": 1758480570,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de processos de planejamento e monitoramento estruturados e cíclicos, conforme estabelecido por portarias e leis, visando prevenir a recorrência da insuficiência de instrumentos de gestão e garantir uma abordagem sistêmica e de longo prazo para o monitoramento dos dados de produção no SIA/SUS.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1396,
+    "completion_tokens": 99,
+    "total_tokens": 1495,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 500
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

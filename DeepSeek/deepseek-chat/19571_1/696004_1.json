@@ -1,0 +1,28 @@
+{
+  "id": "c9ca5b87-a8cf-4c82-ad4c-3439a3212649",
+  "object": "chat.completion",
+  "created": 1758475342,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação orienta o gestor estadual a adotar medidas abrangentes para estruturar e integrar a política de atenção à doença renal crônica, abordando aspectos como organização da rede de atenção, identificação de determinantes de saúde, e implementação de regulação assistencial, o que visa prevenir a reocorrência da falta de documentação e promover mudanças sistêmicas de longo prazo, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1774,
+    "completion_tokens": 125,
+    "total_tokens": 1899,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 878
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

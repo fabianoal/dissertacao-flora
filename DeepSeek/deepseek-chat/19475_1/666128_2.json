@@ -1,0 +1,28 @@
+{
+  "id": "20a4eda8-eebe-4088-8314-595665e2038e",
+  "object": "chat.completion",
+  "created": 1758472975,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a criação de procedimentos (como check list e POP) para assegurar que futuras análises do Relatório Anual de Gestão (RAG) sejam realizadas com informações corretas e completas, focando na causa raiz da discrepância observada, que é a falta de processos adequados de verificação, visando prevenir a recorrência do problema a longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1116,
+    "completion_tokens": 108,
+    "total_tokens": 1224,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 220
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

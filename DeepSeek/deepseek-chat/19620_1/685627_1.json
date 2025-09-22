@@ -1,0 +1,28 @@
+{
+  "id": "8967585a-fefd-48dd-8dfc-71ec9cca3383",
+  "object": "chat.completion",
+  "created": 1758478130,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implantação de uma rotina permanente e a implementação de controles internos e políticas de governança para garantir a inserção contínua e adequada dos exames de imagem nos prontuários, abordando a causa raiz da falha e visando prevenir a recorrência do problema, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1427,
+    "completion_tokens": 104,
+    "total_tokens": 1531,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 467
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

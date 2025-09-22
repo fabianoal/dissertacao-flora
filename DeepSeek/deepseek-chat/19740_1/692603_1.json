@@ -1,0 +1,28 @@
+{
+  "id": "92ade2ca-7d14-4cf5-8ca4-3b4f05f2cd94",
+  "object": "chat.completion",
+  "created": 1758481346,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de uma energia alternativa para a Sala de Frios, o que visa prevenir futuras interrupções no fornecimento de energia e garantir o armazenamento adequado contínuo dos imunobiológicos, abordando a causa subjacente (falta de energia de backup) em vez de apenas corrigir a condição atual de equipamentos insuficientes.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1068,
+    "completion_tokens": 104,
+    "total_tokens": 1172,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 108
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

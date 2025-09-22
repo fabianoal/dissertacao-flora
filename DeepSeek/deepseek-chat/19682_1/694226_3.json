@@ -1,0 +1,28 @@
+{
+  "id": "e29c3bfd-a298-40e1-9599-5375b95b323d",
+  "object": "chat.completion",
+  "created": 1758479998,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a elaboração de documentos de acompanhamento em conformidade com leis específicas, visando estabelecer práticas sistemáticas e duradouras para garantir a confiabilidade, autenticidade, acessibilidade, compreensibilidade e completude dos registros. Isso aborda a causa subjacente das impropriedades, promovendo mudanças estruturais no processo de monitoramento para prevenir a recorrência de problemas similares no futuro.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1148,
+    "completion_tokens": 120,
+    "total_tokens": 1268,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 188
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

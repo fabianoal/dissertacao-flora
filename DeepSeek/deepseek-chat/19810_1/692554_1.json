@@ -1,0 +1,28 @@
+{
+  "id": "622509d4-2919-4ea7-9d2d-aec93c8674be",
+  "object": "chat.completion",
+  "created": 1758484130,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a promoção de cuidados em saúde para grupos vulneráveis, o que implica a implementação de ações contínuas e preventivas para evitar a não realização de continuidade do cuidado ou redução de danos no futuro, alinhando-se com soluções de longo prazo que abordam a causa subjacente da constatação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1055,
+    "completion_tokens": 95,
+    "total_tokens": 1150,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 159
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

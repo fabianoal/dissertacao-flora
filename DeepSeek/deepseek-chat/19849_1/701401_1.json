@@ -1,0 +1,28 @@
+{
+  "id": "2a189a8f-d463-4e33-b0a6-2eae47684b0c",
+  "object": "chat.completion",
+  "created": 1758487764,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações para promover a divulgação e participação ativa de organizações representativas, visando prevenir a recorrência da falta de controle social, alinhando-se com soluções de longo prazo que abordam a causa subjacente da constatação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1137,
+    "completion_tokens": 80,
+    "total_tokens": 1217,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 177
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

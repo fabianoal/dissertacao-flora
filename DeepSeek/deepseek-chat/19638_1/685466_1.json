@@ -1,0 +1,28 @@
+{
+  "id": "ad8e7a91-6519-4dd9-9cad-02eebd6535c2",
+  "object": "chat.completion",
+  "created": 1758478942,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a formalização de processos, como a regulação de pacientes e o preenchimento adequado de formulários, o que visa implementar mudanças estruturais de longo prazo para prevenir a recorrência da constatação, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1178,
+    "completion_tokens": 90,
+    "total_tokens": 1268,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 218
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

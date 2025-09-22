@@ -1,0 +1,28 @@
+{
+  "id": "2873675f-04ce-4431-95e0-0c2a9a41d395",
+  "object": "chat.completion",
+  "created": 1758484074,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a criação e implementação de protocolos e fluxos para acompanhamento contínuo de pacientes, além de ações de promoção e prevenção em saúde, visando evitar a recorrência da condição observada (falta de acompanhamento) e promovendo mudanças estruturais de longo prazo no sistema de atenção primária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1215,
+    "completion_tokens": 97,
+    "total_tokens": 1312,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 255
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

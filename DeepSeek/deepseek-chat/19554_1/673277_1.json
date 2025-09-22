@@ -1,0 +1,28 @@
+{
+  "id": "c987450d-ce47-4887-abdd-ad832d45b21f",
+  "object": "chat.completion",
+  "created": 1758474778,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação orienta a adoção de providências para o correto cadastramento e atualização dos dados cadastrais, o que visa resolver a causa raiz da divergência e prevenir sua recorrência, alinhando-se com soluções de longo prazo, como a implementação de processos contínuos de gestão de dados.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1076,
+    "completion_tokens": 91,
+    "total_tokens": 1167,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 116
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a6d416f2-f9f8-4e31-9c7c-2e1270769a4c",
+  "object": "chat.completion",
+  "created": 1758484890,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de cumprir normas que estabelecem um processo cíclico e integrado de planejamento (Plano de Saúde, Programações Anuais de Saúde e Relatório Anual de Gestão), visando criar uma estrutura permanente para monitoramento e gestão, o que aborda a causa subjacente da falta de informações para monitoramento, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1292,
+    "completion_tokens": 113,
+    "total_tokens": 1405,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 332
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

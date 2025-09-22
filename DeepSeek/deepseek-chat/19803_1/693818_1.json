@@ -1,0 +1,28 @@
+{
+  "id": "515d23c1-ad55-40b6-8671-f8aa3924f875",
+  "object": "chat.completion",
+  "created": 1758483806,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe o desenvolvimento sistemático de ações de prevenção, promoção, redução de danos e cuidado, visando implementar mudanças estruturais e de longo prazo para garantir que as ações sejam realizadas de forma contínua e integrada, abordando a causa raiz da falta de sistematicidade observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1104,
+    "completion_tokens": 91,
+    "total_tokens": 1195,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 144
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

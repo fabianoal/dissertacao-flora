@@ -1,0 +1,28 @@
+{
+  "id": "d89d34da-0140-49c4-a878-faab930b1dc1",
+  "object": "chat.completion",
+  "created": 1758483742,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de equipamentos e processos que garantam o monitoramento contínuo da temperatura, validação de processos para segurança e rastreabilidade, e acondicionamento seguro para prevenir avarias, focando em soluções de longo prazo que abordam as causas subjacentes das inconformidades no transporte, como a falta de controles adequados, em vez de apenas corrigir a condição atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1239,
+    "completion_tokens": 114,
+    "total_tokens": 1353,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 279
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

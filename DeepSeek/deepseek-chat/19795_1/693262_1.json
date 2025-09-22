@@ -1,0 +1,28 @@
+{
+  "id": "8a42a634-61bc-4cce-8864-a8d2d14faadd",
+  "object": "chat.completion",
+  "created": 1758483506,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe uma série de ações estruturais e organizacionais, como adequação da infraestrutura física, implementação de sistemas de monitoramento, organização de espaços e criação de áreas específicas, que visam prevenir a reocorrência da condição inadequada e assegurar a conformidade contínua com as normas, caracterizando um foco na causa subjacente das inconformidades.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1787,
+    "completion_tokens": 107,
+    "total_tokens": 1894,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 827
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

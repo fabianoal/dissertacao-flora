@@ -1,0 +1,28 @@
+{
+  "id": "549d8dfe-f4bd-42b9-bbea-7f3634518019",
+  "object": "chat.completion",
+  "created": 1758483386,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a instituição e coordenação do Grupo Condutor Municipal, o que envolve a criação de uma estrutura permanente para garantir o acompanhamento e avaliação contínua das ações de saúde mental, abordando a causa raiz da falta de supervisão e prevenindo a recorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1116,
+    "completion_tokens": 91,
+    "total_tokens": 1207,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 156
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

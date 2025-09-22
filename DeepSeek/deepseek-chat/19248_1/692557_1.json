@@ -1,0 +1,28 @@
+{
+  "id": "91d6094b-e37d-47a0-a97c-a5aa6c01b392",
+  "object": "chat.completion",
+  "created": 1758469206,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a ausência de documentação específica, ao instruir o estabelecimento a encaminhar a documentação quando solicitada, sem propor ações para prevenir a recorrência ou abordar causas subjacentes, como a implementação de processos sistemáticos de manutenção de registros.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1203,
+    "completion_tokens": 98,
+    "total_tokens": 1301,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 243
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

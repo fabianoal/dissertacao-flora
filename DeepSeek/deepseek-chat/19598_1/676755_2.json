@@ -1,0 +1,28 @@
+{
+  "id": "5bcc6ff4-4c66-492c-a1fe-08b8b3d28f5a",
+  "object": "chat.completion",
+  "created": 1758475922,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de educação continuada, que visa abordar a causa subjacente da falta de documentação adequada, promovendo uma solução de longo prazo para prevenir a recorrência do problema, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1035,
+    "completion_tokens": 84,
+    "total_tokens": 1119,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 75
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

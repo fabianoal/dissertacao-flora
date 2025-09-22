@@ -1,0 +1,28 @@
+{
+  "id": "7ee4862e-5930-41e1-9cd6-5fd4d3111389",
+  "object": "chat.completion",
+  "created": 1758473750,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação inclui ações como devolução de valores, prestação de informações, e manutenção de registros por 10 anos em formatos físico e digital, que visam implementar mudanças estruturais e de longo prazo para prevenir a recorrência da falta de documentação, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1336,
+    "completion_tokens": 98,
+    "total_tokens": 1434,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 376
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "dcbe3c94-382c-48a4-bfe0-ba2f676d1b00",
+  "object": "chat.completion",
+  "created": 1758487488,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo e estruturado para identificar e documentar boas práticas em relatórios futuros, visando prevenir a recorrência da condição observada e promover melhorias de longo prazo na transparência e gestão, alinhando-se com soluções que abordam a causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1201,
+    "completion_tokens": 98,
+    "total_tokens": 1299,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 305
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

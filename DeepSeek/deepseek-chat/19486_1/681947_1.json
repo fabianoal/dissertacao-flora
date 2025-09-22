@@ -1,0 +1,28 @@
+{
+  "id": "c5ea7722-aeae-4959-a96b-7c145b27ab82",
+  "object": "chat.completion",
+  "created": 1758473142,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações estratégicas, como manter cadastro atualizado, monitorar gestantes, registrar informações diariamente e orientar sobre a importância do pré-natal, que visam prevenir a reocorrência de divergências nos dados ao promover práticas sustentáveis de registro e gestão de informações, alinhando-se com soluções de longo prazo para evitar a causa subjacente dos problemas identificados.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1225,
+    "completion_tokens": 107,
+    "total_tokens": 1332,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 265
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

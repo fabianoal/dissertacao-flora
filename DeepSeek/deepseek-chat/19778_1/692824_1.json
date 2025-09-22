@@ -1,0 +1,28 @@
+{
+  "id": "9cbf96d3-bed0-43ef-80f3-c631a8929c45",
+  "object": "chat.completion",
+  "created": 1758482866,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração e implementação de um Plano de Gerenciamento de Resíduos, o que visa estabelecer um controle interno permanente para prevenir a recorrência da falta de manejo adequado dos resíduos, caracterizando uma solução de longo prazo que aborda a causa subjacente da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1100,
+    "completion_tokens": 95,
+    "total_tokens": 1195,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 140
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

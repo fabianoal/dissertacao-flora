@@ -1,0 +1,28 @@
+{
+  "id": "e3496a4d-77fb-46cb-a94d-ab78b5e9563e",
+  "object": "chat.completion",
+  "created": 1758477342,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a orientação de fiscais e gestores para realizar conferências sistemáticas da documentação comprobatória em conformidade com normativos específicos, visando prevenir a ocorrência futura de impropriedades na contratação, o que caracteriza uma solução de longo prazo focada na causa subjacente das irregularidades.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1184,
+    "completion_tokens": 97,
+    "total_tokens": 1281,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 224
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

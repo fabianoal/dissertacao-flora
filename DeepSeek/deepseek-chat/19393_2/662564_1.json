@@ -1,0 +1,28 @@
+{
+  "id": "de76802e-71af-4daf-a63b-6a0fc548507b",
+  "object": "chat.completion",
+  "created": 1758470054,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é o uso não comprovado de dispositivos médicos, ao propor a cobrança administrativa para recompor recursos financeiros, sem abordar ações preventivas ou de longo prazo para evitar a recorrência do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1206,
+    "completion_tokens": 85,
+    "total_tokens": 1291,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 246
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

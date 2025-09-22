@@ -1,0 +1,28 @@
+{
+  "id": "89736615-2d9d-4d71-8a0d-5cf01ae4caf3",
+  "object": "chat.completion",
+  "created": 1758481966,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação exige a implementação de controles padronizados e registros sistemáticos para verificar e assegurar condições de temperatura, umidade, integridade física e outros aspectos durante o armazenamento e transporte de imunobiológicos, com base em normas específicas, visando prevenir a recorrência de falhas na cadeia de frio a longo prazo, em vez de apenas corrigir uma condição atual isolada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1284,
+    "completion_tokens": 113,
+    "total_tokens": 1397,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 324
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

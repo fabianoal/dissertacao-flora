@@ -1,0 +1,28 @@
+{
+  "id": "a36c237c-94f1-4b37-a4b0-0913b6515476",
+  "object": "chat.completion",
+  "created": 1758488388,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação exige a elaboração de um Plano de Segurança do Paciente, o que implica a criação de uma estrutura ou processo permanente para garantir a segurança do paciente, abordando a causa raiz da não conformidade (falta de documentação) e prevenindo sua recorrência, em vez de apenas corrigir a condição atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1087,
+    "completion_tokens": 94,
+    "total_tokens": 1181,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 127
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

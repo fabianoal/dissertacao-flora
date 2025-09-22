@@ -1,0 +1,28 @@
+{
+  "id": "9101de3f-928d-45af-b673-68be6a19be73",
+  "object": "chat.completion",
+  "created": 1758475874,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de uma mudança estrutural na gestão financeira, segregando fontes de recursos, para prevenir futuras dificuldades na identificação da aplicação de recursos e garantir transparência contínua, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1180,
+    "completion_tokens": 83,
+    "total_tokens": 1263,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 284
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c204b82b-8238-4fa9-9a2f-9e80f8f91500",
+  "object": "chat.completion",
+  "created": 1758468662,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação orienta a observância de diretrizes normativas para alinhar as práticas contratuais futuras, abordando a causa subjacente da não contratualização ao promover mudanças estruturais no processo de financiamento e gestão, em vez de apenas corrigir a condição específica atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1092,
+    "completion_tokens": 85,
+    "total_tokens": 1177,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 132
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

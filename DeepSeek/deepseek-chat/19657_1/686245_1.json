@@ -1,0 +1,28 @@
+{
+  "id": "adf371fd-8e64-4f03-82d5-8173f2a9c2de",
+  "object": "chat.completion",
+  "created": 1758479255,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de medidas estruturais, como a adoção do PEC e a qualificação do preenchimento de fichas, que visam resolver a causa raiz da inconsistência de dados, promovendo mudanças de longo prazo para prevenir a recorrência da não conformidade.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1095,
+    "completion_tokens": 86,
+    "total_tokens": 1181,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 199
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

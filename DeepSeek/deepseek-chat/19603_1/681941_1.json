@@ -1,0 +1,28 @@
+{
+  "id": "576e5acf-3c2a-48d0-ae16-3fb718f3c368",
+  "object": "chat.completion",
+  "created": 1758476066,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de mecanismos de controle e monitoramento contínuos, como a elaboração de relatórios regulares, para prevenir futuras irregularidades, o que se alinha com soluções de longo prazo e abordagem proativa, característica das recomendações cause-based.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1289,
+    "completion_tokens": 85,
+    "total_tokens": 1374,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 329
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

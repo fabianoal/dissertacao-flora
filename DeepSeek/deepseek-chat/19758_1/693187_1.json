@@ -1,0 +1,28 @@
+{
+  "id": "7d471565-8e64-45e4-bd9a-5dde599400d3",
+  "object": "chat.completion",
+  "created": 1758482042,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a submissão de uma proposta de reforma administrativa atualizada, o que envolve a criação ou modificação de estruturas organizacionais e documentação formal para garantir conformidade contínua e prevenir a recorrência da condição observada, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1121,
+    "completion_tokens": 89,
+    "total_tokens": 1210,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 225
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

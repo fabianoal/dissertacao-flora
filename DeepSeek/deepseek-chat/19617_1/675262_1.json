@@ -1,0 +1,28 @@
+{
+  "id": "af34c34e-99a7-4d9e-b087-7b69dd9b6412",
+  "object": "chat.completion",
+  "created": 1758477994,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza o cumprimento de uma disposição normativa específica, que implica na implementação de processos e práticas contínuas para garantir a supervisão adequada, abordando a causa subjacente da ausência de visitas técnicas, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1034,
+    "completion_tokens": 90,
+    "total_tokens": 1124,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 74
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "22145e65-c13f-4c0f-9a0c-de57dd6551fb",
+  "object": "chat.completion",
+  "created": 1758474966,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação inclui a implementação do prontuário eletrônico, que visa prevenir futuras ocorrências de não apresentação de prontuários e garantir conformidade contínua com a legislação, representando uma solução de longo prazo para a causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1119,
+    "completion_tokens": 83,
+    "total_tokens": 1202,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 223
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d700817b-ee26-471a-9faa-18c6e60e4a27",
+  "object": "chat.completion",
+  "created": 1758468918,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de práticas permanentes e preventivas na elaboração de objetos de aquisição, alinhando-se com os requisitos legais para evitar futuras inadequações e limitar a competição, focando na causa raiz em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1161,
+    "completion_tokens": 86,
+    "total_tokens": 1247,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 201
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

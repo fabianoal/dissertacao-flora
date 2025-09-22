@@ -1,0 +1,28 @@
+{
+  "id": "2d1f20b7-d6d6-49be-a970-2c8fbfd42388",
+  "object": "chat.completion",
+  "created": 1758477746,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistemático de conferência documental por parte dos fiscais e gestores, visando prevenir futuras ocorrências de contratações irregulares com empresas de mesmos sócios-administradores, alinhando-se com soluções de longo prazo para evitar a reincidência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1175,
+    "completion_tokens": 98,
+    "total_tokens": 1273,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 215
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

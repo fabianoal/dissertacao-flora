@@ -1,0 +1,28 @@
+{
+  "id": "23c01027-1b89-407b-9d1e-626b2727b662",
+  "object": "chat.completion",
+  "created": 1758474954,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de cumprir requisitos legais para a elaboração e atualização periódica dos instrumentos de gestão, incluindo informações quantitativas e qualitativas sobre indicadores do Programa Previne Brasil, o que visa prevenir a recorrência da falta dessas informações através de mudanças estruturais de longo prazo na gestão municipal.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1283,
+    "completion_tokens": 98,
+    "total_tokens": 1381,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 323
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

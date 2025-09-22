@@ -1,0 +1,28 @@
+{
+  "id": "d60e34dd-1075-4473-828c-6c990accf4c7",
+  "object": "chat.completion",
+  "created": 1758481486,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a criação e implementação de procedimentos operacionais padronizados (POPs) para verificação de equipamentos, o que visa prevenir a recorrência da condição observada (falta de descrição de procedimentos) ao estabelecer uma solução de longo prazo que melhora os controles internos e garante a segurança contínua dos imunobiológicos.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1209,
+    "completion_tokens": 105,
+    "total_tokens": 1314,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 249
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

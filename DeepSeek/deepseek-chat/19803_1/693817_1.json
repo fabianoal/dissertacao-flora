@@ -1,0 +1,28 @@
+{
+  "id": "e3e0af77-55ef-4b1d-b311-2067c58a68fb",
+  "object": "chat.completion",
+  "created": 1758483802,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo estruturado e contínuo para acolhimento de casos de urgência e emergência em saúde mental, incluindo atendimento humanizado, classificação de risco e integração com a rede de saúde, o que visa prevenir a recorrência da condição observada e promover melhorias de longo prazo no sistema, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1153,
+    "completion_tokens": 117,
+    "total_tokens": 1270,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 193
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

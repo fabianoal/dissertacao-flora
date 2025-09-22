@@ -1,0 +1,28 @@
+{
+  "id": "07bb6b96-c844-4380-a667-c5d6b3fdc45f",
+  "object": "chat.completion",
+  "created": 1758473798,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implantação de um programa de informatização (Informatiza APS) e a adoção de práticas de registro eletrônico, visando solucionar a causa raiz da inadequação no preenchimento de prontuários, promovendo melhorias estruturais e de longo prazo no sistema de saúde municipal.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1301,
+    "completion_tokens": 94,
+    "total_tokens": 1395,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 405
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2ac2f90d-4bda-4c49-b0bf-4e21db15db9e",
+  "object": "chat.completion",
+  "created": 1758484670,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a integração dos sistemas de prontuários e a definição de estratégias para compartilhamento de informações, o que visa resolver a causa subjacente (falta de interoperabilidade sistêmica) e prevenir a recorrência da condição observada, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1119,
+    "completion_tokens": 92,
+    "total_tokens": 1211,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 223
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

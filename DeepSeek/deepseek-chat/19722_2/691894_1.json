@@ -1,0 +1,28 @@
+{
+  "id": "4d0411f7-97c4-4ae9-8c7b-bc5a7077746c",
+  "object": "chat.completion",
+  "created": 1758481050,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um fluxo definido para o registro fidedigno e tempestivo de informações, o que visa prevenir a recorrência da inconformidade ao abordar a causa subjacente, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1120,
+    "completion_tokens": 80,
+    "total_tokens": 1200,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 224
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

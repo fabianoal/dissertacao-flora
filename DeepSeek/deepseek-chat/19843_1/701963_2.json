@@ -1,0 +1,28 @@
+{
+  "id": "299cc37a-2128-4468-ae18-52a19ffba0a6",
+  "object": "chat.completion",
+  "created": 1758487544,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações como implementar rotinas de conferência, assegurar guarda de documentos, formalizar processos de validação e realizar auditorias internas periódicas, que visam prevenir a reocorrência da incompatibilidade de dados ao abordar causas subjacentes, como falhas processuais e de controle, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1462,
+    "completion_tokens": 102,
+    "total_tokens": 1564,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 502
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

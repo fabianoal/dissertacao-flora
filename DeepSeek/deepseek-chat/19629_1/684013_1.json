@@ -1,0 +1,28 @@
+{
+  "id": "4d18d7b2-a4ea-4118-a4db-786425d2f366",
+  "object": "chat.completion",
+  "created": 1758478734,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a criação de um local adequado e seguro para armazenamento, gerenciado por funcionários do almoxarifado central, o que visa prevenir a reocorrência da condição inadequada de armazenamento sem gerência, alinhando-se com práticas de longo prazo e soluções estruturais conforme o manual do Ministério da Saúde.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1139,
+    "completion_tokens": 101,
+    "total_tokens": 1240,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 179
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

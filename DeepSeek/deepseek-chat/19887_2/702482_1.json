@@ -1,0 +1,28 @@
+{
+  "id": "469031c5-1938-46f6-928e-9d790c86b852",
+  "object": "chat.completion",
+  "created": 1758489208,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de cumprir uma norma específica (Art. 14 da Portaria SAES/MS nº 470/2021) que estabelece um procedimento permanente para manter APACs durante internações, visando prevenir a recorrência da não apresentação de APACs concomitantes, o que se alinha com soluções de longo prazo para evitar a condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1089,
+    "completion_tokens": 108,
+    "total_tokens": 1197,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 129
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

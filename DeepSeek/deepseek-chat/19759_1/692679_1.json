@@ -1,0 +1,28 @@
+{
+  "id": "12aef5c5-c252-4cbe-95c1-13563357b817",
+  "object": "chat.completion",
+  "created": 1758482106,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração e implementação de normas, procedimentos e rotinas técnicas atualizadas para todos os processos de trabalho, o que visa estabelecer controles internos permanentes e preventivos para assegurar o funcionamento adequado dos equipamentos a longo prazo, indo além da simples correção imediata da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1144,
+    "completion_tokens": 96,
+    "total_tokens": 1240,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 184
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

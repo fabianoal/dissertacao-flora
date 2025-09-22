@@ -1,0 +1,28 @@
+{
+  "id": "e0d5f054-698d-4fd1-9bdb-b1789b7a8ac8",
+  "object": "chat.completion",
+  "created": 1758468970,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação orienta a implementação de um procedimento estruturado e permanente para o recebimento, armazenagem e distribuição de OPME, com base em diretrizes estabelecidas, visando prevenir a recorrência da inadequação no fluxo, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1170,
+    "completion_tokens": 92,
+    "total_tokens": 1262,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 210
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

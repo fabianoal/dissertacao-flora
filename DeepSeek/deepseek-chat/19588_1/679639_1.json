@@ -1,0 +1,28 @@
+{
+  "id": "d3c3a21c-3abf-4c28-82ce-a63bd5df23f7",
+  "object": "chat.completion",
+  "created": 1758475514,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação foca na elaboração de um plano de contingência formalizado, que visa prevenir a reocorrência da ausência de preparo para situações de desastres e atendimentos a múltiplas vítimas, abordando a causa subjacente da falta de documentação e planejamento adequado, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1340,
+    "completion_tokens": 102,
+    "total_tokens": 1442,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 380
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

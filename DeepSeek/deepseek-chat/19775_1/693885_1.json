@@ -1,0 +1,28 @@
+{
+  "id": "a67c3561-cdae-48d7-8115-0fb61297f13d",
+  "object": "chat.completion",
+  "created": 1758482686,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração, implementação e disponibilização de um cronograma de manutenção, o que visa estabelecer um controle interno permanente para prevenir a recorrência da falta de cronograma, alinhando-se com soluções de longo prazo para evitar a condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1076,
+    "completion_tokens": 86,
+    "total_tokens": 1162,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 116
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

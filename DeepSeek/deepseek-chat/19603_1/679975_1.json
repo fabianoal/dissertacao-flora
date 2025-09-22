@@ -1,0 +1,28 @@
+{
+  "id": "a6a25ac1-6d3a-4561-bbc4-d82d97b5bae2",
+  "object": "chat.completion",
+  "created": 1758476074,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistemático e contínuo de inserção, manutenção e atualização dos cadastros no CNES, com base em normativos específicos, visando prevenir a ocorrência futura de divergências de dados, o que caracteriza uma solução de longo prazo focada na causa raiz do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1214,
+    "completion_tokens": 98,
+    "total_tokens": 1312,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 254
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "e2703d7d-89bc-40ef-a818-3d293b467051",
+  "object": "chat.completion",
+  "created": 1758474762,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações como garantir acesso ao apoio diagnóstico e laboratorial e realizar monitoramento regular, que visam abordar as causas subjacentes da baixa cobertura de testes, promovendo mudanças estruturais e de longo prazo para prevenir a recorrência do problema, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1145,
+    "completion_tokens": 98,
+    "total_tokens": 1243,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 185
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

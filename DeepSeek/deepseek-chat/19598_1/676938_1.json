@@ -1,0 +1,28 @@
+{
+  "id": "b18275f0-7564-4c33-a868-a394458fc7ed",
+  "object": "chat.completion",
+  "created": 1758475986,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a capacitação dos Médicos Reguladores para garantir o atendimento adequado das ligações e o retorno quando necessário, alinhando-se com normas específicas, o que visa prevenir a recorrência da condição observada (encaminhamentos sem atendimento) através de uma solução de longo prazo que aborda a causa subjacente, como a falta de treinamento ou conformidade com procedimentos.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1123,
+    "completion_tokens": 114,
+    "total_tokens": 1237,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 163
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

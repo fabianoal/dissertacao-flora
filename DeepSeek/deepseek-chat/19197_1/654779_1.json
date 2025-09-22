@@ -1,0 +1,28 @@
+{
+  "id": "80a74f6b-43af-4bb3-bfdd-3225a83afec5",
+  "object": "chat.completion",
+  "created": 1758468994,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação orienta o cumprimento de diretrizes de planejamento para prevenir futuras perdas de materiais por prazo de validade, focando em ações de longo prazo e mudanças estruturais na gestão, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1050,
+    "completion_tokens": 80,
+    "total_tokens": 1130,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 90
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

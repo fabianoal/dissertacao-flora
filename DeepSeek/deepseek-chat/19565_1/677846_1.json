@@ -1,0 +1,28 @@
+{
+  "id": "ef02dee0-a7b9-4353-9768-49b7c419a426",
+  "object": "chat.completion",
+  "created": 1758475078,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações como implementar um sistema de ponto eletrônico, oferecer treinamento, estabelecer políticas, e promover uma cultura de transparência, que visam abordar as causas subjacentes do controle insatisfatório de registro de ponto, focando em soluções de longo prazo para prevenir a recorrência do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1096,
+    "completion_tokens": 95,
+    "total_tokens": 1191,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 136
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "fcb57015-5aec-46e0-a104-1aa388a459ea",
+  "object": "chat.completion",
+  "created": 1758482522,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de medidas de controle para garantir o armazenamento seguro e organizado dos prontuários, atribuindo responsabilidades, o que visa prevenir a recorrência da falta de comprovação de dados de produção, constituindo uma solução de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1205,
+    "completion_tokens": 85,
+    "total_tokens": 1290,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 245
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

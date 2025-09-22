@@ -1,0 +1,28 @@
+{
+  "id": "14553893-90ab-4d4c-be61-8e18b0c10edd",
+  "object": "chat.completion",
+  "created": 1758479470,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe o desenvolvimento de mecanismos de gestão, controle, monitoramento e avaliação, que são ações preventivas e de longo prazo destinadas a evitar a recorrência da irregularidade na dispensação de medicamentos, focando na causa subjacente da falha sistêmica.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1087,
+    "completion_tokens": 84,
+    "total_tokens": 1171,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 127
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

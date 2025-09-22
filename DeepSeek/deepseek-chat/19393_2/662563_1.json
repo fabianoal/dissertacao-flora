@@ -1,0 +1,28 @@
+{
+  "id": "049c4053-14b3-48e1-bc3a-0433cc9976c4",
+  "object": "chat.completion",
+  "created": 1758470038,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de controles radiológicos e a anexação de exames de imagem ao prontuário do paciente, visando estabelecer procedimentos permanentes para prevenir futuras ocorrências de cobranças indevidas, em vez de apenas corrigir a condição atual de superfaturamento.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1242,
+    "completion_tokens": 92,
+    "total_tokens": 1334,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 282
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

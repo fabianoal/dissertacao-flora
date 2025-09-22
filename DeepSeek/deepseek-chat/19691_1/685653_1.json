@@ -1,0 +1,28 @@
+{
+  "id": "62caf113-4560-45e8-8150-ba2b98e6f915",
+  "object": "chat.completion",
+  "created": 1758480390,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação se concentra em corrigir a condição imediata de pagamentos irregulares, exigindo o cumprimento de normas específicas sobre despesas permitidas no TFD, sem propor ações para prevenir a recorrência da causa subjacente, como falhas em processos ou controles.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1085,
+    "completion_tokens": 85,
+    "total_tokens": 1170,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 189
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

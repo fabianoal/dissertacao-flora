@@ -1,0 +1,28 @@
+{
+  "id": "2dbd1c40-677a-476c-af3f-5ae9ae503e98",
+  "object": "chat.completion",
+  "created": 1758484911,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a realização de manutenção contínua dos dados cadastrais, alinhada a orientações normativas específicas, o que visa prevenir a recorrência da condição de dados desatualizados, caracterizando uma solução de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1137,
+    "completion_tokens": 80,
+    "total_tokens": 1217,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 177
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

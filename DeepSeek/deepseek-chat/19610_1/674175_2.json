@@ -1,0 +1,28 @@
+{
+  "id": "6865e9e9-9d7d-4352-8657-0eff7db96017",
+  "object": "chat.completion",
+  "created": 1758476382,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a capacitação das áreas competentes para melhorar a análise de custos e identificar despesas inadequadas, focando em prevenir a recorrência da irregularidade ao fortalecer processos e competências de longo prazo, em vez de apenas corrigir a condição específica encontrada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1025,
+    "completion_tokens": 85,
+    "total_tokens": 1110,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

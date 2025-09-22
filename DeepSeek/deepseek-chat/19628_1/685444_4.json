@@ -1,0 +1,28 @@
+{
+  "id": "77e15d0f-9f83-464b-8b81-6fda4552ff15",
+  "object": "chat.completion",
+  "created": 1758478566,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de controles internos e políticas de governança, visando prevenir a reocorrência da falta de comprovação de destinação de OPME, focando em soluções de longo prazo e mudanças estruturais.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1063,
+    "completion_tokens": 77,
+    "total_tokens": 1140,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 103
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

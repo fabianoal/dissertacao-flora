@@ -1,0 +1,28 @@
+{
+  "id": "0abce2ee-652d-4d59-8062-3c59bc987836",
+  "object": "chat.completion",
+  "created": 1758469114,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe o fortalecimento do Núcleo de Controle Interno para garantir conformidade com normas específicas, visando prevenir futuras fragilidades na atuação do controle interno, o que caracteriza uma solução de longo prazo para evitar a recorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1088,
+    "completion_tokens": 87,
+    "total_tokens": 1175,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 128
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

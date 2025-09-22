@@ -1,0 +1,28 @@
+{
+  "id": "a0fafdea-9048-480f-8a4c-07a3833bd654",
+  "object": "chat.completion",
+  "created": 1758478822,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de um processo contínuo de prestação de informações e facilitação de acesso a documentos para atividades de controle, avaliação e auditoria, visando prevenir a reocorrência da falta de anexação de exames de imagem nos prontuários, o que se alinha com soluções de longo prazo para abordar a causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1096,
+    "completion_tokens": 103,
+    "total_tokens": 1199,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 72
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

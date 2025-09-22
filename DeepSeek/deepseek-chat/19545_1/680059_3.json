@@ -1,0 +1,28 @@
+{
+  "id": "35740855-9062-4938-9643-11d04feebb2a",
+  "object": "chat.completion",
+  "created": 1758474606,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é o desvio de recursos, ao sugerir a devolução e destinação adequada dos valores ao Fundo Estadual de Saúde, sem propor ações para prevenir futuras ocorrências similares, como melhorias em processos de gestão ou controles internos.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1115,
+    "completion_tokens": 92,
+    "total_tokens": 1207,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 155
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

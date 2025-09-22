@@ -1,0 +1,28 @@
+{
+  "id": "846dae5d-a4bf-4df3-b8eb-592a6bc71b74",
+  "object": "chat.completion",
+  "created": 1758481038,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de processos de planejamento, monitoramento e definição de instâncias de controle para evitar a recorrência da falta de informações nos instrumentos de gestão, focando em soluções de longo prazo e mudanças estruturais, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1156,
+    "completion_tokens": 89,
+    "total_tokens": 1245,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 196
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

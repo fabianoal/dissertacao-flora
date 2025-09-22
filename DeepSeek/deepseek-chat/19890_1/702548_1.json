@@ -1,0 +1,28 @@
+{
+  "id": "e653946c-13a7-4110-b789-1a42a1da19b4",
+  "object": "chat.completion",
+  "created": 1758491248,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, ao propor a cobrança administrativa de recursos para elidir o dano financeiro específico, sem abordar ações preventivas ou de longo prazo para evitar a recorrência da ausência de documentação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1204,
+    "completion_tokens": 82,
+    "total_tokens": 1286,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 308
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

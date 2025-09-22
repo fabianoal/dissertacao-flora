@@ -1,0 +1,28 @@
+{
+  "id": "47b6b321-eaab-4b62-b3c1-bd5ad7bcb87c",
+  "object": "chat.completion",
+  "created": 1758474898,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação exige que a SAES/MS adote procedimentos conforme normativas legais para prevenir futuras ocorrências de incompatibilidades entre sessões faturadas e registradas, focando em ações sistêmicas e de longo prazo para eliminar a causa raiz do problema, em vez de apenas corrigir a condição específica atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1242,
+    "completion_tokens": 94,
+    "total_tokens": 1336,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 282
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

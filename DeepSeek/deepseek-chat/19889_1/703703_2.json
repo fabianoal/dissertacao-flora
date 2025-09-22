@@ -1,0 +1,28 @@
+{
+  "id": "e4b1489e-3d31-4966-b8c5-74ec91d16a45",
+  "object": "chat.completion",
+  "created": 1758489236,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de cumprir critérios técnicos específicos para a utilização do código de procedimento, visando prevenir futuras inconsistências na produção e faturamento, ao invés de apenas corrigir as inconsistências já identificadas na amostra atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1223,
+    "completion_tokens": 82,
+    "total_tokens": 1305,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 263
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

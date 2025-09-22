@@ -1,0 +1,28 @@
+{
+  "id": "013d8946-5663-4861-8e58-fa07d942e069",
+  "object": "chat.completion",
+  "created": 1758475978,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adição de explicações e filtros para todos os indicadores, além de uma revisão para identificar os essenciais, visando prevenir a recorrência da ausência ou insuficiência de notas explicativas, abordando a causa raiz (falta de clareza e definição nos métodos) e promovendo uma solução de longo prazo para melhorar a transparência e compreensão dos indicadores.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1088,
+    "completion_tokens": 116,
+    "total_tokens": 1204,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 128
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

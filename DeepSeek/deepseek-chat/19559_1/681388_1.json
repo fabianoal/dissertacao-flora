@@ -1,0 +1,28 @@
+{
+  "id": "30084593-255a-4827-842b-a12c1b9c1773",
+  "object": "chat.completion",
+  "created": 1758474886,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações para garantir a conformidade contínua com normas e regulamentações, como a implementação de sistemas de arquivamento e assinatura digital, que visam prevenir a recorrência da falta de laudos médicos e assinaturas, abordando as causas subjacentes e não apenas corrigindo as condições atuais.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1417,
+    "completion_tokens": 95,
+    "total_tokens": 1512,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 457
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

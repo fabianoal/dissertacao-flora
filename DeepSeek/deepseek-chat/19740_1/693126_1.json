@@ -1,0 +1,28 @@
+{
+  "id": "99ff7d20-15ee-4e47-a42c-6c69b0c69e6e",
+  "object": "chat.completion",
+  "created": 1758481382,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um sistema de registro contínuo (SIES) para melhorar a gestão logística e assegurar a atualização constante dos dados, abordando a causa raiz da falta de registros e prevenindo a recorrência da condição observada, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1133,
+    "completion_tokens": 95,
+    "total_tokens": 1228,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 173
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

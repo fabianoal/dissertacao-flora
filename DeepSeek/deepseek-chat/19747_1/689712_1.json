@@ -1,0 +1,28 @@
+{
+  "id": "842e50a0-c9d2-438b-ab30-5f8b2493ccc5",
+  "object": "chat.completion",
+  "created": 1758481654,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a atualização dos dados no CNES para incluir todos os trabalhadores e suas funções, o que visa corrigir a causa subjacente da não inserção da Rede de Frio na estrutura da SMS, implementando um controle permanente para assegurar conformidade contínua e prevenir a recorrência da condição.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1162,
+    "completion_tokens": 93,
+    "total_tokens": 1255,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 202
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "0079d12a-cb6d-4d85-8c51-ea6a6b9eb6d9",
+  "object": "chat.completion",
+  "created": 1758479826,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação sugere a adoção de ações de saúde pública recomendadas na nota técnica, visando melhorar a proporção de forma sustentável e preventiva, abordando a causa subjacente da não conformidade, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1091,
+    "completion_tokens": 80,
+    "total_tokens": 1171,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 131
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

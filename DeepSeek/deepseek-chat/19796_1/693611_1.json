@@ -1,0 +1,28 @@
+{
+  "id": "6369551a-84bc-4323-853d-d353bb880723",
+  "object": "chat.completion",
+  "created": 1758483566,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração de protocolos, fluxos e a adoção de um sistema informatizado para regulação do acesso, o que visa prevenir a recorrência da falta de documentação formalizada, abordando as causas subjacentes e promovendo mudanças estruturais de longo prazo, conforme definido para recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1376,
+    "completion_tokens": 98,
+    "total_tokens": 1474,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 416
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

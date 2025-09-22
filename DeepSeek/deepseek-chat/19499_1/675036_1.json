@@ -1,0 +1,28 @@
+{
+  "id": "588f139e-5e9c-40fc-a937-d9960e77bcb4",
+  "object": "chat.completion",
+  "created": 1758473394,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de ações específicas e o registro das mesmas, conforme diretrizes normativas, com o objetivo de alcançar metas de forma sustentada, focando na implementação de processos que previnam a recorrência da não conformidade, em vez de apenas corrigir a condição atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1087,
+    "completion_tokens": 91,
+    "total_tokens": 1178,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 127
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

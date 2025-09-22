@@ -1,0 +1,28 @@
+{
+  "id": "29d5f89c-83f8-4c5e-a5e1-b5ffe3dd8c25",
+  "object": "chat.completion",
+  "created": 1758484842,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de incorporar o monitoramento dos dados de produção ambulatorial nos instrumentos de gestão, alinhando-se com normas estabelecidas, o que visa prevenir a recorrência da falta de monitoramento através de mudanças estruturais e de longo prazo nos processos de planejamento e relatórios de gestão.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1234,
+    "completion_tokens": 95,
+    "total_tokens": 1329,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 274
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

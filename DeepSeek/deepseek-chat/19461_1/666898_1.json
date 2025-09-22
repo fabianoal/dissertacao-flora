@@ -1,0 +1,28 @@
+{
+  "id": "f7f7feed-bb50-48ce-b258-51189c7f1b08",
+  "object": "chat.completion",
+  "created": 1758470534,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a regularização cadastral dos profissionais no CNES, o que envolve a implementação de um processo formal e contínuo para designar e habilitar autorizadores, visando prevenir a recorrência da falta de designação formal no futuro, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1150,
+    "completion_tokens": 91,
+    "total_tokens": 1241,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 190
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "9b82cedf-abc6-4301-924a-13d4106de7ed",
+  "object": "chat.completion",
+  "created": 1758473166,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de ações estruturais e de longo prazo, como marcar consultas odontológicas no início do pré-natal, manter vagas proporcionais e criar canais de comunicação entre equipes, visando prevenir a recorrência da falha em atingir a meta do indicador, ao invés de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1232,
+    "completion_tokens": 103,
+    "total_tokens": 1335,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 272
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "0e56da14-fa36-417b-9741-a8cb1010a314",
+  "object": "chat.completion",
+  "created": 1758473994,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de controles e avaliações sistemáticas, conforme manuais e portarias, para garantir que os dados inseridos nos sistemas correspondam fielmente à produção real, abordando a causa raiz das discrepâncias ao promover mudanças estruturais e de longo prazo na gestão dos dados de saúde.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1453,
+    "completion_tokens": 91,
+    "total_tokens": 1544,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 493
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "151eb3c9-0d80-4c02-a77a-c69feda97b02",
+  "object": "chat.completion",
+  "created": 1758482062,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adequação da estrutura física e a implementação de controle de temperatura, o que envolve mudanças sistêmicas e de longo prazo para prevenir a recorrência da inconformidade, alinhando-se com soluções que abordam a causa raiz do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1075,
+    "completion_tokens": 82,
+    "total_tokens": 1157,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 115
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

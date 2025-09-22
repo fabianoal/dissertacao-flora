@@ -1,0 +1,28 @@
+{
+  "id": "941fafa1-3542-4453-bef7-3846f0883c36",
+  "object": "chat.completion",
+  "created": 1758475394,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de processos sistemáticos de monitoramento e avaliação de contratos, além de orientações para adoção de providências formais, visando prevenir a recorrência da falta de informação aos pacientes sobre a lista de transplante, abordando a causa subjacente e não apenas corrigindo a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1212,
+    "completion_tokens": 93,
+    "total_tokens": 1305,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 252
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

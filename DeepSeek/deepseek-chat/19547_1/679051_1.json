@@ -1,0 +1,28 @@
+{
+  "id": "a2653f3e-8922-4795-a15c-05435b2bb20e",
+  "object": "chat.completion",
+  "created": 1758474706,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de medidas orientadas por documentos normativos e a inserção de detalhamentos qualitativos e quantitativos nos instrumentos de gestão, visando melhorar estruturalmente o acompanhamento e o atingimento dos indicadores de desempenho, o que aborda a causa subjacente da falta de ações e promove mudanças de longo prazo para evitar a recorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1274,
+    "completion_tokens": 115,
+    "total_tokens": 1389,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 314
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

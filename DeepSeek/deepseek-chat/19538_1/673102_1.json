@@ -1,0 +1,28 @@
+{
+  "id": "7e55ae09-9e70-4914-9a3c-7436cbc33adb",
+  "object": "chat.completion",
+  "created": 1758474382,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação orienta o município a implementar estratégias e ações de saúde pública de forma contínua e estruturada, conforme diretrizes documentadas, visando melhorar o indicador de desempenho a longo prazo, o que se alinha com a definição de recomendações cause-based que focam em evitar a recorrência da condição observada através de mudanças sistêmicas.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1072,
+    "completion_tokens": 107,
+    "total_tokens": 1179,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 176
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

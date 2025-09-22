@@ -1,0 +1,28 @@
+{
+  "id": "bfa15d4c-25c8-488a-8a91-8df3d1c87d85",
+  "object": "chat.completion",
+  "created": 1758488220,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistemático e contínuo de atualização do cadastro, incluindo periodicidade mensal ou imediata após mudanças, o que visa prevenir a reocorrência da desatualização, alinhando-se com soluções de longo prazo para evitar a condição problemática.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1225,
+    "completion_tokens": 92,
+    "total_tokens": 1317,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 265
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

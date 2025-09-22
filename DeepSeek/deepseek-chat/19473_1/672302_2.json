@@ -1,0 +1,28 @@
+{
+  "id": "113e3e51-4a3d-43b7-b2e1-d9f2021bf0fa",
+  "object": "chat.completion",
+  "created": 1758470702,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação propõe a devolução de recursos financeiros para corrigir a condição específica de falta de documentação comprobatória, fornecendo uma solução temporária e direta para o problema imediato, sem abordar as causas subjacentes que levaram à ausência de documentação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1084,
+    "completion_tokens": 86,
+    "total_tokens": 1170,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 124
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

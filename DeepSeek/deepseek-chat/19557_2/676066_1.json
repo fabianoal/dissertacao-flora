@@ -1,0 +1,28 @@
+{
+  "id": "d39fa086-980f-4a10-83e4-a2434fb7e952",
+  "object": "chat.completion",
+  "created": 1758474822,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações estruturais e de longo prazo, como implementar a rede de cuidados, ampliar assistência e acesso, melhorar a interface entre níveis de atenção, e tornar efetiva a monitorização e fiscalização, visando prevenir a recorrência da condição observada, em vez de apenas corrigir a situação atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1188,
+    "completion_tokens": 96,
+    "total_tokens": 1284,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 228
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

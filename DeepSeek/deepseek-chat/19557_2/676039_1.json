@@ -1,0 +1,28 @@
+{
+  "id": "cb57aaed-8250-44af-ac4a-b9a7943bc69d",
+  "object": "chat.completion",
+  "created": 1758474826,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de processos de acompanhamento, regulação, controle e fiscalização pelos serviços especializados, o que visa estabelecer uma solução de longo prazo para prevenir a falta de monitoramento e garantir a conformidade contínua, em vez de apenas corrigir a condição específica atual de não informação sobre o monitoramento.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1093,
+    "completion_tokens": 95,
+    "total_tokens": 1188,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 133
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

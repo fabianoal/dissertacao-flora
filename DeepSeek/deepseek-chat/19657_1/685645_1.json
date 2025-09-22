@@ -1,0 +1,28 @@
+{
+  "id": "ad18ac2b-fef6-4ec6-ae99-d089c9000129",
+  "object": "chat.completion",
+  "created": 1758479278,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações como marcar consultas no momento da confirmação da gestação, manter vagas abertas e criar canais de comunicação diretos, que visam implementar mudanças estruturais e de processo para prevenir a reocorrência da falha na comprovação das ações, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1126,
+    "completion_tokens": 98,
+    "total_tokens": 1224,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 166
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

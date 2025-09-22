@@ -1,0 +1,28 @@
+{
+  "id": "9a33540c-e1c7-48a3-82e4-ab7ec5c87032",
+  "object": "chat.completion",
+  "created": 1758478562,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, ou seja, a falta de comprovação da destinação das OPME, ao exigir o recebimento, aceitação e registro adequado dos materiais conforme a legislação vigente, sem propor ações para prevenir a recorrência do problema em longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1091,
+    "completion_tokens": 95,
+    "total_tokens": 1186,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 131
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

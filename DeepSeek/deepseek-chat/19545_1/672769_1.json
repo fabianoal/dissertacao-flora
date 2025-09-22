@@ -1,0 +1,28 @@
+{
+  "id": "88b32a45-b07a-4975-ba70-caff9b35d95c",
+  "object": "chat.completion",
+  "created": 1758474630,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe o cumprimento de uma norma que estabelece diretrizes para financiamento e implantação, incluindo manutenção, o que visa implementar uma estrutura permanente para evitar a não apresentação de contratos no futuro, focando na causa subjacente da não conformidade.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1129,
+    "completion_tokens": 83,
+    "total_tokens": 1212,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 169
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

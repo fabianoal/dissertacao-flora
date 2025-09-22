@@ -1,0 +1,28 @@
+{
+  "id": "41b4c86a-6b22-4957-b2c8-81beef7481c9",
+  "object": "chat.completion",
+  "created": 1758479822,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação sugere a adoção de ações de saúde pública conforme a nota técnica, o que implica mudanças estruturais ou processuais de longo prazo para prevenir a recorrência da baixa proporção de gestantes com atendimento odontológico, focando na causa subjacente em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1084,
+    "completion_tokens": 90,
+    "total_tokens": 1174,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 124
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

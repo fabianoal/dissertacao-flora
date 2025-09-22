@@ -1,0 +1,28 @@
+{
+  "id": "168134a9-0e9b-49c2-846b-5347e5752d9a",
+  "object": "chat.completion",
+  "created": 1758480430,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação se concentra em ações de longo prazo, como planejar, organizar, controlar e avaliar ações de saúde, prestar informações necessárias para auditorias e restituir recursos de forma preventiva, visando evitar a recorrência de irregularidades e promover mudanças estruturais na gestão, alinhando-se à definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1352,
+    "completion_tokens": 103,
+    "total_tokens": 1455,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 328
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

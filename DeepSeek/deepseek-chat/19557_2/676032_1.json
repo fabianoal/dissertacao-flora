@@ -1,0 +1,28 @@
+{
+  "id": "1ea20da7-602a-41a8-9075-4a20213f2876",
+  "object": "chat.completion",
+  "created": 1758474834,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de rotinas de notificação para que os prestadores de serviço possam melhorar seus resultados futuros, focando em evitar a recorrência da não conformidade através de ações preventivas e de longo prazo, como a análise contínua de indicadores e a implementação de processos sistemáticos.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1128,
+    "completion_tokens": 92,
+    "total_tokens": 1220,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 168
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

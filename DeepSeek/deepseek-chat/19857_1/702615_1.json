@@ -1,0 +1,28 @@
+{
+  "id": "4ccf0e18-0ea7-481e-885f-575dffaf2510",
+  "object": "chat.completion",
+  "created": 1758488084,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de instrumentos de monitoramento e controles financeiros sistemáticos, visando prevenir a reocorrência de falhas na gestão de parcerias, o que se alinha com soluções de longo prazo para evitar condições semelhantes no futuro.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1180,
+    "completion_tokens": 82,
+    "total_tokens": 1262,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 284
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

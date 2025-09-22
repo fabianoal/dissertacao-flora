@@ -1,0 +1,28 @@
+{
+  "id": "264b7671-805f-4503-aff3-77b4879a7b21",
+  "object": "chat.completion",
+  "created": 1758483082,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de requisitos estruturais e procedimentos detalhados baseados em normas específicas, visando estabelecer controles permanentes e preventivos para assegurar a integridade da cadeia de frio, o que aborda a causa raiz da deficiência identificada e promove uma solução de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1266,
+    "completion_tokens": 97,
+    "total_tokens": 1363,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 306
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "8db4f4d6-850b-4b6c-87a5-30c53b27bc71",
+  "object": "chat.completion",
+  "created": 1758481074,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a capacitação contínua da equipe por meio de um núcleo de educação e treinamento em serviço, o que visa abordar a causa raiz da falta de capacitação, implementando uma solução estrutural e de longo prazo para prevenir a recorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1085,
+    "completion_tokens": 90,
+    "total_tokens": 1175,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 125
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

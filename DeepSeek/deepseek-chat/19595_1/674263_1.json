@@ -1,0 +1,28 @@
+{
+  "id": "ead6cae5-b23d-4c1d-9ffe-8e814392a93e",
+  "object": "chat.completion",
+  "created": 1758475798,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações como capacitação e sensibilização dos profissionais, que visam abordar a causa raiz da falha no preenchimento dos prontuários, promovendo mudanças comportamentais e estruturais de longo prazo para prevenir a recorrência do problema, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1245,
+    "completion_tokens": 92,
+    "total_tokens": 1337,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 349
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

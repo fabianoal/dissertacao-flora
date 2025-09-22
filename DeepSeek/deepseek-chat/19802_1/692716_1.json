@@ -1,0 +1,28 @@
+{
+  "id": "e3f625a7-5960-4fff-ab8d-9454e7956c0e",
+  "object": "chat.completion",
+  "created": 1758483782,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implantação de um sistema digital para arquivar a Ficha de Programação Físico Orçamentário (FPO), o que visa prevenir a não arquivação no futuro, abordando a causa raiz (falta de um sistema adequado) em vez de apenas corrigir a condição atual de não arquivamento.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1055,
+    "completion_tokens": 95,
+    "total_tokens": 1150,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 159
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

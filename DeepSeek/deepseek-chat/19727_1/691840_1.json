@@ -1,0 +1,28 @@
+{
+  "id": "83fef543-b238-4f73-a2e3-75f2e671c326",
+  "object": "chat.completion",
+  "created": 1758481094,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a contratação ou manutenção de serviços de telefonia em conformidade com normas legais e a prestação de informações necessárias para auditorias, visando resolver deficiências operacionais subjacentes e prevenir futuras interrupções no serviço, focando em soluções de longo prazo e causas raiz, em vez de apenas corrigir a condição atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1265,
+    "completion_tokens": 106,
+    "total_tokens": 1371,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 305
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

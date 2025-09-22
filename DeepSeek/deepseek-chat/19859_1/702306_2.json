@@ -1,0 +1,28 @@
+{
+  "id": "894b2b42-dc06-469b-9a88-179b54031493",
+  "object": "chat.completion",
+  "created": 1758488204,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação II propõe a implementação de processos de monitoramento contínuo e capacitação de profissionais para prevenir a inserção de dados incorretos nos sistemas de informação em saúde, focando em ações de longo prazo que abordam a causa raiz da inconformidade, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1269,
+    "completion_tokens": 90,
+    "total_tokens": 1359,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 309
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

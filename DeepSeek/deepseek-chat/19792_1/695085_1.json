@@ -1,0 +1,28 @@
+{
+  "id": "265dd4e6-754e-4ccc-ad4f-f4cf4e02d8f0",
+  "object": "chat.completion",
+  "created": 1758483458,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a criação e implementação de um manual atualizado com procedimentos operacionais padronizados e a estabelecimento de uma rotina diária de verificação e registro, focando em mudanças estruturais e de longo prazo para prevenir a recorrência da falta de controles, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1315,
+    "completion_tokens": 95,
+    "total_tokens": 1410,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 355
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

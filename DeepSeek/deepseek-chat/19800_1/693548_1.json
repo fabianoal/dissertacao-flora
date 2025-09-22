@@ -1,0 +1,28 @@
+{
+  "id": "68b2874a-9f4c-4a68-989f-0bc3c1de4b30",
+  "object": "chat.completion",
+  "created": 1758483734,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de controles sistemáticos, como verificação e registro contínuo das condições de temperatura, transporte, armazenagem, umidade e exposição à luz, além da adoção de áreas refrigeradas e boas práticas para minimizar a exposição à temperatura ambiente. Essas ações visam prevenir a recorrência da condição inadequada ao estabelecer mudanças estruturais e de longo prazo, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1242,
+    "completion_tokens": 132,
+    "total_tokens": 1374,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 282
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "3b9501ca-a03f-489d-a731-a7e4f8b5f66f",
+  "object": "chat.completion",
+  "created": 1758477206,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação sugere uma investigação profunda (apuração) para determinar se os dados reportados refletem a realidade, o que pode levar à identificação e correção de causas subjacentes, como falhas em processos de coleta ou relato de dados, promovendo melhorias de longo prazo na precisão e confiabilidade dos relatórios, em vez de apenas corrigir os dados incorretos existentes.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1031,
+    "completion_tokens": 112,
+    "total_tokens": 1143,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 71
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

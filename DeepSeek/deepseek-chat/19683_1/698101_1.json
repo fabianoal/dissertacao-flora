@@ -1,0 +1,28 @@
+{
+  "id": "f318e04d-4892-4237-9a0c-3f57cee3c838",
+  "object": "chat.completion",
+  "created": 1758480110,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a orientação dos fiscais técnicos e gestores para realizar a conferência da documentação comprobatória, visando evitar danos futuros ao erário por meio de uma mudança processual contínua, o que se alinha com soluções de longo prazo para prevenir a reocorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1144,
+    "completion_tokens": 96,
+    "total_tokens": 1240,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 184
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

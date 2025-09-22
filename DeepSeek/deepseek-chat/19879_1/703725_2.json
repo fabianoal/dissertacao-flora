@@ -1,0 +1,28 @@
+{
+  "id": "66b165b0-3dac-475a-ab95-310f76c6a23e",
+  "object": "chat.completion",
+  "created": 1758488888,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação inclui a promoção de capacitação continuada da equipe, o que visa abordar a causa subjacente dos erros de codificação e faturamento, implementando uma solução de longo prazo para prevenir a recorrência da condição observada, além de corrigir a condição atual através da emissão de nova AIH.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1272,
+    "completion_tokens": 96,
+    "total_tokens": 1368,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 248
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

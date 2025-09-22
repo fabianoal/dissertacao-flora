@@ -1,0 +1,28 @@
+{
+  "id": "9b19828f-97c5-445a-ab5b-42637ab44785",
+  "object": "chat.completion",
+  "created": 1758478274,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação foca em orientar e implementar processos sistemáticos para garantir a inserção contínua e correta de relatórios no TransfereGov, abordando a causa raiz da ausência ou incompletude ao estabelecer diretrizes e procedimentos de longo prazo, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1320,
+    "completion_tokens": 96,
+    "total_tokens": 1416,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 424
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

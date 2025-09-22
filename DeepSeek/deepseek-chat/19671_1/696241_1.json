@@ -1,0 +1,28 @@
+{
+  "id": "2f1e395b-cc37-494f-89d7-9b573a3bb04a",
+  "object": "chat.completion",
+  "created": 1758479486,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfoca a implementação de um processo contínuo de manutenção e atualização de dados no CNES, o que visa prevenir futuras ocorrências de não cadastramento, alinhando-se com a definição de recomendações com foco na causa, que buscam soluções de longo prazo para evitar a recorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1101,
+    "completion_tokens": 100,
+    "total_tokens": 1201,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 141
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

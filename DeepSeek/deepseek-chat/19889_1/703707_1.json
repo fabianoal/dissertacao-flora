@@ -1,0 +1,28 @@
+{
+  "id": "3fe843bf-4624-44c1-994d-9d6925627a68",
+  "object": "chat.completion",
+  "created": 1758491165,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de ações regulatórias e de supervisão contínuas, como processamento da produção e avaliação analítica, que visam prevenir a recorrência da condição observada, alinhando-se com soluções de longo prazo para evitar inconformidades futuras.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1148,
+    "completion_tokens": 86,
+    "total_tokens": 1234,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 188
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

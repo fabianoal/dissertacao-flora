@@ -1,0 +1,28 @@
+{
+  "id": "0d0fa26e-6c75-4465-b8e8-8ba4415c6d4d",
+  "object": "chat.completion",
+  "created": 1758484330,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a criação de mecanismos sistemáticos de avaliação e monitoramento para prevenir a reocorrência da condição observada, focando em soluções de longo prazo que visam melhorar a integralidade e qualidade do cuidado em saúde mental, em vez de apenas corrigir a situação atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1180,
+    "completion_tokens": 90,
+    "total_tokens": 1270,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 220
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

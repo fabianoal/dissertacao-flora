@@ -1,0 +1,28 @@
+{
+  "id": "31132073-2f29-4ff1-b165-b1d08144045d",
+  "object": "chat.completion",
+  "created": 1758477946,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo de conferência documental por fiscais e gestores, visando prevenir futuras irregularidades e garantir conformidade normativa de forma sustentada, o que caracteriza uma solução de longo prazo focada na causa raiz das inconformidades.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1181,
+    "completion_tokens": 86,
+    "total_tokens": 1267,
+    "prompt_tokens_details": {
+      "cached_tokens": 1152
+    },
+    "prompt_cache_hit_tokens": 1152,
+    "prompt_cache_miss_tokens": 29
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "50065df6-f68a-45c4-a866-2f078e014c66",
+  "object": "chat.completion",
+  "created": 1758482706,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação propõe a implementação imediata do Mapa Ilustrativo para identificar os imunobiológicos, o que corrige diretamente a condição observada (ausência do mapa), sem abordar as causas subjacentes, como falhas em processos ou políticas que levaram à não utilização do mapa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1093,
+    "completion_tokens": 89,
+    "total_tokens": 1182,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 133
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "07b75c32-8755-4ab9-a43f-77c1fd577176",
+  "object": "chat.completion",
+  "created": 1758477158,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe uma ação preventiva para evitar que a condição (afronta ao princípio da competitividade) volte a ocorrer, focando na causa subjacente (relações comerciais que influenciam a competitividade), em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1045,
+    "completion_tokens": 86,
+    "total_tokens": 1131,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 85
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

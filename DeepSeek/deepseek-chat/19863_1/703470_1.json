@@ -1,0 +1,28 @@
+{
+  "id": "b93cd6d5-0a50-4f96-bc6d-4e405dbc7f43",
+  "object": "chat.completion",
+  "created": 1758488540,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de catracas eletrônicas para resolver a causa subjacente da não implementação, visando uma solução de longo prazo que evite a reocorrência da condição de falta de registro de entrada e saída, alinhando-se com a definição de cause-based ao focar na prevenção futura.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1082,
+    "completion_tokens": 98,
+    "total_tokens": 1180,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 122
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

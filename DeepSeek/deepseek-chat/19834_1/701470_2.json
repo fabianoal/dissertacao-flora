@@ -1,0 +1,28 @@
+{
+  "id": "0c38f8f8-9e68-4a23-9831-d7c260e1d21b",
+  "object": "chat.completion",
+  "created": 1758485282,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações como a realização de diagnóstico das causas do aumento de partos cesáreos, ações de sensibilização, implantação de um sistema de monitoramento efetivo, e elaboração de um Planejamento Estratégico com diretrizes, objetivos e metas. Essas medidas visam abordar as causas subjacentes das inconformidades, promovendo mudanças estruturais e de longo prazo para evitar a recorrência, alinhando-se com a definição de recomendações cause-based.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1508,
+    "completion_tokens": 133,
+    "total_tokens": 1641,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 484
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

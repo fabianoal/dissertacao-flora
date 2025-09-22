@@ -1,0 +1,28 @@
+{
+  "id": "46bb6678-7475-4b27-aecf-d235aec272d9",
+  "object": "chat.completion",
+  "created": 1758480502,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de procedimentos cirúrgicos necessários de forma contínua e estruturada, seja própria ou terceirizada, alinhando-se com normas e políticas de saúde para prevenir a recorrência da falta de atendimento, abordando a causa subjacente da não prestação de serviços em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1229,
+    "completion_tokens": 105,
+    "total_tokens": 1334,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 269
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

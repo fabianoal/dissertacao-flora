@@ -1,0 +1,28 @@
+{
+  "id": "7e3b7a94-5895-4130-bd16-400fc5853d05",
+  "object": "chat.completion",
+  "created": 1758477706,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, exigindo a inserção de documentação comprobatória específica no sistema Transferegov para regularizar a prestação de contas atual, sem propor ações preventivas ou de longo prazo para evitar a recorrência da falta de documentação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1140,
+    "completion_tokens": 89,
+    "total_tokens": 1229,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 180
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

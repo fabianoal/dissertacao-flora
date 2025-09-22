@@ -1,0 +1,28 @@
+{
+  "id": "6c36878b-fb02-4ddb-99f0-46194d70088f",
+  "object": "chat.completion",
+  "created": 1758487588,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a falta de documentação comprobatória, ao exigir a restituição do valor recebido irregularmente, sem propor ações para prevenir a reocorrência da falha na documentação ou inserção de dados no sistema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1291,
+    "completion_tokens": 87,
+    "total_tokens": 1378,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 331
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d86bcf03-6077-4811-8cfa-b5af3526b0ef",
+  "object": "chat.completion",
+  "created": 1758482514,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de medidas de controle contínuas para assegurar a conformidade com a normativa, focando na implementação de processos que previnam a recorrência da omissão de assinaturas, em vez de apenas corrigir a condição atual específica.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1160,
+    "completion_tokens": 85,
+    "total_tokens": 1245,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 200
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

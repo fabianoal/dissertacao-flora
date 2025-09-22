@@ -1,0 +1,28 @@
+{
+  "id": "6518aaf1-174d-46e5-b00a-7de6def01608",
+  "object": "chat.completion",
+  "created": 1758476370,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição irregular encontrada, notificando os responsáveis para apresentação de informações e, se necessário, adotando medidas administrativas para ressarcimento dos valores, sem propor ações preventivas de longo prazo para evitar a recorrência da irregularidade.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1111,
+    "completion_tokens": 85,
+    "total_tokens": 1196,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 151
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

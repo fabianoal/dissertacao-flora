@@ -1,0 +1,28 @@
+{
+  "id": "74550ac4-fd6f-446f-9623-84e20393989b",
+  "object": "chat.completion",
+  "created": 1758488368,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de cumprir um compromisso assumido no Plano de Ação para revisar ou elaborar o Regimento Interno, o que implica uma ação corretiva de longo prazo para evitar a recorrência da não conformidade, alinhando-se com soluções que abordam a causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1081,
+    "completion_tokens": 93,
+    "total_tokens": 1174,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 121
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

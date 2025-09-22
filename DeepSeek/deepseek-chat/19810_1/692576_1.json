@@ -1,0 +1,28 @@
+{
+  "id": "ff192763-0948-49ed-80dc-8e4d358afcce",
+  "object": "chat.completion",
+  "created": 1758484154,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de educação permanente e continuada, o que visa abordar a causa subjacente da falta de capacitação, promovendo uma solução de longo prazo para prevenir a recorrência da condição observada, em vez de apenas corrigir a ausência atual de levantamento de necessidades.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1077,
+    "completion_tokens": 90,
+    "total_tokens": 1167,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 181
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

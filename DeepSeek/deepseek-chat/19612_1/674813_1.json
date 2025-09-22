@@ -1,0 +1,28 @@
+{
+  "id": "59c4e2a0-b87d-444e-9451-ef97bc0abfde",
+  "object": "chat.completion",
+  "created": 1758476986,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração de um plano de trabalho para os fiscais técnicos de convênio, o que visa abordar a causa raiz da carência de subsídios, implementando uma solução estrutural e de longo prazo para prevenir a recorrência do problema, em vez de apenas corrigir a condição atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1041,
+    "completion_tokens": 95,
+    "total_tokens": 1136,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 17
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

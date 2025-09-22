@@ -1,0 +1,28 @@
+{
+  "id": "4f842e4a-ee0d-4b5e-b0e7-42700fd070f8",
+  "object": "chat.completion",
+  "created": 1758484354,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de uma medida estrutural (assegurar que os prontuários possuam todos os registros necessários) que visa prevenir a recorrência da ausência de continuidade do cuidado, abordando a causa subjacente relacionada à documentação e conformidade com normas, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1117,
+    "completion_tokens": 102,
+    "total_tokens": 1219,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 157
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

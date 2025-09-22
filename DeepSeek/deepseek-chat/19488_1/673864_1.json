@@ -1,0 +1,28 @@
+{
+  "id": "e6143433-c407-45ed-8187-9f504d135d71",
+  "object": "chat.completion",
+  "created": 1758473278,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a instalação de um sistema de gravação digital eficiente e contínua com acesso protegido, o que envolve a implementação de uma solução estrutural e de longo prazo para prevenir a não gravação das comunicações, abordando a causa raiz da falha no registro e não apenas corrigindo a condição atual de gravações incompletas.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1170,
+    "completion_tokens": 106,
+    "total_tokens": 1276,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 210
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

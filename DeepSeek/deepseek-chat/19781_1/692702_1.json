@@ -1,0 +1,28 @@
+{
+  "id": "a4218547-1dcd-434d-a124-28a472b666db",
+  "object": "chat.completion",
+  "created": 1758483010,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a instalação de um grupo gerador de energia para situações emergenciais, o que visa prevenir futuras falhas no suprimento de energia elétrica, alinhando-se com a norma RDC Nº 430/2020 e focando em uma solução de longo prazo para evitar a recorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1120,
+    "completion_tokens": 98,
+    "total_tokens": 1218,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 160
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

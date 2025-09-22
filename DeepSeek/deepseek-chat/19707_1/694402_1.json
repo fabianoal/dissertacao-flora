@@ -1,0 +1,28 @@
+{
+  "id": "a50f676c-9ed3-4464-9af4-7c2ba1151558",
+  "object": "chat.completion",
+  "created": 1758480634,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza o cumprimento de uma disposição legal específica (art. 72 da Lei nº 8.666/1993) que estabelece limites e condições para subcontratação, visando prevenir futuras ocorrências similares de subcontratação integral irregular, ao invés de apenas corrigir a condição atual, como a rescisão do contrato ou ajuste imediato.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1069,
+    "completion_tokens": 109,
+    "total_tokens": 1178,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 173
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

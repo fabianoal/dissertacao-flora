@@ -1,0 +1,28 @@
+{
+  "id": "4af1b358-6a2c-4498-8fb5-58ce516c4dda",
+  "object": "chat.completion",
+  "created": 1758488796,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação estabelece mecanismos de monitoramento e fiscalização para prevenir futuras irregularidades, como a cobrança indevida de procedimentos, e inclui ações de ressarcimento e perícia que visam corrigir a causa raiz e evitar recorrências, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1605,
+    "completion_tokens": 89,
+    "total_tokens": 1694,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 581
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

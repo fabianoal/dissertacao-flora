@@ -1,0 +1,28 @@
+{
+  "id": "589061bd-0222-47c8-ae0c-1cb449ecfd0d",
+  "object": "chat.completion",
+  "created": 1758485298,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a definição e implementação de um protocolo e/ou fluxo de atendimento, o que visa abordar a causa raiz da falta de acolhimento em casos de urgência e emergência de saúde mental, promovendo uma solução estrutural e de longo prazo para prevenir a recorrência do problema, em vez de apenas corrigir a condição atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1205,
+    "completion_tokens": 107,
+    "total_tokens": 1312,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 245
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

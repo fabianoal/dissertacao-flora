@@ -1,0 +1,28 @@
+{
+  "id": "403863ae-4e77-4ee2-afaa-8b8ec8c78e09",
+  "object": "chat.completion",
+  "created": 1758487492,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a revisão minuciosa e atualização de documentos contratuais e a definição de metas e métodos de verificação, visando corrigir as causas subjacentes da não conformidade e prevenir sua recorrência, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1536,
+    "completion_tokens": 82,
+    "total_tokens": 1618,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 576
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

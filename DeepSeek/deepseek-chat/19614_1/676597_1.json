@@ -1,0 +1,28 @@
+{
+  "id": "ca8dd02b-2cff-47a9-9c7f-94e70b67d7e1",
+  "object": "chat.completion",
+  "created": 1758477406,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a falta de documentação comprobatória para pagamentos, exigindo a inserção de documentos específicos no sistema Transferegov, sem propor ações para prevenir a recorrência da causa subjacente, como falhas em processos de controle ou treinamento.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1081,
+    "completion_tokens": 94,
+    "total_tokens": 1175,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 121
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

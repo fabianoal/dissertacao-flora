@@ -1,0 +1,28 @@
+{
+  "id": "8f12e106-5f8f-4f10-bc39-864c1b21d149",
+  "object": "chat.completion",
+  "created": 1758488272,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um sistema contínuo de monitoramento e avaliação, articulado com outros setores, para assegurar a produção e análise de informações, o que visa prevenir a recorrência da condição observada e fortalecer o planejamento de longo prazo, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1233,
+    "completion_tokens": 102,
+    "total_tokens": 1335,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 273
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

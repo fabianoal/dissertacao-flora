@@ -1,0 +1,28 @@
+{
+  "id": "6e3b99f5-d8dd-478c-acb0-42edff96b330",
+  "object": "chat.completion",
+  "created": 1758468337,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações que visam implementar processos sistemáticos, como a realização de exames preventivos, lançamento de ações no sistema E-SUS, e execução de ações educativas, que são medidas de longo prazo destinadas a prevenir a recorrência da não execução integral das atribuições, focando na causa subjacente de falhas operacionais e de conformidade.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1582,
+    "completion_tokens": 106,
+    "total_tokens": 1688,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 622
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

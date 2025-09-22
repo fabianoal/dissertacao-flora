@@ -1,0 +1,28 @@
+{
+  "id": "2b7d49e7-83a5-4d04-9206-39de1a8d512b",
+  "object": "chat.completion",
+  "created": 1758481582,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração e disponibilização de um documento formal detalhando rotinas de distribuição de imunobiológicos, o que visa estabelecer procedimentos permanentes e preventivos para assegurar a integridade da cadeia de frios, abordando a causa raiz da falta de controles adequados, em vez de apenas corrigir uma condição específica atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1206,
+    "completion_tokens": 104,
+    "total_tokens": 1310,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 246
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

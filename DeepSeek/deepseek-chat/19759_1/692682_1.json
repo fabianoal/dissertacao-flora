@@ -1,0 +1,28 @@
+{
+  "id": "d944833e-aca7-42f1-8d45-6c7004866de8",
+  "object": "chat.completion",
+  "created": 1758482114,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de controles de inspeção com instrumentos de medição adequados para assegurar a preservação das especificações de qualidade dos imunobiológicos, abordando a causa raiz da deficiência no processo de inspeção e visando prevenir a recorrência da condição inadequada de temperatura, umidade e exposição à luz, alinhando-se com soluções de longo prazo conforme as normas regulatórias.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1155,
+    "completion_tokens": 121,
+    "total_tokens": 1276,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 195
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

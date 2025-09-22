@@ -1,0 +1,28 @@
+{
+  "id": "00694bd2-c29d-4b94-a6f0-deb1c17b5569",
+  "object": "chat.completion",
+  "created": 1758481170,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação visa garantir a regularidade documental e a cobertura de seguro de forma contínua, abordando a causa subjacente da gestão inadequada da frota, o que implica mudanças estruturais e de longo prazo para prevenir a recorrência da condição.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1098,
+    "completion_tokens": 79,
+    "total_tokens": 1177,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 138
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

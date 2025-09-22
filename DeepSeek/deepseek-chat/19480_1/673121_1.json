@@ -1,0 +1,28 @@
+{
+  "id": "2aefb529-06d8-4e86-a483-f9cc983293e1",
+  "object": "chat.completion",
+  "created": 1758473030,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de mapas de abastecimento, solicitação diária e checklists, que são ações preventivas e sistêmicas destinadas a garantir a reposição contínua e adequada de materiais e medicamentos, abordando a causa raiz do dimensionamento incompatível e prevenindo a recorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1114,
+    "completion_tokens": 99,
+    "total_tokens": 1213,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 154
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

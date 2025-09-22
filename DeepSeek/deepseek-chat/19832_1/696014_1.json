@@ -1,0 +1,28 @@
+{
+  "id": "dc9f80ab-b05a-4f9e-88cb-2b2980596b1b",
+  "object": "chat.completion",
+  "created": 1758485122,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implantação de um cronograma para ações de redução de danos, o que envolve a criação de um processo estruturado e contínuo para evitar a recorrência da falha na continuidade do cuidado, focando em soluções de longo prazo e não apenas na correção imediata da condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1123,
+    "completion_tokens": 96,
+    "total_tokens": 1219,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 163
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

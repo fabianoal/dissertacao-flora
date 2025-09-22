@@ -1,0 +1,28 @@
+{
+  "id": "a81b0252-a13a-4dcf-8db2-89a29ed42f7e",
+  "object": "chat.completion",
+  "created": 1758473214,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações como revisão de obrigações legais, realinhamento de valores, e implementação de mecanismos de controle e fiscalização, que visam prevenir a reocorrência da subexecução orçamentária, demandando mudanças estruturais e de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1224,
+    "completion_tokens": 83,
+    "total_tokens": 1307,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 200
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

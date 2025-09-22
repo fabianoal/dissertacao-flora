@@ -1,0 +1,28 @@
+{
+  "id": "073e1b7e-fd65-4c5c-be1e-8f951082bc11",
+  "object": "chat.completion",
+  "created": 1758475250,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações sistêmicas e de longo prazo, como alimentar, analisar e verificar a qualidade e consistência dos dados, utilizá-los no planejamento, e divulgar resultados, além de estabelecer um processo regular de envio de dados, visando prevenir a reocorrência da discrepância entre os dados consolidados e os prontuários, alinhando-se com soluções que abordam a causa raiz do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1141,
+    "completion_tokens": 118,
+    "total_tokens": 1259,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 181
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

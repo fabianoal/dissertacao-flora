@@ -1,0 +1,28 @@
+{
+  "id": "bb487076-fc89-485d-8114-993e609e81b8",
+  "object": "chat.completion",
+  "created": 1758484358,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo de elaboração e documentação do Projeto Terapêutico Singular (PTS), o que visa prevenir a recorrência da não-regulamentação ao estabelecer uma prática sustentável e alinhada com as normativas, focando na causa subjacente da falta de registro.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1167,
+    "completion_tokens": 96,
+    "total_tokens": 1263,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 207
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

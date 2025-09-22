@@ -1,0 +1,28 @@
+{
+  "id": "c06f72f2-af3a-4e06-9937-799b5226eb8d",
+  "object": "chat.completion",
+  "created": 1758473518,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação solicita a adoção de procedimentos conforme decretos específicos para prevenir futuras ocorrências de dispensações sem comprovação fiscal, focando em mudanças estruturais e de longo prazo, como a implementação de controles administrativos, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1193,
+    "completion_tokens": 87,
+    "total_tokens": 1280,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 233
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

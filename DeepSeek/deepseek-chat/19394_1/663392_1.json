@@ -1,0 +1,28 @@
+{
+  "id": "4940d4ca-f108-4ff1-8350-3477c811490e",
+  "object": "chat.completion",
+  "created": 1758470074,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada (ausência de Alvará de Licença Sanitária), sem propor ações para prevenir a recorrência, como melhorias em processos ou políticas de gestão.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1036,
+    "completion_tokens": 70,
+    "total_tokens": 1106,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 76
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

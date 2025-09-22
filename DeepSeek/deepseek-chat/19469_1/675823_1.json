@@ -1,0 +1,28 @@
+{
+  "id": "7ef1ffd4-2f4e-4d34-b42f-e890ef731ac2",
+  "object": "chat.completion",
+  "created": 1758470622,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de aplicar os recursos financeiros em conformidade com normativos legais específicos, visando o funcionamento regular e contínuo do serviço, o que implica a implementação de mudanças estruturais na gestão para prevenir a reocorrência da má aplicação de recursos, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1187,
+    "completion_tokens": 98,
+    "total_tokens": 1285,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 227
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

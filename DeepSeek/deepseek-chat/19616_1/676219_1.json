@@ -1,0 +1,28 @@
+{
+  "id": "c8d0fb9f-b667-42a8-ad52-afe41ab0348c",
+  "object": "chat.completion",
+  "created": 1758477782,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de notificar a convenente para apresentar justificativas e observar o cumprimento de requisitos formais e normativos específicos, visando evitar impropriedades futuras nos processos de cotação de preços, o que se alinha com soluções de longo prazo para prevenir a recorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1230,
+    "completion_tokens": 98,
+    "total_tokens": 1328,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 270
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

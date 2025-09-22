@@ -1,0 +1,28 @@
+{
+  "id": "2b9ee7f7-21e7-4f5e-b2be-b9b07132ed6b",
+  "object": "chat.completion",
+  "created": 1758479150,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de implementar processos contínuos e sistemáticos para manter o cadastro atualizado mensalmente, conforme as normas estabelecidas, o que visa prevenir a recorrência da não atualização documental, caracterizando uma solução de longo prazo e foco na causa raiz.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1220,
+    "completion_tokens": 87,
+    "total_tokens": 1307,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 260
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

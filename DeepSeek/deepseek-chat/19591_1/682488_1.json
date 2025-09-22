@@ -1,0 +1,28 @@
+{
+  "id": "36d1528a-6b8c-4dea-b224-28a9d832320d",
+  "object": "chat.completion",
+  "created": 1758475734,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação, ao referir-se a uma constatação anterior (n.° 677630), implica uma abordagem que visa corrigir as causas subjacentes das falhas na programação, aquisição e disponibilização de medicamentos, promovendo mudanças estruturais e de longo prazo na gestão estadual para prevenir a recorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1080,
+    "completion_tokens": 101,
+    "total_tokens": 1181,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

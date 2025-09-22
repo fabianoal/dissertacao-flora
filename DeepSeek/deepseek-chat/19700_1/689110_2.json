@@ -1,0 +1,28 @@
+{
+  "id": "33c285bd-14f8-486e-832a-c777e7569cb9",
+  "object": "chat.completion",
+  "created": 1758480566,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação solicita à SVSA/MS a adoção de procedimentos para organização e execução de atividades de prevenção e controle, visando abordar a causa subjacente da falta de registros de acompanhamento e encaminhamento, promovendo uma solução de longo prazo para evitar a recorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1153,
+    "completion_tokens": 93,
+    "total_tokens": 1246,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 129
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

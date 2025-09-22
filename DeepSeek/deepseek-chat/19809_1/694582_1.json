@@ -1,0 +1,28 @@
+{
+  "id": "a25e2048-c956-43c6-bedb-a19b84a3258b",
+  "object": "chat.completion",
+  "created": 1758484114,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a inclusão de metas, indicadores e previsão de recursos financeiros em instrumentos de planejamento futuros, além de promover divulgação contínua, visando evitar a recorrência da falta de divulgação e implementar mudanças estruturais de longo prazo no sistema de saúde municipal.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1132,
+    "completion_tokens": 91,
+    "total_tokens": 1223,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 172
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

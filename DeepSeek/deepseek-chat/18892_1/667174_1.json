@@ -1,0 +1,28 @@
+{
+  "id": "817e7672-f3ae-4c8f-aedc-2792f1234825",
+  "object": "chat.completion",
+  "created": 1758468538,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a garantia de infraestrutura adequada e em boas condições para o pleno funcionamento dos serviços, o que envolve ações de longo prazo, como melhorias estruturais e manutenção contínua, visando prevenir a recorrência de problemas de infraestrutura, alinhando-se com o foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1289,
+    "completion_tokens": 98,
+    "total_tokens": 1387,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 393
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

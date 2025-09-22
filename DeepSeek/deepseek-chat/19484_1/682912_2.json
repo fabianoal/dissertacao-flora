@@ -1,0 +1,28 @@
+{
+  "id": "674e6f11-eb70-4bde-a231-6f2a36988d93",
+  "object": "chat.completion",
+  "created": 1758473106,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é o repasse excessivo de recursos, ao determinar a devolução do valor específico e atualizado monetariamente, sem propor ações para prevenir a recorrência do problema, como melhorias em processos de controle ou monitoramento.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1217,
+    "completion_tokens": 84,
+    "total_tokens": 1301,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 193
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

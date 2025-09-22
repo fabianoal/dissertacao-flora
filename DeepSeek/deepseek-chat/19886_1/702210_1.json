@@ -1,0 +1,28 @@
+{
+  "id": "be56aa67-d833-4e12-a27b-88a4a820c76b",
+  "object": "chat.completion",
+  "created": 1758489140,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de aderir a uma portaria específica que redefine procedimentos e estabelece requisitos documentais permanentes, visando prevenir futuras inconformidades ao garantir que a documentação adequada seja mantida de forma contínua, em vez de apenas corrigir a condição imediata de falta de APAC.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1248,
+    "completion_tokens": 94,
+    "total_tokens": 1342,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 352
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

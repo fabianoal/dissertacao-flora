@@ -1,0 +1,28 @@
+{
+  "id": "e62e2e6f-b4cb-40fe-8928-8a5772f249b1",
+  "object": "chat.completion",
+  "created": 1758487848,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações sistemáticas e de longo prazo, como identificar atividades produtivas e o perfil da população, revisar periodicamente listas de doenças, e realizar análises contínuas do perfil produtivo e de saúde, visando prevenir a reocorrência da falta de estatísticas e registros detalhados, alinhando-se com o foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1269,
+    "completion_tokens": 103,
+    "total_tokens": 1372,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 309
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

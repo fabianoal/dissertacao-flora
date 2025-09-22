@@ -1,0 +1,28 @@
+{
+  "id": "6b1384aa-5c7a-471c-9bf3-f27ae264de28",
+  "object": "chat.completion",
+  "created": 1758474126,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de um processo contínuo de divulgação de prestações de contas, conforme exigido por lei, o que visa prevenir a recorrência da não divulgação, abordando a causa subjacente de falta de conformidade com normas de transparência, em vez de apenas corrigir a condição específica de 2022.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1084,
+    "completion_tokens": 100,
+    "total_tokens": 1184,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 124
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

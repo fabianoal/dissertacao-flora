@@ -1,0 +1,28 @@
+{
+  "id": "3cf57acf-bea4-4179-8a11-f7296efdb837",
+  "object": "chat.completion",
+  "created": 1758484854,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é o valor recebido irregularmente, ao exigir a restituição do montante ao Fundo Nacional de Saúde, sem propor ações para evitar a reincidência da incompatibilidade entre dados inseridos e serviços realizados.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1481,
+    "completion_tokens": 86,
+    "total_tokens": 1567,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 457
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

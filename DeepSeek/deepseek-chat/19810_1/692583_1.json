@@ -1,0 +1,28 @@
+{
+  "id": "ecea5b62-c162-4b43-8966-67046be5f007",
+  "object": "chat.completion",
+  "created": 1758484170,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração de um plano de ação regional que inclui programação, atribuições, responsabilidades e aporte de recursos, visando abordar a causa subjacente da não consecução das metas, promovendo uma solução estrutural e de longo prazo para prevenir a recorrência do problema, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1127,
+    "completion_tokens": 102,
+    "total_tokens": 1229,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 231
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

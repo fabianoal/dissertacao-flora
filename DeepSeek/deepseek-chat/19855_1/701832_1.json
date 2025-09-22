@@ -1,0 +1,28 @@
+{
+  "id": "ed705fdd-37ce-4877-bf01-1092deab318c",
+  "object": "chat.completion",
+  "created": 1758488024,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações estruturais e de longo prazo, como a implementação de controles de acesso, vigilância, serviço de limpeza, e um plano de manutenção preventiva e melhorias físicas, que visam prevenir a reocorrência da condição inadequada das instalações, alinhando-se com o foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1223,
+    "completion_tokens": 99,
+    "total_tokens": 1322,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 263
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c9d182ff-a007-43e5-a388-937e14e4752f",
+  "object": "chat.completion",
+  "created": 1758479062,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo de atualização mensal do cadastro no SCNES, o que visa prevenir a recorrência da condição de desatualização, alinhando-se com soluções de longo prazo e mudanças estruturais no sistema de gestão.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1109,
+    "completion_tokens": 86,
+    "total_tokens": 1195,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 213
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

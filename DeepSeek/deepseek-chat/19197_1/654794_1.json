@@ -1,0 +1,28 @@
+{
+  "id": "66e628d0-75d4-4ec1-b02b-261de578aa51",
+  "object": "chat.completion",
+  "created": 1758468950,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de cumprir disposições legais específicas (arts. 60 a 64 da Lei nº 4.320/1964) para estabelecer uma ordem adequada de emissão de documentos, visando prevenir a recorrência da inconformidade observada (emissão de nota fiscal antes da nota de empenho válida) e promovendo uma mudança estrutural de longo prazo nos processos de pagamento.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1054,
+    "completion_tokens": 118,
+    "total_tokens": 1172,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 94
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "3cd54a68-788e-43a0-a49d-a2089f114105",
+  "object": "chat.completion",
+  "created": 1758483542,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a capacitação da equipe para garantir familiaridade com sistemas de informação e atualizações precisas, abordando a causa raiz das discrepâncias nos registros e estoque, promovendo uma solução de longo prazo que visa prevenir a recorrência do problema, conforme definido para recomendações cause-based.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1211,
+    "completion_tokens": 93,
+    "total_tokens": 1304,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 251
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

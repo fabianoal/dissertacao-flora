@@ -1,0 +1,28 @@
+{
+  "id": "d564be79-7017-4d77-ba13-49824f3be026",
+  "object": "chat.completion",
+  "created": 1758477826,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada (ausência de relatórios), solicitando a inserção dos documentos no sistema, sem abordar as causas subjacentes que levaram à omissão, como falhas em processos ou políticas de monitoramento.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1062,
+    "completion_tokens": 80,
+    "total_tokens": 1142,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 38
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

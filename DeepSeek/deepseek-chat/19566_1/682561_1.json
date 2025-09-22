@@ -1,0 +1,28 @@
+{
+  "id": "d0b386d6-c285-4e36-a284-78dc7c462759",
+  "object": "chat.completion",
+  "created": 1758475170,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações de acompanhamento, fiscalização e articulação institucional que visam prevenir a recorrência da inadequação no descarte, abordando causas subjacentes como a falta de supervisão e coordenação, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1318,
+    "completion_tokens": 86,
+    "total_tokens": 1404,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 422
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "fb076d2c-63ca-4cd1-8ec0-260a1c5ed6b1",
+  "object": "chat.completion",
+  "created": 1758473602,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe o estabelecimento de medidas para assegurar a anexação correta das notas fiscais em todos os prontuários, abordando a causa raiz da não conformidade ao implementar um processo ou sistema contínuo que previna a recorrência do problema, em vez de apenas corrigir as instâncias atuais.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1268,
+    "completion_tokens": 96,
+    "total_tokens": 1364,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 308
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

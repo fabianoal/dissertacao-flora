@@ -1,0 +1,28 @@
+{
+  "id": "edbf1e53-f685-4dab-a226-dfb119adc98c",
+  "object": "chat.completion",
+  "created": 1758470058,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, especificamente na devolução de valores financeiros devido à irregularidade identificada, sem propor ações preventivas de longo prazo para evitar a recorrência do problema, como melhorias em processos de registro ou fiscalização.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1150,
+    "completion_tokens": 82,
+    "total_tokens": 1232,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 126
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

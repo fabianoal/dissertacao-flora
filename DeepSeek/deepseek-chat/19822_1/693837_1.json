@@ -1,0 +1,28 @@
+{
+  "id": "914dfba3-b7a3-402f-b22b-c67dacbdf8c9",
+  "object": "chat.completion",
+  "created": 1758484782,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação exige que o município cumpra uma obrigação legal de inscrição no CNPJ, o que implica a implementação de uma solução estrutural e permanente para evitar a repetição da condição de falta de CNPJ próprio, alinhando-se com o foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1066,
+    "completion_tokens": 84,
+    "total_tokens": 1150,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 106
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

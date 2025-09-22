@@ -1,0 +1,28 @@
+{
+  "id": "f48b5d8a-759a-4b37-90ee-fc42aad31a8f",
+  "object": "chat.completion",
+  "created": 1758480906,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a inscrição no CNPJ, que é uma ação necessária para evitar que a falta de CNPJ próprio, uma condição irregular, volte a ocorrer no futuro, envolvendo uma solução de longo prazo e alinhada com requisitos normativos permanentes.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1104,
+    "completion_tokens": 83,
+    "total_tokens": 1187,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 144
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

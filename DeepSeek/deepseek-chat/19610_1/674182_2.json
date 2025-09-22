@@ -1,0 +1,28 @@
+{
+  "id": "8e98d334-bf93-4b44-ab0c-89fa837cdea7",
+  "object": "chat.completion",
+  "created": 1758476430,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação não apenas exige a correção imediata da documentação ausente (condição), mas também estabelece a implementação de critérios para futuras contratações, visando prevenir a recorrência da inconformidade ao abordar a causa subjacente de falta de procedimentos adequados.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1104,
+    "completion_tokens": 86,
+    "total_tokens": 1190,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 144
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

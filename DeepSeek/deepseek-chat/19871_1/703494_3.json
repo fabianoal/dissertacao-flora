@@ -1,0 +1,28 @@
+{
+  "id": "2afd26c3-53e9-447f-939e-584248f5a004",
+  "object": "chat.completion",
+  "created": 1758488696,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a revisão e atualização dos processos da equipe responsável pela documentação clínica e registro de procedimentos, alinhando-se às diretrizes estabelecidas para garantir a inserção tempestiva e precisa das informações após cada procedimento. Isso visa evitar a recorrência da condição (falta de comprovação documental e clínica) ao abordar a causa raiz, que é a inadequação dos processos internos, promovendo uma solução de longo prazo e não apenas uma correção temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1206,
+    "completion_tokens": 140,
+    "total_tokens": 1346,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 182
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

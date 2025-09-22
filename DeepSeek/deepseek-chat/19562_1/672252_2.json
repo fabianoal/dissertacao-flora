@@ -1,0 +1,28 @@
+{
+  "id": "44390f3d-4007-484c-8f31-6bc24c3c90e0",
+  "object": "chat.completion",
+  "created": 1758474986,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações como atualização periódica do cadastro, adoção de medidas para melhorar o desempenho do indicador, análise de dados e verificação da qualidade das informações, visando evitar a recorrência da condição de cadastro desatualizado e promover melhorias estruturais de longo prazo no sistema de informação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1173,
+    "completion_tokens": 93,
+    "total_tokens": 1266,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 213
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

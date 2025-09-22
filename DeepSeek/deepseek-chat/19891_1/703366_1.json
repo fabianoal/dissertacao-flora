@@ -1,0 +1,28 @@
+{
+  "id": "0bfda7ab-14eb-4274-83a6-0414971698da",
+  "object": "chat.completion",
+  "created": 1758491344,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações de acompanhamento, fiscalização, supervisão e auditoria contínuas para garantir a observância de normas e prevenir a recorrência da não autorização prévia, focando em mudanças sistêmicas e de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1174,
+    "completion_tokens": 77,
+    "total_tokens": 1251,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 214
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "69cfdf6c-b17f-4709-bd83-bed3a72e1170",
+  "object": "chat.completion",
+  "created": 1758479506,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada (falta de comprovação da situação vacinal e monitoramento de soroconversão), sem propor ações para prevenir a recorrência, como a implementação de políticas ou procedimentos permanentes.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1067,
+    "completion_tokens": 78,
+    "total_tokens": 1145,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 107
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

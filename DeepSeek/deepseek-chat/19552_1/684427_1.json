@@ -1,0 +1,28 @@
+{
+  "id": "bc815887-d966-410f-9e92-da3de6ddb122",
+  "object": "chat.completion",
+  "created": 1758474718,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um sistema contínuo de monitoramento e avaliação, incluindo ajustes em instrumentos pactuados e avaliação de estrutura, equipe e qualidade da assistência, visando prevenir a recorrência da inexistência de ação sistemática e promover melhorias de longo prazo no sistema de saúde.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1237,
+    "completion_tokens": 93,
+    "total_tokens": 1330,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 277
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "9b8a2fa0-49ea-44c2-a3f1-0a35de1e41ee",
+  "object": "chat.completion",
+  "created": 1758476306,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de observar a validade da documentação constitutiva de forma contínua e sistemática, alinhando-se com a exigência normativa da Portaria Interministerial, o que visa prevenir futuras inconformidades ao estabelecer um processo de análise documental robusto, em vez de apenas corrigir a condição específica identificada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1087,
+    "completion_tokens": 99,
+    "total_tokens": 1186,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 127
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "b86cdc19-7a84-4c7a-bd98-77789450b48c",
+  "object": "chat.completion",
+  "created": 1758474510,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de aplicação da contrapartida financeira para custeio do SAMU-192, alinhando-se com exigências legais e regulamentares, visando prevenir a não aplicação de recursos no futuro, o que caracteriza uma solução de longo prazo para evitar a recorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1104,
+    "completion_tokens": 96,
+    "total_tokens": 1200,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 144
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

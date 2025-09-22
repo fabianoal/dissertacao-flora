@@ -1,0 +1,28 @@
+{
+  "id": "00de6669-53c8-4ccc-a8cf-6e5b284dba09",
+  "object": "chat.completion",
+  "created": 1758479670,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de providências para orientar o fiscal e o gestor concedente, visando melhorar o acompanhamento dos processos de contratualização e execução, o que aborda a causa raiz (falta de orientação e monitoramento adequados) para prevenir futuras ocorrências de aditamentos acima do limite legal, em vez de apenas corrigir a condição específica encontrada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1080,
+    "completion_tokens": 111,
+    "total_tokens": 1191,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 120
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

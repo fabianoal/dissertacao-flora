@@ -1,0 +1,28 @@
+{
+  "id": "42f8957a-a9b1-4f74-adf3-52cc16393f5b",
+  "object": "chat.completion",
+  "created": 1758483438,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações estruturais e de longo prazo, como integrar formalmente a Central Municipal da Rede de Frio à estrutura organizacional, elaborar um regimento interno, designar e notificar responsáveis técnicos, e garantir a atualização contínua de cadastros, visando prevenir a reocorrência da condição de falta de controles internos adequados, em conformidade com normas legais, e não apenas corrigir a situação atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1508,
+    "completion_tokens": 124,
+    "total_tokens": 1632,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 548
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

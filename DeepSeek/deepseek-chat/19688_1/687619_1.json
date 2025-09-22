@@ -1,0 +1,28 @@
+{
+  "id": "4f78a83b-e10d-4f28-8571-cd503ec62feb",
+  "object": "chat.completion",
+  "created": 1758480286,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a sistematização e descentralização do processo de atualização do SCNES, o que visa implementar uma solução de longo prazo para evitar que a desatualização ocorra novamente, focando na causa raiz do problema em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1097,
+    "completion_tokens": 87,
+    "total_tokens": 1184,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 137
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

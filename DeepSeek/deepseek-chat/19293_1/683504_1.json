@@ -1,0 +1,28 @@
+{
+  "id": "06252148-b358-4a4f-9329-39a7f3a134a6",
+  "object": "chat.completion",
+  "created": 1758469362,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implantação de um sistema de registro de frequência eletrônica para aprimorar controles internos e prevenir a ocorrência futura de inconformidades relacionadas à comprovação de plantões extraordinários, focando em uma solução de longo prazo que aborda a causa subjacente da falta de documentação adequada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1187,
+    "completion_tokens": 100,
+    "total_tokens": 1287,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 227
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

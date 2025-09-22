@@ -1,0 +1,28 @@
+{
+  "id": "c616a638-12c3-4ec8-b6d5-b45c37febfa2",
+  "object": "chat.completion",
+  "created": 1758474934,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de medidas para garantir a qualidade e consistência dos dados inseridos nos sistemas nacionais de informação, alinhando-se com manuais e portarias específicas, o que visa prevenir a recorrência da discrepância observada ao abordar as causas subjacentes, como processos inadequados de registro e monitoramento, em vez de apenas corrigir a condição atual de dados inconsistentes.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1260,
+    "completion_tokens": 108,
+    "total_tokens": 1368,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 300
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

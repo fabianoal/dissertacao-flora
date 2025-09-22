@@ -1,0 +1,28 @@
+{
+  "id": "0c11bbb4-262a-45f4-af13-95e3a135ad88",
+  "object": "chat.completion",
+  "created": 1758476082,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de práticas de planejamento de escalas e manutenção de um quadro completo de profissionais, visando prevenir a recorrência da insuficiência de TARMs e melhorar a eficiência e continuidade do serviço a longo prazo, alinhando-se com soluções estruturais e duradouras.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1193,
+    "completion_tokens": 98,
+    "total_tokens": 1291,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 233
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

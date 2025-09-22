@@ -1,0 +1,28 @@
+{
+  "id": "8ec21c69-3865-4043-a394-8b8bcf0c0aef",
+  "object": "chat.completion",
+  "created": 1758476278,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo de gestão contínua para garantir que os serviços mantenham licenças sanitárias válidas, abordando a causa subjacente da não conformidade (falta de gestão adequada) em vez de apenas corrigir a condição atual de licenças ausentes ou inválidas.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1102,
+    "completion_tokens": 93,
+    "total_tokens": 1195,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 142
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

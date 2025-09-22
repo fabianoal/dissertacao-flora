@@ -1,0 +1,28 @@
+{
+  "id": "5c0debc0-93bf-464d-8748-14b4c4ebc149",
+  "object": "chat.completion",
+  "created": 1758467063,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistemático (publicação tempestiva no Diário Oficial) para garantir conformidade contínua com a legislação, visando prevenir a recorrência da não publicação de ratificações, o que é uma solução de longo prazo e foca na causa raiz da não conformidade.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1076,
+    "completion_tokens": 95,
+    "total_tokens": 1171,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 180
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

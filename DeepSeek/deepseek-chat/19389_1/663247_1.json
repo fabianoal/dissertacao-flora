@@ -1,0 +1,28 @@
+{
+  "id": "5243aa63-8e51-4e40-96ef-b8db297ec71d",
+  "object": "chat.completion",
+  "created": 1758469906,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de cumprir normas legais e processuais para garantir que o planejamento seja baseado nas necessidades reais de saúde da população, visando prevenir a ocorrência futura de informações fictícias nos instrumentos de gestão, o que constitui uma solução de longo prazo para a causa subjacente da constatação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1144,
+    "completion_tokens": 100,
+    "total_tokens": 1244,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 184
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

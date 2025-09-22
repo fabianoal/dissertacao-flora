@@ -1,0 +1,28 @@
+{
+  "id": "81597821-f0c4-4c78-8179-a539033a46c7",
+  "object": "chat.completion",
+  "created": 1758484750,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de práticas permanentes de transparência e divulgação das ações de saúde mental, alinhadas a normas legais, visando prevenir a não divulgação no futuro, o que caracteriza um foco na causa subjacente da constatação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1202,
+    "completion_tokens": 83,
+    "total_tokens": 1285,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 306
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

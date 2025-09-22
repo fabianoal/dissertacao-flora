@@ -1,0 +1,28 @@
+{
+  "id": "0db97613-0a33-452d-a9b5-acdca84d852a",
+  "object": "chat.completion",
+  "created": 1758484294,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de atividades de redução de danos e continuidade dos cuidados com registros adequados, o que envolve mudanças estruturais e de processo para prevenir a recorrência da condição observada, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1139,
+    "completion_tokens": 82,
+    "total_tokens": 1221,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 179
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

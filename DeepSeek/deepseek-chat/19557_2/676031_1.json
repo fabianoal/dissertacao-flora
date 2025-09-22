@@ -1,0 +1,28 @@
+{
+  "id": "75a9adf0-a390-4dad-84cf-284f0d5f97f7",
+  "object": "chat.completion",
+  "created": 1758474838,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de ações sistemáticas para garantir a realização contínua e regular dos exames periódicos conforme as diretrizes clínicas, visando prevenir a não conformidade futura e promover melhorias estruturais no atendimento aos pacientes, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1273,
+    "completion_tokens": 92,
+    "total_tokens": 1365,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 313
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

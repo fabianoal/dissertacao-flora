@@ -1,0 +1,28 @@
+{
+  "id": "46779915-200f-4c91-a7d2-68ef3625a56d",
+  "object": "chat.completion",
+  "created": 1758481006,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada (falta de higienização e limpeza adequadas), sem propor ações para prevenir a recorrência do problema, como mudanças em políticas ou procedimentos de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1078,
+    "completion_tokens": 74,
+    "total_tokens": 1152,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 118
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

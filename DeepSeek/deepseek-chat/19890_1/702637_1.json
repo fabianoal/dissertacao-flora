@@ -1,0 +1,28 @@
+{
+  "id": "f8d1ce31-bde4-4fd7-b495-72bc68214345",
+  "object": "chat.completion",
+  "created": 1758491176,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de medidas administrativas conforme portaria específica para cobrança de recursos, visando prevenir futuras ocorrências similares e promover conformidade normativa, focando na causa subjacente de incompatibilidade entre AIHs e CID, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1186,
+    "completion_tokens": 89,
+    "total_tokens": 1275,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 226
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

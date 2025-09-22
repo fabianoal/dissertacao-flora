@@ -1,0 +1,28 @@
+{
+  "id": "a93ecfb6-bc1d-4a15-85c3-eca8882df6d4",
+  "object": "chat.completion",
+  "created": 1758475994,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe uma solução estrutural e de longo prazo, ao exigir o dimensionamento adequado da sala de regulação com especificações detalhadas de área, isolamento acústico e temperatura, conforme legislação, visando prevenir a reocorrência da incompatibilidade da infraestrutura física, em vez de apenas corrigir a condição atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1174,
+    "completion_tokens": 104,
+    "total_tokens": 1278,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 214
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

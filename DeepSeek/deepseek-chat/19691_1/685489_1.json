@@ -1,0 +1,28 @@
+{
+  "id": "4ba3103a-0a4e-4a85-822a-e14dd24f8276",
+  "object": "chat.completion",
+  "created": 1758480366,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação exige que a Secretaria Municipal de Saúde cumpra as disposições legais estabelecidas, incluindo a definição de instâncias e mecanismos de controle, avaliação e fiscalização, o que implica a implementação de estruturas e processos permanentes para prevenir a recorrência da falta de documentação, caracterizando um foco na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1231,
+    "completion_tokens": 100,
+    "total_tokens": 1331,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 335
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

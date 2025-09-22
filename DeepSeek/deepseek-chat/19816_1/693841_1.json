@@ -1,0 +1,28 @@
+{
+  "id": "fb253553-f869-42c0-9131-553bd302f551",
+  "object": "chat.completion",
+  "created": 1758484458,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a inclusão sistemática do acompanhamento de familiares no atendimento, o que envolve mudanças estruturais e de longo prazo nas práticas das equipes, visando prevenir a recorrência da condição observada, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1231,
+    "completion_tokens": 92,
+    "total_tokens": 1323,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 271
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "0a347bb3-d6c3-4414-8dee-c436dc98df4d",
+  "object": "chat.completion",
+  "created": 1758470150,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação visa a adoção de procedimentos para garantir a comprovação de aquisições por meio de notas fiscais no futuro, abordando a causa subjacente das dispensações irregulares, em vez de apenas corrigir a condição atual de falta de documentação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1218,
+    "completion_tokens": 79,
+    "total_tokens": 1297,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 258
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

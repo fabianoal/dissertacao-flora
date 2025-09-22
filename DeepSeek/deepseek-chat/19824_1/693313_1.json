@@ -1,0 +1,28 @@
+{
+  "id": "62c1b3b9-38c6-4ca2-a248-1031e30a5a1a",
+  "object": "chat.completion",
+  "created": 1758484838,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de medidas para atender uma obrigatoriedade legal, o que envolve a implementação de uma solução estrutural e de longo prazo (como a obtenção de um CNPJ próprio), visando prevenir a reocorrência da condição de não possuir CNPJ, em vez de apenas corrigir temporariamente a ausência atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1070,
+    "completion_tokens": 101,
+    "total_tokens": 1171,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 174
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

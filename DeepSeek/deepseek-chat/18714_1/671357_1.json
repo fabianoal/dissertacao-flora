@@ -1,0 +1,28 @@
+{
+  "id": "b23374f2-2623-4be2-975c-88d85be98e3d",
+  "object": "chat.completion",
+  "created": 1758468290,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de medidas preventivas para assegurar que futuros repasses de recursos federais sejam aplicados de acordo com os Programas de Trabalho do Orçamento Geral da União, visando evitar a recorrência da inconformidade observada, o que caracteriza um foco na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1112,
+    "completion_tokens": 94,
+    "total_tokens": 1206,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 152
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

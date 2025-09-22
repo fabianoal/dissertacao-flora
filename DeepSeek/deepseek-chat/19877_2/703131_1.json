@@ -1,0 +1,28 @@
+{
+  "id": "8f2118e8-349d-4109-acf2-43ca97b21b96",
+  "object": "chat.completion",
+  "created": 1758488856,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistêmico para garantir a continuidade integrada e tempestiva do tratamento oncológico, alinhado com diretrizes legais e técnicas, visando prevenir a recorrência da não conformidade observada, ao invés de apenas corrigir a condição específica atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1170,
+    "completion_tokens": 91,
+    "total_tokens": 1261,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 210
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

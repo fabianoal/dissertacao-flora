@@ -1,0 +1,28 @@
+{
+  "id": "de153016-652b-40c3-b3b2-05b55166911e",
+  "object": "chat.completion",
+  "created": 1758476846,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo de conferência contínua da documentação no sistema Transferegov, visando evitar a ocorrência futura de informações incorretas, o que se alinha com a definição de recomendações cause-based que focam em ações preventivas e de longo prazo para eliminar a causa raiz do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1074,
+    "completion_tokens": 99,
+    "total_tokens": 1173,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 114
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

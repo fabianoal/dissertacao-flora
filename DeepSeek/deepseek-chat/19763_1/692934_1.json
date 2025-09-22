@@ -1,0 +1,28 @@
+{
+  "id": "ecda14f8-2186-48d5-8168-03353e3fd4fc",
+  "object": "chat.completion",
+  "created": 1758482342,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações estruturais e de longo prazo, como elaboração de projetos arquitetônicos, readequação de ambientes, conclusão de infraestrutura elétrica, melhorias na área de lavagem, restrição de acesso ao gerador, capacitação da equipe e documentação técnica, que visam prevenir a reocorrência da condição inadequada da estrutura física da CMRF, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1440,
+    "completion_tokens": 127,
+    "total_tokens": 1567,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 480
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

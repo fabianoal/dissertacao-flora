@@ -1,0 +1,28 @@
+{
+  "id": "2930b8de-b460-4eb1-a0bd-e2e613f6ea28",
+  "object": "chat.completion",
+  "created": 1758470738,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada (falta de equipamentos, materiais e medicamentos), sem propor ações para prevenir a recorrência, como a implementação de processos de reposição ou controle de estoque.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1095,
+    "completion_tokens": 73,
+    "total_tokens": 1168,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 135
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

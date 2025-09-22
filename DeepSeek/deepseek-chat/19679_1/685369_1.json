@@ -1,0 +1,28 @@
+{
+  "id": "de06263c-dd4c-41bf-9a48-2fc15e2f8e9b",
+  "object": "chat.completion",
+  "created": 1758479746,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo e sistemático de visitas técnicas de supervisão, baseado em relatórios de monitoramento, o que visa prevenir a recorrência da ausência de supervisão ao longo do tempo, caracterizando uma solução de longo prazo focada na causa raiz.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1086,
+    "completion_tokens": 92,
+    "total_tokens": 1178,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 126
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

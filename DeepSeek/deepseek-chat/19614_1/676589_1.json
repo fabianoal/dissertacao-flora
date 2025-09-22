@@ -1,0 +1,28 @@
+{
+  "id": "3d69ca25-89ee-4a99-ba49-a7fdd8ae2595",
+  "object": "chat.completion",
+  "created": 1758477374,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações estruturais e de longo prazo, como a abstenção de convidar empresas com conflitos de interesse, notificações para justificativas, adoção de medidas administrativas específicas conforme legislação, e ressarcimento de valores, visando prevenir a reocorrência da condição e promover mudanças institucionais duradouras.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1326,
+    "completion_tokens": 101,
+    "total_tokens": 1427,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 366
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

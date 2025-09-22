@@ -1,0 +1,28 @@
+{
+  "id": "4b29d050-84f5-4d89-8cc8-119b94b37d98",
+  "object": "chat.completion",
+  "created": 1758474010,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação direciona a SAES/MS a adotar procedimentos estabelecidos em normativos legais para prevenir futuras ocorrências de inserção e não comprovação de produções ambulatoriais, focando em ações sistêmicas e de longo prazo, como a implementação de controles e processos, em vez de apenas corrigir a condição específica identificada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1182,
+    "completion_tokens": 102,
+    "total_tokens": 1284,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 222
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

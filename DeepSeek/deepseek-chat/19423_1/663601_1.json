@@ -1,0 +1,28 @@
+{
+  "id": "e951771a-5b9e-484d-ae0d-734ce181d725",
+  "object": "chat.completion",
+  "created": 1758470274,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a adoção de práticas regulares e a observância de normas específicas para evitar a ocorrência de irregularidades futuras, focando em mudanças de longo prazo no processo operacional, como a conformidade contínua com regras de execução e a apresentação de documentos, em vez de apenas corrigir a condição imediata de falta de comprovação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1213,
+    "completion_tokens": 107,
+    "total_tokens": 1320,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 317
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

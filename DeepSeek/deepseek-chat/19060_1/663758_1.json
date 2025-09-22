@@ -1,0 +1,28 @@
+{
+  "id": "14de1a2d-0958-42fa-9c16-ec696d08ab85",
+  "object": "chat.completion",
+  "created": 1758468754,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de apresentar documentação comprobatória da execução de recursos federais quando solicitado, alinhando-se com normas constitucionais e legais, o que visa estabelecer uma prática contínua e preventiva para evitar a reocorrência da falta de documentação, caracterizando um foco na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1240,
+    "completion_tokens": 97,
+    "total_tokens": 1337,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 280
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2192f4b6-582b-48ee-a71a-fbae91b3485d",
+  "object": "chat.completion",
+  "created": 1758469870,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação sugere a adoção de procedimentos para melhor controle, monitoramento e avaliação das produções informadas, o que visa prevenir a recorrência de discrepâncias entre dados inseridos e registros reais, alinhando-se com soluções de longo prazo para evitar a condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1200,
+    "completion_tokens": 86,
+    "total_tokens": 1286,
+    "prompt_tokens_details": {
+      "cached_tokens": 1088
+    },
+    "prompt_cache_hit_tokens": 1088,
+    "prompt_cache_miss_tokens": 112
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c7043330-21cf-4f3e-8e49-c4454a8f794c",
+  "object": "chat.completion",
+  "created": 1758470482,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação direciona-se à SAES/MS para adoção de procedimentos estabelecidos em normativos legais, visando prevenir futuras ocorrências similares de inserção irregular de procedimentos, o que implica uma abordagem de longo prazo para eliminar a causa subjacente do problema, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1311,
+    "completion_tokens": 94,
+    "total_tokens": 1405,
+    "prompt_tokens_details": {
+      "cached_tokens": 1152
+    },
+    "prompt_cache_hit_tokens": 1152,
+    "prompt_cache_miss_tokens": 159
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

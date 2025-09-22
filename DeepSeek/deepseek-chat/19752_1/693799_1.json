@@ -1,0 +1,28 @@
+{
+  "id": "0eff7e1f-4d22-43f2-a91a-1ca77628012b",
+  "object": "chat.completion",
+  "created": 1758481854,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a finalização e início de instrumentos de gestão (PAS e RDQA) para garantir ações estratégicas contínuas do Programa de Imunizações, focando em soluções de longo prazo que previnem a recorrência da falta de informações, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1155,
+    "completion_tokens": 99,
+    "total_tokens": 1254,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 195
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

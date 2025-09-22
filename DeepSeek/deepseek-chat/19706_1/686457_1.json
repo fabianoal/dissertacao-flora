@@ -1,0 +1,28 @@
+{
+  "id": "eb0754a1-e9e2-492f-90fe-cd8f4ee492b6",
+  "object": "chat.completion",
+  "created": 1758480614,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de implementar instrumentos de gestão interligados (Plano de Saúde, Programações Anuais de Saúde e Relatório Anual de Gestão) conforme a portaria, visando estabelecer um processo cíclico de planejamento para prevenir a falta de monitoramento dos dados de produção ambulatorial no futuro, abordando a causa raiz da deficiência na gestão e promovendo uma solução de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1287,
+    "completion_tokens": 119,
+    "total_tokens": 1406,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 327
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

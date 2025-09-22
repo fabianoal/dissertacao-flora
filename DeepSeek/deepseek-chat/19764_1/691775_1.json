@@ -1,0 +1,28 @@
+{
+  "id": "17970349-ecbf-4ac2-9fe1-550912c67040",
+  "object": "chat.completion",
+  "created": 1758482398,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações abrangentes, como adequar a estrutura física, separar ambientes, ajustar equipamentos e rever práticas, visando resolver as causas subjacentes das inconformidades identificadas e prevenir sua recorrência, alinhando-se com os requisitos normativos de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1279,
+    "completion_tokens": 87,
+    "total_tokens": 1366,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 319
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

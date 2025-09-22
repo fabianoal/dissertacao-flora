@@ -1,0 +1,28 @@
+{
+  "id": "2bf0de16-b97b-4280-883d-705911717904",
+  "object": "chat.completion",
+  "created": 1758469222,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação direciona a ação para o conhecimento da constatação por um departamento específico, visando a elisão do dano e/ou impropriedade com recursos federais, o que implica a implementação de medidas administrativas ou processuais de longo prazo para prevenir a recorrência da falha, alinhando-se com o foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1185,
+    "completion_tokens": 100,
+    "total_tokens": 1285,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 225
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

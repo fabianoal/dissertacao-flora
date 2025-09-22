@@ -1,0 +1,28 @@
+{
+  "id": "f98374c2-5d85-403c-a125-3eaf19ef3fcc",
+  "object": "chat.completion",
+  "created": 1758479738,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações para formalizar e melhorar o processo de fiscalização por meio de capacitação e orientação contínua, visando prevenir a reocorrência de impropriedades, o que caracteriza um foco na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1193,
+    "completion_tokens": 76,
+    "total_tokens": 1269,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 233
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

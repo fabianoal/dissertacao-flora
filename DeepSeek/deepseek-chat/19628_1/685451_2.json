@@ -1,0 +1,28 @@
+{
+  "id": "63ec7c93-fcc5-4af7-9bfc-1483cf120a7c",
+  "object": "chat.completion",
+  "created": 1758478614,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de medidas estruturais de direção, controle e supervisão para garantir a conformidade contínua com as normas, abordando a causa raiz da falha na anexação de exames de imagem, o que visa prevenir a recorrência do problema a longo prazo, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1097,
+    "completion_tokens": 98,
+    "total_tokens": 1195,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 73
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

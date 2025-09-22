@@ -1,0 +1,28 @@
+{
+  "id": "6b368ca9-005d-4e88-a7d1-0aa9e5f7e89c",
+  "object": "chat.completion",
+  "created": 1758474334,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo e sistemático (prestação de contas no RAG anualmente) para assegurar a conformidade futura, abordando a causa subjacente da falha em prestar contas, em vez de apenas corrigir a condição específica não relatada para os anos 2014 a 2017.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1238,
+    "completion_tokens": 101,
+    "total_tokens": 1339,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 278
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

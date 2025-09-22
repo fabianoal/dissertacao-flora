@@ -1,0 +1,28 @@
+{
+  "id": "9743de13-d839-4143-88fa-e8688d511ab9",
+  "object": "chat.completion",
+  "created": 1758488984,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição específica encontrada, que é a não solicitação de radioterapia para pacientes submetidos à quimioterapia prévia, sem propor ações para prevenir a recorrência ou abordar causas subjacentes, como falhas em processos ou políticas.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1390,
+    "completion_tokens": 88,
+    "total_tokens": 1478,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 430
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

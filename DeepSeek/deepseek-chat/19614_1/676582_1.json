@@ -1,0 +1,28 @@
+{
+  "id": "45a9b005-bbee-4b35-b9f6-57c074f9aed1",
+  "object": "chat.completion",
+  "created": 1758477334,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a ausência de documentação comprobatória, ao solicitar a inserção da documentação no sistema, sem propor ações para prevenir a recorrência da causa subjacente, como melhorias em processos ou políticas de controle.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1106,
+    "completion_tokens": 86,
+    "total_tokens": 1192,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 146
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

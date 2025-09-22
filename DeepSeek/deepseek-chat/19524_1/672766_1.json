@@ -1,0 +1,28 @@
+{
+  "id": "c0af5a03-9453-4f32-8cd8-16b81e6326f5",
+  "object": "chat.completion",
+  "created": 1758474086,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação completa do SISREG, que envolve mudanças estruturais e de processo de longo prazo, como o acompanhamento de desproporções entre oferta e demanda, disponibilização de informações em tempo real, agendamento de internações, controle de fluxo de pacientes, detecção de cancelamentos e controle de execução da oferta, visando prevenir a reocorrência da não utilização do sistema e alinhar-se às diretrizes normativas de forma sustentável.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1293,
+    "completion_tokens": 133,
+    "total_tokens": 1426,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 333
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "47c1f0fe-278f-44f3-bf59-98efdc31afe1",
+  "object": "chat.completion",
+  "created": 1758491320,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a revisão e atualização dos processos da equipe responsável pela documentação clínica e registro de procedimentos, visando alinhar as práticas às diretrizes estabelecidas e assegurar a inserção tempestiva e precisa das informações. Isso aborda a causa raiz da ausência de APAC concomitante, focando em melhorias estruturais e de longo prazo para prevenir a recorrência da condição observada, em vez de apenas corrigir a situação atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1192,
+    "completion_tokens": 131,
+    "total_tokens": 1323,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 168
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

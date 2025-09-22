@@ -1,0 +1,28 @@
+{
+  "id": "f67f20b5-902d-4de3-90be-f368fcb5ce11",
+  "object": "chat.completion",
+  "created": 1758468678,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação inclui ações como monitorar efetivamente o pagamento das gratificações para evitar futuras ocorrências, focando na causa raiz do problema (falta de controle) e promovendo mudanças de longo prazo, além de medidas corretivas temporárias.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1517,
+    "completion_tokens": 80,
+    "total_tokens": 1597,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 621
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

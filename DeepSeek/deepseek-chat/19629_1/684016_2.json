@@ -1,0 +1,28 @@
+{
+  "id": "d07857b8-08ea-4227-b6fa-0dc5e09b6c82",
+  "object": "chat.completion",
+  "created": 1758478766,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de uma rotina de verificação para garantir a rastreabilidade das OPME, o que visa prevenir a recorrência da condição observada, alinhando-se com soluções de longo prazo e foco na causa raiz da não conformidade.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1080,
+    "completion_tokens": 83,
+    "total_tokens": 1163,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

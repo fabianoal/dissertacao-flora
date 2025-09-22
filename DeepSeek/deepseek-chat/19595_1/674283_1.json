@@ -1,0 +1,28 @@
+{
+  "id": "2aa757a6-18b1-47a4-af08-4622995e7428",
+  "object": "chat.completion",
+  "created": 1758475834,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações estruturais e de longo prazo, como a implementação de fluxos de monitoramento, capacitação de profissionais, e mudanças organizacionais para melhorar o indicador de desempenho, focando na causa subjacente da não adesão ao documento orientador, em vez de apenas corrigir a condição imediata.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1604,
+    "completion_tokens": 96,
+    "total_tokens": 1700,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 644
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

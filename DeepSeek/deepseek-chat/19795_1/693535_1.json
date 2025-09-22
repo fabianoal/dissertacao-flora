@@ -1,0 +1,28 @@
+{
+  "id": "8ed0e6c7-0f06-4f9e-ab8b-6708e5596f89",
+  "object": "chat.completion",
+  "created": 1758483538,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações como implementar programas de treinamento contínuo, instituir indicadores de desempenho e estabelecer um sistema de registro de temperatura, que visam abordar as causas subjacentes da falta de monitoramento contínuo, promovendo melhorias estruturais e de longo prazo na gestão da Cadeia de Frio, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1520,
+    "completion_tokens": 113,
+    "total_tokens": 1633,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 560
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

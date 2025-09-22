@@ -1,0 +1,28 @@
+{
+  "id": "c4397b79-c189-488b-a062-e0b1d075e2ff",
+  "object": "chat.completion",
+  "created": 1758475294,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adequação do controle e registro dos dados em sistemas correlatos, o que envolve a implementação de mudanças estruturais e de longo prazo para garantir a conformidade com normas e prevenir a recorrência da discrepância observada, alinhando-se com soluções que abordam a causa raiz do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1175,
+    "completion_tokens": 92,
+    "total_tokens": 1267,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 215
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

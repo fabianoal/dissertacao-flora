@@ -1,0 +1,28 @@
+{
+  "id": "e63dfd24-f91c-4959-aaff-a0062f990672",
+  "object": "chat.completion",
+  "created": 1758473634,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de um sistema de controle, avaliação e monitoramento para prevenir a reocorrência da falta de acompanhamento e análise da produção de saúde, alinhando-se com soluções de longo prazo e mudanças estruturais, conforme definido para recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1291,
+    "completion_tokens": 89,
+    "total_tokens": 1380,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 267
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

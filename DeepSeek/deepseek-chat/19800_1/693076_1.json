@@ -1,0 +1,28 @@
+{
+  "id": "7fae8d8f-4a4d-4f02-9d50-fe92a7c7cc55",
+  "object": "chat.completion",
+  "created": 1758483698,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a inserção de metas e ações detalhadas na PAS para aprimorar continuamente as atividades da Rede de Frio, focando em soluções de longo prazo que visam evitar a recorrência da falta de informações, promovendo planejamento, monitoramento e avaliação sistemáticos, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1097,
+    "completion_tokens": 100,
+    "total_tokens": 1197,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 137
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

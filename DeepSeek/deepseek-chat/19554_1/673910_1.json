@@ -1,0 +1,28 @@
+{
+  "id": "c1bc3f36-c610-45df-a454-8a5c173504fe",
+  "object": "chat.completion",
+  "created": 1758474782,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de providências para o correto cadastramento e atualização dos dados cadastrais, o que visa evitar a ocorrência futura de múltiplos cartões de saúde por usuário, focando na causa raiz (gestão inadequada do cadastro) e não apenas na correção imediata da condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1081,
+    "completion_tokens": 98,
+    "total_tokens": 1179,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 121
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "65b926d0-e4a6-43d4-a879-680f23a724bf",
+  "object": "chat.completion",
+  "created": 1758473738,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de processos contínuos e sistemáticos, como a escrituração regular de estoques em livro de inventário e a prestação de informações detalhadas, visando prevenir a não apresentação do livro no futuro, alinhando-se com soluções de longo prazo para evitar a reocorrência da condição.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1364,
+    "completion_tokens": 95,
+    "total_tokens": 1459,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 404
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

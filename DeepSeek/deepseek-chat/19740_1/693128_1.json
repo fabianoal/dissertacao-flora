@@ -1,0 +1,28 @@
+{
+  "id": "d76be571-db83-43ea-8cdc-815cb98917f0",
+  "object": "chat.completion",
+  "created": 1758481386,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração de um plano de contingência formalizado, o que constitui uma ação preventiva de longo prazo para evitar que a falta de documentação formal volte a ocorrer, alinhando-se com soluções estruturais e não apenas correções temporárias da condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1061,
+    "completion_tokens": 84,
+    "total_tokens": 1145,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 101
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

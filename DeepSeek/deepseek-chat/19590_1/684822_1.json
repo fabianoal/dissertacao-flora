@@ -1,0 +1,28 @@
+{
+  "id": "85f5dd22-21a8-4549-9edd-597ed21fcada",
+  "object": "chat.completion",
+  "created": 1758475658,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de procedimentos sistemáticos, como informar pacientes sobre a inscrição em lista de espera e garantir registros adequados no prontuário, visando prevenir a recorrência da não conformidade ao estabelecer práticas duradouras e alinhadas com as diretrizes normativas.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1311,
+    "completion_tokens": 91,
+    "total_tokens": 1402,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 351
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

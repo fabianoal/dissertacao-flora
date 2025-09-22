@@ -1,0 +1,28 @@
+{
+  "id": "17fb8de0-1815-4b86-b266-0dbc50399a1a",
+  "object": "chat.completion",
+  "created": 1758481782,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe uma adequação estrutural permanente (criação de áreas segregadas) para prevenir a reocorrência da ausência de controles, alinhando-se com soluções de longo prazo que abordam a causa raiz da não conformidade.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1181,
+    "completion_tokens": 77,
+    "total_tokens": 1258,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 221
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

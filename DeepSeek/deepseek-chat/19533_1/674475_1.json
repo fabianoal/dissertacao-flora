@@ -1,0 +1,28 @@
+{
+  "id": "68ad600f-fbb0-4bd4-8eaf-7986c281ab8e",
+  "object": "chat.completion",
+  "created": 1758474154,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de procedimentos permanentes de armazenagem conforme normativa estabelecida, visando prevenir futuras ocorrências de medicamentos não registrados, ao invés de apenas corrigir a condição atual específica.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1104,
+    "completion_tokens": 72,
+    "total_tokens": 1176,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 208
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

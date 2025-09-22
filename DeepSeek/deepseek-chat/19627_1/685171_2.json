@@ -1,0 +1,28 @@
+{
+  "id": "f037d857-8af2-4ce2-b15a-3d55aa30d594",
+  "object": "chat.completion",
+  "created": 1758478454,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração contínua e sistemática de relatórios trimestrais e a adoção de medidas preventivas ou corretivas para garantir o cumprimento dos convênios, focando na causa raiz da ausência dos relatórios ao estabelecer processos permanentes e preventivos, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1130,
+    "completion_tokens": 102,
+    "total_tokens": 1232,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 170
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "30fd6582-715b-4337-bb20-815163b8ba0b",
+  "object": "chat.completion",
+  "created": 1758469558,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação visa corrigir especificamente a condição atual de valores recebidos irregularmente, focando na devolução imediata dos recursos, sem propor ações para prevenir a ocorrência futura de irregularidades semelhantes.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1066,
+    "completion_tokens": 69,
+    "total_tokens": 1135,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 106
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

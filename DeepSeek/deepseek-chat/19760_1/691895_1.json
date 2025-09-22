@@ -1,0 +1,28 @@
+{
+  "id": "b1415df6-8e50-413d-86d8-d1ab882ef986",
+  "object": "chat.completion",
+  "created": 1758482170,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de controles de monitoramento e procedimentos para garantir conformidade contínua com normas, abordando a causa raiz da não conformidade ao estabelecer medidas preventivas e duradouras, como capacitação profissional e identificação adequada, em vez de apenas corrigir a condição atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1164,
+    "completion_tokens": 92,
+    "total_tokens": 1256,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 204
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

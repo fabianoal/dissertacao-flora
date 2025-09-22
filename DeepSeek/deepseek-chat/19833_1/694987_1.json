@@ -1,0 +1,28 @@
+{
+  "id": "62d66de2-be6f-459f-b7dd-04106395eb0a",
+  "object": "chat.completion",
+  "created": 1758485154,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a designação formal de um responsável técnico e substituto, o que estabelece uma estrutura permanente para garantir a conformidade contínua com as normas, abordando a causa raiz da ausência de controle formal e prevenindo a recorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1128,
+    "completion_tokens": 83,
+    "total_tokens": 1211,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 168
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

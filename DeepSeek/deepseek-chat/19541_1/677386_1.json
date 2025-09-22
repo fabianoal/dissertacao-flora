@@ -1,0 +1,28 @@
+{
+  "id": "0e95d8b2-ba04-451c-a347-19a2e53b563f",
+  "object": "chat.completion",
+  "created": 1758474418,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a promoção de educação permanente para fortalecer o controle social, o que visa abordar a causa subjacente da falta de capacitação contínua, em vez de apenas corrigir a condição atual de forma temporária, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1068,
+    "completion_tokens": 84,
+    "total_tokens": 1152,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 172
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

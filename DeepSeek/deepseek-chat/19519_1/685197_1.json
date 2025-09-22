@@ -1,0 +1,28 @@
+{
+  "id": "9c94dcac-8f66-46f1-8e36-f02861de0f1f",
+  "object": "chat.completion",
+  "created": 1758473898,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de cumprir um decreto federal que estabelece obrigações permanentes para entidades privadas no SUS, visando garantir a disponibilização contínua de documentos como AIHs em resposta a solicitações de auditoria, o que aborda a causa subjacente de não conformidade e promove uma solução de longo prazo para prevenir recorrências.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1105,
+    "completion_tokens": 104,
+    "total_tokens": 1209,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 145
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

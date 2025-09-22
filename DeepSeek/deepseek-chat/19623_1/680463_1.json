@@ -1,0 +1,28 @@
+{
+  "id": "2e65e46d-d3ec-445e-873c-4e7feb21288e",
+  "object": "chat.completion",
+  "created": 1758478162,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação inclui a cobrança do valor superfaturado (uma ação corretiva temporária que poderia ser interpretada como condition-based), mas também enfatiza a implementação de capacitações para servidores, visando prevenir a recorrência de superfaturamentos no futuro, o que se alinha com o foco em abordar a causa subjacente (falta de capacitação) e promover melhorias de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1247,
+    "completion_tokens": 117,
+    "total_tokens": 1364,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 351
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

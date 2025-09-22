@@ -1,0 +1,28 @@
+{
+  "id": "d3e85ac7-a93c-438a-8888-18b202cac560",
+  "object": "chat.completion",
+  "created": 1758480698,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adequação da infraestrutura, incluindo recursos humanos, estrutura física, materiais e equipamentos, de acordo com requisitos normativos específicos, visando resolver a causa subjacente da incapacidade técnica e operacional, o que implica mudanças estruturais de longo prazo para prevenir a recorrência da condição.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1233,
+    "completion_tokens": 95,
+    "total_tokens": 1328,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 273
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

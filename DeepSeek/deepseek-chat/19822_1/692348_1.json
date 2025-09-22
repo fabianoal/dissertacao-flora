@@ -1,0 +1,28 @@
+{
+  "id": "b8baaa2b-6971-4d9f-8030-018dbf4341a4",
+  "object": "chat.completion",
+  "created": 1758484790,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a revisão dos processos de contratação e alocação de funcionários, o que visa abordar a causa raiz das inconsistências nos registros de habilitação, implementando mudanças estruturais para prevenir a recorrência do problema, em vez de apenas corrigir as condições atuais.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1083,
+    "completion_tokens": 87,
+    "total_tokens": 1170,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 123
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

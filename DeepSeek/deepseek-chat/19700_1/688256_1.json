@@ -1,0 +1,28 @@
+{
+  "id": "d79e29e5-0e71-44f3-bf00-e1245ef5e7d2",
+  "object": "chat.completion",
+  "created": 1758480554,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de medidas estruturais, como o cumprimento de uma portaria específica para garantir monitoramento clínico adequado, evitando controles manuais e promovendo o compartilhamento de dados e a geração de relatórios confiáveis, o que visa prevenir a recorrência da fragilidade identificada, caracterizando um foco na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1100,
+    "completion_tokens": 108,
+    "total_tokens": 1208,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 140
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

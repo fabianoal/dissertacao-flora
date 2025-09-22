@@ -1,0 +1,28 @@
+{
+  "id": "9c28cd9f-15fa-43ae-9d09-5391d361d09d",
+  "object": "chat.completion",
+  "created": 1758482010,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de processos sistemáticos, como revisões periódicas de procedimentos operacionais, gerenciamento de riscos e uso de indicadores de gestão, que visam prevenir a recorrência da falta de monitoramento e aprimorar continuamente a Cadeia de Frio, caracterizando uma solução de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1166,
+    "completion_tokens": 98,
+    "total_tokens": 1264,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 206
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "dbabb275-c141-499b-80ba-b178a3e5c645",
+  "object": "chat.completion",
+  "created": 1758469738,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistemático e contínuo para garantir o registro fidedigno da produção ambulatorial no SIA/SUS, alinhando-se com normas e manuais existentes, o que visa prevenir a reocorrência de dados não comprovados, abordando a causa subjacente de práticas inadequadas de registro em vez de apenas corrigir a condição específica encontrada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1292,
+    "completion_tokens": 112,
+    "total_tokens": 1404,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 332
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "5377ce21-4841-4849-9c70-aec3004ecbdf",
+  "object": "chat.completion",
+  "created": 1758473126,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de sistemas e processos para assegurar o cumprimento contínuo das normas de regulação do acesso à assistência hospitalar, focando em mudanças estruturais e de longo prazo para prevenir a recorrência da falta de instrumentos de regulação, em vez de apenas corrigir a condição específica observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1438,
+    "completion_tokens": 97,
+    "total_tokens": 1535,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 478
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

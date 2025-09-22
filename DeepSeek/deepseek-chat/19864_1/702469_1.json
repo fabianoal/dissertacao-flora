@@ -1,0 +1,28 @@
+{
+  "id": "130ff117-ff56-49d7-b744-b6af6ec14494",
+  "object": "chat.completion",
+  "created": 1758488584,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de um sistema de prontuários eletrônicos que atenda integralmente aos requisitos legais e normativos, incluindo proteção contra acessos não autorizados e garantia de dados clínicos completos, o que visa prevenir a reocorrência da inconformidade identificada, caracterizando uma solução de longo prazo e foco na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1175,
+    "completion_tokens": 110,
+    "total_tokens": 1285,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 215
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

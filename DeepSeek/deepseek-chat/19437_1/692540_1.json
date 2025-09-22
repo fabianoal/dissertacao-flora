@@ -1,0 +1,28 @@
+{
+  "id": "0d400a9e-2c83-41e9-aa16-f5428ab4e6ad",
+  "object": "chat.completion",
+  "created": 1758470426,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de implementar estruturas e mecanismos permanentes de controle, avaliação e fiscalização, conforme estabelecido por leis e portarias, visando prevenir a recorrência da falta de acompanhamento e não apenas corrigir a condição atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1243,
+    "completion_tokens": 80,
+    "total_tokens": 1323,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 347
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

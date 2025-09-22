@@ -1,0 +1,28 @@
+{
+  "id": "a3098abb-29f4-4736-bb47-69412a1118c4",
+  "object": "chat.completion",
+  "created": 1758483298,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a formalização de procedimentos operacionais padrão (POP) para a CMRF, o que visa estabelecer um controle estrutural e contínuo para evitar a recorrência da falta de monitoramento, alinhando-se com soluções de longo prazo que abordam a causa raiz da inconformidade.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1077,
+    "completion_tokens": 92,
+    "total_tokens": 1169,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 117
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

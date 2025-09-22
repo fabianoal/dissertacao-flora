@@ -1,0 +1,28 @@
+{
+  "id": "76f72326-d88d-419c-baaf-a6f7ef5c3b24",
+  "object": "chat.completion",
+  "created": 1758475358,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe o estabelecimento de um sistema de monitoramento contínuo para garantir que o acesso à terapia seja oportuno no futuro, focando na causa raiz da falta de comprovação e prevenindo a recorrência da condição observada, em vez de apenas corrigir a situação atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1144,
+    "completion_tokens": 91,
+    "total_tokens": 1235,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 184
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

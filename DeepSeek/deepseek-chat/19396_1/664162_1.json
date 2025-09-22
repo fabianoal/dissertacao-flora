@@ -1,0 +1,28 @@
+{
+  "id": "e546e54b-f44e-47cf-80a7-d978ad0c954a",
+  "object": "chat.completion",
+  "created": 1758470106,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação exige a implementação de um processo de guarda documental por um prazo prolongado (dez anos), o que visa prevenir a reocorrência de irregularidades na execução do programa, ao assegurar a disponibilidade de evidências para futuras auditorias e controles, caracterizando uma solução de longo prazo focada na causa subjacente da falta de conformidade.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1117,
+    "completion_tokens": 105,
+    "total_tokens": 1222,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 157
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

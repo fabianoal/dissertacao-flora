@@ -1,0 +1,28 @@
+{
+  "id": "126a6fcb-05e1-4c1d-95ad-47c76ecb08de",
+  "object": "chat.completion",
+  "created": 1758476078,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a realização de um adequado planejamento das escalas e a manutenção de um quadro completo de enfermeiros, o que envolve ações de longo prazo para evitar a recorrência da insuficiência de profissionais, alinhando-se com soluções que abordam a causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1180,
+    "completion_tokens": 91,
+    "total_tokens": 1271,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 220
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

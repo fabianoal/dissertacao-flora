@@ -1,0 +1,28 @@
+{
+  "id": "4974e934-641a-48f3-9b50-06a4820d6d35",
+  "object": "chat.completion",
+  "created": 1758488120,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a adoção de procedimentos estabelecidos em normativa específica (Portaria GM/MS n.º 885/2021) para evitar futuras ocorrências de notas fiscais sem informações do período de execução, focando em medidas preventivas e de longo prazo, como a implementação de controles permanentes, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1068,
+    "completion_tokens": 104,
+    "total_tokens": 1172,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 172
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

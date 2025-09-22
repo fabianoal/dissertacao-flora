@@ -1,0 +1,28 @@
+{
+  "id": "9aa32d52-b119-4bb0-a965-82926d632a2b",
+  "object": "chat.completion",
+  "created": 1758483518,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações como garantir a utilização de novas caixas térmicas, realizar registros de temperatura em diferentes etapas do transporte e capacitar o pessoal, todas voltadas para implementar controles preventivos e educacionais de longo prazo, visando evitar a recorrência da condição de transporte inadequado, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1408,
+    "completion_tokens": 109,
+    "total_tokens": 1517,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 448
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

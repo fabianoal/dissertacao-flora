@@ -1,0 +1,28 @@
+{
+  "id": "d2d9c1b5-975d-458b-878e-d9b92846f987",
+  "object": "chat.completion",
+  "created": 1758485290,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a criação de critérios definidos para a classificação de risco, o que é uma ação preventiva e estrutural destinada a evitar a recorrência da condição observada (ausência de critérios), alinhando-se com soluções de longo prazo que abordam a causa raiz do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1177,
+    "completion_tokens": 92,
+    "total_tokens": 1269,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 217
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

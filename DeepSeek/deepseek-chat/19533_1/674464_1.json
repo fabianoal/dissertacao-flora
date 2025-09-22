@@ -1,0 +1,28 @@
+{
+  "id": "4d116ad2-4e0f-476d-b7e1-d7cf74f501a5",
+  "object": "chat.completion",
+  "created": 1758474142,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca em corrigir a condição imediata de ausência de documentação completa nas prestações de contas, ao exigir que todas as aquisições sejam fornecidas por requisição de acordo com a legislação vigente, sem propor ações para prevenir a recorrência da causa subjacente, como falhas em processos ou controles internos.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1111,
+    "completion_tokens": 100,
+    "total_tokens": 1211,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 215
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

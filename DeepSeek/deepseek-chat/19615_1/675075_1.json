@@ -1,0 +1,28 @@
+{
+  "id": "f5c51d23-91a4-4f3c-9259-e2eeb1e3af31",
+  "object": "chat.completion",
+  "created": 1758477514,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo para futuros convênios, exigindo demonstrações de pesquisas de preço no mercado, o que visa prevenir a recorrência da ausência de definição de preço de referência, alinhando-se com soluções de longo prazo e mudanças estruturais.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1154,
+    "completion_tokens": 93,
+    "total_tokens": 1247,
+    "prompt_tokens_details": {
+      "cached_tokens": 1088
+    },
+    "prompt_cache_hit_tokens": 1088,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

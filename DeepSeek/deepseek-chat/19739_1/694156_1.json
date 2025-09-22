@@ -1,0 +1,28 @@
+{
+  "id": "2a804db6-be77-4032-978a-d363d02c8c15",
+  "object": "chat.completion",
+  "created": 1758481314,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a inserção de ações de monitoramento e avaliação no Plano Municipal de Saúde, o que visa estabelecer um processo contínuo e preventivo para evitar a ausência de controle no futuro, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1251,
+    "completion_tokens": 84,
+    "total_tokens": 1335,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 355
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

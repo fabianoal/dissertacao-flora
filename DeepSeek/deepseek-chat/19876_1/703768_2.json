@@ -1,0 +1,28 @@
+{
+  "id": "dfeb6308-8619-4647-8875-43081f16621d",
+  "object": "chat.completion",
+  "created": 1758488772,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistemático para garantir que as autorizações das APACs ocorram sempre antes do início do tratamento, abordando a causa raiz da inconformidade (falta de conformidade com procedimentos prévios de autorização) e visando prevenir a recorrência do problema a longo prazo, em vez de apenas corrigir a condição específica observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1116,
+    "completion_tokens": 108,
+    "total_tokens": 1224,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 156
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6dc9c778-17ad-492c-811e-3aa2d1bfaec7",
+  "object": "chat.completion",
+  "created": 1758477530,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na verificação e correção imediata da condição específica (excesso de carga horária) através de apuração junto ao DSEI Manaus, sem propor ações de longo prazo para prevenir a recorrência, como mudanças estruturais ou políticas.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1085,
+    "completion_tokens": 81,
+    "total_tokens": 1166,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 125
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

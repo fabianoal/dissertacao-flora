@@ -1,0 +1,28 @@
+{
+  "id": "d31ac188-557c-4917-b235-ae0402d96872",
+  "object": "chat.completion",
+  "created": 1758483910,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a criação de mecanismos de controle, avaliação e monitoramento para prevenir a recorrência da falta de documentação, focando em soluções de longo prazo e mudanças estruturais na gestão da saúde mental na Atenção Primária, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1281,
+    "completion_tokens": 94,
+    "total_tokens": 1375,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 321
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

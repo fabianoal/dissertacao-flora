@@ -1,0 +1,28 @@
+{
+  "id": "1686f077-e41e-41bd-8432-d9164ef5cdf2",
+  "object": "chat.completion",
+  "created": 1758473326,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação visa ao conhecimento da constatação por parte do departamento responsável, conforme estabelecido em decretos, com o objetivo de elidir danos e impropriedades futuras, indicando uma ação que busca prevenir a recorrência da irregularidade através de processos administrativos e devoluções, caracterizando um foco na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1147,
+    "completion_tokens": 97,
+    "total_tokens": 1244,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 187
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

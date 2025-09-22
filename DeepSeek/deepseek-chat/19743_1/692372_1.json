@@ -1,0 +1,28 @@
+{
+  "id": "c305e925-66c2-49af-9474-12705eeff08e",
+  "object": "chat.completion",
+  "created": 1758481506,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um planejamento logístico robusto e a criação de um Procedimento Operacional Padrão (POP) com revisão periódica, o que visa estabelecer controles preventivos e duradouros para evitar a recorrência da falta de monitoramento contínuo, focando na causa raiz e não apenas na correção imediata da condição.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1117,
+    "completion_tokens": 106,
+    "total_tokens": 1223,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 157
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

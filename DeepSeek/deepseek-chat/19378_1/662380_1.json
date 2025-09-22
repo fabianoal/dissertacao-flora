@@ -1,0 +1,28 @@
+{
+  "id": "847a2405-9fd7-4a7e-a41b-aecde5ab2ddb",
+  "object": "chat.completion",
+  "created": 1758469766,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de cumprir uma disposição normativa que estabelece a sistemática de alimentação dos bancos de dados, visando garantir que os dados retratem fidedignamente a produção realizada, o que implica a implementação de processos ou políticas de longo prazo para prevenir a não alimentação completa dos dados no futuro, em vez de apenas corrigir a condição específica de 2021.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1143,
+    "completion_tokens": 110,
+    "total_tokens": 1253,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 183
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

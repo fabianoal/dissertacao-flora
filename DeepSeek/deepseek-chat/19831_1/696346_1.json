@@ -1,0 +1,28 @@
+{
+  "id": "12b73507-8cb6-4029-ade4-a639e570915e",
+  "object": "chat.completion",
+  "created": 1758485090,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um sistema de informação padronizado para registro de ações de saúde, o que visa prevenir a recorrência da falha de coleta de dados ao estabelecer um processo estruturado e permanente, alinhando-se com soluções de longo prazo para melhorar a gestão e o planejamento.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1117,
+    "completion_tokens": 93,
+    "total_tokens": 1210,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 157
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

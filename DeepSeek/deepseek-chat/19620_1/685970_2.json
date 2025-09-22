@@ -1,0 +1,28 @@
+{
+  "id": "c234b20a-bd07-44d8-b3c4-f474c50e4773",
+  "object": "chat.completion",
+  "created": 1758478118,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a falta de comprovação da destinação das OPME, ao exigir o ressarcimento do valor ao Fundo Nacional de Saúde, sem propor ações para prevenir a recorrência da irregularidade no futuro.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1135,
+    "completion_tokens": 84,
+    "total_tokens": 1219,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 175
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

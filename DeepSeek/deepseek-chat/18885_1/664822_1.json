@@ -1,0 +1,28 @@
+{
+  "id": "06e83a97-0d0f-4ce7-9ff0-c3a37df7c250",
+  "object": "chat.completion",
+  "created": 1758468486,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de aderir estritamente às cláusulas contratuais e normas aplicáveis, o que visa prevenir futuras ocorrências de pagamentos indevidos ao estabelecer uma base normativa e procedimental de longo prazo, alinhando-se com soluções que abordam a causa subjacente da não conformidade.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1115,
+    "completion_tokens": 96,
+    "total_tokens": 1211,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 155
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

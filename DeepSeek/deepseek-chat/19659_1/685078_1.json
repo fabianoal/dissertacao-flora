@@ -1,0 +1,28 @@
+{
+  "id": "f47b17e8-815a-48ba-93a1-2f461eea2cae",
+  "object": "chat.completion",
+  "created": 1758479326,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de instâncias permanentes de controle, avaliação e monitoramento, como a criação de processos e a atribuição de responsabilidades a um setor específico, visando prevenir a recorrência da falta de supervisão e promover melhorias estruturais de longo prazo no sistema de saúde municipal.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1307,
+    "completion_tokens": 92,
+    "total_tokens": 1399,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 347
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

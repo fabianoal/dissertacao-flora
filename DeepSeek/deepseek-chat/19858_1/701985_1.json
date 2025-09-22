@@ -1,0 +1,28 @@
+{
+  "id": "0d7c10f2-3229-4183-9629-1aa7f82d98d0",
+  "object": "chat.completion",
+  "created": 1758488168,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo para apresentar estimativas de valor com documentação adequada em futuras aquisições, visando prevenir a recorrência da ausência de memórias de cálculo, o que envolve uma solução de longo prazo e mudança estrutural nas práticas de aquisição.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1128,
+    "completion_tokens": 94,
+    "total_tokens": 1222,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 168
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6db0c591-c2d7-45f3-bdbe-7877a6f726ec",
+  "object": "chat.completion",
+  "created": 1758481742,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a organização do acesso e pactuação de regulação e fluxo entre serviços, visando qualificar a demanda e garantir equidade, o que envolve mudanças estruturais de longo prazo para prevenir a reocorrência da condição observada, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1193,
+    "completion_tokens": 96,
+    "total_tokens": 1289,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 233
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "367deee7-a396-449d-ab26-48a85fbed638",
+  "object": "chat.completion",
+  "created": 1758487952,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo estruturado para futuras contratações, visando prevenir a recorrência da falta de comprovação contratual, o que envolve mudanças de longo prazo na gestão e alinhamento com normas legais, caracterizando um foco na causa raiz do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1197,
+    "completion_tokens": 92,
+    "total_tokens": 1289,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 237
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

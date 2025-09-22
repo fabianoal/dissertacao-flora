@@ -1,0 +1,28 @@
+{
+  "id": "0e2aeddc-c4eb-48b8-ad4b-6f4ef8a047ce",
+  "object": "chat.completion",
+  "created": 1758483054,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a criação de um Plano de Contingência, que é uma ação preventiva e estrutural para evitar que emergências futuras afetem a Cadeia de Frio, alinhando-se com soluções de longo prazo que abordam a causa subjacente da falta de preparo para situações de risco.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1214,
+    "completion_tokens": 93,
+    "total_tokens": 1307,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 254
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

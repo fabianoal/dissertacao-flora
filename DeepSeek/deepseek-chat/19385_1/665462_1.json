@@ -1,0 +1,28 @@
+{
+  "id": "d7b51ad3-a5f4-47d4-8bf1-dd2ef8266272",
+  "object": "chat.completion",
+  "created": 1758469842,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de processos para comprovar a efetiva utilização da OPME e garantir a correta cobrança e faturamento, alinhando-se com as normas do Manual Técnico, o que visa prevenir futuras ocorrências de cobranças indevidas, caracterizando um foco na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1225,
+    "completion_tokens": 99,
+    "total_tokens": 1324,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 265
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

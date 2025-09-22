@@ -1,0 +1,28 @@
+{
+  "id": "353328f2-2f51-406c-ac5f-64c199de2831",
+  "object": "chat.completion",
+  "created": 1758474118,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistemático para garantir a consistência e precisão dos dados enviados ao SISAB, alinhando-se com diretrizes estabelecidas (Guias de qualificação de prontuários), o que visa prevenir a recorrência da discrepância observada ao abordar a causa raiz (falta de alinhamento nos registros), em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1084,
+    "completion_tokens": 119,
+    "total_tokens": 1203,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 124
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

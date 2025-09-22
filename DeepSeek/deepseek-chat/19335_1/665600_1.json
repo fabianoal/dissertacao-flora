@@ -1,0 +1,28 @@
+{
+  "id": "62487525-dbb5-47ea-8aca-e3501ca77bf5",
+  "object": "chat.completion",
+  "created": 1758469618,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistemático para cópia e inclusão de exames pré-operatórios nos prontuários, alinhado a normas técnicas, visando prevenir a recorrência da ausência de documentação, o que caracteriza uma solução de longo prazo focada na causa raiz do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1136,
+    "completion_tokens": 95,
+    "total_tokens": 1231,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 176
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

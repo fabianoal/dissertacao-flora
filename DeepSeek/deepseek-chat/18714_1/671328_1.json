@@ -1,0 +1,28 @@
+{
+  "id": "779fcae6-0512-41bd-8b7a-2f82f2b25c37",
+  "object": "chat.completion",
+  "created": 1758468290,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de medidas para assegurar a transparência das informações, o que visa prevenir a ocorrência futura de insuficiências na disponibilização de dados, alinhando-se com soluções de longo prazo e abordando a causa subjacente da não conformidade.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1076,
+    "completion_tokens": 87,
+    "total_tokens": 1163,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 116
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "55c97ee2-5f1f-4060-9477-16e96c7c0bb3",
+  "object": "chat.completion",
+  "created": 1758508995,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a adesão a um procedimento formal e permanente (Manual de Bases Técnicas da Oncologia SIA/SUS) para garantir que tratamentos oncológicos sejam sempre precedidos pela autorização APAC, visando prevenir a recorrência da inconformidade ao estabelecer uma mudança estrutural de longo prazo no processo de autorização.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1110,
+    "completion_tokens": 98,
+    "total_tokens": 1208,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 150
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

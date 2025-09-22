@@ -1,0 +1,28 @@
+{
+  "id": "89da2799-dc55-4cd1-9693-cd116339e9a1",
+  "object": "chat.completion",
+  "created": 1758468758,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a ausência de documentação comprobatória para o valor de R$ 1.418,77, ao propor a devolução do valor ao Fundo Nacional de Saúde. Ela não aborda as causas subjacentes, como falhas em processos de documentação ou controle interno, que poderiam prevenir a recorrência do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1143,
+    "completion_tokens": 109,
+    "total_tokens": 1252,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 119
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

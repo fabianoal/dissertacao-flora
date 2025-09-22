@@ -1,0 +1,28 @@
+{
+  "id": "7c7e7449-8405-44af-bd42-570178604af5",
+  "object": "chat.completion",
+  "created": 1758481726,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação orienta a adoção de procedimentos estabelecidos em normativa específica para prevenir a ocorrência futura de danos ou impropriedades com recursos federais, focando em ações de longo prazo que visam evitar a recorrência da condição observada, em vez de apenas corrigir a situação atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1112,
+    "completion_tokens": 90,
+    "total_tokens": 1202,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 152
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

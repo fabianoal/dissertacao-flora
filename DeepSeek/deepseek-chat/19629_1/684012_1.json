@@ -1,0 +1,28 @@
+{
+  "id": "3b100d7e-5e90-4454-b03d-0831d9b381e7",
+  "object": "chat.completion",
+  "created": 1758478726,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistemático de registro de movimentação no sistema de estoque, o que visa prevenir a recorrência da não conformidade ao estabelecer uma prática permanente e alinhada com normas, caracterizando uma solução de longo prazo para a causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1085,
+    "completion_tokens": 86,
+    "total_tokens": 1171,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 125
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "cadc9da6-ef00-4e6d-ad27-3837020cf7b7",
+  "object": "chat.completion",
+  "created": 1758480010,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação visa identificar e estabelecer a responsabilidade institucional para o acompanhamento financeiro do convênio, abordando a causa raiz da ausência de fiscal financeiro ao envolver órgãos competentes para prevenir futuras ocorrências similares, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1078,
+    "completion_tokens": 90,
+    "total_tokens": 1168,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 118
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

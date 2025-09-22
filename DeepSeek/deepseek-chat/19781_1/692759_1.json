@@ -1,0 +1,28 @@
+{
+  "id": "94e24a9c-f749-4c05-8a54-e2437c211c35",
+  "object": "chat.completion",
+  "created": 1758483018,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a criação e implementação de normas, procedimentos e rotinas técnicas escritas e atualizadas para garantir a verificação diária do funcionamento dos equipamentos, incluindo aspectos como registros de desligamento, alarmes e alimentação elétrica. Isso visa estabelecer uma solução de longo prazo para prevenir a recorrência da falta de rotina, abordando a causa raiz da deficiência nos controles internos, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1237,
+    "completion_tokens": 131,
+    "total_tokens": 1368,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 277
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

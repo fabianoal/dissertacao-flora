@@ -1,0 +1,28 @@
+{
+  "id": "6e3651a8-15ab-4c72-880e-b107265133c8",
+  "object": "chat.completion",
+  "created": 1758475774,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe melhorias estruturais e de longo prazo no acesso e qualidade das ações de saúde para gestantes, alinhando-se com diretrizes técnicas e documentais, visando prevenir a recorrência da não adoção das ações, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1139,
+    "completion_tokens": 84,
+    "total_tokens": 1223,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 179
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

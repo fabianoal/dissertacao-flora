@@ -1,0 +1,28 @@
+{
+  "id": "5c2114a6-95b5-443b-9f6a-fea8dc3a8ed8",
+  "object": "chat.completion",
+  "created": 1758470654,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações como realizar manutenção e pactuar compartilhamento de áreas, visando garantir conformidade estrutural contínua e prevenir futuras inconformidades, alinhando-se com soluções de longo prazo para evitar a reocorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1143,
+    "completion_tokens": 82,
+    "total_tokens": 1225,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 183
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

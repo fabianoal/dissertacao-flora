@@ -1,0 +1,28 @@
+{
+  "id": "b0d3b882-ed6e-499c-8404-b5a68779af60",
+  "object": "chat.completion",
+  "created": 1758475746,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação orienta a adoção de práticas de preenchimento de prontuários conforme notas técnicas específicas, visando resolver a causa raiz da discrepância entre dados consolidados e informações nos prontuários, promovendo uma solução de longo prazo para evitar a recorrência do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1102,
+    "completion_tokens": 86,
+    "total_tokens": 1188,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 142
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

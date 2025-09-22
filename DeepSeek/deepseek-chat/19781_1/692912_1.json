@@ -1,0 +1,28 @@
+{
+  "id": "c4b4c6a5-c8bf-4208-a4b5-b496a69c255b",
+  "object": "chat.completion",
+  "created": 1758483038,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a criação de procedimentos formais e rotinas estabelecidas para o processo de distribuição de imunobiológicos, alinhados com normativas específicas, o que visa abordar a causa raiz da falta de controles internos adequados, promovendo uma solução de longo prazo para prevenir a recorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1162,
+    "completion_tokens": 100,
+    "total_tokens": 1262,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 202
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

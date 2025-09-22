@@ -1,0 +1,28 @@
+{
+  "id": "6f0327f9-652b-4d86-8d33-41fc72050216",
+  "object": "chat.completion",
+  "created": 1758474230,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistemático de arquivamento de documentos por um prazo prolongado (10 anos) e em múltiplos formatos, visando prevenir futuras ocorrências de inconsistências na documentação, como a não reconhecimento de dispensações, ao assegurar a disponibilidade e integridade dos registros para verificação contínua, o que constitui uma solução de longo prazo focada na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1202,
+    "completion_tokens": 122,
+    "total_tokens": 1324,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 242
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

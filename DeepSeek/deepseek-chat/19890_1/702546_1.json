@@ -1,0 +1,28 @@
+{
+  "id": "2c68ca1b-748f-4248-8600-d9ef7f2e092a",
+  "object": "chat.completion",
+  "created": 1758491244,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de cumprir orientações técnicas detalhadas e normativas específicas para garantir a conformidade contínua e prevenir a recorrência de inconformidades relacionadas ao tratamento oncológico, focando em mudanças estruturais e de processo de longo prazo, como a correta aplicação de procedimentos e a adequação às bases técnicas, em vez de apenas corrigir uma condição imediata.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1586,
+    "completion_tokens": 113,
+    "total_tokens": 1699,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 626
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

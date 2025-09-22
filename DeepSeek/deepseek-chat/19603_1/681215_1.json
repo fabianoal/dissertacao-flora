@@ -1,0 +1,28 @@
+{
+  "id": "ac7165ef-d2c4-4427-9a13-ddd5cc36f6f7",
+  "object": "chat.completion",
+  "created": 1758476098,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações como revisar a distribuição de espaços, construir ou adaptar instalações conforme critérios específicos, e adequar a infraestrutura física de forma permanente, visando evitar a recorrência da condição inadequada e garantir conformidade legal a longo prazo, o que se alinha com o foco em causas subjacentes.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1235,
+    "completion_tokens": 100,
+    "total_tokens": 1335,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 275
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

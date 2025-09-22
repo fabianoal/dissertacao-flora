@@ -1,0 +1,28 @@
+{
+  "id": "2cffa977-b1a8-4862-b2fc-1adadfa2d9e1",
+  "object": "chat.completion",
+  "created": 1758474866,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de mecanismos de controle permanentes para gerenciar vagas e demanda reprimida, visando prevenir a recorrência da falta de informações e garantir conformidade contínua com as diretrizes normativas, caracterizando uma solução de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1276,
+    "completion_tokens": 84,
+    "total_tokens": 1360,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 316
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "db73b207-b5b7-4636-821c-49af84af6120",
+  "object": "chat.completion",
+  "created": 1758475578,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a criação de uma comissão de monitoramento e avaliação e a realização de contratos detalhados, que são ações estruturais e de longo prazo destinadas a prevenir a recorrência da falta de pactuação contratual, focando na causa subjacente em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1379,
+    "completion_tokens": 94,
+    "total_tokens": 1473,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 419
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

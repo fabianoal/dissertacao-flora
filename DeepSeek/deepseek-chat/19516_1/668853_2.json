@@ -1,0 +1,28 @@
+{
+  "id": "d51cae77-f139-48f3-843b-4891cf9ad17e",
+  "object": "chat.completion",
+  "created": 1758473746,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação inclui ações como manter notas fiscais por 10 anos, arquivar cópias em locais distintos, e comercializar medicamentos em estrita observância às regras do PFPB, que visam prevenir a reocorrência da irregularidade ao estabelecer práticas e controles de longo prazo, indo além da mera correção da condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1482,
+    "completion_tokens": 100,
+    "total_tokens": 1582,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 522
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

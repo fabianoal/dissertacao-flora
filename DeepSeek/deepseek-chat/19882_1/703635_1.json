@@ -1,0 +1,28 @@
+{
+  "id": "78cddde8-87be-4a69-8345-8757ca1b9254",
+  "object": "chat.completion",
+  "created": 1758488956,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações como aprimorar o monitoramento, reforçar a equipe técnica com capacitação contínua e notificar para cumprimento de prazos, focando em mudanças estruturais e de longo prazo para evitar a recorrência da inconformidade, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1396,
+    "completion_tokens": 93,
+    "total_tokens": 1489,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 436
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

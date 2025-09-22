@@ -1,0 +1,28 @@
+{
+  "id": "be764e22-a796-4874-99bb-e39d75dd2d15",
+  "object": "chat.completion",
+  "created": 1758484390,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de medidas para melhorar a elaboração dos instrumentos de gestão, visando garantir que apresentem informações suficientes sobre programas como o PNI no futuro, o que aborda a causa subjacente (falta de diretrizes ou processos adequados) e busca prevenir a recorrência da condição observada, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1188,
+    "completion_tokens": 107,
+    "total_tokens": 1295,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 228
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

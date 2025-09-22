@@ -1,0 +1,28 @@
+{
+  "id": "6a9a6380-dbe9-412d-a9b3-6654cf4d34c8",
+  "object": "chat.completion",
+  "created": 1758469874,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação solicita à SAES/MS a adoção de procedimentos específicos conforme normativos legais para prevenir futuras ocorrências similares, focando em ações de longo prazo que visam eliminar a causa raiz da irregularidade, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1276,
+    "completion_tokens": 83,
+    "total_tokens": 1359,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 316
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "045b5ab3-1901-497f-91a3-33c83a99eb58",
+  "object": "chat.completion",
+  "created": 1758487481,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a realização de cadastramento e atualização contínua de dados no CNES, o que implica a implementação de processos ou políticas para evitar a recorrência da não atualização, focando na causa subjacente da falta de conformidade.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1078,
+    "completion_tokens": 78,
+    "total_tokens": 1156,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 182
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

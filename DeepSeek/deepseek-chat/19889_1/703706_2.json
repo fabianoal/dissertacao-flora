@@ -1,0 +1,28 @@
+{
+  "id": "4cd9b4b4-b4a0-4db0-8fc9-1944a61b4ab9",
+  "object": "chat.completion",
+  "created": 1758491165,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de cumprir normas regulatórias específicas para garantir a supervisão e processamento adequados da produção assistencial, o que visa implementar mudanças estruturais e preventivas no sistema de regulação, abordando a causa subjacente da falta de conformidade em vez de apenas corrigir a condição imediata.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1138,
+    "completion_tokens": 96,
+    "total_tokens": 1234,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 178
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

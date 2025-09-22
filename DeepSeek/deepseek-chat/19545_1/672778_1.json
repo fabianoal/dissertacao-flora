@@ -1,0 +1,28 @@
+{
+  "id": "30fd495c-fde4-4a40-81b8-1233aa16c5cf",
+  "object": "chat.completion",
+  "created": 1758474650,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação exige o cumprimento de normas específicas (RDC n.° 50/2002 Anvisa e NBR/ABNT 12188/2016) e a adequação da área para uso exclusivo, o que implica mudanças estruturais e de gestão de longo prazo para prevenir a reocorrência da inadequação, focando na causa raiz do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1063,
+    "completion_tokens": 105,
+    "total_tokens": 1168,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 103
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

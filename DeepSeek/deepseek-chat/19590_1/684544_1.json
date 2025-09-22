@@ -1,0 +1,28 @@
+{
+  "id": "c9bb6960-d953-41d6-ae52-c33ed971240b",
+  "object": "chat.completion",
+  "created": 1758475606,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações que visam abordar as causas subjacentes da falta de mecanismos de regulação, como identificar determinantes de doenças renais através de pesquisas e sistemas informatizados, garantir acesso e qualidade no processo de diálise, e implementar regulamentação e fiscalização contínua. Essas medidas são de longo prazo e focam em prevenir a recorrência da condição, alinhando-se com a definição de recomendações cause-based.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1295,
+    "completion_tokens": 123,
+    "total_tokens": 1418,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 335
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

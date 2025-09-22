@@ -1,0 +1,28 @@
+{
+  "id": "fbe2b078-101a-4d78-9da0-092b67433989",
+  "object": "chat.completion",
+  "created": 1758473182,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a adoção de boas práticas de registro de informações em saúde, conforme diretrizes estabelecidas, visando prevenir a ocorrência futura de divergências nos dados, ao invés de apenas corrigir as divergências específicas identificadas no ano de 2022.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1162,
+    "completion_tokens": 84,
+    "total_tokens": 1246,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 202
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

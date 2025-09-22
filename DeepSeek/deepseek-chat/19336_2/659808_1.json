@@ -1,0 +1,28 @@
+{
+  "id": "4b6882a7-9807-49e4-af1d-dfcb9bde5128",
+  "object": "chat.completion",
+  "created": 1758469690,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a ausência de etiquetas de rastreabilidade nos prontuários, ao instruir o cumprimento de normas específicas para colar e arquivar essas etiquetas, sem propor ações preventivas de longo prazo para evitar a recorrência do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1218,
+    "completion_tokens": 95,
+    "total_tokens": 1313,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 258
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

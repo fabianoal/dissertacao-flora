@@ -1,0 +1,28 @@
+{
+  "id": "22cc72dd-7ea0-4950-adac-00c09ce8a979",
+  "object": "chat.completion",
+  "created": 1758487752,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a inclusão de ações relacionadas à saúde dos trabalhadores nos instrumentos de planejamento do CMS-RJ, o que visa abordar a causa raiz da não fiscalização ao estabelecer um processo contínuo e preventivo, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1115,
+    "completion_tokens": 89,
+    "total_tokens": 1204,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 155
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "96049b32-b9be-4621-b065-3814fd2d4a3b",
+  "object": "chat.completion",
+  "created": 1758484070,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a instituição de um fluxo de trabalho e a inclusão de práticas de acompanhamento contínuo, como cadastro e grupos de orientação, que visam prevenir a reocorrência da falta de acompanhamento dos familiares, abordando a causa subjacente e promovendo mudanças estruturais de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1178,
+    "completion_tokens": 97,
+    "total_tokens": 1275,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 218
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

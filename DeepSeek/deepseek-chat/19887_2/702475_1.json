@@ -1,0 +1,28 @@
+{
+  "id": "a5982669-c293-4267-b033-1b2082e1c11c",
+  "object": "chat.completion",
+  "created": 1758489176,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção da condição específica identificada, que é a inconsistência nos registros e o possível pagamento indevido, ao propor a devolução dos recursos federais. Ela não aborda ações preventivas ou de longo prazo para evitar a recorrência da inconsistência, como melhorias em processos de registro ou treinamento, caracterizando-se assim como uma solução temporária para a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1297,
+    "completion_tokens": 113,
+    "total_tokens": 1410,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 401
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

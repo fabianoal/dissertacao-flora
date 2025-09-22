@@ -1,0 +1,28 @@
+{
+  "id": "651f1808-5623-4fb6-926a-02d3992aa3c4",
+  "object": "chat.completion",
+  "created": 1758476914,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a incongruência nas cargas horárias semanais, ao solicitar a apuração específica sobre se os profissionais estão cumprindo a carga horária estipulada, sem propor ações para prevenir a recorrência do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1115,
+    "completion_tokens": 87,
+    "total_tokens": 1202,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 155
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

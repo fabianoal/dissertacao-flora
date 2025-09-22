@@ -1,0 +1,28 @@
+{
+  "id": "cd8e1c8f-a3b0-4697-95a6-bfc0de641947",
+  "object": "chat.completion",
+  "created": 1758473238,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações que visam prevenir a reocorrência da condição, como a apresentação obrigatória de informações e comprovações sempre que solicitado, e a promoção de transparência proativa e contínua, alinhando-se com soluções de longo prazo para melhorar a gestão e evitar futuras inconformidades.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1233,
+    "completion_tokens": 98,
+    "total_tokens": 1331,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 209
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

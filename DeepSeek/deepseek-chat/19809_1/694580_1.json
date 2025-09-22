@@ -1,0 +1,28 @@
+{
+  "id": "01a77d3d-cd23-4d25-9d06-bf15b3658b94",
+  "object": "chat.completion",
+  "created": 1758484102,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações estruturais e de longo prazo, como instruir equipes para registros detalhados, estabelecer sistemas unificados de comunicação e incluir profissionais no matriciamento, visando prevenir a reocorrência da falta de compartilhamento de registros, indo além da correção imediata da condição.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1228,
+    "completion_tokens": 94,
+    "total_tokens": 1322,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 268
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "37d50962-7987-45e4-97cf-ea5a92c4a370",
+  "object": "chat.completion",
+  "created": 1758482234,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a ausência de um grupo gerador, sem abordar as causas subjacentes, como a falta de políticas de manutenção preventiva ou revisão de infraestrutura, que poderiam prevenir futuras interrupções.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1079,
+    "completion_tokens": 86,
+    "total_tokens": 1165,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 119
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "b746a260-c345-488d-a170-851b223c657b",
+  "object": "chat.completion",
+  "created": 1758487576,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de instrumentos de gestão (Plano de Saúde, Programações Anuais de Saúde e Relatório Anual de Gestão) que compõem um processo cíclico de planejamento, visando estabelecer uma base sustentável para a execução, acompanhamento e avaliação das ações de saúde, o que aborda as causas subjacentes da falta de documentação e promove melhorias estruturais de longo prazo no sistema de saúde municipal.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1306,
+    "completion_tokens": 124,
+    "total_tokens": 1430,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 346
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

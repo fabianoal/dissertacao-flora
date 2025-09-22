@@ -1,0 +1,28 @@
+{
+  "id": "fef5803a-c54c-4a63-b00f-defe53ab2e2f",
+  "object": "chat.completion",
+  "created": 1758475946,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo de gerenciamento contínuo do dimensionamento de profissionais reguladores, visando prevenir a ocorrência futura de desequilíbrios na alocação de recursos humanos, como a subutilização de médicos em escala, o que caracteriza uma solução de longo prazo para evitar a causa raiz do problema identificado.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1083,
+    "completion_tokens": 103,
+    "total_tokens": 1186,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 123
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

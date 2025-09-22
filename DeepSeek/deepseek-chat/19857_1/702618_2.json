@@ -1,0 +1,28 @@
+{
+  "id": "950a2bda-a73e-4605-9879-19ed07af7e64",
+  "object": "chat.completion",
+  "created": 1758488100,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação estabelece a implementação de controles financeiros permanentes para prevenir futuras inconformidades, focando na causa raiz da falta de comprovação, em vez de apenas corrigir a condição atual de despesas não comprovadas.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1227,
+    "completion_tokens": 75,
+    "total_tokens": 1302,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 267
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

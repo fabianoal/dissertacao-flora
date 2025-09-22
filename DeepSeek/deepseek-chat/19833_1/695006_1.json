@@ -1,0 +1,28 @@
+{
+  "id": "43fed156-5822-4502-b590-3951c27e9907",
+  "object": "chat.completion",
+  "created": 1758485170,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração de Procedimentos Operacionais Padrão (POPs) ou documentos similares para padronizar e orientar os processos logísticos da Cadeia de Frio, o que visa prevenir a recorrência da falta de documentação adequada, abordando a causa raiz da constatação e promovendo uma solução de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1123,
+    "completion_tokens": 102,
+    "total_tokens": 1225,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 163
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ffe82e13-247a-4614-b73c-c728c0146eb4",
+  "object": "chat.completion",
+  "created": 1758480990,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de providências para garantir o cumprimento contínuo de requisitos documentais, visando prevenir a reocorrência da impossibilidade de avaliação, o que se alinha com soluções de longo prazo para evitar a condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1070,
+    "completion_tokens": 81,
+    "total_tokens": 1151,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 110
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

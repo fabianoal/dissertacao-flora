@@ -1,0 +1,28 @@
+{
+  "id": "91cbd2c9-a72a-4020-b228-b652eeda815b",
+  "object": "chat.completion",
+  "created": 1758483022,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a criação de normas e procedimentos permanentes para garantir o desenvolvimento adequado do processo logístico da Cadeia de Frio, focando em prevenir a recorrência da falta de documentação e assegurando uma solução de longo prazo, alinhada com as definições de recomendações cause-based.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1153,
+    "completion_tokens": 92,
+    "total_tokens": 1245,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 193
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

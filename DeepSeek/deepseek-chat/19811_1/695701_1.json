@@ -1,0 +1,28 @@
+{
+  "id": "c7202497-e6ad-4160-993c-439eed4458df",
+  "object": "chat.completion",
+  "created": 1758484202,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de ferramentas de gestão da clínica, como protocolos e diretrizes clínicas, que visam implementar processos estruturados e duradouros para garantir a continuidade do cuidado, abordando a causa subjacente da falta de acompanhamento dos pacientes, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1128,
+    "completion_tokens": 104,
+    "total_tokens": 1232,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 168
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

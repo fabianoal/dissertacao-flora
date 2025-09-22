@@ -1,0 +1,28 @@
+{
+  "id": "0eef0a6a-8ac9-4bed-8a61-b03b7e9b55d6",
+  "object": "chat.completion",
+  "created": 1758489152,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de uma ação sistemática (preenchimento obrigatório da data de autorização em todas as futuras APACs) para prevenir a recorrência da condição observada (ausência de data), alinhando-se com a definição de cause-based ao focar na causa raiz e promover uma solução de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1107,
+    "completion_tokens": 98,
+    "total_tokens": 1205,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 211
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "15f7e8f5-4c10-414a-bc9d-27dfe0b22134",
+  "object": "chat.completion",
+  "created": 1758474270,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação sugere a adoção de diretrizes específicas em futuras contratações para prevenir a recorrência da falta de pactuação de planos operativos e metas, focando em mudanças estruturais e de longo prazo no processo de contratação, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1146,
+    "completion_tokens": 96,
+    "total_tokens": 1242,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 186
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

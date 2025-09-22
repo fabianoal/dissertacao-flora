@@ -1,0 +1,28 @@
+{
+  "id": "54671388-5eb1-4c42-a20c-1af9b8f996a7",
+  "object": "chat.completion",
+  "created": 1758483314,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de protocolos, fluxos e ações de educação permanente que visam prevenir a recorrência da falta de acolhimento, abordando as causas subjacentes, como a falta de capacitação e estrutura organizacional, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1264,
+    "completion_tokens": 89,
+    "total_tokens": 1353,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 304
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

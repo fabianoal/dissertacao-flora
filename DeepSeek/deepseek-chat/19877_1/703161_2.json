@@ -1,0 +1,28 @@
+{
+  "id": "4ab119fb-fbeb-4397-b9c0-0f2af21aecb3",
+  "object": "chat.completion",
+  "created": 1758488812,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação inclui ações como estabelecer mecanismos de monitoramento e fiscalização contínuos, o que visa prevenir a recorrência da irregularidade a longo prazo, alinhando-se com o foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1499,
+    "completion_tokens": 67,
+    "total_tokens": 1566,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 539
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

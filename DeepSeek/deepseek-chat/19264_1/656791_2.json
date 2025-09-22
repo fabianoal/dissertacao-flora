@@ -1,0 +1,28 @@
+{
+  "id": "53eae232-0a08-4653-afae-8a0507368ba9",
+  "object": "chat.completion",
+  "created": 1758469234,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a adoção de práticas padronizadas e o preenchimento completo de formulários obrigatórios, juntamente com o seguimento de orientações do manual, visando estabelecer mudanças estruturais e de longo prazo para prevenir a recorrência da falta de documentação adequada, em vez de apenas corrigir a condição específica observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1370,
+    "completion_tokens": 101,
+    "total_tokens": 1471,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 346
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "8fbac785-a655-4d87-a69f-35f6160db9a4",
+  "object": "chat.completion",
+  "created": 1758479242,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de recomendações para melhorar os resultados do indicador e a realização de consultas odontológicas programáticas, visando ações de longo prazo para evitar a recorrência da falta de documentação e melhorar a conformidade contínua, alinhando-se com soluções que abordam a causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1123,
+    "completion_tokens": 97,
+    "total_tokens": 1220,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 163
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d2f00928-afdb-4cff-a025-4ccdaafeabdb",
+  "object": "chat.completion",
+  "created": 1758473406,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um controle sistemático dos recursos federais, incluindo a apresentação de documentos comprobatórios nos prontuários, o que visa prevenir a recorrência da falta de documentação ao estabelecer um processo contínuo e estruturado, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1150,
+    "completion_tokens": 99,
+    "total_tokens": 1249,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 254
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

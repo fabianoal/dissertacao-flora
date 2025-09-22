@@ -1,0 +1,28 @@
+{
+  "id": "1bfca623-63e9-4086-80fd-50f1c1064a29",
+  "object": "chat.completion",
+  "created": 1758481778,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a inserção oportuna de relatórios no sistema DigSUS e a emissão de pareceres pelo CMS, o que envolve a implementação de processos contínuos e preventivos para evitar a recorrência do atraso e da pendência, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1169,
+    "completion_tokens": 92,
+    "total_tokens": 1261,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 209
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

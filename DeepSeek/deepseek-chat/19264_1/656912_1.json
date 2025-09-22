@@ -1,0 +1,28 @@
+{
+  "id": "a5164258-a52a-43a7-9133-151c3a2555d8",
+  "object": "chat.completion",
+  "created": 1758469270,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de procedimentos permanentes, como a conformidade com portarias, resoluções e leis, para garantir a gestão documental adequada e prevenir futuras não conformidades, indo além da correção imediata da condição específica.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1520,
+    "completion_tokens": 80,
+    "total_tokens": 1600,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 560
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

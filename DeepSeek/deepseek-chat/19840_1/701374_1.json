@@ -1,0 +1,28 @@
+{
+  "id": "8ab78f83-149c-4a76-87e0-047a25165e3d",
+  "object": "chat.completion",
+  "created": 1758487481,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo de planejamento baseado em análise situacional, considerando necessidades epidemiológicas, infraestrutura e força de trabalho, o que visa prevenir a ocorrência futura de incompatibilidades entre a produção registrada e a capacidade instalada, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1230,
+    "completion_tokens": 96,
+    "total_tokens": 1326,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 334
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

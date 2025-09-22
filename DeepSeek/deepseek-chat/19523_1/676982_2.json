@@ -1,0 +1,28 @@
+{
+  "id": "160f2746-75c4-4e5c-97fd-a361677f1b4f",
+  "object": "chat.completion",
+  "created": 1758474014,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é o recebimento indevido de recursos, ao exigir a restituição do valor ao Fundo Nacional de Saúde, sem propor ações para prevenir a ocorrência futura de inserções adulteradas ou melhorias sistêmicas de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1537,
+    "completion_tokens": 91,
+    "total_tokens": 1628,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 513
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "359509b3-0285-451f-b37c-6cbe02797f75",
+  "object": "chat.completion",
+  "created": 1758483362,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de atividades contínuas e estruturadas para combater estigmas e preconceitos, focando em mudanças de longo prazo na prática das UBSs, alinhando-se com a definição de recomendações que visam evitar a recorrência da condição observada, ao invés de apenas corrigir a situação atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1128,
+    "completion_tokens": 105,
+    "total_tokens": 1233,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 168
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

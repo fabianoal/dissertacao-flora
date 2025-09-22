@@ -1,0 +1,28 @@
+{
+  "id": "a6068937-9bbb-492c-a0b6-bdb682b6d0fc",
+  "object": "chat.completion",
+  "created": 1758480838,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a avaliação e possível adoção de um novo modelo de formulário de controle (CFID) para prevenir a ocorrência futura de documentação incompleta, focando em uma solução de longo prazo que aborda a causa raiz do problema, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1355,
+    "completion_tokens": 91,
+    "total_tokens": 1446,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 395
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

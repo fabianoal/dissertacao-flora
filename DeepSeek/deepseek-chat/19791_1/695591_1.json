@@ -1,0 +1,28 @@
+{
+  "id": "8e05d262-d7f6-4622-a6c0-2df068373dbe",
+  "object": "chat.completion",
+  "created": 1758483434,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a instituição e coordenação do Grupo Condutor Municipal, o que visa implementar uma estrutura organizacional permanente para melhorar o funcionamento da RAPS, abordando a causa subjacente da falta de ações educativas e prevenindo a recorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1107,
+    "completion_tokens": 84,
+    "total_tokens": 1191,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 147
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

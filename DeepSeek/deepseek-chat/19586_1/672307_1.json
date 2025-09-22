@@ -1,0 +1,28 @@
+{
+  "id": "8e2b92f2-8234-4fa5-a516-f91d9ce96dc0",
+  "object": "chat.completion",
+  "created": 1758475494,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação aborda a causa raiz da discrepância de dados ao propor a implementação de sistemas informatizados e práticas de registro adequadas, visando prevenir a recorrência do problema e promover melhorias estruturais de longo prazo no processo de coleta e envio de dados.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1268,
+    "completion_tokens": 80,
+    "total_tokens": 1348,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 308
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

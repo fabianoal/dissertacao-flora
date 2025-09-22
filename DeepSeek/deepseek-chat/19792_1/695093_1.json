@@ -1,0 +1,28 @@
+{
+  "id": "36fb5eae-79c1-41fe-b6ff-a6eac7c60445",
+  "object": "chat.completion",
+  "created": 1758483478,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe o desenvolvimento e implementação de indicadores para monitoramento contínuo e a revisão periódica de planos e procedimentos, o que visa aprimorar processos de forma sustentável e prevenir a recorrência da falta de monitoramento, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1318,
+    "completion_tokens": 88,
+    "total_tokens": 1406,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 358
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

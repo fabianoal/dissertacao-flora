@@ -1,0 +1,28 @@
+{
+  "id": "5303f3f1-f64c-4eda-9d6b-32abe091d1e3",
+  "object": "chat.completion",
+  "created": 1758489156,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo de fiscalização e avaliação, alinhado com obrigações contratuais, para prevenir a recorrência da falta de controle e fiscalização sobre a compatibilidade de diagnósticos, abordando a causa subjacente da não conformidade em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1178,
+    "completion_tokens": 94,
+    "total_tokens": 1272,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 282
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

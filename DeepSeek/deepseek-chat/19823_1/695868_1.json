@@ -1,0 +1,28 @@
+{
+  "id": "6d7acbd3-5edb-4815-80ba-8779c1992b6b",
+  "object": "chat.completion",
+  "created": 1758484806,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de ações no processo de trabalho na APS para fomentar a continuidade do cuidado e ações de redução de danos, o que visa abordar a causa subjacente da falta dessas práticas, promovendo mudanças estruturais e de longo prazo, em vez de apenas corrigir a condição atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1069,
+    "completion_tokens": 97,
+    "total_tokens": 1166,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 109
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

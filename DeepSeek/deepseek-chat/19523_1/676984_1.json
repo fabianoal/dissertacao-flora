@@ -1,0 +1,28 @@
+{
+  "id": "ec767c25-f388-40f0-8f02-ee4de0cf69b9",
+  "object": "chat.completion",
+  "created": 1758474022,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de processos de planejamento e gestão conforme a portaria, visando estabelecer uma base sólida e cíclica para evitar a recorrência de discrepâncias entre dados inseridos e produção efetiva, focando em soluções de longo prazo e mudanças estruturais.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1336,
+    "completion_tokens": 89,
+    "total_tokens": 1425,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 376
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

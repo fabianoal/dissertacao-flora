@@ -1,0 +1,28 @@
+{
+  "id": "5b1165b6-05cb-4fd2-9e75-dd93386580f8",
+  "object": "chat.completion",
+  "created": 1758480514,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação solicita a apresentação de documentos que demonstrem conformidade com a legislação vigente, o que implica a implementação de processos e controles contínuos para evitar a não apresentação de documentos no futuro, focando na causa subjacente da não conformidade.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1242,
+    "completion_tokens": 80,
+    "total_tokens": 1322,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 282
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

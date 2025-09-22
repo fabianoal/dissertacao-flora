@@ -1,0 +1,28 @@
+{
+  "id": "889b10fe-f253-4984-962f-dc8e7c64040d",
+  "object": "chat.completion",
+  "created": 1758484426,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um programa de capacitação e treinamento com registro sistemático das ações, o que visa prevenir a recorrência da fragilidade na comprovação das capacitações, abordando a causa subjacente (falta de processos estruturados) e não apenas corrigindo a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1180,
+    "completion_tokens": 97,
+    "total_tokens": 1277,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 220
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

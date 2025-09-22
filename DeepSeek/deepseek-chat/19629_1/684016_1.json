@@ -1,0 +1,28 @@
+{
+  "id": "bd5c71a2-0a36-418b-8b34-7a4e463337f7",
+  "object": "chat.completion",
+  "created": 1758478762,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistemático de registro de informações de rastreabilidade nos prontuários dos pacientes, alinhado a diretrizes estabelecidas, visando prevenir a recorrência da falta de rastreabilidade e promover uma solução de longo prazo, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1121,
+    "completion_tokens": 94,
+    "total_tokens": 1215,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 161
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

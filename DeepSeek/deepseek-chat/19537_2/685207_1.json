@@ -1,0 +1,28 @@
+{
+  "id": "a2ada4a0-44b2-4f55-a681-84635bf6a5f9",
+  "object": "chat.completion",
+  "created": 1758474262,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a observância de artigos específicos da Lei n.º 14.133/2021 em futuras contratações, visando prevenir a reocorrência da inconformidade ao estabelecer uma mudança processual de longo prazo, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1092,
+    "completion_tokens": 88,
+    "total_tokens": 1180,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 196
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

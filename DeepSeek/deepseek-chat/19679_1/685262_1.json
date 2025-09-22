@@ -1,0 +1,28 @@
+{
+  "id": "a2a8376b-b143-4972-8b81-e90a6b23e257",
+  "object": "chat.completion",
+  "created": 1758479654,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de providências para orientar a convenente a cumprir requisitos legais em futuras contratualizações, focando na prevenção da recorrência da inconformidade (contratos com vigência indeterminada) por meio de mudanças estruturais ou processuais de longo prazo, alinhando-se com a definição de recomendações cause-based que visam evitar a repetição da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1037,
+    "completion_tokens": 118,
+    "total_tokens": 1155,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 77
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

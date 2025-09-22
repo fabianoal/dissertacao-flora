@@ -1,0 +1,28 @@
+{
+  "id": "da2d9aeb-4eec-42e9-ba91-51d9a4b276dc",
+  "object": "chat.completion",
+  "created": 1758474654,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação exige a implementação de um processo contínuo para demonstrar o funcionamento efetivo das unidades através da apresentação de apólices de seguro ou termos de compromisso, abordando a causa raiz da ausência de documentação e prevenindo futuras ocorrências, em vez de apenas corrigir a condição atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1186,
+    "completion_tokens": 94,
+    "total_tokens": 1280,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 226
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

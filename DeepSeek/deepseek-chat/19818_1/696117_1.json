@@ -1,0 +1,28 @@
+{
+  "id": "6cc2e0e8-904b-45dc-b61a-39954361c23c",
+  "object": "chat.completion",
+  "created": 1758484562,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe o desenvolvimento de mecanismos de comunicação eficazes para assegurar o acesso contínuo e ampliado da comunidade às informações sobre saúde mental na APS, o que visa prevenir a reocorrência da falta de divulgação, caracterizando uma solução de longo prazo focada na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1182,
+    "completion_tokens": 90,
+    "total_tokens": 1272,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 222
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

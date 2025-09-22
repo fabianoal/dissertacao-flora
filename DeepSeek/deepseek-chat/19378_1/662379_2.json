@@ -1,0 +1,28 @@
+{
+  "id": "021de970-a422-4cfd-bf97-0e96eb5ee1fb",
+  "object": "chat.completion",
+  "created": 1758469762,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de implementar um processo contínuo e sistemático para garantir o registro fidedigno da produção ambulatorial, alinhando-se com normas e manuais existentes, o que visa prevenir a reocorrência de dados não comprovados, caracterizando uma solução de longo prazo focada na causa raiz do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1345,
+    "completion_tokens": 98,
+    "total_tokens": 1443,
+    "prompt_tokens_details": {
+      "cached_tokens": 1088
+    },
+    "prompt_cache_hit_tokens": 1088,
+    "prompt_cache_miss_tokens": 257
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

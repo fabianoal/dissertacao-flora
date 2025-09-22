@@ -1,0 +1,28 @@
+{
+  "id": "4bd8e533-d5dd-4d80-a9a5-0669ca64ebc9",
+  "object": "chat.completion",
+  "created": 1758478346,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a orientação e capacitação contínua dos fiscais e responsáveis para garantir a regularidade futura dos atos e a correta classificação nos sistemas, abordando a causa raiz (falta de conhecimento ou procedimento inadequado) em vez de apenas corrigir os erros específicos identificados.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1103,
+    "completion_tokens": 90,
+    "total_tokens": 1193,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 143
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

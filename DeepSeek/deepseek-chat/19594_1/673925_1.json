@@ -1,0 +1,28 @@
+{
+  "id": "28ba193d-3980-49ab-a56d-aa02f6e0cd76",
+  "object": "chat.completion",
+  "created": 1758475754,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe intervenções educativas permanentes para melhorar a qualidade do registro em sistemas de prontuário eletrônico, o que visa abordar a causa raiz da discrepância nos dados ao promover mudanças estruturais e de longo prazo nos processos de registro, em vez de apenas corrigir temporariamente a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1206,
+    "completion_tokens": 93,
+    "total_tokens": 1299,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 246
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

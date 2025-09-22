@@ -1,0 +1,28 @@
+{
+  "id": "8a77be4a-771d-4a6d-9f68-b09380bc6222",
+  "object": "chat.completion",
+  "created": 1758474906,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, especificamente a devolução de valores indevidamente faturados, sem propor ações para prevenir a recorrência da incompatibilidade entre sessões faturadas e registradas nos prontuários.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1252,
+    "completion_tokens": 79,
+    "total_tokens": 1331,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 292
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

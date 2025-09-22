@@ -1,0 +1,28 @@
+{
+  "id": "3db08f1b-8455-4b83-ba29-578abf744c0e",
+  "object": "chat.completion",
+  "created": 1758487812,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração e implementação de indicadores de monitoramento para o processo de regulação, o que visa prevenir a recorrência da ausência de monitoramento ao estabelecer um sistema contínuo de avaliação e melhoria, caracterizando uma solução de longo prazo focada na causa subjacente da constatação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1188,
+    "completion_tokens": 95,
+    "total_tokens": 1283,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 228
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

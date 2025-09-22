@@ -1,0 +1,28 @@
+{
+  "id": "731db697-6686-4f12-a902-98f465b74d9f",
+  "object": "chat.completion",
+  "created": 1758478953,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração e implementação de fluxos e protocolos, bem como o estabelecimento de indicadores de monitoramento, o que visa abordar a causa raiz da ausência de processos estruturados para ocupação de leitos, promovendo soluções de longo prazo e prevenindo a recorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1109,
+    "completion_tokens": 97,
+    "total_tokens": 1206,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 149
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

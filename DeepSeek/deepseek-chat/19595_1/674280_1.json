@@ -1,0 +1,28 @@
+{
+  "id": "58a6051b-e578-4cbb-89a3-fbebc6e2ff5a",
+  "object": "chat.completion",
+  "created": 1758475822,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a capacitação de profissionais de saúde para abordagem integral, visando melhorias de longo prazo na qualidade e acesso aos cuidados, e enfatiza a conformidade com normativos, focando na causa subjacente da não adoção de ações, em vez de apenas corrigir a condição imediata.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1231,
+    "completion_tokens": 90,
+    "total_tokens": 1321,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 271
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

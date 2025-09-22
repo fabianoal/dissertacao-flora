@@ -1,0 +1,28 @@
+{
+  "id": "376a017e-3575-4e8a-a2b4-643091ba46b2",
+  "object": "chat.completion",
+  "created": 1758483078,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de procedimentos padrão baseados em diretrizes nacionais, visando estabelecer controles permanentes e prevenir a recorrência da ausência de etapas no Procedimento Operacional Padrão, caracterizando uma solução de longo prazo focada na causa raiz da inconformidade.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1152,
+    "completion_tokens": 91,
+    "total_tokens": 1243,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 192
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

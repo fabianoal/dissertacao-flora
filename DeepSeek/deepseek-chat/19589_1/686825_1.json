@@ -1,0 +1,28 @@
+{
+  "id": "ea0d7b44-e486-4e0b-8df2-7c144b997f61",
+  "object": "chat.completion",
+  "created": 1758475534,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações planejadas e contínuas, como manutenções preventivas e corretivas, para garantir que a infraestrutura permaneça adequada a longo prazo, abordando a causa subjacente da falta de infraestrutura e prevenindo sua recorrência, em vez de apenas corrigir a condição atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1135,
+    "completion_tokens": 98,
+    "total_tokens": 1233,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 175
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

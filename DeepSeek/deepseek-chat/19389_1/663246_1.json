@@ -1,0 +1,28 @@
+{
+  "id": "405e2092-d953-42ac-8a9a-8bdcb47e87c8",
+  "object": "chat.completion",
+  "created": 1758469902,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de um processo contínuo e estruturado (avaliação por equipe multiprofissional e elaboração de PTS) para garantir conformidade futura, visando prevenir a recorrência da condição observada, em vez de apenas corrigir casos específicos passados.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1147,
+    "completion_tokens": 88,
+    "total_tokens": 1235,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 251
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

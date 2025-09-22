@@ -1,0 +1,28 @@
+{
+  "id": "e7e9995d-f625-43ef-8d11-33a50ac6caa1",
+  "object": "chat.completion",
+  "created": 1758476398,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação visa identificar as causas subjacentes que permitiram a atuação indevida do agente público em processos de execução, promovendo uma investigação profunda para prevenir futuras ocorrências similares, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1079,
+    "completion_tokens": 78,
+    "total_tokens": 1157,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 119
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

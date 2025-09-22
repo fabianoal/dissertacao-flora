@@ -1,0 +1,28 @@
+{
+  "id": "3110f21d-349e-4da6-911b-ad75bce35a08",
+  "object": "chat.completion",
+  "created": 1758474134,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de elaborar e publicar todos os instrumentos de gestão (RAG, PAS e PMS) de forma completa e contínua, alinhando-se com as exigências legais e normativas, o que visa prevenir a não conformidade futura e promover uma gestão estruturada e sustentável, caracterizando uma solução de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1230,
+    "completion_tokens": 102,
+    "total_tokens": 1332,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 270
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

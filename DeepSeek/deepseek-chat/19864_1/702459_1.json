@@ -1,0 +1,28 @@
+{
+  "id": "fb06af9f-dc3a-4e15-8396-3dccb9193e38",
+  "object": "chat.completion",
+  "created": 1758488568,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a criação de uma comissão permanente para digitalização e revisão de prontuários, focando em uma solução estrutural de longo prazo que visa prevenir a recorrência da falta de documentação, alinhando-se com a definição de recomendações cause-based que abordam a causa raiz do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1109,
+    "completion_tokens": 94,
+    "total_tokens": 1203,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 149
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

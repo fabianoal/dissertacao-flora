@@ -1,0 +1,28 @@
+{
+  "id": "a34c0169-e274-465c-8fbb-6eeec6d060cf",
+  "object": "chat.completion",
+  "created": 1758475154,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de medidas sistêmicas, como a documentação sistemática de ocorrências e a inclusão de motolâncias no Cnes, visando corrigir a causa raiz das divergências nos registros de atendimentos, promovendo melhorias de longo prazo na precisão e confiabilidade dos dados reportados.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1229,
+    "completion_tokens": 96,
+    "total_tokens": 1325,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 269
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

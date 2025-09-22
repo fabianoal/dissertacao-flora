@@ -1,0 +1,28 @@
+{
+  "id": "7c22bdaa-0338-44f7-8a6b-736d2e77f55e",
+  "object": "chat.completion",
+  "created": 1758485278,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de medidas contínuas e sistemáticas de monitoramento para evitar a recorrência da não conformidade, focando em soluções de longo prazo que abordam a causa subjacente da falta de monitoramento efetivo, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1162,
+    "completion_tokens": 87,
+    "total_tokens": 1249,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 202
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "592cac35-ecba-46fa-b740-854c3306e84f",
+  "object": "chat.completion",
+  "created": 1758476118,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um sistema de abastecimento contínuo e dimensionado adequadamente, incluindo a verificação e atualização de estoques, o que visa prevenir a recorrência da falta de medicamentos e melhorar a eficiência operacional a longo prazo, alinhando-se com soluções que abordam a causa subjacente da constatação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1307,
+    "completion_tokens": 104,
+    "total_tokens": 1411,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 347
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

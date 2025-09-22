@@ -1,0 +1,28 @@
+{
+  "id": "df2261e3-ace9-4001-8b1f-fe6bf4d2944d",
+  "object": "chat.completion",
+  "created": 1758489004,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a falta de comprovação documental e o consequente reembolso de valores indevidamente recebidos, sem propor ações para prevenir a recorrência do problema subjacente, como melhorias em processos de documentação ou sistemas de controle.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1234,
+    "completion_tokens": 92,
+    "total_tokens": 1326,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 274
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

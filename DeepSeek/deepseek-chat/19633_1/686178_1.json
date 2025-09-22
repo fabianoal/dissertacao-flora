@@ -1,0 +1,28 @@
+{
+  "id": "1684bdd0-79a5-4a06-8aa6-50a4ddf67fa7",
+  "object": "chat.completion",
+  "created": 1758478838,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de cumprir normas específicas para garantir a atualização contínua e correta do CNES, abordando a causa raiz da desatualização ao estabelecer processos permanentes de manutenção e validação, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1154,
+    "completion_tokens": 90,
+    "total_tokens": 1244,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 194
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

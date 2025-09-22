@@ -1,0 +1,28 @@
+{
+  "id": "c9c6bd29-252d-4001-a130-7ed8a9a839dc",
+  "object": "chat.completion",
+  "created": 1758477370,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a adoção de medidas administrativas e legais para garantir o ressarcimento dos valores e a prevenção de futuras irregularidades, incluindo notificações e ações conforme normas específicas, o que visa corrigir a causa subjacente e evitar recorrências, indo além de uma simples correção temporária da condição.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1289,
+    "completion_tokens": 95,
+    "total_tokens": 1384,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 329
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

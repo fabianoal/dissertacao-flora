@@ -1,0 +1,28 @@
+{
+  "id": "7883143a-ff6b-4860-9fdb-04eabff2f003",
+  "object": "chat.completion",
+  "created": 1758474506,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza o acompanhamento e monitoramento contínuo para garantir o cumprimento dos procedimentos e repasses financeiros, visando prevenir a recorrência da não comprovação de recursos, o que se alinha com soluções de longo prazo e abordagem na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1148,
+    "completion_tokens": 87,
+    "total_tokens": 1235,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 188
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

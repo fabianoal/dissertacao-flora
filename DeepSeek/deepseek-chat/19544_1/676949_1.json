@@ -1,0 +1,28 @@
+{
+  "id": "bba6292e-57f3-4db0-ae92-3658ce113248",
+  "object": "chat.completion",
+  "created": 1758474574,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de processos contínuos para alimentar, analisar e verificar a qualidade e consistência dos dados, o que visa prevenir a recorrência de discrepâncias entre sistemas, alinhando-se com soluções de longo prazo e melhorias estruturais na gestão de informações.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1146,
+    "completion_tokens": 87,
+    "total_tokens": 1233,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 186
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

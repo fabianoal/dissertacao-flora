@@ -1,0 +1,28 @@
+{
+  "id": "5f2d4d97-2daf-4e4d-9dc3-75c7238a93f2",
+  "object": "chat.completion",
+  "created": 1758481370,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração de um cronograma de entrega e o estabelecimento de normas, procedimentos e rotinas técnicas escritas e atualizadas, o que visa implementar controles estruturais e de longo prazo para prevenir a recorrência da falta de rotina estabelecida no processo de distribuição, abordando a causa raiz da deficiência em vez de apenas corrigir a condição atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1391,
+    "completion_tokens": 112,
+    "total_tokens": 1503,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 431
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

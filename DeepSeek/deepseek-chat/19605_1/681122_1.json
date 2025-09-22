@@ -1,0 +1,28 @@
+{
+  "id": "4b131016-71b4-4918-943b-f6c7a10be0e4",
+  "object": "chat.completion",
+  "created": 1758476142,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a organização de uma linha de cuidado integral, incluindo diagnóstico, adequação de fluxos, e construção de grades de referência e contrarreferência, o que visa resolver a causa raiz da desorganização da rede de saúde, implementando mudanças estruturais e de longo prazo para prevenir a recorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1139,
+    "completion_tokens": 97,
+    "total_tokens": 1236,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 243
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

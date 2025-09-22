@@ -1,0 +1,28 @@
+{
+  "id": "16c1196e-987e-474b-9410-8ebbfb5d447e",
+  "object": "chat.completion",
+  "created": 1758478618,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe o estabelecimento de medidas para assegurar a realização de exames pré e pós-operatórios, o que envolve a implementação de processos ou políticas contínuas para prevenir a recorrência da falha, alinhando-se com soluções de longo prazo típicas de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1185,
+    "completion_tokens": 98,
+    "total_tokens": 1283,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 161
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

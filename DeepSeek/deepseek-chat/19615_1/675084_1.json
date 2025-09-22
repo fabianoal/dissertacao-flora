@@ -1,0 +1,28 @@
+{
+  "id": "2e2c0ef6-e87f-4729-bc5f-61fd00bbff4e",
+  "object": "chat.completion",
+  "created": 1758477522,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, exigindo a apresentação de justificativas e documentação comprobatória para regularizar a prestação de contas do convênio específico, sem propor ações preventivas ou de longo prazo para evitar a recorrência da ausência de critérios nas contratações.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1152,
+    "completion_tokens": 96,
+    "total_tokens": 1248,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 192
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

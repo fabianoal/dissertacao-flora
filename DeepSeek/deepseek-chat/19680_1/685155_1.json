@@ -1,0 +1,28 @@
+{
+  "id": "1815afb4-8329-4208-afb1-588671935d6e",
+  "object": "chat.completion",
+  "created": 1758479814,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de ações de saúde pública recomendadas em documento normativo, visando melhorar a proporção de gestantes com consultas pré-natal adequadas, o que implica em mudanças estruturais e de longo prazo para prevenir a recorrência da condição observada, alinhando-se com o foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1128,
+    "completion_tokens": 95,
+    "total_tokens": 1223,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 168
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

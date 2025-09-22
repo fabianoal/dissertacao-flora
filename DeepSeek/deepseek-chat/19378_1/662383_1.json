@@ -1,0 +1,28 @@
+{
+  "id": "7562004f-4975-43e6-ac06-258dddf61f2d",
+  "object": "chat.completion",
+  "created": 1758469786,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de cumprir com os instrumentos de gestão do SUS, como Plano de Saúde, Programações Anuais de Saúde e Relatório Anual de Gestão, que são estruturas de planejamento e operacionalização de longo prazo. Isso visa abordar a causa subjacente da falta de informações sobre procedimentos de média e alta complexidade, promovendo mudanças sistêmicas e duradouras na gestão municipal de saúde, em vez de apenas corrigir a condição específica observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1336,
+    "completion_tokens": 136,
+    "total_tokens": 1472,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 376
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

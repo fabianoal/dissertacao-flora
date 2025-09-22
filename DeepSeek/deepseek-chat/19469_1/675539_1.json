@@ -1,0 +1,28 @@
+{
+  "id": "f2089a0a-2237-48ba-bc1f-f8dc76dec8f0",
+  "object": "chat.completion",
+  "created": 1758470690,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a pactuação de ações conjuntas e a participação na formulação de planos estratégicos, visando estabelecer estruturas e processos colaborativos de longo prazo para prevenir a não conformidade observada, alinhando-se com a definição de cause-based ao focar na causa subjacente da falta de aderência às normativas.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1239,
+    "completion_tokens": 98,
+    "total_tokens": 1337,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 279
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

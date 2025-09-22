@@ -1,0 +1,28 @@
+{
+  "id": "36c4ca3b-8e0d-4bbc-b1a6-de549c248810",
+  "object": "chat.completion",
+  "created": 1758470454,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de o município implementar e organizar um Setor de Controle, Avaliação e Monitoramento, o que visa estabelecer uma estrutura permanente para acompanhamento e análise da produção de saúde, abordando a causa raiz da falta de controle e prevenindo a recorrência da condição observada, em vez de apenas corrigir temporariamente a ausência atual de monitoramento.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1272,
+    "completion_tokens": 107,
+    "total_tokens": 1379,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 312
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

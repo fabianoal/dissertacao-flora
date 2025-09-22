@@ -1,0 +1,28 @@
+{
+  "id": "74870dc9-cee9-4d73-b575-5850ccc447a7",
+  "object": "chat.completion",
+  "created": 1758469794,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de medidas legais e administrativas para responsabilizar gestores anteriores e assegurar o ressarcimento de recursos, visando prevenir futuras irregularidades e promover mudanças estruturais na gestão, alinhando-se com soluções de longo prazo para evitar a recorrência do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1530,
+    "completion_tokens": 90,
+    "total_tokens": 1620,
+    "prompt_tokens_details": {
+      "cached_tokens": 1088
+    },
+    "prompt_cache_hit_tokens": 1088,
+    "prompt_cache_miss_tokens": 442
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

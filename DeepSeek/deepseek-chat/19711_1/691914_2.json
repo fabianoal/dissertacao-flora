@@ -1,0 +1,28 @@
+{
+  "id": "d9def8d1-070f-46f2-88d1-64099773c85a",
+  "object": "chat.completion",
+  "created": 1758480718,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações como informatização, padronização, criação de mecanismos de acompanhamento, capacitação das equipes e auditorias regulares, que visam abordar as causas subjacentes da falta de controle e fiscalização, promovendo mudanças estruturais e de longo prazo para prevenir a recorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1250,
+    "completion_tokens": 96,
+    "total_tokens": 1346,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 290
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

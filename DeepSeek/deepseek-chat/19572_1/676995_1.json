@@ -1,0 +1,28 @@
+{
+  "id": "f52b60bb-1e61-48d1-9f7e-7da738ab1141",
+  "object": "chat.completion",
+  "created": 1758475414,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de mecanismos de controle, avaliação e autorização permanentes e estruturados, conforme normas específicas, visando prevenir a recorrência da inconformidade e promovendo melhorias de longo prazo no sistema de saúde.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1129,
+    "completion_tokens": 77,
+    "total_tokens": 1206,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 169
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

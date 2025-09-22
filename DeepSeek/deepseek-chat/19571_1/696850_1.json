@@ -1,0 +1,28 @@
+{
+  "id": "87510d50-83ee-460c-8abd-7af89b4a07bd",
+  "object": "chat.completion",
+  "created": 1758475374,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de providências para garantir o registro de atendimentos e a implementação de monitoramento e avaliação sistemática dos contratos, visando prevenir a recorrência da falha no registro e melhorar a qualidade da assistência a longo prazo, alinhando-se com soluções estruturais e duradouras.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1205,
+    "completion_tokens": 94,
+    "total_tokens": 1299,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 245
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

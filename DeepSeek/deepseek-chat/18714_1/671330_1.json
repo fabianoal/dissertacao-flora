@@ -1,0 +1,28 @@
+{
+  "id": "07b541b0-9888-4c7a-9adf-70b176861e7a",
+  "object": "chat.completion",
+  "created": 1758468290,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de medidas para assegurar escolhas de fornecedores com propostas mais vantajosas, o que envolve a implementação de processos ou políticas permanentes para prevenir a recorrência da não utilização do critério de menor preço e falta de justificativa, focando na causa subjacente e não apenas na correção pontual da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1072,
+    "completion_tokens": 106,
+    "total_tokens": 1178,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 112
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

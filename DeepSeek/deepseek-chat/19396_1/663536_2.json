@@ -1,0 +1,28 @@
+{
+  "id": "918f82e9-d98d-41ac-95d3-fed20d61c030",
+  "object": "chat.completion",
+  "created": 1758470090,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação solicita a adoção de procedimentos específicos conforme decretos, visando prevenir futuras ocorrências similares e garantir conformidade contínua, focando na causa subjacente da não apresentação de documentos.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1156,
+    "completion_tokens": 69,
+    "total_tokens": 1225,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 196
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

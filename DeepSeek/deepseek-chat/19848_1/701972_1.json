@@ -1,0 +1,28 @@
+{
+  "id": "e8eef02b-2279-4817-84da-c6ebff72f89e",
+  "object": "chat.completion",
+  "created": 1758487644,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo regular de alimentação do SINAN com documentação comprobatória, o que visa estabelecer uma prática contínua e preventiva para evitar a recorrência da não comprovação dos atendimentos, focando na causa subjacente da falha no registro e não apenas na correção pontual da condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1232,
+    "completion_tokens": 100,
+    "total_tokens": 1332,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 272
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

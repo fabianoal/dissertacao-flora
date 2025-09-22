@@ -1,0 +1,28 @@
+{
+  "id": "341dd0e6-bc89-4385-9b24-a09c66ac9c4e",
+  "object": "chat.completion",
+  "created": 1758475278,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe o planejamento de ações estratégicas para garantir o preenchimento adequado do prontuário, o que visa abordar a causa raiz da não conformidade ao implementar mudanças estruturais e de longo prazo, como a definição correta de campos e a adesão a orientações específicas, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1180,
+    "completion_tokens": 107,
+    "total_tokens": 1287,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 220
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

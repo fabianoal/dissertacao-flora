@@ -1,0 +1,28 @@
+{
+  "id": "7f4092f3-3067-4d51-b899-6c41f1cc05ba",
+  "object": "chat.completion",
+  "created": 1758473414,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um sistema de arquivamento organizado e acessível para laudos assinados, o que visa prevenir a reocorrência da falta de documentação ao estabelecer uma solução estrutural de longo prazo, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1181,
+    "completion_tokens": 93,
+    "total_tokens": 1274,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 157
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "35ea4b8a-e6b9-4de1-a0aa-3db7b5f084fa",
+  "object": "chat.completion",
+  "created": 1758481458,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações como implementar um plano de calibração periódica e assegurar a qualificação térmica por meio de empresas credenciadas, focando em soluções de longo prazo para prevenir a recorrência da condição, alinhando-se com a definição de recomendações cause-based.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1259,
+    "completion_tokens": 89,
+    "total_tokens": 1348,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 299
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

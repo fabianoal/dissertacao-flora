@@ -1,0 +1,28 @@
+{
+  "id": "f1109e17-b951-4a79-908e-1e1cf586cc2e",
+  "object": "chat.completion",
+  "created": 1758489016,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações de orientação e monitoramento contínuo para garantir que os autorizadores e prestadores de serviços sigam os procedimentos corretos conforme o manual, visando prevenir a recorrência das inconsistências nos registros e aprovações, o que se alinha com soluções de longo prazo para evitar que a condição volte a ocorrer.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1095,
+    "completion_tokens": 100,
+    "total_tokens": 1195,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 199
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

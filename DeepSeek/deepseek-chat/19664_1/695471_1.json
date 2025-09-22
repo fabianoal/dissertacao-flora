@@ -1,0 +1,28 @@
+{
+  "id": "10312e57-de05-489b-9398-51256e5f79fe",
+  "object": "chat.completion",
+  "created": 1758479402,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações para prevenir futuros atrasos nos pagamentos, como cumprir prazos normativos e melhorar a transparência e acesso a informações, focando em soluções de longo prazo que abordam as causas subjacentes, não apenas corrigindo a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1378,
+    "completion_tokens": 85,
+    "total_tokens": 1463,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 482
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

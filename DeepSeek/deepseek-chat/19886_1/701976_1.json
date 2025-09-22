@@ -1,0 +1,28 @@
+{
+  "id": "50b0cff7-94eb-4e2c-b2f6-2e543869ebe3",
+  "object": "chat.completion",
+  "created": 1758489136,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de uma verificação sistemática (perícia pós-operatória) e a adesão estrita às orientações do manual para prevenir a recorrência da utilização inadequada do código, focando em mudanças de processo de longo prazo e na causa raiz da inconsistência, em vez de apenas corrigir casos específicos.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1565,
+    "completion_tokens": 100,
+    "total_tokens": 1665,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 669
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

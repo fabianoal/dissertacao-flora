@@ -1,0 +1,28 @@
+{
+  "id": "8ef30d25-0fc1-444f-bbc4-080736c9994e",
+  "object": "chat.completion",
+  "created": 1758476358,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação sugere uma avaliação para verificar a efetividade dos serviços e implementação do sistema, visando identificar e corrigir a causa raiz do desperdício de recursos, promovendo mudanças estruturais na gestão de contratos para prevenir ocorrências futuras.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1063,
+    "completion_tokens": 80,
+    "total_tokens": 1143,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 103
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

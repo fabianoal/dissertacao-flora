@@ -1,0 +1,28 @@
+{
+  "id": "25a3eeac-37c1-43e5-b892-d0cabf35aa2f",
+  "object": "chat.completion",
+  "created": 1758477006,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração de documentos de acompanhamento em conformidade com leis específicas, visando estabelecer práticas permanentes para garantir a confiabilidade, autenticidade, acessibilidade, compreensibilidade e completude dos documentos arquivísticos. Isso aborda a causa raiz das impropriedades, promovendo mudanças estruturais de longo prazo na gestão documental, em vez de apenas corrigir as condições atuais.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1149,
+    "completion_tokens": 120,
+    "total_tokens": 1269,
+    "prompt_tokens_details": {
+      "cached_tokens": 1088
+    },
+    "prompt_cache_hit_tokens": 1088,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

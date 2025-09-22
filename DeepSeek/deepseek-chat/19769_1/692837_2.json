@@ -1,0 +1,28 @@
+{
+  "id": "2587bc2f-a6d8-4dde-828e-46b3fd5001a0",
+  "object": "chat.completion",
+  "created": 1758482534,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação inclui a adoção de medidas para aperfeiçoar mecanismos de controle, monitoramento e avaliação das informações inseridas nos sistemas SIA/SUS e SIH/SUS, o que visa prevenir a ocorrência futura de inserções incorretas de dados, caracterizando um foco na causa raiz do problema, além de abordar a correção imediata da condição atual através da devolução dos recursos.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1264,
+    "completion_tokens": 113,
+    "total_tokens": 1377,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 240
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

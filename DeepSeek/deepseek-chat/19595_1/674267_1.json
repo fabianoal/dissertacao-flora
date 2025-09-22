@@ -1,0 +1,28 @@
+{
+  "id": "74d3ac6e-1828-4571-aed0-0ad8c267eb57",
+  "object": "chat.completion",
+  "created": 1758475802,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações que visam prevenir a reocorrência da condição, como garantir o preenchimento adequado dos prontuários e instituir um programa de capacitação permanente, focando em soluções de longo prazo para melhorar a qualidade e consistência dos dados, em vez de apenas corrigir os dados existentes.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1310,
+    "completion_tokens": 93,
+    "total_tokens": 1403,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 350
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

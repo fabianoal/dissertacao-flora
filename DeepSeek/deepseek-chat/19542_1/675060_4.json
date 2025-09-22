@@ -1,0 +1,28 @@
+{
+  "id": "5558ef67-520b-494b-b4b3-c9213f904d2d",
+  "object": "chat.completion",
+  "created": 1758474514,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de aplicação da contrapartida financeira para cumprir requisitos legais, visando prevenir a não comprovação recorrente de recursos, o que implica uma solução de longo prazo para evitar a reincidência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1104,
+    "completion_tokens": 83,
+    "total_tokens": 1187,
+    "prompt_tokens_details": {
+      "cached_tokens": 1088
+    },
+    "prompt_cache_hit_tokens": 1088,
+    "prompt_cache_miss_tokens": 16
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

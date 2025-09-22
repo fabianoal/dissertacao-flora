@@ -1,0 +1,28 @@
+{
+  "id": "6e448bcb-51ff-49e6-abfb-c7bbafca1750",
+  "object": "chat.completion",
+  "created": 1758478714,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação exige o cumprimento de um item específico do manual de boas práticas, que estabelece diretrizes para rastreabilidade, visando implementar um processo sistemático e duradouro para prevenir a reincidência da não comprovação da destinação de OPME, caracterizando uma solução de longo prazo focada na causa raiz.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1058,
+    "completion_tokens": 102,
+    "total_tokens": 1160,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 98
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

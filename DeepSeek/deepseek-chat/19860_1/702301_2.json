@@ -1,0 +1,28 @@
+{
+  "id": "df4186ec-f7a6-4a6b-83ab-5d361df4a106",
+  "object": "chat.completion",
+  "created": 1758488228,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação inclui ações como implementar sistemas de registro eletrônico, reavaliar a gestão de horários, oferecer capacitação contínua, implementar processos de controle e monitoramento, e realizar reuniões com o Conselho Municipal de Saúde, que visam abordar as causas subjacentes (como deficiências em sistemas, gestão, treinamento e controles) para prevenir a recorrência da condição observada, indo além da correção imediata (devolução de valores) e focando em melhorias estruturais de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1416,
+    "completion_tokens": 146,
+    "total_tokens": 1562,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 392
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

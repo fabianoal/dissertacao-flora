@@ -1,0 +1,28 @@
+{
+  "id": "57416d7f-cc8d-485d-a7a9-7d433e5925f7",
+  "object": "chat.completion",
+  "created": 1758483202,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a aquisição de um equipamento específico (termômetro de infravermelho com mira) para melhorar o controle de temperatura durante o recebimento de imunobiológicos, alinhando-se com o Manual de Rede de Frio. Isso visa prevenir futuras ocorrências de armazenamento inadequado, representando uma solução de longo prazo para a causa subjacente da inadequação dos controles, em vez de apenas corrigir a condição imediata.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1040,
+    "completion_tokens": 127,
+    "total_tokens": 1167,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 80
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

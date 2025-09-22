@@ -1,0 +1,28 @@
+{
+  "id": "a6c9f41c-c3b2-4dbe-86c5-5f12ad04cb18",
+  "object": "chat.completion",
+  "created": 1758468329,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação exige a garantia de uma estrutura física adequada em conformidade com normas específicas, o que implica a implementação de mudanças estruturais e sistêmicas de longo prazo para prevenir a recorrência das não conformidades, em vez de apenas corrigir as condições atuais de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1264,
+    "completion_tokens": 86,
+    "total_tokens": 1350,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 304
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

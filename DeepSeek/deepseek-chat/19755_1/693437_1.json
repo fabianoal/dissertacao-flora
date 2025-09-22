@@ -1,0 +1,28 @@
+{
+  "id": "8459903a-c227-4db4-a202-796d01d12bf0",
+  "object": "chat.completion",
+  "created": 1758481974,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a validação e estruturação de um cronograma de atividades com descrições claras, frequência e responsáveis, o que visa estabelecer uma rotina permanente e prevenir a falta de controle no processo de distribuição, abordando a causa raiz da ausência de rotina estabelecida.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1145,
+    "completion_tokens": 88,
+    "total_tokens": 1233,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 185
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

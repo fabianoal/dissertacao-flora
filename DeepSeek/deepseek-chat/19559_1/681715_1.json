@@ -1,0 +1,28 @@
+{
+  "id": "07223fd0-3084-4c43-bb6d-6ffbfabd7273",
+  "object": "chat.completion",
+  "created": 1758474890,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a fiscalização e asseguramento do cumprimento de uma norma específica (Art. 424 da Portaria de Consolidação SAES/MS n.º 1 de 22/2/2022), que exige o arquivamento do CFID no prontuário do paciente. Isso visa implementar uma mudança estrutural e permanente na gestão de documentos, abordando a causa raiz (não conformidade com a norma) para prevenir a reocorrência da condição observada, em vez de apenas corrigir temporariamente a situação atual dos arquivos armazenados incorretamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1103,
+    "completion_tokens": 157,
+    "total_tokens": 1260,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 143
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

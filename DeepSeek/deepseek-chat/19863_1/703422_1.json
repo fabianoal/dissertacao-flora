@@ -1,0 +1,28 @@
+{
+  "id": "9341e7bb-600b-4108-951d-adf896ef45f5",
+  "object": "chat.completion",
+  "created": 1758488432,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adesão ao PLACON-RM, que é uma ação preventiva e estrutural para evitar futuras não conformidades relacionadas a infecções multirresistentes, alinhando-se com soluções de longo prazo que abordam a causa subjacente da falta de conformidade.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1102,
+    "completion_tokens": 89,
+    "total_tokens": 1191,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 142
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

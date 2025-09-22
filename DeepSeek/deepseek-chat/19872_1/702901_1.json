@@ -1,0 +1,28 @@
+{
+  "id": "1e3dd151-6566-42a0-b0b8-05648e50000a",
+  "object": "chat.completion",
+  "created": 1758488724,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação orienta o cumprimento de diretrizes técnicas estabelecidas no manual, visando implementar um processo correto e permanente para a emissão de AIHs e APACs concomitantes, o que aborda a causa raiz da inconformidade e previne sua recorrência, em vez de apenas corrigir casos específicos existentes.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1137,
+    "completion_tokens": 96,
+    "total_tokens": 1233,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 241
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

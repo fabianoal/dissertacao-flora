@@ -1,0 +1,28 @@
+{
+  "id": "f3047bb0-cfa6-4890-87de-7203598358f9",
+  "object": "chat.completion",
+  "created": 1758482730,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de uma política ou prática permanente de não designar servidores para funções fora de seu cargo, exceto em casos específicos e limitados, visando prevenir a recorrência do desvio de função e fortalecer os controles internos a longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1065,
+    "completion_tokens": 83,
+    "total_tokens": 1148,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 105
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

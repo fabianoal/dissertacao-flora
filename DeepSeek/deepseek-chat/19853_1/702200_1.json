@@ -1,0 +1,28 @@
+{
+  "id": "592134d2-d9cf-4695-a916-84cf92e702ff",
+  "object": "chat.completion",
+  "created": 1758487892,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações sistêmicas e de longo prazo, como a implantação de fluxos formais de validação, capacitação periódica de servidores e estabelecimento de controles e monitoramento contínuo, visando prevenir a recorrência da falta de atividades de controle e avaliação, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1576,
+    "completion_tokens": 102,
+    "total_tokens": 1678,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 616
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a6990352-6e85-4126-8cce-4e5d4840b4a4",
+  "object": "chat.completion",
+  "created": 1758470210,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação solicita a adoção de procedimentos administrativos específicos conforme legislação vigente, visando prevenir futuras irregularidades similares e não apenas corrigir as já identificadas, alinhando-se com soluções de longo prazo para evitar a recorrência do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1181,
+    "completion_tokens": 80,
+    "total_tokens": 1261,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 221
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

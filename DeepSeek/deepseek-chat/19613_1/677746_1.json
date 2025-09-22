@@ -1,0 +1,28 @@
+{
+  "id": "98c44d5e-c33b-4ae5-9e6c-e7efc6682800",
+  "object": "chat.completion",
+  "created": 1758477266,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação visa assegurar a inserção contínua e sistemática da avaliação de desempenho no sistema Transferegov, abordando a causa raiz da ausência ao estabelecer um processo permanente que previna a recorrência da condição, em vez de apenas corrigir uma instância específica.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1067,
+    "completion_tokens": 87,
+    "total_tokens": 1154,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 107
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

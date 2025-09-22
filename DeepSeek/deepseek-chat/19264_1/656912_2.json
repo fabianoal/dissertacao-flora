@@ -1,0 +1,28 @@
+{
+  "id": "aa6626ee-b9ce-41cf-a4b8-0e517aac063b",
+  "object": "chat.completion",
+  "created": 1758469274,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo permanente para garantir a anexação da AIH ao prontuário do paciente, alinhando-se com exigências normativas e promovendo uma solução de longo prazo que visa prevenir a recorrência da condição observada, ao invés de apenas corrigir casos específicos.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1313,
+    "completion_tokens": 93,
+    "total_tokens": 1406,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 289
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

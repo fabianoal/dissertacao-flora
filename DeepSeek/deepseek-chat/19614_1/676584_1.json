@@ -1,0 +1,28 @@
+{
+  "id": "27618d10-86c0-43b5-8616-a517ed529223",
+  "object": "chat.completion",
+  "created": 1758477338,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca em corrigir a condição específica encontrada, solicitando justificativas para a não realização de cotação de preços, o que é uma medida corretiva imediata para a impropriedade na contratação, sem propor ações de longo prazo para prevenir a recorrência.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1052,
+    "completion_tokens": 88,
+    "total_tokens": 1140,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 92
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

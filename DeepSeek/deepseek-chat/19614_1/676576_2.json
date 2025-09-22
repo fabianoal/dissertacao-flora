@@ -1,0 +1,28 @@
+{
+  "id": "847f869d-843b-47de-93d8-63cb9ef600ad",
+  "object": "chat.completion",
+  "created": 1758477326,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de medidas de acompanhamento e monitoramento contínuos para garantir o cumprimento da legislação, visando prevenir a recorrência da condição observada (ausência de atestado médico ou justificativa), o que se alinha com soluções de longo prazo e foco na causa raiz.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1088,
+    "completion_tokens": 96,
+    "total_tokens": 1184,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

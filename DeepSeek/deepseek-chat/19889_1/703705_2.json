@@ -1,0 +1,28 @@
+{
+  "id": "725dd96d-2f7a-472c-b405-7a08b74209a3",
+  "object": "chat.completion",
+  "created": 1758491165,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação enfoca a correção imediata da condição específica de não realização da reconstrução mamária no mesmo ato anestésico, conforme exigido pela portaria, sem propor ações para prevenir a recorrência ou abordar causas subjacentes, como mudanças em políticas ou processos.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1144,
+    "completion_tokens": 86,
+    "total_tokens": 1230,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 184
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

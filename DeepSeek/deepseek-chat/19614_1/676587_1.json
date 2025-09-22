@@ -1,0 +1,28 @@
+{
+  "id": "9e25f6e0-d8c1-4279-be2c-ee115d638175",
+  "object": "chat.completion",
+  "created": 1758477362,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca em corrigir a condição específica encontrada, solicitando justificativas para a contratação de empresas com os mesmos sócios-administradores ou recém-criadas, sem propor ações para prevenir a recorrência do problema no futuro.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1058,
+    "completion_tokens": 78,
+    "total_tokens": 1136,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 98
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

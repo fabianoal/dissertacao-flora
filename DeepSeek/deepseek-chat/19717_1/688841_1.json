@@ -1,0 +1,28 @@
+{
+  "id": "bb37c0c6-7a35-410a-95eb-c1378fb8619e",
+  "object": "chat.completion",
+  "created": 1758480882,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a adoção de procedimentos administrativos conforme decretos específicos, visando prevenir futuras ocorrências similares ao invés de apenas corrigir a condição imediata de não apresentação de documentos, alinhando-se com soluções de longo prazo para evitar recorrências.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1200,
+    "completion_tokens": 87,
+    "total_tokens": 1287,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 304
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

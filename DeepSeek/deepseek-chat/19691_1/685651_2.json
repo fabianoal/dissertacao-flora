@@ -1,0 +1,28 @@
+{
+  "id": "77756a0d-497a-4132-993f-9caf80a3708b",
+  "object": "chat.completion",
+  "created": 1758480382,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de processos organizacionais e de controle contínuos, como a organização e disponibilização de comprovantes de despesas e a manutenção de documentação, visando prevenir a recorrência da falta de comprovação, o que se alinha com soluções de longo prazo para abordar a causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1263,
+    "completion_tokens": 99,
+    "total_tokens": 1362,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 239
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

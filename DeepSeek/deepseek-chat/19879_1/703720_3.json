@@ -1,0 +1,28 @@
+{
+  "id": "0bbe436a-555c-45ad-9b5d-5874e17a79e3",
+  "object": "chat.completion",
+  "created": 1758488872,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação sugere aprimorar o registro do código CID para garantir conformidade contínua com o Manual Técnico Operacional SIH, abordando a causa raiz da incompatibilidade ao estabelecer um processo de registro mais preciso e alinhado com as diretrizes, o que visa prevenir a recorrência do problema em vez de apenas corrigir os registros existentes.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1105,
+    "completion_tokens": 102,
+    "total_tokens": 1207,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 81
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

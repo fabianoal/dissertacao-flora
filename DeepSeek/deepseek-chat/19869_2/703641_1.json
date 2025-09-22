@@ -1,0 +1,28 @@
+{
+  "id": "2bd3bd3e-904d-4e7a-b9e6-4245de17e506",
+  "object": "chat.completion",
+  "created": 1758488652,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implantação de um setor específico para controle e avaliação, o que visa criar uma estrutura permanente e preventiva para evitar a recorrência da falta de monitoramento, alinhando-se com soluções de longo prazo que abordam a causa subjacente da constatação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1137,
+    "completion_tokens": 86,
+    "total_tokens": 1223,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 241
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

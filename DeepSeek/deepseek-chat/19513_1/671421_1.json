@@ -1,0 +1,28 @@
+{
+  "id": "cc9511f8-5dbd-4f62-9dbe-b01a1eb8cb3e",
+  "object": "chat.completion",
+  "created": 1758473654,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de procedimentos estabelecidos por decreto para melhor controle, monitoramento e avaliação das produções informadas, visando prevenir a reocorrência da inserção não comprovada de produções ambulatoriais, o que implica uma solução de longo prazo focada na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1110,
+    "completion_tokens": 91,
+    "total_tokens": 1201,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 150
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

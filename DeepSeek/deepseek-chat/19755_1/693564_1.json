@@ -1,0 +1,28 @@
+{
+  "id": "87b47a49-8a79-4f6e-80b9-bab8f19b0df7",
+  "object": "chat.completion",
+  "created": 1758481954,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de processos contínuos e sistemáticos, como manutenções periódicas, calibração, documentação e gerenciamento de qualificação, que visam prevenir a recorrência da condição identificada, abordando as causas subjacentes e promovendo melhorias de longo prazo na gestão da Cadeia de Frio.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1267,
+    "completion_tokens": 101,
+    "total_tokens": 1368,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 307
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

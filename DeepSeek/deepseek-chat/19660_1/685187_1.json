@@ -1,0 +1,28 @@
+{
+  "id": "f556b38a-2b9e-4c48-a776-03d52055afcd",
+  "object": "chat.completion",
+  "created": 1758479378,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de ações coordenadas e sistemáticas entre equipes de saúde para melhorar o atendimento odontológico a gestantes, focando na causa subjacente da não adoção das ações previstas, promovendo uma solução de longo prazo que visa prevenir a reocorrência da condição observada, em vez de apenas corrigir a situação atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1142,
+    "completion_tokens": 107,
+    "total_tokens": 1249,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 246
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

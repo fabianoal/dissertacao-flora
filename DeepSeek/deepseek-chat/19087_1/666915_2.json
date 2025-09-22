@@ -1,0 +1,28 @@
+{
+  "id": "ebd461a8-e49f-4bb9-a034-fdaf801728e9",
+  "object": "chat.completion",
+  "created": 1758468766,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe uma ação preventiva e de longo prazo, focando na causa da não deliberação do Conselho Municipal de Saúde, ao sugerir que, em futuras contratualizações, os processos sejam encaminhados em tempo hábil para garantir a deliberação conforme a norma, evitando assim a recorrência da inconformidade.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1107,
+    "completion_tokens": 95,
+    "total_tokens": 1202,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 147
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

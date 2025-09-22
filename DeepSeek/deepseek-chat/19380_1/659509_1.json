@@ -1,0 +1,28 @@
+{
+  "id": "5a69caae-e64d-450a-ae06-8f5bc4ab3382",
+  "object": "chat.completion",
+  "created": 1758469814,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a devolução dos recursos recebidos indevidamente, sem propor ações para prevenir a ocorrência futura de inserções irregulares de dados nos sistemas do SUS.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1805,
+    "completion_tokens": 74,
+    "total_tokens": 1879,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 845
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

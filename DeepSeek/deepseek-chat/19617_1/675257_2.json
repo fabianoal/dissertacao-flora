@@ -1,0 +1,28 @@
+{
+  "id": "09add7f9-76bf-4691-8117-c081023de62c",
+  "object": "chat.completion",
+  "created": 1758477970,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de uma especificação mínima dos materiais/serviços em processos de cotação de preços, visando prevenir futuras impropriedades e assegurar o cumprimento contínuo de requisitos normativos, caracterizando uma solução de longo prazo que aborda a causa subjacente das inconformidades.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1227,
+    "completion_tokens": 98,
+    "total_tokens": 1325,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 267
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

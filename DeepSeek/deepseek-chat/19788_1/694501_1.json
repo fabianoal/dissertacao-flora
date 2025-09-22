@@ -1,0 +1,28 @@
+{
+  "id": "ba8f8e13-a468-452e-9550-e13072e0982b",
+  "object": "chat.completion",
+  "created": 1758483310,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe uma capacitação contínua das equipes para aplicar procedimentos de estratificação de riscos, o que visa prevenir a recorrência da falta de critérios definidos, abordando a causa subjacente (falta de conhecimento e habilidades) e promovendo uma solução de longo prazo, alinhada com as definições de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1121,
+    "completion_tokens": 106,
+    "total_tokens": 1227,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 225
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

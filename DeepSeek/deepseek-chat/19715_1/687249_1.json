@@ -1,0 +1,28 @@
+{
+  "id": "3aa3b215-2fb1-496b-83a8-f5230beb578c",
+  "object": "chat.completion",
+  "created": 1758480778,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza o cumprimento de normas e procedimentos estabelecidos, como a manutenção de documentos originais e a revisão por parte do Diretor Clínico, visando prevenir a recorrência de irregularidades na aprovação de laudos, o que se alinha com soluções de longo prazo para evitar a condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1258,
+    "completion_tokens": 98,
+    "total_tokens": 1356,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 362
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2e73abc4-208e-4240-979a-a01ffb59d46d",
+  "object": "chat.completion",
+  "created": 1758487632,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo de análise periódica da situação de saúde dos trabalhadores, incluindo a elaboração de estudos e análises para identificar e compreender problemas de saúde, o que visa prevenir a recorrência da condição observada e promover melhorias de longo prazo no sistema de saúde, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1140,
+    "completion_tokens": 109,
+    "total_tokens": 1249,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 180
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

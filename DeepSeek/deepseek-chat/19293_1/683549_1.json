@@ -1,0 +1,28 @@
+{
+  "id": "fe933943-6fdf-441b-88c9-ea2f6806c57c",
+  "object": "chat.completion",
+  "created": 1758469398,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe aprimorar o monitoramento e readequar o sistema de escalas para prevenir a ocorrência futura de lançamentos inadequados de plantões de sobreaviso, focando em soluções de longo prazo, como a implementação de críticas imediatas no sistema, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1171,
+    "completion_tokens": 98,
+    "total_tokens": 1269,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 211
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

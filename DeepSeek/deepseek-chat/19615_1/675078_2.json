@@ -1,0 +1,28 @@
+{
+  "id": "f2e395a3-e674-4147-abf4-499bcf41853e",
+  "object": "chat.completion",
+  "created": 1758477551,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de medidas de acompanhamento e monitoramento contínuo dos registros de horário, visando prevenir a recorrência da falta de documentação adequada para afastamentos, o que se alinha com soluções de longo prazo para evitar a causa subjacente do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1088,
+    "completion_tokens": 88,
+    "total_tokens": 1176,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

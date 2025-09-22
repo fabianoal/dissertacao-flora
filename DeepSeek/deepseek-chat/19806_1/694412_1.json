@@ -1,0 +1,28 @@
+{
+  "id": "5c373b66-4242-4a3d-9737-23e912a08aff",
+  "object": "chat.completion",
+  "created": 1758483958,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a definição de estratégias para o atendimento de pacientes após notificação de casos de violência, o que envolve a criação de processos e políticas para prevenir a recorrência da condição observada (ausência de estratégias) e garantir a continuidade do cuidado, caracterizando uma solução de longo prazo e foco na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1171,
+    "completion_tokens": 100,
+    "total_tokens": 1271,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 211
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

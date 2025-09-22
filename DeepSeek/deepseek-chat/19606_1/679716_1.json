@@ -1,0 +1,28 @@
+{
+  "id": "8ced0009-447b-4d68-a98c-0a301636832c",
+  "object": "chat.completion",
+  "created": 1758476234,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a falta de provimento de exames de imagem, sem propor ações para prevenir a recorrência ou abordar causas subjacentes, como melhorias em processos ou políticas.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1160,
+    "completion_tokens": 74,
+    "total_tokens": 1234,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 200
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

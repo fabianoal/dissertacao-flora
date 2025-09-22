@@ -1,0 +1,28 @@
+{
+  "id": "1781e935-5edc-415d-803d-7f8ba8bf3bb1",
+  "object": "chat.completion",
+  "created": 1758476602,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo de acompanhamento e monitoramento dos registros de horário de trabalho, o que visa prevenir a recorrência da ausência de comprovação de descontos, abordando a causa subjacente (falta de controle sistemático) em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1028,
+    "completion_tokens": 101,
+    "total_tokens": 1129,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 68
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

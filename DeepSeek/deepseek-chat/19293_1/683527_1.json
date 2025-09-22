@@ -1,0 +1,28 @@
+{
+  "id": "7453eaf4-c2e1-4c41-a9b9-150681741c45",
+  "object": "chat.completion",
+  "created": 1758469426,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações sistêmicas, como qualificar informações no sistema de cadastro e estabelecer medidas de monitoramento, visando evitar a recorrência da não comprovação da carga horária, alinhando-se com soluções de longo prazo para causas subjacentes.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1303,
+    "completion_tokens": 82,
+    "total_tokens": 1385,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 343
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

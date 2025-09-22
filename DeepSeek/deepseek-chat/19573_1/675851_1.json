@@ -1,0 +1,28 @@
+{
+  "id": "c87509f1-c96d-4935-8277-0c0efa9d82b4",
+  "object": "chat.completion",
+  "created": 1758475462,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a organização da rede de saúde para o cuidado integral, abordando mudanças estruturais e de longo prazo, como a implementação de uma linha de cuidados integrais, inversão do modelo de atenção, e ações multiprofissionais e intersetoriais, visando prevenir a reocorrência da condição observada, em vez de apenas corrigir a situação atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1310,
+    "completion_tokens": 106,
+    "total_tokens": 1416,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 350
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

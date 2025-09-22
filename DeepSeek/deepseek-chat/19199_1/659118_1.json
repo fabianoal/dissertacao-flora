@@ -1,0 +1,28 @@
+{
+  "id": "dd659167-d540-4679-a1e1-7d0732f41374",
+  "object": "chat.completion",
+  "created": 1758469126,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfoca a adoção de procedimentos específicos conforme decretos legais para prevenir futuras irregularidades na liquidação de despesas, visando a elisão de danos e melhorias estruturais no processo administrativo, o que se alinha com soluções de longo prazo para evitar a recorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1187,
+    "completion_tokens": 96,
+    "total_tokens": 1283,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 227
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

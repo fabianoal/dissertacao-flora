@@ -1,0 +1,28 @@
+{
+  "id": "f43a43a6-3939-46b2-ba25-5067700dd5eb",
+  "object": "chat.completion",
+  "created": 1758478602,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de medidas de direção, controle e supervisão para assegurar conformidade com a Portaria n.º 1419/2017, focando em ações preventivas e de longo prazo para evitar a recorrência da falha no anexo das folhas de requisição, em vez de apenas corrigir a condição específica observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1099,
+    "completion_tokens": 105,
+    "total_tokens": 1204,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 75
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

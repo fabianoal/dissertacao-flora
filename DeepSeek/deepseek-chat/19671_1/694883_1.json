@@ -1,0 +1,28 @@
+{
+  "id": "23e8476d-c732-4c1f-877c-72cf26390728",
+  "object": "chat.completion",
+  "created": 1758479462,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe o monitoramento contínuo do planejamento e execução da política, o que visa implementar mecanismos de gestão e controle para evitar a ocorrência futura de listas de espera, abordando a causa subjacente relacionada à gestão inadequada da política de saúde, em vez de apenas corrigir a condição atual da lista de espera.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1160,
+    "completion_tokens": 103,
+    "total_tokens": 1263,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 200
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

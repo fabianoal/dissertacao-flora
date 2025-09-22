@@ -1,0 +1,28 @@
+{
+  "id": "0aa6acc9-7a06-4945-8ffa-597a48dcb452",
+  "object": "chat.completion",
+  "created": 1758469838,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de procedimentos permanentes e conformidade com regulamentações específicas para garantir que as etiquetas de identificação de DMI sejam sistematicamente afixadas aos prontuários dos pacientes, abordando a causa raiz da não conformidade e promovendo mudanças estruturais de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1377,
+    "completion_tokens": 93,
+    "total_tokens": 1470,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 481
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

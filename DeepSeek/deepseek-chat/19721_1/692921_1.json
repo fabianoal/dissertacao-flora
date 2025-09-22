@@ -1,0 +1,28 @@
+{
+  "id": "cc415548-e9bf-4dcb-b447-fed98820c27f",
+  "object": "chat.completion",
+  "created": 1758481018,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de providências para garantir a disponibilização contínua de profissionais e o cumprimento de regras de manutenção de registros, visando evitar a reocorrência da condição de falta de profissionais e registros inadequados, alinhando-se com soluções de longo prazo para causas subjacentes.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1371,
+    "completion_tokens": 96,
+    "total_tokens": 1467,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 411
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

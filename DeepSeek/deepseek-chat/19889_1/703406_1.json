@@ -1,0 +1,28 @@
+{
+  "id": "41b11d6f-74d4-4787-981d-fc6e87da38d5",
+  "object": "chat.completion",
+  "created": 1758491172,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza o cumprimento de normas regulatórias que envolvem supervisão, processamento e avaliação analítica da produção, visando implementar mudanças estruturais no sistema de regulação e auditoria para prevenir a ocorrência futura de autorizações com datas inconsistentes, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1163,
+    "completion_tokens": 96,
+    "total_tokens": 1259,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 203
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

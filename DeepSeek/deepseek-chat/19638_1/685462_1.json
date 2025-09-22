@@ -1,0 +1,28 @@
+{
+  "id": "bb29f85a-32ed-4003-9b4f-338307c94f6d",
+  "object": "chat.completion",
+  "created": 1758478938,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a revisão das agendas dos profissionais médicos e o mapeamento da força de trabalho assistencial de forma individualizada, quantitativa e qualitativa, visando adequar a oferta ambulatorial à carga horária e aumentar a disponibilidade de capacidade. Essas ações são preventivas e estruturais, focadas em resolver a causa subjacente da não disponibilização da capacidade total, promovendo mudanças de longo prazo para evitar a recorrência do problema, em vez de apenas corrigir a condição atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1160,
+    "completion_tokens": 139,
+    "total_tokens": 1299,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 264
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

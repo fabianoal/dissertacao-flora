@@ -1,0 +1,28 @@
+{
+  "id": "c4e84883-3be1-4671-aacf-ee252158174b",
+  "object": "chat.completion",
+  "created": 1758469622,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de medidas de apuração e cobrança administrativa para recompor recursos ao Fundo Nacional de Saúde, visando prevenir futuras ocorrências similares e implementar um processo de controle que evite a repetição da condição observada, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1176,
+    "completion_tokens": 92,
+    "total_tokens": 1268,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 216
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

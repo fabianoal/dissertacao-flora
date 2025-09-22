@@ -1,0 +1,28 @@
+{
+  "id": "c2786b84-cd2b-4e60-9c53-8540b7cd6e68",
+  "object": "chat.completion",
+  "created": 1758470206,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de aderir às regras de execução do programa, incluindo a observância de artigos específicos de portarias, o que sugere uma abordagem para prevenir a recorrência da irregularidade através da implementação de práticas conformes e duradouras, em vez de apenas corrigir a condição atual de dispensação sem comprovação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1116,
+    "completion_tokens": 104,
+    "total_tokens": 1220,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 156
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

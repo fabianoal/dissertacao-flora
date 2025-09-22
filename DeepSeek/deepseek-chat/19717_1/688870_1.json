@@ -1,0 +1,28 @@
+{
+  "id": "efe85b2c-8b71-450d-818d-8524d5c19b24",
+  "object": "chat.completion",
+  "created": 1758480874,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de medidas estruturais, como a manutenção e arquivamento de documentos por um prazo prolongado (10 anos) em formatos específicos (físico e digital), visando prevenir a recorrência de irregularidades e assegurar conformidade contínua com normas legais, indo além da simples correção imediata da condição encontrada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1248,
+    "completion_tokens": 106,
+    "total_tokens": 1354,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 352
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

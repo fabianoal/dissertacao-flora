@@ -1,0 +1,28 @@
+{
+  "id": "f19b8f1d-cb25-430b-a850-f1cb3b301dbb",
+  "object": "chat.completion",
+  "created": 1758481118,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração de um plano de contingência abrangente, que visa prevenir a recorrência da falha no processo decisório ao estabelecer diretrizes e estratégias de longo prazo para resposta a catástrofes e múltiplas vítimas, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1173,
+    "completion_tokens": 98,
+    "total_tokens": 1271,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 213
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

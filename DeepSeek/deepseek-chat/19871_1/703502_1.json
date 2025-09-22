@@ -1,0 +1,28 @@
+{
+  "id": "018d1d7c-040a-45ff-8014-f4d75fa1c0c2",
+  "object": "chat.completion",
+  "created": 1758488712,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de práticas e conformidade com normas e manuais técnicos para assegurar que as autorizações sejam obtidas previamente ao tratamento, abordando a causa raiz da emissão tardia das APACs e promovendo uma mudança estrutural de longo prazo no processo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1186,
+    "completion_tokens": 89,
+    "total_tokens": 1275,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 290
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

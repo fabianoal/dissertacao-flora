@@ -1,0 +1,28 @@
+{
+  "id": "7b119d6e-b3d9-47a1-b769-78595586046d",
+  "object": "chat.completion",
+  "created": 1758475406,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação foca em providenciar a habilitação dos serviços no SCNES, o que envolve uma ação corretiva de longo prazo para garantir conformidade contínua com as normativas, prevenindo a reocorrência da condição de serviços não habilitados, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1171,
+    "completion_tokens": 95,
+    "total_tokens": 1266,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 211
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d933353c-fb76-4d7e-b8c3-37080b5cb274",
+  "object": "chat.completion",
+  "created": 1758488400,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a formalização da contratação com inclusão de indicadores específicos, o que visa implementar um processo estruturado e permanente para garantir o cumprimento contínuo da legislação, abordando a causa subjacente da não conformidade em vez de apenas corrigir a condição atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1120,
+    "completion_tokens": 91,
+    "total_tokens": 1211,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 160
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

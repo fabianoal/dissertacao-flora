@@ -1,0 +1,28 @@
+{
+  "id": "d4d0eca6-1733-47d5-871e-ce68582e7f6f",
+  "object": "chat.completion",
+  "created": 1758468906,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de cumprir integralmente os requisitos legais do Decreto nº 7.892/2013, incluindo a justificativa da vantajosidade e todos os demais elementos, o que visa prevenir futuras inadequações na elaboração de justificativas e garantir conformidade sustentável, caracterizando uma abordagem de longo prazo para evitar a recorrência do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1140,
+    "completion_tokens": 108,
+    "total_tokens": 1248,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 180
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

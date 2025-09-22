@@ -1,0 +1,28 @@
+{
+  "id": "855fb7a6-f49e-44f2-bda1-d2663db8d6af",
+  "object": "chat.completion",
+  "created": 1758484222,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações de acompanhamento, fiscalização, orientação e capacitação para melhorar o uso da ferramenta PEC, visando solucionar a causa subjacente dos registros inadequados e promover mudanças duradouras nos processos de trabalho, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1168,
+    "completion_tokens": 97,
+    "total_tokens": 1265,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 208
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

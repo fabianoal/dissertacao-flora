@@ -1,0 +1,28 @@
+{
+  "id": "5aa215d7-735a-4c2c-834f-cf57d8db481f",
+  "object": "chat.completion",
+  "created": 1758476746,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a adoção de medidas administrativas e legais para notificar responsáveis e exigir ressarcimento, visando prevenir a recorrência da irregularidade através de ações corretivas de longo prazo, como a implementação de processos de fiscalização e cumprimento de normas, em vez de apenas corrigir a condição atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1202,
+    "completion_tokens": 97,
+    "total_tokens": 1299,
+    "prompt_tokens_details": {
+      "cached_tokens": 1152
+    },
+    "prompt_cache_hit_tokens": 1152,
+    "prompt_cache_miss_tokens": 50
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

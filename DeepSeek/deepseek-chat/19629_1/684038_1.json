@@ -1,0 +1,28 @@
+{
+  "id": "16a48320-750e-4610-92a0-776aa2836e62",
+  "object": "chat.completion",
+  "created": 1758478786,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistemático (emissão obrigatória de AIH pelo SISAIH01 e sua inclusão em prontuários) para prevenir a recorrência da condição observada, alinhando-se com soluções de longo prazo e mudanças estruturais, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1112,
+    "completion_tokens": 103,
+    "total_tokens": 1215,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 152
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

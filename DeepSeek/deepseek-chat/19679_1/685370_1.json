@@ -1,0 +1,28 @@
+{
+  "id": "f1fea6e5-9b95-4887-83e1-cef4f6f04101",
+  "object": "chat.completion",
+  "created": 1758479750,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo e sistemático para realizar avaliações de desempenho e inserir os resultados no sistema Transferegov, com base em normativos vigentes, visando prevenir a recorrência da ausência de avaliações e abordando a causa subjacente relacionada à falta de procedimentos regulares.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1104,
+    "completion_tokens": 96,
+    "total_tokens": 1200,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 144
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

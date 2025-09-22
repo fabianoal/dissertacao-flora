@@ -1,0 +1,28 @@
+{
+  "id": "82f5d6d8-d067-44e9-91ee-1690cf1135a0",
+  "object": "chat.completion",
+  "created": 1758474550,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação sistemática e o monitoramento contínuo dos indicadores, visando melhorias duradouras no serviço, o que se alinha com soluções de longo prazo para prevenir a reocorrência da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1135,
+    "completion_tokens": 78,
+    "total_tokens": 1213,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 239
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

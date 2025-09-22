@@ -1,0 +1,28 @@
+{
+  "id": "c895c2b7-24ad-45fd-a003-9f2c98eabd90",
+  "object": "chat.completion",
+  "created": 1758482598,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a publicação de um organograma ou documento similar para incluir formalmente a CMRF na estrutura da SMS, o que visa estabelecer um controle interno permanente e prevenir a reocorrência da falta de estrutura formal, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1109,
+    "completion_tokens": 83,
+    "total_tokens": 1192,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 213
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

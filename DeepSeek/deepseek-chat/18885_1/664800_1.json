@@ -1,0 +1,28 @@
+{
+  "id": "56956d56-4e90-481f-88a1-702ae3fdc005",
+  "object": "chat.completion",
+  "created": 1758468514,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de executar o contrato em conformidade com as cláusulas e legislações específicas, abordando a causa raiz da não comprovação de serviços ao exigir aderência contínua aos termos legais e contratuais, o que visa prevenir a recorrência de pagamentos indevidos no futuro, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1354,
+    "completion_tokens": 108,
+    "total_tokens": 1462,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 394
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

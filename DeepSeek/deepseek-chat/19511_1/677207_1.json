@@ -1,0 +1,28 @@
+{
+  "id": "86ec64a9-ec12-434c-a5af-98de62d27beb",
+  "object": "chat.completion",
+  "created": 1758473586,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe o estabelecimento de medidas para assegurar que as etiquetas de rastreabilidade estejam legíveis e fixadas em todos os prontuários, o que visa prevenir a recorrência da condição observada (etiquetas ausentes ou ilegíveis) através de mudanças estruturais ou processuais de longo prazo, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1372,
+    "completion_tokens": 115,
+    "total_tokens": 1487,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 412
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

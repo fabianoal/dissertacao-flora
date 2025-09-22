@@ -1,0 +1,28 @@
+{
+  "id": "a889f2fd-f651-445e-bd0c-fc5919a661fc",
+  "object": "chat.completion",
+  "created": 1758476874,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo de avaliação semestral, alinhado às competências institucionais, visando prevenir a recorrência da ausência de avaliação e promover mudanças estruturais de longo prazo na gestão dos convênios.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1074,
+    "completion_tokens": 82,
+    "total_tokens": 1156,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 114
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d2d05123-3a5b-449d-a392-90849b6d0614",
+  "object": "chat.completion",
+  "created": 1758488720,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição específica encontrada, que é a falta de emissão de nova AIH para procedimentos compatíveis quando o tempo de permanência excede seis dias, sem abordar mudanças sistêmicas ou de longo prazo para prevenir a recorrência.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1267,
+    "completion_tokens": 85,
+    "total_tokens": 1352,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 371
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

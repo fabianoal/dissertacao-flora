@@ -1,0 +1,28 @@
+{
+  "id": "e10d8671-83e3-4569-b92a-984d6ca7b0b7",
+  "object": "chat.completion",
+  "created": 1758483606,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a inserção de informações específicas nos instrumentos de gestão para garantir transparência e conformidade contínua com normas legais, abordando a causa raiz da falta de informações e promovendo uma solução de longo prazo para prevenir a recorrência da condição.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1120,
+    "completion_tokens": 85,
+    "total_tokens": 1205,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 160
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a1dc3df5-ce82-469f-bd46-8d856fea9e19",
+  "object": "chat.completion",
+  "created": 1758479110,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações para melhorar a formação e qualificação dos profissionais, visando aprimorar o processo de trabalho e a qualidade da atenção, o que aborda a causa raiz do preenchimento inadequado dos prontuários, promovendo mudanças estruturais e de longo prazo, conforme definido para recomendações cause-based.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1099,
+    "completion_tokens": 96,
+    "total_tokens": 1195,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 139
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

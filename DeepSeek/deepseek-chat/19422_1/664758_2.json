@@ -1,0 +1,28 @@
+{
+  "id": "6ec596e8-f437-4e28-81a5-a4ead4eb53ab",
+  "object": "chat.completion",
+  "created": 1758470258,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, especificamente na devolução de recursos financeiros e dedução de valores não pagos, sem propor ações para prevenir a ocorrência futura de falhas na documentação ou processos subjacentes.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1247,
+    "completion_tokens": 78,
+    "total_tokens": 1325,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 287
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

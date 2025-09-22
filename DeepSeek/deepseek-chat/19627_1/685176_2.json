@@ -1,0 +1,28 @@
+{
+  "id": "aa808c9a-ddb4-4e7f-b722-c7a8eb2288c3",
+  "object": "chat.completion",
+  "created": 1758478490,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração de relatórios mensais com base em informações específicas e a adoção de medidas preventivas ou corretivas para garantir o cumprimento contínuo das normas, focando em ações que previnam a recorrência das incompletudes e inconsistências, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1214,
+    "completion_tokens": 96,
+    "total_tokens": 1310,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 254
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

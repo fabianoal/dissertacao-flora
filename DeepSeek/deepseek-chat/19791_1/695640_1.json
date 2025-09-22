@@ -1,0 +1,28 @@
+{
+  "id": "b7199413-1a40-4e8f-97ca-334520fc617e",
+  "object": "chat.completion",
+  "created": 1758483394,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de critérios definidos para classificação de risco, o que envolve a implementação de um processo ou política estruturada para prevenir a recorrência da condição observada (ausência de critérios), caracterizando uma solução de longo prazo e foco na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1196,
+    "completion_tokens": 92,
+    "total_tokens": 1288,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 300
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

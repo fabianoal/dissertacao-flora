@@ -1,0 +1,28 @@
+{
+  "id": "feae1689-5228-4738-92b7-e025af833af2",
+  "object": "chat.completion",
+  "created": 1758468479,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de um sistema de controle de medicamentos eficiente, o que visa implementar uma solução estrutural e de longo prazo para prevenir a recorrência de controles ineficientes de estoques, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1149,
+    "completion_tokens": 88,
+    "total_tokens": 1237,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 189
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

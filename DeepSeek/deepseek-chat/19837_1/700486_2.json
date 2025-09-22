@@ -1,0 +1,28 @@
+{
+  "id": "3f6b66ce-11b4-402d-8157-c6b9d52502be",
+  "object": "chat.completion",
+  "created": 1758485398,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a adoção de procedimentos formais e o cumprimento de normas legais para prevenir futuras ocorrências de incompatibilidade entre dados inseridos e serviços realizados, focando em soluções de longo prazo e mudanças institucionais, em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1221,
+    "completion_tokens": 89,
+    "total_tokens": 1310,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 197
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

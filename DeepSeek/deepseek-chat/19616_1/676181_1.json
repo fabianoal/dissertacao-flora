@@ -1,0 +1,28 @@
+{
+  "id": "d4e73a34-d447-4732-92f5-3453e6347fe4",
+  "object": "chat.completion",
+  "created": 1758477702,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação visa não apenas corrigir a condição atual (verificar registros no CNES), mas também implementar uma ação preventiva de longo prazo (manter atualizadas as informações no CNES de forma periódica), focando na causa subjacente para evitar a recorrência do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1070,
+    "completion_tokens": 83,
+    "total_tokens": 1153,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 110
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

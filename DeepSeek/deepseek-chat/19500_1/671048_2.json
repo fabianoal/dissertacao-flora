@@ -1,0 +1,28 @@
+{
+  "id": "174cc795-55b1-45f9-9d29-ecce146199cc",
+  "object": "chat.completion",
+  "created": 1758473482,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de um processo contínuo de controle e apresentação de documentos comprobatórios, como notas fiscais, para garantir conformidade com normas legais e contratuais, visando prevenir a recorrência da discrepância observada, o que se alinha com soluções de longo prazo típicas de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1126,
+    "completion_tokens": 101,
+    "total_tokens": 1227,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 166
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

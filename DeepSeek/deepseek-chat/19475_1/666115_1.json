@@ -1,0 +1,28 @@
+{
+  "id": "1fadc5bc-ed5e-4dbb-92c5-5ee534edfe48",
+  "object": "chat.completion",
+  "created": 1758472975,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a manutenção contínua e atualizada do registro patrimonial, o que envolve a implementação de um processo ou sistema para evitar que a condição de falta de comprovação ocorra novamente no futuro, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1154,
+    "completion_tokens": 84,
+    "total_tokens": 1238,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 258
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

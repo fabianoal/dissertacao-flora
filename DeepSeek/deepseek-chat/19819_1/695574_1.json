@@ -1,0 +1,28 @@
+{
+  "id": "f16b6fca-b6be-4f3c-8997-5345ed5b92a9",
+  "object": "chat.completion",
+  "created": 1758484574,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a capacitação contínua das equipes de saúde para diagnóstico precoce e manejo de crises, focando em ações preventivas e de longo prazo para evitar a recorrência da condição observada, alinhando-se com a definição de recomendações cause-based.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1148,
+    "completion_tokens": 85,
+    "total_tokens": 1233,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 252
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

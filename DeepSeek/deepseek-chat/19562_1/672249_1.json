@@ -1,0 +1,28 @@
+{
+  "id": "97c00c43-0533-422b-8172-6e7ff69df4cd",
+  "object": "chat.completion",
+  "created": 1758474970,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações contínuas e sistemáticas, como atualização periódica de cadastros, análise de dados, alimentação de sistemas e verificação da qualidade e consistência das informações, visando prevenir a recorrência da discrepância entre os sistemas, o que se alinha com soluções de longo prazo para evitar que a condição volte a ocorrer.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1129,
+    "completion_tokens": 99,
+    "total_tokens": 1228,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 169
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

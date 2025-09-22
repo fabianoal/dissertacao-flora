@@ -1,0 +1,28 @@
+{
+  "id": "7f8ab676-fad5-4b99-a317-fec7e9568317",
+  "object": "chat.completion",
+  "created": 1758476446,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a orientação dos fiscais e gestores para realizar a conferência da documentação comprobatória em conformidade com normativos específicos, visando prevenir futuras desobediências e irregularidades, o que aborda a causa subjacente e promove uma solução de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1185,
+    "completion_tokens": 88,
+    "total_tokens": 1273,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 225
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

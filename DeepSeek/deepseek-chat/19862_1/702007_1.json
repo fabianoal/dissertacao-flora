@@ -1,0 +1,28 @@
+{
+  "id": "0211ab58-f664-47fe-b5ac-ac8dccbb5360",
+  "object": "chat.completion",
+  "created": 1758488292,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de instalações adequadas de forma permanente e estrutural, alinhada a requisitos normativos, visando prevenir a reocorrência da condição inadequada e assegurar a integralidade do atendimento a longo prazo, em vez de apenas corrigir temporariamente a situação atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1165,
+    "completion_tokens": 90,
+    "total_tokens": 1255,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 205
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

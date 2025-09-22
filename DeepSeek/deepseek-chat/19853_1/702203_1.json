@@ -1,0 +1,28 @@
+{
+  "id": "732abe75-d87c-4b64-91dd-d9a58d1d55c1",
+  "object": "chat.completion",
+  "created": 1758487908,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de processos administrativos estruturados, como a inclusão de solicitações médicas, autorização por comissão e critérios para pagamento de acompanhantes, que visam prevenir a recorrência das inconsistências ao alinhar as práticas com a legislação vigente, abordando as causas subjacentes em vez de apenas corrigir as condições atuais.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1239,
+    "completion_tokens": 109,
+    "total_tokens": 1348,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 279
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

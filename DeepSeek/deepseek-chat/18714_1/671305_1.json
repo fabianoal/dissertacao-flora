@@ -1,0 +1,28 @@
+{
+  "id": "bf6beed1-ac85-45d1-ad1f-0861e03432f5",
+  "object": "chat.completion",
+  "created": 1758467062,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfoca a implementação de medidas preventivas e duradouras para garantir o cumprimento contínuo dos requisitos legais em futuras contratações, visando evitar a recorrência da não conformidade observada, em vez de apenas corrigir a condição específica do processo de dispensa de licitação em questão.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1074,
+    "completion_tokens": 93,
+    "total_tokens": 1167,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 178
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "269c8837-e773-42a6-b499-b1cf4a48d562",
+  "object": "chat.completion",
+  "created": 1758485102,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração e integração de instrumentos de gestão, diretrizes específicas e indicadores de avaliação, visando mudanças estruturais e de longo prazo para prevenir a ausência de ações de saúde mental nos instrumentos de gestão, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1335,
+    "completion_tokens": 96,
+    "total_tokens": 1431,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 375
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

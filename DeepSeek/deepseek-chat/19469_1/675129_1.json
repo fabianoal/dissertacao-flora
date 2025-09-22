@@ -1,0 +1,28 @@
+{
+  "id": "53c9d2e2-507a-4bc2-bb95-86e595594285",
+  "object": "chat.completion",
+  "created": 1758470634,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de seguir normas específicas para garantir o quantitativo mínimo de profissionais e a manutenção do serviço de forma contínua, o que visa prevenir a recorrência da insuficiência de profissionais, caracterizando uma solução de longo prazo e focada na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1131,
+    "completion_tokens": 89,
+    "total_tokens": 1220,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 171
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

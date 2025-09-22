@@ -1,0 +1,28 @@
+{
+  "id": "96f0f9c7-2c2a-49d9-a51c-91ae9fe3ba31",
+  "object": "chat.completion",
+  "created": 1758468333,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de medidas para assegurar o cumprimento da carga horária integral de forma contínua, alinhando-se com normas e políticas nacionais, o que visa prevenir a recorrência da não conformidade através de mudanças estruturais e de longo prazo, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1244,
+    "completion_tokens": 99,
+    "total_tokens": 1343,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 284
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c8bf1f09-1b91-4c95-98d8-05236cea228e",
+  "object": "chat.completion",
+  "created": 1758473174,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de cumprir diretrizes normativas para garantir que os dados sejam gerados adequadamente a partir do trabalho dos profissionais, abordando a causa raiz da discrepância (falta de aderência aos procedimentos estabelecidos) e promovendo uma solução de longo prazo para prevenir a recorrência.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1090,
+    "completion_tokens": 93,
+    "total_tokens": 1183,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 130
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

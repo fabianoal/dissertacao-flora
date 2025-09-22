@@ -1,0 +1,28 @@
+{
+  "id": "bb5b4b0c-2383-4bd5-86d2-061c78acd6b4",
+  "object": "chat.completion",
+  "created": 1758473770,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, propondo a dedução de valores não comprovados de recursos retidos, sem abordar ações preventivas ou de longo prazo para evitar a recorrência da falta de documentação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1265,
+    "completion_tokens": 76,
+    "total_tokens": 1341,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 305
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

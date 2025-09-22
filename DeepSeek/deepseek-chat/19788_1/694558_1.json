@@ -1,0 +1,28 @@
+{
+  "id": "6f1c26cd-310b-4b6a-9703-a1e2e73020df",
+  "object": "chat.completion",
+  "created": 1758483322,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de atividades de acompanhamento dos familiares, o que envolve a criação e adoção de práticas estruturadas e contínuas (como grupos de orientação, intervenções domiciliares e oferta de dispositivos de apoio) para prevenir a recorrência da condição observada (falta de acompanhamento), focando em soluções de longo prazo que abordam a causa subjacente da não conformidade.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1333,
+    "completion_tokens": 119,
+    "total_tokens": 1452,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 373
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

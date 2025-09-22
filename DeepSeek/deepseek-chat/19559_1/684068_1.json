@@ -1,0 +1,28 @@
+{
+  "id": "a340f9ec-f1f0-4b50-9677-5b00c33ce218",
+  "object": "chat.completion",
+  "created": 1758474894,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de medidas de fiscalização e garantia para assegurar que os registros sejam mantidos de forma completa e em conformidade com normas específicas, visando prevenir a reocorrência da condição de registros incompletos, o que caracteriza um foco na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1135,
+    "completion_tokens": 90,
+    "total_tokens": 1225,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 175
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

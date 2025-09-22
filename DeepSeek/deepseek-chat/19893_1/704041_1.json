@@ -1,0 +1,28 @@
+{
+  "id": "48cf6346-abe0-4358-b26d-a00f476d3096",
+  "object": "chat.completion",
+  "created": 1758508995,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a criação de mecanismos de monitoramento e avaliação para garantir conformidade contínua com as diretrizes normativas, focando na prevenção de futuras irregularidades ao estabelecer processos sistemáticos e de longo prazo, em vez de apenas corrigir as condições atuais específicas.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1426,
+    "completion_tokens": 86,
+    "total_tokens": 1512,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 530
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

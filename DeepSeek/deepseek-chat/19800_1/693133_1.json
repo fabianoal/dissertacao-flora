@@ -1,0 +1,28 @@
+{
+  "id": "8492012b-765f-4f50-be2e-82875be96245",
+  "object": "chat.completion",
+  "created": 1758483710,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de ações de manutenção preventiva e corretiva contínuas, visando evitar a reocorrência da falta de comprovação de manutenção e assegurar condições estruturais adequadas a longo prazo, alinhando-se com soluções que abordam a causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1159,
+    "completion_tokens": 93,
+    "total_tokens": 1252,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 199
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

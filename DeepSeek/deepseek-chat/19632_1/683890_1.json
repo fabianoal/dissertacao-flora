@@ -1,0 +1,28 @@
+{
+  "id": "b34a35a7-0088-4c5b-8103-a92d58d99dc7",
+  "object": "chat.completion",
+  "created": 1758478834,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo de licitação pública para todas as aquisições futuras, visando prevenir a recorrência da irregularidade ao estabelecer um procedimento contínuo e alinhado com a legislação, em vez de apenas corrigir as aquisições específicas já realizadas.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1173,
+    "completion_tokens": 89,
+    "total_tokens": 1262,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 213
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

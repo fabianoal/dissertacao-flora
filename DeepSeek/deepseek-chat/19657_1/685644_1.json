@@ -1,0 +1,28 @@
+{
+  "id": "633d248c-ecb2-4ed1-be1a-a7be2859a747",
+  "object": "chat.completion",
+  "created": 1758479274,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações como solicitar exames precocemente, preferir testes rápidos, criar fluxos facilitados e acompanhar gestantes, que visam implementar mudanças estruturais e processuais para prevenir a não comprovação das ações no futuro, focando na causa subjacente da deficiência.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1112,
+    "completion_tokens": 91,
+    "total_tokens": 1203,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 152
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

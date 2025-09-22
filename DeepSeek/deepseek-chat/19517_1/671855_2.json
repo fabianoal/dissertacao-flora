@@ -1,0 +1,28 @@
+{
+  "id": "7ca46261-8aba-4d26-b88a-67a77cd56d07",
+  "object": "chat.completion",
+  "created": 1758473794,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a adoção de procedimentos legais e administrativos para prevenir futuras ocorrências similares, como dispensações em nome de pessoas falecidas, focando em mudanças sistêmicas de longo prazo, como a implementação de processos que garantam a conformidade e evitem danos, em vez de apenas corrigir a condição específica atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1146,
+    "completion_tokens": 101,
+    "total_tokens": 1247,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 186
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

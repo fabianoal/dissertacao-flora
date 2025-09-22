@@ -1,0 +1,28 @@
+{
+  "id": "73feb016-dd65-4f96-86de-6d66db29921e",
+  "object": "chat.completion",
+  "created": 1758480702,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação aborda a causa raiz das falhas ao exigir a implementação de processos e sistemas permanentes, como a regularização da emissão e guarda de prontuários com padrões específicos e o uso de certificação digital, visando prevenir a recorrência das inconformidades a longo prazo, em vez de apenas corrigir as condições atuais de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1428,
+    "completion_tokens": 103,
+    "total_tokens": 1531,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 532
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

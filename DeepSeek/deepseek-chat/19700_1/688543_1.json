@@ -1,0 +1,28 @@
+{
+  "id": "09623977-fff6-4185-b600-c94cd7cb2a2a",
+  "object": "chat.completion",
+  "created": 1758480530,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação direciona a SVSA/MS a adotar procedimentos para correção de inconformidades cadastrais, conforme competência federal, visando implementar ações necessárias para evitar a recorrência da desatualização do CNES, o que caracteriza um foco na causa subjacente e não apenas na correção imediata da condição.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1144,
+    "completion_tokens": 98,
+    "total_tokens": 1242,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 184
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

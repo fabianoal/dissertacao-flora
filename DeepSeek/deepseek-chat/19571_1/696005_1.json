@@ -1,0 +1,28 @@
+{
+  "id": "52ba324d-f69b-47e2-8b95-dd072da90b41",
+  "object": "chat.completion",
+  "created": 1758475346,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a organização de uma linha de cuidados integrais que abrange todos os níveis de atenção, visando instituir mecanismos formais e duradouros para a regulação do acesso e a garantia de oferta adequada, focando na causa subjacente da falta de medidas formais e não apenas na correção imediata da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1267,
+    "completion_tokens": 101,
+    "total_tokens": 1368,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 307
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

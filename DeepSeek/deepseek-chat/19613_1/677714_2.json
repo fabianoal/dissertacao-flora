@@ -1,0 +1,28 @@
+{
+  "id": "e9394309-e6b4-48f4-a229-5055e70c61e6",
+  "object": "chat.completion",
+  "created": 1758477066,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação visa não apenas corrigir a condição imediata (ausência de documentação comprobatória), mas também estabelecer um processo contínuo de justificativa e inserção de documentação no sistema Transferegov, alinhado a normas legais, para prevenir a recorrência da inconformidade e promover melhorias estruturais na gestão de convênios.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1177,
+    "completion_tokens": 102,
+    "total_tokens": 1279,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 153
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

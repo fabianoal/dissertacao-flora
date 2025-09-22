@@ -1,0 +1,28 @@
+{
+  "id": "cf0c2b81-5482-43a7-9fe6-1df6524a9ddf",
+  "object": "chat.completion",
+  "created": 1758477918,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação visa implementar um processo contínuo e preventivo ao exigir a inserção do contrato de serviços de controladoria no sistema Transferegov, o que estabelece uma solução de longo prazo para evitar a ausência futura de tais contratos, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1079,
+    "completion_tokens": 97,
+    "total_tokens": 1176,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 119
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

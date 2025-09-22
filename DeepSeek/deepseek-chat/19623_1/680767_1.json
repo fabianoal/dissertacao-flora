@@ -1,0 +1,28 @@
+{
+  "id": "0518ccb5-b1c5-4389-84d8-bddb12a407d2",
+  "object": "chat.completion",
+  "created": 1758478190,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é o pagamento indevido por serviços não realizados, ao exigir a devolução dos valores, sem propor ações para prevenir a recorrência do problema, como melhorias nos sistemas de monitoramento ou processos de verificação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1105,
+    "completion_tokens": 85,
+    "total_tokens": 1190,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 209
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

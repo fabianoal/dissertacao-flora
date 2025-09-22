@@ -1,0 +1,28 @@
+{
+  "id": "1d3c1b20-608c-49ff-a594-82574672dbba",
+  "object": "chat.completion",
+  "created": 1758476878,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe uma ação que visa estabelecer ou reforçar a responsabilidade institucional do Fundo Nacional de Saúde no acompanhamento da conformidade financeira do convênio, abordando a causa subjacente da ausência de atuação do fiscal financeiro, o que pode prevenir a recorrência de problemas similares no futuro, em vez de apenas corrigir a condição específica atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1060,
+    "completion_tokens": 106,
+    "total_tokens": 1166,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 100
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

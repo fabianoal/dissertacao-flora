@@ -1,0 +1,28 @@
+{
+  "id": "e20aaa75-a23f-402d-89ef-4d4ffdd86d46",
+  "object": "chat.completion",
+  "created": 1758480046,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo de atualização de informações no CNES, o que visa prevenir futuros excessos de carga horária ao assegurar que os dados estejam sempre corretos e em conformidade com a normativa, abordando a causa subjacente da não conformidade em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1068,
+    "completion_tokens": 99,
+    "total_tokens": 1167,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 108
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

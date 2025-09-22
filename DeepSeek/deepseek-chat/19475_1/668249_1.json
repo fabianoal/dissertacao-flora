@@ -1,0 +1,28 @@
+{
+  "id": "bcc72a4b-e5dd-4de0-8339-5a73abe8fa58",
+  "object": "chat.completion",
+  "created": 1758472975,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a devolução dos recursos repassados indevidamente, sem propor ações para prevenir a ocorrência futura de repasses indevidos, como melhorias em processos de verificação ou controle.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1138,
+    "completion_tokens": 79,
+    "total_tokens": 1217,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 242
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

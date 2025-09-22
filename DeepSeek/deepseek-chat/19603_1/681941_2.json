@@ -1,0 +1,28 @@
+{
+  "id": "13a77eb8-4e2e-467f-8155-60c337166309",
+  "object": "chat.completion",
+  "created": 1758476070,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a devolução dos recursos recebidos irregularmente com acréscimos legais e a adoção de procedimentos conforme a portaria específica, visando prevenir futuras ocorrências similares e fortalecer a conformidade normativa, o que caracteriza uma solução de longo prazo para evitar a repetição da condição irregular.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1163,
+    "completion_tokens": 96,
+    "total_tokens": 1259,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 203
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

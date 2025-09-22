@@ -1,0 +1,28 @@
+{
+  "id": "257be1c3-bd5e-4173-8319-bef6c3dbcba9",
+  "object": "chat.completion",
+  "created": 1758470126,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição irregular, exigindo a apresentação de documentos específicos (documento oficial com foto e CPF, e prescrição médica) para dispensar medicamentos, conforme normas existentes, sem abordar as causas subjacentes, como falhas em processos ou políticas que permitiram as irregularidades.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1079,
+    "completion_tokens": 95,
+    "total_tokens": 1174,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 183
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

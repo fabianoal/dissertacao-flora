@@ -1,0 +1,28 @@
+{
+  "id": "17590b38-b455-448a-b1da-c1adcbf55138",
+  "object": "chat.completion",
+  "created": 1758477302,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de um processo de acompanhamento e monitoramento contínuo dos registros de horário de trabalho, o que visa prevenir a recorrência do excesso de carga horária, abordando a causa subjacente relacionada à gestão e conformidade normativa, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1081,
+    "completion_tokens": 99,
+    "total_tokens": 1180,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 121
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

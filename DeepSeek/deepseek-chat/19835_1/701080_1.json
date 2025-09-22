@@ -1,0 +1,28 @@
+{
+  "id": "5edb7206-0192-467f-9123-8a799261ace3",
+  "object": "chat.completion",
+  "created": 1758485322,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a criação de rotinas, protocolos e/ou fluxos para garantir o acompanhamento dos familiares, o que visa prevenir a recorrência da falha observada ao estabelecer uma solução estrutural e de longo prazo, alinhada com as diretrizes normativas, em vez de apenas corrigir a condição atual de forma temporária.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1181,
+    "completion_tokens": 101,
+    "total_tokens": 1282,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 285
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

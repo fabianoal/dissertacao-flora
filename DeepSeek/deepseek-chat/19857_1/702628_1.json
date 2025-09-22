@@ -1,0 +1,28 @@
+{
+  "id": "a3e882d6-0117-4306-bdf9-c5524e3feb44",
+  "object": "chat.completion",
+  "created": 1758488152,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a instituição de uma rotina periódica de atualização de informações, definição de prazos e responsabilidades, e o cadastro integral de dados em conformidade com normas, visando prevenir a recorrência da condição de desatualização e não disponibilidade, caracterizando uma solução de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1180,
+    "completion_tokens": 94,
+    "total_tokens": 1274,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 284
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

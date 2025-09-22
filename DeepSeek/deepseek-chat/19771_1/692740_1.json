@@ -1,0 +1,28 @@
+{
+  "id": "c0cc556a-b4c0-474e-926e-39851a388e0d",
+  "object": "chat.completion",
+  "created": 1758482586,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação propõe a correção imediata da condição encontrada (reparos e reformas nas instalações físicas) para atender aos requisitos normativos, sem abordar ações preventivas ou de longo prazo para evitar a recorrência de problemas de manutenção.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1043,
+    "completion_tokens": 83,
+    "total_tokens": 1126,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 147
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

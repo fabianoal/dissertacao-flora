@@ -1,0 +1,28 @@
+{
+  "id": "30258f66-0cb1-407b-8308-a23728574d69",
+  "object": "chat.completion",
+  "created": 1758482486,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de controles permanentes, como rotinas de monitoramento com indicadores de desempenho, elaboração e implementação de POPs, e mensuração contínua de atividades, visando prevenir a recorrência da falha no gerenciamento da Cadeia de Frio, alinhando-se com soluções de longo prazo para a causa raiz.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1230,
+    "completion_tokens": 107,
+    "total_tokens": 1337,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 270
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

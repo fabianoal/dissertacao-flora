@@ -1,0 +1,28 @@
+{
+  "id": "bfd70cdc-83ff-4335-994f-2c5412949176",
+  "object": "chat.completion",
+  "created": 1758480138,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a elaboração de relatórios mensais e a adoção de medidas preventivas ou corretivas para evitar a recorrência de impropriedades no acompanhamento, focando em ações de longo prazo que abordam a causa subjacente da não conformidade, como a implementação de processos contínuos de monitoramento e correção.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1166,
+    "completion_tokens": 99,
+    "total_tokens": 1265,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 206
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

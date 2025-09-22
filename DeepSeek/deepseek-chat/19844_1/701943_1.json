@@ -1,0 +1,28 @@
+{
+  "id": "4eb982a8-8a24-4e14-928f-afb4c2ba7bc2",
+  "object": "chat.completion",
+  "created": 1758487560,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a necessidade de manter continuamente as instalações em conformidade com padrões estabelecidos (Resolução RDC nº 63), o que implica a implementação de práticas e processos de longo prazo para garantir condições adequadas de conservação e segurança, abordando a causa subjacente da deficiência estrutural em vez de apenas corrigir temporariamente a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1119,
+    "completion_tokens": 104,
+    "total_tokens": 1223,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 159
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

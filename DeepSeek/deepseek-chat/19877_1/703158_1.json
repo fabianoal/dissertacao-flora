@@ -1,0 +1,28 @@
+{
+  "id": "6eb67655-e18d-44fd-9623-78ed632e3b97",
+  "object": "chat.completion",
+  "created": 1758488792,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a adoção de procedimentos estabelecidos em normativos legais para prevenir a recorrência do fato apresentado, focando em ações de longo prazo que visam evitar a repetição da irregularidade, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1160,
+    "completion_tokens": 86,
+    "total_tokens": 1246,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 200
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

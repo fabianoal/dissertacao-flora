@@ -1,0 +1,28 @@
+{
+  "id": "06aafbc8-8e05-48d5-87e7-f1c1dc6032e7",
+  "object": "chat.completion",
+  "created": 1758488296,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a formalização e instituição da CISTT por meio de resolução específica, assegurando participação de diversos segmentos e alinhamento com normas vigentes, o que visa prevenir a não existência da comissão no futuro, abordando a causa subjacente da constatação e promovendo uma solução de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1186,
+    "completion_tokens": 100,
+    "total_tokens": 1286,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 226
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

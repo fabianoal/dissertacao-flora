@@ -1,0 +1,28 @@
+{
+  "id": "5bba2b57-d999-4fd4-b6c8-dc828035bca0",
+  "object": "chat.completion",
+  "created": 1758484786,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a retificação da produção ambulatorial com base em parâmetros normativos e éticos que estabelecem condições estruturais e profissionais permanentes, visando prevenir a reincidência da incompatibilidade entre a produção informada e a capacidade instalada, caracterizando uma solução de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1303,
+    "completion_tokens": 88,
+    "total_tokens": 1391,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 343
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

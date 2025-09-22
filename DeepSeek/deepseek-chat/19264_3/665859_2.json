@@ -1,0 +1,28 @@
+{
+  "id": "47df3f3e-e678-4356-82f0-f68ed416013c",
+  "object": "chat.completion",
+  "created": 1758469326,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a cobrança excessiva ao SUS, ao propor a devolução do valor indevidamente cobrado com acréscimos legais, sem abordar causas subjacentes ou implementar medidas preventivas para evitar recorrências.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1318,
+    "completion_tokens": 86,
+    "total_tokens": 1404,
+    "prompt_tokens_details": {
+      "cached_tokens": 1088
+    },
+    "prompt_cache_hit_tokens": 1088,
+    "prompt_cache_miss_tokens": 230
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

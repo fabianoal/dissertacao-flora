@@ -1,0 +1,28 @@
+{
+  "id": "2b4dc2b7-90bc-42ea-b2ca-8a774abb1266",
+  "object": "chat.completion",
+  "created": 1758479918,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação orienta a atualização contínua das informações no CNES, o que visa prevenir futuras ocorrências de excesso de carga horária ao assegurar que os registros estejam sempre alinhados com as normas, abordando a causa subjacente de desatualização de dados em vez de apenas corrigir a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1061,
+    "completion_tokens": 95,
+    "total_tokens": 1156,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 101
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

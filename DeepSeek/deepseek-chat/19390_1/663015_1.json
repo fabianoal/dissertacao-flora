@@ -1,0 +1,28 @@
+{
+  "id": "ca4de432-a06a-4882-9c29-eca7c4cda584",
+  "object": "chat.completion",
+  "created": 1758469942,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é o recebimento indevido de recursos, ao exigir a devolução dos valores, sem propor ações para prevenir a ocorrência futura de inserções fictícias ou melhorar processos subjacentes.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1289,
+    "completion_tokens": 82,
+    "total_tokens": 1371,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 265
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

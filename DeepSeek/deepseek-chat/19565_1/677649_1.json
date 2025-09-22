@@ -1,0 +1,28 @@
+{
+  "id": "1b9e8161-310d-4c1c-b978-1cad483412ae",
+  "object": "chat.completion",
+  "created": 1758475090,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação se concentra em corrigir a condição atual de instalações físicas deficientes por meio de reformas e reparos, sem abordar explicitamente as causas subjacentes, como falhas em processos de manutenção preventiva ou gestão de recursos, que poderiam evitar a recorrência do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1112,
+    "completion_tokens": 88,
+    "total_tokens": 1200,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 152
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c4b121a1-2c40-497f-801a-cdf4f1d7d532",
+  "object": "chat.completion",
+  "created": 1758480818,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações estruturais e de longo prazo, como organizar o fluxo assistencial, implementar protocolos, estabelecer metas, e capacitar equipes, visando prevenir a reocorrência da insuficiência de informações e melhorar integralmente o sistema de saúde, indo além da correção imediata da condição observada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1733,
+    "completion_tokens": 98,
+    "total_tokens": 1831,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 837
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "189d7e38-3877-463a-8e9f-f7fe4936ae45",
+  "object": "chat.completion",
+  "created": 1758475410,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de processos contínuos de controle e avaliação dos serviços de saúde, incluindo avaliações de estrutura, equipe, compatibilidade de casos e qualidade do serviço, o que visa prevenir a recorrência da falta de fiscalização e promover melhorias estruturais de longo prazo no sistema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1128,
+    "completion_tokens": 89,
+    "total_tokens": 1217,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 168
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

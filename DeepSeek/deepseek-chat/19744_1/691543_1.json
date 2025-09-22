@@ -1,0 +1,28 @@
+{
+  "id": "cfc9962e-0d0b-4802-a481-0793c73e9961",
+  "object": "chat.completion",
+  "created": 1758481530,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de treinamentos regulares e um sistema formal de registros diários, que visam abordar a causa raiz da falta de rotina estabelecida, promovendo mudanças de longo prazo na cultura operacional e nos processos, em vez de apenas corrigir a condição imediata.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1315,
+    "completion_tokens": 91,
+    "total_tokens": 1406,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 355
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "23e7f831-9c4d-4cb3-a3a5-f8da06458a7b",
+  "object": "chat.completion",
+  "created": 1758468910,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações como apresentar justificativa da vantagem, realizar pesquisa de preços, e efetuar prévias consultas, que visam estabelecer procedimentos sistemáticos e preventivos para evitar a recorrência da inadequação na elaboração de justificativas, alinhando-se com soluções de longo prazo que abordam a causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1135,
+    "completion_tokens": 101,
+    "total_tokens": 1236,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 175
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

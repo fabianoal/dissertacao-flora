@@ -1,0 +1,28 @@
+{
+  "id": "f91d6d06-7176-4349-81ad-5583922177a0",
+  "object": "chat.completion",
+  "created": 1758469602,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de estruturas e mecanismos permanentes de controle, avaliação e fiscalização, conforme a legislação, visando prevenir a reocorrência da falta de monitoramento, o que caracteriza um foco na causa subjacente e não apenas na correção temporária da condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1136,
+    "completion_tokens": 90,
+    "total_tokens": 1226,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 240
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

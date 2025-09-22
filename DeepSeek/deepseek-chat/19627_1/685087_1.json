@@ -1,0 +1,28 @@
+{
+  "id": "eee06d6e-312a-4eeb-938c-31a551c6d00f",
+  "object": "chat.completion",
+  "created": 1758478526,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a revisão de normativos internos para definir padrões, processos e fluxos de fiscalização, visando prevenir a recorrência da ausência de atuação do fiscal financeiro, o que envolve uma solução de longo prazo e aborda a causa subjacente da falha no acompanhamento de convênios.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1123,
+    "completion_tokens": 96,
+    "total_tokens": 1219,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 163
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

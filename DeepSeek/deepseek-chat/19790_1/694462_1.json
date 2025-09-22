@@ -1,0 +1,28 @@
+{
+  "id": "7215c188-fe4d-49bc-91b7-78eea2c6b95d",
+  "object": "chat.completion",
+  "created": 1758483374,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo contínuo de avaliação e monitoramento, que visa prevenir a recorrência da falha identificada (não realização de avaliação e monitoramento) e está alinhada com diretrizes normativas de longo prazo, focando na causa subjacente da ineficiência na coordenação da RAPS.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1117,
+    "completion_tokens": 101,
+    "total_tokens": 1218,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 157
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

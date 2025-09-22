@@ -1,0 +1,28 @@
+{
+  "id": "688a53a8-ff68-4514-9318-d48fbf0d63b8",
+  "object": "chat.completion",
+  "created": 1758480782,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de práticas e procedimentos permanentes, como o cumprimento de portarias que estabelecem a necessidade de manter documentos originais, autenticidade, integridade, revisão por diretor clínico, e encaminhamento oportuno, visando prevenir a recorrência de inconsistências no preenchimento de laudos, abordando as causas subjacentes em vez de apenas corrigir as condições atuais.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1303,
+    "completion_tokens": 119,
+    "total_tokens": 1422,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 407
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

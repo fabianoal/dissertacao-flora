@@ -1,0 +1,28 @@
+{
+  "id": "54d0a60c-68a4-4bf9-97e5-7407398f00cb",
+  "object": "chat.completion",
+  "created": 1758487548,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a pactuação e publicação da resolução da CIB para regularizar a implantação do CEREST, o que envolve ações de longo prazo, como estabelecer acordos formais e garantir conformidade contínua com a legislação, visando prevenir a reocorrência da falta de documentação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1152,
+    "completion_tokens": 92,
+    "total_tokens": 1244,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 256
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

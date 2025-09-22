@@ -1,0 +1,28 @@
+{
+  "id": "2e6b0bf1-c816-4339-8f99-5e9fba8b2f67",
+  "object": "chat.completion",
+  "created": 1758469990,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a falta de comprovação de uso de DMIs em AIHs, ao solicitar a conferência do lançamento de notas fiscais no prontuário do paciente, sem propor ações para prevenir a recorrência do problema, como mudanças em processos ou políticas.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1061,
+    "completion_tokens": 96,
+    "total_tokens": 1157,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 101
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

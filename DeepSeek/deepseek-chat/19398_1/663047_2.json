@@ -1,0 +1,28 @@
+{
+  "id": "76004fae-f180-4641-8eb1-4c0a7b9bcf32",
+  "object": "chat.completion",
+  "created": 1758470142,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação visa a adoção de procedimentos para evitar a ocorrência futura de dispensação de medicamentos em nome de pessoas falecidas, focando em ações de longo prazo para eliminar a causa raiz do problema, conforme estabelecido em decretos, em vez de apenas corrigir a condição específica atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1166,
+    "completion_tokens": 90,
+    "total_tokens": 1256,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 206
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

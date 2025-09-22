@@ -1,0 +1,28 @@
+{
+  "id": "8ff17b98-5ec2-4859-aba7-839a66094f3e",
+  "object": "chat.completion",
+  "created": 1758483074,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de normas e procedimentos como rotina de trabalho para verificar o funcionamento dos equipamentos, o que visa prevenir a recorrência da falta de verificação ao estabelecer um controle interno permanente, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1273,
+    "completion_tokens": 87,
+    "total_tokens": 1360,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 313
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

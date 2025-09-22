@@ -1,0 +1,28 @@
+{
+  "id": "f899c8c6-f55d-443a-95a9-f1afd29bccfc",
+  "object": "chat.completion",
+  "created": 1758475586,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação está vinculada a uma constatação anterior (n.° 684803), que provavelmente aborda causas subjacentes da disponibilidade limitada da diálise peritoneal, sugerindo ações corretivas de longo prazo para resolver a raiz do problema, em vez de apenas corrigir a condição atual temporariamente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1062,
+    "completion_tokens": 91,
+    "total_tokens": 1153,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 102
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

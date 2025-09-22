@@ -1,0 +1,28 @@
+{
+  "id": "8be59005-0f7d-46a9-ae2c-34bc84a4b877",
+  "object": "chat.completion",
+  "created": 1758468738,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a inclusão de uma cláusula específica em futuros convênios para prevenir a ocorrência de despesas indevidas, abordando a causa raiz (falta de previsão contratual) e não apenas corrigindo a condição atual, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1208,
+    "completion_tokens": 94,
+    "total_tokens": 1302,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 248
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "bf06cdf5-a5c1-4b8a-bce2-73971ea24e4d",
+  "object": "chat.completion",
+  "created": 1758477098,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a orientação dos fiscais técnicos e gestores para realizar a conferência da documentação comprobatória de forma contínua e em conformidade com normas específicas, visando prevenir a ausência de comprovação de despesas no futuro, o que caracteriza uma solução de longo prazo para evitar a recorrência do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1152,
+    "completion_tokens": 100,
+    "total_tokens": 1252,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 192
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "4d4e80ac-3b81-47c6-85f6-f8d0c8f396ca",
+  "object": "chat.completion",
+  "created": 1758479310,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações contínuas e estruturais, como alimentar, analisar e verificar a qualidade e consistência dos dados, visando prevenir a reocorrência da discrepância entre os dados consolidados e os prontuários, alinhando-se com soluções de longo prazo para melhorar a integridade dos sistemas de informação.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1083,
+    "completion_tokens": 96,
+    "total_tokens": 1179,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 123
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

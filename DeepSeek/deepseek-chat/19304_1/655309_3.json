@@ -1,0 +1,28 @@
+{
+  "id": "65a1c6b5-5e84-4a4c-acf9-504a4d55fe3c",
+  "object": "chat.completion",
+  "created": 1758469490,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de medidas efetivas de controle e fiscalização contínuas, como supervisão e avaliação analítica, para garantir conformidade normativa e prevenir a recorrência de laudos incompletos, indo além da correção imediata da condição encontrada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1180,
+    "completion_tokens": 86,
+    "total_tokens": 1266,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 220
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

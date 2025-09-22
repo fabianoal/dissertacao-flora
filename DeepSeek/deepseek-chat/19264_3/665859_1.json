@@ -1,0 +1,28 @@
+{
+  "id": "aeed55ba-8807-435c-99ea-bcc6dd7c35c0",
+  "object": "chat.completion",
+  "created": 1758469322,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a cobrança indevida ao SUS, ao exigir a devolução do valor específico identificado, sem propor ações para prevenir a recorrência da irregularidade no futuro.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1272,
+    "completion_tokens": 76,
+    "total_tokens": 1348,
+    "prompt_tokens_details": {
+      "cached_tokens": 1088
+    },
+    "prompt_cache_hit_tokens": 1088,
+    "prompt_cache_miss_tokens": 184
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

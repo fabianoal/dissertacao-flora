@@ -1,0 +1,28 @@
+{
+  "id": "1c0722e0-a962-4d12-995f-e233ed0f3891",
+  "object": "chat.completion",
+  "created": 1758484406,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de uma rotina diária estabelecida para verificação do funcionamento dos equipamentos, o que visa prevenir futuras ocorrências da condição observada (falta de comprovação de rotina) ao implementar um controle interno contínuo e de longo prazo, alinhando-se com a definição de recomendações com foco na causa.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1285,
+    "completion_tokens": 105,
+    "total_tokens": 1390,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 325
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

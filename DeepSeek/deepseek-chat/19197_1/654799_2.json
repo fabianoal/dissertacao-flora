@@ -1,0 +1,28 @@
+{
+  "id": "71dde5e3-60f3-4e33-8f86-d7b62e33892d",
+  "object": "chat.completion",
+  "created": 1758468882,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de uma estrutura processual permanente, conforme a Orientação Normativa AGU nº 02/2009, para garantir que todos os instrumentos e aditivos sejam integrados em um único processo administrativo, o que visa prevenir futuras inadequações na instrução processual, abordando a causa raiz e não apenas corrigindo a condição atual.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1113,
+    "completion_tokens": 101,
+    "total_tokens": 1214,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 153
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

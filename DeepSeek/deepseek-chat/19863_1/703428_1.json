@@ -1,0 +1,28 @@
+{
+  "id": "d5e42fbb-61f5-4f5b-99e0-662c73f0ae32",
+  "object": "chat.completion",
+  "created": 1758488448,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a revisão dos Procedimentos Operacionais Padrão (POPs) para garantir conformidade futura e prevenir a recorrência da não comprovação, alinhando-se com soluções de longo prazo que abordam a causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1088,
+    "completion_tokens": 79,
+    "total_tokens": 1167,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 128
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

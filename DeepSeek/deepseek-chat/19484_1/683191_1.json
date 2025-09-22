@@ -1,0 +1,28 @@
+{
+  "id": "68e43c6b-bfd6-47b1-80b2-e59ab1fce642",
+  "object": "chat.completion",
+  "created": 1758473130,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a correção do fluxo documental e processual para evitar ou mitigar o risco de futuros atos administrativos irregulares, focando em mudanças estruturais de longo prazo, como o cumprimento de leis e portarias, em vez de apenas corrigir a condição específica de pagamentos indevidos já realizados.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1398,
+    "completion_tokens": 98,
+    "total_tokens": 1496,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 438
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

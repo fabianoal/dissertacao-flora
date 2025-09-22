@@ -1,0 +1,28 @@
+{
+  "id": "36c88250-7bf1-420c-ad10-5166608a406a",
+  "object": "chat.completion",
+  "created": 1758473690,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação enfatiza a implementação de medidas de controle e avaliação contínua, conforme manuais e portarias, para garantir que a produção ambulatorial seja fidedigna no longo prazo, abordando a causa raiz das discrepâncias nos dados, em vez de apenas corrigir as condições específicas encontradas.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1288,
+    "completion_tokens": 89,
+    "total_tokens": 1377,
+    "prompt_tokens_details": {
+      "cached_tokens": 1088
+    },
+    "prompt_cache_hit_tokens": 1088,
+    "prompt_cache_miss_tokens": 200
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

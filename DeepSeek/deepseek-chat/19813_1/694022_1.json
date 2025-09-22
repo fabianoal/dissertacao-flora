@@ -1,0 +1,28 @@
+{
+  "id": "59e98fde-ae55-42a7-8765-97f4e06f4034",
+  "object": "chat.completion",
+  "created": 1758484282,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a definição de critérios para classificação de risco e monitoramento da implantação, focando em ações preventivas e de longo prazo para evitar a recorrência da condição observada, como a falta de critérios definidos, alinhando-se com soluções que abordam a causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1260,
+    "completion_tokens": 93,
+    "total_tokens": 1353,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 364
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "19485cd9-2053-423f-88fc-be4f1f804b87",
+  "object": "chat.completion",
+  "created": 1758480338,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de uma prática contínua (priorização do SINAPI ou justificativa formal) para prevenir a recorrência da não priorização, alinhando-se com soluções de longo prazo que abordam a causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1120,
+    "completion_tokens": 77,
+    "total_tokens": 1197,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 160
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

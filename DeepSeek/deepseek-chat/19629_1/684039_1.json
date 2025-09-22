@@ -1,0 +1,28 @@
+{
+  "id": "9bfce091-497b-49d4-be5b-e66d4539b409",
+  "object": "chat.completion",
+  "created": 1758478794,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo estruturado e contínuo para o lançamento e conferência de informações no sistema, alinhado a diretrizes normativas, visando prevenir a recorrência da falha de registro e promover uma solução de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1167,
+    "completion_tokens": 83,
+    "total_tokens": 1250,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 207
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

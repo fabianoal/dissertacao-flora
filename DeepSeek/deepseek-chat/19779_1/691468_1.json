@@ -1,0 +1,28 @@
+{
+  "id": "c1fddafd-a2c3-4684-b6b1-260bd26632b4",
+  "object": "chat.completion",
+  "created": 1758482914,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um mapa ilustrativo permanente para identificar os imunobiológicos, o que visa estabelecer um controle interno contínuo e prevenir a recorrência da falta de identificação, alinhando-se com as diretrizes nacionais e focando na causa subjacente da deficiência de controle.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1107,
+    "completion_tokens": 92,
+    "total_tokens": 1199,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 147
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "0cf988cb-f015-4e62-abf8-6d1408aa68ba",
+  "object": "chat.completion",
+  "created": 1758473810,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistemático para garantir o envio consistente e preciso de dados ao SISAB, alinhado com registros em prontuários e normativas, visando prevenir a recorrência da discrepância observada, o que caracteriza uma solução de longo prazo focada na causa raiz do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1148,
+    "completion_tokens": 97,
+    "total_tokens": 1245,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 188
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

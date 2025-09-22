@@ -1,0 +1,28 @@
+{
+  "id": "eded36ba-a04b-4d1f-9c41-3ba536b15323",
+  "object": "chat.completion",
+  "created": 1758483618,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a contratação de uma empresa para manutenção e o estabelecimento de uma rotina de manutenção preventiva, calibração e qualificação térmica, o que visa implementar controles permanentes e sistemáticos para evitar a recorrência da falta de manutenção periódica, alinhando-se com soluções de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1166,
+    "completion_tokens": 101,
+    "total_tokens": 1267,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 206
+  },
+  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+}

@@ -1,12 +1,12 @@
 ---
-title: "Extração de Dados de Relatórios de Auditorias do DENASUS"
+title: "Apêndice I - Obtenção e Preparação de Dados"
 author: Fabiano A. Lima
-bibliography: referencias.bibtex
-csl: abnt-nbr-6023-2018-.-citacao-autor-data.csl
+bibliography: ./Quarto/referencias.bibtex
+csl: ./Quarto/abnt-nbr-6023-2018-citacao-autor-data.csl
 lang: pt-BR
 format: 
   docx:
-    reference-doc: custom-reference-doc.docx
+    reference-doc: ./Quarto/custom-reference-doc.docx
 execute: 
   cache: false
   echo: true
@@ -17,7 +17,7 @@ knitr:
     R.options:
       knitr.graphics.auto_pdf: true
 nocite: |
-  @readxl, @tidyverse
+  @readxl, @tidyverse, @tibble
 ---
 
 ```{r}
@@ -82,19 +82,18 @@ lista_relatorios <- readxl::read_excel("lista de relatórios.xlsx")
 lista_relatorios |>
 head(10) |>
 mutate(
-  `Entidade Responsável` = str_trunc(`Entidade Responsável`, 35)) |>
+  `Entidade Responsável` = str_trunc(`Entidade Responsável`, 50, ellipsis = "…")) |>
 select(-`Órgão`, -`Atividade`) |>
 mutate(Encerramento = as.Date(Encerramento)) |>
 knitr::kable()
 ```
 
-Dos dados acima, onde foram ocultados os campos "Órgão" e "Atividade" por limitação de espaço, vê-se que as as auditorias são identificadas pelo número da atividade. Dessa forma, usando essa informação, usou-se o script abaixo com a extensão UI.Vision para realizar o download dos relatórios.
-
+Nos dados acima, onde foram ocultados os campos "Órgão" e "Atividade" por limitação de espaço, vê-se que as as auditorias são identificadas pelo número da atividade. Dessa forma, usando essa informação, usou-se o script abaixo com a extensão UI.Vision para realizar o download dos relatórios.
 
 ```{r}
-#| label: extracao_textos
-#| echo: true
-#| eval: false
+#| label: script_download
+#| echo: false
+#| eval: true
 #| results: asis
 
 cat(
@@ -107,7 +106,7 @@ O processo gerou `r (qtd_relatorios <- list.files("./Downloads", pattern = "*.pd
 
 # Extração de Texto
 
-Com os arquivos baixados, usou-se o pacote *pdftools*[@pdftools] para extrair o texto desses arquivos e consolidá-los em uma *dataframe* único, com um registro por linha extraída e com as seguintes informações de controle:
+Com os arquivos baixados, usou-se o pacote *pdftools* [@pdftools] para extrair o texto desses arquivos e consolidá-los em uma *dataframe* único, com um registro por linha extraída e com as seguintes informações de controle:
 
 - Nome do arquivo,
 - Número da página,
@@ -182,7 +181,7 @@ textos_relatorios |>
 filter(`Arquivo` == arquivo_teste & `# Página` == 3) |>
 select(-`Linha Original`, -`Arquivo`, -`Qtd Páginas`, -`# Linha Fim Página`) |>
 head(n = 15) |>
-mutate(Linha = str_trunc(Linha, 45)) |>
+mutate(Linha = str_trunc(Linha, 45, ellipsis = "…")) |>
 knitr::kable(col.names = c("Pág.", "Linha", "# Ln", "# Ln Geral"))
 
 ```
@@ -191,7 +190,7 @@ Escolheu-se o arquivo `r arquivo_teste` como exemplo para elaborar hipóteses so
 
 # Estrutura Básica, Cabeçalhos e Rodapés
 
-A partir da análise da primeira página do documento (listada abaixo), pode-se extrair alguns dados essenciais, a começar pelo número da auditoria, unidade e município. 
+A partir da análise da primeira página do documento de exemplo (listada abaixo), pode-se extrair alguns dados essenciais, a começar pelo número da auditoria, unidade e município. 
 
 ```{r}
 #| label: amostra_pagina_1
@@ -203,7 +202,9 @@ mostra_pagina <- \(arquivo, pagina)
     textos_relatorios |> 
     filter(`Arquivo` == arquivo) |>
     filter(`# Página` == pagina) |>
-    select(Linha) |>
+    select(`# Linha`, Linha) |>
+    rename(`# Linha` = `# Linha`) |>
+    mutate(Linha = str_trunc(Linha, 70, ellipsis = "…")) |>
     knitr::kable()
 
 mostra_pagina(arquivo_teste, 1)
@@ -220,7 +221,7 @@ Já na página 2, tem-se o sumário do relatório.
 mostra_pagina(arquivo_teste, 2)
 ```
 
-Nota-se que a partir do sumário já temos um cabeçalho que parece ser padronizado e temos um rodapé com a data de geração dos arquivos, a numeração das páginas e com o número da auditoria. O sumário está delimitado por duas linhas em branco. Assim, abaixo verificamos em quais de todos os documentos podemos encontrar tal padrão.
+Nota-se que a partir do sumário já vê-se tanto um cabeçalho que parece ser padronizado quanto um rodapé com a data de geração dos arquivos, a numeração das páginas e com o número da auditoria. O sumário está delimitado por duas linhas em branco. 
 
 ```{r}
 #| label: fn_deteccao_sumario
@@ -249,15 +250,18 @@ textos_sumarios_detectados <- textos_relatorios |>
 #| echo: false
 #| tbl-cap: "Quantidade de arquivos com sumário detectado por página"
 
-textos_sumarios_detectados
+textos_sumarios_detectados |>
+knitr::kable()
 ```
 
-Na tabela acima, vê-se que a página "Sumário" ocorreu em 398 arquivos, e sempre na página 2. Ocorre que temos `r qtd_relatorios`, ou seja, em um relatório parece que não temos um sumário que siga esse padrão. Vejamos de que documento se trata.
+Na tabela acima, vê-se que a página "Sumário" ocorreu em 398 arquivos, e sempre na página 2. Ocorre que temos `r qtd_relatorios`, ou seja, em um relatório parece que não há um sumário que siga esse padrão. 
+
+O código abaixo verifica de que arquivo se trata.
 
 ```{r}
 #| label: arquivo_sem_sumario
 #| eval: true
-#| echo: false
+#| echo: true
 #| tbl-cap: "Página 1 arquivo sem sumário"
 
 arquivo_sem_sumario <- textos_relatorios |> 
@@ -274,15 +278,15 @@ arquivo_sem_sumario <- textos_relatorios |>
 mostra_pagina(arquivo_sem_sumario, 1)
 ```
 
-Conforme vemos acima, o arquivo `r arquivo_sem_sumario` de fato já começa na página da seção "I - DADOS BÁSICOS", que parece ser uma seção padronizada de todos os relatórios. Inclusive, no seu rodapé, vê-se que essa é a página 1. Nota-se ainda que a seção de "I - DADOS BÁSICOS" contém o município e a entidade responsável. Já o número da auditoria, só aparece no rodapé.
+A tabela acima mostra que o arquivo `r arquivo_sem_sumario` de fato já começa na página da seção "I - DADOS BÁSICOS", que parece ser uma seção padronizada de todos os relatórios. Inclusive, no seu rodapé, vê-se que essa é a página 1. Nota-se ainda que a seção de "I - DADOS BÁSICOS" contém o município e a entidade responsável. Já o número da auditoria, só aparece no rodapé.
 
-Dessa forma, em somente um documento não há sumário e que em todos os demais documentos, o sumário ocorre na página 2. Assim, pode-se deduzir seguramente que somente o documento `r arquivo_sem_sumario` não tem capa.
+Dessa forma, em somente um documento não há sumário e em todos os demais documentos o sumário ocorre na página 2. Assim, pode-se deduzir seguramente que somente o documento `r arquivo_sem_sumario` não tem capa.
 
 ```{r}
 #| label: secao_dados_basicos
 #| eval: true
 #| echo: true
-#|tbl-cap: "Página ocorrência seção DADOS BÁSICOS"
+#| tbl-cap: "Página ocorrência seção DADOS BÁSICOS"
 
 textos_relatorios |> 
 mutate(`Página Dados Básicos` = if_else(Linha == "I - DADOS BÁSICOS", `# Página`, 0)) |>
@@ -293,12 +297,13 @@ summarise(
 summarise(
     Arquivos = n_distinct(Arquivo),
     .by = `Max Página Dados Básicos`
-)
+) |>
+knitr::kable()
 ```
 
 Conforme vê-se na tabela acima, a seção "I - DADOS BÁSICOS" ocorre em todos os arquivos e sempre na página 3, à exceção do arquivo sem sumário, caso onde ocorre na página 1.
 
-Caso se mostre consistente entre os arquivos, podemos retirar dali a data de geração do arquivo, que é útil para fins de reprodutibilidade (partindo da hipótese em que esses arquivos podem ser corrigidos e regerados em uma data posterior) bem como o número da auditoria, que nos permitirá validar que o nome do arquivo está consistente com seu conteúdo, além da paginação lógica, que poderá servir para validar que não faltam páginas nos arquivos. 
+Em relação ao sumário, caso se mostre consistente entre os arquivos, pode-se retirar dali a data de geração do arquivo, que é útil para fins de reprodutibilidade (partindo da hipótese em que esses arquivos podem ser corrigidos e regerados em uma data posterior) bem como o número da auditoria, necessário para validar que o nome do arquivo está consistente com seu conteúdo, além da paginação lógica, que poderá servir para validar que não faltam páginas nos arquivos. 
 
 ```{r}
 #| label: validacao_rodape
@@ -339,28 +344,28 @@ dados_rodape <- textos_relatorios |>
     )
 
 arquivos_paginas_inconsistentes <- textos_relatorios |>
-  select(Arquivo, `# Página`, `Qtd Páginas`) |>
-  filter(`# Página` > 1 | Arquivo == arquivo_sem_sumario) |>
-  distinct() |>
-  left_join(
-      dados_rodape,
-      by = c(
-          "Arquivo",
-          "# Página" = "# Página Lógica"
-      )
-  ) |>
-  filter(is.na(`Qtd Páginas Lógicas`))
+    select(Arquivo, `# Página`, `Qtd Páginas`) |>
+    filter(`# Página` > 1 | Arquivo == arquivo_sem_sumario) |>
+    distinct() |>
+    left_join(
+        dados_rodape,
+        by = c(
+            "Arquivo",
+            "# Página" = "# Página Lógica"
+        )
+    ) |>
+    filter(is.na(`Qtd Páginas Lógicas`))
 
 arquivos_inconsistentes <- textos_relatorios |>
-  select(Arquivo, `Qtd Páginas`) |>
-  distinct() |>
-  left_join(
-      dados_rodape |>
-      select(Arquivo, `Qtd Páginas Lógicas`) |>
-      distinct(),
-      by = c("Arquivo")
-  ) |>
-  filter(`Qtd Páginas` != `Qtd Páginas Lógicas`)
+    select(Arquivo, `Qtd Páginas`) |>
+    distinct() |>
+    left_join(
+        dados_rodape |>
+        select(Arquivo, `Qtd Páginas Lógicas`) |>
+        distinct(),
+        by = c("Arquivo")
+    ) |>
+    filter(`Qtd Páginas` != `Qtd Páginas Lógicas`)
 
 
 paginas_sem_rodape <- textos_relatorios |>
@@ -375,21 +380,23 @@ paginas_sem_rodape <- textos_relatorios |>
 
 ```
 
-No código acima, criamos o *dataframe* `paginas_sem_rodape` que tem `r nrow(paginas_sem_rodape)` linhas, ou seja, não há páginas sem rodapé e o rodapé em todas as páginas segue o mesmo padrão.
+No código acima, o *dataframe* `paginas_sem_rodape` tem `r nrow(paginas_sem_rodape)` linhas, ou seja, não há páginas sem rodapé e o rodapé em todas as páginas segue o mesmo padrão.
 
-Criamos também o *dataframe* `arquivos_paginas_inconsistentes` para guardar as páginas inconsistentes entre a página física do pdf e a página constante na numeração. Tal *dataframe* tem também `r nrow(arquivos_paginas_inconsistentes)` linhas.
+No *dataframe* `arquivos_paginas_inconsistentes` são guardadas as páginas inconsistentes entre a página física do pdf e a página constante na numeração. Tal *dataframe* tem também `r nrow(arquivos_paginas_inconsistentes)` linhas.
 
-Por fim, criamos o *dataframe*  `arquivos_inconsistentes` para guardar arquivos cujo número da última página do rodapé seja diferente do número de páginas do pdf. Esse *dataframe* contém os seguintes dados:
+Por fim, no *dataframe*  `arquivos_inconsistentes` são guardados arquivos cujo número da quantidade de páginas extraído do rodapé é diferente do número de páginas do pdf. Esse *dataframe* contém os seguintes dados:
 
 ```{r}
 #| label: arquivos_inconsistentes
 #| eval: true
 #| echo: false
+#| tbl-cap: "Arquivos inconsistentes"
 
-arquivos_inconsistentes
+arquivos_inconsistentes |>
+knitr::kable()
 ```
 
-Abaixo, temos a última página do arquivo `r arquivos_inconsistentes[1,1]`.
+Abaixo, tem-se a última página do arquivo `r arquivos_inconsistentes[1,1] |> pluck(1)`.
 
 ```{r}
 #| label: arquivo_inconsistente_1
@@ -403,7 +410,7 @@ mostra_pagina(
 
 Ao abrir o arquivo pdf diretamente, vemos que a extração está correta e realmente o arquivo não contém a última página.
 
-Vejamos agora o arquivo `r arquivos_inconsistentes[2,1]`.
+Agora, o arquivo `r arquivos_inconsistentes[2,1] |> pluck(1)`.
 
 ```{r}
 #| label: arquivo_inconsistente_2
@@ -415,9 +422,9 @@ mostra_pagina(
   arquivos_inconsistentes[2,2] |> pluck(1))
 ```
 
-Temos a mesma situação do arquivo anterior. Enfim, fica claro que o problema está nos arquivos.
+Tem-se a mesma situação do arquivo anterior. Enfim, fica claro que o problema está nos arquivos.
 
-Dessa forma, vamos executar a primeira transformação nos dados. Vamos extrair o numero da auditoria a partir da capa e, no caso do arquivo sem capa, a partir do nome (que já confirmamos que é igual ao número constante no rodapé). Como os outros dados constantes na capa existem também na seção de "DADOS BÁSICOS", vamos descartar as duas primeiras páginas (capa e sumário) de todos os arquivos (exceto do arquivo sem sumário), e vamos agregar os dados `Data de Geração` em nossa tabela (extraídos no passo anterior).
+Dessa forma, pode-se proceder à primeira transformação nos dados, extraindo o numero da auditoria a partir da capa e, no caso do arquivo sem capa, a partir do nome (que já se confirmou que é igual ao número constante no rodapé). Como os outros dados constantes na capa existem também na seção de "DADOS BÁSICOS", pode-se descartar as duas primeiras páginas (capa e sumário) de todos os arquivos (exceto do arquivo sem sumário), e pode-se agregar a `Data de Geração`, retirada dos rodapés, no *dataframe*.
 
 ```{r}
 #| label: rel_sem_sumario_rodape
@@ -459,11 +466,11 @@ rel_sem_sumario_rodape <- rel_com_num_auditoria |>
     )
 ```
 
-No passo anterior, guardamos no *dataframe* `rel_num_inconsistente_nome` os registros cujo número da auditoria detectado da capa difere do número detectado do nome. Tal `dataframe` tem `r nrow(rel_num_inconsistente_nome)` registros.
+No passo anterior, no *dataframe* `rel_num_inconsistente_nome` tem-se os registros cujo número da auditoria detectado da capa difere do número detectado do nome. Tal `dataframe` tem `r nrow(rel_num_inconsistente_nome)` registros.
 
 # Validação Completude Arquivos
 
-Agora que temos os números das auditorias, podemos validar tal número em relação à planilha usada como referência para baixar os arquivos.
+Agora que se tem os números das auditorias, pode-se validar tal número em relação à planilha usada como referência para baixar os arquivos.
 
 ```{r}
 #| label: validacao_completude
@@ -483,62 +490,65 @@ qtd_relatorios_sobrando <- rel_sem_sumario_rodape |>
     nrow()
 ```
 
-Temos `r qtd_relatorios_faltantes` relatórios faltando e `r qtd_relatorios_sobrando` relatórios sobrando. Os dados estão completos.
+Tem-se `r qtd_relatorios_faltantes` relatórios faltando e `r qtd_relatorios_sobrando` relatórios sobrando. Os dados estão completos.
 
 # Limpeza
 
-Abaixo, temos o texto extraído da 4ª página do arquivo `19796_1.pdf` para usar como exemplo. 
+Abaixo, tem-se o texto extraído da 4ª página do arquivo `r arquivo_teste` para usar como exemplo. 
 
 ```{r}
 #| label: amostra_texto_relatorio
 #| eval: true
 #| echo: false
+#| tbl-cap: "4ª Página do Arquivo de Referência"
 
 rel_sem_sumario_rodape |> 
 filter(`Arquivo` == arquivo_teste & `# Página` == 4) |>
-select(Linha) 
+select(`# Linha`, Linha) |>
+mutate(Linha = str_trunc(Linha, 70, ellipsis = "…")) |>
+knitr::kable()
 ```
 
-Conforme vemos acima, é possível detectar um texto que se parece com um cabeçalho até a linha 3.
+Conforme vê-se, é possível detectar um texto que se parece com um cabeçalho até a linha 3.
 
-Abaixo, verificamos todas as três primeiras linhas de todos os relatórios para verificar se o cabeçalho é padronizado. 
+Abaixo, verifica-se todas as três primeiras linhas de todas as páginas de todos os relatórios para verificar se o cabeçalho é padronizado. 
 
 ```{r}
 #| label: identificacao_cabecalhos
 #| eval: true
 #| echo: true
+#| tbl-cap: "Contagem de Ocorrências de Linhas de Cabeçalho"
 
 rel_sem_sumario_rodape |>
-filter(
-    `# Linha` <= 3
-) |>
+filter(`# Linha` <= 3) |>
 summarise(
   Contagem = n(),
   .by = Linha
-)
+) |>
+knitr::kable()
 ```
 
-Conforme mostrado acima, as três primeiras linhas são realmente um cabeçalho em todos os documentos. Assim finalizamos o processo de limpeza retirando os cabeçalhos, linhas órfãs e linhas que não contém nenhum character alfanumérico. Adicionalmente, excluímos as colunas de `Qtd Páginas` e `# Linha Fim Página` que não serão mais necessárias.
+Conforme mostrado acima, as três primeiras linhas são realmente um cabeçalho em todos os documentos. Assim pode-se finalizar o processo de limpeza retirando os cabeçalhos, linhas órfãs e linhas que não contém nenhum character alfanumérico. Adicionalmente, foram excluídas as colunas de `Qtd Páginas` e `# Linha Fim Página` que não serão mais necessárias.
 
 ```{r}
 #| label: rel_texto_limpo
 #| eval: true
-#| echo: false
+#| echo: true
 
 rel_texto_limpo <- rel_sem_sumario_rodape |>
 filter(
     `# Linha` > 3 &
     str_detect(Linha, "[[:alnum:]]")
 ) |>
-select(-`Qtd Páginas`, -`# Linha Fim Página`)
+select(-`Qtd Páginas`, -`# Linha Fim Página`) 
 ```
+
 
 # Seções
 
-Como o presente trabalho tem especial interesse nos metadados das auditorias e nas constatações e recomendações nela presentes, é preciso investigar as diversas seções que compõe um relatório. Conforme já vimos, seções seguem um padrão de numeração de algarismo romanos com um `-` separando a numeração do título. 
+Como o presente trabalho tem especial interesse nos metadados das auditorias e nas constatações e recomendações nela presentes, é preciso investigar as diversas seções que compõe um relatório. Conforme já vimos, seções seguem um padrão de numeração de algarismo romanos com um traço (`-`) separando a numeração do título. 
 
-A hipótese é que essas seções são razoavelmente padronizadas mas suas numerações podem variar de documento para documento. Assim, vamos filtrar as linhas que aderem ao padrão esperado de uma seção, separar a parte da numeração do título, e contar a quantidade de repetições dos títulos. Se esses títulos se repetirem em quantidades similares às quantidades dos documentos, podemos assumir que é seguro identificar as seções dessa forma.
-
+A hipótese é que essas seções são razoavelmente padronizadas mas suas numerações podem variar de documento para documento. Assim, filtra-se as linhas que aderem ao padrão esperado de uma seção, separa-se a parte da numeração do título, e conta-se a quantidade de repetições dos títulos. Se esses títulos se repetirem em quantidades similares às quantidades dos documentos, podemos assumir que é seguro identificar as seções dessa forma.
 
 ```{r}
 #| label: possibilidades_secoes
@@ -567,16 +577,21 @@ secoes_possiveis <- rel_texto_limpo |>
 secoes_candidatas <- secoes_possiveis |>
     summarise(
         `Ocorrências` = n(),
-        `Numerações Possíveis` = str_flatten(unique(`Numeração`), collapse=", "),
+        `Numerações Possíveis` = str_flatten(
+                unique(`Numeração`), 
+                collapse=", "),
         .by = `Seção`
     ) |>
     arrange(desc(`Ocorrências`)) |>
     head(15)
+
+secoes_candidatas |>
+knitr::kable()
 ```
 
-Conforme vemos acima, a hipótese parece estar correta e vê-se claramente que até o título "PROPOSIÇÃO DA DEVOLUÇÃO" temos um numero grande de ocorrências, e esse número cai para somente 9 no título "DA CONCLUSÃO", o que leva a crer que não se trata de uma seção padronizada. 
+Conforme vê-se acima, a hipótese parece estar correta e detecta-se claramente que até para o título "PROPOSIÇÃO DA DEVOLUÇÃO" tem-se um numero grande de ocorrências. Vê-se também que a quantidade de ocorrências cai para somente 9 no título "DA CONCLUSÃO", o que leva a crer que não se trata de uma seção padronizada. 
 
-Nos apoiando nessa hipótese, podemos gerar a seguinte lista de seções possíveis:
+Considerando a hipótese em análise como confirmada, pode-se gerar a seguinte lista de seções possíveis:
 
 ```{r}
 #| label: secoes
@@ -587,7 +602,7 @@ Nos apoiando nessa hipótese, podemos gerar a seguinte lista de seções possív
 secoes <- secoes_possiveis |>
     semi_join(
         secoes_candidatas |>
-        filter(`Ocorrências` > 150),
+        filter(`Ocorrências` > 140),
         by = "Seção"
     ) |>
     select(`Linha`, `Seção`) |>
@@ -597,7 +612,7 @@ unique(secoes$`Seção`) |>
 walk(\(secao) cat("- ", secao, "\n"))
 ```
 
-Abaixo, usamos essa lista de seções para marcar todas as linhas. Adicionalmente, como a delimitação da seção é essencial para identificação dos dados, vamos numerar as ocorrências de todas as seções para cada arquivo de forma que, se alguma seção se repetir, isso não afetará a tabulação das informações. Por fim, as linhas que representam o início de cada seção poderão ser retiradas após essa junção.
+Abaixo, usamos essa lista de seções para marcar todas as linhas. Adicionalmente, como a delimitação da seção é essencial para identificação dos dados, numera-se as ocorrências de todas as seções para cada arquivo de forma que, se alguma seção se repetir, isso não afete a tabulação das informações. Por fim, as linhas que representam o início de cada seção poderão ser retiradas após essa junção.
 
 ```{r}
 #| label: rel_com_secoes
@@ -624,23 +639,27 @@ qtd_linhas_sem_secao <- rel_com_secoes |>
     nrow()
 ```
 
-O código abaixo gerou um *dataframe* onde `r qtd_linhas_sem_secao` estão sem sem uma seção associada.
+O código acima gerou um *dataframe* onde `r qtd_linhas_sem_secao` estão sem sem uma seção associada.
 
 # Tabulação de Dados
 
 ## Rótulos de Campos
 
 
-Vejamos abaixo o texto extraído da seção "DADOS BÁSICOS" do arquivo `19796_1.pdf` guiar o processo de identificação de dados. 
+Abaixo tem-se o texto extraído da seção "DADOS BÁSICOS" do arquivo `19796_1.pdf` guiar o processo de identificação de dados. 
 
 ```{r}
 #| label: amostra_texto_dados_estruturados
 #| eval: true
 #| echo: false
+#| tbl-cap: "Página Contendo Seção 'Dados Básicos'"
 
 rel_com_secoes |> 
 filter(`Arquivo` == "19796_1.pdf" & `Seção` == "DADOS BÁSICOS") |>
-select(Linha) 
+select(`# Linha`, Linha) |>
+mutate(Linha = str_trunc(Linha, 70, ellipsis = "…")) |>
+head(n = 20) |>
+knitr::kable()
 ```
 
 E abaixo, uma amostra da seção "CONSTATAÇÕES" do mesmo arquivo, porém mostrando as linhas originais (sem cortar os espaços antes e depois).
@@ -649,28 +668,30 @@ E abaixo, uma amostra da seção "CONSTATAÇÕES" do mesmo arquivo, porém mostr
 #| label: amostra_texto_dados_estruturados_orig
 #| eval: true
 #| echo: false
+#| tbl-cap: "Página Contendo Seção 'CONSTATAÇÕES'"
 
 rel_com_secoes |> 
 filter(`Arquivo` == "19796_1.pdf" & `Seção` == "CONSTATAÇÕES") |>
-select(`Linha Original`) 
+select(`# Linha`, Linha) |>
+mutate(Linha = str_trunc(Linha, 70, ellipsis = "…")) |>
+head(n = 20) |>
+knitr::kable()
 ```
 
+Os relatórios de auditoria parecem ser gerados via sistema automatizado de forma que os dados seguem um padrão. Dessa forma, pode-se executar alguns passos para descobrir as possibilidades de obtenção de dados estruturados a partir da detecção de determinados padrões. 
 
-Os relatórios de auditoria são gerados de por um sistema, de forma que a formatação dos dados segue um padrão. Dessa forma, vamos executar alguns passos para descobrir as possibilidades de obtenção de dados estruturados. 
+Conforme já visto acima, alguns campos dos relatórios seguem o padrão `<Rótulo>: <Conteúdo>`. Dessa forma, aventa-se a seguinte hipótese: Dividindo-se as linhas que tem o caractere dois-pontos (`:`) em duas partes, a primeira parte conterá os rótulos candidatos. Mesmo que tal procedimento gere falsos positivos, se esse padrão estiver correto, os rótulos padronizados vão aparecer em quantidades aproximadamente iguais ou superiores à quantidade de documentos. 
 
-Conforme já visto acima, identificamos que alguns campos seguem o padrão `<Rótulo>: <Conteúdo>`. Se partimos dessa hipótese e dividirmos as linhas que tem o caractere `:` em duas partes, a primeira parte conterá os rótulos candidatos. 
+Como o corpus objeto desse trabalho já encontra-se delimitado por seções, e dado que a parte que interessa está nos metadados das auditorias, que estão na seção "DADOS BÁSICOS" e nas constatações e recomendações, que estão na seção "CONSTATAÇÕES", pode-se delimitar o escopo de validação da hipótese somente a tais seções.
 
-Tal procedimento irá gerar vários falsos positivos, pois várias linhas podem possuir o caractere `:`. Entretanto, se esse padrão estiver correto, os rótulos padronizados vão aparecer em quantidades iguais ou superiores à quantidade de documentos. 
-
-Como nosso texto já está delimitado por seções, e como nosso interesse é nos metadados das auditorias, que estão na seção "DADOS BÁSICOS" e nas constatações e recomendações, que estão na seção "CONSTATAÇÕES", podemos já delimitar o escopo dessa identificaçãod e rótulos a essas duas seções.
-
-Podemos conferir abaixo os rótulos com maiores ocorrências em suas respectivas seções.
-
+Abaixo, tem-se os rótulos candidatos com maiores ocorrências em suas respectivas seções filtrando somente os que tem mais de 150 ocorrências.
 
 ```{r}
 #| label: deteccao_rotulos
 #| echo: true
 #| eval: true
+#| tbl-cap: "Amostra de rótulos com maior número de ocorrências"
+
 
 secoes_interesse <- c("DADOS BÁSICOS", "CONSTATAÇÕES")
 
@@ -691,34 +712,24 @@ rotulos_candidatos <- rel_com_secoes |>
         `Ocorrências` = n(),
         .by = c(`Seção`, `Rótulo`)
     )
-```
-
-Para diferenciar o que é rótulo e o que é falso positivo, ordenamos os rótulos candidatos encontrados por número de ocorrências e buscamos os rótulos que tem um número de ocorrências pelo menos próximo do número de relatórios. Como temos 390 relatórios, vamos trabalhar com um ponto de corte bastante seguro de 150 ocorrências.
-
-Como podemos ver abaixo, isso aconteceu com o rótulo da posição 43 ("Total Fundo de Origem", com 157 ocorrências). 
-
-```{r}
-#| label: rotulos_candidatos_ponto_corte
-#| eval: true
-#| tbl-cap: "Amostra de rótulos com maior número de ocorrências"
-#| echo: false
 
 rotulos_candidatos_rankeados <- rotulos_candidatos |>
     group_by(`Seção`) |>
     arrange(desc(`Ocorrências`)) |>
     mutate(`Posição` = row_number()) |>
     filter(`Ocorrências` >= 150)
+
+rotulos_candidatos_rankeados |>
+knitr::kable()
+
 ```
 
-Conforme visto acima, o único rótulo candidato que certamente é um falso positivo é o "https".
-
-Analisando o entorno desse rótulo vemos que até a posição 46 temos bons candidatos. Assim sendo, vamos trabalhar com os rótulos até essa posição, retirando alguns falsos positivos tais como "http", "https" e candidatos que começam com número.
+A tabela acima possui um conjunto de rótulos que é suficiente para a continuação do presente trabalho.
 
 ```{r}
-#| label: listagem_rotulos
+#| label: rotulos_finais
 #| eval: true
 #| echo: false
-#| results: asis
 
 rotulos <- rotulos_candidatos_rankeados |>
     ungroup() |>
@@ -726,20 +737,15 @@ rotulos <- rotulos_candidatos_rankeados |>
     filter(!str_detect(`Rótulo`, "http") & !str_starts(`Rótulo`, "[0-9]")) |>
     arrange(desc(`Seção`), `Rótulo`)
 
-rotulos |>
-transpose() |>
-walk(\(el) cat("-", el$`Rótulo`, '-', el$`Seção`,  '\n'))
 ```
 
 ## Marcadores
 
-Outra coisa que verificamos é que alguns identificadores de campos não seguem tal padrão. É o que se observa na linha 7 do exemplo que estamos trabalho, onde temos o texto `Tipo da Fase Data Início Data Término`.
+Outra situação observada é a da existência de rótulos não seguem o padrão explorado na seção anterior. É o que se observa na linha 7 do exemplo da seção anterior, onde tem-se o texto `Tipo da Fase Data Início Data Término`.
 
-Esse é um rótulo que denota cabeçalhos de uma informação tabulada dentro do relatório. Vamos temporariamente chamá-lo de "Marcador".
+Esse é um rótulo que denota cabeçalhos de uma informação tabulada dentro do relatório.
 
-Assim, vamos testar a hipótese de que esse tipo de cabeçalho, se for padronizado, vai ocorrer multiplas vezes. Dessa forma, vamos contar a repetição desse tipo de rótulo para verificar quais são os que existem e em quais seções.
-
-Vamos, como fizemos em rótulos, traçar um ponto de corte de no mínimo 150 ocorrências.
+Assim, aventa-se a hipótese de que esse tipo de cabeçalho, se for padronizado, também ocorrerá multiplas vezes. Assim, usa-se técnica semelhante à usada na seção anterior para validar a hipótese.
 
 ```{r}
 #| label: deteccao_marcadores
@@ -761,18 +767,19 @@ marcadores <- marcadores_candidatos |>
     mutate(Marcador = Linha) |>
     select(-`Ocorrências`)
         
-marcadores_candidatos
+marcadores_candidatos |>
+knitr::kable()
 ```
 
-Da lista acima, dois marcadores são claramente falso-positivos. Assim, ficamos com os quatro primeiros.
+Da lista acima, dois rótulos são claramente falso-positivos. Assim, elege-se os 4 primeiros rótulos da tabela acima como rótulos padronizados.
 
 # Estruturação dos Dados
 
-De posse dos rótulos e marcadores, vamos associá-los às linhas dos textos dos relatórios de forma que, quando houver correspondência, teremos uma linha que se trata de um rótulo ou um marcador.
+De posse dos rótulos, procede-se à associação dos mesmos às linhas dos textos dos relatórios de forma que, quando houver correspondência, tem-se uma linha que se trata de um rótulo ou um marcador.
 
-Como marcadores são rótulos, vamos consolidar essa informação numa única coluna `Rótulo` e vamos criar um campo para numerar a ocorrência de cada rótulo em cada seção em cada documento. 
+Como na seção anterior usou-se o nome "Marcador", deve-se consolidar essa informação numa única coluna `Rótulo`. Adicionalmente, deve-se criar um campo para numerar a ocorrência de cada rótulo em cada seção em cada documento. 
 
-Obs: Para certificar de que o rótulo é de fato um rótulo, vamos testar se a linha original começa com um caractere maiúsculo. Se não for o caso, trata-se de falso positivo pois deve ser um texto de constatação, justificativa ou evidência que inclui algo que pode ser interpretado como rótulo.
+Obs: Para certificar de que o rótulo é de fato um rótulo, pode-se testar se a linha original começa com um caractere maiúsculo. Se não for o caso, trata-se de falso positivo pois se trata de um texto encontrado dentro de um texto descritivo, como o de uma constatação ou justificativa e etc.
 
 ```{r}
 #| label: rel_com_secoes_rotulos
@@ -819,21 +826,30 @@ fill(`Rótulo`, .direction = "down") |>
 ungroup() |>
 select(-`Linha Original`) |>
 write_rds("./Dados Gerados/rel_com_secoes_rotulos.rds")
+```
     
 
+```{r}
+#| label: carrega_rel_com_secoes_rotulos
+#| eval: true
+#| tbl-cap: "Amostra de linhas sem números com maior número de ocorrências"
+#| echo: false
 rel_com_secoes_rotulos <- read_rds("./Dados Gerados/rel_com_secoes_rotulos.rds")
+
 rel_com_secoes_rotulos |>
 select(`Rótulo`, `Conteúdo`, `# Rótulo`) |>
-head(n = 5)
+mutate(`Conteúdo` = str_trunc(`Conteúdo`, 40, ellipsis = "…")) |>
+head(n = 10) |>
+knitr::kable()
 ```
 
-Conforme vemos acima, temos uma tabela onde as linhas estão devidamente associadas às suas seções e rótulos. 
+Conforme vê-se acima, o processo gerou uma tabela onde as linhas estão devidamente associadas às suas seções e rótulos. 
 
-Agora passamos para a parte de estruturar os dados com base nessas marcações. No caso dos rótulos com separador `:`, a princípio, já temos o valor de cada rótulo, visto que se trata da parte que vem após o caractere `:`. Entretanto, há casos em que o valor transcede o limite da linha, como é o caso valor para o rótulo "Finalidade", presente na tabela acima.
+Agora passa-se para a parte de estruturar os dados com base nessas marcações. No caso dos rótulos com separador dois-pontos (`:`), a princípio, já tem-se o valor de cada rótulo, visto que se trata da parte que vem após o separador. Entretanto, há casos em que o valor transcede o limite da linha, como é o caso valor para o rótulo "Finalidade", presente na tabela acima.
 
 Para consolidar o valor de campos como esse, basta concatenar todas as linhas associadas com cada ocorrência de cada rótulo.
 
-No código abaixo realizamos tal operação e apresentamos um exemplo das informações rotuladas para o arquivo `r arquivo_teste`.
+No código abaixo realiza-se tal operação e apresenta-se um exemplo das informações rotuladas para o arquivo `r arquivo_teste`.
 
 ```{r}
 #| label: conteudo_estruturado
@@ -852,6 +868,7 @@ summarise(
     .by = c(
         `Arquivo`, 
         `No. Auditoria`,
+        `Data Geração`,
         `Seção`, 
         `# Seção`,
         `Rótulo`,
@@ -872,12 +889,13 @@ conteudo_estruturado <- read_rds("./Dados Gerados/conteudo_estruturado.rds")
 conteudo_estruturado |>
 filter(Arquivo == arquivo_teste) |>
 select(`Rótulo`, `Conteúdo`) |>
-head(n = 15)
+head(n = 15) |>
+knitr::kable()
 ```
 
-# Checagem
+# Checagem do Processo de Rotulação
 
-Para avaliar os rótulos, a questão principal é verificar se houve algum tipo de "vazamento", ou seja, se o algoritmo falhou em delimitar as linhas de um determinado rótulo, incluindo indevidamente informações que não fazem parte do conteúdo que deveria ser a ele atribuído. Para tanto, podemos avaliar a distribuição da variável que representa a quantidades de linhas usadas em cada rótulo. Abaixo, temos uma visão geral dos rótulos que, pelo menos em um relatório, englobou **mais de uma linha** juntamente com as seguintes métricas calculadas em cima da lista ordenada de ocorrência de variáveis e quantidade de linhas utilizadas.
+Para avaliar os rótulos, a questão principal é verificar se houve algum tipo de "vazamento", ou seja, se o algoritmo falhou em delimitar as linhas de um determinado rótulo, incluindo indevidamente informações que não fazem parte do conteúdo que deveria ser a ele atribuído. Para tanto, pode-se avaliar a distribuição da variável que representa a quantidades de linhas usadas em cada rótulo. Abaixo, vê-se uma visão geral dos rótulos que, pelo menos em um relatório, englobou **mais de uma linha** juntamente com as seguintes métricas calculadas em cima da lista ordenada de ocorrência de variáveis e quantidade de linhas utilizadas.
 
 - Min: quantidade mínima de linhas que esse rótulo usou
 - P.25: quantidade de linhas usadas em 25% das ocorrências
@@ -889,20 +907,20 @@ Para avaliar os rótulos, a questão principal é verificar se houve algum tipo 
 ```{r}
 #| label: validacao_quartis
 #| eval: true
-#| tbl-cap: "Quartis das variáveis"
+#| tbl-cap: "Métricas para Validação de Conteúdos"
 #| echo: true
 
 metricas_avaliacao <- conteudo_estruturado |>
     summarise(
         `Ordem` = median(`Linha Inicial`),
         `Min` = min(`Qtd Linhas`),
-        `P.25` = quantile(`Qtd Linhas`, probs = .25, names = TRUE),
         `Mediana` = median(`Qtd Linhas`),
         `P.75` = quantile(`Qtd Linhas`, probs = .75, names = TRUE),
         `P.99` = quantile(`Qtd Linhas`, probs = .99, names = TRUE),
         `Max` = max(`Qtd Linhas`),
-        .by = c(`Seção`, `Rótulo`) 
-    )
+        .by = c(`Rótulo`) 
+    ) |>
+    mutate()
 
 num_rotulos <- nrow(metricas_avaliacao )
 
@@ -912,16 +930,19 @@ rotulos_multilinhas <- metricas_avaliacao |>
   select(-Ordem) 
 
 rotulos_multilinhas |>
-arrange(desc(Max))
+arrange(desc(Max)) |>
+knitr::kable()
 ```
 
-Ao todo, usamos `r num_rotulos`. Desses, `r nrow(rotulos_multilinhas)` foram resultado de consolidação de duas ou mais linhas em pelo menus um relatório.
+Ao todo, estão sendo usados `r num_rotulos`. Desses, `r nrow(rotulos_multilinhas)` foram resultado de consolidação de duas ou mais linhas em pelo menus um relatório.
 
-Notamos, por exemplo, que o rótulo "Justificativa" e o rótulo "Análise Justificativa" 75% dos documentos tem 15 e 10 linhas ou menos respectivamente, e que 99% dos documentos tem 101 e 64 linhas respectivamente.
+Nota-se, por exemplo, que nos rótulos "Justificativa" e "Análise Justificativa" 75% dos documentos tem 15 e 10 linhas ou menos respectivamente, e que 99% dos documentos tem 101 e 64 linhas respectivamente.
 
-O valor parece bastante razoável, principalmente se imaginarmos que tanto a justificativa quanto sua análise provavelmente terão tamanhos correlacionados.
+O valor parece bastante razoável, principalmente em se tratando de justificativa quanto sua respectiva análise.
 
-Assim, vamos pegar o caso extermo para esses dois rótulos para validar se o conteúdo foi corretamente detectado.
+Ao analisar o caso extermo para esses dois rótulos pode-se validar se o conteúdo foi corretamente detectado.
+
+Abaixo, detalhes de onde ocorreu o caso para o campo "Justificativa".
 
 ```{r}
 #| label: casos_extremos_justificativa
@@ -944,29 +965,32 @@ caso_justificativa <- obtem_caso("Justificativa", 289, "CONSTATAÇÕES")
 str(caso_justificativa)
 ```
 
-Vejamos abaixo o texto encontrado nesse arquivo e nessas linhas.
+Abaixo, tem-se o texto encontrado nesse arquivo e nessas linhas.
 
 ```{r}
 #| label: casos_extremos_justificativa_texto
 #| eval: true
-#| tbl-cap: "Casos extremos de quantidade de linhas"
+#| tbl-cap: "Casos Justificativa"
 #| echo: false
 
 busca_linhas <- function(obj_caso){
   rel_com_secoes_rotulos |>
   filter(
       `Arquivo` == obj_caso$Arquivo & 
-      between(`# Linha Geral`, obj_caso$`Linha Inicial` - 3, obj_caso$`Linha Final` + 2)) |>
+      between(`# Linha Geral`, obj_caso$`Linha Inicial`, obj_caso$`Linha Final`)) |>
   select(`# Linha Geral`, `Linha`) |>
-  rename(`#` = `# Linha Geral`)
+  mutate(`Linha` = str_replace_all(Linha, "`", "'") |> 
+                   str_trunc(70, ellipsis = "…")) |>
+  rename(`# Linha` = `# Linha Geral`)
 }
 
-busca_linhas(caso_justificativa)
+busca_linhas(caso_justificativa) |>
+knitr::kable()
 ```
 
-Conforme se vê, o texto foi corretamente atribuído a seu rótulo. Vejamos agora o caso extremo para o rótulo "Análise da Justificativa".
+Conforme se vê, o texto foi corretamente atribuído a seu rótulo. Passa-se agora para o caso extremo para o rótulo "Análise da Justificativa".
 
-Vejamos agora o caso extremo do Rótulo **Análise da Justificativa**.
+Abaixo, os dados de onde o caso ocorreu.
 
 ```{r}
 #| label: caso_extremo_analise_justificativa
@@ -978,25 +1002,28 @@ caso_analise_justificativa <- obtem_caso("Análise da Justificativa", 231, "CONS
 str(caso_analise_justificativa)
 ```
 
-Vejamos abaixo o texto encontrado nesse arquivo e nessas linhas.
+Abaixo, tem-se o texto encontrado nesse arquivo e nessas linhas.
 
 ```{r}
 #| label: caso_extremo_analise_justificativa_texto
 #| eval: true
-#| tbl-cap: "Segundo caso"
+#| tbl-cap: "Caso Extremo Análise Justificativa"
 #| echo: false
 
-busca_linhas(caso_analise_justificativa)
+busca_linhas(caso_analise_justificativa)|>
+knitr::kable()
 ```
 
-Conforme vemos acima, trata-se de uma longa análise de justificativa que foi corretamente detectada pelo processo de tratamento de dados.
+Conforme se vê, trata-se de uma longa análise de justificativa que foi corretamente detectada pelo processo de tratamento de dados.
 
 Todos os rótulos que em algum caso foram compostos por valores de múltiplas linhas tem uma descrição que dá a entender que poderia ser esse o caso, seja por parecer um texto corrido, ou seja por parecer conter vários itens, como é o caso de "Responsável(eis)".
 
-A exceção seria o rótulo "Nome CPF/CNPJ". Entretanto, vemos que ele sempre ocupa pelo menos duas linhas. De qualquer forma, vamos checar o conteúdo desse campo no caso extremo.
+A exceção seria o rótulo "Nome CPF/CNPJ". Entretanto, vê-se que ele sempre ocupa pelo menos duas linhas. De qualquer forma, pode-se checar o conteúdo desse campo no caso extremo.
+
+Abaixo, informações sobre sua ocorrência.
 
 ```{r}
-#| label: caso_extremo_grupo
+#| label: caso_extremo_cpf_cnpj
 #| eval: true
 #| echo: false
 
@@ -1005,38 +1032,43 @@ str(caso)
 ```
 
 Conforme mostrado na tabela abaixo, o valor atribuído ao rótulo está correto.
+
 ```{r}
-#| label: caso_extremo_grupo_texto
+#| label: caso_extremo_cpf_cnpj_texto
 #| eval: true
 #| echo: false
+#| tbl-cap: "Caso Extremo Nome CPF/CNPJ"
 
-busca_linhas(caso)
+busca_linhas(caso)|>
+knitr::kable()
 ```
 
 # Identificação das Constatações
 
-Por fim, notamos que as constatações tem vários rótulos, tais como Grupo, Subgrupo, Constatação, Evidência etc. Assim, torna-se necessário diferenciar o conjunto de rótulos de cada constatação. Vejamos abaixo os rótulos de uma constatação na forma como aparecem em nosso *dataframe*:
+Por fim, nota-se que as constatações tem vários rótulos, tais como Grupo, Subgrupo, Constatação, Evidência etc. Assim, torna-se necessário diferenciar o conjunto de rótulos de cada constatação. Abaixo, tem-se os rótulos de uma constatação na forma como aparecem no *dataframe*:
 
 ```{r}
 #| label: exemplo_constatacao
 #| eval: true
 #| echo: false
+#| tbl-cap: "Amostra Seção Constatações"
 
 conteudo_estruturado |>
 filter(`Seção` == "CONSTATAÇÕES" & Arquivo == arquivo_teste) |>
 select(`Arquivo`, `Rótulo`, `Linha Inicial`) |>
 head(n = 25) |>
-distinct()
+distinct() |>
+knitr::kable()
 ```
 
-
-Temos os seguintes rótulos antes do rótulo "Constatação": Tópico, Grupo, Subgrupo e Item. Assim, toda primeira ocorrência de Rótulo Tópico poderia ser usada para marcar o início de uma nova constatação. Vamos avaliar se esses rótulos aparecem a mesma quantidade de vezes no nosso *corpus*.
+Tem-se os seguintes rótulos **antes** do rótulo "Constatação": Tópico, Grupo, Subgrupo e Item. Assim, toda primeira ocorrência de Rótulo Tópico poderia ser usada para marcar o início de uma nova constatação. Pode-se validar tal hipótese avaliando se esses rótulos aparecem na mesma quantidade de vezes no nosso *corpus*.
 
 
 ```{r}
 #| label: contagem_rotulos_constatacoes
 #| eval: true
 #| echo: false
+#| tbl-cap: "Número de Ocorrências Rótulos Constatação"
 
 conteudo_estruturado |>
 filter(`Seção` == "CONSTATAÇÕES") |>
@@ -1052,17 +1084,18 @@ filter(
 summarise(
     Contagem = n(),
     .by = `Rótulo`
-)
+)|>
+knitr::kable()
 ```
 
-Conforme mostrado acima, parece que o rótulo tópico foi introduzido posteriormente. Mas os rótulos Grupo, Subgrupo, Item e Constatação aparecem na mesma quantidade. Assim, podemos usar o Grupo quando não precedido do Tópico ou o Tópico para delimitar uma constatação. Para testar essa possibilidade vamos averiguar a condição de existência de rótulo "Tópico" que não seja sucedida por "Grupo", pois tal situação impediria o uso da solução aventada. Adicionalmente, vemos que a mesma linha que contém o rótulo "Grupo", contém também o número original da constatação. Assim, vamos implementar um teste para avaliar se isso é consistente e uma rotina para colocar esse número no campo `# Constatação`.
+Conforme mostrado acima, o rótulo tópico aparece menos vezes. Mas os rótulos Grupo, Subgrupo, Item e Constatação aparecem na mesma quantidade. Assim, pode-se usar o Grupo quando não precedido do Tópico ou o Tópico para demarcar o início uma constatação. Para testar essa hipótese pode-se averiguar a condição de existência de rótulo "Tópico" que não seja sucedida por "Grupo", pois tal situação impediria o uso da solução aventada. 
+
+Adicionalmente, vê-se que a mesma linha que contém o rótulo "Grupo", contém também o número original da constatação. Assim, pode-se avaliar a hipótese de tal ocorrência ser uma regra e, sem sendo, extrair tal informação para o campo `# Constatação`.
 
 ```{r}
 #| label: marcacao_constatacoes
 #| eval: true
 #| echo: true
-
-# conteudo_estruturado <- read_rds("./Dados Gerados/conteudo_estruturado.rds")
 
 qtd_topicos_nao_sucedidos_grupo <- conteudo_estruturado |>
     filter(`Rótulo` == "Tópico" & lead(`Rótulo`) != "Grupo") |>
@@ -1074,8 +1107,6 @@ qtd_rotulos_grupo_sem_constatacao <- conteudo_estruturado |>
   nrow()
 
 # write_rds(conteudo_estruturado, "./Dados Gerados/conteudo_estruturado.rds")
-
-str_sub("asfsjl fjsdlfj 123456", -6)
 
 conteudo_estruturado_const_delim <- conteudo_estruturado |>
   mutate(
@@ -1092,15 +1123,13 @@ conteudo_estruturado_const_delim <- conteudo_estruturado |>
   mutate(`# Recomendação` = cumsum(`# Recomendação`)) |>
   ungroup()
 
-
-write_rds(conteudo_estruturado_const_delim, "./Dados Gerados/conteudo_estruturado.rds")
 ```
 
-A hipótese do "Tópico" ser sempre sucedido por "Grupo" é valida, pois o contrário disso retorna `r qtd_topicos_nao_sucedidos_grupo` registros. Assim, já temos todos os dados das constatações vinculados entre si.
+A hipótese do "Tópico" ser sempre sucedido por "Grupo" é valida, pois o contrário disso retorna `r qtd_topicos_nao_sucedidos_grupo` registros, o que autoriza a demarcação do início de cada constatação bem como a vinculação dos demais dados da constatação. Além disso, verifica-se que em `r qtd_rotulos_grupo_sem_constatacao` casos não foi encontrado o número da constatação no conteúdo associado ao rótulo "Grupo". Assim optou-se por usar essa numeração para vincular os demais dados da constatação.
 
 # Conclusão
 
-Finalizamos criando os datasets finais de auditorias, constatações e recomendações.
+Para facilitar o uso das informações criadas nesse trabalho, pode-se particionar os dados em três conjunto distintos: um para guardar dados das auditorias, um segundo para as constatações e, finalmente, um para  recomendações.
 
 ```{r}
 #| label: criacao_datasets_finais
@@ -1113,9 +1142,10 @@ auditorias <- conteudo_estruturado_const_delim |>
     `Arquivo`, 
     `No. Auditoria`,
     `Rótulo`,
-    `Conteúdo`) |>
+    `Conteúdo`,
+    `Data Geração`) |>
   pivot_wider(
-    id_cols = c(`Arquivo`, `No. Auditoria`), 
+    id_cols = c(`Arquivo`, `No. Auditoria`, `Data Geração`), 
     names_from = "Rótulo", 
     values_from = "Conteúdo")
 
@@ -1192,7 +1222,7 @@ summarise(
   `Total Unidades` = n_distinct(`Entidade Responsável`),
   `Total Municípios` = n_distinct(`Munícipio/UF`),
   `Total Constatações` = sum(`Constatações` , na.rm = TRUE),
-  `Total Const. c/ Rec` = sum(`Com Recomendações`, na.rm = TRUE),
+  `Total Constatações com RecomendaçãoO` = sum(`Com Recomendações`, na.rm = TRUE),
   `Total Recomendações` = sum(`Recomendações`, na.rm = TRUE)
 ) |>
 transpose() |>

@@ -1,14 +1,14 @@
 {
-  "id": "593b193c-a646-4a28-8245-4eaa16d79496",
+  "id": "755dee7c-77f5-434f-b4f4-4490ea9c978e",
   "object": "chat.completion",
-  "created": 1758469370,
+  "created": 1758561426,
   "model": "deepseek-chat",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "{\n"
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe ações como revisar produtos, reorganizar equipes, redefinir prazos e implementar um planejamento com monitoramento contínuo, visando resolver a causa raiz da não conclusão e não utilização dos produtos, promovendo mudanças estruturais de longo prazo para evitar a recorrência do problema.\"\n}"
       },
       "logprobs": {},
       "finish_reason": "stop"
@@ -16,13 +16,13 @@
   ],
   "usage": {
     "prompt_tokens": 1227,
-    "completion_tokens": 1,
-    "total_tokens": 1228,
+    "completion_tokens": 95,
+    "total_tokens": 1322,
     "prompt_tokens_details": {
-      "cached_tokens": 960
+      "cached_tokens": 0
     },
-    "prompt_cache_hit_tokens": 960,
-    "prompt_cache_miss_tokens": 267
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1227
   },
-  "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+  "system_fingerprint": "fp_f253fc19d1_prod0820_fp8_kvcache"
 }

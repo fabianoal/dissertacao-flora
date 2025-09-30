@@ -1,0 +1,28 @@
+{
+  "id": "7097d2ff-944d-47e5-8645-c4072f68616a",
+  "object": "chat.completion",
+  "created": 1759245501,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação propõe uma ação específica para corrigir a condição atual de ausência de espelho de AIH anexado nos prontuários, focando na solução imediata do problema. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos. Os pressupostos solicitados foram considerados adequadamente, incluindo o critério de desempate que favorece recomendações cause-based quando há dúvida, mas neste caso a classificação como condition-based é clara, pois a recomendação trata da correção direta da condição identificada (ausência de documentos) sem propor medidas para evitar a recorrência do problema, como mudanças em políticas ou procedimentos.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1579,
+    "completion_tokens": 194,
+    "total_tokens": 1773,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 235
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

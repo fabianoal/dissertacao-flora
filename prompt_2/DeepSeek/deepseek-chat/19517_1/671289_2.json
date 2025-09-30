@@ -1,0 +1,28 @@
+{
+  "id": "4ae69209-7158-4a7a-83b7-52d4bb2943f9",
+  "object": "chat.completion",
+  "created": 1759248037,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação propõe a dedução de valores não comprovados como medida corretiva imediata para a condição específica da falta de documentação comprobatória. A análise se baseia exclusivamente no conteúdo da constatação (ausência de notas fiscais) e da recomendação (procedimento de dedução de valores), sem incorrer em pressupostos externos. Considerando que a recomendação visa remediar diretamente a inconformidade identificada (falta de comprovação) através de uma ação específica e pontual (dedução de valores retidos), sem propor mudanças sistêmicas ou preventivas para evitar futuras ocorrências, a classificação como 'condition-based' está alinhada com os critérios do IIA e com as instruções fornecidas ao modelo (incluindo o critério de desempate para 'cause-based').\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1752,
+    "completion_tokens": 224,
+    "total_tokens": 1976,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 344
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

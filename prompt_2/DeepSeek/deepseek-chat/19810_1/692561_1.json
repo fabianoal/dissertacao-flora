@@ -1,0 +1,28 @@
+{
+  "id": "fd519808-dd89-4b55-a4e3-d5f19a9a502d",
+  "object": "chat.completion",
+  "created": 1759260241,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa analisada estabelece uma relação coerente entre a recomendação e sua classificação como 'cause-based', ao destacar que a proposta de desenvolver ações contínuas e estruturais (promoção, prevenção e cuidado em saúde mental) visa abordar a causa subjacente da falta de ações específicas, promovendo mudanças de longo prazo e prevenindo recorrências. A análise baseia-se exclusivamente no conteúdo da constatação (equipes não realizam ações específicas voltadas à temática de saúde mental) e da recomendação (desenvolver ações de promoção, prevenção e cuidado), sem incorrer em pressupostos externos. Os critérios do usuário pesquisador foram considerados corretamente, incluindo a orientação de optar por 'cause-based' em caso de dúvida, uma vez que a recomendação se alinha com soluções de longo prazo para evitar a repetição da condição observada.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1595,
+    "completion_tokens": 229,
+    "total_tokens": 1824,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 251
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

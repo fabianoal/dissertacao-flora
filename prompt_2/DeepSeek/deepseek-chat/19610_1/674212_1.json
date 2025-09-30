@@ -1,0 +1,28 @@
+{
+  "id": "31765932-ddfb-4281-960f-77ecc8d14349",
+  "object": "chat.completion",
+  "created": 1759252637,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na correção imediata da condição específica (ausência de relatórios no sistema), determinando a inserção dos documentos conforme a portaria. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos. Os pressupostos solicitados foram considerados adequadamente, incluindo a definição clara de recomendações condition-based (corrigir a condição atual) versus cause-based (prevenir recorrência), e o critério de desempate não foi necessário aqui, pois a recomendação claramente visa resolver o problema imediato sem abordar causas subjacentes como falhas processuais ou de capacitação.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1552,
+    "completion_tokens": 184,
+    "total_tokens": 1736,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 208
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

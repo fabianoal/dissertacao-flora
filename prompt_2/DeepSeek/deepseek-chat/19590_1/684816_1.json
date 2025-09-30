@@ -1,0 +1,28 @@
+{
+  "id": "823dc9cc-cc18-4f61-8506-e5e47026bd33",
+  "object": "chat.completion",
+  "created": 1759249897,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresenta uma inferência sobre o conteúdo da recomendação baseada no contexto da constatação, mas não se baseia exclusivamente no conteúdo explícito da constatação e da recomendação fornecidas, uma vez que a recomendação em si não foi descrita (apenas referenciada). Além disso, a justificativa assume que a recomendação 'provavelmente visa ações corretivas de longo prazo' sem evidência direta, o que pode não respeitar o critério de análise baseada apenas no conteúdo fornecido. O pressuposto de desempate (optar por cause-based) foi aplicado, mas a falta da recomendação explícita impede uma avaliação adequada dos critérios do IIA.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1576,
+    "completion_tokens": 181,
+    "total_tokens": 1757,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 232
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

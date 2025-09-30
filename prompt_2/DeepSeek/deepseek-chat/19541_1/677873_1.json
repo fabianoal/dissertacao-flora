@@ -1,0 +1,28 @@
+{
+  "id": "fe68b811-5ee4-48e6-816a-90e9154e383a",
+  "object": "chat.completion",
+  "created": 1759248701,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa analisada aponta corretamente que a recomendação se concentra na correção imediata da condição identificada (falta de insumos e equipamentos), sem mencionar ações preventivas para evitar a recorrência, como melhorias em processos de gestão ou aquisição. Esta análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, que descreve a necessidade de dotar as UBS com insumos e equipamentos suficientes, mas não aborda causas subjacentes, como falhas na gestão de estoques ou planejamento de aquisições. Os pressupostos solicitados foram considerados corretamente, incluindo a definição de recomendações condition-based (foco na correção da condição atual) e cause-based (foco na causa raiz para prevenção), com o critério de desempate para cause-based não aplicável aqui, pois a recomendação claramente não propõe medidas de longo prazo para evitar repetição do problema. Portanto, a justificativa leva logicamente à classificação alcançada.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1704,
+    "completion_tokens": 261,
+    "total_tokens": 1965,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 360
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

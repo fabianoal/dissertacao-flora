@@ -1,0 +1,28 @@
+{
+  "id": "b19781d2-7986-4188-84b7-53cc01509fb9",
+  "object": "chat.completion",
+  "created": 1759263077,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa afirma que a recomendação aborda a causa subjacente da não conformidade (falta de adesão aos protocolos) e promove mudança estrutural para prevenir recorrência. No entanto, a recomendação em si apenas repete a exigência normativa já existente ('Assegurar que... realize a cirurgia no prazo máximo de 60 dias'), sem propor ações específicas para modificar processos, políticas ou sistemas que levariam à não adesão. A constatação identifica que o hospital não cumpriu o prazo, mas a recomendação foca na correção dessa condição específica (realizar dentro do prazo), não em resolver causas profundas como falta de capacitação, recursos ou procedimentos internos. A justificativa extrapola o conteúdo da recomendação ao inferir que ela aborda causas subjacentes e promove mudança estrutural, quando na verdade se baseia principalmente na condição observada (atraso na cirurgia). Considerando que o critério de desempate é 'cause-based' e a recomendação não vai além da correção imediata da condição, a classificação como 'cause-based' não se sustenta.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1719,
+    "completion_tokens": 281,
+    "total_tokens": 2000,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 375
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

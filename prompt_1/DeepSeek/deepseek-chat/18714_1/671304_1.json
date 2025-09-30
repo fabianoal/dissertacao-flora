@@ -1,0 +1,28 @@
+{
+  "id": "0063b96c-ad3a-4a1e-8270-fc17aa181d69",
+  "object": "chat.completion",
+  "created": 1759242652,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação visa corrigir a condição específica encontrada, que é a ausência de publicações no Diário Oficial do Município, sem propor ações para evitar que a mesma situação ocorra novamente no futuro.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1101,
+    "completion_tokens": 66,
+    "total_tokens": 1167,
+    "prompt_tokens_details": {
+      "cached_tokens": 704
+    },
+    "prompt_cache_hit_tokens": 704,
+    "prompt_cache_miss_tokens": 397
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

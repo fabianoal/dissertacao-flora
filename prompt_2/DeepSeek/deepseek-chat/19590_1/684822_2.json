@@ -1,0 +1,28 @@
+{
+  "id": "625b2f82-1e8e-4145-af82-c10b9e617cf4",
+  "object": "chat.completion",
+  "created": 1759249929,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação propõe a definição de metas quanti-qualitativas no contrato com o prestador do serviço, o que constitui uma medida estrutural de longo prazo para prevenir a recorrência do atraso no encaminhamento de pacientes. Esta análise baseia-se exclusivamente no conteúdo da constatação (atraso no encaminhamento) e da recomendação (estabelecimento de metas contratuais), sem incorrer em pressupostos externos. Além disso, a justificativa alinha-se com os critérios do IIA, onde recomendações 'cause-based' focam em evitar a reocorrência do problema através de mudanças sistêmicas, como a implementação de mecanismos contratuais, em contraste com medidas temporárias para corrigir a condição atual. O critério de desempate (preferência por 'cause-based') foi implicitamente respeitado, mas não necessário, dado o claro foco na causa raiz.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1774,
+    "completion_tokens": 245,
+    "total_tokens": 2019,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 366
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

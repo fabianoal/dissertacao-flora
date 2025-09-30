@@ -1,0 +1,28 @@
+{
+  "id": "3060d814-a783-49f8-b099-d1e6fe651e8e",
+  "object": "chat.completion",
+  "created": 1759259869,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação propõe a elaboração do PGRSS e a contratação de empresa terceirizada como medidas estruturais e permanentes para prevenir a reincidência da falta de manejo adequado de resíduos, o que se alinha com o conceito de recomendações cause-based que focam em soluções de longo prazo para evitar a repetição do problema. A análise baseia-se exclusivamente no conteúdo da constatação (ausência de PGRSS) e da recomendação (elaborar PGRSS e contratar empresa), sem incorrer em pressupostos externos. Os critérios do usuário foram respeitados, incluindo a preferência por cause-based em caso de dúvida, e a justificativa demonstra claramente como a recomendação aborda a causa raiz (falta de controles permanentes) em vez de apenas corrigir a condição imediata.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1675,
+    "completion_tokens": 230,
+    "total_tokens": 1905,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 331
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

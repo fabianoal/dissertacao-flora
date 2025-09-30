@@ -1,0 +1,28 @@
+{
+  "id": "3e14d1e4-73b1-4852-b3d8-a79282ec7baa",
+  "object": "chat.completion",
+  "created": 1759257637,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo baseia-se adequadamente no conteúdo da constatação e da recomendação, identificando que a recomendação propõe adequações estruturais (estrutura física da Central Municipal de Frios e veículo de transporte) e a validação de procedimentos operacionais (POP), que são ações voltadas para prevenir a recorrência da condição observada (insuficiência no processo de inspeção que não assegura a integridade e temperatura dos imunobiológicos). Essas medidas, conforme a nomenclatura do IIA, caracterizam-se como soluções de longo prazo que abordam a causa raiz do problema (infraestrutura inadequada e falta de procedimentos validados), em vez de apenas corrigir a condição atual. A justificativa não introduz pressupostos externos e considera corretamente os critérios fornecidos pelo usuário, incluindo o critério de desempate para optar por 'cause-based' quando aplicável.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1711,
+    "completion_tokens": 242,
+    "total_tokens": 1953,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 367
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

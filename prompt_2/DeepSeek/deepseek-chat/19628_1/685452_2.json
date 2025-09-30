@@ -1,0 +1,28 @@
+{
+  "id": "8b699bca-8bea-4974-9f37-2c6b68ad45c4",
+  "object": "chat.completion",
+  "created": 1759254729,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação propõe a implementação de controles internos e políticas de governança, que são medidas estruturais e permanentes. Esta análise está baseada exclusivamente no conteúdo da constatação (ausência de cópias das notas fiscais) e da recomendação (estabelecer controles internos e política de governança). A justificativa demonstra compreensão adequada dos conceitos de recomendações cause-based (foco na causa raiz, soluções de longo prazo) versus condition-based (correção temporária da condição atual). Os pressupostos solicitados foram considerados corretamente, incluindo o critério de desempate que favorece a classificação cause-based quando há dúvida.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1564,
+    "completion_tokens": 188,
+    "total_tokens": 1752,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 156
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

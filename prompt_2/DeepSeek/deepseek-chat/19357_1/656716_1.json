@@ -1,0 +1,28 @@
+{
+  "id": "d6df07e5-1858-44d2-b95b-e66fa82c21f7",
+  "object": "chat.completion",
+  "created": 1759246185,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa analisada corretamente identifica que a recomendação se concentra na restituição dos valores recebidos indevidamente, o que constitui uma medida corretiva para a condição específica identificada na auditoria. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos. A recomendação não propõe ações preventivas, como implementação de controles internos ou capacitação de pessoal, que caracterizariam uma abordagem cause-based. Os pressupostos solicitados foram considerados adequadamente, incluindo o critério de desempate que favorece cause-based quando há ambiguidade, mas neste caso a recomendação é claramente focada na correção da situação atual.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2028,
+    "completion_tokens": 187,
+    "total_tokens": 2215,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 684
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d2fa9200-2452-499a-8111-b4422b17d3c0",
+  "object": "chat.completion",
+  "created": 1759262153,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra em adotar procedimentos para 'elisão do dano e/ou impropriedade ocorrida', o que se alinha com a definição de recomendações condition-based, que visam corrigir a condição atual (neste caso, a incompatibilidade de valores). A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem extrapolar informações. Os pressupostos do usuário foram respeitados, incluindo a definição do IIA e o critério de desempate (que não foi necessário aqui, pois a classificação como condition-based é clara). Portanto, a justificativa leva logicamente à classificação alcançada.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1618,
+    "completion_tokens": 185,
+    "total_tokens": 1803,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 274
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

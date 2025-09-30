@@ -1,0 +1,28 @@
+{
+  "id": "0d3191c2-a27d-4794-90bd-ee33c88eeb2f",
+  "object": "chat.completion",
+  "created": 1759258205,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação propõe a implementação de um cronograma contínuo para manutenção preventiva e corretiva, calibração periódica e qualificação térmica, visando estabelecer processos sistemáticos e duradouros. Isso se baseia exclusivamente no conteúdo da constatação (falta de manutenções periódicas, qualificação térmica e calibração) e da recomendação (estabelecer cronograma contínuo e processos documentados). Os pressupostos solicitados foram considerados, pois a recomendação aborda a causa raiz (ausência de processos sistemáticos) e não apenas corrige a condição atual, alinhando-se com o critério de desempate para cause-based.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1786,
+    "completion_tokens": 191,
+    "total_tokens": 1977,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 442
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "dc28c9cf-25ba-442d-8e5d-ce5d90ef5a46",
+  "object": "chat.completion",
+  "created": 1759246357,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa analisada corretamente identifica que a recomendação exige a devolução dos valores indevidamente recebidos e a correção dos registros no sistema, ações que visam remediar a situação específica identificada na auditoria. A justificativa baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem incorporar pressupostos externos, e considera adequadamente os critérios do IIA, destacando a ausência de propostas para evitar a recorrência do problema. Embora a recomendação mencione a inserção correta de dados, o que poderia ser interpretado como preventivo, o foco predominante é na correção da condição atual, alinhando-se com a classificação condition-based. Os pressupostos do usuário, incluindo o critério de desempate, foram respeitados, pois a justificativa não indica elementos que justifiquem uma reclassificação para cause-based.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1944,
+    "completion_tokens": 231,
+    "total_tokens": 2175,
+    "prompt_tokens_details": {
+      "cached_tokens": 1472
+    },
+    "prompt_cache_hit_tokens": 1472,
+    "prompt_cache_miss_tokens": 472
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "7d9308aa-cc30-4eac-a15f-a3418b51ea98",
+  "object": "chat.completion",
+  "created": 1759256225,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação propõe a orientação de fiscais e gestores para realizar conferências sistemáticas da documentação comprobatória, visando prevenir a ocorrência futura de pagamentos sem cobertura contratual. Isso se baseia exclusivamente no conteúdo da constatação (pagamento sem cobertura contratual) e da recomendação (conferência sistemática da documentação), sem introduzir pressupostos externos. A justificativa também se alinha adequadamente com a definição de recomendações cause-based, que focam em ações para evitar a recorrência do problema através de soluções de longo prazo, como a implementação de processos de verificação contínua. Os critérios do usuário, incluindo a preferência por cause-based em caso de dúvida, foram respeitados.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1568,
+    "completion_tokens": 208,
+    "total_tokens": 1776,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 224
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

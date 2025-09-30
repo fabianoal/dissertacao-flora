@@ -1,0 +1,28 @@
+{
+  "id": "7e8d205d-acc8-42f1-ae64-13a4c97bc7d7",
+  "object": "chat.completion",
+  "created": 1759257146,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo baseia-se adequadamente no conteúdo da recomendação, que estabelece a necessidade de revisar e estruturar o documento descritivo conforme diretrizes específicas, incluindo a revisão periódica a cada 12 meses. Isso demonstra um foco na prevenção da recorrência da não conformidade por meio de processos de longo prazo e melhorias sistêmicas, alinhando-se ao conceito de recomendações cause-based. A análise fundamenta-se exclusivamente na constatação (ausência de previsão do procedimento no documento descritivo) e na recomendação (estruturação e revisão periódica do documento), sem incorrer em pressupostos externos. Além disso, respeita o critério de desempate ao optar por cause-based quando há elementos que sustentam essa classificação. Portanto, a justificativa conduz logicamente à classificação alcançada.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1850,
+    "completion_tokens": 223,
+    "total_tokens": 2073,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 506
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c739c863-81e2-4336-a8bf-21c3fcd981ea",
+  "object": "chat.completion",
+  "created": 1759252325,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação aborda a correção imediata da condição específica (não fornecer alimentação), sem propor ações preventivas ou de longo prazo, como revisões de processos ou implementação de políticas. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir pressupostos externos. Os critérios do IIA foram aplicados adequadamente, considerando que recomendações condition-based focam na correção da condição atual, enquanto cause-based visam evitar recorrência através de mudanças estruturais. A recomendação aqui trata especificamente de fornecer o aporte nutricional, o que é uma solução direta para a condição observada, sem abordar causas subjacentes como falhas processuais ou de supervisão.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1582,
+    "completion_tokens": 203,
+    "total_tokens": 1785,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 238
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

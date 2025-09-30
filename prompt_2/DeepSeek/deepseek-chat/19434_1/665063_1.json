@@ -1,0 +1,28 @@
+{
+  "id": "9f1e7aac-7d08-42e2-852a-ab78c004616f",
+  "object": "chat.completion",
+  "created": 1759246817,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo baseia-se adequadamente no conteúdo da constatação e da recomendação, identificando corretamente que a recomendação exige a apresentação de documentação específica (notas fiscais) para regularizar a condição imediata de falta de comprovação do estoque. A análise demonstra que a recomendação não propõe ações preventivas ou de longo prazo, como mudanças em processos ou políticas, que caracterizariam uma abordagem cause-based. A justificativa está alinhada com os critérios do IIA, onde recomendações condition-based focam na correção da condição atual, e não na causa raiz. Além disso, os pressupostos solicitados pelo usuário foram considerados, incluindo o critério de desempate (preferência por cause-based), que não se aplica aqui, pois a recomendação claramente não aborda a causa. Portanto, a classificação como condition-based é consistente com a análise realizada.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1596,
+    "completion_tokens": 240,
+    "total_tokens": 1836,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 252
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

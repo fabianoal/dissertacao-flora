@@ -1,0 +1,28 @@
+{
+  "id": "69279033-0892-49cc-90bb-57fba9931ae6",
+  "object": "chat.completion",
+  "created": 1759253413,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação possui dois componentes: um voltado para a correção imediata da condição (verificação dos registros no CNES) e outro focado em ações contínuas e preventivas (manutenção periódica das informações no CNES). A análise se baseia exclusivamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos. Os pressupostos solicitados foram considerados adequadamente, incluindo a definição de recomendações cause-based como aquelas que propõem ações para evitar a recorrência do problema no longo prazo, e o critério de desempate que favorece a classificação cause-based quando há elementos de ambos os tipos. A ênfase na manutenção periódica conforme legislação demonstra um foco na causa raiz (falta de processos sistemáticos de atualização), justificando a classificação como cause-based.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1609,
+    "completion_tokens": 224,
+    "total_tokens": 1833,
+    "prompt_tokens_details": {
+      "cached_tokens": 1472
+    },
+    "prompt_cache_hit_tokens": 1472,
+    "prompt_cache_miss_tokens": 137
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

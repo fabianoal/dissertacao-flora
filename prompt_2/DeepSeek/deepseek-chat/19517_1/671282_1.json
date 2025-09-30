@@ -1,0 +1,28 @@
+{
+  "id": "1b5feee4-788c-4987-90bf-a66fb051ce8a",
+  "object": "chat.completion",
+  "created": 1759248025,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo baseia-se adequadamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos. A constatação aponta a ausência de documentos que comprovem a regularidade do estabelecimento, enquanto a recomendação exige a apresentação de documentos específicos (Licença Sanitária e Certificado de Regularidade Técnica) para atender aos critérios de credenciamento. A justificativa argumenta que essa exigência visa prevenir a recorrência da irregularidade através de requisitos de longo prazo, alinhando-se ao conceito de recomendações cause-based, que focam em evitar a reocorrência do problema. Os pressupostos solicitados pelo usuário, como a classificação baseada na nomenclatura do IIA e o critério de desempate para cause-based, foram considerados corretamente, pois a recomendação estabelece uma condição permanente de conformidade documental.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1716,
+    "completion_tokens": 231,
+    "total_tokens": 1947,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 372
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

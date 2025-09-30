@@ -1,0 +1,28 @@
+{
+  "id": "66741aec-1964-45bb-b474-f8ee6f02af78",
+  "object": "chat.completion",
+  "created": 1759252629,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa aponta corretamente que a recomendação se concentra na correção imediata da condição específica identificada (ausência dos relatórios no sistema), sem mencionar ações preventivas para evitar a recorrência do problema. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir pressupostos externos. Os critérios solicitados pelo usuário foram aplicados adequadamente, considerando que a recomendação trata da inserção dos documentos faltantes, o que caracteriza uma solução temporária para a condição atual, em conformidade com a definição de recomendações condition-based do IIA.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1559,
+    "completion_tokens": 166,
+    "total_tokens": 1725,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 151
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

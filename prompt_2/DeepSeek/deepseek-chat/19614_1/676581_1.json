@@ -1,0 +1,28 @@
+{
+  "id": "b8915a5f-0121-40cc-bdae-aef7be12a3dc",
+  "object": "chat.completion",
+  "created": 1759253433,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresenta uma análise coerente com a classificação atribuída, ao destacar que a recomendação não se limita à correção imediata da condição (restituição dos recursos), mas inclui medidas administrativas e legais (notificações, exigência de justificativas, procedimentos de ressarcimento) que visam prevenir a recorrência do problema. Essa abordagem está alinhada com o conceito de recomendações cause-based, que focam em soluções de longo prazo para evitar a repetição da inconformidade. A justificativa baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem incorrer em pressupostos externos, e considera corretamente os critérios solicitados pelo usuário, incluindo a regra de desempate (preferência por cause-based).\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1772,
+    "completion_tokens": 206,
+    "total_tokens": 1978,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 428
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

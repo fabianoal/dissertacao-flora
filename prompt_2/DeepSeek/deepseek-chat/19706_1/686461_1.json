@@ -1,0 +1,28 @@
+{
+  "id": "1244de73-b420-483e-8b5f-6c1990d508c0",
+  "object": "chat.completion",
+  "created": 1759256729,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na correção imediata da condição específica encontrada (recebimento irregular de recursos), exigindo a restituição do valor, sem propor ações preventivas ou melhorias sistêmicas para evitar a reincidência do problema. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem incorporar pressupostos externos, e considera adequadamente os critérios solicitados, onde recomendações condition-based corrigem a condição atual e cause-based visam prevenir a recorrência. Como a recomendação trata apenas da restituição do valor irregularmente recebido, sem abordar causas subjacentes como falhas em processos de comprovação de produção ou controles internos, a classificação como condition-based está alinhada com a definição do IIA.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1797,
+    "completion_tokens": 211,
+    "total_tokens": 2008,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 453
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

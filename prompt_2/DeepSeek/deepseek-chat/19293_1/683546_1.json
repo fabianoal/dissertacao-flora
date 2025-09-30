@@ -1,0 +1,28 @@
+{
+  "id": "6409b30c-c650-4ae0-9844-1711d4a2ff79",
+  "object": "chat.completion",
+  "created": 1759245833,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa analisa corretamente que a recomendação propõe ações sistêmicas e de longo prazo (mapeamento de processos, documentação detalhada, customização do sistema, testes, monitoramento e ampliação da equipe) que visam resolver a causa raiz (parametrização inadequada do sistema) e prevenir recorrência. Baseia-se exclusivamente no conteúdo da constatação e da recomendação, considerando adequadamente os pressupostos solicitados, incluindo o critério de desempate para cause-based quando há elementos de ambas as categorias.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1883,
+    "completion_tokens": 148,
+    "total_tokens": 2031,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 539
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

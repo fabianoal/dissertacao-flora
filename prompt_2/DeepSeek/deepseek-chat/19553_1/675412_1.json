@@ -1,0 +1,28 @@
+{
+  "id": "25389961-62cf-4e2c-8a58-3fcdeab88495",
+  "object": "chat.completion",
+  "created": 1759249009,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresenta uma análise coerente com a classificação atribuída, pois identifica corretamente que a recomendação propõe a implementação de um sistema de registro e controle de perdas de vacinas, o que constitui uma medida preventiva para evitar a recorrência da falta de registros. A análise baseia-se exclusivamente no conteúdo da constatação (ausência de registros de controle de estoque) e da recomendação (adoção de medidas para registro e controle de perdas), sem introduzir elementos externos. Os pressupostos solicitados pelo usuário foram considerados adequadamente, incluindo a definição de recomendações cause-based como aquelas que propõem ações para evitar a recorrência do problema, com foco na causa subjacente (ausência de processos de controle) em vez de apenas corrigir a condição atual. A justificativa alinha-se com o critério de desempate ao optar por cause-based, uma vez que a recomendação visa estabelecer um processo contínuo de controle.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1578,
+    "completion_tokens": 248,
+    "total_tokens": 1826,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 234
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

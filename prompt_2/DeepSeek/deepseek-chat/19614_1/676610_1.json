@@ -1,0 +1,28 @@
+{
+  "id": "8f057646-8b42-406e-a4c8-149ff6689f4d",
+  "object": "chat.completion",
+  "created": 1759253573,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na correção imediata da condição específica encontrada (ausência dos relatórios), solicitando sua inserção no sistema. A análise se baseia exclusivamente no conteúdo da constatação e da recomendação, sem incorporar pressupostos externos. A justificativa também observa adequadamente a ausência de elementos que abordariam causas raiz ou ações preventivas de longo prazo, alinhando-se com os critérios estabelecidos para a classificação condition-based. Os pressupostos solicitados pelo usuário foram considerados corretamente, incluindo o critério de desempate que favorece cause-based quando há ambiguidade, o que não se aplica aqui dada a clareza do foco na correção da condição imediata.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1551,
+    "completion_tokens": 203,
+    "total_tokens": 1754,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 143
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

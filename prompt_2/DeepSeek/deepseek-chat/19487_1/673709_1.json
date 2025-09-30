@@ -1,0 +1,28 @@
+{
+  "id": "58521516-55a9-4792-ae90-8e74ce2b6092",
+  "object": "chat.completion",
+  "created": 1759247461,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa afirma que a recomendação propõe 'ações contínuas e preventivas' e visa 'evitar a recorrência da falha', o que efetivamente alinha-se com a definição de recomendações cause-based, que buscam soluções de longo prazo para prevenir a reocorrência do problema. A justificativa baseia-se exclusivamente no conteúdo da constatação (falha em adotar ações do 'Documento Orientador' para atingir a meta) e da recomendação (adoção dessas ações e realização de consultas odontológicas programáticas), sem introduzir elementos externos. Os pressupostos do usuário foram considerados corretamente, incluindo a definição do IIA e o critério de desempate (optar por cause-based em caso de dúvida). A recomendação, ao sugerir a implementação de diretrizes documentadas e práticas regulares, aborda a causa raiz (ausência de ações sistemáticas) em vez de apenas corrigir a condição imediata (meta não atingida).\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1620,
+    "completion_tokens": 258,
+    "total_tokens": 1878,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 276
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "7dad0195-a256-4d15-96fa-8bcdb5438d80",
+  "object": "chat.completion",
+  "created": 1759261221,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa analisada corretamente identifica que a recomendação inclui ações como padronizar o registro em prontuário e elaborar um documento operacional padrão para consolidar o fluxo de atendimento, que são medidas estruturais e de longo prazo. Essas ações visam prevenir a recorrência da falha no acolhimento e registro, abordando a causa raiz da falta de procedimentos padronizados e documentação adequada, em vez de apenas corrigir a condição imediata de ausência de comprovação. A justificativa baseia-se exclusivamente no conteúdo da constatação (falta de comprovação do acolhimento) e da recomendação (medidas de padronização e documentação), sem incorrer em pressupostos externos. Os critérios do usuário, incluindo a definição do IIA e a regra de desempate para 'cause-based', foram aplicados adequadamente, pois a recomendação claramente foca em mudanças sistêmicas para evitar repetição do problema.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1804,
+    "completion_tokens": 254,
+    "total_tokens": 2058,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 460
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

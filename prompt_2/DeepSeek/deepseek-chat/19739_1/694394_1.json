@@ -1,0 +1,28 @@
+{
+  "id": "cdabfa21-3d4e-4c09-8946-397b1f5ab73c",
+  "object": "chat.completion",
+  "created": 1759257425,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo baseia-se adequadamente no conteúdo da constatação e da recomendação, identificando que a recomendação propõe ações sistêmicas (controlar, avaliar, planejar, organizar, fiscalizar, auditar) e de longo prazo relacionadas à produção ambulatorial e aos cadastros no CNES. Essas ações visam prevenir a recorrência das inconsistências identificadas na constatação, como a falta de comprovação de quantidades e a produção por profissionais não cadastrados, alinhando-se ao conceito de recomendações cause-based, que focam em evitar a reincidência do problema. A justificativa não introduz elementos externos e considera corretamente os pressupostos solicitados, incluindo o critério de desempate para cause-based quando aplicável.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1870,
+    "completion_tokens": 205,
+    "total_tokens": 2075,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 526
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d4063904-350f-4097-8eab-8dfbe37eb355",
+  "object": "chat.completion",
+  "created": 1759249301,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa afirma que a recomendação visa estabelecer um processo contínuo de conformidade e prevenção de futuras inconformidades, mas isso não se baseia exclusivamente no conteúdo da constatação e da recomendação. A constatação refere-se especificamente a equipes incompletas por mais de 90 dias em 2022, e a recomendação é focada em ações corretivas imediatas (devolução de valores) e reativas (envio de documentos quando solicitado), sem propor mudanças estruturais ou de longo prazo para evitar a recorrência do problema. A justificativa introduz pressupostos não presentes na recomendação, como 'processo contínuo de conformidade', que não é explicitado. Considerando que o critério de desempate é optar por 'cause-based' e que a recomendação não aborda claramente a causa raiz (ex.: por que as equipes estão incompletas), a classificação como 'cause-based' não é adequada.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1601,
+    "completion_tokens": 242,
+    "total_tokens": 1843,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 257
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

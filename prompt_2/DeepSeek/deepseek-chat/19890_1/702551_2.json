@@ -1,0 +1,28 @@
+{
+  "id": "7bfda200-dfc2-4d6e-8f7b-d6cbf7c51a74",
+  "object": "chat.completion",
+  "created": 1759263497,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa afirma que a recomendação enfatiza a adoção de um protocolo estabelecido para garantir conformidade contínua e prevenir recorrência, focando na causa subjacente. No entanto, a recomendação específica é 'Seguir a recomendação da terapêutica conforme descrito no Manual de Oncologia', que se trata de uma orientação direta para corrigir a condição observada (não realização da cirurgia em até 30 dias), sem propor mudanças estruturais ou de processo que ataquem a causa raiz (como falta de capacitação, recursos ou procedimentos internos). A justificativa extrapola o conteúdo da recomendação ao inferir prevenção de recorrência e foco em causas subjacentes, quando a recomendação em si é condicional e reativa à constatação imediata. Os pressupostos do usuário (base exclusiva na constatação e recomendação, critério de desempate para cause-based) não foram totalmente respeitados, pois a justificativa introduz elementos não explícitos.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1572,
+    "completion_tokens": 255,
+    "total_tokens": 1827,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 164
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

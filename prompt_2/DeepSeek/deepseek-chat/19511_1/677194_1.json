@@ -1,0 +1,28 @@
+{
+  "id": "0510f428-f6e8-4a80-b7c3-5d43e2499902",
+  "object": "chat.completion",
+  "created": 1759247825,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação propõe a adoção de medidas para assegurar o cumprimento de normativos e a atualização de instrumentos normativos, visando prevenir a recorrência da inconformidade. Esta análise baseia-se exclusivamente no conteúdo da constatação (desacordo no recebimento de OPME) e da recomendação (medidas para cumprimento e atualização normativa), sem incorrer em pressupostos externos. A classificação como 'cause-based' está alinhada com a definição do IIA, pois a recomendação foca em ações de longo prazo (como atualização de normativos) para evitar a recorrência do problema, atendendo ao critério de desempate que prioriza 'cause-based' quando aplicável.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1606,
+    "completion_tokens": 198,
+    "total_tokens": 1804,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 262
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

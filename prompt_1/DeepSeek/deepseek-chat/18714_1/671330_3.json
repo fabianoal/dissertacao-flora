@@ -1,0 +1,28 @@
+{
+  "id": "9af5211f-3237-4c25-9839-6a2d4f30f75c",
+  "object": "chat.completion",
+  "created": 1759242657,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação tem como foco principal corrigir a condição específica encontrada (irregularidade na aquisição) por meio da devolução do valor aos cofres públicos, sem propor ações que evitem a recorrência do problema no futuro, como a implementação de controles ou capacitação para garantir o cumprimento dos critérios legais em futuras aquisições.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1156,
+    "completion_tokens": 106,
+    "total_tokens": 1262,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 196
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

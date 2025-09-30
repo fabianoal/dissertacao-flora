@@ -1,0 +1,28 @@
+{
+  "id": "f7b61ebc-f252-4512-8309-f38c238465d8",
+  "object": "chat.completion",
+  "created": 1759261085,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa analisada demonstra coerência com a classificação atribuída, uma vez que a recomendação de implementar o Acolhimento com Classificação de Risco estabelece um processo estruturado e contínuo baseado em diretrizes do SUS, o que efetivamente visa prevenir a recorrência da falta de critérios definidos, caracterizando uma abordagem de causa raiz. A justificativa fundamenta-se exclusivamente no conteúdo da constatação (ausência de critérios para classificação de risco) e da recomendação (implementação de um sistema estruturado), sem incorrer em pressupostos externos. Ademais, os critérios solicitados pelo usuário, como a preferência por 'cause-based' em caso de empate e a definição conceitual do IIA, foram respeitados, pois a recomendação claramente propõe uma solução duradoura (estabelecimento de processos) em vez de uma correção pontual.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1832,
+    "completion_tokens": 239,
+    "total_tokens": 2071,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 488
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

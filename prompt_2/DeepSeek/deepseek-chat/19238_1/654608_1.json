@@ -1,0 +1,28 @@
+{
+  "id": "d5ddefd1-a45a-4c73-a1c0-6914c990ed35",
+  "object": "chat.completion",
+  "created": 1759245637,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo baseia-se adequadamente no conteúdo da constatação e da recomendação, identificando que a proposta de adequações estruturais visa garantir conformidade contínua e prevenir a recorrência da precariedade, o que está alinhado com a definição de recomendações cause-based (foco na causa raiz e soluções de longo prazo). A análise não introduziu pressupostos externos, restringindo-se aos elementos fornecidos, e considerou corretamente o critério de desempate ao optar por cause-based quando aplicável. A cadeia de raciocínio leva logicamente à classificação alcançada.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1571,
+    "completion_tokens": 169,
+    "total_tokens": 1740,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 227
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "83273c2f-b57f-4782-8c64-50882e43324a",
+  "object": "chat.completion",
+  "created": 1759260773,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação propõe a integração dos sistemas de prontuários e definição de estratégias para compartilhamento de informações, focando na causa subjacente (falta de interoperabilidade sistêmica) para prevenir a recorrência da condição observada. Baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos. Considera adequadamente os pressupostos solicitados, incluindo a definição de recomendações cause-based como aquelas que propõem ações para evitar a recorrência e envolvem soluções de longo prazo, e aplica o critério de desempate para cause-based quando pertinente. A classificação como cause-based é consistente com a abordagem de resolver a causa raiz (falta de integração sistêmica) em vez de apenas corrigir a condição atual.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1622,
+    "completion_tokens": 217,
+    "total_tokens": 1839,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 278
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

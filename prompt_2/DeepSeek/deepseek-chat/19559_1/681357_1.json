@@ -1,0 +1,28 @@
+{
+  "id": "8ce41707-03ef-45e9-811d-6dd17e9f495f",
+  "object": "chat.completion",
+  "created": 1759249137,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa aponta corretamente que a recomendação visa implementar medidas estruturais e de conformidade normativa para prevenir a reocorrência do problema, focando em mudanças de longo prazo no sistema de gestão de prontuários. Ela se baseia exclusivamente no conteúdo da constatação (falta de prontuário médico único) e da recomendação (fiscalização e garantia de conformidade com normas do CFM). Os pressupostos do usuário foram considerados, incluindo a definição de recomendações cause-based como aquelas que propõem ações para evitar a reocorrência e envolvem soluções de longo prazo, com o critério de desempate favorecendo cause-based. A recomendação de fiscalizar e garantir conformidade com normas específicas visa modificar processos e sistemas subjacentes, indo além da correção imediata da condição observada.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1809,
+    "completion_tokens": 221,
+    "total_tokens": 2030,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 465
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

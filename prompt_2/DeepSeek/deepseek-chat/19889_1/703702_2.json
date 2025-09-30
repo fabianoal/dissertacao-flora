@@ -1,0 +1,28 @@
+{
+  "id": "4bbbdbf5-919c-4caf-8237-ceb5edfcda64",
+  "object": "chat.completion",
+  "created": 1759263309,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa não se baseia exclusivamente no conteúdo da constatação e da recomendação, pois introduz a ideia de 'evitar a repetição de pagamentos indevidos', que não está explícita na constatação (que trata de incompatibilidade entre AIHs pagas e atributos do CID principal) nem na recomendação (que se limita ao acompanhamento da recomposição de recursos específicos). A recomendação é focada na correção da condição atual (devolução de valor específico identificado como dano), sem propor mudanças sistêmicas para prevenir a causa raiz da incompatibilidade. Considerando o critério de desempate (optar por cause-based em caso de dúvida), a classificação como condition-based seria mais adequada, pois a recomendação aborda diretamente a correção da condição observada (elisão do dano com recursos federais) sem evidenciar medidas preventivas de longo prazo.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1708,
+    "completion_tokens": 230,
+    "total_tokens": 1938,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 300
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

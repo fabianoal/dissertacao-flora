@@ -1,0 +1,28 @@
+{
+  "id": "00c3a4b0-94dc-4c58-bb72-34b1fa0f0520",
+  "object": "chat.completion",
+  "created": 1759257537,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação propõe capacitações regulares para prevenir a recorrência da falta de treinamento, abordando a causa subjacente (ausência de programas de treinamento) e promovendo uma solução de longo prazo. Esta análise baseia-se exclusivamente no conteúdo da constatação (ausência de programas de treinamento regulares) e da recomendação (implementar capacitações regulares), sem introduzir elementos externos. Os pressupostos solicitados foram considerados adequadamente, incluindo a definição do IIA para recomendações cause-based (foco em evitar a recorrência com soluções de longo prazo) e o critério de desempate (optar por cause-based quando aplicável). A classificação como cause-based é consistente, pois a recomendação visa estabelecer um programa contínuo que ataca a causa raiz (falta de treinamento sistemático) em vez de apenas corrigir uma condição pontual.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1599,
+    "completion_tokens": 243,
+    "total_tokens": 1842,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 255
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

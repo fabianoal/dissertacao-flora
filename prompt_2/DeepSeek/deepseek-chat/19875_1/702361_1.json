@@ -1,0 +1,28 @@
+{
+  "id": "4ac8e27c-5a78-4994-b659-bf3cf9b0504e",
+  "object": "chat.completion",
+  "created": 1759262829,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa analisada corretamente identifica que a recomendação propõe a implementação de controles internos para validar a consistência entre o tempo de permanência e os procedimentos, com foco na prevenção da recorrência da inconsistência observada. Esta abordagem está alinhada com a definição de recomendações cause-based, que visam soluções de longo prazo para evitar a reocorrência do problema, conforme a nomenclatura do IIA. A justificativa baseia-se exclusivamente no conteúdo da constatação (inconsistência entre tempo de permanência e procedimentos registrados) e da recomendação (estabelecer controles internos), sem introduzir pressupostos externos. Além disso, considerou corretamente os critérios solicitados, incluindo o desempate para cause-based quando aplicável. Portanto, a justificativa conduz logicamente à classificação alcançada.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1641,
+    "completion_tokens": 229,
+    "total_tokens": 1870,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 297
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

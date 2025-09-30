@@ -1,0 +1,28 @@
+{
+  "id": "cc9c3c15-b767-4de2-9e49-e3a01505f96d",
+  "object": "chat.completion",
+  "created": 1759260237,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação propõe a implementação de uma mudança estrutural na rotina de trabalho das UBS, incorporando a construção do Projeto Terapêutico Singular (PTS) como parte do processo de atendimento. Esta análise baseia-se exclusivamente no conteúdo da constatação (ausência de PTS) e da recomendação (implementar na rotina), sem introduzir elementos externos. A justificativa alinha-se com os pressupostos solicitados, pois a recomendação visa estabelecer uma prática contínua para prevenir a recorrência da ausência de PTS, caracterizando uma abordagem de causa raiz (cause-based) conforme a nomenclatura do IIA, em vez de apenas corrigir casos específicos (condition-based). O critério de desempate não foi necessário, mas a classificação é consistente.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1682,
+    "completion_tokens": 214,
+    "total_tokens": 1896,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 338
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

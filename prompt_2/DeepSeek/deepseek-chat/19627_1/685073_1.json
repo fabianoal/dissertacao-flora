@@ -1,0 +1,28 @@
+{
+  "id": "3c35660e-084d-4b6f-aec2-3126416a0fb7",
+  "object": "chat.completion",
+  "created": 1759254441,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação propõe a implementação de parâmetros para análise e aprovação de composição de despesas, caracterizando uma ação preventiva e sistemática. Esta análise baseia-se exclusivamente no conteúdo da constatação (deficiência na composição de despesas) e da recomendação (implementar parâmetros para análise), sem incorporar pressupostos externos. A justificativa adequadamente considera que a criação de parâmetros visa evitar a recorrência do problema, alinhando-se com o conceito de recomendações cause-based que focam em soluções de longo prazo para a causa raiz. O critério de desempate (preferência por cause-based) não foi necessário aplicar, pois a classificação é consistente com a natureza da recomendação.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1552,
+    "completion_tokens": 204,
+    "total_tokens": 1756,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 208
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

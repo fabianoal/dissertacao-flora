@@ -1,0 +1,28 @@
+{
+  "id": "12d31afb-a332-4174-ab5e-a924f38ef500",
+  "object": "chat.completion",
+  "created": 1759259929,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação propõe o desenvolvimento de mecanismos para promover o acompanhamento dos pacientes, o que constitui uma solução de longo prazo para evitar a recorrência da falta de acompanhamento, alinhando-se com a definição de recomendações cause-based. A análise baseia-se exclusivamente no conteúdo da constatação (ausência de procedimento de acompanhamento) e da recomendação (desenvolver mecanismos de acompanhamento), sem introduzir pressupostos externos. O critério de desempate (preferência por cause-based) não foi necessário, pois a recomendação claramente aborda a causa raiz (falta de mecanismos estruturados) em vez de apenas corrigir a condição imediata. Portanto, a justificativa leva logicamente à classificação alcançada e respeita todos os pressupostos solicitados.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1585,
+    "completion_tokens": 223,
+    "total_tokens": 1808,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 241
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

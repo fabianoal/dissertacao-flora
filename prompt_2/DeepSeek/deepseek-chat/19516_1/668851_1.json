@@ -1,0 +1,28 @@
+{
+  "id": "8e8f6eb0-0d35-4709-92b0-657d44eaeee5",
+  "object": "chat.completion",
+  "created": 1759248001,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa aponta corretamente que a recomendação exige a apresentação de documentos (Licença Sanitária e Certificado de Regularidade Técnica) como requisitos contínuos para manter a conformidade e prevenir futuras irregularidades, o que se alinha com a definição de recomendações cause-based, que visam evitar a recorrência do problema. A análise baseia-se exclusivamente no conteúdo da constatação (falta de comprovação da regularidade) e da recomendação (exigência de documentos para credenciamento), sem introduzir elementos externos. Os pressupostos do usuário, como a definição de cause-based (soluções de longo prazo para evitar recorrência) e condition-based (correção temporária da condição), foram considerados adequadamente, pois a recomendação busca estabelecer uma base documental permanente para prevenir a falta de comprovação, indo além de uma mera correção pontual.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1678,
+    "completion_tokens": 233,
+    "total_tokens": 1911,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 334
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "cc332cc0-4a85-4f4a-8e43-090585801052",
+  "object": "chat.completion",
+  "created": 1759254969,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo fundamenta-se adequadamente no conteúdo da recomendação, destacando a ênfase na implementação de processos de planejamento e orçamento baseados em necessidades de saúde e na adesão a instrumentos de gestão interligados, conforme descrito na recomendação. Esses elementos visam estabelecer um ciclo de planejamento estruturado e preventivo, alinhando-se ao conceito de recomendações cause-based, que buscam evitar a recorrência do problema. A análise baseia-se exclusivamente na constatação (falta de justificativas para aumento expressivo de procedimentos) e na recomendação (implementação de processos de planejamento e instrumentos de gestão), sem introduzir pressupostos externos. Os critérios do usuário, incluindo a preferência por cause-based em caso de dúvida, foram respeitados, pois a recomendação propõe mudanças sistêmicas (ex.: planejamento ascendente baseado em perfil epidemiológico) para abordar a causa raiz (gestão inadequada), e não apenas corrigir dados inconsistentes.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1938,
+    "completion_tokens": 269,
+    "total_tokens": 2207,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 594
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

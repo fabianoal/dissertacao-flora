@@ -1,0 +1,28 @@
+{
+  "id": "0e7d09a5-bc70-496b-bcbd-6ed36caa282f",
+  "object": "chat.completion",
+  "created": 1759262477,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo baseia-se corretamente no conteúdo da constatação e da recomendação, destacando que a elaboração do Plano de Segurança do Paciente constitui uma estrutura ou processo permanente para garantir a segurança do paciente. Isso alinha-se com a definição de recomendação cause-based, que visa evitar a recorrência da não conformidade (falta de documentação comprovada) através de uma solução de longo prazo, em contraste com uma correção temporária da condição observada. Os pressupostos solicitados pelo usuário pesquisador foram considerados, incluindo a priorização de cause-based como critério de desempate, e a análise não introduziu elementos externos às informações fornecidas.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1592,
+    "completion_tokens": 183,
+    "total_tokens": 1775,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 184
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "9830bc70-00ac-48e8-b25e-da3653a15137",
+  "object": "chat.completion",
+  "created": 1759246021,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na correção imediata da condição específica encontrada (ausência de exames nos prontuários), por meio da anexação dos documentos faltantes. Ela se baseia exclusivamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos. Os pressupostos solicitados foram considerados adequadamente, incluindo a distinção entre correção da condição atual (condition-based) e medidas preventivas de longo prazo (cause-based), e a aplicação do critério de desempate não foi necessária, pois a recomendação claramente visa resolver o problema imediato sem abordar causas subjacentes.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1616,
+    "completion_tokens": 178,
+    "total_tokens": 1794,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 208
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

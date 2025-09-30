@@ -1,0 +1,28 @@
+{
+  "id": "12c0559e-2b05-45ab-8f16-0eaa4475b8df",
+  "object": "chat.completion",
+  "created": 1759262573,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação solicita comprovação documental para corrigir a condição específica de não ter atualizado a contratualização, focando na solução imediata da inconformidade. A análise baseia-se exclusivamente no conteúdo da constatação (SES/TO não comprovou a atualização) e da recomendação (apresentar comprovação), sem extrapolar para além desses elementos. Os pressupostos solicitados foram considerados, pois a classificação como 'condition-based' alinha-se com a definição de medidas para corrigir a condição atual, sem abordar causas raiz ou prevenção de recorrência, e o critério de desempate não foi necessário.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1614,
+    "completion_tokens": 184,
+    "total_tokens": 1798,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 270
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

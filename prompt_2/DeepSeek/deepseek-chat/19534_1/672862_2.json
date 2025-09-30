@@ -1,0 +1,28 @@
+{
+  "id": "b1f58fa8-fbc6-4e58-9f56-8c410e315ab8",
+  "object": "chat.completion",
+  "created": 1759248465,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa aponta corretamente que a recomendação estabelece uma política de arquivamento e manutenção de documentos por prazo prolongado (10 anos), o que se alinha ao conceito de recomendação cause-based, pois visa prevenir a recorrência da não apresentação de informações no futuro, abordando a causa subjacente (falta de documentação adequada) em vez de apenas corrigir a condição específica (falta de informação do estoque de 2019). A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem incorrer em pressupostos externos, e considera corretamente os critérios do IIA, com a opção por cause-based como desempate, quando aplicável, sendo que aqui a natureza preventiva e de longo prazo da recomendação justifica a classificação.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1705,
+    "completion_tokens": 206,
+    "total_tokens": 1911,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 361
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

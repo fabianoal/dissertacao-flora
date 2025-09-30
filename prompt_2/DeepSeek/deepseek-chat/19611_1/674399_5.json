@@ -1,0 +1,28 @@
+{
+  "id": "a294194c-1bfa-41b3-bf90-bb8189ae63ef",
+  "object": "chat.completion",
+  "created": 1759252745,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra em corrigir a condição específica da irregularidade no pagamento, por meio do levantamento de valores para acréscimo, sem propor medidas para evitar a recorrência do problema ou abordar causas subjacentes, como falhas de controle ou processos. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir pressupostos externos, e segue os critérios do IIA, onde a ausência de foco em causas raiz ou prevenção caracteriza uma recomendação condition-based. O critério de desempate (preferência por cause-based) não foi acionado, pois não há ambiguidade que justifique sua aplicação.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1525,
+    "completion_tokens": 186,
+    "total_tokens": 1711,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 117
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

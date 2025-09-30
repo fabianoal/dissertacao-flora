@@ -1,0 +1,28 @@
+{
+  "id": "7a7fab7b-a5f5-496b-9fdb-821ee2e5ec7b",
+  "object": "chat.completion",
+  "created": 1759242712,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca na correção imediata da condição encontrada, que é a aplicação intempestiva dos recursos no mercado financeiro, ao exigir a restituição do valor ao Fundo Nacional de Saúde, sem propor ações para evitar a recorrência do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1163,
+    "completion_tokens": 80,
+    "total_tokens": 1243,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 203
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

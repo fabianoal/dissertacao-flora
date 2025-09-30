@@ -1,0 +1,28 @@
+{
+  "id": "2d2797b8-bbdd-4cf8-b44a-a603f6198dd2",
+  "object": "chat.completion",
+  "created": 1759263357,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresenta inconsistências ao afirmar que a recomendação cria 'um processo estruturado para encerrar AIHs e emitir novas' e promove 'mudanças de longo prazo na gestão de procedimentos oncológicos'. Na realidade, a recomendação se limita a instruir o cumprimento de uma regra específica do manual técnico para casos de intercorrências que ultrapassem 6 dias, sem propor melhorias sistêmicas ou preventivas. Ela se concentra na correção pontual da condição observada (internações inadequadas), aplicando uma solução imediata conforme o protocolo, sem evidências de que visa modificar causas estruturais. A justificativa extrapola o conteúdo da constatação e da recomendação ao inferir impactos de longo prazo não explícitos, e não considera adequadamente o critério de desempate (que favorece 'cause-based' apenas se houver ambiguidade, o que não é o caso aqui).\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1796,
+    "completion_tokens": 240,
+    "total_tokens": 2036,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 388
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

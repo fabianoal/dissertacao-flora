@@ -1,0 +1,28 @@
+{
+  "id": "67dde86c-ddb8-4752-a8e4-2cffe412be23",
+  "object": "chat.completion",
+  "created": 1759254081,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa aponta corretamente que a recomendação se concentra em corrigir a condição imediata de documentação anexada incorretamente, sem propor ações para evitar a recorrência do problema, como melhorias em processos ou treinamentos. Esta análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos. Os pressupostos solicitados foram considerados adequadamente, incluindo a definição de recomendações condition-based como medidas para corrigir a condição atual, e o critério de desempate não foi necessário aplicar, pois a classificação como condition-based é clara. Portanto, a justificativa leva à classificação alcançada de forma consistente.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1521,
+    "completion_tokens": 182,
+    "total_tokens": 1703,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 177
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "40cbd726-b127-4cd3-8be2-d6dcce824e55",
+  "object": "chat.completion",
+  "created": 1759262485,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na correção imediata da condição específica encontrada (falta de comprovação documental da ampliação dos indicadores e do acesso facilitado ao link), sem propor ações para prevenir a recorrência do problema através de melhorias em processos ou políticas de monitoramento. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir pressupostos externos, e considera adequadamente os critérios solicitados pelo usuário, incluindo a regra de desempate (que não foi necessária aqui, pois a classificação como condition-based é clara).\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1582,
+    "completion_tokens": 169,
+    "total_tokens": 1751,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 238
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

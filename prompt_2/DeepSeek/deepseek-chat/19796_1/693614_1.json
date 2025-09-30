@@ -1,0 +1,28 @@
+{
+  "id": "f95dbb9f-ffb2-45f3-9cde-c746887a25c4",
+  "object": "chat.completion",
+  "created": 1759259685,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa afirma que a recomendação propõe uma mudança estrutural e organizacional de longo prazo para prevenir a reocorrência da condição observada, alinhando-se com soluções que abordam a causa subjacente. No entanto, ao examinar o conteúdo da recomendação, esta se limita a orientar o hospital a destinar leitos específicos conforme a portaria existente, sem propor ações que modifiquem processos, políticas ou sistemas para evitar que o problema volte a ocorrer. A recomendação é focada na correção imediata da condição atual (falta de leitos específicos) e não em abordar causas profundas, como deficiências na gestão de leitos ou na alocação de recursos. A justificativa extrapola o conteúdo real da recomendação, que é essencialmente condition-based, e não se baseia exclusivamente na constatação e recomendação fornecidas, violando os critérios solicitados.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1678,
+    "completion_tokens": 232,
+    "total_tokens": 1910,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 334
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

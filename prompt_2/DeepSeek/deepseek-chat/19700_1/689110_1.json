@@ -1,0 +1,28 @@
+{
+  "id": "a7ee4690-e5e8-4455-947a-6a750b1c2208",
+  "object": "chat.completion",
+  "created": 1759256665,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo baseia-se adequadamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos. A constatação evidencia a ausência de registros de acompanhamento e encaminhamento para serviços especializados em um período específico, indicando uma falha processual. A recomendação, por sua vez, não se limita a sanar a lacuna identificada (condição), mas propõe a garantia e o acompanhamento contínuo do encaminhamento, alinhando-se a normativas que estabelecem práticas permanentes. Isso demonstra um foco na institucionalização de processos para prevenir a recorrência da falha (causa), conforme a tipologia cause-based. Os pressupostos do usuário, incluindo o critério de desempate favorável a cause-based, foram respeitados.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1796,
+    "completion_tokens": 214,
+    "total_tokens": 2010,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 452
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

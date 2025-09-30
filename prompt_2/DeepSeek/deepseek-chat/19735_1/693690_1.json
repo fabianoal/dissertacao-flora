@@ -1,0 +1,28 @@
+{
+  "id": "99914473-cd03-48d9-933b-99a395cbf663",
+  "object": "chat.completion",
+  "created": 1759257377,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa aponta corretamente que a recomendação inclui ações como contratar um pediatra qualificado, revisar a composição da equipe multiprofissional e garantir registros e qualificações adequadas, o que se alinha com a definição de recomendações cause-based, que focam em evitar a reocorrência do problema através de soluções de longo prazo. A análise baseia-se exclusivamente no conteúdo da constatação (falta de equipe multiprofissional completa) e da recomendação (ações estruturais como contratação e revisão), sem extrapolar para informações externas. Os pressupostos do usuário, como a classificação do IIA e o critério de desempate para cause-based, foram considerados adequadamente, pois a recomendação visa corrigir a causa raiz (deficiência na composição da equipe) e não apenas a condição imediata.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1691,
+    "completion_tokens": 223,
+    "total_tokens": 1914,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 347
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

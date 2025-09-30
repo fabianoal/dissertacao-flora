@@ -1,0 +1,28 @@
+{
+  "id": "c36fe53b-159f-4798-a148-c497beb174b8",
+  "object": "chat.completion",
+  "created": 1759248585,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na correção imediata da condição específica (falta de comprovação da liquidação de despesas) por meio da devolução do recurso, sem propor ações preventivas ou de longo prazo para evitar a recorrência. Baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos. Considera adequadamente os pressupostos solicitados, incluindo a definição de recomendações condition-based como medidas para corrigir a condição atual, fornecendo uma solução temporária, e aplica o critério de desempate (opção por cause-based em caso de dúvida) de forma implícita, já que não há ambiguidade que exigisse seu uso.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1637,
+    "completion_tokens": 198,
+    "total_tokens": 1835,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 229
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

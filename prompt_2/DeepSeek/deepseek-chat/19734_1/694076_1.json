@@ -1,0 +1,28 @@
+{
+  "id": "308f5638-3f8c-42f9-868e-ae5fe8e1a469",
+  "object": "chat.completion",
+  "created": 1759257361,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação propõe capacitação permanente, o que efetivamente visa abordar a causa raiz (falta de preparo das equipes) e promover uma solução de longo prazo, alinhando-se com a definição de cause-based. A análise baseia-se exclusivamente no conteúdo da constatação (equipes não capacitadas) e da recomendação (implementar capacitação permanente), sem incorrer em pressupostos externos. Os critérios do usuário, incluindo a regra de desempate (preferência por cause-based), foram respeitados, pois a recomendação claramente foca na causa subjacente.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1553,
+    "completion_tokens": 171,
+    "total_tokens": 1724,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 209
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

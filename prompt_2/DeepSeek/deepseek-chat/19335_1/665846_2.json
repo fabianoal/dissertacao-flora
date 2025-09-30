@@ -1,0 +1,28 @@
+{
+  "id": "6fc85f38-9a37-4fe8-a79c-f20fa0b8bde7",
+  "object": "chat.completion",
+  "created": 1759246081,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na correção da condição específica encontrada (cobrança indevida ao SUS) através da devolução do valor e medidas de cobrança contra os responsáveis. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos. A justificativa também observa adequadamente a ausência de ações preventivas de longo prazo que caracterizariam uma abordagem cause-based, alinhando-se com os critérios do IIA onde recomendações condition-based focam na correção imediata da condição atual. Os pressupostos solicitados foram considerados corretamente, incluindo o critério de desempate que favorece cause-based quando há ambiguidade, mas neste caso a recomendação é claramente voltada para corrigir a condição existente.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1658,
+    "completion_tokens": 216,
+    "total_tokens": 1874,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 250
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

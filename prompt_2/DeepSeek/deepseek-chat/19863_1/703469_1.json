@@ -1,0 +1,28 @@
+{
+  "id": "4afbe920-9b85-40e0-be8b-3c229c877f66",
+  "object": "chat.completion",
+  "created": 1759262625,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na correção da condição imediata (falta de comprovação documental), sem propor ações preventivas para evitar recorrência. A análise baseia-se exclusivamente no conteúdo da constatação e recomendação, seguindo os pressupostos solicitados, incluindo o critério de desempate que favorece 'cause-based' apenas se houver ambiguidade, o que não é o caso aqui.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1555,
+    "completion_tokens": 126,
+    "total_tokens": 1681,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 147
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

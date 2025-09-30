@@ -1,0 +1,28 @@
+{
+  "id": "6dc7a3c1-7416-4dac-beb8-e86d236dc5ad",
+  "object": "chat.completion",
+  "created": 1759256077,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na correção imediata da condição específica (incompletude dos relatórios) ao solicitar a inserção dos documentos faltantes, conforme evidenciado pelo conteúdo da constatação e da recomendação. Ela baseia-se exclusivamente nesses elementos, sem adicionar pressupostos externos, e aplica adequadamente a definição de 'condition-based' do IIA, que visa corrigir a condição atual sem abordar causas subjacentes para prevenir recorrência. O critério de desempate (preferência por 'cause-based') não foi acionado, pois a recomendação claramente não propõe ações de longo prazo, como melhorias em processos ou políticas.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1557,
+    "completion_tokens": 190,
+    "total_tokens": 1747,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 213
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

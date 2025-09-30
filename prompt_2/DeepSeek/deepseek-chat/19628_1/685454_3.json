@@ -1,0 +1,28 @@
+{
+  "id": "28fea43f-fc89-4b64-bb83-9db7b05d9faf",
+  "object": "chat.completion",
+  "created": 1759254757,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada não se baseia adequadamente no conteúdo da constatação e da recomendação. A constatação específica refere-se à ausência de registro de OPME cardiovasculares no SIH/SUS, enquanto a recomendação genérica propõe estabelecer medidas de direção, controle e supervisão para diversas patologias conforme portaria geral, sem mencionar especificamente o problema dos registros ou o sistema SIH/SUS. A justificativa afirma que a recomendação aborda 'a causa subjacente da falha no sistema de gestão', mas isso constitui uma inferência não respaldada pelo texto da recomendação, que é vaga e não identifica causas específicas. Além disso, a recomendação parece mais focada em criar estruturas gerais de gestão do que em corrigir diretamente a condição específica de registros ausentes.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1583,
+    "completion_tokens": 213,
+    "total_tokens": 1796,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 175
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

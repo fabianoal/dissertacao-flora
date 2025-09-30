@@ -1,0 +1,28 @@
+{
+  "id": "d3487a81-7e8d-4c10-9b11-69a5e0d28c3b",
+  "object": "chat.completion",
+  "created": 1759260521,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa afirma que a recomendação propõe implementação de métodos padronizados e normas técnico-administrativas para prevenir recorrência da não conformidade, caracterizando-a como solução de longo prazo. No entanto, ao analisar o conteúdo da recomendação, verifica-se que ela se concentra especificamente em estabelecer métodos de padronização no processo de armazenamento e controle de estoque conforme manual específico, com ênfase em ações concretas como elaboração de mapa ilustrativo e identificação detalhada de equipamentos e imunobiológicos. Esta abordagem parece focar mais na correção da condição atual de não conformidade do que em atacar causas raiz subjacentes. A justificativa não se baseia exclusivamente no conteúdo da constatação e recomendação, extrapolando ao caracterizar a medida como preventiva de recorrência quando a recomendação em si é mais operacional e corretiva. Considerando o critério de desempate que privilegia classificação cause-based, há inconsistência entre a justificativa apresentada e o conteúdo real da recomendação.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1727,
+    "completion_tokens": 262,
+    "total_tokens": 1989,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 383
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

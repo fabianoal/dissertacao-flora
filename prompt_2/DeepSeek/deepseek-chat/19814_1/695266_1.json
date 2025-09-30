@@ -1,0 +1,28 @@
+{
+  "id": "cebbd9f8-2cf7-4d2c-b646-7e4e5ed871b5",
+  "object": "chat.completion",
+  "created": 1759260461,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa afirma que a recomendação propõe um 'processo contínuo de elaboração e documentação' para 'prevenir a recorrência', o que se alinha com a definição de recomendações cause-based, que buscam evitar a reincidência do problema através de soluções de longo prazo. No entanto, ao analisar o conteúdo da recomendação ('Fomentar a elaboração do projeto terapêutico singular do usuário (PTS), mantendo o respectivo documento anexado ao prontuário do paciente'), verifica-se que ela se concentra na correção imediata da condição observada (ausência de registro do PTS), sem propor mudanças estruturais ou de processo que ataquem a causa raiz da não elaboração (ex.: capacitação da equipe, revisão de fluxos de trabalho, implementação de políticas de monitoramento). A justificativa extrapola o conteúdo da recomendação ao inferir um 'processo contínuo' e 'prática sustentável', que não estão explicitamente descritos. Considerando que o critério de desempate é optar por cause-based e que a recomendação é essencialmente corretiva (condition-based), a classificação como cause-based não se sustenta com base exclusivamente na constatação e na recomendação fornecidas.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1674,
+    "completion_tokens": 310,
+    "total_tokens": 1984,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 330
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

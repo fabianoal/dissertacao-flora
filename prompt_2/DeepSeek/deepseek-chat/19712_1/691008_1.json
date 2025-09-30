@@ -1,0 +1,28 @@
+{
+  "id": "f2381d97-b693-4d47-b782-e16bf4852895",
+  "object": "chat.completion",
+  "created": 1759256845,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresenta uma análise adequada da recomendação, identificando corretamente que ela inclui tanto medidas corretivas imediatas (restituição de valores) quanto medidas preventivas de longo prazo (correta alimentação dos bancos de dados e abertura de sindicância para apurar responsabilidades e motivos). A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação fornecidas, sem introduzir elementos externos. Os pressupostos solicitados pelo usuário foram considerados corretamente, incluindo a aplicação da nomenclatura do IIA e o critério de desempate que favorece a classificação cause-based quando há elementos de ambos os tipos. A recomendação claramente visa não apenas corrigir a condição atual (restituição) mas principalmente implementar mudanças estruturais para prevenir a reincidência do problema.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1924,
+    "completion_tokens": 213,
+    "total_tokens": 2137,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 580
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

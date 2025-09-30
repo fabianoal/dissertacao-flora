@@ -1,0 +1,28 @@
+{
+  "id": "fd033d7a-1d86-4566-a947-63449a5e2a09",
+  "object": "chat.completion",
+  "created": 1759247345,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa analisada corretamente identifica que a recomendação se concentra na correção imediata da condição específica encontrada (devolução do valor transferido indevidamente), sem propor ações para prevenir a recorrência da discrepância entre transferências e produção informada. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, considerando adequadamente os pressupostos solicitados, incluindo o critério de desempate que favorece classificações cause-based apenas quando há ambiguidade, o que não é o caso aqui, dada a clara natureza corretiva da recomendação.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1676,
+    "completion_tokens": 157,
+    "total_tokens": 1833,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 332
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

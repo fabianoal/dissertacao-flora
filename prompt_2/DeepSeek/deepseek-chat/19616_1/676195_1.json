@@ -1,0 +1,28 @@
+{
+  "id": "b04ecc63-a8f1-4797-9963-a93bedaaa31e",
+  "object": "chat.completion",
+  "created": 1759253845,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa aponta corretamente que a recomendação solicita a apresentação de justificativas e documentação comprobatória para regularizar a despesa, o que se alinha com a definição de recomendações condition-based, que visam corrigir a condição atual identificada. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir pressupostos externos. Além disso, os critérios fornecidos pelo usuário foram considerados, incluindo a instrução de optar por cause-based em caso de empate, o que não se aplica aqui, pois a recomendação claramente não aborda a causa raiz (como a implementação de controles preventivos para evitar contratações irregulares futuras). Portanto, a classificação como condition-based é adequada.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1620,
+    "completion_tokens": 204,
+    "total_tokens": 1824,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 276
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

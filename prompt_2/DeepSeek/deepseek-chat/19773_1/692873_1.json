@@ -1,0 +1,28 @@
+{
+  "id": "e39eb586-fda8-4742-985a-9bfe46163f44",
+  "object": "chat.completion",
+  "created": 1759258729,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação visa corrigir a condição imediata do uso inadequado de papel grau cirúrgico como embalagem secundária, sem propor ações preventivas ou de longo prazo, como políticas ou treinamentos. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir pressupostos externos. Os critérios do IIA foram aplicados adequadamente, considerando que a recomendação é focada na correção da condição observada (uso do material inadequado) e não na causa raiz (como falhas em procedimentos ou capacitação). O critério de desempate (optar por cause-based) não foi necessário, pois a recomendação claramente se enquadra como condition-based.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1601,
+    "completion_tokens": 195,
+    "total_tokens": 1796,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 257
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2aa75d09-5211-49ef-a5be-d131dac548d3",
+  "object": "chat.completion",
+  "created": 1759258813,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra em alinhar o processo de armazenamento com as orientações do PNI para corrigir a condição atual de inadequação. Ela se baseia exclusivamente no conteúdo da constatação (armazenamento inadequado) e da recomendação (realizar conforme orientações), sem introduzir elementos externos. Os pressupostos solicitados foram considerados, pois a recomendação claramente visa corrigir a condição observada (armazenamento fora do padrão) em vez de abordar causas raiz para prevenir recorrência, como falhas em treinamento, monitoramento ou políticas. A classificação como 'condition-based' é adequada, e o critério de desempate não se aplica aqui.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1559,
+    "completion_tokens": 191,
+    "total_tokens": 1750,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 215
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a4f5bec4-a51e-4cb4-a3c7-771dce72a49c",
+  "object": "chat.completion",
+  "created": 1759261053,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação propõe a implementação de processos de planejamento, organização, controle e avaliação das ações de saúde, além da adesão a sistemáticas específicas de alimentação de bancos de dados e controle da produção ambulatorial. Essas ações visam prevenir falhas futuras na documentação e comprovação de procedimentos, caracterizando uma solução de longo prazo que aborda a causa raiz do problema (falta de processos adequados de gestão e controle) em vez de apenas corrigir a condição específica observada (ausência de documentos para um procedimento específico). A justificativa se baseia exclusivamente no conteúdo da constatação e da recomendação, considerando adequadamente os pressupostos solicitados, incluindo o critério de desempate que favorece a classificação cause-based quando há dúvida.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1744,
+    "completion_tokens": 217,
+    "total_tokens": 1961,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 400
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "03894a7f-2742-4290-b481-6725e5f1d005",
+  "object": "chat.completion",
+  "created": 1759253905,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na correção imediata da condição específica (não cumprimento do prazo para inserção dos relatórios), solicitando apenas o envio dos documentos conforme estabelecido, sem propor ações para prevenir a recorrência da causa subjacente, como melhorias em processos ou sistemas. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir pressupostos externos, e segue os critérios solicitados, onde a ausência de foco em causas raiz leva à classificação como condition-based, conforme a nomenclatura do IIA.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1573,
+    "completion_tokens": 167,
+    "total_tokens": 1740,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 229
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

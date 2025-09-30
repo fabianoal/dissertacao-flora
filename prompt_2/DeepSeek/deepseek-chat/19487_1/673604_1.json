@@ -1,0 +1,28 @@
+{
+  "id": "21ba068c-6be6-4298-9f9d-e8014dd1e426",
+  "object": "chat.completion",
+  "created": 1759247441,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo baseia-se adequadamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos. A constatação aponta uma discrepância entre dados consolidados no SISAB e informações dos prontuários, indicando um problema de inconsistência na fonte dos dados. A recomendação, por sua vez, direciona o cumprimento de diretrizes normativas que estabelecem que os dados devem ser gerados com base no trabalho dos profissionais, o que efetivamente aborda a causa raiz (procedimentos inadequados de registro) em vez de apenas corrigir os dados específicos do ano de 2022. A justificativa corretamente identifica que a recomendação visa prevenir a recorrência através da aderência a procedimentos estabelecidos, caracterizando uma solução de longo prazo e alinhando-se com o critério de desempate que privilegia a classificação cause-based.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1594,
+    "completion_tokens": 226,
+    "total_tokens": 1820,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1594
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

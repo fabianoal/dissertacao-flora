@@ -1,0 +1,28 @@
+{
+  "id": "8c117ddb-dccc-4a55-9ee9-6cb17b903c75",
+  "object": "chat.completion",
+  "created": 1759245513,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação propõe a implementação de uma rotina permanente, o que se alinha com o conceito de recomendações cause-based, que visam prevenir a recorrência do problema através de mudanças processuais de longo prazo. A análise baseia-se exclusivamente no conteúdo da constatação (ausência de anexação de nota fiscal) e da recomendação (implementar rotina de envio dentro do prazo), sem introduzir elementos externos. Os pressupostos do usuário foram considerados, incluindo a definição do IIA e o critério de desempate para cause-based, que se aplica adequadamente aqui, pois a recomendação foca em estabelecer um processo contínuo para evitar falhas futuras, indo além da correção pontual da condição observada.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1604,
+    "completion_tokens": 207,
+    "total_tokens": 1811,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 196
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

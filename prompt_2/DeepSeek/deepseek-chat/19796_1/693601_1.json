@@ -1,0 +1,28 @@
+{
+  "id": "cca0d9c0-176f-42e5-97d5-a1eca4e41086",
+  "object": "chat.completion",
+  "created": 1759259657,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa analisa corretamente que a recomendação propõe ações como análise e criação de fluxos de regulação, estabelecimento de plano de governança, sensibilização de profissionais e definição de critérios clínicos, que são medidas voltadas para resolver causas subjacentes (como falta de fluxos estruturados, ausência de governança baseada em dados e falta de critérios claros) e prevenir a recorrência da não regulação, caracterizando soluções de longo prazo. A justificativa baseia-se exclusivamente no conteúdo da constatação (que aponta a não regulação de pacientes conforme a PPI) e da recomendação (que detalha as ações propostas), sem incorrer em pressupostos externos. Os critérios do usuário foram considerados corretamente, incluindo a orientação de optar por 'cause-based' em caso de dúvida, uma vez que a recomendação aborda claramente a causa raiz (estruturação dos processos de regulação) e não apenas a correção imediata da condição observada.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1840,
+    "completion_tokens": 260,
+    "total_tokens": 2100,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 496
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

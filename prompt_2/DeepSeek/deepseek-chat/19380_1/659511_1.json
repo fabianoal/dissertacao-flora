@@ -1,0 +1,28 @@
+{
+  "id": "90fb8286-35dd-478c-a983-1306607d97a2",
+  "object": "chat.completion",
+  "created": 1759246269,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa analisada estabelece conexão direta entre a recomendação de cumprir os instrumentos de planejamento do SUS (Plano de Saúde, PAS e RAG) e a necessidade de abordar a causa subjacente da falta de referência à produção ambulatorial nos instrumentos de gestão. A fundamentação se baseia exclusivamente no conteúdo da constatação (ausência de referência à produção ambulatorial nos instrumentos de gestão) e da recomendação (implementação de processos cíclicos de planejamento). Os pressupostos solicitados foram considerados corretamente, incluindo o critério de desempate que favorece classificações cause-based quando há ambiguidade. A recomendação de implementar estruturas permanentes de planejamento e monitoramento efetivamente visa prevenir a recorrência do problema, caracterizando uma abordagem de causa raiz.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1881,
+    "completion_tokens": 213,
+    "total_tokens": 2094,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 537
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

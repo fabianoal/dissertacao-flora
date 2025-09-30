@@ -1,0 +1,28 @@
+{
+  "id": "8c7fef89-e440-4a78-90a0-8fba5d8d0b1a",
+  "object": "chat.completion",
+  "created": 1759247625,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação solicita a apresentação de informações/documentações para atender ao trabalho de auditoria, o que se alinha com a correção da condição imediata (falta de acesso aos prontuários). Ela se baseia exclusivamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos. Os pressupostos solicitados foram considerados, incluindo a definição de recomendações condition-based como medidas para corrigir a condição atual, e o critério de desempate não foi necessário, pois a recomendação claramente não propõe ações preventivas ou de longo prazo para evitar a recorrência, focando apenas na solução temporária da indisponibilidade de documentos.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1544,
+    "completion_tokens": 189,
+    "total_tokens": 1733,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 200
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

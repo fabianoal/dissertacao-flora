@@ -1,0 +1,28 @@
+{
+  "id": "511d2c14-e074-463a-97ed-5bdf0a152cc1",
+  "object": "chat.completion",
+  "created": 1759247721,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo baseia-se adequadamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos. A constatação relata a ausência de anexação dos espelhos das AIHs aos prontuários, enquanto a recomendação propõe a implementação de um controle sistemático e contínuo dos recursos federais, exigindo documentos comprobatórios. A justificativa corretamente identifica que a recomendação visa estabelecer um processo contínuo de conformidade para prevenir a recorrência do problema, alinhando-se ao conceito de 'cause-based' ao focar na causa raiz (falta de controle sistemático) e não apenas na correção pontual da condição observada (anexação dos documentos faltantes). Os pressupostos do usuário, como a definição de recomendações 'cause-based' como aquelas que propõem ações para evitar a recorrência e a regra de desempate para essa classificação, foram respeitados. Portanto, a justificativa leva logicamente à classificação alcançada.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1666,
+    "completion_tokens": 264,
+    "total_tokens": 1930,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 258
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

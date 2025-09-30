@@ -1,0 +1,28 @@
+{
+  "id": "0b04ad54-db18-404d-9d56-d7b1ac87ba43",
+  "object": "chat.completion",
+  "created": 1759248257,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo baseia-se adequadamente no conteúdo da constatação e da recomendação, destacando que a recomendação propõe a implementação de controles e avaliações contínuas conforme normativos específicos (Manual de Operação do SIA e Portaria de Consolidação GM/MS n.º 01/2017). Isso visa prevenir futuras inserções não comprovadas e garantir a fidedignidade dos dados, o que se alinha com a definição de recomendações cause-based, que focam em soluções de longo prazo para evitar a recorrência do problema. A justificativa não introduz elementos externos e considera corretamente os pressupostos solicitados, incluindo o critério de desempate (preferência por cause-based). Portanto, a classificação é coerente com a análise crítica dos pontos solicitados.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2002,
+    "completion_tokens": 212,
+    "total_tokens": 2214,
+    "prompt_tokens_details": {
+      "cached_tokens": 1728
+    },
+    "prompt_cache_hit_tokens": 1728,
+    "prompt_cache_miss_tokens": 274
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a954a76d-8463-48fb-8e18-195a1d5d7e83",
+  "object": "chat.completion",
+  "created": 1759258057,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa aponta corretamente que a recomendação estabelece processos contínuos e sistemáticos (manutenções periódicas, calibração, documentação e gerenciamento de qualificação) que visam prevenir a recorrência da condição identificada, abordando causas subjacentes e promovendo melhorias de longo prazo. Esta análise baseia-se exclusivamente no conteúdo da constatação (falta de manutenção periódica, qualificação térmica e calibração) e da recomendação (implementação de processos contínuos para assegurar confiabilidade). Os pressupostos solicitados foram considerados corretamente, incluindo a definição de recomendações cause-based como aquelas que propõem ações para evitar a recorrência e envolvem soluções de longo prazo, com o critério de desempate favorecendo cause-based.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1779,
+    "completion_tokens": 212,
+    "total_tokens": 1991,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 435
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c899e623-84bd-4299-94cc-5c9c1911f8c5",
+  "object": "chat.completion",
+  "created": 1759263681,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa analisada corretamente identifica que a recomendação se concentra em corrigir a condição específica encontrada (ausência da APAC concomitante), exigindo sua manutenção futura em conformidade com a portaria. A justificativa baseia-se exclusivamente no conteúdo da constatação e da recomendação, observando que não há menção a ações preventivas ou abordagem de causas raiz, como melhorias em processos ou treinamentos. Os pressupostos solicitados foram considerados corretamente, incluindo o critério de desempate (preferência por cause-based), que não se aplica aqui, pois a recomendação é claramente focada na condição. Portanto, a justificativa leva logicamente à classificação alcançada.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1598,
+    "completion_tokens": 194,
+    "total_tokens": 1792,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 254
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

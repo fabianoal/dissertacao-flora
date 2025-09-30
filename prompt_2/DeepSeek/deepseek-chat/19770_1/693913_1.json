@@ -1,0 +1,28 @@
+{
+  "id": "03c107fd-fe6d-4474-8e05-3945bc579d10",
+  "object": "chat.completion",
+  "created": 1759258673,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na devolução dos recursos recebidos indevidamente, o que constitui uma correção direta da condição observada. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem incorrer em pressupostos externos. Além disso, a justificativa considera adequadamente os critérios fornecidos pelo usuário, destacando a ausência de ações preventivas para evitar recorrência, o que alinha a classificação com a tipologia condition-based conforme a nomenclatura do IIA. O critério de desempate (preferência por cause-based) não foi acionado, pois a recomendação claramente não aborda a causa raiz do problema.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1627,
+    "completion_tokens": 188,
+    "total_tokens": 1815,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 283
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

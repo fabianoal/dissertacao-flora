@@ -1,0 +1,28 @@
+{
+  "id": "e6267e76-9a82-4a66-8598-a07ac222b6b4",
+  "object": "chat.completion",
+  "created": 1759263505,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresenta argumentos consistentes que levam à classificação alcançada, ao destacar que a recomendação enfatiza a implementação de um fluxo assistencial e a inclusão de dados mínimos obrigatórios, visando prevenir a recorrência da falta de autorização. Isso se baseia exclusivamente no conteúdo da constatação (APACs sem data de autorização) e da recomendação (cumprir o fluxo assistencial e incluir dados mínimos), sem introduzir elementos externos. Os pressupostos solicitados pelo usuário foram considerados corretamente, pois a justificativa avalia a capacidade da recomendação de abordar a causa raiz (falta de conformidade com procedimentos estabelecidos) em vez de apenas corrigir a condição atual, alinhando-se com a nomenclatura do IIA e usando o critério de desempate para cause-based quando aplicável.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1634,
+    "completion_tokens": 220,
+    "total_tokens": 1854,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 290
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

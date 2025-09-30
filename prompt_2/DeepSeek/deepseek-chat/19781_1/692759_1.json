@@ -1,0 +1,28 @@
+{
+  "id": "d9617514-6ec0-4161-8d58-eef0ec11f301",
+  "object": "chat.completion",
+  "created": 1759259121,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação propõe a criação e implementação de normas, procedimentos e rotinas técnicas escritas e atualizadas para garantir a verificação diária do funcionamento dos equipamentos, incluindo aspectos como registros de desligamento, alarmes e alimentação elétrica. Ela baseia-se exclusivamente no conteúdo da constatação (falta de rotina estabelecida para verificação do perfeito funcionamento dos equipamentos) e da recomendação (criação de normas e procedimentos para verificação diária). A justificativa também considera adequadamente os pressupostos solicitados, destacando que a medida visa estabelecer uma solução de longo prazo para prevenir a recorrência da falta de rotina, o que se alinha com a definição de recomendações cause-based como aquelas que propõem ações para evitar que a condição volte a ocorrer, envolvendo soluções de longo prazo. Portanto, a justificativa leva logicamente à classificação alcançada.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1780,
+    "completion_tokens": 245,
+    "total_tokens": 2025,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 436
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

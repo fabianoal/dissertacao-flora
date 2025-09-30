@@ -1,0 +1,28 @@
+{
+  "id": "b91a7165-a7ce-4ec6-a45b-a76b248c37fc",
+  "object": "chat.completion",
+  "created": 1759254301,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na correção imediata da condição específica (pagamento indevido) através da devolução dos valores, sem propor medidas preventivas para evitar a reocorrência do problema. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos. Os pressupostos solicitados foram considerados adequadamente, aplicando corretamente os critérios do IIA para distinguir entre recomendações condition-based (foco na correção da condição atual) e cause-based (foco na prevenção de reocorrências).\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1619,
+    "completion_tokens": 164,
+    "total_tokens": 1783,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 211
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

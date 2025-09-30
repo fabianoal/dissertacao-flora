@@ -1,0 +1,28 @@
+{
+  "id": "26703fa0-cb54-415e-bdb4-c0b1890fbb42",
+  "object": "chat.completion",
+  "created": 1759247585,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa não se baseia adequadamente no conteúdo da constatação e da recomendação. A constatação relata a 'não apresentação de cópias da totalidade dos cupons vinculados e receitas médicas solicitadas', indicando uma falha documental específica. A recomendação, por sua vez, direciona-se ao 'conhecimento da presente constatação' e à 'proposição de devolução de recursos', sem propor ações que abordem a causa raiz da não apresentação dos documentos (ex.: implementação de sistema de controle documental, capacitação de pessoal, revisão de processos). A justificativa menciona 'ações preventivas e corretivas de longo prazo', mas a recomendação em si é reativa e focada na correção imediata (devolução de recursos e notificação), caracterizando-se mais como condition-based. Além disso, a justificativa extrapola o conteúdo explícito da recomendação ao inferir ações de longo prazo não presentes no texto. O critério de desempate (optar por cause-based) foi aplicado, mas a análise substantiva indica que a recomendação é predominantemente condition-based.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1658,
+    "completion_tokens": 276,
+    "total_tokens": 1934,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 250
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

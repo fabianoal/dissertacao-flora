@@ -1,0 +1,28 @@
+{
+  "id": "ed3836a1-1972-411c-bbd0-6dd08ff3f437",
+  "object": "chat.completion",
+  "created": 1759247729,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na devolução dos recursos cobrados indevidamente, o que constitui uma medida corretiva direta para a condição específica identificada (cobrança excessiva). Esta análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem incorrer em pressupostos externos. A recomendação não propõe mudanças sistêmicas, como melhorias em processos de controle ou prevenção de futuras inconsistências, alinhando-se assim com a definição de 'condition-based'. O critério de desempate (preferência por 'cause-based') não foi acionado, pois não há ambiguidade que justifique sua aplicação.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1644,
+    "completion_tokens": 181,
+    "total_tokens": 1825,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 236
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

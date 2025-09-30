@@ -1,0 +1,28 @@
+{
+  "id": "e5ae3f1a-a502-4b5d-838c-60336b0c1a43",
+  "object": "chat.completion",
+  "created": 1759246661,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na correção imediata da condição encontrada (falta de apresentação de documentos), sem propor ações preventivas ou mudanças estruturais. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, que se limita a exigir a apresentação dos documentos em falta, sem abordar as causas subjacentes da não apresentação. Os pressupostos solicitados foram considerados adequadamente, aplicando os critérios do IIA e usando 'condition-based' como classificação quando não há indicação de foco na causa raiz.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1587,
+    "completion_tokens": 158,
+    "total_tokens": 1745,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 243
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

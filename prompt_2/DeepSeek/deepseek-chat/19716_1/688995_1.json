@@ -1,0 +1,28 @@
+{
+  "id": "8bd7d61f-71f3-4bff-9020-ce852a21fa86",
+  "object": "chat.completion",
+  "created": 1759256921,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação propõe ações estruturais e de longo prazo, como organizar o fluxo assistencial, implementar protocolos, estabelecer metas e capacitar equipes, que visam prevenir a reocorrência do problema identificado (insuficiência de informações sobre filas de espera) e melhorar integralmente o sistema de saúde. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos. Os pressupostos solicitados foram considerados corretamente, incluindo a definição de recomendações cause-based como aquelas que propõem ações para evitar que a condição volte a ocorrer, envolvendo soluções de longo prazo, e a aplicação do critério de desempate para cause-based quando apropriado. A recomendação claramente foca em transformações sistêmicas e preventivas, alinhando-se com a classificação cause-based.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2242,
+    "completion_tokens": 232,
+    "total_tokens": 2474,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 898
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

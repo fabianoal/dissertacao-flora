@@ -1,0 +1,28 @@
+{
+  "id": "346294f5-b30c-4bb2-860b-a0fd98fcd463",
+  "object": "chat.completion",
+  "created": 1759255437,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo afirma que a recomendação enfoca mudanças estruturais e organizacionais para prevenir recorrência de não conformidades, alinhando-se com normas legais. No entanto, ao analisar o conteúdo da recomendação, verifica-se que ela se limita a citar dispositivos normativos específicos sobre organização, registros e documentos obrigatórios nos prontuários, sem propor mudanças sistêmicas ou estruturais que ataquem as causas raiz da não conformidade. A recomendação é essencialmente prescritiva e focada na correção da condição atual de desorganização documental, não indicando ações como revisão de processos, capacitação de pessoal, implementação de sistemas de controle ou outras medidas que efetivamente previnam a recorrência do problema. A justificativa extrapola o conteúdo real da recomendação ao atribuir-lhe um caráter transformador que não está presente no texto analisado.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1927,
+    "completion_tokens": 229,
+    "total_tokens": 2156,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 583
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

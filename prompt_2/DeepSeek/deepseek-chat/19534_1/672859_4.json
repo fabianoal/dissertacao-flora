@@ -1,0 +1,28 @@
+{
+  "id": "d55c6114-6d72-4145-b9aa-d5b77738548e",
+  "object": "chat.completion",
+  "created": 1759248449,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa aponta corretamente que a recomendação se concentra na correção imediata da condição específica (falta de documentação para dispensações em nome de pessoas falecidas) e não propõe ações preventivas de longo prazo. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir pressupostos externos. Considerando que a recomendação visa apenas a apresentação de documentação para regularizar a situação atual, sem abordar mudanças sistêmicas para prevenir futuras ocorridas similares, e aplicando o critério de desempate (optar por cause-based apenas se houver ambiguidade), a classificação como condition-based está alinhada com a definição do IIA.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1530,
+    "completion_tokens": 187,
+    "total_tokens": 1717,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 122
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

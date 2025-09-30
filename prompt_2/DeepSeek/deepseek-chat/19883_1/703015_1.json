@@ -1,0 +1,28 @@
+{
+  "id": "83600cde-ec67-43c7-902d-ba9203a7a2c1",
+  "object": "chat.completion",
+  "created": 1759263081,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa afirma que a recomendação propõe um 'processo contínuo' e visa 'modificar práticas institucionais de longo prazo', mas a recomendação em si é específica: 'Assegurar que o Hospital [...] solicite a realização de radioterapia prévia ou concomitante [...] para todos os pacientes submetidos ao procedimento 03.04.05.034-2'. Isso se concentra em corrigir a condição observada (a falta de solicitação de radioterapia para pacientes específicos) e garantir conformidade com a norma, sem propor mudanças sistêmicas ou estruturais para prevenir a causa raiz (como revisão de protocolos, treinamento de equipe ou implementação de controles permanentes). A justificativa extrapola o conteúdo da recomendação ao inferir um foco em processos contínuos e mudanças de longo prazo, quando a recomendação é direcionada à correção imediata da condição irregular. Considerando que o critério de desempate é 'cause-based' e a análise deve basear-se exclusivamente no conteúdo da constatação e recomendação, a classificação como 'cause-based' não é sustentada.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1759,
+    "completion_tokens": 283,
+    "total_tokens": 2042,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 415
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

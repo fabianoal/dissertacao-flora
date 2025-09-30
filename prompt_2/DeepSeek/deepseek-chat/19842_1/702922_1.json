@@ -1,0 +1,28 @@
+{
+  "id": "5f26ffca-f641-476b-99ad-9cb3f8d338ff",
+  "object": "chat.completion",
+  "created": 1759261609,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa aponta corretamente que a recomendação inclui ações abrangentes e de longo prazo, como a criação de estruturas permanentes (portaria, regimento interno, registro no CRM-MT) e processos contínuos (reuniões periódicas, atas, procedimentos éticos, ações educativas), que visam estabelecer um sistema para prevenir a recorrência da não implantação das comissões. Essa análise baseia-se exclusivamente no conteúdo da constatação (falta de implantação total das comissões) e da recomendação (medidas para implantação e funcionamento regular), sem extrapolar para informações externas. Os pressupostos do usuário foram considerados, como a definição de recomendações cause-based (foco em evitar recorrência com soluções de longo prazo) e condition-based (corrigir a condição atual), e o critério de desempate (preferência por cause-based) foi aplicado adequadamente, já que a recomendação claramente visa resolver a causa raiz (ausência de estrutura e processos) e não apenas a condição imediata.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1743,
+    "completion_tokens": 264,
+    "total_tokens": 2007,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 399
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

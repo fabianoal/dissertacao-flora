@@ -1,0 +1,28 @@
+{
+  "id": "8a45832e-1e60-423d-bb1e-d7197834065d",
+  "object": "chat.completion",
+  "created": 1759252005,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa aponta corretamente que a recomendação propõe um processo de gerenciamento para garantir cobertura contínua, visando evitar a recorrência das lacunas temporais, o que se alinha com a definição de recomendação cause-based como solução de longo prazo para prevenir a reocorrência do problema. A análise baseia-se exclusivamente no conteúdo da constatação (lacunas temporais sem profissional médico regulador) e da recomendação (gerenciar o dimensionamento para cobertura 24h/7d), sem incorrer em pressupostos externos. Os critérios do usuário, incluindo a definição do IIA e a regra de desempate, foram respeitados, pois a recomendação aborda a causa raiz (falta de gestão adequada do dimensionamento) e não apenas a correção pontual da condição observada.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1543,
+    "completion_tokens": 219,
+    "total_tokens": 1762,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 199
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

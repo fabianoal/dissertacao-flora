@@ -1,0 +1,28 @@
+{
+  "id": "a5a2e404-e811-43c4-b9ac-14b3e1aa5556",
+  "object": "chat.completion",
+  "created": 1759249777,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa afirma que a recomendação visa estabelecer uma solução duradoura que previna futuras não conformidades, caracterizando-a como cause-based. No entanto, ao analisar o conteúdo da constatação e da recomendação, verifica-se que a constatação identifica uma inconformidade específica (layout e padrão visual não conforme) e a recomendação propõe ações diretas para corrigir essa condição (padronizar estrutura física, instalar sinalização), sem evidências de que aborda causas subjacentes, como falhas em processos de implementação ou manutenção. A justificativa extrapola o conteúdo explícito, inferindo prevenção de futuras não conformidades sem base direta na recomendação, que se concentra na correção da condição observada. Considerando o critério de desempate (optar por cause-based em caso de dúvida), a análise indica que a recomendação é predominantemente condition-based, pois corrige a condição atual de forma específica, e a justificativa não se baseia exclusivamente no conteúdo fornecido, violando os pressupostos solicitados.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1751,
+    "completion_tokens": 268,
+    "total_tokens": 2019,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 407
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

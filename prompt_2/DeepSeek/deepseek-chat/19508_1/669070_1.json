@@ -1,0 +1,28 @@
+{
+  "id": "08aebb2d-eb47-457e-9c8d-f78c525754b5",
+  "object": "chat.completion",
+  "created": 1759247801,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa afirma que a recomendação enfatiza a implementação de processos e documentação contínua para garantir a regularidade do estabelecimento, visando prevenir futuras inconformidades. No entanto, ao analisar o conteúdo da recomendação, ela se concentra especificamente na apresentação imediata de documentos específicos (Licença Sanitária e Certificado de Regularidade Técnica) que estão faltando, sem propor mudanças sistêmicas ou processos contínuos que abordem a causa raiz da não apresentação desses documentos. A recomendação é reativa e corretiva, focando na condição atual de falta de documentação, sem estabelecer claramente mecanismos preventivos de longo prazo. A justificativa extrapola o conteúdo real da recomendação ao inferir a criação de processos contínuos que não estão explicitamente mencionados. Além disso, a justificativa não se baseia exclusivamente no conteúdo da constatação e recomendação, pois adiciona elementos não presentes no texto, como 'implementação de processos e documentação contínua'. Os pressupostos solicitados pelo usuário foram considerados, mas a classificação resultante não reflete adequadamente o foco predominante da recomendação, que é claramente condition-based, visando corrigir a condição imediata de falta de documentos.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1706,
+    "completion_tokens": 309,
+    "total_tokens": 2015,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 298
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d8dd329f-666e-4b6e-bc87-ef0e2c137776",
+  "object": "chat.completion",
+  "created": 1759263157,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa analisada corretamente identifica que a recomendação se concentra na devolução do valor indevidamente recebido, caracterizando uma ação corretiva imediata para a condição específica identificada (internação incompatível). A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem extrapolar informações. Os pressupostos solicitados foram considerados adequadamente, incluindo a definição de recomendações condition-based como medidas para corrigir a condição atual e a aplicação do critério de desempate (que não foi necessário aqui, pois a classificação como condition-based é clara). A justificativa demonstra que a recomendação não aborda causas subjacentes, como falhas processuais ou de verificação que poderiam prevenir recorrências, alinhando-se com a classificação atribuída.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1634,
+    "completion_tokens": 209,
+    "total_tokens": 1843,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 290
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

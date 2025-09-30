@@ -1,0 +1,28 @@
+{
+  "id": "97ad190f-466c-42ed-ba18-4ca6f977082d",
+  "object": "chat.completion",
+  "created": 1759248641,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo baseia-se adequadamente no conteúdo da constatação e da recomendação, identificando que a não conformidade (população adscrita não atende ao recomendado) decorre de uma gestão inadequada. A recomendação de 'organizar as equipes' para garantir o atendimento conforme normas (PNAB e portaria específica) é interpretada corretamente como uma ação que visa modificar a estrutura organizacional, abordando a causa raiz (gestão deficiente) e promovendo uma solução de longo prazo, em vez de uma correção pontual da condição observada. A justificativa não introduz elementos externos e considera os pressupostos solicitados, incluindo o critério de desempate (preferência por cause-based). Portanto, a classificação como 'cause-based' é coerente com a definição do IIA e com a análise crítica dos elementos fornecidos.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1589,
+    "completion_tokens": 227,
+    "total_tokens": 1816,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 245
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

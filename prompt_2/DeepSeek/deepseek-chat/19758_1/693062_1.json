@@ -1,0 +1,28 @@
+{
+  "id": "c4db81ad-16be-408c-aadc-c571d1aed260",
+  "object": "chat.completion",
+  "created": 1759258169,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação propõe a implementação de controles de temperatura e registro contínuo, caracterizando uma medida permanente para assegurar conformidade. Esta análise baseia-se exclusivamente no conteúdo da constatação (transporte inadequado) e da recomendação (implementação de controles permanentes), sem introduzir elementos externos. Os pressupostos do usuário foram considerados, pois a recomendação claramente visa estabelecer processos duradouros que previnem a recorrência do problema, alinhando-se com a definição de cause-based do IIA. A justificativa demonstra adequadamente que a medida vai além da correção temporária da condição atual.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1662,
+    "completion_tokens": 178,
+    "total_tokens": 1840,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 318
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

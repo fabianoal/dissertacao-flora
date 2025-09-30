@@ -1,0 +1,28 @@
+{
+  "id": "c4da60ce-762f-41e2-b37d-1445f56d1f59",
+  "object": "chat.completion",
+  "created": 1759247601,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação propõe medidas de correção imediata (devolução de valores e dedução de pagamentos) para sanar a irregularidade financeira específica identificada na constatação. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem incorporar pressupostos externos. A recomendação não menciona ações preventivas, como implementação de controles internos ou revisão de processos, que caracterizariam uma abordagem cause-based. Considerando o critério de desempate que favorece cause-based apenas em casos ambíguos, e não sendo este o caso, a classificação como condition-based está adequada.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1765,
+    "completion_tokens": 176,
+    "total_tokens": 1941,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 357
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

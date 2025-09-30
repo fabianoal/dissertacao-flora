@@ -1,0 +1,28 @@
+{
+  "id": "6faa78bc-fd54-4e3e-a54d-d099ffdb566f",
+  "object": "chat.completion",
+  "created": 1759246989,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa afirma que a recomendação propõe 'implementação de um processo contínuo e sistemático para garantir o acesso dos usuários às informações sobre seu estado de saúde', porém a recomendação em si não menciona processos contínuos, sistemáticos ou implementação de qualquer procedimento específico. Ela apenas cita o cumprimento de dispositivos legais existentes sobre direitos dos usuários. A constatação se refere especificamente à ausência de irregularidades nas atas da Comissão de Revisão de Prontuário, enquanto a recomendação trata de garantir acesso dos usuários às informações de saúde de forma geral. Há uma desconexão entre o problema identificado (irregularidades não incluídas em atas) e a solução proposta (garantir acesso dos usuários às informações), sugerindo que a justificativa extrapolou o conteúdo real da recomendação ao atribuir características de processo contínuo e sistemático que não estão explicitamente presentes.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1650,
+    "completion_tokens": 231,
+    "total_tokens": 1881,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 242
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

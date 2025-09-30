@@ -1,0 +1,28 @@
+{
+  "id": "858c05c9-dc6b-48e5-a57b-1f22f431caa2",
+  "object": "chat.completion",
+  "created": 1759257769,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo fundamenta-se adequadamente no conteúdo da constatação e da recomendação, sem extrapolar para informações externas. A constatação evidencia a ausência de manutenção periódica programada, enquanto a recomendação propõe a adoção de um sistema estruturado e regular de manutenções preventivas e corretivas, calibração e qualificação térmica, alinhando-se à abordagem de causa raiz ao buscar prevenir a recorrência do problema por meio de mudanças organizacionais duradouras. Os pressupostos do usuário foram respeitados, incluindo a priorização de 'cause-based' em caso de dúvida, e a justificativa demonstra coerência lógica entre a proposta da recomendação e a classificação atribuída.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1812,
+    "completion_tokens": 197,
+    "total_tokens": 2009,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 468
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

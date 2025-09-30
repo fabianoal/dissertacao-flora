@@ -1,0 +1,28 @@
+{
+  "id": "2ea65a6c-180a-41d4-997e-098f6277e487",
+  "object": "chat.completion",
+  "created": 1759259977,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresenta uma análise coerente com a classificação atribuída, pois identifica corretamente que a recomendação propõe a definição de processos e a implementação do ACR como ações estruturais e de longo prazo, o que se alinha ao conceito de recomendações cause-based, que visam prevenir a recorrência do problema. A justificativa baseia-se exclusivamente no conteúdo da constatação (não aplicação do ACR) e da recomendação (definição de processos e implementação do ACR), sem introduzir elementos externos. Os pressupostos solicitados pelo usuário foram considerados, incluindo a nomenclatura do IIA e o critério de desempate (preferência por cause-based), e a análise focou na capacidade da recomendação de abordar a causa raiz (falta de processos definidos e implementação do ACR) em vez de apenas corrigir a condição observada (não aplicação do ACR).\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1788,
+    "completion_tokens": 239,
+    "total_tokens": 2027,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 444
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

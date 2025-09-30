@@ -1,0 +1,28 @@
+{
+  "id": "25d43516-8f09-44e4-9a94-ed81813ee138",
+  "object": "chat.completion",
+  "created": 1759255873,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo baseia-se adequadamente no conteúdo da recomendação, que estabelece a necessidade de implementação de processos sistemáticos de análise, homologação e guarda de documentos. Essas ações visam prevenir a recorrência das impropriedades identificadas, alinhando-se ao conceito de recomendações cause-based, que buscam soluções de longo prazo para evitar a repetição do problema. A análise considerou exclusivamente a constatação (impropriedades documentais) e a recomendação (implementação de processos permanentes), sem extrapolar para elementos externos. Os pressupostos do usuário, incluindo a definição de cause-based como foco em ações preventivas e de longo prazo, foram corretamente aplicados, com a opção por cause-based em caso de dúvida sendo respeitada, dado o caráter processual e preventivo da recomendação.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1807,
+    "completion_tokens": 219,
+    "total_tokens": 2026,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 463
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

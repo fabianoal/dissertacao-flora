@@ -1,0 +1,28 @@
+{
+  "id": "e895afa8-3f00-40e2-9568-2e1d81d34d39",
+  "object": "chat.completion",
+  "created": 1759255137,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na correção da condição imediata (falta de documentação comprobatória do estoque) ao exigir o encaminhamento da documentação quando solicitada. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos. Considera adequadamente os pressupostos solicitados, incluindo o critério de desempate (preferência por cause-based quando aplicável), mas neste caso a recomendação claramente visa remediar a situação atual sem abordar causas subjacentes ou prevenir recorrências futuras.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1697,
+    "completion_tokens": 162,
+    "total_tokens": 1859,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 353
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

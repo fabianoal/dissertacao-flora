@@ -1,0 +1,28 @@
+{
+  "id": "d73e29da-c0f1-488a-84fd-4c9a7aab343b",
+  "object": "chat.completion",
+  "created": 1759262629,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa afirma que a recomendação propõe uma solução de longo prazo que evita a reocorrência da condição, alinhando-se com a definição de cause-based. No entanto, ao analisar o conteúdo da constatação e da recomendação, verifica-se que a SES/TO não implementou as catracas eletrônicas conforme estabelecido, e a recomendação é exatamente para implementá-las conforme o plano de ação. Esta é uma ação direta para corrigir a condição atual de falta de registro, caracterizando uma solução imediata para a inconformidade identificada, sem evidências de abordar causas mais profundas ou sistêmicas. A justificativa não se baseia exclusivamente no conteúdo fornecido, pois infere uma prevenção futura que não é explicitamente mencionada na recomendação. Além disso, considerando o critério de desempate que orienta a opção por cause-based, a análise aqui sugere que a recomendação é predominantemente condition-based, focada na correção da condição observada.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1592,
+    "completion_tokens": 254,
+    "total_tokens": 1846,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 248
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

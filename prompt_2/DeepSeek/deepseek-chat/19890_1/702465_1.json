@@ -1,0 +1,28 @@
+{
+  "id": "91ed1cab-ca66-44ea-9e2f-03eca99cf2c2",
+  "object": "chat.completion",
+  "created": 1759263421,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na cobrança administrativa de recursos para elidir o dano financeiro já ocorrido, o que caracteriza uma medida corretiva da condição atual. A análise baseia-se exclusivamente no conteúdo da constatação (não comprovação do procedimento) e da recomendação (cobrança de recursos), sem introduzir elementos externos. Os pressupostos solicitados foram considerados adequadamente, aplicando os critérios do IIA: a recomendação trata especificamente da devolução de valores, que é uma solução para a condição imediata (dano financeiro), sem abordar causas subjacentes como falhas em processos de comprovação ou controle interno que poderiam prevenir recorrências.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1666,
+    "completion_tokens": 198,
+    "total_tokens": 1864,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 322
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

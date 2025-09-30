@@ -1,0 +1,28 @@
+{
+  "id": "a9b61e40-34da-4706-8627-7ce05c1405fa",
+  "object": "chat.completion",
+  "created": 1759256217,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra em solicitar justificativas e evidenciar a falta de cotação de preços, sem propor ações preventivas de longo prazo. Esta análise baseia-se exclusivamente no conteúdo da constatação e da recomendação fornecidas, sem introduzir pressupostos externos. Considerando que a recomendação visa corrigir a condição atual (formalização inadequada de contratos) através de justificativas e evidências, e não estabelece medidas estruturais para prevenir futuras ocorrências, a classificação como condition-based está alinhada com os critérios do IIA e com o pressuposto de desempate (preferência por cause-based apenas em caso de dúvida, o que não se aplica aqui).\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1547,
+    "completion_tokens": 197,
+    "total_tokens": 1744,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 139
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

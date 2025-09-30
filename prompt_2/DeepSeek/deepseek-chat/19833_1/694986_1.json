@@ -1,0 +1,28 @@
+{
+  "id": "d2b0e072-d93b-4f1e-b24d-cf4e0e253a0e",
+  "object": "chat.completion",
+  "created": 1759261253,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na correção imediata da condição específica encontrada (cadastro não atualizado no CNES), sem propor ações preventivas para evitar recorrência, como implementação de processos contínuos de monitoramento. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos. Os pressupostos solicitados foram considerados adequadamente, aplicando os critérios do IIA onde recomendações condition-based corrigem a condição atual enquanto cause-based visam prevenir recorrência. Dado que a recomendação se limita a atualizar o cadastro sem abordar causas estruturais ou implementar controles preventivos, a classificação como condition-based está correta.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1624,
+    "completion_tokens": 192,
+    "total_tokens": 1816,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 280
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

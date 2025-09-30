@@ -1,0 +1,28 @@
+{
+  "id": "446d49b9-5984-46b2-a035-945a5a8bbbfc",
+  "object": "chat.completion",
+  "created": 1759247761,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada não se baseia adequadamente no conteúdo da constatação e da recomendação. A constatação identifica dispensação de medicamentos sem comprovação de aquisição por notas fiscais em um período específico (jan/2016 a mai/2020), enquanto a recomendação se limita a solicitar 'adoção dos procedimentos a seu cargo' conforme dispositivos legais genéricos, sem especificar ações concretas para prevenir a recorrência do problema. A justificativa afirma incorretamente que a recomendação foca em 'mudanças sistêmicas e de longo prazo', quando na realidade ela é vaga e não estabelece medidas preventivas específicas. Além disso, a recomendação menciona explicitamente 'elisão do dano e/ou impropriedade ocorrida', indicando foco na correção da situação existente, não na prevenção futura. Os pressupostos do usuário pesquisador não foram corretamente considerados, pois a classificação como 'cause-based' requer que a recomendação proponha ações para evitar que o problema volte a ocorrer, o que não está presente neste caso.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1690,
+    "completion_tokens": 272,
+    "total_tokens": 1962,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 346
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

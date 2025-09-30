@@ -1,0 +1,28 @@
+{
+  "id": "ebf4d668-aad8-4628-baa1-c1c2dabfb2c1",
+  "object": "chat.completion",
+  "created": 1759257009,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo baseia-se adequadamente no conteúdo da constatação (ausência de CNPJ próprio) e da recomendação (inscrição no CNPJ), sem introduzir elementos externos. Ela corretamente identifica que a ação recomendada visa resolver a causa raiz da irregularidade - a falta de inscrição no cadastro obrigatório - em vez de apenas corrigir sintomas temporários. A justificativa também considera o critério de desempate ao optar por 'cause-based', uma vez que a implementação do CNPJ constitui uma solução permanente que previne a reincidência do problema, alinhando-se com a definição de recomendações com foco na causa.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1599,
+    "completion_tokens": 180,
+    "total_tokens": 1779,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 191
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

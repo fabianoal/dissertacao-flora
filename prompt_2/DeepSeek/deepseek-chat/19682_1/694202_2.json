@@ -1,0 +1,28 @@
+{
+  "id": "fb90744d-1adb-4cc4-98af-a75d62496e93",
+  "object": "chat.completion",
+  "created": 1759255977,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na correção imediata da condição encontrada (falta de documentação comprobatória), exigindo a regularização da despesa específica. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos. Considera adequadamente os pressupostos solicitados, incluindo o critério de desempate (preferência por cause-based quando aplicável), mas neste caso a recomendação claramente aborda apenas a condição atual sem propor medidas preventivas para causas subjacentes como falhas nos processos de contratação.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1614,
+    "completion_tokens": 164,
+    "total_tokens": 1778,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 206
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c66b05a2-ce60-4e23-993f-eb37b7d8b960",
+  "object": "chat.completion",
+  "created": 1759253977,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa afirma que a recomendação propõe uma ação específica para verificar e corrigir a condição atual de excesso de carga horária, sem abordar medidas de longo prazo para prevenir sua recorrência. No entanto, a recomendação em si não propõe nenhuma ação corretiva direta para o excesso de carga horária; ela apenas sugere apurar se os trabalhadores estão cumprindo a carga horária estipulada. Esta é uma ação de verificação e investigação, não de correção da condição identificada. A justificativa parece assumir incorretamente que a recomendação inclui uma ação corretiva, quando na verdade ela se limita a uma etapa preliminar de apuração. Além disso, a justificativa não se baseia exclusivamente no conteúdo da constatação e da recomendação, pois introduz a ideia de 'corrigir a condição atual' que não está presente na recomendação explícita. Os pressupostos solicitados pelo usuário pesquisador não foram totalmente considerados, pois a classificação como condition-based normalmente exigiria uma recomendação que efetivamente corrija a condição, não apenas a investigue.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1573,
+    "completion_tokens": 281,
+    "total_tokens": 1854,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 165
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

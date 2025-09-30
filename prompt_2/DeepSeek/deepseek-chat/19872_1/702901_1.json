@@ -1,0 +1,28 @@
+{
+  "id": "f45a4414-4b3e-4006-ba59-ed48df270559",
+  "object": "chat.completion",
+  "created": 1759262813,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa afirma que a recomendação visa implementar um processo correto e permanente para emissão de AIHs e APACs concomitantes, abordando a causa raiz e prevenindo recorrência. No entanto, ao analisar o conteúdo da recomendação, ela se limita a citar o que está estabelecido no manual técnico, sem propor ações específicas para modificar processos ou sistemas que levem à emissão incorreta. A recomendação é genérica e se assemelha mais a uma orientação para corrigir a condição atual de falta de APACs concomitantes, sem evidenciar medidas que atuem sobre as causas subjacentes (ex: falhas de processo, capacitação, controles sistêmicos). A justificativa extrapola o conteúdo real da recomendação ao inferir que ela implementa processos permanentes, quando na verdade a recomendação é condicionada ao cumprimento de regra existente. Considerando que o critério de desempate favorece 'cause-based' e a análise deve basear-se estritamente no conteúdo da constatação e recomendação, a classificação como 'cause-based' não se sustenta.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1644,
+    "completion_tokens": 272,
+    "total_tokens": 1916,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 300
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

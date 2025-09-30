@@ -1,0 +1,28 @@
+{
+  "id": "3a748ddb-9b30-4407-a37c-cabb8bc3d47f",
+  "object": "chat.completion",
+  "created": 1759245150,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação propõe a implementação da Sistematização da Assistência de Enfermagem (SAE) como uma medida estrutural e de longo prazo, focando na causa raiz da ausência da SAE. A análise baseia-se exclusivamente no conteúdo da constatação (ausência da SAE) e da recomendação (implementação da SAE), sem introduzir elementos externos. Os pressupostos solicitados foram considerados corretamente, incluindo a definição de recomendações cause-based como aquelas que propõem ações para evitar que a condição volte a ocorrer, envolvendo soluções de longo prazo, e a aplicação do critério de desempate para cause-based quando relevante. A recomendação visa estabelecer um processo contínuo (SAE) que aborda a causa subjacente da falta de sistematização, em vez de apenas corrigir sintomas imediatos.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1640,
+    "completion_tokens": 234,
+    "total_tokens": 1874,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 296
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

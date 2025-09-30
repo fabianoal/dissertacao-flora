@@ -1,0 +1,28 @@
+{
+  "id": "d299cb5e-6fc7-4845-bcc3-6e59142995c0",
+  "object": "chat.completion",
+  "created": 1759254793,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa aponta corretamente que a recomendação se concentra na correção imediata da condição específica identificada (falta de comprovação da constituição e atuação da Comissão de Revisão de Prontuários), exigindo o fornecimento de informações e acesso a documentos, sem propor ações para prevenir a recorrência do problema. Essa análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir pressupostos externos, e considera adequadamente os critérios do IIA, onde recomendações condition-based visam corrigir a condição atual de forma temporária, enquanto cause-based abordariam a causa raiz para evitar repetição. A justificativa, portanto, leva logicamente à classificação alcançada, e o critério de desempate (optar por cause-based em caso de dúvida) não foi necessário, pois a recomendação claramente não propõe medidas preventivas ou de longo prazo.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1614,
+    "completion_tokens": 241,
+    "total_tokens": 1855,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 206
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

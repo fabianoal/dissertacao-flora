@@ -1,0 +1,170 @@
+---
+title: "Apêndice III - Recolhimento de Amostra"
+author: Fabiano A. Lima
+bibliography: ./Quarto/referencias.bibtex
+csl: ./Quarto/abnt-nbr-6023-2018-citacao-autor-data.csl
+lang: pt-BR
+format: 
+  docx:
+    reference-doc: ./Quarto/custom-reference-doc.docx
+execute: 
+  cache: false
+  echo: true
+knitr:
+  opts_chunk: 
+    collapse: true
+    comment: "#>" 
+    R.options:
+      knitr.graphics.auto_pdf: true
+---
+
+
+```{r}
+#| label: setup
+#| include: false
+#| echo: false
+
+pacotes_necessarios <- c(
+        "tidyverse",
+        "httr2",
+        "dotenv",
+        "rpart",
+        "logger")
+
+pacotes_instalados <- installed.packages()[, 1]
+
+pacotes_para_instalar <- setdiff(pacotes_necessarios, pacotes_instalados)
+
+if (length(pacotes_para_instalar) > 0){
+    install.packages(pacotes_para_instalar, quiet = TRUE, repos = "https://cloud.r-project.org")
+}
+
+
+library(tidyverse)
+library(httr2)
+
+options(scipen = 999,
+    width = 70, 
+    digits = 2, 
+    colorDF_theme = "dark",
+    #crayon.enabled = TRUE,
+    colorDF_n = 10,
+    tibble.print_max = 300)
+
+dotenv::load_dot_env()
+```
+
+# Introdução
+
+O presente apêndice registra os passos tomados para a escolha de um conjunto de recomendações para exemplificar o processo de classificação.
+
+```{r}
+#| label: cria_dataset_analise
+#| echo: true
+#| eval: true
+
+set.seed(42)
+
+modelo <- "deepseek-chat"
+
+classificacoes <- read_rds(sprintf("./Dados Gerados/cls_%s.rds", modelo))
+
+recomendacoes <- read_rds("./Dados Gerados/auditorias.rds") |>
+    inner_join(
+        read_rds("./Dados Gerados/constatacoes.rds") |>
+        select(-`No. Auditoria`),
+        by = "Arquivo"
+    ) |>
+    inner_join(
+        read_rds("./Dados Gerados/recomendacoes.rds") |>
+        select(-`No. Auditoria`),
+        by = c("Arquivo", "# Constatação")
+    ) 
+
+dataset_analise <- recomendacoes |>
+    mutate(`# Recomendação` = as.integer(`# Recomendação`)) |>
+    left_join(
+        classificacoes |>
+        select(-finish_reason, -erro, -arquivo) |>
+        mutate(recomendacao = as.integer(recomendacao)) |>
+        rename(`Justificativa Classificação` = justificativa),
+        by = c(
+            "Arquivo" = "Arquivo Relatório",
+            "# Constatação" = "constatacao",
+            "# Recomendação" = "recomendacao")
+    ) |>
+    rename(`Classificação` = classificacao) |>
+    mutate(Ano = year(`Data Geração`) |> as.character()) |>
+    mutate(Grupo = str_extract(Grupo, "(^.*?) Constata..o.*", 1)) |>
+    mutate(UF = str_sub(`Munícipio/UF`, -2), .keep = "unused") |>
+    mutate(Objeto = Objeto |> 
+                str_replace(fixed(".Fora de bloco|"), "Sem Bloco|") |>
+                str_replace("\\.(?=[A-Z])", ". ") |>
+                str_replace(fixed("MAC-OPME"), "MAC|OPME") |>
+                str_replace(" Órgão\\(s\\).*", ""),
+        Bloco = str_extract(Objeto, "(.*?)\\|.*", 1),
+        `Sub bloco` = str_extract(Objeto, ".*?\\|(.*?)(\\|.*|$)", 1),
+        Bloco = coalesce(Bloco, Objeto),
+        Bloco = str_replace(Bloco, "REGULAÇÃO DO ACESSO.*", "Reg. Acesso Consultas/Exames"))
+
+exemplos_classificados_condicao <- dataset_analise |>
+    filter(`Classificação` == "condition-based") |>
+    sample_n(10)
+
+
+exemplos_classificados_causa <- dataset_analise |>
+    filter(`Classificação` == "cause-based") |>
+    sample_n(10)
+```
+
+
+# Exemplos Recomendações com Foco na Causa
+
+```{r}
+#| label: print_exemplos_causa
+#| echo: false
+#| eval: true
+#| results: asis
+
+obtem_funcao_print <- function(df){
+    obtem_campo <- function(indice, campo){
+        df[indice, campo] |> 
+        purrr::pluck(1)
+    }
+    function(i){
+        cat(
+            "## Auditoria ", obtem_campo(i, "No. Auditoria"), 
+            ", Constatação Nº ", obtem_campo(i, "# Constatação"), "\n\n",
+            "Finalidade: " , obtem_campo(i, "Finalidade"), "\n\n",
+            "Constatação: ", obtem_campo(i, "Constatação"), "\n\n",
+            "Recomendação: " , obtem_campo(i, "Recomendação"), "\n\n",
+            "Classificação: " , obtem_campo(i, "Classificação"), "\n\n",
+            "Justificativa: " , obtem_campo(i, "Justificativa Classificação"), "\n\n",
+            sep = ""
+        )
+    }
+}
+
+print_fn <- obtem_funcao_print(exemplos_classificados_causa)
+walk(
+    1:nrow(exemplos_classificados_causa),
+    print_fn
+)
+
+```
+
+# Exemplos Recomendações com Foco na Causa
+
+```{r}
+#| label: print_exemplos_condicao
+#| echo: false
+#| eval: true
+#| results: asis
+
+print_fn <- obtem_funcao_print(exemplos_classificados_condicao)
+walk(
+    1:nrow(exemplos_classificados_condicao),
+    print_fn
+)
+```
+

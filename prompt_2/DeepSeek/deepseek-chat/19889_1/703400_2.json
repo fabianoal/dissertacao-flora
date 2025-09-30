@@ -1,0 +1,28 @@
+{
+  "id": "37ca0a96-1ad7-435a-99f3-f35bca05cd35",
+  "object": "chat.completion",
+  "created": 1759263397,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada não se baseia adequadamente no conteúdo da constatação e da recomendação fornecidas. A constatação identifica uma inconformidade específica relacionada ao prazo entre a AIH de cirurgia oncológica e o início da quimioterapia, enquanto a recomendação simplesmente cita o cumprimento de incisos genéricos de uma portaria sobre regulação, supervisão e avaliação da produção assistencial, sem propor ações concretas para corrigir a condição observada ou prevenir sua recorrência. A justificativa assume que a recomendação implica 'mudanças estruturais ou processuais de longo prazo', mas a recomendação em si é vaga e não especifica medidas como revisão de processos, implementação de controles ou capacitação, focando-se mais na correção imediata da condição (conformidade com a legislação) do que na causa raiz (ex: falhas no processo de regulação ou controle). Além disso, a justificativa não considera que, como critério de desempate, a classificação deveria ser 'cause-based', mas aqui a recomendação é claramente condicionada à correção da inconformidade atual, sem abordar explicitamente a prevenção de futuras ocorrências.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1701,
+    "completion_tokens": 302,
+    "total_tokens": 2003,
+    "prompt_tokens_details": {
+      "cached_tokens": 1472
+    },
+    "prompt_cache_hit_tokens": 1472,
+    "prompt_cache_miss_tokens": 229
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "08d5ad03-e844-419e-98ac-4039b70a7389",
+  "object": "chat.completion",
+  "created": 1759246858,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa afirma que a recomendação solicita adoção de procedimentos para prevenir futuras ocorrências similares, porém a recomendação concreta se limita a mencionar procedimentos para 'elisão do dano' específico de R$ 515,06 e devolução do valor, sem indicar claramente medidas preventivas ou correções sistêmicas. A referência aos decretos parece direcionada à regularização do caso concreto, não à implementação de controles permanentes. A justificativa extrapola o conteúdo efetivo da recomendação, que se concentra na correção da condição específica identificada (falta de documentação para determinado valor), caracterizando-se mais como condition-based.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1667,
+    "completion_tokens": 177,
+    "total_tokens": 1844,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 323
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

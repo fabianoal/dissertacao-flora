@@ -1,0 +1,28 @@
+{
+  "id": "3f65df64-1e4f-4407-b4e7-a2ed8263155b",
+  "object": "chat.completion",
+  "created": 1759252605,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa analisada corretamente identifica que a recomendação se limita a inserir os relatórios específicos de 2022 no sistema, o que constitui uma correção pontual da condição observada (ausência dos relatórios). Ela se baseia exclusivamente no conteúdo da constatação e da recomendação, sem adicionar pressupostos externos, e considera adequadamente os critérios do IIA, onde recomendações condition-based focam em corrigir a condição imediata, enquanto cause-based abordariam causas raiz (ex: implementação de políticas para evitar futuras ausências). O critério de desempate (preferir cause-based) não se aplica aqui, pois a recomendação claramente não propõe ações preventivas ou de longo prazo.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1566,
+    "completion_tokens": 199,
+    "total_tokens": 1765,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 222
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

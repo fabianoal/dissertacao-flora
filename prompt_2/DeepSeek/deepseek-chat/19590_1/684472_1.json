@@ -1,0 +1,28 @@
+{
+  "id": "73859194-287e-4678-916c-448de108ccf6",
+  "object": "chat.completion",
+  "created": 1759249909,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo baseia-se adequadamente no conteúdo da recomendação, que inclui ações como a sensibilização dos profissionais e o fomento de uma cultura organizacional, as quais visam prevenir a reocorrência da condição de registros desatualizados, caracterizando-se como soluções de longo prazo e mudanças estruturais. A análise está exclusivamente fundamentada na constatação (falta de atualização dos registros) e na recomendação (ações de sensibilização e registro), sem incorrer em pressupostos externos. Além disso, o critério de desempate (preferência por 'cause-based') foi corretamente aplicado, pois a recomendação aborda tanto a correção imediata (registrar os atendimentos) quanto a prevenção futura (sensibilização e cultura), sendo a última predominante. Portanto, a classificação como 'cause-based' é consistente com a definição do IIA e com os critérios estabelecidos.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1715,
+    "completion_tokens": 237,
+    "total_tokens": 1952,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 307
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

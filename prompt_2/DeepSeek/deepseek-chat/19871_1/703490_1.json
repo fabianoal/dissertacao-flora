@@ -1,0 +1,28 @@
+{
+  "id": "4aa12c07-69be-4dfb-b1a1-50c28b1f4a07",
+  "object": "chat.completion",
+  "created": 1759262769,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa afirma que a recomendação estabelece um 'processo contínuo e preventivo para evitar a recorrência da inconformidade', porém a recomendação em si não propõe mudanças processuais ou estruturais que previnam a causa raiz do problema. Ela apenas orienta a emissão correta de AIHs quando a situação já ocorreu (internação prolongada), caracterizando uma correção da condição específica identificada. A justificativa extrapola o conteúdo real da recomendação ao atribuir-lhe caráter preventivo e de longo prazo, quando na verdade ela se limita a corrigir a condição observada de forma pontual. Além disso, a justificativa não se baseia exclusivamente no conteúdo da constatação e recomendação, criando pressupostos não presentes no texto original.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1650,
+    "completion_tokens": 203,
+    "total_tokens": 1853,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 306
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

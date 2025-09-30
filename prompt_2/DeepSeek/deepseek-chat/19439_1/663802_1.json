@@ -1,0 +1,28 @@
+{
+  "id": "49841f81-86e8-4a5e-8e51-89179a2e2855",
+  "object": "chat.completion",
+  "created": 1759246913,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa analisada corretamente identifica que a recomendação se concentra na devolução dos recursos financeiros recebidos indevidamente, que constitui uma medida corretiva para a condição específica identificada (falta de comprovação dos procedimentos e adulteração de informações). A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, observando que não há menção a ações preventivas ou de longo prazo para evitar a reincidência do problema. Os pressupostos solicitados foram considerados adequadamente, incluindo o critério de desempate que favorece a classificação 'cause-based', mas neste caso a natureza claramente corretiva e pontual da recomendação justifica a classificação como 'condition-based'.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2270,
+    "completion_tokens": 190,
+    "total_tokens": 2460,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 926
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

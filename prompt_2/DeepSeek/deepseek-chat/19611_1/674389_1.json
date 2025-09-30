@@ -1,0 +1,28 @@
+{
+  "id": "d80e1570-7737-465a-8f00-38e611e43530",
+  "object": "chat.completion",
+  "created": 1759252701,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na correção imediata da condição específica encontrada (ausência de documentação comprobatória), solicitando a inserção de documentos no sistema para sanar as impropriedades atuais. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos. Considera adequadamente os pressupostos solicitados, incluindo o critério de desempate (preferência por cause-based quando aplicável), mas neste caso a recomendação claramente não aborda causas raiz ou ações preventivas, focando apenas na correção da condição presente.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1546,
+    "completion_tokens": 169,
+    "total_tokens": 1715,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 202
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

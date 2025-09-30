@@ -1,0 +1,28 @@
+{
+  "id": "e4dffc43-0823-4fa8-834e-99b847f34e7e",
+  "object": "chat.completion",
+  "created": 1759254417,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresenta uma análise coerente com a classificação atribuída, pois identifica corretamente que a recomendação de capacitação visa prevenir futuras deficiências, caracterizando uma solução de longo prazo que aborda a causa raiz (falta de competência técnica) em vez de apenas corrigir a condição específica observada. A fundamentação baseia-se exclusivamente no conteúdo da constatação (deficiência na análise técnica) e da recomendação (capacitação para atender a normativos), sem incorrer em pressupostos externos. Ademais, respeita o critério de desempate ao optar por 'cause-based' quando a recomendação demonstra potencial de evitar a recorrência do problema.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1584,
+    "completion_tokens": 182,
+    "total_tokens": 1766,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 176
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

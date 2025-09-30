@@ -1,0 +1,28 @@
+{
+  "id": "7077347d-c565-477d-89db-148fc101254f",
+  "object": "chat.completion",
+  "created": 1759253877,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na correção imediata da condição específica encontrada (ausência de contrato de locação), solicitando justificativas para esse fato. Ela se baseia exclusivamente no conteúdo da constatação e da recomendação, sem adicionar pressupostos externos. A recomendação não propõe ações preventivas ou de longo prazo para evitar a recorrência do problema, como mudanças em processos ou políticas, alinhando-se com a definição de recomendações condition-based. Os pressupostos do usuário, incluindo a nomenclatura do IIA e o critério de desempate, foram considerados adequadamente, pois não há indicação de que a recomendação aborde a causa raiz.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1530,
+    "completion_tokens": 195,
+    "total_tokens": 1725,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 186
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

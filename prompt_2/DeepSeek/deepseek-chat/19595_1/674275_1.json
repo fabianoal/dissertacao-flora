@@ -1,0 +1,28 @@
+{
+  "id": "bdf2927b-58fb-4d4f-86fb-964bd76ef068",
+  "object": "chat.completion",
+  "created": 1759251921,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa afirma que a recomendação propõe capacitação de profissionais e adesão a normas para melhorar processos de forma sustentável, prevenindo recorrência. No entanto, ao analisar o conteúdo da recomendação, o item 1 sobre capacitação aborda a causa raiz (falta de conhecimento/abordagem integral), mas o item 2 foca em corrigir a condição específica de não cumprimento do cálculo de incentivo financeiro conforme a portaria, que é uma ação corretiva imediata. A justificativa não considera adequadamente que parte da recomendação é condition-based, baseando-se mais na intenção declarada do que no conteúdo real. Além disso, o critério de desempate (optar por cause-based) foi aplicado, mas a análise deveria ter reconhecido o caráter misto da recomendação.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1731,
+    "completion_tokens": 209,
+    "total_tokens": 1940,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 387
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

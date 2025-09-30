@@ -1,0 +1,28 @@
+{
+  "id": "6d74d4af-0052-4a98-9ea1-1cc7d3744db3",
+  "object": "chat.completion",
+  "created": 1759242657,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de medidas permanentes para assegurar que futuros repasses de recursos federais sejam aplicados em conformidade com os Programas de Trabalho do Orçamento Geral da União, focando na implementação de processos e controles que previnam a reincidência da irregularidade observada, em vez de apenas corrigir a situação específica identificada.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1111,
+    "completion_tokens": 110,
+    "total_tokens": 1221,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 151
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

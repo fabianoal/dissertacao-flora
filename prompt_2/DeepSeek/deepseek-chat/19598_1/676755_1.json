@@ -1,0 +1,28 @@
+{
+  "id": "571d3075-e709-47e1-8a29-f53dd11c1305",
+  "object": "chat.completion",
+  "created": 1759252022,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo fundamenta-se adequadamente no conteúdo da recomendação, que propõe a implementação de medidas para assegurar a integridade, transparência e validade dos registros de escalas de trabalho. Essa abordagem visa estabelecer processos ou controles duradouros para prevenir a recorrência da condição observada (falta de apresentação das escalas), alinhando-se com a definição de recomendações cause-based, que focam em ações para evitar que o problema volte a ocorrer, envolvendo soluções de longo prazo. A análise baseia-se exclusivamente na constatação e na recomendação fornecidas, sem incorrer em pressupostos externos, e considera corretamente os critérios do IIA, incluindo a regra de desempate para optar por cause-based quando aplicável. Portanto, a classificação é coerente com a justificativa e os elementos fornecidos.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1553,
+    "completion_tokens": 230,
+    "total_tokens": 1783,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 209
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

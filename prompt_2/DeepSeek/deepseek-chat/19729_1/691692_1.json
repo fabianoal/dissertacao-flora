@@ -1,0 +1,28 @@
+{
+  "id": "1b3bc0c9-750b-4f76-8b39-072ce3677c18",
+  "object": "chat.completion",
+  "created": 1759257265,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo baseia-se adequadamente no conteúdo da constatação e da recomendação, destacando que a adequação da infraestrutura física visa atender critérios legais e envolve mudanças estruturais de longo prazo para prevenir futuras inconformidades. Isso está alinhado com a definição de recomendações cause-based, que focam em ações para evitar a recorrência do problema, em contraste com condition-based, que seriam correções temporárias. Os pressupostos solicitados pelo usuário, como a classificação preferencial para cause-based em caso de dúvida, foram considerados corretamente, e a justificativa leva logicamente à classificação alcançada.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1603,
+    "completion_tokens": 179,
+    "total_tokens": 1782,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 259
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d9293571-80bf-44ba-b4c4-4efce6d18b78",
+  "object": "chat.completion",
+  "created": 1759242680,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de medidas preventivas para assegurar que futuros repasses de recursos federais sejam aplicados em conformidade com os programas de trabalho definidos, visando evitar a reincidência da condição observada, o que se alinha com soluções de longo prazo e foco na causa subjacente.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1115,
+    "completion_tokens": 94,
+    "total_tokens": 1209,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 155
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

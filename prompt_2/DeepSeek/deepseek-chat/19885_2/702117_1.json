@@ -1,0 +1,28 @@
+{
+  "id": "0eefcad6-cb30-45a2-a9b4-d6c3c4412310",
+  "object": "chat.completion",
+  "created": 1759263117,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresenta argumentos coerentes com a classificação atribuída, ao destacar que a recomendação visa implementar normas e práticas para garantir completude e legibilidade dos prontuários, com foco em soluções de longo prazo como adoção de padrões regulamentares e sistemas informatizados. A análise baseia-se exclusivamente no conteúdo da constatação (prontuários fragmentados, registros sucintos, padronizados ou ilegíveis) e da recomendação (subsidiar equipes para seguir normas que preveem documento único, completo, com história clínica em completude, identificação, assinatura, data, registro multiprofissional em ordem cronológica, formato físico/digital conforme legislação). Os pressupostos solicitados foram considerados corretamente, incluindo o critério de desempate (optar por cause-based em caso de dúvida), uma vez que a recomendação busca prevenir a reincidência do problema através de mudanças estruturais na gestão de prontuários, alinhando-se à definição de recomendações com foco na causa.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1673,
+    "completion_tokens": 266,
+    "total_tokens": 1939,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 329
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

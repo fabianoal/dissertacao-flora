@@ -1,0 +1,28 @@
+{
+  "id": "3ff958d7-3213-4ea6-ba8e-79e17c411fcd",
+  "object": "chat.completion",
+  "created": 1759263219,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na devolução do valor irregular ao Fundo Nacional de Saúde, o que constitui uma medida de correção da condição atual (inconsistência nos registros que resultou em dano financeiro). A análise baseia-se exclusivamente no conteúdo da constatação (inconsistência nos registros do Espelho da AIH) e da recomendação (devolução do valor), sem introduzir pressupostos externos. Além disso, a justificativa observa a ausência de ações preventivas para evitar recorrência, o que reforça a classificação como 'condition-based', uma vez que a recomendação não aborda a causa raiz da inconsistência (como falhas nos processos de registro ou controle interno). Os critérios do usuário foram respeitados, incluindo a opção por 'cause-based' em caso de empate, mas aqui não há ambiguidade que justifique essa opção, pois a recomendação é claramente direcionada à correção da condição imediata.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1650,
+    "completion_tokens": 253,
+    "total_tokens": 1903,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 306
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

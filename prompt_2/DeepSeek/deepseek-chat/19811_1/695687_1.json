@@ -1,0 +1,28 @@
+{
+  "id": "fe837ad3-9e61-4f20-87cd-e62b1a866a3e",
+  "object": "chat.completion",
+  "created": 1759260297,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa afirma que a recomendação propõe a implementação de atividades contínuas e registro adequado no Programa Saúde na Escola, visando estabelecer processos sustentáveis para prevenir a recorrência da falta de ações de saúde mental, alinhando-se com soluções de longo prazo. No entanto, ao analisar a constatação (UBS não realizam ações contínuas do PSE relacionadas à saúde mental) e a recomendação (realizar atividades de saúde mental nas escolas via PSE e fazer registro adequado), observa-se que a recomendação se concentra em corrigir a condição específica de ausência de ações e registros, sem propor mudanças estruturais ou de processo que abordem as causas subjacentes dessa ausência. A justificativa extrapola o conteúdo da recomendação ao inferir que ela estabelece processos sustentáveis e previne recorrência, quando na verdade a recomendação é direcionada à execução imediata das atividades e registros, caracterizando uma solução para a condição atual. Além disso, a menção ao cumprimento de portaria específica reforça o foco na conformidade com requisitos normativos, típico de recomendações condition-based. Os pressupostos do usuário (base exclusiva na constatação e recomendação, critério de desempate para cause-based) não foram totalmente respeitados, pois a justificativa introduziu elementos não explícitos na recomendação (ex: 'processos sustentáveis').\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1632,
+    "completion_tokens": 346,
+    "total_tokens": 1978,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 288
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

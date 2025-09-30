@@ -1,0 +1,28 @@
+{
+  "id": "b95e1428-93a5-4806-84c7-fd36f95b979a",
+  "object": "chat.completion",
+  "created": 1759245293,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo baseia-se adequadamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos. Ela corretamente identifica que a recomendação exige o cumprimento de requisitos normativos específicos da RDC/ANVISA, que envolvem adequações estruturais (física e de equipamentos) e operacionais na lavanderia hospitalar. Tais mudanças são de natureza permanente e visam prevenir a reocorrência da condição deficiente, alinhando-se com o conceito de recomendações cause-based, que focam em resolver a causa raiz para evitar repetição do problema. A justificativa também considera o critério de desempate (preferência por cause-based) ao enfatizar a prevenção em vez de correção temporária. Portanto, a análise está coerente com os pressupostos solicitados.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1578,
+    "completion_tokens": 217,
+    "total_tokens": 1795,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 234
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

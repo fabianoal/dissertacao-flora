@@ -1,0 +1,28 @@
+{
+  "id": "4f8c322f-1eb3-48a8-b506-b78ede42c73e",
+  "object": "chat.completion",
+  "created": 1759257493,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação propõe o desenvolvimento e implementação de um plano de gerenciamento de resíduos, incluindo ações, capacitação da equipe e protocolos específicos, o que se alinha com soluções de longo prazo para prevenir a recorrência da falta de controles adequados. A análise baseia-se exclusivamente no conteúdo da constatação (ausência de Plano de Gerenciamento de Resíduos) e da recomendação (desenvolver e implementar o plano com ações estruturadas), sem introduzir elementos externos. Os pressupostos solicitados foram considerados, aplicando a definição de recomendações cause-based como aquelas que evitam a recorrência por meio de ações duradouras, e condition-based como correções temporárias. A recomendação claramente visa criar uma estrutura permanente (o plano) para lidar com o manejo de resíduos, abordando a causa raiz (falta de um sistema formal) em vez de apenas corrigir a condição imediata, e o critério de desempate (preferir cause-based) não foi necessário, pois a classificação é consistente.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1614,
+    "completion_tokens": 282,
+    "total_tokens": 1896,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 270
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

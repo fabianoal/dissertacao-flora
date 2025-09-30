@@ -1,0 +1,28 @@
+{
+  "id": "6d4a5c5c-6828-4054-8a19-918b23fd4045",
+  "object": "chat.completion",
+  "created": 1759260789,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo baseia-se adequadamente no conteúdo da constatação e da recomendação, destacando que a recomendação visa um 'alinhamento estrutural e contínuo' para 'prevenir a recorrência da inconformidade', o que está alinhado com o conceito de cause-based (foco na causa raiz). A análise não introduz pressupostos externos e considera corretamente os critérios do IIA, priorizando cause-based como critério de desempate quando aplicável. Portanto, a justificativa leva logicamente à classificação alcançada.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1590,
+    "completion_tokens": 155,
+    "total_tokens": 1745,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 246
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

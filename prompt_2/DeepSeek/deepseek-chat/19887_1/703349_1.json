@@ -1,0 +1,28 @@
+{
+  "id": "4826cd64-b6ea-40d5-87f1-4c08d9fd3ab9",
+  "object": "chat.completion",
+  "created": 1759263249,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo baseia-se adequadamente no conteúdo da constatação e da recomendação, identificando que a recomendação exige o cumprimento de normas técnicas específicas e o exercício contínuo de fiscalização e controle, o que se alinha com ações preventivas e de longo prazo. Esses elementos são consistentes com a definição de recomendações cause-based, que focam em evitar a recorrência do problema através de mudanças estruturais. Além disso, a justificativa não introduz pressupostos externos, mantendo-se fiel aos dados fornecidos, e considera corretamente o critério de desempate ao optar por cause-based quando há elementos de ambas as categorias, mas com predominância de abordagem da causa raiz.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1810,
+    "completion_tokens": 192,
+    "total_tokens": 2002,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 402
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

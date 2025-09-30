@@ -1,0 +1,28 @@
+{
+  "id": "58246adf-1f75-4603-a0f4-ad57bf0f706d",
+  "object": "chat.completion",
+  "created": 1759256445,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo demonstra compreensão adequada da distinção entre recomendações cause-based e condition-based. Ela corretamente identifica que a recomendação estabelece um processo sistemático (pesquisa de mercado ou justificativa formal) que visa prevenir a recorrência da inconformidade, caracterizando uma abordagem de causa raiz. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem incorporar elementos externos. Os pressupostos solicitados pelo usuário pesquisador foram considerados corretamente, incluindo a nomenclatura do IIA e o critério de desempate que favorece a classificação cause-based quando aplicável.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1577,
+    "completion_tokens": 172,
+    "total_tokens": 1749,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 233
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

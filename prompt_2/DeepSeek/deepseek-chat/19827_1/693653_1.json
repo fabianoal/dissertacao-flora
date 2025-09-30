@@ -1,0 +1,28 @@
+{
+  "id": "f0edb385-2cbf-464b-b58d-0c1757b478c5",
+  "object": "chat.completion",
+  "created": 1759261037,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa analisada demonstra coerência com a classificação atribuída, pois identifica corretamente que a recomendação propõe a implementação de instrumentos de gestão (Plano de Saúde, Programação Anual de Saúde e Relatório Anual de Gestão) que estabelecem um processo cíclico e sistemático para planejamento, monitoramento e avaliação. Essa abordagem visa prevenir a recorrência da falta de informações para monitoramento da produção ambulatorial, caracterizando uma solução de longo prazo. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação fornecidas, sem incorporar elementos externos. Os pressupostos solicitados pelo usuário pesquisador foram considerados corretamente, incluindo a definição de recomendações cause-based como aquelas que propõem ações para evitar a recorrência do problema, envolvendo soluções de longo prazo, e a aplicação do critério de desempate em favor da tipologia cause-based quando pertinente. Portanto, a justificativa leva adequadamente à classificação alcançada.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1834,
+    "completion_tokens": 261,
+    "total_tokens": 2095,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 490
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

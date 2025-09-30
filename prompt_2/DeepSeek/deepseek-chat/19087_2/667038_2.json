@@ -1,0 +1,28 @@
+{
+  "id": "ffce20ec-439e-452d-a3b1-db0e0522a3b8",
+  "object": "chat.completion",
+  "created": 1759245241,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa afirma que a recomendação propõe 'regularização permanente' e 'solução de longo prazo' para evitar recorrência, mas ao analisar o conteúdo da recomendação, ela se limita a exigir o cumprimento imediato da legislação existente sobre o funcionamento permanente das comissões. A recomendação não propõe medidas adicionais para abordar as causas subjacentes da não conformidade (como falta de recursos, capacitação, processos internos deficientes), focando apenas na correção da condição atual de não funcionamento. A justificativa extrapola o conteúdo real da recomendação ao atribuir características de solução de longo prazo que não estão presentes no texto analisado.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1653,
+    "completion_tokens": 179,
+    "total_tokens": 1832,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 245
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

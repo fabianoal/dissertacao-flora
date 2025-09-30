@@ -1,0 +1,28 @@
+{
+  "id": "61f5b3b9-9885-458e-a92d-9a6e8a880c5b",
+  "object": "chat.completion",
+  "created": 1759257053,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa afirma que a recomendação propõe 'implementação de mudanças estruturais e de longo prazo' e 'abordando a causa raiz da irregularidade'. No entanto, ao analisar o conteúdo da recomendação, ela se limita a instruir a 'formalizar o processo de contratualização' e 'disponibilizar toda a documentação solicitada' conforme leis específicas, sem propor medidas que modifiquem processos ou implementem controles preventivos para evitar a reincidência. A recomendação é reativa e focada na correção da condição atual (ausência de documentos), não na causa subjacente que permitiu essa falha. A justificativa extrapola o conteúdo real da recomendação ao atribuir características de mudança estrutural que não estão presentes no texto. Além disso, a classificação como 'cause-based' contradiz o critério de desempate que deveria ser aplicado em caso de dúvida.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1625,
+    "completion_tokens": 227,
+    "total_tokens": 1852,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 281
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

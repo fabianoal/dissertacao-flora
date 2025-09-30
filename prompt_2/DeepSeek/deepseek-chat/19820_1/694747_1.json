@@ -1,0 +1,28 @@
+{
+  "id": "e8f17635-1cfa-4e6e-9030-26683ade8b65",
+  "object": "chat.completion",
+  "created": 1759260765,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo baseia-se adequadamente no conteúdo da constatação e da recomendação, identificando que a recomendação propõe a implementação de ações de educação permanente e continuada articuladas com instituições, o que visa prevenir a recorrência da falta de capacitação em saúde mental. Essa abordagem envolve mudanças estruturais e de longo prazo, como o desenvolvimento de programas educacionais e estratégias de divulgação, o que se alinha com a definição de recomendações cause-based, que focam em evitar a reincidência do problema. A justificativa não introduz elementos externos e considera corretamente os pressupostos solicitados, incluindo o critério de desempate que favorece a classificação cause-based quando há ambiguidade. Portanto, a classificação é consistente com a análise crítica realizada.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1788,
+    "completion_tokens": 208,
+    "total_tokens": 1996,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 444
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

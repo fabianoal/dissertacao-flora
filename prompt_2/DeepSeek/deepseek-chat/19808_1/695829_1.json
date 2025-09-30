@@ -1,0 +1,28 @@
+{
+  "id": "d71866cd-fc54-4b73-a00a-72a991fc8091",
+  "object": "chat.completion",
+  "created": 1759260117,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa afirma que a recomendação aborda a causa raiz da falta de desenvolvimento de PTSs ao propor medidas para viabilizar sua utilização com participação do paciente e estabelecer relações de vínculo, escuta, comunicação e responsabilização, promovendo mudanças estruturais e de longo prazo. No entanto, a recomendação em si é genérica ('Adotar medidas que viabilizem...') e não especifica ações concretas para modificar processos, políticas ou estruturas que levem à não elaboração de PTSs, focando mais na correção da condição observada (não desenvolvimento de PTSs) do que em eliminar suas causas subjacentes, como falta de capacitação, recursos ou diretrizes claras. A justificativa extrapola o conteúdo da recomendação ao inferir mudanças estruturais e de longo prazo, sem base explícita na recomendação fornecida, que se limita a viabilizar a utilização do PTS em casos específicos. Os pressupostos do usuário (classificação baseada em causa vs. condição, com critério de desempate para cause-based) não foram totalmente considerados, pois a recomendação parece mais alinhada com corrigir a condição imediata (uso do PTS) do que atacar causas profundas. Portanto, a justificativa não leva conclusivamente à classificação cause-baseada, baseando-se em suposições além do conteúdo da constatação e recomendação.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1672,
+    "completion_tokens": 347,
+    "total_tokens": 2019,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 328
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

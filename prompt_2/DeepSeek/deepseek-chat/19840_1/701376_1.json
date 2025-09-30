@@ -1,0 +1,28 @@
+{
+  "id": "53479ea0-ae93-4a38-8549-0fc57123ff84",
+  "object": "chat.completion",
+  "created": 1759261545,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa reconhece corretamente que a recomendação possui dois componentes distintos: um de restituição de recursos (condition-based) e outro de implementação de mecanismos de rastreabilidade (cause-based). No entanto, ao aplicar o critério de desempate que prioriza a classificação cause-based quando há elementos de ambos os tipos, a justificativa fundamenta adequadamente a decisão final. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, considerando os pressupostos solicitados, particularmente o foco na implementação de sistemas preventivos que abordam a causa raiz das inconsistências na produção inserida nos sistemas do SUS.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1838,
+    "completion_tokens": 167,
+    "total_tokens": 2005,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 494
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "1d80a4ee-9557-4f13-a151-2bb15ae34450",
+  "object": "chat.completion",
+  "created": 1759254845,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresenta argumentos consistentes que levam à classificação alcançada, ao destacar que a recomendação propõe uma ação contínua e sistemática (inventário físico anual) para prevenir a recorrência da não conformidade, o que se alinha com o conceito de recomendações cause-based como soluções de longo prazo. A análise baseia-se exclusivamente no conteúdo da constatação (ausência de inventários físicos) e da recomendação (implementação de inventário anual), sem incorrer em pressupostos externos. Os critérios do usuário, incluindo a definição do IIA e a regra de desempate, foram considerados corretamente, pois a recomendação visa estabelecer um processo permanente para evitar a repetição do problema, abordando a causa raiz da falha sistêmica.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1599,
+    "completion_tokens": 207,
+    "total_tokens": 1806,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 255
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

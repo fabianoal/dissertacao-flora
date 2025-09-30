@@ -1,0 +1,28 @@
+{
+  "id": "269be88e-3227-4dd3-adeb-907dfc46a169",
+  "object": "chat.completion",
+  "created": 1759252573,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação propõe um plano de capacitação para qualificar os fiscais, o que aborda a causa raiz da carência de subsídios (falta de capacitação) e visa prevenir a recorrência do problema com uma solução de longo prazo. A análise baseia-se exclusivamente no conteúdo da constatação (carência de subsídios) e da recomendação (implementar plano de capacitação), sem introduzir elementos externos. Os pressupostos solicitados foram considerados corretamente, incluindo a definição de cause-based (soluções de longo prazo para evitar recorrência) e o critério de desempate (optar por cause-based quando aplicável). Portanto, a justificativa leva logicamente à classificação alcançada.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1568,
+    "completion_tokens": 202,
+    "total_tokens": 1770,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 224
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

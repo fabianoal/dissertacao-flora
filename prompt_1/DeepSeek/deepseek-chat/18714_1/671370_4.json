@@ -1,0 +1,28 @@
+{
+  "id": "8ae14191-aa28-4b86-816a-0fdad00e95f7",
+  "object": "chat.completion",
+  "created": 1759242704,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"condition-based\",\n    \"justificativa\": \"A recomendação foca especificamente na correção da condição atual encontrada na auditoria, que é a utilização indevida de recursos federais de natureza corrente para despesas de capital. Ela prescreve a devolução dos valores aos fundos municipais de saúde conforme especificado, o que constitui uma medida corretiva direta para sanar a irregularidade identificada, sem propor ações para evitar a recorrência do problema no futuro.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1212,
+    "completion_tokens": 121,
+    "total_tokens": 1333,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 252
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

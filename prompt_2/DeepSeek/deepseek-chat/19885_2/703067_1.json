@@ -1,0 +1,28 @@
+{
+  "id": "c6473188-d409-4fd3-86d3-8e0eafb48ed0",
+  "object": "chat.completion",
+  "created": 1759263197,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa afirma que a recomendação propõe um processo sistemático de registro e avaliação de diretrizes para abordar a causa raiz da não realização da terapia adjuvante dentro do prazo, promovendo mudanças estruturais de longo prazo. No entanto, a recomendação em si se concentra especificamente no registro detalhado da história clínica e na referência a manuais e protocolos existentes, sem propor ações que modifiquem processos, políticas ou sistemas para prevenir a recorrência do problema. A constatação identifica que a terapia adjuvante não é realizada dentro do prazo de 60 dias, mas a recomendação não aborda diretamente as causas subjacentes (como falhas no agendamento, capacitação da equipe ou recursos), limitando-se a melhorar a documentação. A justificativa extrapola o conteúdo da recomendação ao inferir que ela promove mudanças estruturais, quando na realidade a ação sugerida é mais corretiva (condition-based), focada em corrigir a condição atual de falta de registro e alinhamento com diretrizes, sem evidenciar uma abordagem de causa raiz. Além disso, a justificativa não se baseia exclusivamente no conteúdo da constatação e recomendação, introduzindo pressupostos não explícitos sobre mudanças de longo prazo. O critério de desempate (optar por cause-based) não se aplica adequadamente aqui, pois a recomendação não demonstra predominância em abordar a causa raiz.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1863,
+    "completion_tokens": 357,
+    "total_tokens": 2220,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 519
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "1df5bca9-288b-487d-963f-aef155cf3acc",
+  "object": "chat.completion",
+  "created": 1759248417,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na correção imediata da condição específica de recebimento inadequado de medicamentos, exigindo que um servidor designado realize o aceite conforme a legislação. Ela se baseia exclusivamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos, e considera adequadamente os pressupostos solicitados, incluindo a definição de recomendações condition-based como medidas para corrigir a condição atual. A justificativa também observa corretamente a ausência de ações preventivas ou de longo prazo, o que reforça a classificação como condition-based, sem violar o critério de desempate (que não se aplica aqui, pois não há ambiguidade).\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1611,
+    "completion_tokens": 194,
+    "total_tokens": 1805,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 267
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

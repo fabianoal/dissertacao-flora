@@ -1,0 +1,28 @@
+{
+  "id": "8745b7e5-5e6a-4f06-a360-d26c894e7364",
+  "object": "chat.completion",
+  "created": 1759262441,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresenta uma análise coerente ao destacar que a recomendação visa o cumprimento de um compromisso de revisão ou elaboração do regimento interno, interpretando isso como a implementação de um processo ou política para prevenir a não conformidade futura. No entanto, a justificativa extrapola o conteúdo explícito da constatação e da recomendação, pois estas se limitam a exigir o cumprimento de um item específico do Plano de Ação (revisão/elaboração do regimento interno do Hospital Regional de Arraias), sem mencionar a criação de processos, políticas ou medidas de prevenção de longo prazo. A recomendação é direcionada a corrigir a condição atual de falta de comprovação da revisão, focando em uma ação pontual para atender ao compromisso assumido, o que se alinha mais com uma abordagem condition-based. Além disso, a justificativa não considerou adequadamente o critério de desempate (optar por cause-based em caso de dúvida), pois a recomendação é claramente focada na condição imediata, não na causa raiz subjacente.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1572,
+    "completion_tokens": 275,
+    "total_tokens": 1847,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 164
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "e3c417ba-912e-4613-b4ef-814dd055b7dc",
+  "object": "chat.completion",
+  "created": 1759257777,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação propõe a implementação de inventários periódicos e indicadores para monitoramento contínuo e gerenciamento de riscos, visando prevenir a recorrência da falta de controles. Esta análise baseia-se exclusivamente no conteúdo da constatação (falta de gerenciamento de riscos e indicadores) e da recomendação (implementação de inventários e indicadores). Os pressupostos solicitados foram considerados corretamente, pois a recomendação estabelece medidas estruturais de longo prazo (inventários periódicos e indicadores de monitoramento contínuo) que visam abordar as causas subjacentes da falta de controles, em vez de apenas corrigir condições específicas observadas. A classificação como 'cause-based' está alinhada com a definição do IIA de recomendações que propõem ações para evitar que a condição volte a ocorrer.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1690,
+    "completion_tokens": 228,
+    "total_tokens": 1918,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 346
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

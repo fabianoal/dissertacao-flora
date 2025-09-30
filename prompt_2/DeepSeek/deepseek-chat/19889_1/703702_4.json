@@ -1,0 +1,28 @@
+{
+  "id": "f4b8101e-5ab0-4fb4-800c-923af16f4370",
+  "object": "chat.completion",
+  "created": 1759263317,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa afirma que a recomendação enfatiza o cumprimento de requisitos regulatórios para garantir compatibilidade entre procedimentos e diagnósticos, abordando a causa subjacente ao estabelecer ações de supervisão e avaliação contínuas para prevenir recorrência. No entanto, a recomendação em si é genérica, citando apenas o cumprimento de incisos de portaria que tratam de ações de regulação, supervisão e avaliação da produção assistencial, sem propor medidas específicas para evitar a incompatibilidade entre AIHs pagas e atributos do CID principal (como revisão de processos de codificação, capacitação de profissionais, ou implementação de verificações sistemáticas). A justificativa extrapola o conteúdo da recomendação ao inferir que ela estabelece ações contínuas de supervisão e avaliação para prevenir recorrência, quando a recomendação se limita a citar normas existentes. Além disso, a recomendação parece focar na correção da condição atual (incompatibilidade identificada) ao exigir cumprimento normativo, sem evidenciar abordagem de causa raiz (ex.: falhas em processos de registro ou validação). Considerando que o critério de desempate é optar por 'cause-based' e a justificativa não se baseia exclusivamente no conteúdo da constatação e recomendação, há divergência.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1660,
+    "completion_tokens": 323,
+    "total_tokens": 1983,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 252
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

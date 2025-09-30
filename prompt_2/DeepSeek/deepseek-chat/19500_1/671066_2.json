@@ -1,0 +1,28 @@
+{
+  "id": "3d6e86d6-a590-43b7-9125-73ab99c972e6",
+  "object": "chat.completion",
+  "created": 1759247677,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na correção imediata da condição atual (falta de apresentação dos documentos), sem propor ações preventivas para evitar a recorrência do problema. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir pressupostos externos. Considerando que a recomendação visa apenas remediar a situação presente (apresentar documentos já solicitados) e não aborda causas subjacentes como falhas em processos de documentação ou treinamento de pessoal, a classificação como 'condition-based' está alinhada com os critérios do IIA e com a instrução de desempate (que não se aplica aqui, pois não há ambiguidade).\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1632,
+    "completion_tokens": 189,
+    "total_tokens": 1821,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 224
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "49dda627-ab6c-4786-9028-f093764573f5",
+  "object": "chat.completion",
+  "created": 1759242720,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação visa assegurar que os veículos sejam utilizados de acordo com a finalidade proposta, abordando a causa subjacente do uso inadequado ao exigir conformidade contínua com a normativa, o que pode prevenir a reincidência do problema e promover mudanças estruturais na gestão dos recursos.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1078,
+    "completion_tokens": 88,
+    "total_tokens": 1166,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 118
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

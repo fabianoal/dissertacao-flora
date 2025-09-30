@@ -1,0 +1,28 @@
+{
+  "id": "ae1b08d7-a881-4477-aabd-f0f2c55c4486",
+  "object": "chat.completion",
+  "created": 1759257593,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação propõe a criação e manutenção de procedimentos operacionais padronizados por escrito, o que estabelece controles internos duradouros para prevenir a recorrência da falta de documentação. Esta análise baseia-se exclusivamente no conteúdo da constatação (ausência de Procedimentos Operacionais Padrão) e da recomendação (manter registro por escrito dos procedimentos), sem introduzir elementos externos. Os pressupostos solicitados foram considerados adequadamente, incluindo a distinção entre recomendações que abordam causas raiz (soluções de longo prazo) versus condições (correções temporárias), e o critério de desempate foi aplicado corretamente quando necessário. A justificativa demonstra claramente como a recomendação visa resolver a causa subjacente (falta de documentação padronizada) em vez de apenas corrigir a condição imediata.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1599,
+    "completion_tokens": 231,
+    "total_tokens": 1830,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 255
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

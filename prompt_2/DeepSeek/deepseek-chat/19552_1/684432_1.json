@@ -1,0 +1,28 @@
+{
+  "id": "c5de3849-5348-4a5b-8a05-1c6e9a8c2316",
+  "object": "chat.completion",
+  "created": 1759248997,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa afirma que a recomendação propõe ações estruturais e de longo prazo para prevenir a recorrência da não conformidade. No entanto, ao analisar o conteúdo específico da recomendação, verifica-se que ela se concentra principalmente na correção imediata das condições identificadas: incluir nutricionista (para suprir uma lacuna atual), realizar exames periodicamente (para cumprir exigências), manter registros adequados e garantir assinaturas (para regularizar documentação). Embora algumas ações possam ter efeitos duradouros, o foco predominante é corrigir as condições específicas de não conformidade com a política, sem evidenciar claramente uma abordagem das causas raiz (como falhas sistêmicas de gestão ou capacitação). A justificativa extrapola o conteúdo ao caracterizar todas as ações como estruturais e preventivas, quando na verdade são majoritariamente corretivas das condições observadas. Considerando o critério de desempate (optar por cause-based), a análise não sustenta adequadamente essa classificação, pois as ações descritas são mais alinhadas com a correção da condição atual do que com a eliminação de causas profundas.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1870,
+    "completion_tokens": 285,
+    "total_tokens": 2155,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 526
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

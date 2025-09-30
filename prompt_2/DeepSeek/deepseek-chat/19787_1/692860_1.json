@@ -1,0 +1,28 @@
+{
+  "id": "053ffa95-bc55-4260-921b-904fb8967565",
+  "object": "chat.completion",
+  "created": 1759259409,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo está corretamente fundamentada no conteúdo da constatação e da recomendação. A constatação identifica a ausência de um Plano de Gerenciamento de Resíduos, e a recomendação propõe a elaboração desse plano, que é uma medida estrutural e de longo prazo, conforme explicitado na justificativa. Isso se alinha com a definição de recomendação cause-based, que visa prevenir a reincidência do problema, em contraste com uma medida temporária de correção da condição imediata. Os pressupostos solicitados pelo usuário foram considerados, incluindo a priorização de cause-based em caso de dúvida. Portanto, a justificativa leva adequadamente à classificação alcançada.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1598,
+    "completion_tokens": 192,
+    "total_tokens": 1790,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 190
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

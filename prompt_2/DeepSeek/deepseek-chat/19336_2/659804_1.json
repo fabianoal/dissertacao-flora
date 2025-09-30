@@ -1,0 +1,28 @@
+{
+  "id": "ef5fe90d-a191-4d7a-a1d7-380bea383787",
+  "object": "chat.completion",
+  "created": 1759246129,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na correção da condição imediata (ausência do formulário no prontuário), exigindo conformidade com procedimentos estabelecidos. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem incorporar pressupostos externos. Considerando que a recomendação trata especificamente do cumprimento de requisitos normativos para preenchimento e arquivamento do formulário - uma ação corretiva direta para a condição observada - e que não há elementos na recomendação que abordem causas subjacentes ou medidas preventivas de longo prazo, a classificação como 'condition-based' está alinhada com os critérios estabelecidos.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1597,
+    "completion_tokens": 185,
+    "total_tokens": 1782,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 253
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

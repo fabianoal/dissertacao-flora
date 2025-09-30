@@ -1,0 +1,28 @@
+{
+  "id": "9870e690-424a-47b1-9585-a1eda2ecfc2a",
+  "object": "chat.completion",
+  "created": 1759257317,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa aponta corretamente que a recomendação propõe uma ação estrutural (cadastro no CNES) para prevenir a reocorrência da condição (ausência de registro), baseando-se exclusivamente no conteúdo da constatação e da recomendação. A classificação como cause-based está alinhada com a definição do IIA, que envolve soluções de longo prazo para evitar problemas futuros, e o critério de desempate foi aplicado adequadamente, optando por cause-based quando há ambiguidade. Não foram identificados pressupostos incorretos ou desvios nos critérios solicitados.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1615,
+    "completion_tokens": 159,
+    "total_tokens": 1774,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 271
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

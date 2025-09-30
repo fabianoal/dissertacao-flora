@@ -1,0 +1,28 @@
+{
+  "id": "770d9688-91ce-44fc-990e-9cdd5d9e8175",
+  "object": "chat.completion",
+  "created": 1759244977,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na correção da condição específica encontrada (despesa liquidada sem comprovação) através da devolução do valor pago indevidamente. A análise se baseia exclusivamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos. A recomendação não propõe medidas preventivas ou mudanças estruturais que abordariam as causas subjacentes do problema, como falhas nos processos de controle ou verificação prévia à liquidação. Considerando que o critério de desempate favorece classificações cause-based apenas quando há ambiguidade, e que aqui a recomendação é claramente focada na correção da condição atual, a classificação como condition-based está adequada.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1698,
+    "completion_tokens": 192,
+    "total_tokens": 1890,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 290
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

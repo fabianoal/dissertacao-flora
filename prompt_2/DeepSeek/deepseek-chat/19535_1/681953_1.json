@@ -1,0 +1,28 @@
+{
+  "id": "eb1f4c6a-5feb-49e3-a8f8-521f8557c290",
+  "object": "chat.completion",
+  "created": 1759248513,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na correção imediata da condição específica encontrada (ausência de documentação de estoque), exigindo sua apresentação conforme normas vigentes. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos. Os pressupostos solicitados foram considerados, incluindo a definição de recomendações condition-based como medidas para corrigir a condição atual e a instrução de, em caso de empate, optar por cause-based, o que não se aplica aqui, pois a recomendação claramente não aborda a causa raiz da não apresentação documental, focando apenas na correção da condição imediata.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1559,
+    "completion_tokens": 186,
+    "total_tokens": 1745,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 215
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

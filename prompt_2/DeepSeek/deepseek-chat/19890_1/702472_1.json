@@ -1,0 +1,28 @@
+{
+  "id": "8d8e2d76-759a-4775-9095-1773edcc97d5",
+  "object": "chat.completion",
+  "created": 1759263445,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo baseia-se adequadamente no conteúdo da constatação e da recomendação, sem extrapolar para informações externas. A constatação identifica uma não conformidade específica (internação para quimioterapia com tempo superior a 6 dias), enquanto a recomendação propõe ações como intensificar o controle interno e cumprir orientações técnicas do manual, que visam modificar processos e práticas de gestão para evitar recorrências. Essas ações estão alinhadas com o conceito de recomendações cause-based, pois buscam tratar a causa raiz (falhas nos controles e desconformidade com diretrizes) em vez de apenas corrigir a condição imediata (excesso de dias de internação). O critério de desempate (preferência por cause-based) foi aplicado corretamente, já que a recomendação tem foco predominante na prevenção. Portanto, a justificativa conduz logicamente à classificação alcançada.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2017,
+    "completion_tokens": 240,
+    "total_tokens": 2257,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 673
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

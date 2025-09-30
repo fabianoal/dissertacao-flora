@@ -1,0 +1,28 @@
+{
+  "id": "d98d1443-343a-41b2-8039-e4f077efa5d4",
+  "object": "chat.completion",
+  "created": 1759259857,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo baseia-se adequadamente no conteúdo da recomendação, que propõe ações como monitoramento contínuo e elaboração de documento de gerenciamento de risco, caracterizando medidas preventivas e de longo prazo. Essas ações visam evitar a reocorrência da falha identificada na constatação (ausência de monitoramento contínuo), alinhando-se com a definição de recomendações cause-based. A análise considerou exclusivamente o conteúdo da constatação e recomendação, sem extrapolações indevidas, e aplicou corretamente os pressupostos solicitados, incluindo o critério de desempate para cause-based quando aplicável. Portanto, a classificação é consistente com a fundamentação fornecida.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1699,
+    "completion_tokens": 191,
+    "total_tokens": 1890,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 355
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

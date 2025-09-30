@@ -1,0 +1,28 @@
+{
+  "id": "eeec16f3-4ead-4a41-9842-e31fc1842fa2",
+  "object": "chat.completion",
+  "created": 1759254245,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo baseia-se adequadamente no conteúdo da recomendação, que inclui a nomeação de área responsável pela adoção de controles internos para acompanhamento, controle da execução e validação das etapas do processo de gestão de OPME, além do estabelecimento de processos sistemáticos para registro e conferência. Essas ações visam criar estruturas permanentes que previnam a recorrência da falha de registro, alinhando-se ao conceito de recomendações cause-based, que buscam abordar a causa raiz do problema. A justificativa não extrapola o conteúdo da constatação e da recomendação, mantendo-se fiel aos elementos fornecidos. Os pressupostos solicitados, como a definição de cause-based para ações de longo prazo e preventivas, foram considerados corretamente, e o critério de desempate (optar por cause-based) não foi necessário, pois a recomendação claramente se enquadra nessa categoria.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1837,
+    "completion_tokens": 243,
+    "total_tokens": 2080,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 493
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "1d77fc89-a092-456e-879c-5941fa7972f1",
+  "object": "chat.completion",
+  "created": 1759245029,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação propõe a implementação de controles e registros permanentes, bem como mecanismos de controle, visando prevenir a reocorrência do problema. Esta análise se baseia exclusivamente no conteúdo da constatação (pagamento sem comprovação de ingresso de materiais) e da recomendação (controle e registro de entrada/saída, mecanismos de controle). A justificativa considera adequadamente os pressupostos solicitados, incluindo o critério de desempate (optar por cause-based quando houver dúvida), uma vez que a recomendação claramente visa estabelecer processos duradouros para evitar que o problema se repita, caracterizando uma solução de longo prazo conforme a definição de recomendações cause-based.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1591,
+    "completion_tokens": 197,
+    "total_tokens": 1788,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 183
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

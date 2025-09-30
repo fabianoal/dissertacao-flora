@@ -1,0 +1,28 @@
+{
+  "id": "8f629557-c895-4a08-b77a-1fb0a1528766",
+  "object": "chat.completion",
+  "created": 1759256877,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo baseia-se adequadamente no conteúdo da constatação e da recomendação, destacando que a recomendação propõe o cumprimento rigoroso de diretrizes éticas e normativas (Parecer CREMEC Nº 7/2017, Código de Ética Médica, normativos do SUS) como medidas preventivas e duradouras. Isso está alinhado com a definição de recomendações cause-based, que focam em evitar a recorrência do problema (prontuários em branco) através de soluções de longo prazo, como a implementação de conformidade contínua. A justificativa não introduz elementos externos e considera corretamente os pressupostos solicitados, incluindo o critério de desempate (preferência por cause-based). Portanto, a classificação é coerente com a análise crítica dos pontos solicitados.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1833,
+    "completion_tokens": 222,
+    "total_tokens": 2055,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 489
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "16f24625-8bb2-4728-a06b-226723fe25d0",
+  "object": "chat.completion",
+  "created": 1759246217,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresenta coerência ao destacar que a recomendação se concentra na correção imediata da condição identificada (devolução dos recursos recebidos indevidamente) e não propõe ações preventivas para evitar a reincidência do problema. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir pressupostos externos. Os critérios do IIA foram aplicados corretamente, considerando que a recomendação é focada na condição (restituição do valor) e não na causa raiz (como implementar controles para evitar inserções irregulares futuras). O critério de desempate não foi necessário, pois a classificação como condition-based é clara.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2023,
+    "completion_tokens": 186,
+    "total_tokens": 2209,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 615
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

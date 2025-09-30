@@ -1,0 +1,28 @@
+{
+  "id": "7fc7b1cd-d001-4230-b812-01ed7f8db9da",
+  "object": "chat.completion",
+  "created": 1759252449,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na correção da condição atual (ausência de laudo técnico e pagamentos indevidos), exigindo ações imediatas como apresentação do laudo ou ressarcimento de valores. Ela se baseia exclusivamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos. Os pressupostos solicitados foram considerados, incluindo a definição de recomendações condition-based como medidas para corrigir a condição atual e a instrução de usar cause-based como critério de desempate apenas quando necessário. Como a recomendação não propõe ações preventivas ou de longo prazo para evitar a recorrência (ex: implementação de políticas de controle), a classificação como condition-based está alinhada com a análise.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1745,
+    "completion_tokens": 201,
+    "total_tokens": 1946,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 401
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

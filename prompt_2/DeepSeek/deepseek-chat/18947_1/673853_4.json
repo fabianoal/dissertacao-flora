@@ -1,0 +1,28 @@
+{
+  "id": "c62054d9-4916-4295-9e5b-148ce897ab62",
+  "object": "chat.completion",
+  "created": 1759245093,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na devolução dos recursos indevidamente liquidados, o que constitui uma correção direta da condição observada (despesas liquidadas sem comprovação). A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos. Além disso, a justificativa considera os pressupostos solicitados, destacando a ausência de ações preventivas para evitar a recorrência, o que caracteriza uma recomendação com foco na condição. Como a recomendação não aborda a causa raiz (como a falta de controles para comprovação de serviços) e se limita à correção imediata, a classificação como condition-based está adequada.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1631,
+    "completion_tokens": 194,
+    "total_tokens": 1825,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 223
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

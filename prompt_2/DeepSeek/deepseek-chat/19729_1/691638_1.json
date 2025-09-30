@@ -1,0 +1,28 @@
+{
+  "id": "93c846dd-a525-40dd-85c1-17fe7677ef13",
+  "object": "chat.completion",
+  "created": 1759257249,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa afirma que a recomendação propõe a manutenção contínua do quantitativo mínimo de profissionais para prevenir a insuficiência futura, caracterizando-a como solução de longo prazo. No entanto, a recomendação em si apenas determina 'manter o quantitativo mínimo' conforme a legislação, sem especificar ações proativas como revisão de processos de contratação, políticas de retenção ou monitoramento contínuo que abordariam as causas subjacentes da insuficiência. Ela se concentra na correção imediata da condição atual (quantidade insuficiente) para atender aos requisitos legais, sem evidências claras de que visa prevenir recorrências de forma sustentável. A justificativa extrapola o conteúdo da recomendação ao inferir prevenção de longo prazo, quando a recomendação é essencialmente reativa e condição-based, focada em conformidade normativa. Além disso, o critério de desempate (optar por cause-based) não se aplica adequadamente aqui, pois a recomendação não demonstra predominância em abordar causas raiz.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1809,
+    "completion_tokens": 271,
+    "total_tokens": 2080,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 465
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

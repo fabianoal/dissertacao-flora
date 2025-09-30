@@ -1,0 +1,28 @@
+{
+  "id": "560ef8f2-da02-41cc-9dc5-872a32605e43",
+  "object": "chat.completion",
+  "created": 1759252533,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação possui dois componentes: um voltado para correção imediata da documentação (condição) e outro para estabelecimento de critérios futuros (causa). No entanto, ao aplicar o critério de desempate que prioriza a classificação 'cause-based' quando há elementos de ambos os tipos, a justificativa fundamenta adequadamente a classificação final como 'cause-based', pois o estabelecimento de critérios para futuras contratações constitui uma ação preventiva que visa evitar a recorrência do problema. A análise baseia-se exclusivamente no conteúdo da constatação e recomendação, e os pressupostos solicitados foram considerados corretamente.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1601,
+    "completion_tokens": 181,
+    "total_tokens": 1782,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 193
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

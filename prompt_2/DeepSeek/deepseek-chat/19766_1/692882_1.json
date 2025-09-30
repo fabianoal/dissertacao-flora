@@ -1,0 +1,28 @@
+{
+  "id": "e5d673c0-dd76-4744-bcee-c9cf04fe7ddd",
+  "object": "chat.completion",
+  "created": 1759258525,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresenta argumentos coerentes com a classificação atribuída, ao destacar que a recomendação propõe medidas preventivas (estabelecer procedimentos para cumprimento de requisitos legais) que visam evitar a reocorrência da inconformidade, abordando causas subjacentes como falta de documentação e controle inadequado. A análise baseia-se exclusivamente no conteúdo da constatação (ausência de comprovação documental) e da recomendação (implementação de medidas estruturais), sem incorrer em pressupostos externos. Os critérios do usuário foram respeitados, incluindo a preferência por 'cause-based' em caso de dúvida, uma vez que a recomendação foca em mudanças sistêmicas (conformidade legal e fortalecimento de setores de controle) para resolver problemas de base, e não apenas na correção pontual da condição observada.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1787,
+    "completion_tokens": 223,
+    "total_tokens": 2010,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 443
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

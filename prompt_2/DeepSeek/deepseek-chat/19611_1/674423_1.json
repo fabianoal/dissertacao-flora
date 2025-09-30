@@ -1,0 +1,28 @@
+{
+  "id": "15c3ea9f-deb6-4cfc-b686-cade443e2861",
+  "object": "chat.completion",
+  "created": 1759252853,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação busca a correção imediata da condição encontrada (impropriedades no processo de cotação) por meio da apresentação de dados e do eventual ressarcimento, sem propor ações preventivas de longo prazo para evitar a recorrência. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir pressupostos externos, e considera adequadamente os critérios do IIA, onde recomendações condition-based focam na correção da condição atual, enquanto cause-based abordariam a causa raiz para prevenir repetição. O critério de desempate (preferência por cause-based) não foi acionado, pois a recomendação claramente não propõe medidas de longo prazo.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1568,
+    "completion_tokens": 196,
+    "total_tokens": 1764,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 160
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

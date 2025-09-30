@@ -1,0 +1,28 @@
+{
+  "id": "e50958b9-ee96-41c8-986f-10f51b41e055",
+  "object": "chat.completion",
+  "created": 1759261997,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo baseia-se adequadamente no conteúdo da constatação e da recomendação, sem extrapolar informações externas. A constatação aponta inconsistências nos processos administrativos de TFD em relação à legislação vigente, e a recomendação propõe a inclusão de etapas estruturadas (solicitação médica, autorização por comissão, critérios para pagamento de acompanhante) que visam alinhar os processos com a legislação. Essas medidas são preventivas e buscam evitar a recorrência das inconsistências, caracterizando uma abordagem de causa raiz, conforme a definição de recomendações cause-based do IIA. O modelo considerou corretamente os pressupostos solicitados, incluindo o critério de desempate para cause-based, e a justificativa é coerente com a classificação atribuída.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1760,
+    "completion_tokens": 217,
+    "total_tokens": 1977,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 416
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

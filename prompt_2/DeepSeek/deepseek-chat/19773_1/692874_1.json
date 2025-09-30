@@ -1,0 +1,28 @@
+{
+  "id": "2016cfad-f559-4b11-90cd-16b6ba98d3dc",
+  "object": "chat.completion",
+  "created": 1759258733,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo baseia-se adequadamente no conteúdo da constatação e da recomendação, destacando que a implementação do 'Mapa Ilustrativo' constitui um controle permanente para assegurar a identificação do conteúdo nas câmaras frias, com o objetivo de prevenir futuras ocorrências de falta de controle e melhorar a gestão da Cadeia de Frio a longo prazo. Isso está alinhado com a definição de recomendações cause-based, que focam em ações para evitar a reincidência do problema, diferentemente das condition-based, que seriam medidas temporárias para corrigir a condição imediata. A justificativa não extrapola os elementos fornecidos (finalidade, constatação e recomendação) e respeita os pressupostos solicitados, incluindo o critério de desempate que favorece a classificação cause-based quando aplicável. Portanto, a classificação é consistente com a análise crítica realizada.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1602,
+    "completion_tokens": 238,
+    "total_tokens": 1840,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 258
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

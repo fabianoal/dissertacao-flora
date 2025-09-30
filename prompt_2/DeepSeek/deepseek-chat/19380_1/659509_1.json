@@ -1,0 +1,28 @@
+{
+  "id": "92e78b25-1685-4c23-8da6-dee199a70d81",
+  "object": "chat.completion",
+  "created": 1759246257,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresenta uma análise coerente com a classificação atribuída. Ela corretamente identifica que a recomendação se concentra na devolução dos recursos recebidos indevidamente, o que constitui uma medida corretiva para a condição específica identificada (recebimento irregular de recursos). A justificativa se baseia exclusivamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos. Os pressupostos solicitados foram considerados adequadamente, incluindo a distinção entre correção da condição atual (devolução dos valores) e prevenção de ocorrências futuras (que não foi abordada na recomendação). A aplicação do critério de desempate não foi necessária, pois a recomendação claramente se enquadra na categoria condition-based.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2290,
+    "completion_tokens": 199,
+    "total_tokens": 2489,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 2290
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

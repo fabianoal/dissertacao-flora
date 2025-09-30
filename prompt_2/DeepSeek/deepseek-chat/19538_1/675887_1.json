@@ -1,0 +1,28 @@
+{
+  "id": "4c5279b8-8185-4278-be06-62e08d54439a",
+  "object": "chat.completion",
+  "created": 1759248617,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa afirma que a recomendação sugere um 'processo contínuo' e uma 'solução de longo prazo', mas a recomendação em si ('Preencher adequadamente os prontuários...') é uma ação direta para corrigir a condição imediata de prontuários não preenchidos corretamente, sem mencionar mudanças sistêmicas, políticas ou procedimentos que abordem a causa raiz (como falta de treinamento, supervisão ou recursos). A justificativa extrapola o conteúdo da recomendação ao inferir um processo contínuo, quando a recomendação se limita a corrigir a condição observada. Os pressupostos do usuário (basear-se apenas no conteúdo da constatação e recomendação, e usar 'cause-based' como critério de desempate) não foram totalmente respeitados, pois a justificativa introduz elementos não presentes na recomendação.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1530,
+    "completion_tokens": 224,
+    "total_tokens": 1754,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 186
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

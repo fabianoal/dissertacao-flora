@@ -1,0 +1,28 @@
+{
+  "id": "ec141190-0712-44e5-8cae-987384b90253",
+  "object": "chat.completion",
+  "created": 1759253509,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa aponta corretamente que a recomendação se concentra na correção imediata da condição identificada (falta de documentação comprobatória), exigindo a inserção de documentos no sistema Transferegov, sem abordar ações preventivas para evitar a recorrência, como melhorias em processos de controle ou treinamento. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir pressupostos externos, e considera adequadamente os critérios do IIA, onde recomendações condition-based corrigem a condição atual, enquanto cause-based visam evitar repetição. Como a recomendação trata da documentação faltante específica, sem propor mudanças sistêmicas, a classificação como condition-based está alinhada com a justificativa e os pressupostos solicitados.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1586,
+    "completion_tokens": 206,
+    "total_tokens": 1792,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 242
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

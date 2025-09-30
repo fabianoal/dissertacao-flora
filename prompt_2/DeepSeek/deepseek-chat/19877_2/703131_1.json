@@ -1,0 +1,28 @@
+{
+  "id": "5d72b4f9-3dd2-4e76-bf73-d8a736ff3e09",
+  "object": "chat.completion",
+  "created": 1759262945,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa afirma que a recomendação propõe a implementação de um processo sistêmico para garantir a continuidade integrada e tempestiva do tratamento oncológico, visando prevenir a recorrência da não conformidade. No entanto, ao analisar o conteúdo da recomendação, ela se concentra em garantir a conformidade com prazos específicos (30 a 60 dias) e vinculação documental (APAC à AIH) para um caso concreto de tratamento, sem propor mudanças estruturais ou de processo que abordem as causas subjacentes da falha, como capacitação, revisão de fluxos ou políticas de monitoramento. A justificativa extrapola o conteúdo real da recomendação, que é mais corretiva e focada na condição atual do que preventiva e baseada na causa raiz. Além disso, a justificativa não se baseia exclusivamente no conteúdo da constatação e recomendação, introduzindo ideias de 'processo sistêmico' não presentes no texto. Os pressupostos do usuário, como o critério de desempate para cause-based, não foram aplicados corretamente, pois a recomendação é claramente condition-based, focada na correção imediata da condição observada.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1672,
+    "completion_tokens": 293,
+    "total_tokens": 1965,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 264
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

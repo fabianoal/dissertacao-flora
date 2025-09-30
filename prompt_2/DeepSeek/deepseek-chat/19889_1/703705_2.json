@@ -1,0 +1,28 @@
+{
+  "id": "1411a120-5e0f-491d-baf5-31c4f5d419e4",
+  "object": "chat.completion",
+  "created": 1759263341,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir pressupostos externos. A constatação aponta a não realização da reconstrução mamária no mesmo ato anestésico, e a recomendação exige o cumprimento de dispositivos legais específicos. A justificativa corretamente identifica que a recomendação visa corrigir a condição imediata de inconformidade, sem propor ações preventivas ou de longo prazo para evitar recorrência, alinhando-se à definição de 'condition-based'. Os critérios do usuário, incluindo a preferência por 'cause-based' em caso de empate, foram respeitados, pois não há ambiguidade que justifique a aplicação do critério de desempate.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1641,
+    "completion_tokens": 202,
+    "total_tokens": 1843,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 233
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

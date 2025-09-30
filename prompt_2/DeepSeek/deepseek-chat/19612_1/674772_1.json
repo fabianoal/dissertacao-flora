@@ -1,0 +1,28 @@
+{
+  "id": "894f7ece-5ef0-42c8-8ebe-48e97ba52de8",
+  "object": "chat.completion",
+  "created": 1759253001,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na correção imediata da condição específica encontrada (ausência de comprovação do trabalho de uma empresa específica), exigindo a inserção de documentação no sistema Transferegov para regularizar a situação atual. A análise se baseia exclusivamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos. Os pressupostos solicitados foram considerados corretamente, incluindo a definição de recomendações condition-based como medidas para corrigir a condição atual e a instrução de usar cause-based como critério de desempate (não aplicável aqui, pois a classificação como condition-based é clara). A recomendação não propõe ações para modificar processos, políticas ou estruturas que evitem a recorrência da ausência de critérios de contratação, focando apenas na regularização documental de um caso específico.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1642,
+    "completion_tokens": 230,
+    "total_tokens": 1872,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 234
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

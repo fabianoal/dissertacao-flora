@@ -1,0 +1,28 @@
+{
+  "id": "8f7ec3f7-255b-4a2b-8079-05a367f1e0f8",
+  "object": "chat.completion",
+  "created": 1759260021,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação propõe a elaboração de um plano de ação como uma medida estrutural e de longo prazo, alinhando-se com a definição de recomendações cause-based que visam evitar a recorrência da condição observada. A análise baseia-se exclusivamente no conteúdo da constatação (ausência do plano) e da recomendação (elaborar o plano), sem introduzir elementos externos. Os pressupostos solicitados foram considerados, incluindo o critério de desempate que favorece a classificação cause-based quando aplicável, o que é o caso aqui, pois a criação do plano aborda a causa raiz da ausência documental.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1548,
+    "completion_tokens": 178,
+    "total_tokens": 1726,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 204
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

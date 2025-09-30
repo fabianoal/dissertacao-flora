@@ -1,0 +1,28 @@
+{
+  "id": "58f05dca-f9b3-4645-a38c-8ba65556d045",
+  "object": "chat.completion",
+  "created": 1759259601,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo baseia-se adequadamente no conteúdo da constatação e da recomendação, identificando corretamente que a implementação de um sistema informatizado e a fiscalização contínua constituem medidas que visam prevenir a recorrência do problema (inexistência de controle de frequência), caracterizando uma solução de longo prazo. A análise considera que essas ações abordam a causa raiz (falta de mecanismos adequados de controle) e promovem melhorias estruturais, alinhando-se com a definição de recomendações cause-based do IIA. Os pressupostos solicitados pelo usuário foram respeitados, incluindo o critério de desempate que favorece a classificação cause-based quando há ambiguidade.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1766,
+    "completion_tokens": 187,
+    "total_tokens": 1953,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 422
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

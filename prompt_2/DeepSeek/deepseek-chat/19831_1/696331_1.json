@@ -1,0 +1,28 @@
+{
+  "id": "8b1c86df-5dcc-43e8-9f73-70f86ea0f636",
+  "object": "chat.completion",
+  "created": 1759261145,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo baseia-se adequadamente no conteúdo da constatação e da recomendação, identificando que a ausência de critérios definidos para classificação de risco é o problema central. Ela corretamente destaca que as ações recomendadas (implementação de processos estruturados, criação de documentos operacionais, capacitação e adoção de procedimentos padrão) são medidas duradouras que visam estabelecer uma base sistemática para prevenir a recorrência da condição observada, alinhando-se com o conceito de recomendações cause-based que focam em resolver causas subjacentes. A justificativa não introduz elementos externos e considera os pressupostos solicitados, incluindo o critério de desempate para cause-based quando aplicável. Portanto, a classificação é coerente com a análise realizada.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1954,
+    "completion_tokens": 206,
+    "total_tokens": 2160,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 610
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

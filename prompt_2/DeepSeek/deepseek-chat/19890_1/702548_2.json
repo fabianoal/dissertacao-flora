@@ -1,0 +1,28 @@
+{
+  "id": "0278e662-4cea-4131-b50f-58a7be5070e2",
+  "object": "chat.completion",
+  "created": 1759263485,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação aborda a correção de processos e fluxos organizacionais e inclui orientação e treinamento da equipe, o que efetivamente visa prevenir a reocorrência do problema de ausência de documentação. Esta análise está baseada exclusivamente no conteúdo da constatação (ausência de AIHs e prontuários) e da recomendação (correção de processos, fluxos e treinamento), sem introduzir pressupostos externos. Além disso, a justificativa alinha-se com a definição de recomendações cause-based, que focam em soluções de longo prazo para evitar a repetição do problema, e o critério de desempate (preferência por cause-based) foi respeitado, pois a recomendação claramente visa a causa raiz (processos deficientes) e não apenas a condição imediata (documentos ausentes).\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1718,
+    "completion_tokens": 227,
+    "total_tokens": 1945,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 310
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

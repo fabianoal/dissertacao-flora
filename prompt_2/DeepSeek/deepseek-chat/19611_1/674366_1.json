@@ -1,0 +1,28 @@
+{
+  "id": "d73d60c4-fbfb-4c49-ba34-4f7a8e931332",
+  "object": "chat.completion",
+  "created": 1759252685,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra em apurar se a carga horária está sendo cumprida conforme o convênio, o que é uma medida para verificar e corrigir a condição atual de excesso de carga horária. Ela se baseia exclusivamente no conteúdo da constatação e da recomendação, sem adicionar pressupostos externos. Os critérios do usuário foram aplicados adequadamente, priorizando a classificação cause-based em caso de dúvida, mas aqui a recomendação claramente não aborda a causa raiz (como falhas na gestão de recursos humanos ou políticas de escalas), focando apenas na verificação da condição existente.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1528,
+    "completion_tokens": 177,
+    "total_tokens": 1705,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 184
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

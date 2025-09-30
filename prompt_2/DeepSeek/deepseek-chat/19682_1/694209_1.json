@@ -1,0 +1,28 @@
+{
+  "id": "0a2b79de-a1c9-44d1-80d6-0098fbd85c7a",
+  "object": "chat.completion",
+  "created": 1759256017,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na apuração específica da incongruência nas cargas horárias dos 07 profissionais mencionados, caracterizando uma ação direcionada à correção da condição observada. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos. Os pressupostos solicitados foram considerados adequadamente, incluindo a distinção entre recomendações que corrigem condições atuais (condition-based) e aquelas que abordam causas raiz para prevenção (cause-based). A recomendação em questão não propõe mudanças sistêmicas, políticas ou procedimentos de longo prazo para evitar a recorrência do problema, limitando-se à verificação pontual do cumprimento da carga horária.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1602,
+    "completion_tokens": 198,
+    "total_tokens": 1800,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 258
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

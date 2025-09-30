@@ -1,0 +1,28 @@
+{
+  "id": "18a07492-ea7a-4cfc-9abd-47b20ab9b5bd",
+  "object": "chat.completion",
+  "created": 1759254333,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa analisada indica que a recomendação se concentra em fiscalizar atos passados, ressarcir valores e fornecer informações, sem propor ações preventivas de longo prazo, o que alinha com a definição de recomendações condition-based, que visam corrigir a condição atual. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos, e considera corretamente os pressupostos solicitados, incluindo o critério de desempate para cause-based, que não se aplica aqui, pois a classificação como condition-based é consistente com a ausência de medidas preventivas explícitas.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1880,
+    "completion_tokens": 169,
+    "total_tokens": 2049,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 536
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

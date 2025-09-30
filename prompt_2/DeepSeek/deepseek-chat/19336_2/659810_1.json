@@ -1,0 +1,28 @@
+{
+  "id": "ff6d5442-fdbd-4134-a1af-97c2a2c18fa4",
+  "object": "chat.completion",
+  "created": 1759246149,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada não se baseia adequadamente no conteúdo da constatação e da recomendação. A constatação refere-se especificamente à ausência de documentação da AIH no prontuário, enquanto a recomendação trata do acompanhamento da recomposição de recursos ao Fundo Nacional de Saúde. Não há uma conexão lógica direta entre a constatação (falta de documentação) e a recomendação (procedimentos de acompanhamento financeiro), e a justificativa extrapola os elementos fornecidos ao inferir que a recomendação visa 'prevenir futuras ocorrências similares de dano ao erário' quando isso não está explicitamente declarado na recomendação. Além disso, a recomendação parece focar na correção de uma condição financeira específica (devolução de valores) em vez de implementar mudanças sistêmicas para evitar a causa raiz do problema documental.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1671,
+    "completion_tokens": 223,
+    "total_tokens": 1894,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 327
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

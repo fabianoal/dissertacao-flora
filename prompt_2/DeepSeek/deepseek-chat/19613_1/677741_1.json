@@ -1,0 +1,28 @@
+{
+  "id": "2154cf64-70c5-4908-a88b-26c9f0e0c75a",
+  "object": "chat.completion",
+  "created": 1759253353,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na correção imediata da condição específica observada (ausência de relatórios), instruindo a elaboração e inserção dos relatórios faltantes no sistema Transferegov para 2022. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos. Considera adequadamente os pressupostos solicitados, reconhecendo que a recomendação não propõe ações preventivas ou de longo prazo para evitar a recorrência da falha, focando apenas na correção da condição atual. A justificativa leva logicamente à classificação 'condition-based', conforme a definição do IIA.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1579,
+    "completion_tokens": 184,
+    "total_tokens": 1763,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 235
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

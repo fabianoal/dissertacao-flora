@@ -1,0 +1,28 @@
+{
+  "id": "39d664a9-dd47-41f7-97a8-8262e75e7e7b",
+  "object": "chat.completion",
+  "created": 1759242652,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a implementação de um processo sistemático para garantir que toda documentação necessária seja entregue antes da contratação, focando na prevenção da reincidência do problema através de mudanças nos procedimentos de contratação, caracterizando uma solução de longo prazo.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1064,
+    "completion_tokens": 88,
+    "total_tokens": 1152,
+    "prompt_tokens_details": {
+      "cached_tokens": 704
+    },
+    "prompt_cache_hit_tokens": 704,
+    "prompt_cache_miss_tokens": 360
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

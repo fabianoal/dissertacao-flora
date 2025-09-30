@@ -1,0 +1,28 @@
+{
+  "id": "e05a6018-97ca-42b7-ae30-a615e815485e",
+  "object": "chat.completion",
+  "created": 1759263585,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa não se baseia exclusivamente no conteúdo da constatação e da recomendação, pois a constatação trata especificamente da não realização da reconstrução mamária no mesmo ato anestésico, enquanto a recomendação aborda a elaboração adequada do prontuário médico. Não há uma conexão direta e lógica estabelecida entre a causa do problema (não realização da reconstrução) e a solução proposta (melhoria do prontuário), indicando que a justificativa pode estar inferindo uma relação causal não explícita nos dados fornecidos. Além disso, a recomendação parece focar mais na correção de uma condição documental específica do que na implementação de uma mudança sistêmica para prevenir a recorrência do problema central.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1677,
+    "completion_tokens": 197,
+    "total_tokens": 1874,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 333
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

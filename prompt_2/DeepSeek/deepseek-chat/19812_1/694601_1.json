@@ -1,0 +1,28 @@
+{
+  "id": "a0f92c57-a50a-4a17-8625-e25f5aa2d006",
+  "object": "chat.completion",
+  "created": 1759260377,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa afirma que a recomendação propõe um processo contínuo para prevenir a recorrência da falta de documentação e melhorar a coordenação a longo prazo, alinhando-se com recomendações cause-based. No entanto, a recomendação 'Promover a atuação do grupo condutor no acompanhamento e na avaliação das ações de saúde mental na atenção primária' é genérica e não especifica ações para abordar a causa raiz da ausência de documentação (ex: falta de capacitação, recursos, ou procedimentos formais). Ela foca na correção da condição observada (falta de acompanhamento/evaluação) sem evidenciar medidas preventivas ou de longo prazo que evitem a recorrência. A justificativa extrapola o conteúdo da recomendação ao assumir que ela visa prevenir recorrência e melhorar coordenação a longo prazo, quando a recomendação em si é direta para corrigir a condição atual. Considerando o critério de desempate (optar por cause-based em caso de dúvida) e a análise estrita do conteúdo, a classificação como cause-based não é suficientemente fundamentada.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1537,
+    "completion_tokens": 281,
+    "total_tokens": 1818,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 193
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

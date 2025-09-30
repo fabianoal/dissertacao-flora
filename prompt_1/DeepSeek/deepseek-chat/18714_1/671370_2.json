@@ -1,0 +1,28 @@
+{
+  "id": "a18de86a-7612-448b-9985-c016b4261074",
+  "object": "chat.completion",
+  "created": 1759242696,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"classificacao\": \"cause-based\",\n    \"justificativa\": \"A recomendação propõe a adoção de medidas administrativas para recomposição do Fundo Municipal de Saúde, visando corrigir a irregularidade identificada e estabelecer um processo que evite a reincidência do uso inadequado de recursos, caracterizando uma solução de longo prazo focada na causa do problema.\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1115,
+    "completion_tokens": 92,
+    "total_tokens": 1207,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 91
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

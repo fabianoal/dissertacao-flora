@@ -1,0 +1,28 @@
+{
+  "id": "8d99b631-d0fb-498c-bc94-8f7e1c8c4223",
+  "object": "chat.completion",
+  "created": 1759258101,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação propõe medidas estruturais (contratação de empresa para manutenções, calibração, documentação e gerenciamento) que visam prevenir a recorrência do problema e assegurar a confiabilidade contínua dos equipamentos, caracterizando uma solução de longo prazo. A análise baseia-se exclusivamente no conteúdo da constatação (falta de comprovação de manutenção e cronograma) e da recomendação (implementação de processos permanentes). Os pressupostos solicitados foram considerados corretamente, incluindo o critério de desempate que favorece a classificação cause-based quando há elementos que apontam para prevenção de recorrência.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1808,
+    "completion_tokens": 186,
+    "total_tokens": 1994,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 464
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

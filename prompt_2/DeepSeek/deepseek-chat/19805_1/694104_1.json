@@ -1,0 +1,28 @@
+{
+  "id": "7d3129b0-b3ff-40ed-beec-f3479655eba7",
+  "object": "chat.completion",
+  "created": 1759259997,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação propõe a criação e implementação de ações específicas e capacitação contínua, que são medidas voltadas para mudanças estruturais e de longo prazo. Isso se baseia exclusivamente no conteúdo da constatação (falta de acompanhamento de familiares) e da recomendação (criar ações e capacitação), sem introduzir elementos externos. Os pressupostos solicitados foram considerados, pois a classificação como 'cause-based' se alinha com a definição do IIA de recomendações que abordam a causa raiz para evitar recorrência, e o critério de desempate (optar por 'cause-based' em caso de dúvida) foi respeitado, já que a recomendação claramente visa prevenir a condição futuramente.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1620,
+    "completion_tokens": 203,
+    "total_tokens": 1823,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 276
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

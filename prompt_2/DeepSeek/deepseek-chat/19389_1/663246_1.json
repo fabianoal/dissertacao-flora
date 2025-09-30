@@ -1,0 +1,28 @@
+{
+  "id": "e252dc6c-f5d5-4004-a472-bf022e223180",
+  "object": "chat.completion",
+  "created": 1759246345,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa afirma que a recomendação enfatiza a implementação de um processo contínuo e estruturado para garantir conformidade futura e prevenir recorrência, classificando-a como cause-based. No entanto, ao analisar o conteúdo da recomendação, ela se limita a exigir o cumprimento de um requisito normativo específico (Portaria GM/MS nº 3.872/2021) para a execução de procedimentos de reabilitação pós-COVID-19 após avaliação multiprofissional e elaboração de PTS. Esta recomendação é direcionada à correção da condição observada (falta de comprovação da avaliação e PTS), sem propor ações adicionais que abordem as causas subjacentes da não conformidade, como falhas em processos, capacitação ou monitoramento. A justificativa extrapola o conteúdo da recomendação ao inferir que ela estabelece um 'processo contínuo e estruturado', quando na realidade a recomendação é focada na conformidade imediata com a norma. Considerando que o critério de desempate é cause-based e a recomendação não demonstra claramente um foco na causa raiz, a classificação como cause-based não se sustenta com base exclusiva na constatação e recomendação fornecidas.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1647,
+    "completion_tokens": 306,
+    "total_tokens": 1953,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 303
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

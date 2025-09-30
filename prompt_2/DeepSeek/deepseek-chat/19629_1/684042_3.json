@@ -1,0 +1,28 @@
+{
+  "id": "ad58416a-dc2a-4beb-bdb7-549bf3e908f2",
+  "object": "chat.completion",
+  "created": 1759254926,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresenta uma interpretação equivocada da recomendação. A recomendação se limita a citar uma obrigação legal genérica de prestar informações e facilitar acesso a documentos quando exigido pelo Sistema Nacional de Auditoria, sem propor ações específicas para implementar processos contínuos ou prevenir a reocorrência da falta de anexação de exames. A justificativa extrapola o conteúdo real da recomendação ao atribuir-lhe características de solução de longo prazo que não estão presentes no texto. A análise deve basear-se exclusivamente no conteúdo da constatação e recomendação fornecidas, sem adicionar elementos não presentes. Além disso, a recomendação parece focar mais na correção da condição atual (fornecer os documentos faltantes quando solicitados) do que em prevenir futuras ocorrências.\",\n    \"opiniao\": \"discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1610,
+    "completion_tokens": 200,
+    "total_tokens": 1810,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 202
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

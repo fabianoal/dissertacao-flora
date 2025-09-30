@@ -1,0 +1,28 @@
+{
+  "id": "ead809b5-7998-4dc3-9715-c0cf3340be2e",
+  "object": "chat.completion",
+  "created": 1759263189,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresenta análise coerente com a classificação atribuída. A recomendação claramente se concentra na correção da condição financeira específica identificada (devolução de R$ 58.389,45 ao FNS), sem propor medidas para modificar processos, sistemas ou procedimentos que poderiam prevenir a recorrência da inconsistência na codificação. A justificativa se baseia exclusivamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos, e considera corretamente os pressupostos solicitados, incluindo o critério de desempate que favorece classificações cause-based quando há ambiguidade - o que não ocorre neste caso, dada a natureza claramente corretiva da recomendação.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1635,
+    "completion_tokens": 183,
+    "total_tokens": 1818,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 291
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

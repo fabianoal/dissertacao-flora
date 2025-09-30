@@ -1,0 +1,28 @@
+{
+  "id": "f7366279-f56b-466e-8cf1-e6e0c8a94dba",
+  "object": "chat.completion",
+  "created": 1759259729,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação propõe a complementação e atualização anual do documento de procedimentos operacionais padrão, o que visa estabelecer controles permanentes e preventivos. Isso se baseia exclusivamente no conteúdo da constatação (falta de Normas, Procedimentos Operacionais Padrão ou documento similar atualizado) e da recomendação (complementar e atualizar anualmente o POP). A justificativa alinha-se com os pressupostos solicitados, pois a criação e manutenção de documentação atualizada é uma solução de longo prazo que aborda a causa raiz da falta de controles adequados, em vez de apenas corrigir temporariamente a condição observada. O critério de desempate (optar por cause-based) foi aplicado corretamente, já que a recomendação foca na implementação de um processo contínuo para prevenir a recorrência do problema.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1738,
+    "completion_tokens": 226,
+    "total_tokens": 1964,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 394
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

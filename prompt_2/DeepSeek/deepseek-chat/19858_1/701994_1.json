@@ -1,0 +1,28 @@
+{
+  "id": "9221f5e9-342a-4671-a597-54f26533d14d",
+  "object": "chat.completion",
+  "created": 1759262269,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa corretamente identifica que a recomendação se concentra na correção imediata da condição específica encontrada (falta de documentação), limitando-se a solicitar a disponibilização dos documentos exigidos. A análise demonstra que a justificativa se baseia exclusivamente no conteúdo da constatação e da recomendação, sem incorrer em pressupostos externos. Além disso, os critérios estabelecidos pelo usuário pesquisador foram respeitados, incluindo a orientação de optar pela tipologia cause-based em caso de dúvida, o que não se aplica aqui devido à clara natureza corretiva da recomendação. Portanto, a classificação como condition-based é adequada.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1541,
+    "completion_tokens": 179,
+    "total_tokens": 1720,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 197
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

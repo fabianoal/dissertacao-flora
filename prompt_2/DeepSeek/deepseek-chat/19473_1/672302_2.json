@@ -1,0 +1,28 @@
+{
+  "id": "d0e3d311-7323-4066-b25f-3b2598e02f3a",
+  "object": "chat.completion",
+  "created": 1759247145,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresenta uma análise coerente com a classificação atribuída. Ela corretamente identifica que a recomendação se concentra na correção da condição imediata (falta de documentação comprobatória) através da devolução dos recursos, sem propor medidas para prevenir a recorrência do problema. A análise baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem introduzir elementos externos. Os pressupostos solicitados foram considerados adequadamente, incluindo a definição de recomendações condition-based como aquelas que corrigem a condição atual de forma temporária/direta, e o critério de desempate não foi necessário aplicar.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1581,
+    "completion_tokens": 172,
+    "total_tokens": 1753,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 173
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

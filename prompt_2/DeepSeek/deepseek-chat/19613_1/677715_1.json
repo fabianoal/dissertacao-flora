@@ -1,0 +1,28 @@
+{
+  "id": "a2d407a8-02ae-46d1-9f25-59af1e05700a",
+  "object": "chat.completion",
+  "created": 1759253197,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A justificativa apresentada pelo modelo baseia-se exclusivamente no conteúdo da constatação e da recomendação, sem incorrer em pressupostos externos. Ela corretamente identifica que a recomendação visa corrigir a condição imediata (ausência de comprovação de despesa) por meio da apresentação de documentação ou ressarcimento, sem incluir elementos que abordem a causa raiz para prevenir recorrências futuras, como melhorias em processos de gestão ou controles internos. A justificativa, portanto, leva logicamente à classificação 'condition-based', e os critérios do usuário (incluindo o desempate para 'cause-based' apenas se houver ambiguidade) foram aplicados de forma adequada, já que a recomendação é claramente focada na condição atual.\",\n    \"opiniao\": \"concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1667,
+    "completion_tokens": 204,
+    "total_tokens": 1871,
+    "prompt_tokens_details": {
+      "cached_tokens": 1344
+    },
+    "prompt_cache_hit_tokens": 1344,
+    "prompt_cache_miss_tokens": 323
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

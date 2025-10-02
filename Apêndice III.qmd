@@ -65,66 +65,7 @@ O presente apêndice registra os passos tomados para a escolha de um conjunto de
 
 set.seed(42)
 
-modelo <- "deepseek-chat"
-
-classificacoes <- read_rds(sprintf("./Dados Gerados/cls_%s.rds", modelo))
-
-recomendacoes <- read_rds("./Dados Gerados/auditorias.rds") |>
-    inner_join(
-        read_rds("./Dados Gerados/constatacoes.rds") |>
-        select(-`No. Auditoria`),
-        by = "Arquivo"
-    ) |>
-    inner_join(
-        read_rds("./Dados Gerados/recomendacoes.rds") |>
-        select(-`No. Auditoria`),
-        by = c("Arquivo", "# Constatação")
-    ) 
-
-dataset_analise <- recomendacoes |>
-    mutate(`# Recomendação` = as.integer(`# Recomendação`)) |>
-    left_join(
-        classificacoes |>
-        select(-finish_reason, -erro, -arquivo) |>
-        mutate(recomendacao = as.integer(recomendacao)) |>
-        rename(`Justificativa Classificação` = justificativa),
-        by = c(
-            "Arquivo" = "Arquivo Relatório",
-            "# Constatação" = "constatacao",
-            "# Recomendação" = "recomendacao")
-    ) |>
-    rename(`Classificação` = classificacao) |>
-    mutate(Ano = year(`Data Geração`) |> as.character()) |>
-    mutate(Grupo = str_extract(Grupo, "(^.*?) Constata..o.*", 1)) |>
-    mutate(UF = str_sub(`Munícipio/UF`, -2), .keep = "unused") |>
-    mutate(Objeto = Objeto |> 
-                str_replace(fixed(".Fora de bloco|"), "Sem Bloco|") |>
-                str_replace("\\.(?=[A-Z])", ". ") |>
-                str_replace(fixed("MAC-OPME"), "MAC|OPME") |>
-                str_replace(" Órgão\\(s\\).*", ""),
-        Bloco = str_extract(Objeto, "(.*?)\\|.*", 1),
-        `Sub bloco` = str_extract(Objeto, ".*?\\|(.*?)(\\|.*|$)", 1),
-        Bloco = coalesce(Bloco, Objeto),
-        Bloco = str_replace(Bloco, "REGULAÇÃO DO ACESSO.*", "Reg. Acesso Consultas/Exames"))
-
-exemplos_classificados_condicao <- dataset_analise |>
-    filter(`Classificação` == "condition-based") |>
-    sample_n(10)
-
-
-exemplos_classificados_causa <- dataset_analise |>
-    filter(`Classificação` == "cause-based") |>
-    sample_n(10)
-```
-
-
-# Exemplos Recomendações com Foco na Causa
-
-```{r}
-#| label: print_exemplos_causa
-#| echo: false
-#| eval: true
-#| results: asis
+dataset_final <- read_rds("./Dados Gerados/dataset_final.rds")
 
 obtem_funcao_print <- function(df){
     obtem_campo <- function(indice, campo){
@@ -140,31 +81,76 @@ obtem_funcao_print <- function(df){
             "Recomendação: " , obtem_campo(i, "Recomendação"), "\n\n",
             "Classificação: " , obtem_campo(i, "Classificação"), "\n\n",
             "Justificativa: " , obtem_campo(i, "Justificativa Classificação"), "\n\n",
+            "Análise Classificação: " , obtem_campo(i, "Análise Classificação"), "\n\n",
+            "Opinião: " , obtem_campo(i, "Opinião"), "\n\n",
             sep = ""
         )
     }
 }
 
-print_fn <- obtem_funcao_print(exemplos_classificados_causa)
-walk(
-    1:nrow(exemplos_classificados_causa),
-    print_fn
-)
 
+exemplos <- dataset_final |>
+    group_by(`Classificação`, `Opinião`) |>
+    slice_sample(n = 5)
 ```
 
-# Exemplos Recomendações com Foco na Causa
+
+# Exemplos Recomendações com Foco na Causa e Análise Convergente
 
 ```{r}
-#| label: print_exemplos_condicao
+#| label: print_exemplos_causa_concordo
 #| echo: false
 #| eval: true
 #| results: asis
 
-print_fn <- obtem_funcao_print(exemplos_classificados_condicao)
-walk(
-    1:nrow(exemplos_classificados_condicao),
-    print_fn
-)
+print_fn <- exemplos |>
+            filter(`Classificação` == "cause-based" & `Opinião` == "concordo") |>
+            obtem_funcao_print()
+
+walk(1:5, print_fn)
 ```
 
+# Exemplos Recomendações com Foco na Causa e Análise Divergente
+
+```{r}
+#| label: print_exemplos_causa_discordo
+#| echo: false
+#| eval: true
+#| results: asis
+
+print_fn <- exemplos |>
+            filter(`Classificação` == "cause-based" & `Opinião` == "discordo") |>
+            obtem_funcao_print()
+
+walk(1:5, print_fn)
+```
+
+# Exemplos Recomendações com Foco na Condição e Análise Convergente
+
+```{r}
+#| label: print_exemplos_cond_conv
+#| echo: false
+#| eval: true
+#| results: asis
+
+print_fn <- exemplos |>
+            filter(`Classificação` == "condition-based" & `Opinião` == "concordo") |>
+            obtem_funcao_print()
+
+walk(1:5, print_fn)
+```
+
+# Exemplos Recomendações com Foco na Condição e Análise Convergente
+
+```{r}
+#| label: print_exemplos_cond_diverg
+#| echo: false
+#| eval: true
+#| results: asis
+
+print_fn <- exemplos |>
+            filter(`Classificação` == "condition-based" & `Opinião` == "discordo") |>
+            obtem_funcao_print()
+
+walk(1:5, print_fn)
+```

@@ -1,0 +1,28 @@
+{
+  "id": "0bd5ac87-7a9f-472b-974b-b90cf51ec00b",
+  "object": "chat.completion",
+  "created": 1759367618,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação identifica a causa (falta de capacitação da equipe e ausência de protocolos claros) que levou à condição detectada (erros de codificação no SIGTAP), situa-se no nível institucional (sistemas de documentação e registro da organização) e as transformações propostas (revisão e atualização da equipe, estabelecimento de protocolos) possuem potencial para perdurar no tempo, promovendo mudanças estruturais nos processos de registro.\",\n    \"categoria\": \"foco-causa\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1652,
+    "completion_tokens": 132,
+    "total_tokens": 1784,
+    "prompt_tokens_details": {
+      "cached_tokens": 1280
+    },
+    "prompt_cache_hit_tokens": 1280,
+    "prompt_cache_miss_tokens": 372
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "44b672f0-d392-4cff-92e9-05e1956f6260",
+  "object": "chat.completion",
+  "created": 1760388374,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a implementação e registro da demanda de usuários regulados, o que visa corrigir a condição específica de ausência de relatórios, mas não aborda as causas subjacentes, como falhas nos processos de regulação ou capacitação da equipe. Portanto, não há ação focada na causa do problema. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 998,
+    "completion_tokens": 141,
+    "total_tokens": 1139,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 166
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

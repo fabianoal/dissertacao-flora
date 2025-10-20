@@ -1,0 +1,28 @@
+{
+  "id": "299dc563-1f38-4b4f-8d54-582691bc5dec",
+  "object": "chat.completion",
+  "created": 1760037856,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere a apresentação de documentos comprobatórios para resolver a condição encontrada de falta de validação dos dados no RAG, caracterizando uma ação corretiva. Além disso, propõe a implementação de uma prática sistematizada para garantir rastreabilidade futura, o que pode ser visto como uma ação com foco na causa, mas é genérica, pois se baseia no cumprimento de um normativo sem especificar ações concretas adicionais. Consequentemente, não há indicação de efeitos duradouros que persistam independentemente de mudanças de atores.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1264,
+    "completion_tokens": 178,
+    "total_tokens": 1442,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 304
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

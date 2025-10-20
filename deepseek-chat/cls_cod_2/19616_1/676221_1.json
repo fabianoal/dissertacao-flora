@@ -1,0 +1,28 @@
+{
+  "id": "5f8c1c98-e5b6-4df5-9fda-5eeff288efcf",
+  "object": "chat.completion",
+  "created": 1760390678,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a implementação de um plano de capacitação para qualificar os fiscais de convênios, o que visa tratar a causa do problema (carência de subsídios para atuação) ao melhorar as competências dos profissionais, em vez de apenas corrigir a condição atual temporariamente. Já em relação aos efeitos pretendidos pela recomendação, o plano de capacitação estabelece uma estrutura de qualificação que pode perdurar mesmo com mudanças nos atores envolvidos, pois cria um processo contínuo de desenvolvimento de habilidades.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 952,
+    "completion_tokens": 161,
+    "total_tokens": 1113,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "bfd2a73c-03f7-4a9e-804d-8547b2fea281",
+  "object": "chat.completion",
+  "created": 1760464829,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação propõe a criação de um plano de contingência formal, que aborda a causa raiz (ausência de diretrizes) e não apenas a condição imediata. Para o critério 'Efeitos Duradouros', também concordo, pois a inclusão no procedimento operacional padrão institucionaliza a solução, garantindo sua permanência independente de mudanças de pessoal.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1261,
+    "completion_tokens": 156,
+    "total_tokens": 1417,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 365
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

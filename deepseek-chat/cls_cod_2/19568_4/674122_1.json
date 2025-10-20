@@ -1,0 +1,28 @@
+{
+  "id": "f7b19214-042d-4f53-bcb4-e1d5eb929968",
+  "object": "chat.completion",
+  "created": 1760388146,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a implantação e aperfeiçoamento de um sistema de prontuário eletrônico, o que visa tratar a causa subjacente da ausência das fichas CDS (possivelmente relacionada à falta de um sistema estruturado de registro de dados), em vez de apenas corrigir a condição específica de não apresentação das fichas. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um sistema de prontuário eletrônico tende a criar uma infraestrutura permanente para coleta e gestão de dados, cujos benefícios (como registro contínuo e padronizado) persistem independentemente de mudanças nos atores envolvidos, caracterizando efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 957,
+    "completion_tokens": 210,
+    "total_tokens": 1167,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 125
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

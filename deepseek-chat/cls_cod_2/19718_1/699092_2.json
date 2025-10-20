@@ -1,0 +1,28 @@
+{
+  "id": "c229edcb-5fa7-4397-ab79-3cd6ebd4008c",
+  "object": "chat.completion",
+  "created": 1760394512,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe que a SAES/MS acompanhe a aplicação do recurso após sua devolução ao Fundo Municipal de Saúde e adote procedimentos para recomposição do valor ao Fundo Nacional de Saúde. Essas ações visam corrigir a condição específica de pagamento irregular identificada, garantindo o retorno dos recursos ao fundo adequado, mas não abordam medidas para prevenir a ocorrência futura de pagamentos irregulares em desacordo com a legislação, como melhorias em processos de controle, capacitação ou revisão de procedimentos. Portanto, a recomendação tem foco na correção da condição atual (irregularidade no pagamento) e não na causa subjacente que permitiu o pagamento irregular. Como o critério 'Foco Causa' não é atendido, a avaliação de 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1137,
+    "completion_tokens": 236,
+    "total_tokens": 1373,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 241
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

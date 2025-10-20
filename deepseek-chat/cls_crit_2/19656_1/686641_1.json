@@ -1,0 +1,28 @@
+{
+  "id": "24069a11-4815-4718-be8e-31a62fee7189",
+  "object": "chat.completion",
+  "created": 1760448210,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise crítica avalia a classificação do modelo quanto aos critérios 'Foco Causa' e 'Efeitos Duradouros'. Para 'Foco Causa', a recomendação propõe a adoção de boas práticas de registro, que visam prevenir a não submissão de prontuários no futuro, tratando a causa raiz (falta de processos adequados). Para 'Efeitos Duradouros', a implementação de boas práticas pode criar processos estruturados e cultura organizacional que persistem com mudanças de pessoal, mas a recomendação é genérica e não especifica mecanismos de sustentabilidade, o que pode limitar a durabilidade.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1173,
+    "completion_tokens": 197,
+    "total_tokens": 1370,
+    "prompt_tokens_details": {
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 1109
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

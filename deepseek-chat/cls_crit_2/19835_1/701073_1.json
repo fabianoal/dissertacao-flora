@@ -1,0 +1,28 @@
+{
+  "id": "b55afc82-6d89-4abd-a11a-36016d6e5ca6",
+  "object": "chat.completion",
+  "created": 1760466401,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está bem fundamentada, mas requer uma avaliação mais detalhada dos critérios específicos para garantir precisão na classificação.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1292,
+    "completion_tokens": 78,
+    "total_tokens": 1370,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 396
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

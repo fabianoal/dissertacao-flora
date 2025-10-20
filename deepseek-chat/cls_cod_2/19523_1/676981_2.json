@@ -1,0 +1,28 @@
+{
+  "id": "eb775fd9-c82f-4739-a7fe-7e16f80473ea",
+  "object": "chat.completion",
+  "created": 1760386918,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação apenas solicita que a SAES/MS tome conhecimento da constatação e adote procedimentos conforme decreto, sem especificar ações concretas para tratar a causa subjacente do não registro dos atendimentos no sistema. Não há menção a ações que abordem as razões pelas quais a secretaria municipal não alimentou os dados, como falhas de capacitação, problemas técnicos ou lacunas nos processos. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1094,
+    "completion_tokens": 174,
+    "total_tokens": 1268,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 134
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

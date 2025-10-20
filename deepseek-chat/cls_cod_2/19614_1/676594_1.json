@@ -1,0 +1,28 @@
+{
+  "id": "17332ecd-c7ca-417c-81de-42e48902153e",
+  "object": "chat.completion",
+  "created": 1760390290,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"A recomendação propõe a inserção de documentação comprobatória no Transferegov para atender requisitos legais, focando na correção da condição imediata de falta de documentação, sem abordar as causas subjacentes, como falhas nos processos de cotação de preço ou capacitação inadequada. Portanto, não há ação voltada para a causa do problema. Quanto aos efeitos duradouros, como o critério 'Foco Causa' é 'Não', não se aplica.\",\n   \"Foco Causa\": \"Não\",\n   \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1009,
+    "completion_tokens": 150,
+    "total_tokens": 1159,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 177
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

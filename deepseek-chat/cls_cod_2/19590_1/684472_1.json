@@ -1,0 +1,28 @@
+{
+  "id": "b080bc7f-550c-4c38-b367-d63244ffd8d1",
+  "object": "chat.completion",
+  "created": 1760388542,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe duas ações distintas: a primeira visa promover a sensibilização dos profissionais para fomentar uma cultura organizacional que valorize os registros, o que aborda a causa subjacente do problema (falta de conscientização e cultura inadequada). A segunda ação trata da condição imediata, exigindo o registro atualizado dos atendimentos, exames e indicadores. Portanto, há uma ação focada na causa. Já em relação aos efeitos duradouros, a ação de sensibilização para uma cultura organizacional tende a persistir mesmo com mudanças de atores, pois a cultura institucional é mais resiliente.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1122,
+    "completion_tokens": 181,
+    "total_tokens": 1303,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 290
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

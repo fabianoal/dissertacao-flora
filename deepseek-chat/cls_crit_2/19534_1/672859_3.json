@@ -1,0 +1,28 @@
+{
+  "id": "c0057f35-0491-47cd-b530-482fd71caea6",
+  "object": "chat.completion",
+  "created": 1760454021,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação aborda a causa do problema, que é a falta de controle adequado na identificação e autorização do paciente. Para o critério 'Efeitos Duradouros', também concordo que a implementação de procedimentos baseados em regras documentadas garante durabilidade, independentemente de mudanças nos atores envolvidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1316,
+    "completion_tokens": 142,
+    "total_tokens": 1458,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 420
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

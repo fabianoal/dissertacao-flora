@@ -1,0 +1,28 @@
+{
+  "id": "a4e30bfa-6bab-4cad-9f93-b625aec90eb8",
+  "object": "chat.completion",
+  "created": 1760455993,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação se limita a exigir o cumprimento do quantitativo mínimo de profissionais conforme norma, sem propor ações para investigar ou solucionar as causas subjacentes do problema (como deficiências em processos de contratação, planejamento de recursos humanos ou retenção de profissionais). Quanto ao critério 'Efeitos Duradouros', como o 'Foco Causa' não foi atendido, a resposta 'Não se aplica' está adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1324,
+    "completion_tokens": 171,
+    "total_tokens": 1495,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 428
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "beab8a33-e1ef-4247-a634-60932e904830",
+  "object": "chat.completion",
+  "created": 1760454405,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações genéricas de alimentação, análise e verificação de dados, mas não identifica ou aborda especificamente a causa raiz da inconsistência (ex: falta de treinamento, falhas no processo de coleta, problemas de integração entre sistemas). Portanto, não há evidência clara de que a recomendação trata da causa do problema. Quanto ao critério 'Efeitos Duradouros', como o critério 'Foco Causa' não se aplica plenamente, a análise de efeitos duradouros não é pertinente.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1252,
+    "completion_tokens": 188,
+    "total_tokens": 1440,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 356
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

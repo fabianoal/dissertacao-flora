@@ -1,0 +1,28 @@
+{
+  "id": "812af47c-a064-4430-a36a-7f7abbee2d58",
+  "object": "chat.completion",
+  "created": 1760038472,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere ações para corrigir a condição encontrada de inadequação do layout e padrão visual, como instalação de sinalização e placas, o que caracteriza uma ação corretiva. No entanto, a recomendação é genérica, pois se limita a orientar o cumprimento de manuais existentes sem propor ações específicas para tratar a causa subjacente, como a implementação de processos de monitoramento contínuo ou treinamento. Como não há ação específica focada na causa, os efeitos duradouros não se aplicam.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1266,
+    "completion_tokens": 171,
+    "total_tokens": 1437,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 242
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

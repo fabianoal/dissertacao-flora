@@ -1,0 +1,28 @@
+{
+  "id": "305ca390-f248-49d4-8fb5-c824b2e8a2b9",
+  "object": "chat.completion",
+  "created": 1760463773,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda apenas a correção imediata da condição financeira irregular, sem propor ações para prevenir a reincidência, como melhorias em sistemas ou processos. Quanto ao critério 'Efeitos Duradouros', como 'Foco Causa' foi avaliado como 'Não', a não aplicação está correta.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1325,
+    "completion_tokens": 127,
+    "total_tokens": 1452,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 429
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

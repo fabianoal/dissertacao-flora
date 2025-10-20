@@ -1,0 +1,28 @@
+{
+  "id": "e8f61cf6-e441-40d4-b003-be56dc7d1b91",
+  "object": "chat.completion",
+  "created": 1760468117,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação se limita a citar o cumprimento da portaria sem propor ações específicas para tratar a causa raiz da ausência da APAC. Para o critério 'Efeitos Duradouros', a resposta 'Não se aplica' é adequada, uma vez que o critério 'Foco Causa' foi avaliado como 'Não'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1320,
+    "completion_tokens": 146,
+    "total_tokens": 1466,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 424
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

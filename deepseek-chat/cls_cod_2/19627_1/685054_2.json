@@ -1,0 +1,28 @@
+{
+  "id": "0c0be594-2e7f-4b85-aa32-5590a0649073",
+  "object": "chat.completion",
+  "created": 1760391306,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe apenas a adoção de medidas administrativas para o ressarcimento do valor pago indevidamente, focando na correção da condição específica do pagamento realizado. Não há nenhuma ação proposta que trate da causa do problema, como a implementação de controles para evitar que profissionais não contemplados no plano de trabalho sejam pagos no futuro. Portanto, o critério 'Foco Causa' não é atendido, e o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1032,
+    "completion_tokens": 154,
+    "total_tokens": 1186,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 200
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c5a740dd-c877-4d38-9f79-4712c6d15ae1",
+  "object": "chat.completion",
+  "created": 1760463373,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta em identificar que a recomendação aborda a causa raiz da falta de documentação padronizada através da elaboração de POPs, e que os efeitos são duradouros devido à estruturação de processos documentados que independem de indivíduos específicos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1239,
+    "completion_tokens": 108,
+    "total_tokens": 1347,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 343
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

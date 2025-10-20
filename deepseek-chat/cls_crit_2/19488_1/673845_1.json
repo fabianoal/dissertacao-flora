@@ -1,0 +1,28 @@
+{
+  "id": "e1d91201-c685-4e30-b2a5-a683ea6023c7",
+  "object": "chat.completion",
+  "created": 1760453133,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda claramente a causa raiz da falta de manutenção predial adequada, que é a ausência de processos estruturados e recursos para manutenção contínua. Para o critério 'Efeitos Duradouros', as ações propostas, como o plano de manutenção, sistema de avaliação periódica e alocação orçamentária, são institucionalizadas e projetadas para persistir independentemente de mudanças na equipe, o que justifica a classificação.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1483,
+    "completion_tokens": 167,
+    "total_tokens": 1650,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 587
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ea117c4e-e134-43da-8ba1-51a81e374cdc",
+  "object": "chat.completion",
+  "created": 1760386479,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a adequação física das instalações prediais para armazenagem das OPME, o que visa corrigir a causa do problema (desacordo com normas vigentes) ao invés de apenas tratar a condição atual de forma temporária. Já em relação aos efeitos pretendidos pela recomendação, as adequações físicas são permanentes e independem da mudança de atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1091,
+    "completion_tokens": 142,
+    "total_tokens": 1233,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 259
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

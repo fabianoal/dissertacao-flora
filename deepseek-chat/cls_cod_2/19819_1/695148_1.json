@@ -1,0 +1,28 @@
+{
+  "id": "fe7807fd-bc2a-44a2-a7b3-810fe9807a3e",
+  "object": "chat.completion",
+  "created": 1760398181,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"Em relação ao foco, a recomendação propõe a adoção de procedimentos de acompanhamento, incluindo consultas periódicas, para avaliar a adesão ao tratamento e efeitos colaterais, o que visa abordar diretamente a causa subjacente da falta de acompanhamento, que pode estar relacionada à ausência de protocolos estruturados ou práticas regulares. Isso caracteriza um foco na causa, pois busca prevenir a recorrência da condição observada. Já em relação aos efeitos pretendidos pela recomendação, a implementação de procedimentos padronizados de acompanhamento tende a criar um sistema duradouro que permanece eficaz mesmo com mudanças nos profissionais de saúde, desde que os procedimentos sejam institucionalizados.\",\n   \"Foco Causa\": \"Sim\",\n   \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1041,
+    "completion_tokens": 199,
+    "total_tokens": 1240,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 209
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ca1a5bc3-eee4-4f6c-9742-72cf80cae2e6",
+  "object": "chat.completion",
+  "created": 1760394269,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe ações para corrigir falhas no processo de credenciamento, incluindo a realização de uma vistoria detalhada utilizando formulário específico e a solicitação de manifestação formal da CIB. Essas medidas visam assegurar o cumprimento de requisitos técnicos, operacionais e normativos, tratando diretamente as causas das falhas identificadas, como a falta de verificação adequada da infraestrutura e a ausência de aprovação formal. Quanto aos efeitos duradouros, as ações sugeridas, como a implementação de vistorias regulares e a exigência de manifestação da CIB, estabelecem procedimentos que devem permanecer eficazes independentemente de mudanças nos atores envolvidos, pois estão baseadas em normas e formulários padronizados.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1227,
+    "completion_tokens": 214,
+    "total_tokens": 1441,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 395
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

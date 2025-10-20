@@ -1,0 +1,28 @@
+{
+  "id": "4c39d020-7e2c-414e-a7e0-1b2299fd55c4",
+  "object": "chat.completion",
+  "created": 1760390794,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe orientar fiscais e gestores a realizar conferência documental para evitar desobediência a normativos e irregularidades, focando na verificação processual contínua. No entanto, não identifica ou trata a causa raiz da ausência do contrato (ex: falhas na estrutura de governança, capacitação insuficiente, lacunas nos procedimentos internos), limitando-se a uma ação corretiva da condição imediata. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não é atendido, a análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1064,
+    "completion_tokens": 174,
+    "total_tokens": 1238,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 232
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

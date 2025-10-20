@@ -1,0 +1,28 @@
+{
+  "id": "40801192-4c0b-4371-b1ac-ef9a964bc92f",
+  "object": "chat.completion",
+  "created": 1760394045,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a citar dispositivos normativos que estabelecem obrigações genéricas de organização e disponibilização de documentação, sem propor ações específicas para tratar a causa subjacente da ausência de documentação comprobatória, como falhas em processos, capacitação ou sistemas. Portanto, não há ação focada na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1123,
+    "completion_tokens": 147,
+    "total_tokens": 1270,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 291
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

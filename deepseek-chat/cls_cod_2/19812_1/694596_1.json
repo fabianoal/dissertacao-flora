@@ -1,0 +1,28 @@
+{
+  "id": "20335ebf-e8fc-473d-abf5-1944d4d1b342",
+  "object": "chat.completion",
+  "created": 1760397852,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a padronização da inserção de informações nos sistemas de saúde, o que visa tratar a causa raiz do problema (falta de documentação comprovando avaliação e monitoramento), estabelecendo um processo estruturado para garantir que essas informações sejam sistematicamente registradas. Já em relação aos efeitos pretendidos pela recomendação, a padronização cria um procedimento formal que permanece independente de mudanças nos atores envolvidos, assegurando efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 926,
+    "completion_tokens": 154,
+    "total_tokens": 1080,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 94
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

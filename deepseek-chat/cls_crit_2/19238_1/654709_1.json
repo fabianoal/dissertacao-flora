@@ -1,0 +1,28 @@
+{
+  "id": "6c6c832c-f0e6-40e5-ab16-f273083cfbe0",
+  "object": "chat.completion",
+  "created": 1760451288,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a reintegração do Grupo Condutor Estadual para elaborar nova estratégia e cumprir atribuições legais, o que visa tratar a causa subjacente da não conformidade (falta de funcionamento adequado do grupo) e não apenas corrigir a condição atual. Quanto ao critério 'Efeitos Duradouros', a reintegração do grupo e a elaboração de uma nova estratégia institucionalizada tendem a produzir efeitos duradouros, pois estabelecem uma estrutura permanente de governança que pode persistir independentemente de mudanças nos atores envolvidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1193,
+    "completion_tokens": 193,
+    "total_tokens": 1386,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 297
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

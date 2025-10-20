@@ -1,0 +1,28 @@
+{
+  "id": "a73ae98c-0366-4929-a6ca-d785cd5c9100",
+  "object": "chat.completion",
+  "created": 1760384694,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação não trata da causa do problema identificado na constatação (documentações de prontuários não arquivadas e indisponíveis), mas sim de um procedimento específico de acompanhamento da recomposição de um recurso financeiro ao Fundo Nacional de Saúde. Não há qualquer ação proposta para resolver a causa raiz da falta de arquivamento e disponibilização dos prontuários, que seria a origem da condição encontrada.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1059,
+    "completion_tokens": 137,
+    "total_tokens": 1196,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 227
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

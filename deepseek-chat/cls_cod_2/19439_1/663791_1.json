@@ -1,0 +1,28 @@
+{
+  "id": "10ceee1b-b3d1-49cb-8296-7e00854ba030",
+  "object": "chat.completion",
+  "created": 1760385559,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe que o município efetue o registro fidedigno da produção ambulatorial no SIA/SUS, alinhando-se aos manuais e portarias citados. Esta ação visa corrigir a condição específica de registros não comprovados, mas não identifica ou aborda explicitamente as causas subjacentes que levaram à inserção incorreta dos dados (como falhas de processo, capacitação insuficiente ou controle interno inadequado). Portanto, a recomendação foca na condição imediata (registros infiéis) e não na causa raiz. Como o critério 'Foco Causa' não foi atendido, a análise de efeitos duradouros não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1389,
+    "completion_tokens": 206,
+    "total_tokens": 1595,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 557
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

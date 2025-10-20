@@ -1,0 +1,28 @@
+{
+  "id": "f574df66-a25e-465f-a474-9cf1e7e7d579",
+  "object": "chat.completion",
+  "created": 1760467701,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise fornecida avalia corretamente que a recomendação se concentra na correção da condição financeira imediata, sem abordar as causas subjacentes do uso indevido das APACs, como falhas processuais ou de controle. No entanto, a avaliação do critério 'Efeitos Duradouros' está corretamente marcada como 'Não se aplica', pois depende de uma resposta 'Sim' para 'Foco Causa'.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1336,
+    "completion_tokens": 144,
+    "total_tokens": 1480,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 376
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

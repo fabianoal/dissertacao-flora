@@ -1,0 +1,28 @@
+{
+  "id": "ccd37e73-890b-4b02-86dd-b93058a19665",
+  "object": "chat.completion",
+  "created": 1760037572,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"A recomendação sugere uma ação direta para resolver a condição encontrada, que é a ausência do Alvará de Licença Sanitária, indicando uma ação corretiva. No entanto, não propõe nenhuma ação adicional para tratar a causa subjacente que permitiu a ocorrência dessa condição, como falhas em processos de licenciamento ou monitoramento. Portanto, não há foco na causa além da correção imediata.\",\n   \"Ação Corretiva\": \"Sim\",\n   \"Ação Foco Causa\": \"Não\",\n   \"Efeitos Duradouros\": \"Não se Aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1118,
+    "completion_tokens": 148,
+    "total_tokens": 1266,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 94
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "81ceff51-3535-4cdf-a365-cd96d1ae1501",
+  "object": "chat.completion",
+  "created": 1760387738,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe que a SES/AM atue junto à PRONEFRO para garantir a realização dos exames periódicos conforme as diretrizes clínicas, o que visa corrigir a condição específica de não cumprimento dos exames, sem abordar as causas subjacentes (como falta de recursos, capacitação ou processos) que levam a essa não realização. Portanto, a recomendação é focada na condição. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, essa análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1164,
+    "completion_tokens": 177,
+    "total_tokens": 1341,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 332
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

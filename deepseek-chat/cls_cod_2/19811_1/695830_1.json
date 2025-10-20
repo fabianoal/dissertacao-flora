@@ -1,0 +1,28 @@
+{
+  "id": "3c1acb93-a67b-49f9-bc2e-3a7ba690dd3c",
+  "object": "chat.completion",
+  "created": 1760397812,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a adoção de medidas para que as UBS realizem o compartilhamento de registros, o que visa corrigir a causa subjacente (falta de compartilhamento sistemático) e não apenas a condição atual de registros não compartilhados. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um processo formal de compartilhamento, baseado em normativa, tende a criar uma mudança estrutural que permanece independente de mudanças nos atores envolvidos, como gestores ou profissionais de saúde.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 982,
+    "completion_tokens": 165,
+    "total_tokens": 1147,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 150
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

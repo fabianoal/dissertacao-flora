@@ -1,0 +1,28 @@
+{
+  "id": "2eb19be1-ea08-4f3f-8bd8-51e4dff84e4f",
+  "object": "chat.completion",
+  "created": 1760400152,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe o registro e envio dos dados da produção ambulatorial para a Base Nacional do SIA/SUS, com garantia de integridade e veracidade, o que visa tratar a causa do problema (falta de correspondência entre prontuários e dados do Tabwin) ao estabelecer um processo sistemático de registro e transmissão de dados. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um processo padronizado de registro e envio de dados deve persistir independentemente de mudanças nos atores envolvidos, pois se baseia em procedimentos estabelecidos e conformidade com a portaria citada.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1001,
+    "completion_tokens": 185,
+    "total_tokens": 1186,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 169
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

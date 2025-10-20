@@ -1,0 +1,28 @@
+{
+  "id": "3168e707-c90c-4b0d-b38b-81a1bcb64b4c",
+  "object": "chat.completion",
+  "created": 1760385907,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que visam corrigir a condição imediata (não incluir veículos não pertencentes ao SAMU 192 na lista de controle de abastecimento) e também trata da causa ao sugerir a instituição de mecanismos de controle/monitoramento periódicos para revisão constante das listagens/registros, o que visa prevenir a reocorrência do problema. Já em relação aos efeitos pretendidos pela recomendação, os mecanismos de controle periódicos estabelecidos permanecerão efetivos mesmo com mudanças nos atores envolvidos, pois criam processos estruturados e independentes das pessoas específicas.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1073,
+    "completion_tokens": 184,
+    "total_tokens": 1257,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 241
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

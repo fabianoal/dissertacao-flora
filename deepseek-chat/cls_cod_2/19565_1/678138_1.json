@@ -1,0 +1,28 @@
+{
+  "id": "d35ad0f6-1d45-470a-96d8-993dce4f760f",
+  "object": "chat.completion",
+  "created": 1760388022,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações para garantir a disponibilidade contínua das ambulâncias (manutenção preventiva, renovação da frota e reserva técnica), mas não aborda diretamente a causa raiz da não conformidade com a capacidade instalada exigida pela legislação, que é a insuficiência quantitativa de ambulâncias para a cobertura populacional. As ações sugeridas são mais focadas em corrigir e prevenir problemas operacionais de disponibilidade do que em expandir a frota para atender às diretrizes legais. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, esta análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1190,
+    "completion_tokens": 199,
+    "total_tokens": 1389,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 358
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c6b4869a-e374-4abe-b3c8-2ff1e3bb1599",
+  "object": "chat.completion",
+  "created": 1760399588,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam tanto da condição atual (realizar levantamento de bens permanentes) quanto da causa do problema (implantar controle de acesso, vigilância, serviço de limpeza e plano de manutenção preventiva), visando evitar que a inadequação das instalações volte a ocorrer. Já em relação aos efeitos pretendidos pela recomendação, as ações voltadas para a causa (controle de acesso, vigilância, limpeza e manutenção preventiva) estabelecem sistemas e procedimentos que devem permanecer independentemente de mudanças nos atores envolvidos, pois estão baseados em contratos, planos e protocolos formais.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1114,
+    "completion_tokens": 191,
+    "total_tokens": 1305,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 282
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

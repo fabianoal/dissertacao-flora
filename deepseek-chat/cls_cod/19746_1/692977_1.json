@@ -1,0 +1,28 @@
+{
+  "id": "002e5115-c86a-42d5-b38e-908eb9f10dec",
+  "object": "chat.completion",
+  "created": 1760036016,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere ações para resolver a condição encontrada (elaborar e implementar plano de capacitação, garantir registro formal e certificar-se de que os treinamentos incluam temas específicos), o que caracteriza uma ação corretiva. Além disso, propõe uma ação com foco na causa ao estabelecer um plano de capacitação contínua e atualização constante, que visa prevenir a recorrência da falta de treinamentos regulares, indo além do mero cumprimento normativo, sendo específica. Os efeitos pretendidos, como a implementação de um plano contínuo, tendem a permanecer mesmo com mudanças de atores, pois se baseiam em processos estruturados.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Específica\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1226,
+    "completion_tokens": 203,
+    "total_tokens": 1429,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 202
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

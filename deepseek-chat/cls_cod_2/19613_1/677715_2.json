@@ -1,0 +1,28 @@
+{
+  "id": "fd7eb3c0-12aa-4cab-a2a4-776f15082ebe",
+  "object": "chat.completion",
+  "created": 1760389994,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a orientação de fiscais e gestores para conferir documentação comprobatória de despesas, o que visa corrigir a ausência específica de comprovação identificada, sem abordar as causas subjacentes, como falta de capacitação ou falhas sistêmicas. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1043,
+    "completion_tokens": 144,
+    "total_tokens": 1187,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 211
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

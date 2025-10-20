@@ -1,0 +1,28 @@
+{
+  "id": "1cdde083-0d7d-4339-9e38-ce68e5199fc5",
+  "object": "chat.completion",
+  "created": 1760397128,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe múltiplas ações para tratar a causa raiz da constatação, que é a ausência de monitoramento contínuo dos controles na Cadeia de Frio. As ações incluem: implementar programas de treinamento contínuo para capacitar a equipe sobre diretrizes e procedimentos operacionais padronizados (POPs), instituir indicadores de desempenho para monitoramento contínuo e aprimoramento dos controles, e estabelecer um sistema de registro de temperatura com identificação clara de responsáveis e horários. Essas medidas visam criar estruturas e processos permanentes para garantir que o monitoramento seja realizado de forma contínua e eficaz, abordando a causa do problema (falta de mecanismos sistemáticos de monitoramento e capacitação) e não apenas corrigindo a condição atual. Em relação aos efeitos duradouros, as ações propostas (como treinamento contínuo, indicadores de desempenho e sistema de registro) são projetadas para institucionalizar práticas que permaneçam efetivas mesmo com mudanças na equipe ou gestores, pois dependem de sistemas e processos estabelecidos, e não de indivíduos específicos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1411,
+    "completion_tokens": 300,
+    "total_tokens": 1711,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 579
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

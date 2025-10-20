@@ -1,0 +1,28 @@
+{
+  "id": "cea6f3ca-2646-478c-b4d7-5455e30181d2",
+  "object": "chat.completion",
+  "created": 1760458145,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações de apoio, orientação e supervisão aos fiscais, que podem abordar causas subjacentes, como falta de capacitação ou supervisão inadequada, em vez de apenas corrigir a condição imediata de ausência/incompletude dos relatórios. Para o critério 'Efeitos Duradouros', as ações sugeridas têm potencial para criar estruturas de suporte e procedimentos que podem perdurar com mudanças de pessoal, mas dependem da continuidade desses esforços de supervisão e apoio.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1270,
+    "completion_tokens": 180,
+    "total_tokens": 1450,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 310
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

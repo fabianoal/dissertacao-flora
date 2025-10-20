@@ -1,0 +1,28 @@
+{
+  "id": "5ec37a62-6633-4e70-883e-666c62376b29",
+  "object": "chat.completion",
+  "created": 1760396392,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe duas ações distintas: a implantação de um regimento interno conforme a RDC n.º 63/2011 e a inserção formal da CMRF na estrutura organizacional da SMS. A primeira ação (implantação do regimento interno) visa estabelecer diretrizes permanentes para definição de atividades, responsabilidades e competências, tratando assim da causa raiz da falta de formalização estrutural. A segunda ação (inserção na estrutura organizacional) corrige diretamente a condição encontrada. Como há pelo menos uma ação focada na causa, o critério 'Foco Causa' é atendido. Quanto aos efeitos duradouros, a implantação do regimento interno cria um marco regulatório e organizacional que permanece independente de mudanças nos atores envolvidos, estabelecendo procedimentos e responsabilidades formalizados que transcendem pessoas específicas.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1045,
+    "completion_tokens": 239,
+    "total_tokens": 1284,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 213
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

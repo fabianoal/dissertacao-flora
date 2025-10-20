@@ -1,0 +1,28 @@
+{
+  "id": "bd5003fa-92d6-453a-98d8-b8a34f0201e7",
+  "object": "chat.completion",
+  "created": 1760462701,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a elaboração de um plano de contingência formalizado, o que efetivamente trata a causa do problema identificado na constatação, que é a ausência de um documento formal. Quanto ao critério 'Efeitos Duradouros', a implementação de um plano formalizado com revisões periódicas estabelece uma estrutura que pode persistir independentemente de mudanças nos atores envolvidos, desde que haja aderência aos procedimentos documentados.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1147,
+    "completion_tokens": 161,
+    "total_tokens": 1308,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 251
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ca56ca4f-f24e-445b-af5e-4dc31763f58d",
+  "object": "chat.completion",
+  "created": 1760396472,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"A recomendação propõe adequações na estrutura física para corrigir a condição encontrada de não conformidade com os requisitos mínimos, focando na correção imediata da infraestrutura. No entanto, não há menção a ações que abordem a causa subjacente do problema, como falhas em processos de planejamento, manutenção preventiva contínua ou capacitação de pessoal, que poderiam prevenir a recorrência. Portanto, a recomendação é condition-based, não cause-based. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n   \"Foco Causa\": \"Não\",\n   \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1124,
+    "completion_tokens": 178,
+    "total_tokens": 1302,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 292
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

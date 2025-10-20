@@ -1,0 +1,28 @@
+{
+  "id": "1165b6d8-368b-4ebe-abf3-76eb3c476c6a",
+  "object": "chat.completion",
+  "created": 1760466773,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a inclusão formal dos indicadores de saúde do trabalhador nos instrumentos de gestão municipal (PAS e RAG), o que visa tratar a causa raiz do problema (a ausência desses indicadores na estrutura de gestão), e não apenas corrigir uma condição temporária. Quanto ao critério 'Efeitos Duradouros', a inclusão nos instrumentos de gestão estabelece uma mudança estrutural que deve persistir independentemente de mudanças nos gestores, pois se integra à política e aos processos formais do município.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1262,
+    "completion_tokens": 182,
+    "total_tokens": 1444,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 366
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

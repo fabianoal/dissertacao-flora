@@ -1,0 +1,28 @@
+{
+  "id": "408ba8c9-e0f0-40f1-9f59-0138f9857841",
+  "object": "chat.completion",
+  "created": 1760453453,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe estabelecer medidas para assegurar a atuação de uma comissão específica, o que pode abordar causas subjacentes, como falhas na governança ou supervisão, em vez de apenas corrigir a condição imediata das etiquetas. Para o critério 'Efeitos Duradouros', a implementação de uma comissão formal tende a criar estruturas e processos que podem persistir independentemente de mudanças nos atores, promovendo sustentabilidade.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1201,
+    "completion_tokens": 169,
+    "total_tokens": 1370,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 241
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

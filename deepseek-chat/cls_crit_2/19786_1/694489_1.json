@@ -1,0 +1,28 @@
+{
+  "id": "36f53acd-2560-4067-bc31-5e367bec422c",
+  "object": "chat.completion",
+  "created": 1760464433,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise crítica avalia a classificação fornecida para os critérios 'Foco Causa' e 'Efeitos Duradouros' com base na constatação e recomendação apresentadas. A constatação indica a ausência de monitoramento contínuo dos controles na Cadeia de Frio, e a recomendação propõe estabelecer práticas de monitoramento e controle de forma articulada. A classificação original foi 'Sim' para ambos os critérios.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1153,
+    "completion_tokens": 147,
+    "total_tokens": 1300,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 257
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

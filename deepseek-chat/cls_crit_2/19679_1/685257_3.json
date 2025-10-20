@@ -1,0 +1,28 @@
+{
+  "id": "969aac33-77f6-4596-9092-06e1d404f3a5",
+  "object": "chat.completion",
+  "created": 1760459241,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe orientação para fiscal e gestor sobre acompanhamento de processos, o que aborda a causa subjacente da irregularidade (falta de orientação adequada). Para 'Efeitos Duradouros', a orientação baseada em normas legais pode estabelecer um padrão contínuo, mas depende da implementação consistente e não garante permanência automática com mudança de atores.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1201,
+    "completion_tokens": 149,
+    "total_tokens": 1350,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 305
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

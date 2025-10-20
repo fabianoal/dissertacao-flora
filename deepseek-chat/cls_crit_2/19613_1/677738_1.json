@@ -1,0 +1,28 @@
+{
+  "id": "6384bf3e-80d1-4abd-8bb7-8ca46023a995",
+  "object": "chat.completion",
+  "created": 1760456941,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise da codificação está correta em sua avaliação geral. A recomendação trata especificamente da correção da condição imediata (ausência dos relatórios), sem propor ações que ataquem as causas subjacentes que levaram a essa situação.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1202,
+    "completion_tokens": 103,
+    "total_tokens": 1305,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 306
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

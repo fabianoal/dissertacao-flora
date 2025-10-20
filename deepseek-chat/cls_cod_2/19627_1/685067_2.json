@@ -1,0 +1,28 @@
+{
+  "id": "6d734a8c-090d-4e99-89d9-d2736eacd1cf",
+  "object": "chat.completion",
+  "created": 1760391282,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a inclusão de documentos no sistema Transferegov para comprovar a execução dos serviços, o que visa corrigir diretamente a condição encontrada de pagamentos sem comprovação. No entanto, não há menção a ações que abordem a causa subjacente, como falhas em processos de controle interno ou capacitação de pessoal, focando apenas na solução imediata do problema. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 993,
+    "completion_tokens": 174,
+    "total_tokens": 1167,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 161
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

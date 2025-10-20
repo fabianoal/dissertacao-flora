@@ -1,0 +1,28 @@
+{
+  "id": "b91bd5ea-d2e2-4c6b-bb81-89fbc737d9ec",
+  "object": "chat.completion",
+  "created": 1760390630,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação solicita que a convenente apresente justificativas e documentação comprobatória para irregularidades na contratação, focando na correção da condição específica (falta de documentação) em vez de abordar a causa raiz (como falhas nos processos de contratação que permitiram a contratação de empresas com atividades idênticas). Portanto, não há ação proposta para tratar a causa do problema. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1025,
+    "completion_tokens": 166,
+    "total_tokens": 1191,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 193
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

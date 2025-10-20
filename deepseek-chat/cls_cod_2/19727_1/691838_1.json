@@ -1,0 +1,28 @@
+{
+  "id": "82a6fa78-fb9b-4c4b-8614-f972cfa356e4",
+  "object": "chat.completion",
+  "created": 1760394684,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação contém duas partes distintas. A primeira parte (I) propõe ações corretivas imediatas para resolver a condição atual de falta de manutenção, como remoção do mofo e outras correções necessárias, caracterizando-se como foco na condição. A segunda parte (II) estabelece um plano de manutenção preventiva regular para evitar problemas futuros, o que constitui uma ação voltada para tratar a causa do problema de falta de manutenção predial sistemática. Já em relação aos efeitos pretendidos pela recomendação que trata da causa, o plano de manutenção preventiva regular cria um sistema permanente que continuará funcionando independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1258,
+    "completion_tokens": 208,
+    "total_tokens": 1466,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 426
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

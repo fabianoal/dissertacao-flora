@@ -1,0 +1,28 @@
+{
+  "id": "b87adace-9914-41d0-8143-517c69edc01d",
+  "object": "chat.completion",
+  "created": 1760456273,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda tanto ações corretivas imediatas quanto preventivas, mas a análise do modelo pode ter superestimado o foco na causa raiz. Quanto ao critério 'Efeitos Duradouros', a implementação de procedimentos sistemáticos sugere durabilidade, mas dependem da adesão contínua das unidades.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1296,
+    "completion_tokens": 135,
+    "total_tokens": 1431,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 336
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

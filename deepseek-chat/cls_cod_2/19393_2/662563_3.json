@@ -1,0 +1,28 @@
+{
+  "id": "914ff608-e5d7-4bda-9f84-b292c196e991",
+  "object": "chat.completion",
+  "created": 1760385147,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a adoção de medidas de apuração para a cobrança administrativa visando a recomposição do recurso ao Fundo Nacional de Saúde, com base em dispositivos legais. Esta ação está focada na correção da condição específica de cobrança indevida identificada (quantidade superior à implantada), tratando diretamente da consequência financeira do problema, mas não aborda as causas subjacentes que permitiram a ocorrência da cobrança excessiva, como falhas em processos de controle, verificação ou sistemas que deveriam prevenir tais discrepâncias. Portanto, a recomendação é condition-based, não cause-based. Como o critério 'Foco Causa' não é atendido, a avaliação de 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1097,
+    "completion_tokens": 219,
+    "total_tokens": 1316,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 201
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "43961aa3-7b98-4ac9-974d-168026769b58",
+  "object": "chat.completion",
+  "created": 1760469414,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a implementação de processos sistemáticos de gestão de suprimentos (mapas de abastecimento, solicitação diária e checklists) que visam abordar a causa raiz do problema, que é a falta de processos estruturados para dimensionar e repor materiais e medicamentos de forma compatível com os fluxos de trabalho. Quanto ao critério 'Efeitos Duradouros', a implementação de procedimentos padronizados e documentados tende a criar um sistema que pode ser mantido independentemente de mudanças na equipe, desde que haja adesão contínua e supervisão adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1233,
+    "completion_tokens": 199,
+    "total_tokens": 1432,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 337
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

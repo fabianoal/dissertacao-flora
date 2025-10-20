@@ -1,0 +1,28 @@
+{
+  "id": "864129c9-8a13-420c-a10c-7071864b955f",
+  "object": "chat.completion",
+  "created": 1760465669,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações que visam estabelecer um processo sistemático de registro e atualização de informações, o que efetivamente trata a causa subjacente do problema (falta de um processo adequado e contínuo), e não apenas corrige os registros incompletos existentes. Quanto ao critério 'Efeitos Duradouros', a implementação de um processo estruturado e o uso do sistema de informação vigente criam uma rotina e infraestrutura que podem persistir mesmo com mudanças de pessoal, promovendo efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1282,
+    "completion_tokens": 185,
+    "total_tokens": 1467,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 386
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

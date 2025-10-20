@@ -1,0 +1,28 @@
+{
+  "id": "5f3fa9a2-f8cc-479a-892f-4b0810d490ab",
+  "object": "chat.completion",
+  "created": 1760462518,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise fornecida avalia corretamente que a recomendação não aborda a causa da divergência, focando apenas em encaminhar a constatação e propor devolução de recursos, sem medidas para prevenir recorrências. No entanto, a avaliação de 'Efeitos Duradouros' está correta por não se aplicar, dado que 'Foco Causa' foi 'Não'.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1301,
+    "completion_tokens": 127,
+    "total_tokens": 1428,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 405
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

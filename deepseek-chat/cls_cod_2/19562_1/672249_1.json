@@ -1,0 +1,28 @@
+{
+  "id": "74e3e1e1-81f2-40ac-bea8-4192ee0e8315",
+  "object": "chat.completion",
+  "created": 1760387870,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe ações como atualizar periodicamente o cadastro, analisar dados, alimentar sistemas e verificar a qualidade e consistência das informações, o que sugere medidas preventivas para evitar que a discrepância de dados volte a ocorrer, tratando assim da causa do problema. Já em relação aos efeitos pretendidos pela recomendação, essas ações, se implementadas, podem estabelecer processos contínuos e sistemáticos que permanecem eficazes mesmo com mudanças nos atores envolvidos, pois se baseiam em procedimentos e orientações técnicas padronizadas.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1020,
+    "completion_tokens": 161,
+    "total_tokens": 1181,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 188
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

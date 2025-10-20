@@ -1,0 +1,28 @@
+{
+  "id": "584185fd-61e9-4a9b-a11c-233dbc40bf7b",
+  "object": "chat.completion",
+  "created": 1760387442,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a exigir o cumprimento de normas existentes sobre padronização visual de uniformes, sem propor ações para tratar a causa subjacente que levou ao descumprimento dessas normas. Não há menção a medidas como revisão de processos de aquisição, capacitação de pessoal, implementação de controles internos ou outras ações que ataquem a raiz do problema. A recomendação é focada na condição atual de divergência nos uniformes, não na causa que permitiu que essa divergência ocorresse.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1189,
+    "completion_tokens": 159,
+    "total_tokens": 1348,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 357
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

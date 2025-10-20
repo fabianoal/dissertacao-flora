@@ -1,0 +1,28 @@
+{
+  "id": "b364f54d-46c6-4db8-81f9-0cade6e4fc58",
+  "object": "chat.completion",
+  "created": 1760395264,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a adoção de veículos climatizados para o transporte de imunobiológicos, o que trata diretamente da causa do problema (transporte inadequado devido à falta de climatização), em vez de apenas corrigir uma condição temporária. Já em relação aos efeitos pretendidos pela recomendação, a implementação de veículos climatizados estabelece uma solução estrutural que permanece independentemente de mudanças nos atores envolvidos, garantindo controle duradouro sobre a temperatura durante o transporte.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1013,
+    "completion_tokens": 154,
+    "total_tokens": 1167,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 181
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

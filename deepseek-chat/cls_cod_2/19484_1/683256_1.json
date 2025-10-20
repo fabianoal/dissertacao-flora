@@ -1,0 +1,28 @@
+{
+  "id": "fc8ac9f3-34a8-43fe-b482-0f7151788600",
+  "object": "chat.completion",
+  "created": 1760386034,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe apenas a devolução de valores pagos indevidamente, tratando da condição específica (pagamento irregular) sem abordar as causas que levaram a essa irregularidade, como falhas nos processos de controle ou verificação. Já em relação aos efeitos pretendidos pela recomendação, não se aplica a análise, pois o critério 'Foco Causa' não foi atendido.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1070,
+    "completion_tokens": 134,
+    "total_tokens": 1204,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 238
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

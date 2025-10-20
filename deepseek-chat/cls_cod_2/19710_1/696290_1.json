@@ -1,0 +1,28 @@
+{
+  "id": "4446020c-b502-4d57-bd53-175ed8c95e38",
+  "object": "chat.completion",
+  "created": 1760394300,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações para regularizar a emissão, guarda e certificação digital dos prontuários, mas não identifica ou trata explicitamente as causas subjacentes que levaram às falhas (como falta de treinamento, recursos inadequados ou processos deficientes). As medidas são direcionadas a corrigir a condição atual. Já em relação aos efeitos pretendidos pela recomendação, como o critério 'Foco Causa' não foi atendido, esta análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1319,
+    "completion_tokens": 155,
+    "total_tokens": 1474,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 487
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

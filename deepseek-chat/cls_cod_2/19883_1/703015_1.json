@@ -1,0 +1,28 @@
+{
+  "id": "36e5c742-982a-4b55-a74d-b0f62b93b93c",
+  "object": "chat.completion",
+  "created": 1760400556,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe que o hospital assegure a solicitação de radioterapia prévia ou concomitante ao tratamento com hormonoterapia adjuvante, conforme estabelecido na Portaria SAS/MS nº 498/2016. Esta ação visa corrigir a condição específica observada de não solicitação da radioterapia, focando na conformidade imediata com a norma, sem propor medidas para abordar as causas subjacentes que levaram ao descumprimento (como falhas em processos internos, capacitação da equipe ou sistemas de verificação). Portanto, a recomendação é condition-based, não cause-based. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1139,
+    "completion_tokens": 209,
+    "total_tokens": 1348,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 307
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

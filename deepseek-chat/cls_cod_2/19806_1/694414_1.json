@@ -1,0 +1,28 @@
+{
+  "id": "b3587c17-83c0-4301-ab32-6df661600c1f",
+  "object": "chat.completion",
+  "created": 1760397552,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação possui duas partes: a) orientar gerentes sobre responsabilidades de identificação de necessidades de formação, e b) adotar mecanismos sistemáticos para levantamento de demanda de capacitação. Ambas as partes focam em estabelecer processos e estruturas permanentes para identificar necessidades de capacitação, tratando assim a causa do problema (ausência de levantamento sistemático) e não apenas corrigindo a condição atual. Em relação aos efeitos duradouros, a implementação de mecanismos sistemáticos e a orientação formal sobre responsabilidades criam estruturas que devem persistir independentemente de mudanças nos atores envolvidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1281,
+    "completion_tokens": 176,
+    "total_tokens": 1457,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 449
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

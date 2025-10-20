@@ -1,0 +1,28 @@
+{
+  "id": "01f8c03a-9678-45b0-82c0-f72121b72070",
+  "object": "chat.completion",
+  "created": 1760389150,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação 1 trata de fornecer informações quando exigidas, o que é uma ação reativa para corrigir a condição específica de falta de apresentação do documento, sem abordar a causa subjacente (como falhas em processos de documentação ou treinamento). A recomendação 2 estabelece procedimentos permanentes para manutenção de documentos, incluindo arquivamento em locais distintos e formatos, o que visa prevenir a perda ou indisponibilidade futura de documentos, tratando assim da causa raiz (gestão inadequada de documentos). Quanto aos efeitos duradouros, a recomendação 2 cria um sistema estruturado de arquivamento que independe de indivíduos específicos, persistindo mesmo com mudanças de pessoal.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1104,
+    "completion_tokens": 207,
+    "total_tokens": 1311,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 272
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

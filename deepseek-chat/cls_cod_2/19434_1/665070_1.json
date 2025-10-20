@@ -1,0 +1,28 @@
+{
+  "id": "0d921917-ed80-4e63-8ca2-c39701dfd866",
+  "object": "chat.completion",
+  "created": 1760385478,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação 1 trata da apresentação de documentação para auditoria, focando em cumprir exigências legais imediatas, sem abordar a causa da falta de comprovação. A recomendação 2 estabelece procedimentos de arquivamento de documentos fiscais, que visa prevenir a reincidência do problema ao assegurar a preservação da documentação, tratando assim da causa subjacente da falta de comprovação. A recomendação 3 enfatiza a observância das regras do programa para evitar irregularidades, abordando a causa ao promover conformidade contínua. Em relação aos efeitos duradouros, as medidas de arquivamento (recomendação 2) e conformidade com regras (recomendação 3) são institucionalizadas, persistindo independentemente de mudanças de atores, pois estão baseadas em procedimentos e normas estabelecidas.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1254,
+    "completion_tokens": 235,
+    "total_tokens": 1489,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 422
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

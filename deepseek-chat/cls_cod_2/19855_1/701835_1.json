@@ -1,0 +1,28 @@
+{
+  "id": "0bdf9352-62c2-4eb0-9a37-5f83a93cb85e",
+  "object": "chat.completion",
+  "created": 1760399596,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam da causa do problema, que é a falta de formalização e planejamento da CISTT, ao exigir a publicação da resolução de nomeação e a elaboração de um plano de trabalho. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como a formalização via resolução e a criação de um plano de trabalho, estabelecem estruturas e processos que devem permanecer válidos independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1086,
+    "completion_tokens": 161,
+    "total_tokens": 1247,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 254
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "e0493042-b2a3-4e0f-be24-773870fce9e0",
+  "object": "chat.completion",
+  "created": 1760462785,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda diretamente a causa do problema ao propor o estabelecimento de uma cultura de melhoria contínua baseada em indicadores e o treinamento da equipe, o que visa transformar a gestão dos processos. Para o critério 'Efeitos Duradouros', a institucionalização de uma cultura e a capacitação tendem a perdurar, mas a resposta 'Sim' pode ser questionada devido à dependência de fatores como adesão contínua e recursos, que podem variar com mudanças organizacionais.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1306,
+    "completion_tokens": 175,
+    "total_tokens": 1481,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 410
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

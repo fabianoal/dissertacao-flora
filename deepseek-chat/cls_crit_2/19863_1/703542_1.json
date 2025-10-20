@@ -1,0 +1,28 @@
+{
+  "id": "e42603e2-d422-4169-8499-6ca799156e46",
+  "object": "chat.completion",
+  "created": 1760448258,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise da codificação apresenta argumentos válidos, mas requer uma avaliação mais aprofundada dos critérios 'Foco Causa' e 'Efeitos Duradouros' com base na definição fornecida.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1232,
+    "completion_tokens": 97,
+    "total_tokens": 1329,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 400
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

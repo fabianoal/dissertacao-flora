@@ -1,0 +1,28 @@
+{
+  "id": "1666d249-0b88-4cbb-b682-3ca94ed6b636",
+  "object": "chat.completion",
+  "created": 1760400052,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação solicita a comprovação documental da publicação da portaria ou, caso não tenha ocorrido, a providência para sua publicação, conforme acordo prévio. Esta ação visa corrigir a condição específica de falta de documentação comprobatória, sem propor medidas para tratar a causa subjacente que levou à não publicação ou falta de registro, como falhas em processos de gestão documental ou de implementação de acordos. Portanto, a recomendação é focada na condição imediata. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não é atendido, não se aplica a avaliação.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 992,
+    "completion_tokens": 191,
+    "total_tokens": 1183,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 160
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

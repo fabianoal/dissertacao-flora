@@ -1,0 +1,28 @@
+{
+  "id": "1f7a8f28-d1dc-4a3c-9996-abf9146b3d37",
+  "object": "chat.completion",
+  "created": 1760467218,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo parece correta em sua fundamentação geral, mas requer uma avaliação mais detalhada dos critérios específicos. A recomendação é abrangente e inclui tanto ações corretivas imediatas quanto preventivas de longo prazo, o que justifica a classificação positiva para 'Foco Causa'. No entanto, a avaliação de 'Efeitos Duradouros' merece uma análise mais criteriosa sobre a permanência real das mudanças propostas.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1598,
+    "completion_tokens": 151,
+    "total_tokens": 1749,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 702
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

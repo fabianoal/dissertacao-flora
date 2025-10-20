@@ -1,0 +1,28 @@
+{
+  "id": "fff8196a-feb8-435a-9c33-d7de7ef40d48",
+  "object": "chat.completion",
+  "created": 1760462961,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação possui foco na causa ao propor a implementação de um programa de manutenção periódica programada, que visa prevenir a reocorrência do problema, e que os efeitos seriam duradouros devido à institucionalização de processos estruturados. No entanto, há nuances que merecem consideração.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1401,
+    "completion_tokens": 125,
+    "total_tokens": 1526,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 505
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

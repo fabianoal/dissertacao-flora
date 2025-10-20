@@ -1,0 +1,28 @@
+{
+  "id": "e7868232-afc6-448b-ba38-f6249e8142c2",
+  "object": "chat.completion",
+  "created": 1760387766,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam tanto da condição imediata (encaminhamento formal dos pacientes aptos) quanto da causa subjacente (implementação de mecanismos de controle para vagas e demanda reprimida). A criação de mecanismos de controle permanente visa prevenir a reocorrência do problema de falta de informação sobre vagas e demanda. Já em relação aos efeitos pretendidos pela recomendação, os mecanismos de controle institucionalizados permanecerão funcionais independentemente de mudanças nos atores envolvidos, pois se tornam parte dos processos formais da instituição.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1167,
+    "completion_tokens": 170,
+    "total_tokens": 1337,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 335
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

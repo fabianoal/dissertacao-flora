@@ -1,0 +1,28 @@
+{
+  "id": "b24ba2f2-73d9-4ffc-9e70-a2b67cb8bfe8",
+  "object": "chat.completion",
+  "created": 1760464865,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações que tratam diretamente das causas identificadas na constatação, especificamente a desatualização do CNES e a insuficiência do quadro de profissionais. Para o critério 'Efeitos Duradouros', a implementação de um quadro adequado de profissionais e a manutenção do CNES atualizado, baseados em normas legais, estabelecem estruturas formais que tendem a persistir independentemente de mudanças nos atores envolvidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1352,
+    "completion_tokens": 164,
+    "total_tokens": 1516,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 456
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

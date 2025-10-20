@@ -1,0 +1,28 @@
+{
+  "id": "b2bcaa18-203d-4471-90a9-7d0df9e92899",
+  "object": "chat.completion",
+  "created": 1760459181,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação se concentra em corrigir a condição imediata de registros desatualizados no CNES, sem abordar as causas subjacentes, como a falta de processos contínuos ou responsabilidades definidas para atualizações regulares. No entanto, a avaliação de 'Efeitos Duradouros' como 'Não se aplica' é apropriada, pois depende da ausência de foco na causa.\",\n  \"Análise Foco Causa\": \"Concordo\",\n  \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1186,
+    "completion_tokens": 147,
+    "total_tokens": 1333,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 290
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

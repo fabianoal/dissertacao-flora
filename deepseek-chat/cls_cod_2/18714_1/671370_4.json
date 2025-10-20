@@ -1,0 +1,28 @@
+{
+  "id": "83a20047-de2d-444c-86c2-3b8062e68910",
+  "object": "chat.completion",
+  "created": 1760383478,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a recomposição dos recursos financeiros desviados, o que visa corrigir diretamente a condição encontrada de utilização indevida de recursos, sem abordar as causas subjacentes, como falhas nos processos de controle interno ou capacitação inadequada. Portanto, ela é focada na condição, não na causa. Já em relação aos efeitos pretendidos pela recomendação, como o critério 'Foco Causa' não é atendido, não se aplica avaliar a durabilidade dos efeitos.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1104,
+    "completion_tokens": 161,
+    "total_tokens": 1265,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 208
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

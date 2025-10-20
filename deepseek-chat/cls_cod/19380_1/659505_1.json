@@ -1,0 +1,28 @@
+{
+  "id": "810b5d62-f672-4cbf-9d68-eeb60c60548a",
+  "object": "chat.completion",
+  "created": 1760037184,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação contém duas ações distintas. A primeira ação (item 1) sugere o cumprimento de normativos específicos para atualizar o cadastro no CNES, o que constitui uma ação corretiva para resolver a condição encontrada de desatualização cadastral. A segunda ação (item 2) propõe a realização de concurso público para regularizar a situação dos profissionais, o que vai além de uma mera correção da condição atual, pois busca tratar a causa subjacente (falta de processo seletivo formal) que permitiu a ocorrência da irregularidade. No entanto, essa ação é genérica, pois se limita a citar o cumprimento de um dispositivo constitucional sem especificar medidas concretas para sua implementação.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1328,
+    "completion_tokens": 219,
+    "total_tokens": 1547,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 304
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

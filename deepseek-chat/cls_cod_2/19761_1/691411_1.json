@@ -1,0 +1,28 @@
+{
+  "id": "40494a70-18bc-4b1f-8735-2fc9e5d5302b",
+  "object": "chat.completion",
+  "created": 1760395844,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe múltiplas ações, incluindo a utilização de veículos adequados, treinamentos regulares, elaboração de procedimentos operacionais padrão e implementação de sistema de registro. Essas ações visam não apenas corrigir a condição imediata (transporte inadequado), mas também prevenir sua recorrência ao abordar causas subjacentes, como falta de capacitação, ausência de procedimentos formalizados e falta de monitoramento. Portanto, há foco na causa. Quanto aos efeitos duradouros, as ações propostas (como procedimentos operacionais padrão e sistema de registro) são estruturadas para permanecerem efetivas independentemente de mudanças nos atores envolvidos, pois institucionalizam práticas e controles.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1123,
+    "completion_tokens": 205,
+    "total_tokens": 1328,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 291
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

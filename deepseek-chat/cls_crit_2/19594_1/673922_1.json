@@ -1,0 +1,28 @@
+{
+  "id": "b3ed6e0c-7ed9-473a-81b7-724b76270764",
+  "object": "chat.completion",
+  "created": 1760455521,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda a causa do problema ao propor ações para garantir o registro diário e envio mensal de dados, o que visa corrigir a falta de preenchimento adequado do prontuário. Para o critério 'Efeitos Duradouros', as mudanças propostas são institucionais e devem persistir independentemente de mudanças de pessoal, promovendo sustentabilidade.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1228,
+    "completion_tokens": 143,
+    "total_tokens": 1371,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 332
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

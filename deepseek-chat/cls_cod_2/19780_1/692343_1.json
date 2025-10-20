@@ -1,0 +1,28 @@
+{
+  "id": "d9e559cc-4889-4679-856c-aec2126f61f7",
+  "object": "chat.completion",
+  "created": 1760396552,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe estabelecer procedimentos formais para inspeção na entrada e saída de materiais, o que visa tratar a causa raiz do problema (falta de processos estruturados) e não apenas corrigir condições específicas observadas. Já em relação aos efeitos pretendidos pela recomendação, a implementação de procedimentos formais cria um sistema que permanece independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1085,
+    "completion_tokens": 144,
+    "total_tokens": 1229,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 253
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

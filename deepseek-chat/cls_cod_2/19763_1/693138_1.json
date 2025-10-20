@@ -1,0 +1,28 @@
+{
+  "id": "4f2edf44-2626-4037-b0c0-e132fc87a4cb",
+  "object": "chat.completion",
+  "created": 1760395960,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, as recomendações propostas incluem ações que tratam das causas do problema identificado, como a construção de infraestrutura adequada (doca coberta, salas exclusivas), implementação de sistemas de registro e monitoramento (data loggers, checklists), e estabelecimento de programas de treinamento e revisão de processos. Essas medidas visam prevenir a reocorrência da condição insuficiente de inspeção, abordando causas estruturais, procedimentais e de capacitação. Já em relação aos efeitos pretendidos, as ações sugeridas para tratar as causas (como infraestrutura física, sistemas documentais e programas de treinamento) tendem a produzir efeitos duradouros, pois independem de mudanças pontuais de pessoal, sendo incorporadas à estrutura organizacional e aos procedimentos operacionais padrão.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1733,
+    "completion_tokens": 228,
+    "total_tokens": 1961,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 901
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

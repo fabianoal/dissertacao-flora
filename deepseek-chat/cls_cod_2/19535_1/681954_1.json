@@ -1,0 +1,28 @@
+{
+  "id": "c1bd04b2-7984-4006-99f0-7d5319208280",
+  "object": "chat.completion",
+  "created": 1760387162,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a apresentação e manutenção de documentos comprobatórios da aquisição de medicamentos, como notas fiscais, para atender a exigências legais e evitar práticas irregulares. No entanto, a ação sugerida é focada na correção da condição atual (falta de comprovação documental) e na prevenção futura por meio do cumprimento de normas, sem identificar ou abordar a causa raiz que levou à ausência desses documentos, como falhas em processos internos, falta de capacitação ou sistemas inadequados. Portanto, não há ação que trate diretamente da causa do problema. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1132,
+    "completion_tokens": 214,
+    "total_tokens": 1346,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 300
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

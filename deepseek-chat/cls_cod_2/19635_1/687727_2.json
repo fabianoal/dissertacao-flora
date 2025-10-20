@@ -1,0 +1,28 @@
+{
+  "id": "d87063e3-5ad7-4f6e-8428-f40dbef30626",
+  "object": "chat.completion",
+  "created": 1760391786,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação apenas solicita que a SAES/MS tome conhecimento da constatação e adote procedimentos conforme o decreto mencionado, sem especificar ações concretas para tratar a causa da incompatibilidade entre os dados inseridos e a produção real. Não há menção a ações como implementação de processos de validação, capacitação de pessoal ou revisão de sistemas que poderiam abordar a causa raiz do problema.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1132,
+    "completion_tokens": 130,
+    "total_tokens": 1262,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 108
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "57b9071e-ac26-436b-a0ad-2d88b6713fe8",
+  "object": "chat.completion",
+  "created": 1760038388,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere ações corretivas, como capacitação e estabelecimento de rotinas, para resolver a discrepância nos dados. Além disso, propõe ações com foco na causa, como a preferência por prontuários eletrônicos, que visa melhorar a qualidade dos registros a longo prazo, embora a referência a notas técnicas seja genérica. A ação específica com prontuários eletrônicos tem efeitos duradouros, pois independe de mudanças nos atores envolvidos.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Específica\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1193,
+    "completion_tokens": 163,
+    "total_tokens": 1356,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 169
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

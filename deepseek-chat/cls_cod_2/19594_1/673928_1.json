@@ -1,0 +1,28 @@
+{
+  "id": "6d65bfea-cf8d-4f9d-9853-4ebf72417518",
+  "object": "chat.completion",
+  "created": 1760388666,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a composição das equipes de saúde da família conforme critérios normativos estabelecidos, o que visa tratar diretamente a causa do problema (ausência de composição mínima) ao estabelecer uma estrutura permanente. Já em relação aos efeitos pretendidos pela recomendação, a implementação da composição mínima cria uma estrutura organizacional que permanece independentemente de mudanças nos profissionais específicos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1012,
+    "completion_tokens": 141,
+    "total_tokens": 1153,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 180
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

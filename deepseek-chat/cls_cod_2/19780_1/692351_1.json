@@ -1,0 +1,28 @@
+{
+  "id": "8d27f71e-9d92-4566-9c0c-6813e8416c13",
+  "object": "chat.completion",
+  "created": 1760396560,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a criação de procedimentos formais para monitoramento contínuo durante o transporte, o que visa tratar a causa raiz do problema (falta de procedimentos padronizados) e não apenas corrigir condições específicas observadas. Já em relação aos efeitos pretendidos pela recomendação, a implementação de procedimentos formais criaria uma estrutura permanente de controle que permaneceria efetiva mesmo com mudanças nos profissionais responsáveis pelo transporte.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1040,
+    "completion_tokens": 142,
+    "total_tokens": 1182,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 208
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

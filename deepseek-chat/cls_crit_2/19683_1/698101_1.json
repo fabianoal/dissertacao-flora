@@ -1,0 +1,28 @@
+{
+  "id": "f518a4ab-4613-4b44-8f8f-93c6a093de56",
+  "object": "chat.completion",
+  "created": 1760448626,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe uma ação preventiva que visa evitar a reincidência do problema, tratando assim da causa raiz. Quanto ao critério 'Efeitos Duradouros', a recomendação estabelece um procedimento contínuo que pode persistir independentemente de mudanças nos atores, desde que integrado às práticas institucionais.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1250,
+    "completion_tokens": 135,
+    "total_tokens": 1385,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 354
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

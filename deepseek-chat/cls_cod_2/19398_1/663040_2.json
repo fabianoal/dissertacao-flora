@@ -1,0 +1,28 @@
+{
+  "id": "4d432bce-0bc4-4b5c-b62d-2487b4805936",
+  "object": "chat.completion",
+  "created": 1760385255,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação estabelece um procedimento para a guarda de documentos fiscais por um prazo determinado, com especificações sobre cópias e formas de arquivamento, baseando-se em normativos legais. No entanto, a ação proposta é reativa e focada na correção da condição encontrada (falta de comprovação documental), sem abordar as causas subjacentes que levaram à ausência desses documentos, como falhas nos processos de aquisição, controle interno ou capacitação de pessoal. Portanto, não há tratamento da causa raiz do problema. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, a análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1022,
+    "completion_tokens": 197,
+    "total_tokens": 1219,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 190
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

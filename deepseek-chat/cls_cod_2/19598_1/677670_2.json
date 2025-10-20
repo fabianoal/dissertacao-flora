@@ -1,0 +1,28 @@
+{
+  "id": "fe82e77b-2b44-4d87-8aa4-2211bb12e5ef",
+  "object": "chat.completion",
+  "created": 1760388922,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a elaboração de um documento instrucional para definir regras claras sobre trocas de escalas, horários de descanso, atestados e trocas de serviços, o que visa abordar a causa raiz do problema (falta de regras padronizadas e internalizadas) que gerou a condição de inobservâncias nos turnos. Já em relação aos efeitos pretendidos pela recomendação, a internalização e aplicação das regras a todos os profissionais sugerem que os efeitos (como a padronização e conformidade) podem perdurar mesmo com mudanças nos atores envolvidos, pois as regras documentadas e internalizadas tendem a ser mantidas independentemente de quem ocupa os cargos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 975,
+    "completion_tokens": 204,
+    "total_tokens": 1179,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 79
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

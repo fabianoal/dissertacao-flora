@@ -1,0 +1,28 @@
+{
+  "id": "dc583929-9797-4b87-a1cd-c707b345f4b8",
+  "object": "chat.completion",
+  "created": 1760454589,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações para realizar exames conforme diretrizes, mas não identifica ou trata as causas raiz do não atingimento da meta, como falhas em processos, capacitação ou recursos. Quanto ao critério 'Efeitos Duradouros', como 'Foco Causa' é 'Não', a análise de não aplicação está correta.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1222,
+    "completion_tokens": 136,
+    "total_tokens": 1358,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 326
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

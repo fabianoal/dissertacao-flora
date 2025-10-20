@@ -1,0 +1,28 @@
+{
+  "id": "bb5283d1-9b4d-451e-92fc-eb0a289b7d92",
+  "object": "chat.completion",
+  "created": 1760400624,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações como capacitação, monitoramento e avaliação do processo de solicitação, autorização e faturamento, que visam tratar a causa raiz do problema (falhas no processo e falta de capacitação), e não apenas corrigir a condição específica de internação sem APAC. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas (capacitação contínua, monitoramento e avaliação do processo) são estruturadas para criar melhorias permanentes no sistema, que devem persistir mesmo com mudanças na equipe ou gestão, pois estão baseadas em procedimentos padronizados e conformidade com manuais técnicos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1018,
+    "completion_tokens": 189,
+    "total_tokens": 1207,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 186
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

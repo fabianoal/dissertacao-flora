@@ -1,0 +1,28 @@
+{
+  "id": "5841d4d9-5ba6-4184-957c-29f5a84bb282",
+  "object": "chat.completion",
+  "created": 1760384335,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações como padronização de formulários, preenchimento completo de dados obrigatórios e assinaturas dos profissionais, que visam corrigir a causa raiz da ausência de laudos (falhas no processo de documentação), não apenas a condição imediata. Já em relação aos efeitos pretendidos pela recomendação, as medidas sugeridas (padronização, preenchimento obrigatório e controles) criam processos estruturados que permanecem independentemente de mudanças nos profissionais envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1261,
+    "completion_tokens": 167,
+    "total_tokens": 1428,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 365
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

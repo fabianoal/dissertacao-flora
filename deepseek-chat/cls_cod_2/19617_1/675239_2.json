@@ -1,0 +1,28 @@
+{
+  "id": "c5529da6-c1f5-42de-a3b1-9ba3ee700289",
+  "object": "chat.completion",
+  "created": 1760390786,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe que a convenente insira a documentação comprobatória correta no Transferegov para fins de prestação de contas, focando na correção da condição específica de ausência de assinaturas nas folhas de frequência. Não há menção a ações que abordem a causa raiz do problema, como falhas nos processos de controle interno, capacitação de pessoal ou implementação de políticas para prevenir a ocorrência futura. Portanto, a recomendação é condition-based, tratando apenas da condição imediata. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1018,
+    "completion_tokens": 195,
+    "total_tokens": 1213,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

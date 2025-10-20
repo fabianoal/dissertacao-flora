@@ -1,0 +1,28 @@
+{
+  "id": "73dda041-d4cc-401c-aab3-cf935a168f97",
+  "object": "chat.completion",
+  "created": 1760451532,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe capacitação para tratar a causa raiz do problema (falta de capacitação adequada dos fiscais), o que está correto. Quanto ao critério 'Efeitos Duradouros', a capacitação cria conhecimento institucional, mas sua durabilidade depende de processos contínuos de treinamento para novos servidores, o que não está garantido apenas com esta ação única.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1247,
+    "completion_tokens": 146,
+    "total_tokens": 1393,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 415
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

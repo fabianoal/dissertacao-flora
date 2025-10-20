@@ -1,0 +1,28 @@
+{
+  "id": "ce9f02cf-9492-4a1f-8b30-ddc0e73270f6",
+  "object": "chat.completion",
+  "created": 1760463965,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a designação formal de um Responsável Técnico, o que aborda diretamente a causa da ausência de um profissional formalmente designado, conforme exigido pela norma. Para o critério 'Efeitos Duradouros', a ação de designar um RT estabelece uma função formal que deve persistir independentemente de mudanças nos indivíduos que ocupam o cargo, promovendo continuidade.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1144,
+    "completion_tokens": 149,
+    "total_tokens": 1293,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 248
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

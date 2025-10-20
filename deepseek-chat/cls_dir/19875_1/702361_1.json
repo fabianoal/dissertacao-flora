@@ -1,0 +1,28 @@
+{
+  "id": "da94abaa-9582-4cd7-9882-cba4976a7681",
+  "object": "chat.completion",
+  "created": 1759367914,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação identifica a causa institucional da falha (ausência de controles internos para validação da consistência entre tempo de permanência e procedimentos), está situada no nível institucional (estabelecimento de controles internos) e as transformações propostas possuem potencial para perdurar no tempo (implementação de controles permanentes baseados em normativas técnicas).\",\n    \"categoria\": \"foco-causa\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1458,
+    "completion_tokens": 108,
+    "total_tokens": 1566,
+    "prompt_tokens_details": {
+      "cached_tokens": 1216
+    },
+    "prompt_cache_hit_tokens": 1216,
+    "prompt_cache_miss_tokens": 242
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "5d03486b-69d8-4933-a936-8f783edd9fc4",
+  "object": "chat.completion",
+  "created": 1760467209,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação se concentra em corrigir a condição imediata de falta de documentação, sem propor ações para tratar causas subjacentes, como falhas em processos de gestão documental ou treinamento. No entanto, a resposta para 'Efeitos Duradouros' está adequada, pois segue a lógica de que, sem foco na causa, não há efeitos duradouros a avaliar.\",\n  \"Análise Foco Causa\": \"Concordo\",\n  \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1140,
+    "completion_tokens": 143,
+    "total_tokens": 1283,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 244
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

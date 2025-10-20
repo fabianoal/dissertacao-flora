@@ -1,0 +1,28 @@
+{
+  "id": "67c743ae-6e26-487a-a0cb-c30166f89ce7",
+  "object": "chat.completion",
+  "created": 1760392026,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe o cadastro e manutenção atualizada das informações dos prontuários no Sisab, o que visa estabelecer um processo contínuo e sistemático para evitar a reincidência da condição de preenchimento incompleto, tratando assim a causa do problema. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um sistema de cadastro e atualização contínua cria uma estrutura organizacional que permanece independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1026,
+    "completion_tokens": 163,
+    "total_tokens": 1189,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 194
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

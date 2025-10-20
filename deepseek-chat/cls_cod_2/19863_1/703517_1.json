@@ -1,0 +1,28 @@
+{
+  "id": "592d9f20-aac6-497b-813c-711bda2f0ef3",
+  "object": "chat.completion",
+  "created": 1760399920,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a reiterar o cumprimento de um compromisso previamente assumido no plano de ação, sem propor ações específicas para tratar a causa subjacente que levou ao não cumprimento inicial. Não há menção a medidas que visem prevenir a recorrência do problema, como melhorias em processos de revisão, capacitação da equipe ou implementação de mecanismos de monitoramento. Portanto, a recomendação foca apenas na correção da condição atual (não cumprimento do acordo) e não na causa raiz. Como o critério 'Foco Causa' não é atendido, a avaliação de 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 974,
+    "completion_tokens": 193,
+    "total_tokens": 1167,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 142
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

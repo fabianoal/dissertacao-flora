@@ -1,0 +1,28 @@
+{
+  "id": "02bb1c6b-f641-4057-ae74-91569fbe7058",
+  "object": "chat.completion",
+  "created": 1760036724,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação 1 sugere ações corretivas para resolver a condição de ausência de apreciação/homologação nos relatórios, ao exigir o cumprimento de normativos específicos. No entanto, as ações propostas são genéricas, limitando-se a citar o cumprimento de portarias existentes sem detalhar medidas concretas para tratar a causa raiz. A recomendação 2 reforça a fiscalização e o acompanhamento, mas também de forma genérica, sem propor mudanças sistêmicas. A recomendação 3 é irrelevante para a constatação específica. Nenhuma das ações sugere medidas específicas para endereçar a causa subjacente, como falhas em processos ou capacitação.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1344,
+    "completion_tokens": 213,
+    "total_tokens": 1557,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 384
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

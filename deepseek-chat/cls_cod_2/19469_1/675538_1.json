@@ -1,0 +1,28 @@
+{
+  "id": "ebe7fabf-bbf4-4c6c-8f54-b5bfc7c5c063",
+  "object": "chat.completion",
+  "created": 1760385786,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a mensuração de todos os indicadores estabelecidos pelo Ministério da Saúde, o que visa corrigir a condição encontrada de não utilização integral desses indicadores. No entanto, não há menção a ações que abordem a causa subjacente dessa não utilização, como falhas em processos, capacitação ou recursos. Portanto, o foco está na condição imediata, não na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 965,
+    "completion_tokens": 161,
+    "total_tokens": 1126,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 133
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

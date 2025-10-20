@@ -1,0 +1,28 @@
+{
+  "id": "cf6130e2-478f-4562-bee7-61768b011ae8",
+  "object": "chat.completion",
+  "created": 1760466709,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a implementação de um processo contínuo de monitoramento e avaliação dos indicadores pactuados, o que visa tratar a causa subjacente da falta de comprovação (ausência de processos estruturados de monitoramento), e não apenas corrigir a condição atual. Em relação ao critério 'Efeitos Duradouros', a recomendação sugere a criação de uma estrutura sistemática baseada em processos e normas, que pode permanecer funcional independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1351,
+    "completion_tokens": 182,
+    "total_tokens": 1533,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 455
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

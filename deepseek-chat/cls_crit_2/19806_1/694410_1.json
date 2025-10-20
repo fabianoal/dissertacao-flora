@@ -1,0 +1,28 @@
+{
+  "id": "4c9adddb-ccb8-41d3-9d22-2a27ebe727f3",
+  "object": "chat.completion",
+  "created": 1760465105,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise está correta, pois a recomendação propõe ações que tratam da causa subjacente da falta de acompanhamento dos familiares, que é a ausência de processos e práticas estruturadas. Em relação ao critério 'Efeitos Duradouros', a análise também está correta, pois as ações sugeridas, como definição de procedimentos e implementação de grupos de apoio, criam estruturas e processos que devem persistir independentemente de mudanças na equipe.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1437,
+    "completion_tokens": 163,
+    "total_tokens": 1600,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 541
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "dd8574b0-e748-4f51-8c2b-c96fb16327fa",
+  "object": "chat.completion",
+  "created": 1759367686,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação não identifica a causa que levou à condição detectada (armazenamento de OPME sem gerência do almoxarifado central), não está situada no nível institucional (foca apenas em fornecer informações quando exigidas, sem abordar falhas estruturais de gestão ou processos), e as transformações produzidas, se implementadas, não possuem potencial para perdurar no tempo (é uma medida reativa e pontual para acesso a documentos, sem alterar a estrutura de armazenamento ou gestão de OPME).\",\n    \"categoria\": \"foco-condicao\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1409,
+    "completion_tokens": 145,
+    "total_tokens": 1554,
+    "prompt_tokens_details": {
+      "cached_tokens": 1216
+    },
+    "prompt_cache_hit_tokens": 1216,
+    "prompt_cache_miss_tokens": 193
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

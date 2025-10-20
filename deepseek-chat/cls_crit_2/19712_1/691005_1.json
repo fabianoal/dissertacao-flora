@@ -1,0 +1,28 @@
+{
+  "id": "d566a003-5aed-4b51-8f77-2c083df8cb1b",
+  "object": "chat.completion",
+  "created": 1760462074,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação 'c' propõe a abertura de sindicância/procedimento administrativo disciplinar para apurar a autoria e responsabilidade pela alimentação incorreta do sistema SIA/SUS, o que efetivamente trata da causa do problema (falta de controle e responsabilização), caracterizando foco na causa. Quanto ao critério 'Efeitos Duradouros', a implementação de um processo de apuração e responsabilização cria um mecanismo institucional que pode permanecer mesmo com mudanças de atores, pois estabelece um procedimento formal para lidar com irregularidades futuras.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1479,
+    "completion_tokens": 190,
+    "total_tokens": 1669,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 583
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

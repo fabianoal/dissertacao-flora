@@ -1,0 +1,28 @@
+{
+  "id": "1a9bbdbf-888a-4f8b-9f42-5b8da83fbb7a",
+  "object": "chat.completion",
+  "created": 1760452692,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações corretivas imediatas (manutenção e pactuação de compartilhamento) para resolver a condição atual de desconformidade da infraestrutura, sem abordar explicitamente as causas raiz, como falhas na gestão preventiva ou planejamento de infraestrutura. Para o critério 'Efeitos Duradouros', como 'Foco Causa' foi avaliado como 'Não', a resposta 'Não se aplica' está correta.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1253,
+    "completion_tokens": 167,
+    "total_tokens": 1420,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 357
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

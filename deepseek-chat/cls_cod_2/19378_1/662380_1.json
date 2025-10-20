@@ -1,0 +1,28 @@
+{
+  "id": "8f1a04be-098c-4c69-90f1-6d89e09cf60f",
+  "object": "chat.completion",
+  "created": 1760384867,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação exige o cumprimento de uma portaria que define a sistemática de alimentação dos bancos de dados, o que aborda a causa subjacente do problema, que é a falta de conformidade com procedimentos estabelecidos para registro de produção. Isso visa prevenir a reincidência da condição de sub-registro. Em relação aos efeitos duradouros, a implementação da sistemática definida na portaria cria uma estrutura permanente para o registro, que deve persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos sustentáveis.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1034,
+    "completion_tokens": 156,
+    "total_tokens": 1190,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 202
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

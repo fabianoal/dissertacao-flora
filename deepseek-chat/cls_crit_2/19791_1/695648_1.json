@@ -1,0 +1,28 @@
+{
+  "id": "d058a17c-d186-4ecd-8d1b-b568f27440ff",
+  "object": "chat.completion",
+  "created": 1760464589,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação se concentra em implementar ações específicas para corrigir a condição imediata (ausência de ações de saúde mental no PSE), sem abordar as causas subjacentes que impedem sua realização, como falta de capacitação, recursos ou integração. Para o critério 'Efeitos Duradouros', como 'Foco Causa' foi avaliado como 'Não', a resposta 'Não se aplica' está adequada, seguindo a definição do critério.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1263,
+    "completion_tokens": 174,
+    "total_tokens": 1437,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 367
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

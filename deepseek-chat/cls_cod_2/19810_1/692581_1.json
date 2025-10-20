@@ -1,0 +1,28 @@
+{
+  "id": "8c463045-2a1c-4b15-8079-9128e330d65f",
+  "object": "chat.completion",
+  "created": 1760397752,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação orienta a SMS a atuar diretamente na prestação de serviços comuns e como agente para necessidades atendidas em outros pontos, focando na coordenação e integração dos serviços de saúde mental. No entanto, não propõe ações específicas para tratar a causa subjacente da falta de compartilhamento de registros, como a implementação de sistemas de informação ou protocolos de comunicação, limitando-se a reforçar uma diretriz existente. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério de 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 967,
+    "completion_tokens": 177,
+    "total_tokens": 1144,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 135
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

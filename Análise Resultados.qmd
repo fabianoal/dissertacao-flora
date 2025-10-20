@@ -1,0 +1,266 @@
+---
+title: "Análise de Resultados. Documento Temporário"
+author: Fabiano A. Lima
+lang: pt-BR
+format: 
+  docx:
+    reference-doc: ./Quarto/custom-reference-doc.docx
+execute: 
+  cache: false
+  echo: true
+knitr:
+  opts_chunk: 
+    collapse: true
+    comment: "#>" 
+    R.options:
+      knitr.graphics.auto_pdf: true
+---
+
+
+```{r}
+#| label: setup
+#| include: false
+#| echo: false
+
+source("./R/funcoes_setup.r")
+
+instala_pacotes(c(
+        "tidyverse",
+        "httr2",
+        "dotenv"))
+
+source("./R/util.r")
+
+library(tidyverse)
+
+options(width = 70)
+```
+
+
+```{r}
+#| label: cria_dataset_analise
+#| echo: false
+#| eval: true
+
+set.seed(42)
+
+dataset_consolidado <- read_rds("./Dados Gerados/dataset_consolidado.rds")
+
+prompt <- "cls_cod_2"
+ds_resultados <- read_rds(obtem_nome_arquivo_resultados(prompt))
+
+prompt_2 <- "cls_crit_2"
+ds_analise <- read_rds(obtem_nome_arquivo_resultados(prompt_2))
+
+# nrow(dataset_consolidado) - nrow(ds_resultados)
+# nrow(dataset_consolidado) - nrow(ds_analise)
+
+# dataset_consolidado |>
+# adapta_dataframe(obtem_pasta(prompt), "") |>
+# left_join(
+#     ds_resultados |>
+#     select(-finish_reason, -erro) |>
+#     mutate(`Efeitos Duradouros` = str_to_sentence(`Efeitos Duradouros`)),
+#     by = c("Arquivo Saída" = "arquivo")
+# ) |>
+# select(-`Arquivo Saída`) |>
+# filter(is.na(`Foco Causa`)) |>
+# adapta_dataframe(obtem_pasta(prompt_2), "") |>
+# chuck("Arquivo Saída") |>
+# file.remove()
+
+dataset_analise <- read_rds("./Dados Gerados/dataset_consolidado.rds") |>
+    select(
+        `No. Auditoria`, 
+        `Arquivo`, 
+        Finalidade, 
+        `# Constatação`, 
+        `Constatação`, 
+        `Item`,
+        `Grupo`,
+        `Subgrupo`,
+        `# Recomendação`, 
+        `Recomendação`) |>
+    adapta_dataframe(obtem_pasta(prompt), "") |>
+    inner_join(
+        ds_resultados |>
+        select(-finish_reason, -erro) |>
+        mutate(`Efeitos Duradouros` = str_to_sentence(`Efeitos Duradouros`)),
+        by = c("Arquivo Saída" = "arquivo")
+    ) |>
+    select(!c(`Arquivo Saída`)) |>
+    adapta_dataframe(obtem_pasta(prompt_2), "") |>
+    left_join(
+        ds_analise |>
+        select(-finish_reason, -erro) ,
+        by = c("Arquivo Saída" = "arquivo")
+    )
+
+
+# dataset_analise |>
+# filter(is.na(`Análise Foco Causa`) | is.na(`Análise Efeitos Duradouros`)) |>
+# chuck("Arquivo Saída") |>
+# file.remove()
+
+obtem_funcao_print <- function(df){
+    obtem_campo <- function(indice, campo){
+        df[indice, campo] |> 
+        purrr::pluck(1)
+    }
+    function(i){
+        cat(
+            "## Auditoria ", obtem_campo(i, "No. Auditoria"), 
+            ", Constatação Nº ", obtem_campo(i, "# Constatação"), 
+            " (#", obtem_campo(i, "# Recomendação"), ")\n\n", 
+            "**Finalidade**: " , obtem_campo(i, "Finalidade"), "\n\n",
+            "**Constatação**: ", obtem_campo(i, "Constatação"), "\n\n",
+            "**Recomendação**: " , obtem_campo(i, "Recomendação"), "\n\n",
+            "**Análise Codificação**: " , obtem_campo(i, "Análise"), "\n\n",
+            "- Foco Causa: " , obtem_campo(i, "Foco Causa"), "\n",
+            "- Efeitos Duradouros: " , obtem_campo(i, "Efeitos Duradouros"), "\n\n",
+            "**Análise Crítica**: " , obtem_campo(i, "Análise Crítica"), "\n\n",
+            "- Análise Foco Causa: " , obtem_campo(i, "Análise Foco Causa"), "\n",
+            "- Análise Efeitos Duradouros: " , obtem_campo(i, "Análise Efeitos Duradouros"), "\n\n",
+             sep = ""
+        )
+    }
+}
+```
+
+# Prompt de Codificação
+
+```{r}
+#| label: texto_prompt
+#| echo: false
+#| eval: true
+#| results: asis
+
+cat_system_prompt("cls_cod_2")
+```
+
+# Prompt de Análise Crítica
+
+```{r}
+#| label: texto_prompt_critica
+#| echo: false
+#| eval: true
+#| results: asis
+
+cat_system_prompt("cls_crit_2")
+```
+
+# Resultados
+
+## Codificação
+
+```{r}
+#| label: codigos
+#| echo: false
+#| eval: true
+
+exemplos <- dataset_analise
+
+dataset_analise |>
+summarise(
+    Total = n(),
+    .by = c(`Foco Causa`, `Efeitos Duradouros`)
+) |>
+mutate(`%` = 100 * Total/sum(Total)) |>
+knitr::kable(format.args = list(big.mark = ".", decimal.mark = ','))
+```
+
+## Análise Crítica
+
+```{r}
+#| label: analise_critica
+#| echo: false
+#| eval: true
+dataset_analise |>
+summarise(
+    Total = n(),
+    .by = c(`Análise Foco Causa`, `Análise Efeitos Duradouros`)
+) |>
+mutate(`%` = 100 * Total/sum(Total)) |>
+knitr::kable(format.args = list(big.mark = ".", decimal.mark = ','))
+```
+
+## Resultados
+
+```{r}
+#| label: analise_critica_casusa
+#| echo: false
+#| eval: true
+dataset_analise |>
+mutate(
+    `Análise Foco Causa` = if_else(
+            `Análise Foco Causa` == "Concordo" |
+            (`Análise Foco Causa` == `Foco Causa`) == "Nao se aplica", 
+            1, 
+            0
+        ),
+    `Análise Efeitos Duradouros` = if_else(
+        `Análise Efeitos Duradouros` == "Concordo" |
+        (`Efeitos Duradouros` == `Análise Efeitos Duradouros`) == "Não se aplica", 
+        1, 
+        0)
+    ) |>
+summarise(
+    Total = n(),
+    `= Foco` = sum(`Análise Foco Causa`),
+    `= Efeitos` = sum(`Análise Efeitos Duradouros`),
+    .by = c(`Foco Causa`, `Efeitos Duradouros`)
+) |>
+mutate(
+    `≠ Foco (%)` = Total - `= Foco`,
+    `≠ Efeitos (%)` = Total - `= Efeitos`,
+    `%` = 100 * Total/sum(Total)
+) |>
+select(-`= Foco`, -`= Efeitos`) |>
+knitr::kable(format.args = list(big.mark = ".", decimal.mark = ','))
+```
+
+A variável `Foco Causa` reflete a ponderação a respeito da existência de ações propostas na recomendação que tenham foco na causa do problema expresso na constatação. Já a variável `Efeitos Duradouros` reflete a ponderação a respeito da permanência no tempo dos efeitos da recomendação caso ela seja implementada.
+
+Considera-se que uma recomendação tem foco na causa se o `Foco Causa` é "Sim" **e** `Efeitos Duradouros` é "Sim".
+
+Do que foi detectado com foco na causa, houve discordância em 207 casos em relação à variável `Foco Causa` e 657 em relação à variável `Efeitos Duradouros`. Os 657 incluem os 207 pois onde não há ação com foco na causa, o prompt instruiu o modelo LLM para responder "Não se aplica" para os efeitos. 
+
+Já do lado negativo, houve 114 e 83 discordâncias nas variáveis `Foco Causa` e `Efeitos Duradouros` respectivamente. Como os 114 casos de discordância em relação à variável `Foco Causa` são subdivididos em termos de efeitos duradouros, e já que houve discordância de 83 casos em relação aos efeitos, pode-se assumir que os 83 casos representam o número que dentre os 114 seriam considerados como "Sim" e "Sim" para ambas as variáveis.
+
+Levando em conta que a discordância não representa a "resposta correta" mas simplesmente uma outra visão sobre o conjunto de dados, se considerarmos a análise crítica como uma ponderação mais assertiva em metade dos casos, o número de recomendações com foco na causa seria de `2.671 - (657/2) + (83/2) = 2.384`, ou seja, **56%** do total de recomendações teriam foco na causa.
+
+# Listagem de Amostras
+
+```{r}
+#| label: print_exemplos_causa_concordo
+#| echo: false
+#| eval: true
+#| results: asis
+
+exemplos <- dataset_analise |>
+    mutate(Resultado = str_glue("Foco: {`Foco Causa`}, Efeitos: {`Efeitos Duradouros`}, Concordância Foco: {`Análise Foco Causa`}, Concordância Efeitos: {`Análise Efeitos Duradouros`}")) |>
+    group_by(Resultado) |>
+    slice_sample(n = 10) |>
+    ungroup() |>
+    arrange(
+        `Foco Causa`, 
+        `Efeitos Duradouros`, 
+        `No. Auditoria`, 
+        `# Constatação`, 
+        `# Recomendação`)
+
+resultados_para_impressao <- exemplos |>
+    group_by(`Resultado`) |>
+    #slice_sample(n = 5) |>
+    nest() |>
+    transpose()
+
+
+walk(resultados_para_impressao, 
+    function(el) {
+        print_fn <- obtem_funcao_print(el$data)
+        cat("#", el$`Resultado`, "\n\n", sep = " ")
+        walk(1:nrow(el$data), print_fn)
+    })
+
+```

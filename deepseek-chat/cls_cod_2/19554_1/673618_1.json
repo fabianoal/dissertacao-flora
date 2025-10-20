@@ -1,0 +1,28 @@
+{
+  "id": "4790be2d-7872-489a-b8e1-703ec64e6ff9",
+  "object": "chat.completion",
+  "created": 1760387670,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe uma ação de atualização mensal dos cadastros no SCNES, o que visa corrigir a divergência de informações identificada, tratando diretamente a causa do problema ao estabelecer um processo regular para manter a precisão dos dados, evitando que a condição de divergência volte a ocorrer. Já em relação aos efeitos pretendidos pela recomendação, a implementação de uma atualização mensal sistemática cria um procedimento contínuo que não depende de indivíduos específicos, garantindo que os efeitos de manter os dados atualizados persistam mesmo com mudanças nos atores envolvidos.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 958,
+    "completion_tokens": 173,
+    "total_tokens": 1131,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 126
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

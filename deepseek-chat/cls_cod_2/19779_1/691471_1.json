@@ -1,0 +1,28 @@
+{
+  "id": "1bb37c32-0b00-4ebc-b3e6-6435a32988e0",
+  "object": "chat.completion",
+  "created": 1760396480,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a implementação de uma rotina de manutenção e a criação de um cronograma com periodicidade definida, o que visa abordar a causa raiz da falta de manutenção ao estabelecer processos sistemáticos e preventivos, em vez de apenas corrigir a condição atual de equipamentos sem manutenção. Já em relação aos efeitos pretendidos pela recomendação, a implementação de rotinas e cronogramas estruturados tende a criar um sistema contínuo que permanece eficaz mesmo com mudanças nos atores envolvidos, assegurando efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1134,
+    "completion_tokens": 173,
+    "total_tokens": 1307,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 302
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

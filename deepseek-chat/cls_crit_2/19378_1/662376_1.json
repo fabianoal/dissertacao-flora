@@ -1,0 +1,28 @@
+{
+  "id": "d524e3dd-632e-4cbe-a02d-30e43480b13f",
+  "object": "chat.completion",
+  "created": 1760448942,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação de cumprir dispositivos legais que estabelecem responsabilidades e processos para cadastramento e atualização no CNES aborda diretamente a causa do problema, que é a falta de adesão às normas, e não apenas a condição imediata de cadastros desatualizados. Quanto ao critério 'Efeitos Duradouros', a implementação de processos formais baseados em portaria consolidadora tende a institucionalizar práticas que podem persistir independentemente de mudanças de pessoal, embora a eficácia dependa da aplicação contínua.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1270,
+    "completion_tokens": 190,
+    "total_tokens": 1460,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 374
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

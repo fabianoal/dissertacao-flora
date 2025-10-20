@@ -1,0 +1,28 @@
+{
+  "id": "6d7b7b22-162a-4b6d-a820-3da00215e535",
+  "object": "chat.completion",
+  "created": 1760386662,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação contém múltiplas ações. Em relação ao foco na causa, a ação de 'Manter, por 10 (dez) anos as vias assinadas dos cupons vinculados...' aborda a causa do problema (falta de documentação adequada) ao estabelecer um procedimento permanente de arquivamento e preservação documental. Quanto aos efeitos duradouros, essa ação de manutenção documental cria um sistema estruturado que permanece independentemente de mudanças nos atores envolvidos, pois está baseado em normas e prazos definidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1227,
+    "completion_tokens": 164,
+    "total_tokens": 1391,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 395
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

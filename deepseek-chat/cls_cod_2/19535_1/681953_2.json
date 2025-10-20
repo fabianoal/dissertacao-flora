@@ -1,0 +1,28 @@
+{
+  "id": "a77c42c5-6950-492b-807f-f29963991a53",
+  "object": "chat.completion",
+  "created": 1760387158,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a manutenção de documentação por prazo determinado, com cópias em diferentes meios, para possibilitar a apresentação quando necessário, conforme exigências normativas. No entanto, não identifica ou trata a causa que levou à não apresentação da documentação, focando apenas na condição de garantir a disponibilidade futura dos documentos. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1067,
+    "completion_tokens": 149,
+    "total_tokens": 1216,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 235
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

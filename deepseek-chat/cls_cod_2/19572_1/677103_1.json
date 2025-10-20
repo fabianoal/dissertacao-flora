@@ -1,0 +1,28 @@
+{
+  "id": "6fff336c-39dc-4788-a342-692bb59cd0ae",
+  "object": "chat.completion",
+  "created": 1760388342,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a realização de treinamentos conforme a RDC/ANVISA nº 63/2011, incluindo capacitação inicial e permanente, o que visa tratar a causa do problema (falta de capacitação documentada) estabelecendo um processo contínuo de desenvolvimento profissional. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um sistema de capacitação permanente e documentado cria uma estrutura que permanece independentemente de mudanças nos profissionais envolvidos, garantindo que novos funcionários também sejam capacitados adequadamente.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 997,
+    "completion_tokens": 162,
+    "total_tokens": 1159,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 165
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

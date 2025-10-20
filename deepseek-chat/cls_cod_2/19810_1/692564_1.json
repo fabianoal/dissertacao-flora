@@ -1,0 +1,28 @@
+{
+  "id": "e76c12ea-243f-4a62-b659-ce10d4a194a5",
+  "object": "chat.completion",
+  "created": 1760397728,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"Em relação ao foco, a recomendação propõe o desenvolvimento de mecanismos de acompanhamento para pacientes que realizam troca de receita em saúde mental, o que visa abordar a causa raiz da falta de controle e acompanhamento, em vez de apenas corrigir a condição atual de forma temporária. Já em relação aos efeitos pretendidos pela recomendação, os mecanismos desenvolvidos, uma vez implementados, devem continuar a funcionar independentemente de mudanças nos profissionais de saúde, promovendo efeitos duradouros.\",\n   \"Foco Causa\": \"Sim\",\n   \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 979,
+    "completion_tokens": 150,
+    "total_tokens": 1129,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 147
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

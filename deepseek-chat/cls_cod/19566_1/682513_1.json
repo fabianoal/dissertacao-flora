@@ -1,0 +1,28 @@
+{
+  "id": "fefa1b78-a0ab-4277-bb0a-77deb8901fa6",
+  "object": "chat.completion",
+  "created": 1760037608,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere ações corretivas para resolver a condição encontrada, como fiscalizar a contratada e garantir o encaminhamento adequado de pacientes. Além disso, propõe ações com foco na causa, incluindo o acompanhamento contínuo baseado em normativos, que é genérico, e medidas específicas como a articulação para práticas de comunicação e encaminhamento trimestral, que visam prevenir a recorrência. No entanto, as ações com foco na causa específica dependem de atores atuais, não garantindo efeitos duradouros se houver mudanças.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Específica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1532,
+    "completion_tokens": 183,
+    "total_tokens": 1715,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 508
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

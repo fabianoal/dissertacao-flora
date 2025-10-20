@@ -1,0 +1,28 @@
+{
+  "id": "63cf8871-fd41-468d-a16d-0be46201a9ad",
+  "object": "chat.completion",
+  "created": 1760454977,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda claramente as causas subjacentes da condição encontrada, como a falta de fiscalização adequada e a ausência de práticas de registro que comprovem a execução dos procedimentos. Quanto ao critério 'Efeitos Duradouros', as ações propostas, como a implementação de fiscalização contínua e procedimentos padronizados de registro, são baseadas em estruturas institucionais que podem persistir independentemente de mudanças nos atores, mas dependem da manutenção dessas práticas ao longo do tempo.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1499,
+    "completion_tokens": 179,
+    "total_tokens": 1678,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 603
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

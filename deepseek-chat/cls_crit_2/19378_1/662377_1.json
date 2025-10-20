@@ -1,0 +1,28 @@
+{
+  "id": "6e8b311a-95fd-4538-a7ad-8969f14afd6c",
+  "object": "chat.completion",
+  "created": 1760451816,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta em identificar que a recomendação é genérica e não especifica ações concretas para tratar a causa raiz da ausência do setor de controle no município. No entanto, é importante considerar que a recomendação pode ser interpretada como um direcionamento para que a SAES/MS atue conforme o decreto, o que poderia, em tese, envolver ações de causa, mas a falta de especificidade reforça a classificação do modelo.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1180,
+    "completion_tokens": 149,
+    "total_tokens": 1329,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 284
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

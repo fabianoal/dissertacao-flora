@@ -1,0 +1,28 @@
+{
+  "id": "3d78ff74-afb0-43b4-b5fd-d727238d6d3f",
+  "object": "chat.completion",
+  "created": 1760036192,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a citar dispositivos legais genéricos e mencionar a possibilidade de dedução de valores, sem propor ações específicas para corrigir a causa subjacente da falta de documentação. Não há sugestões concretas para prevenir a reincidência do problema, como implementação de sistemas de controle ou capacitação de pessoal.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1343,
+    "completion_tokens": 128,
+    "total_tokens": 1471,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 319
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

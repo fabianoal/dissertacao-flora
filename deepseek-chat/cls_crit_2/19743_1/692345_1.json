@@ -1,0 +1,28 @@
+{
+  "id": "2bbf446d-14e4-4c19-98ed-b7711d16e2b5",
+  "object": "chat.completion",
+  "created": 1760469545,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação de manter registros escritos dos procedimentos visa estabelecer uma rotina formalizada, abordando diretamente a causa da falta de formalização identificada na constatação. Para o critério 'Efeitos Duradouros', a documentação escrita assegura que os procedimentos permaneçam válidos e acessíveis mesmo com mudanças na equipe, promovendo continuidade.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1162,
+    "completion_tokens": 144,
+    "total_tokens": 1306,
+    "prompt_tokens_details": {
+      "cached_tokens": 1152
+    },
+    "prompt_cache_hit_tokens": 1152,
+    "prompt_cache_miss_tokens": 10
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a10d917e-82a6-474f-a22c-0264c5fd1e6d",
+  "object": "chat.completion",
+  "created": 1760038232,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação orienta a conferência de documentação comprobatória para resolver a ausência de comprovação de recolhimento de impostos, caracterizando uma ação corretiva. No entanto, a ação sugerida é genérica, limitando-se ao cumprimento de normativos sem propor medidas específicas para tratar a causa subjacente, como falhas em processos ou capacitação. Como a ação foco na causa é genérica, os efeitos duradouros não se aplicam de forma sustentável.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1167,
+    "completion_tokens": 157,
+    "total_tokens": 1324,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 143
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

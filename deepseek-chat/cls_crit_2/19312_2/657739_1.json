@@ -1,0 +1,28 @@
+{
+  "id": "7c224eb8-e928-4be0-b0d1-1ca3a6bf678f",
+  "object": "chat.completion",
+  "created": 1760451652,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a criação de mecanismos revisionais para assegurar a inserção adequada de informações técnicas nos laudos, o que aborda a causa subjacente (falta de processos que garantam a completude das informações) e não apenas corrige os laudos existentes. Quanto ao critério 'Efeitos Duradouros', a implementação de tais mecanismos estabelece um processo contínuo que deve permanecer efetivo mesmo com mudanças de pessoal, pois se baseia em sistemas ou procedimentos formais.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1384,
+    "completion_tokens": 176,
+    "total_tokens": 1560,
+    "prompt_tokens_details": {
+      "cached_tokens": 1216
+    },
+    "prompt_cache_hit_tokens": 1216,
+    "prompt_cache_miss_tokens": 168
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

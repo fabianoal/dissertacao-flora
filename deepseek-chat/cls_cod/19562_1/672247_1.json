@@ -1,0 +1,28 @@
+{
+  "id": "c0d210f9-a3b6-4e37-ae6d-eda3e68379a7",
+  "object": "chat.completion",
+  "created": 1760036532,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação contém duas ações distintas: a primeira sugere a devolução dos valores repassados, o que constitui uma ação corretiva para resolver a condição imediata de pagamentos indevidos devido à falta de comprovação. A segunda ação propõe a implementação do prontuário eletrônico, que visa tratar a causa subjacente (falta de um sistema adequado de documentação) ao exigir o cumprimento de uma lei específica, mas a formulação é genérica ao se limitar a citar o cumprimento normativo sem detalhar ações concretas além disso.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1201,
+    "completion_tokens": 185,
+    "total_tokens": 1386,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 177
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

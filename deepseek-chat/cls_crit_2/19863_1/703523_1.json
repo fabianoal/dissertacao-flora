@@ -1,0 +1,28 @@
+{
+  "id": "c57e30ff-9458-4b13-ac26-f9cc661de5e6",
+  "object": "chat.completion",
+  "created": 1760467401,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise fornecida avalia corretamente que a recomendação se limita a reiterar um compromisso existente sem abordar as causas subjacentes da não revisão do Regimento Interno, como deficiências em processos, capacitação ou recursos. No entanto, a avaliação do critério 'Efeitos Duradouros' está adequadamente condicionada à resposta do 'Foco Causa'.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1170,
+    "completion_tokens": 130,
+    "total_tokens": 1300,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 274
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

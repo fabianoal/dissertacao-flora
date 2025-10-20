@@ -1,0 +1,28 @@
+{
+  "id": "88a970c2-9f58-47eb-b818-24f825aca069",
+  "object": "chat.completion",
+  "created": 1760467377,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação se concentra em cumprir uma ação previamente acordada (revisar/elaborar o regimento interno) sem abordar causas subjacentes, como falhas processuais ou de monitoramento. Para o critério 'Efeitos Duradouros', como o 'Foco Causa' foi classificado como 'Não', a resposta 'Não se aplica' está adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1188,
+    "completion_tokens": 155,
+    "total_tokens": 1343,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 292
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "eacc6755-f12b-4280-a6b8-f3160df1be70",
+  "object": "chat.completion",
+  "created": 1760399840,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a instituição e implementação de um sistema padronizado de registro para resolver a falta de registros detalhados das origens das demandas, o que aborda diretamente a causa do problema (ausência de um sistema estruturado) e não apenas a condição atual de registros insuficientes. Já em relação aos efeitos pretendidos pela recomendação, o sistema padronizado, uma vez implementado, permaneceria funcional independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1042,
+    "completion_tokens": 163,
+    "total_tokens": 1205,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 210
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

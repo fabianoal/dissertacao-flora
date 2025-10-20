@@ -1,0 +1,28 @@
+{
+  "id": "daab06e8-5bbc-4719-a896-fb9abfa99a8f",
+  "object": "chat.completion",
+  "created": 1760465217,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a criação de fluxos de trabalho estruturados e práticas sistemáticas de acompanhamento, que visam modificar processos organizacionais para prevenir a recorrência da falta de acompanhamento dos familiares, tratando assim a causa subjacente do problema. Quanto ao critério 'Efeitos Duradouros', a institucionalização de fluxos e práticas formais tende a criar estruturas que persistem independentemente de mudanças na equipe, desde que haja adesão contínua à política implementada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1273,
+    "completion_tokens": 177,
+    "total_tokens": 1450,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 377
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

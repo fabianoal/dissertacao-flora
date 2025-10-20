@@ -1,0 +1,28 @@
+{
+  "id": "b7f1336b-e9c0-4a3f-8105-80dead162ede",
+  "object": "chat.completion",
+  "created": 1760464897,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações que visam prevenir a reincidência da falta de rotina verificada, tratando a causa do problema. Para o critério 'Efeitos Duradouros', a formalização da rotina e a disponibilização permanente de documentos criam estruturas que devem persistir independentemente de mudanças nos atores envolvidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1329,
+    "completion_tokens": 134,
+    "total_tokens": 1463,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 433
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

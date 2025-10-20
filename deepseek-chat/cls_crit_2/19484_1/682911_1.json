@@ -1,0 +1,28 @@
+{
+  "id": "e647e64f-cc2c-41a8-9067-b287d70ee6ef",
+  "object": "chat.completion",
+  "created": 1760469433,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise crítica considera se a classificação do modelo está correta para cada critério, com base na definição de recomendações com foco na causa (que propõem ações para evitar a recorrência do problema) e efeitos duradouros (que permanecem com mudanças de atores). A recomendação inclui múltiplas ações, mas a avaliação deve focar naquelas que tratam diretamente da causa da constatação: a falta de amparo documental para metas qualitativas nos processos de pagamento.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1795,
+    "completion_tokens": 163,
+    "total_tokens": 1958,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 899
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

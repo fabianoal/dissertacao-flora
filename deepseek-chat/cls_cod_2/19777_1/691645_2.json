@@ -1,0 +1,28 @@
+{
+  "id": "2f6e6c47-1d00-455e-8037-d632d7aaa429",
+  "object": "chat.completion",
+  "created": 1760396332,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe ações específicas para adequar a estrutura física da CMRF, como reparar instalações elétricas e eliminar umidade, que visam corrigir as deficiências identificadas na constatação. Essas ações tratam diretamente das causas subjacentes das condições inadequadas, como falhas na infraestrutura, em vez de apenas remediar sintomas temporários. Quanto aos efeitos duradouros, as melhorias na estrutura física, como correções no piso e eliminação de infiltrações, são permanentes e não dependem de mudanças nos atores envolvidos, assegurando que os benefícios persistam ao longo do tempo.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1019,
+    "completion_tokens": 183,
+    "total_tokens": 1202,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 123
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "80b30a18-74c1-4e3b-b396-31c9a77ce431",
+  "object": "chat.completion",
+  "created": 1760454869,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que as recomendações se concentram principalmente em corrigir condições específicas (ausência de seguro e vencimento sem renovação), sem propor ações que abordem causas subjacentes mais profundas, como deficiências nos processos de gestão contratual ou alocação de recursos. No entanto, a recomendação 'b' poderia ser interpretada como tendo um elemento preventivo, embora insuficiente para caracterizar um foco claro na causa raiz.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1352,
+    "completion_tokens": 154,
+    "total_tokens": 1506,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 456
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

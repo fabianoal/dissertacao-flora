@@ -1,0 +1,28 @@
+{
+  "id": "8bab8df1-fb7d-4152-8c52-1e7d4d6ca2e5",
+  "object": "chat.completion",
+  "created": 1760396096,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a criação de um setor específico para controle, avaliação e monitoramento das ações e serviços de saúde, o que visa tratar a causa raiz da ausência de instâncias de controle identificada na constatação, em vez de apenas corrigir condições pontuais. Já em relação aos efeitos pretendidos pela recomendação, a instituição de um setor formal e estruturado tende a gerar efeitos duradouros, pois estabelece processos e responsabilidades que permanecem independentemente de mudanças nos atores envolvidos, como a rotatividade de gestores ou servidores.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1165,
+    "completion_tokens": 177,
+    "total_tokens": 1342,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 333
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

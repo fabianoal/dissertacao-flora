@@ -1,0 +1,28 @@
+{
+  "id": "7da1782c-0b77-4672-89ba-6dece4f671f3",
+  "object": "chat.completion",
+  "created": 1760038504,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere múltiplas ações: garantir o uso de caixas térmicas e realizar o registro de temperatura para corrigir diretamente a condição de transporte inadequado (ação corretiva). Além disso, propõe a capacitação do pessoal, que visa abordar a causa subjacente de falta de conhecimento ou treinamento, indo além do mero cumprimento normativo ao especificar o conteúdo da capacitação, como monitoramento da temperatura e uso correto de termômetros. No entanto, os efeitos duradouros da capacitação podem não persistir se os atores mudarem, pois dependem da continuidade do treinamento.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Específica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1490,
+    "completion_tokens": 192,
+    "total_tokens": 1682,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 466
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

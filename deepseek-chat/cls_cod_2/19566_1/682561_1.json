@@ -1,0 +1,28 @@
+{
+  "id": "3c872ea0-a31a-42bb-8a9d-a22d28099441",
+  "object": "chat.completion",
+  "created": 1760388070,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações de acompanhamento, fiscalização e trabalho articulado entre a FMS e a contratada para garantir práticas adequadas de descarte, o que visa tratar a causa do problema (falta de monitoramento e fiscalização adequados) e não apenas corrigir a condição específica encontrada. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas (acompanhamento, fiscalização contínua e trabalho articulado) estabelecem processos e estruturas de governança que devem permanecer efetivos mesmo com mudanças nos atores envolvidos, pois estão baseados em obrigações contratuais e legais.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1209,
+    "completion_tokens": 184,
+    "total_tokens": 1393,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 377
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

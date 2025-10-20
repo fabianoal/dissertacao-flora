@@ -1,0 +1,28 @@
+{
+  "id": "874c23fb-263e-4755-9dde-c49604a24e37",
+  "object": "chat.completion",
+  "created": 1760467613,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação de retificar a produção e garantir compatibilidade com a capacidade instalada é uma ação corretiva direta da condição encontrada (produção registrada incompatível), mas não aborda explicitamente as causas subjacentes, como falhas nos processos de registro, supervisão inadequada ou falta de capacitação. Portanto, concordo que o critério não foi atendido. Para o critério 'Efeitos Duradouros', como 'Foco Causa' é 'Não', a resposta 'Não se aplica' está correta.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1295,
+    "completion_tokens": 177,
+    "total_tokens": 1472,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 399
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

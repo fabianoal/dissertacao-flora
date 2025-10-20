@@ -1,0 +1,28 @@
+{
+  "id": "8156a831-bdf5-452f-abe7-b684220192a1",
+  "object": "chat.completion",
+  "created": 1760448242,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise Crítica\": \"A análise crítica avalia se a classificação do modelo para os critérios 'Foco Causa' e 'Efeitos Duradouros' está correta, com base na descrição fornecida. A recomendação sugere a adoção de providências para atualização periódica do cadastro no Cnes, o que aborda a causa raiz da desatualização, que é a ausência de um processo regular. Além disso, a institucionalização desse processo assegura que os efeitos persistam mesmo com mudanças de pessoal.\",\n  \"Análise Foco Causa\": \"Concordo\",\n  \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1229,
+    "completion_tokens": 159,
+    "total_tokens": 1388,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 397
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

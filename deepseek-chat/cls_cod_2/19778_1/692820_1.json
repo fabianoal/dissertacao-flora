@@ -1,0 +1,28 @@
+{
+  "id": "6338ecf7-7c89-4e54-b358-1d5fbf4841be",
+  "object": "chat.completion",
+  "created": 1760396444,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a implementação de um sistema de gerenciamento de riscos baseado em indicadores, o que visa tratar a causa raiz da falta de monitoramento e controle contínuo na Cadeia de Frio, ao invés de apenas corrigir a condição atual de ausência de indicadores. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um sistema estruturado de indicadores e gerenciamento de riscos tende a gerar efeitos duradouros, pois estabelece processos e mecanismos que permanecem independentemente de mudanças nos atores envolvidos, uma vez institucionalizados.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 987,
+    "completion_tokens": 185,
+    "total_tokens": 1172,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 155
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

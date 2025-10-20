@@ -1,0 +1,28 @@
+{
+  "id": "dc67905b-8e5e-4a4b-8743-bcad46f2025e",
+  "object": "chat.completion",
+  "created": 1760398744,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a realização de manutenções preventivas e corretivas seguindo um cronograma periódico, o que visa tratar a causa raiz do problema (falta de manutenção sistemática) e não apenas corrigir a condição atual de equipamentos sem manutenção. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um cronograma formal de manutenções estabelece um processo contínuo que permanece efetivo independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1072,
+    "completion_tokens": 166,
+    "total_tokens": 1238,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 240
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

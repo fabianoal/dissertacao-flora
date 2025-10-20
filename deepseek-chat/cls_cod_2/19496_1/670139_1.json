@@ -1,0 +1,28 @@
+{
+  "id": "4c5623a8-07a5-4077-a6e6-c2a08f84a20f",
+  "object": "chat.completion",
+  "created": 1760386239,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe que, em caso de restabelecimento da conexão ao Sistema de Vendas do PFPB, a empresa comercialize e dispense medicamentos em observância às regras do programa para evitar práticas irregulares. No entanto, a ação sugerida é focada em corrigir a condição atual (práticas irregulares) por meio do cumprimento das regras existentes, sem propor medidas que abordem a causa raiz que levou às irregularidades, como falhas nos processos internos, capacitação inadequada ou controle insuficiente. Portanto, não há foco na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1087,
+    "completion_tokens": 206,
+    "total_tokens": 1293,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 191
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

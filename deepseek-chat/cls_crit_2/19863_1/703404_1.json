@@ -1,0 +1,28 @@
+{
+  "id": "75ec08fd-8d87-4f9e-9045-f65a4a368d13",
+  "object": "chat.completion",
+  "created": 1760467429,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise original está correta, pois a recomendação aborda diretamente a condição observada de ausência do 'BI' sem propor ações para causas subjacentes, como falhas em processos ou políticas. Para o critério 'Efeitos Duradouros', como 'Foco Causa' é 'Não', a resposta 'Não se aplica' está adequada.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1169,
+    "completion_tokens": 133,
+    "total_tokens": 1302,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 273
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

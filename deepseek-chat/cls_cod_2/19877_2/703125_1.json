@@ -1,0 +1,28 @@
+{
+  "id": "9107f475-53e4-4431-8342-b3bc273c0fd7",
+  "object": "chat.completion",
+  "created": 1760400396,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe uma ação (assegurar o registro em prontuário do motivo para não realização da reconstrução mamária) que visa tratar a causa do problema, que é a ausência de documentação justificada, estabelecendo um procedimento sistemático para evitar a reincidência da condição. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um registro obrigatório no prontuário cria um mecanismo permanente que independe dos profissionais envolvidos, garantindo que os efeitos (documentação adequada) persistam mesmo com mudanças de atores.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 987,
+    "completion_tokens": 174,
+    "total_tokens": 1161,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 155
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "45f0c66a-5a6a-46a6-a01b-17dd8e24a459",
+  "object": "chat.completion",
+  "created": 1760457185,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação se concentra em corrigir a condição imediata (ausência de relatórios) sem abordar causas subjacentes, como falhas processuais ou de capacitação. No entanto, vale ressaltar que a notificação pode, indiretamente, pressionar por melhorias sistêmicas, mas isso não é explícito na recomendação.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1190,
+    "completion_tokens": 134,
+    "total_tokens": 1324,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 294
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "09aebc80-a550-44c6-941d-d7d969d2ca9d",
+  "object": "chat.completion",
+  "created": 1760037628,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere a devolução de valores como ação corretiva para resolver a condição de falta de documentação comprobatória. No entanto, não propõe ações específicas para tratar a causa subjacente, como melhorias em processos de gestão ou controle, limitando-se a citar o cumprimento de normativos existentes.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1409,
+    "completion_tokens": 121,
+    "total_tokens": 1530,
+    "prompt_tokens_details": {
+      "cached_tokens": 1088
+    },
+    "prompt_cache_hit_tokens": 1088,
+    "prompt_cache_miss_tokens": 321
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "f06f44c4-4460-47ed-8ebf-edd4685f4439",
+  "object": "chat.completion",
+  "created": 1760450728,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a realização de um procedimento licitatório para garantir a proposta mais vantajosa, o que aborda diretamente a causa do problema, que é a ausência de um processo licitatório adequado, em vez de apenas corrigir a condição específica de uma compra direta irregular. Já em relação ao critério 'Efeitos Duradouros', a implementação de um procedimento licitatório estabelece um processo formal que deve persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1154,
+    "completion_tokens": 182,
+    "total_tokens": 1336,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 258
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

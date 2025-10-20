@@ -1,0 +1,28 @@
+{
+  "id": "f0e0dd6c-7502-4095-95be-a94446d37750",
+  "object": "chat.completion",
+  "created": 1760448562,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe garantir interoperabilidade entre sistemas, o que visa resolver a causa raiz do problema (falta de integração entre sistemas) e não apenas corrigir a condição atual de uso de planilha manual. Já em relação ao critério 'Efeitos Duradouros', a interoperabilidade implementada permaneceria funcional independentemente de mudanças nos atores envolvidos, constituindo uma solução estrutural duradoura.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1354,
+    "completion_tokens": 153,
+    "total_tokens": 1507,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 522
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

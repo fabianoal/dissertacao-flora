@@ -1,0 +1,28 @@
+{
+  "id": "eace2a24-8554-4078-b720-3eff299c3ca7",
+  "object": "chat.completion",
+  "created": 1760399280,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a inclusão dos indicadores de saúde do trabalhador nos instrumentos de gestão municipal (PAS e RAG), o que constitui uma ação para tratar a causa do problema (ausência desses indicadores nos instrumentos de gestão), e não apenas corrigir a condição atual. Já em relação aos efeitos pretendidos pela recomendação, a inclusão formal dos indicadores nos instrumentos de gestão tende a produzir efeitos duradouros, pois permanecerá mesmo com mudanças nos atores envolvidos, uma vez que se torna parte da estrutura de gestão municipal.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1040,
+    "completion_tokens": 174,
+    "total_tokens": 1214,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 208
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

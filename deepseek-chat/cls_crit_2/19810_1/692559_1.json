@@ -1,0 +1,28 @@
+{
+  "id": "efc778ec-fe32-4777-adaa-f29e986ce79a",
+  "object": "chat.completion",
+  "created": 1760465277,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a implementação da construção do Projeto Terapêutico Singular (PTS) na rotina das UBS, o que visa estabelecer um processo sistemático para garantir a continuidade do cuidado em saúde mental. Isso trata diretamente a causa subjacente da ausência desses projetos, que é a falta de uma rotina estruturada. Portanto, concordo com a classificação 'Sim'. Para o critério 'Efeitos Duradouros', a implementação de uma rotina baseada em normativas e integrada ao processo de trabalho tende a ser sustentável, mantendo-se mesmo com mudanças nas equipes, pois se institucionaliza. Assim, também concordo com a classificação 'Sim'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1237,
+    "completion_tokens": 217,
+    "total_tokens": 1454,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 341
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

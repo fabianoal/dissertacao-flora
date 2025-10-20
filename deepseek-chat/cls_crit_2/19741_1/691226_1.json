@@ -1,0 +1,28 @@
+{
+  "id": "0b0a62ab-beb9-47c3-a113-d845ee4355e7",
+  "object": "chat.completion",
+  "created": 1760462734,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda adequações de infraestrutura e procedimentos que visam resolver as causas subjacentes da condição encontrada, não apenas corrigir sintomas temporários. Quanto ao critério 'Efeitos Duradouros', as ações propostas envolvem mudanças estruturais e institucionais que devem persistir independentemente de mudanças de pessoal.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1340,
+    "completion_tokens": 137,
+    "total_tokens": 1477,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 444
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

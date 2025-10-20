@@ -1,0 +1,28 @@
+{
+  "id": "a7de55d3-0768-4ff6-a89b-9f60cab17b90",
+  "object": "chat.completion",
+  "created": 1760038569,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere a adoção de medidas para garantir o preenchimento adequado dos prontuários, o que constitui uma ação corretiva direta para resolver a condição encontrada de preenchimento inadequado. No entanto, a recomendação se limita a citar a necessidade de cumprir normativos existentes, sem propor ações específicas para abordar as causas subjacentes, como falhas de treinamento ou processos, sendo, portanto, genérica em seu foco na causa. Como a ação com foco na causa é genérica, os efeitos duradouros não são considerados, pois a mera referência a normativos não assegura mudanças sustentáveis independentemente de mudanças nos atores envolvidos.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1302,
+    "completion_tokens": 207,
+    "total_tokens": 1509,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 278
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

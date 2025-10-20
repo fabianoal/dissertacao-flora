@@ -1,0 +1,28 @@
+{
+  "id": "0d0da5aa-eaff-4259-8b68-e074e1fcfd7d",
+  "object": "chat.completion",
+  "created": 1760401124,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a devolução de recursos indevidamente recebidos, focando na correção da condição financeira irregular identificada (cobrança de AIHs incompatíveis), sem apresentar ações que tratem das causas subjacentes que permitiram a ocorrência dessas irregularidades, como falhas em processos de auditoria interna, controle de procedimentos ou capacitação de pessoal. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1141,
+    "completion_tokens": 168,
+    "total_tokens": 1309,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 181
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

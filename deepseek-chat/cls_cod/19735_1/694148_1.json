@@ -1,0 +1,28 @@
+{
+  "id": "d03b85dc-7c59-42ba-9e71-7249ccf8b97c",
+  "object": "chat.completion",
+  "created": 1760037292,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe ações para corrigir a condição encontrada de referenciamento inadequado para protocolo 'vaga zero' sem especialidade habilitada, incluindo pactuação de fluxos, restrição do uso do protocolo, busca por vagas adequadas e monitoramento. No entanto, as ações sugeridas para tratar a causa são genéricas, focando no cumprimento de normativos e fluxos estabelecidos, sem especificar medidas concretas para modificar processos ou estruturas subjacentes que permitiram a ocorrência da condição, como revisão de políticas de regulação ou capacitação de pessoal. Os efeitos não são considerados duradouros, pois dependem da adesão contínua aos fluxos sem mudanças sistêmicas robustas.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1316,
+    "completion_tokens": 220,
+    "total_tokens": 1536,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 292
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

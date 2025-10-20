@@ -1,0 +1,28 @@
+{
+  "id": "1a89ab48-d8e9-46fe-a965-048aeecacdae",
+  "object": "chat.completion",
+  "created": 1760391066,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a realização de monitoramento periódico dos cadastros no CNES para compatibilizar serviços prestados e corpo técnico, o que visa tratar a causa do problema (falta de controle sistemático) e não apenas corrigir a condição específica encontrada. Já em relação aos efeitos pretendidos pela recomendação, a implementação de monitoramento periódico estabelece um processo contínuo que permanece mesmo com mudanças nas equipes responsáveis, gerando efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1052,
+    "completion_tokens": 154,
+    "total_tokens": 1206,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 220
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

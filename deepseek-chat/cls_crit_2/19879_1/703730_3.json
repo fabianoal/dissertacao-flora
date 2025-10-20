@@ -1,0 +1,28 @@
+{
+  "id": "19dc1793-4bd4-4584-874b-347c856d0be2",
+  "object": "chat.completion",
+  "created": 1760467893,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação inclui ações como treinamentos contínuos e implementação de sistema de acompanhamento, que visam tratar as causas subjacentes (falhas em processos e capacitação), não apenas a condição específica. Para 'Efeitos Duradouros', as ações propostas, como sistemas e treinamentos contínuos, são estruturantes e tendem a persistir com mudanças de pessoal, mas dependem de sustentação organizacional.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1489,
+    "completion_tokens": 157,
+    "total_tokens": 1646,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 529
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

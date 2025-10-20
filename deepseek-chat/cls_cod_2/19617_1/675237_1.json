@@ -1,0 +1,28 @@
+{
+  "id": "dc5a4a6f-2b13-4936-9314-e50629285bc4",
+  "object": "chat.completion",
+  "created": 1760390770,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe duas ações principais: notificar a convenente para verificar registros no CNES (ação corretiva imediata) e orientar o DSEI e a convenente a manterem atualizadas as informações no CNES de forma periódica (ação preventiva). A segunda ação visa estabelecer um processo contínuo de atualização, abordando a causa subjacente de falta de manutenção sistemática dos registros. Já em relação aos efeitos pretendidos pela recomendação, a ação de manter atualizações periódicas cria um procedimento institucional que deve persistir independentemente de mudanças nos atores envolvidos, pois está baseada em orientação formal e periodicidade definida.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 973,
+    "completion_tokens": 195,
+    "total_tokens": 1168,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 13
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

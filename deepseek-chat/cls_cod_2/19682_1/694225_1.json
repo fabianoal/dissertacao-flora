@@ -1,0 +1,28 @@
+{
+  "id": "263bba71-6d26-46ab-bc51-0d9fe1e1c294",
+  "object": "chat.completion",
+  "created": 1760392862,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe que o DAPSI cumpra a periodicidade estabelecida na portaria para inserir os relatórios de monitoramento tempestivamente no Transferegov, o que aborda diretamente a causa da ausência dos relatórios (não cumprimento da periodicidade), sendo portanto uma recomendação com foco na causa. Já em relação aos efeitos pretendidos pela recomendação, a ação de cumprir a periodicidade estabelecida na portaria cria um processo contínuo que deve persistir independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 984,
+    "completion_tokens": 176,
+    "total_tokens": 1160,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 152
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

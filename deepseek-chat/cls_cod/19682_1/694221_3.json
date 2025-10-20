@@ -1,0 +1,28 @@
+{
+  "id": "d2ca3f1e-ccf6-496b-aef2-b9dd94ac93a6",
+  "object": "chat.completion",
+  "created": 1760035460,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere a elaboração de relatórios mensais para resolver a condição de impropriedades no acompanhamento e monitoramento, caracterizando uma ação corretiva. Além disso, propõe a adoção de medidas preventivas ou corretivas em caso de não cumprimento, mas essa ação é genérica, pois se limita a referenciar o cumprimento de dispositivos normativos sem especificar ações concretas. Como a ação com foco na causa é genérica, os efeitos duradouros não são avaliados como positivos.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1236,
+    "completion_tokens": 169,
+    "total_tokens": 1405,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 404
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

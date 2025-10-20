@@ -1,0 +1,28 @@
+{
+  "id": "00b01531-d0fe-46a4-a437-e6c1a74e7c17",
+  "object": "chat.completion",
+  "created": 1760386970,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe que a SMS assegure que as prestações de contas do HSJ contemplem todos os dados e informações definidos em contrato e as apresente aos servidores do SNA/SUS. Esta ação visa corrigir a condição imediata de ausência de prestação de contas, mas não aborda explicitamente a causa subjacente que levou a essa falha, como possíveis deficiências em processos internos, falta de capacitação ou recursos insuficientes. Portanto, a recomendação é focada na condição, não na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 981,
+    "completion_tokens": 204,
+    "total_tokens": 1185,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 149
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

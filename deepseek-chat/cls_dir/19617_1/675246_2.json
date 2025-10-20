@@ -1,0 +1,28 @@
+{
+  "id": "47fc0299-6e50-4899-88d1-071af0fc2c9f",
+  "object": "chat.completion",
+  "created": 1759367722,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação orienta a conferência documental para evitar desobediência a normativos e irregularidades, mas não identifica a causa institucional que levou à ausência do contrato (ex.: falhas na estrutura de fiscalização, capacitação insuficiente, ausência de procedimentos padrão). A ação proposta é pontual (conferir documentos) e não promove mudanças estruturais duradouras, focando na correção imediata da condição identificada.\",\n    \"categoria\": \"foco-condicao\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1506,
+    "completion_tokens": 130,
+    "total_tokens": 1636,
+    "prompt_tokens_details": {
+      "cached_tokens": 1280
+    },
+    "prompt_cache_hit_tokens": 1280,
+    "prompt_cache_miss_tokens": 226
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

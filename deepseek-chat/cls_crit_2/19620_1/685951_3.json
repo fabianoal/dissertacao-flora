@@ -1,0 +1,28 @@
+{
+  "id": "1bf637a1-98c3-4271-b676-8ef2ed3633b4",
+  "object": "chat.completion",
+  "created": 1760457789,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda múltiplas ações, incluindo registro de rastreabilidade, rotinas de verificação, controles internos, políticas de governança e supervisão, que visam prevenir a reincidência da falta de rastreabilidade, tratando assim da causa subjacente. Para o critério 'Efeitos Duradouros', as ações propostas, como implementação de controles internos e políticas de governança, são institucionalizadas e devem persistir independentemente de mudanças na equipe, garantindo efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1474,
+    "completion_tokens": 178,
+    "total_tokens": 1652,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 578
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

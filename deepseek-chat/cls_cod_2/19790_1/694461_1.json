@@ -1,0 +1,28 @@
+{
+  "id": "f2336619-1c46-4901-b697-b75c23a06153",
+  "object": "chat.completion",
+  "created": 1760396960,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe especificamente a ação de fazer registros detalhados e atualizados dos atendimentos em saúde mental, o que visa corrigir diretamente a condição encontrada de falta desses registros, sem mencionar ações para tratar as causas subjacentes que levam à ausência desses registros, como falta de capacitação, recursos ou processos. Portanto, a recomendação é focada na condição. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1043,
+    "completion_tokens": 167,
+    "total_tokens": 1210,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 211
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

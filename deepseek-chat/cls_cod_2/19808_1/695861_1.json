@@ -1,0 +1,28 @@
+{
+  "id": "9536632f-11ff-4c70-9ce3-9f6d0d27ff22",
+  "object": "chat.completion",
+  "created": 1760397620,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe estabelecer mecanismos para garantir a efetividade no monitoramento, o que sugere uma ação para tratar a causa subjacente da falta de avaliação e monitoramento, como possíveis falhas nos processos ou sistemas, em vez de apenas corrigir a condição atual. Isso indica um foco na causa. Já em relação aos efeitos pretendidos pela recomendação, a implementação de mecanismos estruturados tende a criar mudanças duradouras, como procedimentos ou sistemas que permanecem funcionais independentemente de mudanças nos atores envolvidos, sugerindo efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 971,
+    "completion_tokens": 173,
+    "total_tokens": 1144,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 139
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "1ce9a829-424e-479d-a4d2-634213df2bc3",
+  "object": "chat.completion",
+  "created": 1760392018,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe estabelecer/melhorar o controle de frequência e instituir mecanismos efetivos de acompanhamento da jornada laboral, o que visa tratar a causa do problema (falta de controle adequado que leva ao não cumprimento da carga horária mínima), em vez de apenas corrigir a condição atual de equipes incompletas. Já em relação aos efeitos pretendidos pela recomendação, os mecanismos de controle de frequência e acompanhamento da jornada, uma vez implementados, permaneceriam funcionando independentemente de mudanças nos servidores/colaboradores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 956,
+    "completion_tokens": 187,
+    "total_tokens": 1143,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 124
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

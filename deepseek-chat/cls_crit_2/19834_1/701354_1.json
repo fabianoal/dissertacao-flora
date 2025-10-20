@@ -1,0 +1,28 @@
+{
+  "id": "32e4ce78-5bf0-4f69-805b-e1ac13cae170",
+  "object": "chat.completion",
+  "created": 1760466333,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a implantação de mecanismos sistemáticos de acompanhamento e monitoramento contínuo, que visam identificar e corrigir falhas de gestão, abordando assim a causa subjacente das irregularidades (ausência de controles adequados). Quanto ao critério 'Efeitos Duradouros', essas medidas são descritas como institucionalizadas e contínuas, sugerindo que permaneceriam efetivas independentemente de mudanças na equipe ou gestores.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1282,
+    "completion_tokens": 165,
+    "total_tokens": 1447,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 386
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

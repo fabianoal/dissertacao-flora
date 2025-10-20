@@ -1,0 +1,28 @@
+{
+  "id": "a44a938f-2e29-4500-b9fc-8a6b056604f5",
+  "object": "chat.completion",
+  "created": 1760391450,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a implementação de controles internos e política de governança, o que visa tratar a causa subjacente da falta de comprovação de destinação das OPME, ao invés de apenas corrigir a condição específica. Já em relação aos efeitos pretendidos pela recomendação, a implementação de controles e políticas permanece mesmo com mudanças de atores, pois se torna parte da estrutura organizacional.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 954,
+    "completion_tokens": 139,
+    "total_tokens": 1093,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

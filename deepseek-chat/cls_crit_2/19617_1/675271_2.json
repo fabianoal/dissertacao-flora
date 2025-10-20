@@ -1,0 +1,28 @@
+{
+  "id": "4bc7c108-089f-46ad-bc2f-c35d3b54d327",
+  "object": "chat.completion",
+  "created": 1760457725,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe uma ação de conferência sistemática da documentação, que visa prevenir a ocorrência futura de impropriedades ao estabelecer um processo de verificação, tratando assim a causa (falta de verificação adequada) e não apenas corrigindo condição existente. Para 'Efeitos Duradouros', a ação é baseada em um procedimento formal contínuo, que deve persistir independentemente de mudanças de pessoal, desde que institucionalizado.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1196,
+    "completion_tokens": 164,
+    "total_tokens": 1360,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 172
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

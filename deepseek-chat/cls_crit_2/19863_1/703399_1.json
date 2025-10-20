@@ -1,0 +1,28 @@
+{
+  "id": "8f340efa-bac3-44d5-affa-db06c3141869",
+  "object": "chat.completion",
+  "created": 1760467421,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta em identificar que a recomendação se concentra na correção imediata da condição documental específica, sem abordar causas subjacentes como falhas processuais ou organizacionais. No entanto, vale notar que a recomendação inclui um aspecto preventivo ao exigir conformidade com o Plano de Ação, o que poderia ser interpretado como um elemento de causa, mas não é suficientemente desenvolvido para atender ao critério 'Foco Causa'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1193,
+    "completion_tokens": 155,
+    "total_tokens": 1348,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 297
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

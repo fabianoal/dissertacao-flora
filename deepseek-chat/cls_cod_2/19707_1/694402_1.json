@@ -1,0 +1,28 @@
+{
+  "id": "a5ba5a5d-18a6-4fa4-8256-051672d03c77",
+  "object": "chat.completion",
+  "created": 1760394232,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação apenas cita o cumprimento de dispositivo legal que proíbe a subcontratação integral, sem propor ações específicas para tratar a causa que levou à irregularidade (como falhas no processo de fiscalização, capacitação da equipe ou revisão de procedimentos). Já em relação aos efeitos pretendidos pela recomendação, não se aplica a análise pois o critério 'Foco Causa' não foi atendido.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 960,
+    "completion_tokens": 140,
+    "total_tokens": 1100,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 192
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

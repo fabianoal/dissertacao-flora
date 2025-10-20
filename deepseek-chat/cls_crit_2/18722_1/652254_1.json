@@ -1,0 +1,28 @@
+{
+  "id": "86d554f1-d156-4619-94a9-6656a93d1196",
+  "object": "chat.completion",
+  "created": 1760450576,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a adoção de um sistema de controle de medicamentos eficiente, que aborda a causa subjacente da ineficiência nos controles de estoque, que é a ausência de um sistema adequado, em vez de apenas corrigir falhas pontuais. Quanto ao critério 'Efeitos Duradouros', a implementação de um sistema estruturado e baseado em normativas tende a ser duradoura, pois independe de mudanças nos atores envolvidos, embora a eficácia contínua dependa da adesão às práticas estabelecidas.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1265,
+    "completion_tokens": 190,
+    "total_tokens": 1455,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 369
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

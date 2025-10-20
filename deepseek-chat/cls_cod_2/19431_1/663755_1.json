@@ -1,0 +1,28 @@
+{
+  "id": "9a0088f9-436e-4af2-9274-a12d85a97c10",
+  "object": "chat.completion",
+  "created": 1760385466,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação 1 e 2 focam na apresentação e manutenção de documentação, que são ações para corrigir a condição imediata de falta de documentos, mas não abordam a causa raiz, como falhas em processos ou treinamento que levam à não apresentação. A recomendação 3 trata da observância de regras, o que pode prevenir a reincidência ao estabelecer conformidade contínua, mas ainda é mais sobre corrigir a condição atual de não conformidade do que atacar causas subjacentes, como capacitação ou supervisão. Portanto, nenhuma ação proposta trata claramente da causa do problema. Quanto aos efeitos duradouros, como o critério 'Foco Causa' é 'Não', não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1228,
+    "completion_tokens": 210,
+    "total_tokens": 1438,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 396
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

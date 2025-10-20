@@ -1,0 +1,28 @@
+{
+  "id": "095707d2-9e95-4024-80a9-ddd52de99883",
+  "object": "chat.completion",
+  "created": 1760383830,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a instituição de um representante da administração para acompanhar a execução de futuros convênios, o que visa tratar a causa do problema (falta de designação de representante) e prevenir sua recorrência, caracterizando uma ação de foco na causa. Já em relação aos efeitos pretendidos pela recomendação, a medida de instituir um representante cria um procedimento formal que deve persistir independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1061,
+    "completion_tokens": 156,
+    "total_tokens": 1217,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 293
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "56271c7d-6fdb-4cda-a847-56434ec9de29",
+  "object": "chat.completion",
+  "created": 1760397808,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que vão além de simplesmente corrigir a condição atual de registros inadequados (como seria apenas exigir o preenchimento imediato), ao incluir capacitação de profissionais e acompanhamento dos processos de trabalho, o que visa abordar causas subjacentes como falta de conhecimento e processos inadequados. Já em relação aos efeitos pretendidos pela recomendação, as ações de capacitação e estabelecimento de processos de trabalho estruturados tendem a criar mudanças duradouras, pois melhorias em competências e processos institucionalizados permanecem mesmo com mudanças de pessoal.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1059,
+    "completion_tokens": 177,
+    "total_tokens": 1236,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 227
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

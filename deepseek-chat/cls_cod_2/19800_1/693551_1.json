@@ -1,0 +1,28 @@
+{
+  "id": "9898b664-c2a6-4550-b32f-cde151011ee5",
+  "object": "chat.completion",
+  "created": 1760397336,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ajustar o cronograma de entrega com acompanhamento de profissional capacitado (ação corretiva da condição) e estabelecer normas, procedimentos e rotinas técnicas escritas e atualizadas (ação preventiva da causa do problema, que é a ausência de rotina estabelecida). Portanto, há ação que trata da causa. Já em relação aos efeitos pretendidos pela recomendação para tratar a causa, a criação de normas e rotinas escritas permanece válida independentemente de mudanças nos atores envolvidos, pois se tornam parte da estrutura organizacional.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1157,
+    "completion_tokens": 171,
+    "total_tokens": 1328,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 325
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

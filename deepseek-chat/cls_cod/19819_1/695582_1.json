@@ -1,0 +1,28 @@
+{
+  "id": "3392d4af-4c25-4814-937c-c74077b01966",
+  "object": "chat.completion",
+  "created": 1760038348,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere múltiplas ações: formação contínua para profissionais, desenvolvimento de planos de cuidado individualizados e criação de indicadores para acompanhamento. A formação contínua e os planos de cuidado atuam diretamente para resolver a condição de falta de continuidade do cuidado e ações de redução de danos, caracterizando uma ação corretiva. Além disso, a formação contínua e a criação de indicadores visam abordar causas subjacentes, como a falta de capacitação e monitoramento, propondo ações específicas que vão além do mero cumprimento normativo. Essas ações específicas têm efeitos duradouros, pois institucionalizam práticas que podem persistir independentemente de mudanças nos atores envolvidos.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Específica\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1350,
+    "completion_tokens": 215,
+    "total_tokens": 1565,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 326
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

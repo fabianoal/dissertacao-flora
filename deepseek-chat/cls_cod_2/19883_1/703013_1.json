@@ -1,0 +1,28 @@
+{
+  "id": "1ce2a2ea-6ac5-45fa-8a7d-c23194126dcd",
+  "object": "chat.completion",
+  "created": 1760400548,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"A recomendação propõe que o hospital garanta a solicitação de radioterapia conforme protocolos estabelecidos, o que visa corrigir diretamente a condição observada de não solicitação. No entanto, não há menção a ações que abordem as causas subjacentes dessa não conformidade, como falhas em processos internos, treinamento de pessoal ou implementação de políticas preventivas. Portanto, a recomendação é focada na condição imediata. Como o critério 'Foco Causa' não é atendido, a avaliação de 'Efeitos Duradouros' não se aplica.\",\n   \"Foco Causa\": \"Não\",\n   \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1281,
+    "completion_tokens": 170,
+    "total_tokens": 1451,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 449
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

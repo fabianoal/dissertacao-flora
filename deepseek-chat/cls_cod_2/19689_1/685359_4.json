@@ -1,0 +1,28 @@
+{
+  "id": "e84b5d82-94c1-4589-8f6d-cc8829a25be5",
+  "object": "chat.completion",
+  "created": 1760393234,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação se concentra na restituição do valor superfaturado, o que constitui uma ação direta para corrigir a condição financeira irregular identificada, sem propor medidas para abordar as causas subjacentes, como falhas nos processos de contratação ou controle interno que permitiram o superfaturamento. Portanto, não há foco na causa. Como o critério 'Foco Causa' não é atendido, a avaliação de efeitos duradouros não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1066,
+    "completion_tokens": 146,
+    "total_tokens": 1212,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 170
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

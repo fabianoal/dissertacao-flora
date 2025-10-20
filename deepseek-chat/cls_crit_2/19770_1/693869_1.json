@@ -1,0 +1,28 @@
+{
+  "id": "99b1dd03-e552-451e-811d-1bbe22be9533",
+  "object": "chat.completion",
+  "created": 1760463801,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações que visam estabelecer controles permanentes e procedimentos sistemáticos para garantir a fidelidade dos dados de produção, o que aborda diretamente as causas subjacentes, como a falta de supervisão e controle adequados. Quanto ao critério 'Efeitos Duradouros', as ações recomendadas, como a implementação de processos institucionais e o cumprimento de normas, são projetadas para criar mudanças estruturais que podem perdurar mesmo com a substituição de gestores, desde que os sistemas e procedimentos sejam mantidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1366,
+    "completion_tokens": 182,
+    "total_tokens": 1548,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 470
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

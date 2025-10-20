@@ -1,0 +1,28 @@
+{
+  "id": "fd0a4272-201e-4494-89ab-f67516de60dc",
+  "object": "chat.completion",
+  "created": 1760035467,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere ações para resolver a condição encontrada, como formalizar e documentar procedimentos, o que caracteriza uma ação corretiva. Além disso, propõe capacitar a equipe e promover uma cultura de conformidade, que são ações voltadas para a causa subjacente (falhas no monitoramento e ausência de indicadores), embora a referência ao cumprimento do Manual do PNI indique uma abordagem genérica. No entanto, a capacitação e a promoção de cultura podem ter efeitos duradouros, mas a dependência de mudanças comportamentais e a referência normativa genérica limitam a sustentabilidade se os atores mudarem.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1187,
+    "completion_tokens": 199,
+    "total_tokens": 1386,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 227
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

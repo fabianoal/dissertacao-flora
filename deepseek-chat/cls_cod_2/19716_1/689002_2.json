@@ -1,0 +1,28 @@
+{
+  "id": "fc520788-2431-4025-8e58-b09512ceb880",
+  "object": "chat.completion",
+  "created": 1760394424,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a revisão das orientações do Procedimento Operacional Padrão (POP) para garantir o aporte nutricional, o que indica uma ação voltada para modificar processos e evitar a reincidência da condição insuficiente de nutrição, tratando assim a causa do problema. Já em relação aos efeitos pretendidos pela recomendação, a revisão do POP estabelece diretrizes formais que devem perdurar independentemente de mudanças nos profissionais envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1033,
+    "completion_tokens": 158,
+    "total_tokens": 1191,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 201
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

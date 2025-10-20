@@ -1,0 +1,28 @@
+{
+  "id": "a2212bd1-2ea1-4025-b09b-4101ec858e44",
+  "object": "chat.completion",
+  "created": 1760448342,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise crítica considera a adequação da classificação fornecida pelo modelo em relação aos critérios 'Foco Causa' e 'Efeitos Duradouros'. A constatação identifica incompatibilidade entre AIHs pagas e atributos do CID principal, e a recomendação propõe aprimorar o registro do código CID conforme manual técnico. A avaliação do modelo aponta que a recomendação trata da causa e gera efeitos duradouros, o que é analisado criticamente abaixo.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1207,
+    "completion_tokens": 159,
+    "total_tokens": 1366,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 375
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

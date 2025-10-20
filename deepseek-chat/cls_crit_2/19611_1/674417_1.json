@@ -1,0 +1,28 @@
+{
+  "id": "d33eb8e5-af14-412f-a28a-64184a1914f8",
+  "object": "chat.completion",
+  "created": 1760456469,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise fornecida pelo modelo avalia corretamente que a recomendação aborda a causa do problema ao propor a inserção de um Termo Aditivo para regularizar a documentação contratual, mas pode haver ambiguidade quanto aos efeitos duradouros, pois a ação é específica para um caso e não necessariamente estabelece mudanças sistêmicas permanentes.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1159,
+    "completion_tokens": 121,
+    "total_tokens": 1280,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 263
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "3be41215-6246-429a-95bc-22ee34750308",
+  "object": "chat.completion",
+  "created": 1760387934,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe duas ações distintas: a devolução de valores relativos a equipes incompletas e o envio de informações/documentos quando solicitado. A primeira ação (devolução de valores) é uma medida corretiva que trata diretamente da condição financeira decorrente da constatação, sem abordar as causas subjacentes da incompletude das equipes (como dificuldades de contratação, retenção de profissionais ou gestão de recursos humanos). A segunda ação (envio de informações) é uma medida de transparência e cumprimento normativo, mas também não aborda a causa raiz do problema. Portanto, nenhuma das ações trata da causa do problema que gerou a condição encontrada. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, esta análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 985,
+    "completion_tokens": 239,
+    "total_tokens": 1224,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 153
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

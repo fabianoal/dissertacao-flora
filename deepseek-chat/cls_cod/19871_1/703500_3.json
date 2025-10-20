@@ -1,0 +1,28 @@
+{
+  "id": "4d26b60e-0619-47fb-9b95-0f85245d9692",
+  "object": "chat.completion",
+  "created": 1760036748,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere ações para corrigir a condição encontrada (uso indevido de APACs) e para tratar a causa subjacente (processos inadequados de documentação e registro). A ação corretiva é clara: sanar a irregularidade específica de codificação. A ação com foco na causa é específica, pois propõe a revisão e atualização dos processos da equipe, indo além do mero cumprimento de normativos. Os efeitos dessa ação são duradouros, pois a melhoria nos processos permanece independentemente de mudanças na equipe.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Específica\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1391,
+    "completion_tokens": 184,
+    "total_tokens": 1575,
+    "prompt_tokens_details": {
+      "cached_tokens": 1088
+    },
+    "prompt_cache_hit_tokens": 1088,
+    "prompt_cache_miss_tokens": 303
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

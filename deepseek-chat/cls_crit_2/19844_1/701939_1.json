@@ -1,0 +1,28 @@
+{
+  "id": "f8fe81e5-cf9f-4567-b9df-c164e1a18fdf",
+  "object": "chat.completion",
+  "created": 1760448930,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta em identificar que a recomendação trata da causa do problema (insuficiência de profissionais) e estabelece uma estrutura permanente, mas merece uma avaliação mais detalhada sobre a natureza da causa e a durabilidade dos efeitos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1227,
+    "completion_tokens": 104,
+    "total_tokens": 1331,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 331
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

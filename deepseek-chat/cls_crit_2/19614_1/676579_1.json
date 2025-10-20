@@ -1,0 +1,28 @@
+{
+  "id": "d55eae57-639c-4ddf-b9c8-32768e1e2102",
+  "object": "chat.completion",
+  "created": 1760457005,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação propõe estabelecer critérios para contratações e salários, o que trata diretamente da causa da ausência de critérios identificada na constatação, sendo uma ação preventiva. Quanto ao critério 'Efeitos Duradouros', a análise também está correta, pois a institucionalização de critérios e controles, como o de frequência, visa garantir que os efeitos persistam mesmo com mudanças nos atores envolvidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1285,
+    "completion_tokens": 170,
+    "total_tokens": 1455,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 389
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

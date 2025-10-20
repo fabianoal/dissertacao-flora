@@ -1,0 +1,28 @@
+{
+  "id": "4bab25b1-e0c4-4a53-8c24-4b6dcb1b7aea",
+  "object": "chat.completion",
+  "created": 1760390618,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a solicitar justificativas formais para a ausência do contrato, sem propor ações que tratem diretamente da causa subjacente do problema, como a implementação de processos para garantir a celebração dos contratos necessários. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 942,
+    "completion_tokens": 135,
+    "total_tokens": 1077,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 110
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

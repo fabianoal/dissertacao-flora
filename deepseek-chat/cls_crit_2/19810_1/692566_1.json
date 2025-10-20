@@ -1,0 +1,28 @@
+{
+  "id": "e93202cf-9819-49e7-9d81-7705a797d73a",
+  "object": "chat.completion",
+  "created": 1760465289,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a implementação de registros e estratégias de atendimento para casos de violência, o que aborda diretamente a causa da falta de estratégias definidas, que é a ausência de processos estruturados. Portanto, concordo com a classificação 'Sim'. Para o critério 'Efeitos Duradouros', a implementação de processos e registros padronizados, baseados em normas, tende a criar mudanças institucionais que persistem independentemente de mudanças de pessoal, então também concordo com 'Sim'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1313,
+    "completion_tokens": 180,
+    "total_tokens": 1493,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 417
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "7235539a-5b4b-4099-bc53-b17346a22240",
+  "object": "chat.completion",
+  "created": 1760384299,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a aquisição e alocação de equipamentos para corrigir a condição de equipamentos não disponibilizados, mas não identifica ou trata as causas subjacentes que levaram a essa situação, como falhas nos processos de gestão, planejamento ou distribuição. Portanto, é uma solução focada na condição imediata. Como o critério 'Foco Causa' não foi atendido, a análise de efeitos duradouros não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 964,
+    "completion_tokens": 155,
+    "total_tokens": 1119,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 132
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

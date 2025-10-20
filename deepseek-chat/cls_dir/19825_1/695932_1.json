@@ -1,0 +1,28 @@
+{
+  "id": "bd089099-9984-4228-8158-c98b37bf4132",
+  "object": "chat.completion",
+  "created": 1759367942,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação identifica a causa da insuficiência da capacidade profissional (falta de referência adequada para dimensionamento e necessidade de fiscalização/validação de cadastros), situa-se no nível institucional ao propor mudanças nos processos de gestão e cadastro, e as transformações propostas (estabelecimento de parâmetros e fiscalização contínua) possuem potencial para perdurar no tempo, corrigindo a causa estrutural do problema.\",\n    \"categoria\": \"foco-causa\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1481,
+    "completion_tokens": 124,
+    "total_tokens": 1605,
+    "prompt_tokens_details": {
+      "cached_tokens": 1216
+    },
+    "prompt_cache_hit_tokens": 1216,
+    "prompt_cache_miss_tokens": 265
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

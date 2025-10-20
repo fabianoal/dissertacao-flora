@@ -1,0 +1,28 @@
+{
+  "id": "351a90db-e447-4ae8-aff0-53a51a13b0cc",
+  "object": "chat.completion",
+  "created": 1760459069,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', discordo da análise original, pois a recomendação de monitorar o planejamento e execução da política visa abordar diretamente a causa da falta de informações nos instrumentos de planejamento, promovendo ações corretivas contínuas. Quanto ao critério 'Efeitos Duradouros', como discordo da classificação anterior para 'Foco Causa', a análise não se aplica corretamente, mas se considerada, os efeitos seriam duradouros devido ao estabelecimento de mecanismos permanentes de monitoramento.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1275,
+    "completion_tokens": 177,
+    "total_tokens": 1452,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 315
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

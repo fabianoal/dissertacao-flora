@@ -1,0 +1,28 @@
+{
+  "id": "fdb6fa25-0901-423f-b96f-79df0f08b990",
+  "object": "chat.completion",
+  "created": 1760458453,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise fornecida avalia corretamente a recomendação como genérica e não específica à causa do problema, mas a classificação de 'Foco Causa' como 'Não' pode ser questionada, pois a recomendação, embora genérica, poderia ser interpretada como abordando indiretamente a causa ao enfatizar a prestação de informações necessárias. No entanto, a falta de ações concretas para prevenir a ausência de números de AIH apoia a conclusão de que não há foco claro na causa. Para 'Efeitos Duradouros', a não aplicação está correta, dado que 'Foco Causa' foi considerado 'Não'.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1171,
+    "completion_tokens": 187,
+    "total_tokens": 1358,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 275
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

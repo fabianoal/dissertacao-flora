@@ -1,0 +1,28 @@
+{
+  "id": "15e08a22-456d-47ee-ac60-e1d0067e7f3b",
+  "object": "chat.completion",
+  "created": 1760390010,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a orientação para conferência documental, o que visa corrigir a inconsistência observada, mas não aborda diretamente a causa subjacente, como falhas no planejamento ou na gestão de demandas, focando mais na condição atual. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, esta análise não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1033,
+    "completion_tokens": 136,
+    "total_tokens": 1169,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 201
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

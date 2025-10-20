@@ -1,0 +1,28 @@
+{
+  "id": "83950c3c-010c-4413-9643-eda4f53a3d5c",
+  "object": "chat.completion",
+  "created": 1760036360,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere a implementação de uma rotina de verificação para garantir a presença de itens obrigatórios no prontuário, o que constitui uma ação corretiva para resolver a condição de ausência da folha de solicitação. No entanto, a ação proposta é genérica, pois se limita a citar o cumprimento de normativos existentes sem especificar medidas concretas para abordar a causa subjacente, como falhas em processos ou treinamento. Como a ação não é específica, os efeitos duradouros não são avaliados positivamente.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1174,
+    "completion_tokens": 175,
+    "total_tokens": 1349,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 150
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

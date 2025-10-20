@@ -1,0 +1,28 @@
+{
+  "id": "98b4aa40-556b-4ec2-9f97-c3c2a4c7838d",
+  "object": "chat.completion",
+  "created": 1760388014,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe apenas corrigir a condição imediata de falta de placas nos veículos, sem abordar as causas subjacentes que levaram a essa situação, como falhas nos processos de aquisição, manutenção ou fiscalização. Já em relação aos efeitos pretendidos pela recomendação, como o critério 'Foco Causa' não foi atendido, não se aplica a análise de efeitos duradouros.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 935,
+    "completion_tokens": 143,
+    "total_tokens": 1078,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 103
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

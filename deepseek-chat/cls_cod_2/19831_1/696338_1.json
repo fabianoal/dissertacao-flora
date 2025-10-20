@@ -1,0 +1,28 @@
+{
+  "id": "8e4d9bff-5a31-40cd-87b9-95a092785dfc",
+  "object": "chat.completion",
+  "created": 1760398632,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe ações como a elaboração e acompanhamento de planos de cuidados individualizados e a formalização de registros, que visam abordar a causa subjacente da ausência de registros, como a falta de processos estruturados e sistematizados para garantir a continuidade do cuidado. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como a implementação de sistematização de registros, tendem a criar estruturas e procedimentos permanentes que podem persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1043,
+    "completion_tokens": 171,
+    "total_tokens": 1214,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 211
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

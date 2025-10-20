@@ -1,0 +1,28 @@
+{
+  "id": "75fc4c49-dce9-4eba-8ce9-1f5390b9edb9",
+  "object": "chat.completion",
+  "created": 1760384791,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação se limita a exigir o cumprimento de normas existentes sobre a colagem de etiquetas nos prontuários, sem propor ações que abordem as causas subjacentes da não localização dessas etiquetas, como falhas em processos de treinamento, supervisão ou sistemas de controle. Portanto, não há foco na causa. Já em relação aos efeitos pretendidos, como o critério 'Foco Causa' não foi atendido, essa avaliação não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1109,
+    "completion_tokens": 158,
+    "total_tokens": 1267,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 277
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "48e42aac-0f9b-46b0-8b75-7fede5c912f2",
+  "object": "chat.completion",
+  "created": 1760456833,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação foca na correção imediata da condição (ausência de comprovação) por meio da inserção de documentação, sem abordar causas subjacentes como falhas processuais ou de controle. No entanto, é importante considerar que a ação de notificar para inserir documentação pode, em alguns contextos, ser interpretada como um passo para prevenir recorrências, mas neste caso específico, ela não propõe mudanças sistêmicas ou de causa raiz.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1154,
+    "completion_tokens": 158,
+    "total_tokens": 1312,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 258
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

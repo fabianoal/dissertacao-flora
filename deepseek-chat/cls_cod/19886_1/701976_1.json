@@ -1,0 +1,28 @@
+{
+  "id": "fa008472-ff3a-4fbe-9636-1083aa593309",
+  "object": "chat.completion",
+  "created": 1760035688,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere a realização de perícia pós-operatória para verificar a compatibilidade entre o procedimento realizado e os registros, o que constitui uma ação corretiva para resolver a condição específica de inconsistência identificada. No entanto, não propõe ações específicas para tratar a causa subjacente, como a implementação de políticas de treinamento ou revisão de processos, limitando-se a enfatizar o cumprimento do Manual de Bases Técnicas em Oncologia, o que é genérico. Como a ação com foco na causa é genérica, os efeitos duradouros não são avaliados como presentes.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1647,
+    "completion_tokens": 189,
+    "total_tokens": 1836,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 623
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

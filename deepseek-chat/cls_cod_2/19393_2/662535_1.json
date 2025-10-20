@@ -1,0 +1,28 @@
+{
+  "id": "b96dd7ee-9c30-4e2a-a45c-864a272c21b8",
+  "object": "chat.completion",
+  "created": 1760385111,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a inclusão de cópias dos exames pré-operatórios nos prontuários, o que corrige a condição imediata de ausência desses documentos, mas não aborda as causas subjacentes, como falhas nos processos de documentação ou capacitação da equipe. Portanto, a recomendação é focada na condição, não na causa. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não é atendido, não se aplica a análise.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1027,
+    "completion_tokens": 162,
+    "total_tokens": 1189,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 195
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

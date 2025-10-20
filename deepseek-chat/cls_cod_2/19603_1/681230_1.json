@@ -1,0 +1,28 @@
+{
+  "id": "9ec63764-7237-4540-810c-ae7594a8bbf3",
+  "object": "chat.completion",
+  "created": 1760388994,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação apresenta duas partes distintas: a primeira trata da correção imediata da condição encontrada (realizar manutenção predial nas bases com problemas), caracterizando-se como foco na condição; a segunda parte propõe o estabelecimento de um plano de manutenção preventiva regular, que visa evitar problemas futuros ao abordar a causa raiz (falta de manutenção sistemática), configurando foco na causa. Já em relação aos efeitos pretendidos pela recomendação de foco na causa, o plano de manutenção preventiva regular cria uma estrutura permanente que independe de pessoas específicas, garantindo que os efeitos (conservação adequada das instalações e prevenção de problemas) persistam mesmo com mudanças nos atores envolvidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1248,
+    "completion_tokens": 211,
+    "total_tokens": 1459,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 416
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

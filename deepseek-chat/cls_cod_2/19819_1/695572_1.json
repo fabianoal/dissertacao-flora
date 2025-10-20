@@ -1,0 +1,28 @@
+{
+  "id": "183bde34-d013-49f8-a2c3-e2cad2cdef13",
+  "object": "chat.completion",
+  "created": 1760398156,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"Em relação ao foco, a recomendação propõe ações como assegurar acolhimento, escuta ativa e qualificada, classificação de risco, encaminhamento responsável e treinamento de profissionais para identificar riscos e vulnerabilidades. Essas medidas visam abordar a causa subjacente da falta de critérios de classificação de risco, que é a ausência de processos estruturados e capacitação adequada, focando em mudanças sistêmicas para prevenir a recorrência do problema. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como a implementação de treinamentos e procedimentos padronizados, tendem a criar mudanças duradouras que permanecem independentemente de mudanças nos atores envolvidos, pois estabelecem práticas institucionais.\",\n   \"Foco Causa\": \"Sim\",\n   \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1074,
+    "completion_tokens": 213,
+    "total_tokens": 1287,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 242
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

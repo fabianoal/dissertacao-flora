@@ -1,0 +1,28 @@
+{
+  "id": "befd4ba6-4130-4f1e-90b3-46dc9f0acaa7",
+  "object": "chat.completion",
+  "created": 1760459925,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação concentra-se exclusivamente na correção da condição específica de superfaturamento (devolução do valor), sem propor ações para prevenir futuras ocorrências, como melhorias em processos licitatórios ou controles internos. Quanto ao critério 'Efeitos Duradouros', como não há foco na causa, a não aplicação está correta.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1192,
+    "completion_tokens": 142,
+    "total_tokens": 1334,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 232
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

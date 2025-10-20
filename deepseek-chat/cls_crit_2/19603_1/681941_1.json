@@ -1,0 +1,28 @@
+{
+  "id": "16f18b03-64c1-4032-a4ef-ed7bc91c492c",
+  "object": "chat.completion",
+  "created": 1760455825,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identifica corretamente que a recomendação possui elementos que tratam da causa do problema (reforço de mecanismos de controle e monitoramento) e elementos que tratam da condição atual (restituição de valores). No entanto, para o critério 'Efeitos Duradouros', a análise do modelo não considera adequadamente que os mecanismos propostos (como relatórios regulares) dependem de implementação consistente e podem não ser sustentáveis sem mudanças culturais ou estruturais mais profundas, especialmente em um contexto de possível rotatividade de gestores.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1414,
+    "completion_tokens": 185,
+    "total_tokens": 1599,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 518
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

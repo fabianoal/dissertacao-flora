@@ -1,0 +1,28 @@
+{
+  "id": "4397ceeb-d76e-4b58-82cc-5a8d470ec6c0",
+  "object": "chat.completion",
+  "created": 1760388514,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a implantação de um checklist para controlar o cumprimento da limpeza semestral e o acompanhamento pela gestão, o que visa tratar a causa do problema (falta de controle sistemático) e não apenas corrigir a condição atual de não comprovação. Já em relação aos efeitos pretendidos pela recomendação, a implantação de um checklist e o acompanhamento da gestão criam um processo estruturado que deve permanecer eficaz mesmo com mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1059,
+    "completion_tokens": 168,
+    "total_tokens": 1227,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 227
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

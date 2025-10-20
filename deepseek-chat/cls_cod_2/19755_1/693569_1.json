@@ -1,0 +1,28 @@
+{
+  "id": "1e307763-f3d7-443c-ab4d-91929eba0e85",
+  "object": "chat.completion",
+  "created": 1760395560,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação se limita a citar normas e regulamentos existentes sem propor ações específicas para tratar a causa raiz da falta de registro padronizado, como a implementação de um sistema de controle ou capacitação da equipe. Já em relação aos efeitos pretendidos pela recomendação, não se aplica a análise pois o critério 'Foco Causa' não foi atendido.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1175,
+    "completion_tokens": 129,
+    "total_tokens": 1304,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 343
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "10cdfd7a-4535-4d2a-b61c-854c94a8bc24",
+  "object": "chat.completion",
+  "created": 1760387026,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe ações como assegurar o envio de dados e considerar registros em prontuários para qualificar indicadores, o que aborda a causa subjacente de inconsistências nos dados, como falhas nos processos de registro e envio. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como a qualificação de indicadores conforme guias, visam estabelecer procedimentos padronizados que podem persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 988,
+    "completion_tokens": 158,
+    "total_tokens": 1146,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 156
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

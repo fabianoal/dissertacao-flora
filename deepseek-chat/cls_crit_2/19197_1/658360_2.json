@@ -1,0 +1,28 @@
+{
+  "id": "4a99bf56-475c-40b6-b446-547b0e11ee4b",
+  "object": "chat.completion",
+  "created": 1760451008,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação de cumprir a Portaria nº 1.302/2017 e seguir o Manual de Boas Práticas em OPME propõe a criação de um planejamento formal, o que trata diretamente a causa da ausência de planejamento, que é a falta de adesão a diretrizes normativas. Quanto ao critério 'Efeitos Duradouros', a implementação de um processo de planejamento baseado em normas institucionalizadas tende a criar uma estrutura permanente, mas a dependência de adesão contínua e possíveis mudanças nas políticas ou na aplicação prática pode limitar a durabilidade absoluta.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1263,
+    "completion_tokens": 203,
+    "total_tokens": 1466,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 367
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

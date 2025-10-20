@@ -1,0 +1,179 @@
+---
+title: "Análise de Etiquetas"
+author: Fabiano A. Lima
+lang: pt-BR
+format: 
+  docx:
+    reference-doc: ./Quarto/custom-reference-doc.docx
+execute: 
+  cache: false
+  echo: true
+knitr:
+  opts_chunk: 
+    collapse: true
+    comment: "#>" 
+    R.options:
+      knitr.graphics.auto_pdf: true
+---
+
+
+```{r}
+#| label: setup
+#| include: false
+#| echo: false
+source("./R/funcoes_setup.r")
+
+instala_pacotes(c(
+        "tidyverse",
+        "httr2",
+        "dotenv"))
+
+source("./R/util.r")
+
+library(tidyverse)
+
+options(width = 70)
+```
+
+
+```{r}
+#| label: cria_dataset_analise
+#| echo: false
+#| eval: true
+
+set.seed(42)
+
+prompt <- "etiquetador_3"
+
+ds_etq_2 <- read_rds(obtem_nome_arquivo_resultados("etiquetador_2"))
+ds_etq_3 <- read_rds(obtem_nome_arquivo_resultados(prompt))
+
+dataset_analise <- read_rds("./Dados Gerados/dataset_consolidado.rds") |>
+    adapta_dataframe(obtem_pasta("etiquetador_2"), "") |>
+    select(
+        `No. Auditoria`, 
+        `Arquivo`, 
+        `Arquivo Saída`, 
+        Finalidade, 
+        `# Constatação`, 
+        `Constatação`, 
+        `Item`,
+        `Grupo`,
+        `Subgrupo`,
+        `# Recomendação`, 
+        `Recomendação`) |>
+    inner_join(
+        ds_etq_2 |>
+        select(-finish_reason, -erro) |>
+        mutate(Etiqueta = str_to_sentence(Etiqueta)),
+        by = c("Arquivo Saída" = "arquivo")
+    ) |>
+    select(!c(`Arquivo Saída`)) |>
+    adapta_dataframe(obtem_pasta(prompt), "") |>
+    inner_join(
+        ds_etq_3 |>
+        select(-finish_reason, -erro) |>
+        mutate(Etiqueta = str_to_sentence(Etiqueta)) |>
+        rename(`Etiqueta Nova` = Etiqueta),
+        by = c("Arquivo Saída" = "arquivo")
+    ) |>
+    select(!c(`Arquivo Saída`)) 
+
+obtem_funcao_print <- function(df){
+    obtem_campo <- function(indice, campo){
+        df[indice, campo] |> 
+        purrr::pluck(1)
+    }
+    function(i){
+        cat("## Auditoria ", obtem_campo(i, "No. Auditoria"), 
+            ", Constatação Nº ", obtem_campo(i, "# Constatação"), 
+            " (#", obtem_campo(i, "# Recomendação"), ")\n\n", 
+            "**Grupo**: " , obtem_campo(i, "Grupo"), "\n\n",
+            "**Subgrupo**: " , obtem_campo(i, "Subgrupo"), "\n\n",
+            "**Item**: " , obtem_campo(i, "Item"), "\n\n",
+            "**Constatação**: ", obtem_campo(i, "Constatação"), "\n\n",
+            "**Recomendação**: " , obtem_campo(i, "Recomendação"), "\n\n",
+            "**Etiqueta Antiga**: " , obtem_campo(i, "Etiqueta"), "\n\n",
+            sep = ""
+        )
+    }
+}
+
+# dataset_analise |>
+# summarise(
+#     tot = n(),
+#     .by = c(`Etiqueta Nova`, Item)
+# ) |>
+# arrange(desc(tot))
+
+read_rds("./Dados Gerados/dataset_consolidado.rds") |>
+mutate(Item = Item |> 
+              str_to_lower() |>
+              retira_caracteres_especiais() |>
+              str_replace_all(" {2,}", " ") |>
+              str_replace_all(fixed("/ "), "/")) |>
+summarise(
+    Tot = n(),
+    .by = c(`Item`)
+) |>
+arrange(desc(Tot)) |>
+mutate(STot = cumsum(Tot)) |>
+mutate(Perc = 100 * STot/sum(Tot)) |>
+select(-STot) |>
+#filter(str_detect(Item, "residu*"))
+knitr::kable()
+```
+
+# Prompt
+
+```{r}
+#| label: prompt_system_cls_cod
+#| echo: false
+#| eval: true
+#| results: asis
+
+cat_system_prompt(prompt)
+```
+
+# Resultados
+
+```{r}
+#| label: codigos
+#| echo: false
+#| eval: true
+
+dataset_analise |>
+summarise(
+    Total = n(),
+    .by = c(`Etiqueta Nova`)
+) |>
+mutate(`%` = 100 * Total/sum(Total)) |>
+arrange(desc(Total)) |>
+knitr::kable()
+```
+
+# Listagem
+
+```{r}
+#| label: print_exemplos_causa_concordo
+#| echo: false
+#| eval: true
+#| results: asis
+
+exemplos <- dataset_analise
+
+resultados_para_impressao <- exemplos |>
+    group_by(`Etiqueta Nova`) |>
+    #slice_sample(n = 5) |>
+    nest() |>
+    transpose()
+
+
+walk(resultados_para_impressao, 
+    function(el) {
+        print_fn <- obtem_funcao_print(el$data)
+        cat("#", el$`Etiqueta Nova`, "\n\n", sep = " ")
+        walk(1:nrow(el$data), print_fn)
+    })
+
+```

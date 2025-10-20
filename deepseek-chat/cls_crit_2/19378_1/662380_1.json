@@ -1,0 +1,28 @@
+{
+  "id": "8abbb312-b09a-452f-b57b-b08dc128cada",
+  "object": "chat.completion",
+  "created": 1760451832,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação aborda a causa subjacente do problema, que é a falta de conformidade com procedimentos estabelecidos para registro de produção. Quanto ao critério 'Efeitos Duradouros', a análise também está correta, pois a implementação da sistemática definida na portaria cria uma estrutura permanente que deve persistir independentemente de mudanças nos atores envolvidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1241,
+    "completion_tokens": 148,
+    "total_tokens": 1389,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 345
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "39654c82-7209-4423-a539-0d97e599f054",
+  "object": "chat.completion",
+  "created": 1760036100,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere a elaboração e disponibilização de POPs para corrigir a ausência documental constatada, caracterizando uma ação corretiva. Além disso, propõe a revisão periódica dos POPs, que é uma ação específica para tratar a causa subjacente (falta de manutenção e atualização dos procedimentos), visando prevenir a recorrência. Essa ação específica tem efeitos duradouros, pois a institucionalização de revisões periódicas assegura a continuidade e eficácia dos procedimentos independentemente de mudanças na equipe.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Específica\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1225,
+    "completion_tokens": 177,
+    "total_tokens": 1402,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 201
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

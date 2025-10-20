@@ -1,0 +1,28 @@
+{
+  "id": "cf70bcc0-baed-404e-b2ec-696774faf913",
+  "object": "chat.completion",
+  "created": 1760370510,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a realização de acompanhamentos dos familiares, o que visa corrigir diretamente a condição encontrada de falta de acompanhamento, sem abordar as causas subjacentes, como falta de capacitação ou recursos. Portanto, o foco está na condição, não na causa. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não é atendido, não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1116,
+    "completion_tokens": 133,
+    "total_tokens": 1249,
+    "prompt_tokens_details": {
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 924
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

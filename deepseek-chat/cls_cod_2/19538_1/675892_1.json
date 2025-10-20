@@ -1,0 +1,28 @@
+{
+  "id": "145cbdeb-8353-47e6-80f3-caedcc0d35fb",
+  "object": "chat.completion",
+  "created": 1760387262,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a informatização das UBS e o uso do Prontuário Eletrônico, o que visa abordar a causa subjacente da inconsistência de dados, como sistemas não integrados e práticas manuais de registro, caracterizando um foco na causa. Já em relação aos efeitos pretendidos pela recomendação, a implementação de sistemas informatizados e procedimentos padronizados tende a criar estruturas duradouras que permanecem independentemente de mudanças nos atores envolvidos, como a continuidade do envio de dados mesmo com troca de pessoal.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1081,
+    "completion_tokens": 169,
+    "total_tokens": 1250,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 249
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

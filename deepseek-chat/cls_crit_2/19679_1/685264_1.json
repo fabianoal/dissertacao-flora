@@ -1,0 +1,28 @@
+{
+  "id": "98d18acf-cfb7-4b41-93b1-70422df5a890",
+  "object": "chat.completion",
+  "created": 1760459297,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações de orientação e acompanhamento para prevenir a reincidência do problema, o que sugere um tratamento da causa subjacente (falta de supervisão adequada). Para o critério 'Efeitos Duradouros', a implementação de procedimentos baseados em dispositivos legais pode promover mudanças estruturais, mas a dependência de orientação específica pode limitar a durabilidade se os atores mudarem.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1211,
+    "completion_tokens": 159,
+    "total_tokens": 1370,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 315
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

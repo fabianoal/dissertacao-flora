@@ -1,0 +1,28 @@
+{
+  "id": "2df7d7b8-3a57-44ab-b6a7-bedd11ad3d3c",
+  "object": "chat.completion",
+  "created": 1760399780,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que visam tratar a causa do problema, como estabelecer rotinas de conciliação e auditoria interna para verificar coerência entre dados e capacidade real, implementar medidas corretivas e preventivas para assegurar fidelidade das informações, e promover treinamentos regulares para profissionais. Essas ações buscam resolver as causas subjacentes da incompatibilidade, não apenas corrigir a condição atual. Já em relação aos efeitos pretendidos pela recomendação, as rotinas estabelecidas, medidas implementadas e treinamentos regulares criam estruturas e processos que devem permanecer efetivos mesmo com mudanças nos atores envolvidos, pois institucionalizam práticas de verificação e capacitação.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1175,
+    "completion_tokens": 202,
+    "total_tokens": 1377,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 343
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

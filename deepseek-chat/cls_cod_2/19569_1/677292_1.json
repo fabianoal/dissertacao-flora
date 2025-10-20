@@ -1,0 +1,28 @@
+{
+  "id": "1a97cc2a-050a-4385-bb64-871f4919ecab",
+  "object": "chat.completion",
+  "created": 1760388186,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe adequar o registro das informações nos sistemas correlatos à cobertura vacinal, seguindo normas específicas e prazos estabelecidos. Esta ação visa corrigir a discrepância entre os dados apresentados no SISAB e outros sistemas, tratando diretamente a causa do problema, que é a falta de padronização e conformidade nos registros. Já em relação aos efeitos pretendidos pela recomendação, a implementação de procedimentos padronizados e baseados em normas permanentes assegura que os efeitos perdurem mesmo com mudanças nos atores envolvidos, pois se baseia em diretrizes institucionais e legais.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1106,
+    "completion_tokens": 185,
+    "total_tokens": 1291,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 274
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

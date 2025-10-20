@@ -1,0 +1,28 @@
+{
+  "id": "c6519b67-0da6-4983-9a34-fdb57ae4e30f",
+  "object": "chat.completion",
+  "created": 1760467349,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise da codificação está correta em identificar que a recomendação se limita a exigir o cumprimento de um item específico do Plano de Ação, sem abordar causas subjacentes como falhas de governança ou monitoramento. No entanto, a recomendação poderia ser interpretada como focada na causa se considerar que a ausência de um regimento interno revisado é a própria causa da não conformidade, mas essa interpretação é mais superficial. A análise do modelo é adequada ao considerar que não há ações propostas para tratar causas raiz mais profundas.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1204,
+    "completion_tokens": 169,
+    "total_tokens": 1373,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 308
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

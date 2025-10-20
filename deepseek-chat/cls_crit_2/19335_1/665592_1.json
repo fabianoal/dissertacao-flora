@@ -1,0 +1,28 @@
+{
+  "id": "825734e7-ba9e-497a-9dc2-4f3e5840f760",
+  "object": "chat.completion",
+  "created": 1760451688,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação trata apenas da correção imediata da condição encontrada (ausência e preenchimento inadequado dos laudos), sem abordar as causas subjacentes como falhas processuais, treinamento ou supervisão. Quanto ao critério 'Efeitos Duradouros', como o 'Foco Causa' foi corretamente classificado como 'Não', a resposta 'Não se aplica' está adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1326,
+    "completion_tokens": 162,
+    "total_tokens": 1488,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 430
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

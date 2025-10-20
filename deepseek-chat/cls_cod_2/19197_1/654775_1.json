@@ -1,0 +1,28 @@
+{
+  "id": "3dea4542-3811-42d8-a4c9-6678b40f76fc",
+  "object": "chat.completion",
+  "created": 1760384166,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a implementação de uma rotina de verificação para garantir que os itens obrigatórios, como a nota fiscal, sejam anexados ao prontuário, o que visa prevenir a recorrência da ausência de documentação, tratando assim a causa do problema (falta de verificação sistemática). Já em relação aos efeitos pretendidos pela recomendação, a rotina de verificação estabelece um processo contínuo que independe de atores específicos, pois se baseia em normas e manuais, garantindo que os efeitos (prontuários completos) persistam mesmo com mudanças de pessoal.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 987,
+    "completion_tokens": 183,
+    "total_tokens": 1170,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 155
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "808ea03a-9993-4187-84da-754eb5f2a8ba",
+  "object": "chat.completion",
+  "created": 1760395740,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe adequar a estrutura física da CMRF para incluir áreas específicas e identificadas, o que visa tratar a causa raiz do problema (estrutura física inadequada) em vez de apenas corrigir sintomas temporários. Já em relação aos efeitos pretendidos pela recomendação, a adequação física da estrutura tende a produzir benefícios duradouros, pois as melhorias na infraestrutura permanecem independentemente de mudanças na equipe ou gestores.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1130,
+    "completion_tokens": 151,
+    "total_tokens": 1281,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 298
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

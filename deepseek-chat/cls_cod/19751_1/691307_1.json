@@ -1,0 +1,28 @@
+{
+  "id": "a556f17d-e6a9-4283-b20a-ceba216b6d8d",
+  "object": "chat.completion",
+  "created": 1760036093,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a criação de um sistema formal de registros diários para documentar as verificações, o que constitui uma ação corretiva direta para resolver a inadequação na documentação. Além disso, ao estabelecer esse sistema, a recomendação visa endereçar a causa subjacente, que é a falta de um processo estruturado para garantir a conformidade documental, embora a ação seja genérica, pois se baseia principalmente no cumprimento de um normativo existente sem detalhar ações específicas adicionais.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1223,
+    "completion_tokens": 163,
+    "total_tokens": 1386,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 199
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

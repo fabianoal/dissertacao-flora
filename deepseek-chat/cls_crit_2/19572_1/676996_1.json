@@ -1,0 +1,28 @@
+{
+  "id": "60c2cb46-0db4-4235-afa8-a368bf003c43",
+  "object": "chat.completion",
+  "created": 1760455213,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise da codificação está correta ao identificar que a recomendação se concentra em corrigir a condição imediata (falta de documentação) sem abordar as causas subjacentes, como falhas nos processos de fiscalização ou gestão documental. No entanto, a avaliação do critério 'Efeitos Duradouros' como 'Não se aplica' é consistente, pois depende de uma recomendação focada na causa.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1238,
+    "completion_tokens": 142,
+    "total_tokens": 1380,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 342
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

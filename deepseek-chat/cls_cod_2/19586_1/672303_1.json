@@ -1,0 +1,28 @@
+{
+  "id": "86c0a67a-48b0-477f-ba7a-1f5f7e41ae08",
+  "object": "chat.completion",
+  "created": 1760388382,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação consiste em uma lista de ações específicas para atender às orientações técnicas do Programa Previne Brasil, focando na correção imediata da discrepância entre os dados consolidados no SISAB e as informações dos prontuários. As ações propostas são direcionadas a ajustar os critérios de inclusão no numerador dos indicadores, o que trata a condição encontrada (dados não suportados pelos prontuários), mas não aborda as causas subjacentes, como possíveis falhas nos processos de registro, capacitação da equipe, ou sistemas de informação. Em relação aos efeitos duradouros, como o critério 'Foco Causa' não é atendido, essa avaliação não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1438,
+    "completion_tokens": 202,
+    "total_tokens": 1640,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 606
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

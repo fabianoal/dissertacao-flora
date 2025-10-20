@@ -1,0 +1,28 @@
+{
+  "id": "067fc8c7-e63d-430e-8150-2b95f62a5f62",
+  "object": "chat.completion",
+  "created": 1760453829,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe o cumprimento de normas que estabelecem processos sistemáticos de cadastramento e atualização no CNES, o que visa tratar a causa raiz do problema (falta de processos regulares) e não apenas a condição específica. Quanto ao critério 'Efeitos Duradouros', a institucionalização desses processos por meio de normativa garante que as mudanças persistam independentemente de mudanças nos atores, desde que a norma seja mantida e fiscalizada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1369,
+    "completion_tokens": 167,
+    "total_tokens": 1536,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 473
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

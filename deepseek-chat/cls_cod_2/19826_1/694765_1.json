@@ -1,0 +1,28 @@
+{
+  "id": "2d274265-0640-41d3-8445-ff4043ca8924",
+  "object": "chat.completion",
+  "created": 1760398504,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação se limita a exigir o cumprimento de dispositivos legais específicos que tratam da organização e disponibilização da documentação comprobatória e do processo de solicitação/autorização do TFD, sem propor ações que abordem as causas subjacentes que levaram à ausência dessa documentação (como falta de capacitação, recursos insuficientes, falhas no processo interno, etc.). Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, esta análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1160,
+    "completion_tokens": 169,
+    "total_tokens": 1329,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 328
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

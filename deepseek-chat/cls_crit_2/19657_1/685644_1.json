@@ -1,0 +1,28 @@
+{
+  "id": "88d5d275-10e5-4f24-aaff-053d50316f3f",
+  "object": "chat.completion",
+  "created": 1760458909,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', discordo da análise original, pois as ações propostas na recomendação, como criar fluxo facilitado para marcação de exames, podem ser interpretadas como abordando causas estruturais ou processuais que levaram à não comprovação das ações. Em relação ao critério 'Efeitos Duradouros', como discordo da classificação do 'Foco Causa', a análise de 'Não se aplica' também é questionável, mas não é possível avaliar diretamente sem uma reclassificação adequada do primeiro critério.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1248,
+    "completion_tokens": 171,
+    "total_tokens": 1419,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 352
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

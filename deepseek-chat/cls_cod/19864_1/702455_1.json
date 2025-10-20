@@ -1,0 +1,28 @@
+{
+  "id": "55cceca3-f9c2-49c7-9efd-94ef0d8f24f5",
+  "object": "chat.completion",
+  "created": 1760036820,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a criação de uma comissão permanente para digitalizar prontuários, o que visa resolver a condição encontrada de prontuários não digitalizados. Além disso, ela sugere uma ação específica para tratar a causa subjacente, que pode ser a falta de um processo estruturado, ao estabelecer uma comissão permanente. Essa ação tem potencial para produzir efeitos duradouros, pois a estrutura institucional permanece mesmo com mudanças de pessoal.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Específica\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1180,
+    "completion_tokens": 156,
+    "total_tokens": 1336,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 220
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ff6e8c92-a103-41d3-9972-c60bf5a5572b",
+  "object": "chat.completion",
+  "created": 1760387946,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a revisão de práticas orçamentárias e de gestão financeira para identificar e corrigir lacunas que resultaram na não integralização dos recursos, o que trata diretamente da causa do problema (deficiências nos processos orçamentários e de gestão) e não apenas da condição específica (falta de recursos no momento). Já em relação aos efeitos pretendidos pela recomendação, as mudanças nas práticas orçamentárias e de gestão financeira, se implementadas, criariam estruturas e processos que permaneceriam mesmo com mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1046,
+    "completion_tokens": 186,
+    "total_tokens": 1232,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 214
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

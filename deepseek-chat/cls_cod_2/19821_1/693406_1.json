@@ -1,0 +1,28 @@
+{
+  "id": "1e06a05a-dc11-4bf6-902b-cf1f741be993",
+  "object": "chat.completion",
+  "created": 1760398316,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a citar uma exigência normativa preexistente sem propor ações específicas para tratar a causa subjacente da não realização de avaliação e monitoramento dos casos de saúde mental. Não há menção a medidas como capacitação de profissionais, alocação de recursos, desenvolvimento de protocolos ou outras ações que abordem as razões pelas quais as unidades não realizam essas atividades. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1005,
+    "completion_tokens": 171,
+    "total_tokens": 1176,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 173
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

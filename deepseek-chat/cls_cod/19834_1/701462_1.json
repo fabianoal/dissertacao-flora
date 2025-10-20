@@ -1,0 +1,28 @@
+{
+  "id": "3ea1dca8-38e0-498f-b935-02be3267b01e",
+  "object": "chat.completion",
+  "created": 1760035828,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere ações corretivas para resolver a condição de falhas no preenchimento e registro de prontuários, como promover a atuação da Comissão de Prontuário e garantir a supervisão do Médico Responsável Técnico. No entanto, as ações com foco na causa são genéricas, pois se limitam a citar o cumprimento de normativos existentes sem propor medidas específicas além disso, como a implementação de novos sistemas ou treinamentos estruturados. Os efeitos duradouros não se aplicam, pois as ações focadas na causa não são específicas.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1532,
+    "completion_tokens": 183,
+    "total_tokens": 1715,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 572
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

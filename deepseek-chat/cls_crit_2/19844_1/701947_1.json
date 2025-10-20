@@ -1,0 +1,28 @@
+{
+  "id": "a04edd02-5aa9-4338-a583-15e19f3c3229",
+  "object": "chat.completion",
+  "created": 1760466645,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação se limita a prescrever a participação em atividades de controle social sem propor medidas que ataquem diretamente a causa raiz da falta de documentação, como a implementação de processos de registro ou capacitação. Quanto ao critério 'Efeitos Duradouros', a resposta 'Não se aplica' é adequada, uma vez que o critério 'Foco Causa' não foi atendido.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1355,
+    "completion_tokens": 158,
+    "total_tokens": 1513,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 459
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

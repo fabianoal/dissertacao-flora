@@ -1,0 +1,28 @@
+{
+  "id": "dcb2f578-7b22-49a4-8d19-512c74bdce21",
+  "object": "chat.completion",
+  "created": 1760466841,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações de capacitação contínua que abordam diretamente a causa raiz da constatação (falta de capacitação adequada). Quanto ao critério 'Efeitos Duradouros', a institucionalização de um sistema permanente de capacitação sugere que os benefícios persistirão mesmo com mudanças na equipe.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1205,
+    "completion_tokens": 134,
+    "total_tokens": 1339,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 309
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

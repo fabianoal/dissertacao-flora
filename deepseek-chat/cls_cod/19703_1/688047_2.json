@@ -1,0 +1,28 @@
+{
+  "id": "68b5240a-3578-43c9-a7cd-b6b3eef726f2",
+  "object": "chat.completion",
+  "created": 1760001934,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere uma ação corretiva específica para resolver a condição encontrada, que é a devolução dos recursos indevidamente recebidos. No entanto, não propõe ações para tratar a causa que permitiu a incompatibilidade na produção, limitando-se a medidas administrativas genéricas de acompanhamento e devolução, sem indicar ações concretas para prevenir a recorrência do problema.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se Aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1304,
+    "completion_tokens": 141,
+    "total_tokens": 1445,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1304
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

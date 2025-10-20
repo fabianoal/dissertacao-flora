@@ -1,0 +1,28 @@
+{
+  "id": "5d7ae084-ddd5-4f87-a52b-612d5bfb4bad",
+  "object": "chat.completion",
+  "created": 1760398568,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a realização da continuidade do atendimento ou ações de redução de danos, o que constitui uma ação direta para corrigir a condição encontrada de não realização dessas atividades, sem evidenciar medidas para tratar a causa subjacente que leva à não realização. Já em relação aos efeitos pretendidos pela recomendação, como o critério 'Foco Causa' não foi atendido, não se aplica a avaliação de efeitos duradouros.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 991,
+    "completion_tokens": 156,
+    "total_tokens": 1147,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 159
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

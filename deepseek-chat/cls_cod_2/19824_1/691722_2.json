@@ -1,0 +1,28 @@
+{
+  "id": "8b2c216a-c41a-42d5-a509-53fadabf2f8c",
+  "object": "chat.completion",
+  "created": 1760398440,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação se limita à restituição de valores recebidos irregularmente, focando na correção financeira imediata da condição encontrada de incompatibilidade entre dados inseridos e produção real. Não propõe ações para tratar as causas subjacentes, como falhas nos processos de inserção de dados ou na supervisão, que levam a essas inconsistências. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1372,
+    "completion_tokens": 158,
+    "total_tokens": 1530,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 476
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

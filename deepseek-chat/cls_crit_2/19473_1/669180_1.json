@@ -1,0 +1,28 @@
+{
+  "id": "9de9812a-1c65-4465-bee6-b66afa17c105",
+  "object": "chat.completion",
+  "created": 1760452772,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação se concentra em corrigir a condição física inadequada, sem propor ações que abordem causas subjacentes, como falhas em processos de planejamento, manutenção preventiva ou gestão de infraestrutura. Para o critério 'Efeitos Duradouros', como o 'Foco Causa' foi corretamente classificado como 'Não', a resposta 'Não se aplica' está adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1190,
+    "completion_tokens": 161,
+    "total_tokens": 1351,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 294
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

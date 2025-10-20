@@ -1,0 +1,28 @@
+{
+  "id": "5ec34a17-6edc-433c-aa66-21b5612da6d3",
+  "object": "chat.completion",
+  "created": 1759367602,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação identifica a causa como a falta de estratégias para garantir o acompanhamento dos familiares, situada no nível institucional ao referir-se a atribuições das equipes e normas do SUS, e as transformações propostas, se implementadas, têm potencial para perdurar no tempo ao estabelecer práticas contínuas de cuidado familiar.\",\n    \"categoria\": \"foco-causa\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1471,
+    "completion_tokens": 95,
+    "total_tokens": 1566,
+    "prompt_tokens_details": {
+      "cached_tokens": 1216
+    },
+    "prompt_cache_hit_tokens": 1216,
+    "prompt_cache_miss_tokens": 255
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

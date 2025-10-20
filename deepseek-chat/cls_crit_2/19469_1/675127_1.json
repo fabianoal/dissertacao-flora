@@ -1,0 +1,28 @@
+{
+  "id": "56843d8d-94bd-455b-b541-5aa67b125a87",
+  "object": "chat.completion",
+  "created": 1760452668,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações sistemáticas de inserção, manutenção e atualização dos cadastros no CNES, o que aborda a causa raiz do problema (gestão inadequada dos cadastros), e não apenas a condição imediata de dados desatualizados. Para o critério 'Efeitos Duradouros', a implementação de um processo sistemático e baseado em procedimentos estabelecidos tende a manter sua eficácia mesmo com mudanças nos profissionais responsáveis, promovendo sustentabilidade.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1225,
+    "completion_tokens": 172,
+    "total_tokens": 1397,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 329
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "3cbae201-7e69-4b6f-861b-31b60f676509",
+  "object": "chat.completion",
+  "created": 1760458841,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação 1 aborda diretamente a causa do problema ao propor a manutenção atualizada do cadastro no sistema nacional, o que permite o monitoramento contínuo da carga horária e previne a recorrência da condição observada. A recomendação 2, embora relevante para o controle geral, não trata especificamente da causa da carga horária inadequada, mas a presença da recomendação 1 justifica a resposta 'Sim'. Para o critério 'Efeitos Duradouros', a institucionalização do processo de atualização mensal no sistema nacional assegura que os efeitos persistam independentemente de mudanças nos atores, pois se baseia em procedimentos formais e sistemas estabelecidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1388,
+    "completion_tokens": 215,
+    "total_tokens": 1603,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 492
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

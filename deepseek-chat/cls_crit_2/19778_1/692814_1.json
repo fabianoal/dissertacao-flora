@@ -1,0 +1,28 @@
+{
+  "id": "2d2b5c15-df72-489a-8d60-e374784ffe9f",
+  "object": "chat.completion",
+  "created": 1760464073,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação aborda a causa raiz do problema (inadequação dos equipamentos) e que os efeitos seriam duradouros devido à natureza permanente da solução. No entanto, é importante considerar que a substituição de equipamentos, embora essencial, pode não abordar completamente todas as causas subjacentes, como possíveis lacunas em procedimentos operacionais ou capacitação da equipe.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1213,
+    "completion_tokens": 142,
+    "total_tokens": 1355,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 317
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

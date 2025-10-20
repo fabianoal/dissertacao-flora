@@ -1,0 +1,28 @@
+{
+  "id": "57341fa2-122f-4df2-b463-abdb07102e81",
+  "object": "chat.completion",
+  "created": 1760370519,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe duas ações: uma notificação para verificar registros no CNES (foco na condição, para corrigir a situação atual de profissionais não inscritos) e a orientação para manter atualizadas as informações no CNES de forma periódica (foco na causa, pois visa prevenir a reocorrência do problema através de uma ação contínua). Como há pelo menos uma ação focada na causa, o critério 'Foco Causa' é atendido. Já em relação aos efeitos duradouros, a ação de manter atualizações periódicas no CNES estabelece um processo sistemático que independe de atores específicos, pois a periodicidade assegura que as informações permaneçam atualizadas mesmo com mudanças de pessoal, resultando em efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 973,
+    "completion_tokens": 219,
+    "total_tokens": 1192,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 141
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

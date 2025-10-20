@@ -1,0 +1,28 @@
+{
+  "id": "69908f1e-ac80-4a85-96c0-c69281f854d8",
+  "object": "chat.completion",
+  "created": 1760396848,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a elaboração de instrumentos de gestão que incluam informações sobre o PNI, o que visa corrigir a ausência dessas informações nos documentos existentes. No entanto, essa ação trata diretamente da condição encontrada (falta de informações nos instrumentos) e não identifica ou aborda a causa subjacente dessa omissão, como falhas em processos de planejamento, capacitação de pessoal ou definição de responsabilidades. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1033,
+    "completion_tokens": 182,
+    "total_tokens": 1215,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 201
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

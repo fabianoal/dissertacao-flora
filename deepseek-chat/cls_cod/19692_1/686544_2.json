@@ -1,0 +1,28 @@
+{
+  "id": "a4f373ba-e03b-4803-9665-37dbb0a76988",
+  "object": "chat.completion",
+  "created": 1760038028,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"A recomendação 1 é genérica, pois apenas cita o cumprimento de um normativo sem propor ações concretas. A recomendação 2 também é genérica, focando no fornecimento de informações conforme decreto, sem detalhar medidas específicas. A recomendação 3 é uma ação corretiva para resolver a condição de irregularidade financeira, mas não aborda a causa subjacente que permitiu a ocorrência da condição, como falhas em processos de documentação ou controle interno.\",\n   \"Ação Corretiva\": \"Sim\",\n   \"Ação Foco Causa\": \"Genérica\",\n   \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1434,
+    "completion_tokens": 156,
+    "total_tokens": 1590,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 410
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

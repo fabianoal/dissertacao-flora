@@ -1,0 +1,28 @@
+{
+  "id": "827482f1-a2b5-4653-90b2-5be482ab0d59",
+  "object": "chat.completion",
+  "created": 1760399980,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação solicita a apresentação de comprovação documental de que uma ação já realizada (elaboração das máquinas de documentos conforme Manual da Qualidade) foi efetivamente cumprida. Isso se concentra em corrigir a falta de comprovação da condição existente, sem propor ações para abordar a causa subjacente que levou à falta de comprovação ou para prevenir sua recorrência. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1027,
+    "completion_tokens": 174,
+    "total_tokens": 1201,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 195
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

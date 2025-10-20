@@ -1,0 +1,28 @@
+{
+  "id": "42da96b1-09f2-439c-97ad-2ae3951a89d6",
+  "object": "chat.completion",
+  "created": 1760454877,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação 'a' propõe ações que visam aumentar a oferta e exigência de capacitação, o que pode abordar a causa raiz da insuficiência de qualificações, mas a recomendação 'b' foca em manter registros, que é mais sobre documentação e monitoramento, não necessariamente tratando a causa diretamente. Para 'Efeitos Duradouros', a análise original assume que capacitação sistemática e registros criam processos duradouros, mas a implementação prática pode depender de fatores como recursos contínuos e adesão institucional, o que pode não garantir efeitos permanentes sem mudanças culturais ou estruturais mais profundas.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1309,
+    "completion_tokens": 207,
+    "total_tokens": 1516,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 413
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

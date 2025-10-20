@@ -1,0 +1,28 @@
+{
+  "id": "2db1a112-2781-434a-9aa3-aca2ccf14109",
+  "object": "chat.completion",
+  "created": 1760384362,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe apenas a anexação das Notas Fiscais ao prontuário do paciente, o que constitui uma medida para corrigir a condição específica encontrada (ausência dos documentos), sem abordar as causas subjacentes que levaram a essa falha documental. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, esta análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1172,
+    "completion_tokens": 144,
+    "total_tokens": 1316,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 340
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

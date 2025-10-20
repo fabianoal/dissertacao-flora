@@ -1,0 +1,28 @@
+{
+  "id": "5f919152-9850-40e1-82d0-08c7c91f5b9a",
+  "object": "chat.completion",
+  "created": 1760389446,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe apenas comunicar o Fundo Nacional de Saúde para que se manifeste sobre sua competência de acompanhamento financeiro, sem propor ações diretas para tratar a causa da ausência de atuação do fiscal financeiro. Não há sugestões para evitar que a condição se repita, como capacitação, revisão de processos ou designação de responsáveis. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 955,
+    "completion_tokens": 167,
+    "total_tokens": 1122,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 123
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "62c10c65-8a22-4481-8cb3-1e0b3c5d9a61",
+  "object": "chat.completion",
+  "created": 1760453044,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise crítica avalia a classificação fornecida para os critérios 'Foco Causa' e 'Efeitos Duradouros' com base na definição de recomendações baseadas em causa (ações para evitar recorrência) e condição (correções temporárias). A recomendação em questão sugere o cumprimento de uma orientação normativa sobre o tamanho da população adscrita, sem propor medidas para abordar as causas subjacentes, como falta de recursos ou problemas de gestão.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1181,
+    "completion_tokens": 153,
+    "total_tokens": 1334,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 285
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

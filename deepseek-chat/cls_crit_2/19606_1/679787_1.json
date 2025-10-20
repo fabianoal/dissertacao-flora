@@ -1,0 +1,28 @@
+{
+  "id": "e6806e08-9cb2-4abf-83f1-4bb05541b130",
+  "object": "chat.completion",
+  "created": 1760448490,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise da codificação está correta ao identificar que a recomendação foca na correção imediata da condição específica relatada (não fornecimento de alimentação), sem propor ações para tratar causas subjacentes como falhas processuais, treinamento inadequado ou políticas internas deficientes. No entanto, vale destacar que a recomendação inclui a necessidade de avaliação por nutricionista, o que poderia ser interpretado como um elemento preventivo, mas não chega a constituir uma ação direta sobre a causa raiz do problema.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1202,
+    "completion_tokens": 166,
+    "total_tokens": 1368,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 370
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

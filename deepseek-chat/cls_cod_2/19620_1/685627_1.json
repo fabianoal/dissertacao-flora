@@ -1,0 +1,28 @@
+{
+  "id": "9035824c-0b26-49c4-adcf-7a1778290b60",
+  "object": "chat.completion",
+  "created": 1760391018,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a implantação de uma rotina para inserção de exames de imagem nos prontuários, o que aborda diretamente a causa do problema (falta de procedimentos padronizados), em vez de apenas corrigir a condição atual de prontuários incompletos. Isso sugere foco na causa. Quanto aos efeitos duradouros, a rotina implantada deve permanecer independentemente de mudanças nos atores envolvidos, pois se baseia em normas e manuais estabelecidos, indicando que os efeitos são sustentáveis a longo prazo.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1318,
+    "completion_tokens": 161,
+    "total_tokens": 1479,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 486
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

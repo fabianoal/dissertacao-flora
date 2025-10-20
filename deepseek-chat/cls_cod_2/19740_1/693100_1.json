@@ -1,0 +1,28 @@
+{
+  "id": "65a1c565-cdc7-4427-b35a-1f10124cb482",
+  "object": "chat.completion",
+  "created": 1760394948,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a validação e implementação de Procedimentos Operacionais Padrão (POPs) específicos para as etapas da Cadeia de Frio, o que visa estabelecer processos padronizados e documentados para prevenir a ausência de procedimentos que gerou a constatação, tratando assim a causa raiz do problema. Já em relação aos efeitos pretendidos pela recomendação, a implementação de POPs formalizados cria estruturas processuais permanentes que independem dos indivíduos específicos envolvidos, mantendo seus efeitos mesmo com mudanças de pessoal.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1068,
+    "completion_tokens": 171,
+    "total_tokens": 1239,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 236
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

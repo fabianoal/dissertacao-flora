@@ -1,0 +1,28 @@
+{
+  "id": "c27803de-7cda-4dff-a2ab-02e7b28667cd",
+  "object": "chat.completion",
+  "created": 1760387470,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"A recomendação propõe a utilização de instrumentos orientativos para qualificar os registros das informações, o que visa estabelecer um padrão de preenchimento dos prontuários. Isso aborda a causa do problema, que é a falta de adesão às diretrizes estabelecidas, ao invés de apenas corrigir prontuários específicos. Em relação aos efeitos duradouros, a implementação desses instrumentos cria um processo estruturado que deve persistir independentemente de mudanças nos profissionais envolvidos, desde que os instrumentos sejam mantidos e aplicados continuamente.\",\n   \"Foco Causa\": \"Sim\",\n   \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1102,
+    "completion_tokens": 162,
+    "total_tokens": 1264,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 270
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

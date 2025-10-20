@@ -1,0 +1,28 @@
+{
+  "id": "9d32ebf9-060e-414a-bee8-0420225f90b5",
+  "object": "chat.completion",
+  "created": 1760470386,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere que o gestor atente-se aos códigos de CBO conforme a portaria, mas não propõe ações específicas para tratar a causa raiz do problema, como a implementação de um sistema de verificação de CBOs ou treinamento para os profissionais. Em vez disso, foca em conscientização geral, o que é mais condizente com uma abordagem de correção imediata da condição observada. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1070,
+    "completion_tokens": 164,
+    "total_tokens": 1234,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 238
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

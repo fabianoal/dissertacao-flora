@@ -1,0 +1,28 @@
+{
+  "id": "8b4de511-5a70-4ca8-8d5c-fa84d54fc5ff",
+  "object": "chat.completion",
+  "created": 1760468441,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a revisão e atualização dos processos da equipe responsável pela documentação clínica e registro de procedimentos, alinhando-se às diretrizes estabelecidas para alimentação dos bancos de dados nacionais. Esta ação visa tratar a causa do problema, que é a inadequação dos processos de documentação e registro, e não apenas corrigir a condição específica de ausência de APAC concomitante. Já em relação ao critério 'Efeitos Duradouros', a implementação de processos revisados e atualizados permanece mesmo se os atores envolvidos mudarem, pois se trata de uma mudança estrutural nos procedimentos de trabalho.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1317,
+    "completion_tokens": 205,
+    "total_tokens": 1522,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 357
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

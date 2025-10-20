@@ -1,0 +1,28 @@
+{
+  "id": "376ad932-318b-449d-92bd-adfd6744a1e5",
+  "object": "chat.completion",
+  "created": 1760466913,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise crítica avalia a classificação dos critérios 'Foco Causa' e 'Efeitos Duradouros' com base na recomendação fornecida. A recomendação apenas encaminha o caso para conhecimento e acompanhamento da SVSA, sem propor ações específicas para resolver a causa subjacente da falta de composição mínima da equipe, como contratação, treinamento ou realocação de pessoal. Isso se alinha com a definição de que recomendações com foco na causa devem abordar ações para evitar a recorrência do problema.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1272,
+    "completion_tokens": 171,
+    "total_tokens": 1443,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 312
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

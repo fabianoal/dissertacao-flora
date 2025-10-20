@@ -1,0 +1,28 @@
+{
+  "id": "5163c4c7-16eb-4f9f-8231-6efd80c025b5",
+  "object": "chat.completion",
+  "created": 1760396176,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe readequar o número de leitos para garantir que todos tenham saídas de oxigênio e ar comprimido, o que aborda diretamente a causa estrutural do excesso de pacientes (leitos inadequados), em vez de apenas realocar pacientes temporariamente. Já em relação aos efeitos pretendidos pela recomendação, a readequação física dos leitos e a conformidade com a norma da ANVISA criam uma solução permanente que independe de mudanças na equipe ou gestão, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 967,
+    "completion_tokens": 167,
+    "total_tokens": 1134,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 199
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

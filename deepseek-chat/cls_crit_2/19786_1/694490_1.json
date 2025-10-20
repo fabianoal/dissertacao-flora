@@ -1,0 +1,28 @@
+{
+  "id": "e7009ce7-6c75-4664-999d-aefb8d1e7341",
+  "object": "chat.completion",
+  "created": 1760464437,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação estabelece práticas de gerenciamento e uso constante dos sistemas do PNI, que efetivamente abordam a causa subjacente da falta de registros e atualizações, como falhas processuais ou de adesão, em vez de apenas corrigir registros existentes. Para o critério 'Efeitos Duradouros', as práticas padronizadas e o uso sistemático dos sistemas visam criar mudanças sustentáveis na gestão logística, que devem persistir independentemente de mudanças de pessoal, devido à institucionalização de procedimentos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1191,
+    "completion_tokens": 182,
+    "total_tokens": 1373,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 231
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

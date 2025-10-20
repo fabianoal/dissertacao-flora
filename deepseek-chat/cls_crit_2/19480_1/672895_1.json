@@ -1,0 +1,28 @@
+{
+  "id": "8f9a1ad8-50e8-4a7b-9374-22f8c9729e2e",
+  "object": "chat.completion",
+  "created": 1760452864,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise da codificação apresenta fundamentação adequada para ambos os critérios, mas requer uma avaliação mais detalhada quanto ao foco na causa e aos efeitos duradouros da recomendação.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1417,
+    "completion_tokens": 90,
+    "total_tokens": 1507,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 521
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

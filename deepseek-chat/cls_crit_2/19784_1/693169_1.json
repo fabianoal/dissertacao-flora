@@ -1,0 +1,28 @@
+{
+  "id": "c8e89993-43d1-48f8-8468-51a1753de0a6",
+  "object": "chat.completion",
+  "created": 1760464374,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação se concentra em corrigir as condições inadequadas observadas no transporte de imunobiológicos, sem abordar as causas subjacentes. A recomendação especifica ações imediatas (profissional capacitado e veículo adequado) que tratam diretamente os sintomas do problema, mas não propõe medidas para prevenir a recorrência, como melhorias em processos de contratação, capacitação contínua, monitoramento sistemático ou alocação de recursos. Portanto, a classificação para ambos os critérios está adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1247,
+    "completion_tokens": 177,
+    "total_tokens": 1424,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 287
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

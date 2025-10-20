@@ -1,0 +1,28 @@
+{
+  "id": "dbafe0c2-f498-4724-b93f-4e6ce4b3cbde",
+  "object": "chat.completion",
+  "created": 1760399192,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe que a Secretaria Municipal de Saúde apresente o projeto e plano de ação para implantação do CEREST à Comissão Técnica da CIB/CE, conforme exigido pela Portaria de Consolidação GM/MS n.º 03/2017. Esta ação visa corrigir a condição imediata de falta de documentação comprobatória, mas não aborda as causas subjacentes que levaram à não apresentação inicial, como possíveis deficiências na gestão, falta de capacitação ou recursos insuficientes. Portanto, a recomendação é focada na condição, não na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1094,
+    "completion_tokens": 210,
+    "total_tokens": 1304,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 262
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

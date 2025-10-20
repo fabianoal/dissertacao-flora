@@ -1,0 +1,28 @@
+{
+  "id": "0c4a4984-140f-49a1-b0d5-c66f7a0d6264",
+  "object": "chat.completion",
+  "created": 1760455301,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação se concentra em ações para corrigir a condição imediata de falta de divulgação, sem propor medidas que ataquem a causa raiz do problema, como deficiências em processos, recursos ou capacitação que levaram à não divulgação. Quanto ao critério 'Efeitos Duradouros', como o 'Foco Causa' não foi atendido, a resposta 'Não se aplica' está correta.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1326,
+    "completion_tokens": 154,
+    "total_tokens": 1480,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 430
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

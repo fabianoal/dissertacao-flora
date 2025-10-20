@@ -1,0 +1,28 @@
+{
+  "id": "b10cb64c-8070-4cf2-9728-90f8bf0c40ea",
+  "object": "chat.completion",
+  "created": 1760396136,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação apenas cita a Lei 12.527/2011, que estabelece condutas ilícitas por recusa de fornecimento de informações, sem propor ações específicas para tratar a causa da não disponibilização da documentação, como implementação de procedimentos internos, capacitação de servidores ou melhorias na gestão documental. Portanto, não há ação proposta que trate da causa do problema. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1001,
+    "completion_tokens": 160,
+    "total_tokens": 1161,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 105
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

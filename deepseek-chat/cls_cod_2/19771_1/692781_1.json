@@ -1,0 +1,28 @@
+{
+  "id": "c6831a33-ec9c-4697-8f78-3d4dc3ac09e8",
+  "object": "chat.completion",
+  "created": 1760396188,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe ajustes e reformas na infraestrutura física do abrigo de roupa suja para atender aos requisitos legais, focando na correção direta da condição inadequada observada, sem mencionar ações para tratar as causas subjacentes que levaram ao não cumprimento da legislação. Portanto, não há ação proposta que trate da causa do problema. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 995,
+    "completion_tokens": 159,
+    "total_tokens": 1154,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 163
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

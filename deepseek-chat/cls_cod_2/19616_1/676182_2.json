@@ -1,0 +1,28 @@
+{
+  "id": "47d874c1-1928-4e06-8851-f1dcccf82db6",
+  "object": "chat.completion",
+  "created": 1760390598,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe fiscalizar o cumprimento da legislação trabalhista e monitorar os registros de horário, o que visa garantir conformidade contínua, mas não identifica ou trata especificamente a causa raiz do problema (como falhas no processo de desconto ou na comunicação entre setores). Portanto, não há ação clara focada na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 985,
+    "completion_tokens": 152,
+    "total_tokens": 1137,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 89
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

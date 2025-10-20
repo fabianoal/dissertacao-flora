@@ -1,0 +1,28 @@
+{
+  "id": "19289aad-cf14-49a9-b2b9-07efd14a5ff5",
+  "object": "chat.completion",
+  "created": 1760036564,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a citar o cumprimento de dispositivos normativos da Portaria de Consolidação GM/MS n.º 01/2017, sem propor ações específicas para corrigir a condição encontrada (falta de demonstração dos procedimentos da Atenção Especializada nos instrumentos de gestão) ou para tratar a causa subjacente que permitiu essa condição. Não há menção a ações concretas como revisão dos instrumentos, implementação de procedimentos de monitoramento ou capacitação da equipe.\",\n    \"Ação Corretiva\": \"Não\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1427,
+    "completion_tokens": 168,
+    "total_tokens": 1595,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 403
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

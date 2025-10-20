@@ -1,0 +1,28 @@
+{
+  "id": "9a87140f-5c64-4814-8549-2871366c0a2b",
+  "object": "chat.completion",
+  "created": 1760448322,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise fornecida avalia corretamente que a recomendação se concentra na manutenção do funcionamento dos sistemas existentes, sem abordar as causas subjacentes da ineficiência, como falhas de processo ou necessidades de capacitação. No entanto, a classificação do critério 'Efeitos Duradouros' como 'Não se aplica' está alinhada com a ausência de foco na causa.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1328,
+    "completion_tokens": 135,
+    "total_tokens": 1463,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 496
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

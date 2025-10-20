@@ -1,0 +1,28 @@
+{
+  "id": "9bf75960-e5aa-4fba-a268-19d3c2c3315c",
+  "object": "chat.completion",
+  "created": 1760384842,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a exigir a devolução dos recursos recebidos indevidamente, focando exclusivamente na correção da condição financeira irregular identificada. Não há qualquer menção a ações que visem tratar as causas que levaram à inserção de informações adulteradas nos sistemas do SUS, como falhas nos processos de controle, capacitação de pessoal, implementação de mecanismos de verificação ou políticas de prevenção de irregularidades. Portanto, trata-se de uma medida corretiva pontual, sem abordagem causal. Como o critério 'Foco Causa' não é atendido, a análise sobre efeitos duradouros não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1436,
+    "completion_tokens": 183,
+    "total_tokens": 1619,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 604
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "623b5f73-0a39-4e3a-b377-c85426c27327",
+  "object": "chat.completion",
+  "created": 1760462557,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação de suprir o quadro de profissionais de enfermagem conforme exigência normativa aborda diretamente a causa da falta de estrutura mínima, que é a insuficiência de pessoal qualificado, sendo adequada a classificação como 'Sim'. Para o critério 'Efeitos Duradouros', a ação de preencher o quadro conforme normas estabelecidas visa criar uma estrutura permanente que não depende de indivíduos específicos, mantendo os efeitos mesmo com mudanças de atores, justificando a classificação como 'Sim'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1164,
+    "completion_tokens": 176,
+    "total_tokens": 1340,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 268
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

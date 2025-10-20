@@ -1,0 +1,28 @@
+{
+  "id": "458ee6c2-8697-4b49-a347-5384bc7d2795",
+  "object": "chat.completion",
+  "created": 1760448602,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe fomentar ações no processo de trabalho da APS para realizar continuidade do cuidado ou redução de danos, o que aborda a causa subjacente (falta de implementação dessas atividades) e não apenas corrige a condição atual. Quanto ao critério 'Efeitos Duradouros', a ação visa integrar essas práticas nos processos de trabalho, baseando-se em orientações normativas, o que pode garantir persistência mesmo com mudanças de atores, mas depende da efetividade da implementação e adesão contínua.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1176,
+    "completion_tokens": 182,
+    "total_tokens": 1358,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 280
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

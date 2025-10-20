@@ -1,0 +1,28 @@
+{
+  "id": "010e4f53-e46c-4b25-bdff-f54fb53d2678",
+  "object": "chat.completion",
+  "created": 1760386187,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações específicas para corrigir as inadequações físicas identificadas, como a criação de um Depósito de Material de Limpeza (DML) e a readequação da área de higienização com instalações adequadas. Essas medidas visam resolver diretamente as condições observadas (armazenamento inadequado e área de higienização não funcional), mas não abordam explicitamente as causas subjacentes que levaram a essas inadequações, como falhas em processos de manutenção, planejamento ou fiscalização. Portanto, a recomendação tem foco na condição. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, esta análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1030,
+    "completion_tokens": 211,
+    "total_tokens": 1241,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 198
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

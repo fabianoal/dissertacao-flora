@@ -1,0 +1,28 @@
+{
+  "id": "f7b3693a-2a11-441b-a712-ca6901a5a7e4",
+  "object": "chat.completion",
+  "created": 1760466381,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação de capacitação aborda diretamente a causa do problema, que é a falta de competência das equipes para aplicar procedimentos de estratificação de riscos em saúde mental, alinhando-se com a constatação. Quanto ao critério 'Efeitos Duradouros', a capacitação pode estabelecer conhecimento e práticas sustentáveis, mas sua durabilidade depende de fatores como rotatividade de pessoal e reforço contínuo, o que pode limitar os efeitos de longo prazo sem medidas adicionais.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1296,
+    "completion_tokens": 174,
+    "total_tokens": 1470,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 400
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "501282bd-8f2c-4af1-a15a-fe984ece3a8c",
+  "object": "chat.completion",
+  "created": 1760385426,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a solicitar o acompanhamento da devolução dos recursos pagos indevidamente, tratando apenas da correção da condição financeira específica identificada (pagamento em excesso). Não há nenhuma ação proposta para abordar as causas subjacentes que permitiram a utilização indevida do CNES profissional médico, como falhas nos processos de verificação de identidade, controle de acesso ou mecanismos de prevenção a fraudes. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1084,
+    "completion_tokens": 185,
+    "total_tokens": 1269,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 252
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ac0d9483-6b8a-47fe-8ced-0e3d211742ca",
+  "object": "chat.completion",
+  "created": 1760400620,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações de capacitação, monitoramento e avaliação das descrições dos procedimentos, além de orientação ao corpo clínico e cirúrgico, visando prevenir que a condição de não realização da reconstrução mamária no mesmo ato cirúrgico volte a ocorrer, tratando assim da causa relacionada à falta de conhecimento, acompanhamento e conformidade com as normas. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como capacitação e orientação, estabelecem processos e diretrizes que devem permanecer mesmo com mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1071,
+    "completion_tokens": 189,
+    "total_tokens": 1260,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 239
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

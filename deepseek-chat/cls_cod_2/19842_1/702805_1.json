@@ -1,0 +1,28 @@
+{
+  "id": "8c41acab-1fcd-469c-b795-332d52f7dc8c",
+  "object": "chat.completion",
+  "created": 1760399072,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe o desenvolvimento e implementação de processos de trabalho padronizados com orientações sobre a composição dos processos de pagamento, o que visa tratar a causa raiz do problema (falta de padronização e orientação clara) em vez de apenas corrigir a condição atual de documentação incompleta. Já em relação aos efeitos pretendidos pela recomendação, a padronização de processos e orientações estabelece um sistema que permanece mesmo com mudanças de pessoal, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1268,
+    "completion_tokens": 159,
+    "total_tokens": 1427,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 436
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

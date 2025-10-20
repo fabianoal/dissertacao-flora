@@ -1,0 +1,28 @@
+{
+  "id": "b82317b1-38e9-425d-9972-11cfa88f0890",
+  "object": "chat.completion",
+  "created": 1760392922,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe uma ação de orientação para manter atualizadas as informações no CNES periodicamente, o que visa estabelecer um processo contínuo de registro e atualização de dados, tratando assim a causa do problema de desatualização que pode levar a informações incorretas sobre carga horária. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um processo periódico de atualização no CNES cria uma rotina institucional que permanece independentemente de mudanças nos atores envolvidos, gerando efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 959,
+    "completion_tokens": 164,
+    "total_tokens": 1123,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 127
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

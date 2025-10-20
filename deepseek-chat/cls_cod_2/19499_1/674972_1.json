@@ -1,0 +1,28 @@
+{
+  "id": "32c6bd8d-5834-426c-854a-62cb94b2f200",
+  "object": "chat.completion",
+  "created": 1760386274,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação solicita a apresentação de informações/documentações completas para atender ao trabalho de auditoria, conforme o Decreto 1.651/1995. Esta ação visa corrigir a condição imediata de falta de acesso aos prontuários, mas não propõe medidas para tratar a causa subjacente que levou à indisponibilidade dos documentos, como falhas em processos de gestão documental ou capacitação da equipe. Portanto, a recomendação é focada na condição, não na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 943,
+    "completion_tokens": 185,
+    "total_tokens": 1128,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 111
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

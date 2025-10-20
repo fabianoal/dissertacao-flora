@@ -1,0 +1,28 @@
+{
+  "id": "11a13243-c09d-420a-9876-dba57f8a1556",
+  "object": "chat.completion",
+  "created": 1760037272,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere a disponibilização de procedimentos cirúrgicos para corrigir a condição de falta de comprovação de cirurgias, caracterizando uma ação corretiva. Além disso, ao exigir o cumprimento integral de normativos específicos, propõe uma ação genérica para abordar a causa subjacente, sem detalhar ações concretas além da conformidade. Como a ação com foco na causa é genérica, os efeitos duradouros não são garantidos, dependendo da adesão contínua aos normativos.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1311,
+    "completion_tokens": 169,
+    "total_tokens": 1480,
+    "prompt_tokens_details": {
+      "cached_tokens": 1088
+    },
+    "prompt_cache_hit_tokens": 1088,
+    "prompt_cache_miss_tokens": 223
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

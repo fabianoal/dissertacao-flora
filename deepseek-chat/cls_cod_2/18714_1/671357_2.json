@@ -1,0 +1,28 @@
+{
+  "id": "3d301b0d-a095-4f60-a5dc-ccd716fbac07",
+  "object": "chat.completion",
+  "created": 1760383436,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a recomposição do valor utilizado indevidamente no Fundo Municipal de Saúde, o que constitui uma ação para corrigir a condição específica identificada (despesa com fonte de recursos em programa de trabalho não correlato), sem evidenciar medidas para tratar a causa raiz que permitiu essa irregularidade, como falhas nos processos de controle interno ou capacitação. Portanto, a recomendação é condition-based. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, não se aplica a análise.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1027,
+    "completion_tokens": 172,
+    "total_tokens": 1199,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 195
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

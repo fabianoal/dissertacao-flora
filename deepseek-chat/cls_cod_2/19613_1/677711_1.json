@@ -1,0 +1,28 @@
+{
+  "id": "dff945aa-531a-46cd-8bca-6cba85710bce",
+  "object": "chat.completion",
+  "created": 1760389982,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe duas ações distintas: uma notificação para verificar registros no CNES (condição atual) e uma orientação para manter atualizadas as informações no CNES de forma periódica (ação preventiva que aborda a causa do problema de desatualização). A segunda ação visa evitar a reincidência da condição encontrada, tratando assim da causa. Já em relação aos efeitos pretendidos pela recomendação, a ação de manter atualizações periódicas no CNES estabelece um processo contínuo que independe de atores específicos, pois se torna parte da rotina organizacional, garantindo efeitos duradouros mesmo com mudanças de pessoal.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 969,
+    "completion_tokens": 191,
+    "total_tokens": 1160,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 73
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

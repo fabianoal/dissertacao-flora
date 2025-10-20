@@ -1,0 +1,28 @@
+{
+  "id": "0dee0f6b-e295-4561-9cd9-5eb2fe424778",
+  "object": "chat.completion",
+  "created": 1760468065,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações como capacitação, monitoramento e avaliação das descrições de procedimentos, visando prevenir a ocorrência de internações sem a efetiva realização de quimioterapia, o que aborda a causa relacionada a falhas nos processos de descrição e compatibilidade. Já em relação ao critério 'Efeitos Duradouros', as ações sugeridas, como capacitação e implementação de verificações baseadas em manuais e tabelas atualizadas, tendem a criar processos estruturados que podem persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1235,
+    "completion_tokens": 199,
+    "total_tokens": 1434,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 339
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

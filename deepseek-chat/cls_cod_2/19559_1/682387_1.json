@@ -1,0 +1,28 @@
+{
+  "id": "92e68665-62ee-4a72-a742-5ef18152271c",
+  "object": "chat.completion",
+  "created": 1760387810,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a fiscalização para assegurar que o Cenefron realize o encaminhamento formal dos pacientes aptos ao transplante renal, conforme estabelecido em diretrizes normativas. Esta ação visa corrigir diretamente a condição encontrada de não encaminhamento, sem abordar as causas subjacentes que levam a essa falha, como possíveis deficiências em processos, capacitação ou recursos. Portanto, a recomendação tem foco na condição, não na causa. Como o critério 'Foco Causa' não foi atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1132,
+    "completion_tokens": 182,
+    "total_tokens": 1314,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 300
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

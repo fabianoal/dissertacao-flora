@@ -1,0 +1,28 @@
+{
+  "id": "68647f62-2987-4657-a73f-625e710bd430",
+  "object": "chat.completion",
+  "created": 1760451780,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise da codificação está correta ao identificar que a recomendação não trata da causa raiz do problema, que é a ausência de documentação no prontuário. A recomendação foca em medidas administrativas para recuperação de recursos financeiros, que são consequências da constatação, não ações preventivas para evitar a reincidência da falta de documentação.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1255,
+    "completion_tokens": 126,
+    "total_tokens": 1381,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 359
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

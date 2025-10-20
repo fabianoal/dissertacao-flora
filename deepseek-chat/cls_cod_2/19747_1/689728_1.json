@@ -1,0 +1,28 @@
+{
+  "id": "f31762b5-3ee7-487a-b989-74f8fcba1203",
+  "object": "chat.completion",
+  "created": 1760395272,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe garantir estrutura com capacidade de armazenamento suficiente para atender a demanda existente e potencial, com base nas informações dos sistemas de informação de saúde e orientações técnicas. Esta ação visa resolver a causa do problema (capacidade insuficiente e falta de uso de informações para planejamento), não apenas corrigir a condição atual. Já em relação aos efeitos pretendidos pela recomendação, a implementação de uma estrutura adequada com base em orientações técnicas permanece mesmo se os gestores mudarem, pois se trata de uma melhoria física e processual duradoura.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1062,
+    "completion_tokens": 170,
+    "total_tokens": 1232,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 230
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

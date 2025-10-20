@@ -1,0 +1,28 @@
+{
+  "id": "44fb41d7-17d5-4799-9b85-65f89b77f9f0",
+  "object": "chat.completion",
+  "created": 1760035708,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere a inclusão da prestação de contas do SAMU 192 no RAG 2022 e em relatórios futuros, o que corrige a condição específica de ausência no relatório. No entanto, a ação proposta é genérica, limitando-se a cumprir legislações existentes sem especificar medidas concretas para prevenir a causa subjacente, como melhorias em processos ou sistemas.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1232,
+    "completion_tokens": 139,
+    "total_tokens": 1371,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 208
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

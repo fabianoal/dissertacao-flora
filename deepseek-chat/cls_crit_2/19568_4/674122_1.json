@@ -1,0 +1,28 @@
+{
+  "id": "d26c8ccb-10c4-4961-b25d-62ed154d8043",
+  "object": "chat.completion",
+  "created": 1760455045,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise fornecida avalia corretamente que a recomendação foca na causa subjacente (falta de sistema estruturado) e não apenas na condição imediata (ausência das fichas), e que os efeitos são duradouros devido à infraestrutura permanente. No entanto, é importante destacar que a recomendação é genérica e não especifica como o sistema resolveria diretamente a ausência das fichas CDS de 2022, mas a lógica de tratar a causa raiz é válida.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1215,
+    "completion_tokens": 161,
+    "total_tokens": 1376,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 319
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

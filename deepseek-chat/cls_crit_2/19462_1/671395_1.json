@@ -1,0 +1,28 @@
+{
+  "id": "eb682555-aada-4443-881e-8a23fa02374e",
+  "object": "chat.completion",
+  "created": 1760452608,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda ações que visam melhorar processos de registro de dados, o que pode ser interpretado como tratamento da causa subjacente às discrepâncias observadas. Para o critério 'Efeitos Duradouros', a recomendação se baseia em conformidade com manuais e regulamentos, o que sugere sustentabilidade. No entanto, é necessário avaliar se as ações propostas são suficientemente específicas e institucionalizadas para garantir efeitos duradouros independentemente de mudanças de pessoal.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1266,
+    "completion_tokens": 169,
+    "total_tokens": 1435,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 370
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

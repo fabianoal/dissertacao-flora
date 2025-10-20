@@ -1,0 +1,28 @@
+{
+  "id": "c8b81421-40ae-4905-9dd7-c6537b0b00be",
+  "object": "chat.completion",
+  "created": 1760464037,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação trata diretamente da causa da constatação, que é a ausência de um responsável técnico substituto formalmente designado. Quanto ao critério 'Efeitos Duradouros', a designação formal estabelece uma estrutura organizacional que deve persistir independentemente de mudanças de pessoal, mas depende da manutenção dessa designação ao longo do tempo.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1226,
+    "completion_tokens": 139,
+    "total_tokens": 1365,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 330
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

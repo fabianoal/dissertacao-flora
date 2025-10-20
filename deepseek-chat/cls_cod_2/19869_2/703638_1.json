@@ -1,0 +1,28 @@
+{
+  "id": "8ff38766-bff2-42fd-9c64-7ec0e5cef056",
+  "object": "chat.completion",
+  "created": 1760400196,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe duas ações principais: a correta alimentação dos bancos de dados do SUS e a devolução de valores recebidos irregularmente. A primeira ação (correta alimentação dos bancos) visa prevenir a reincidência do problema ao estabelecer procedimentos adequados de registro, tratando assim a causa da incompatibilidade nos registros. A segunda ação (devolução de valores) é uma medida corretiva para a condição atual. Quanto aos efeitos duradouros, a implementação de procedimentos adequados de alimentação dos bancos de dados criaria um sistema que permaneceria eficaz mesmo com mudanças nos atores envolvidos, pois estabeleceria processos institucionais.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1171,
+    "completion_tokens": 197,
+    "total_tokens": 1368,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 339
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

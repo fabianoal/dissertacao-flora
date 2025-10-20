@@ -1,0 +1,28 @@
+{
+  "id": "6991221e-721d-4f3a-a24e-80fa2effb325",
+  "object": "chat.completion",
+  "created": 1760038192,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere uma ação específica para resolver a condição encontrada (conferir documentação no Transferegov), caracterizando uma ação corretiva. No entanto, a ação proposta para tratar a causa limita-se a determinar o cumprimento de um normativo existente (Portaria de Consolidação nº 1 SESAI/MS/2020), sem propor medidas adicionais ou específicas para modificar processos ou sistemas que permitiram a ocorrência das impropriedades, sendo portanto genérica em relação ao foco na causa. Como a ação de foco na causa é genérica, os efeitos duradouros não são avaliados como presentes.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1162,
+    "completion_tokens": 195,
+    "total_tokens": 1357,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 138
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d8cc86f4-1d3b-4b10-89c3-cee82572579e",
+  "object": "chat.completion",
+  "created": 1760465197,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações que efetivamente tratam das causas subjacentes da constatação, como a falta de protocolos, capacitação e estruturação da RAPS. Quanto ao critério 'Efeitos Duradouros', as ações sugeridas são institucionais e baseadas em sistemas, mas a implementação e manutenção dependem de fatores como recursos, priorização política e adesão contínua, o que pode variar com mudanças de atores.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1346,
+    "completion_tokens": 162,
+    "total_tokens": 1508,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 450
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

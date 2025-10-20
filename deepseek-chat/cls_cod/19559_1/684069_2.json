@@ -1,0 +1,28 @@
+{
+  "id": "cceeb3d2-2995-4d7e-85ad-f26c1a80e0e9",
+  "object": "chat.completion",
+  "created": 1760037896,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere ações para corrigir a condição encontrada, como a devolução de valores e a fiscalização para assegurar documentação adequada. No entanto, não propõe ações específicas para tratar a causa subjacente que permitiu a ocorrência da discrepância, limitando-se a citar o cumprimento de normativos existentes.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1546,
+    "completion_tokens": 124,
+    "total_tokens": 1670,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 522
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

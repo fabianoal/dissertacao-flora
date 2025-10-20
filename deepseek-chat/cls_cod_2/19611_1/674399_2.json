@@ -1,0 +1,28 @@
+{
+  "id": "0588d21e-1e1a-47ce-8a00-aa84fb4ef1ad",
+  "object": "chat.completion",
+  "created": 1760389526,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se concentra em ações para lidar com a irregularidade identificada, como notificação da convenente e adoção de medidas administrativas para ressarcimento, caso o dano persista. No entanto, não propõe ações para tratar a causa subjacente que levou à irregularidade no pagamento, como falhas em processos de controle interno ou políticas de governança. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1092,
+    "completion_tokens": 162,
+    "total_tokens": 1254,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 196
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

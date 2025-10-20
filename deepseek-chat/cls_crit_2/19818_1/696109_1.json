@@ -1,0 +1,28 @@
+{
+  "id": "1b24c493-7dcb-4702-ada2-8297f217b487",
+  "object": "chat.completion",
+  "created": 1760465661,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações que visam tratar a causa subjacente da constatação, que é a falta de atividades para combater estigmas e preconceitos. Quanto ao critério 'Efeitos Duradouros', a recomendação sugere mudanças culturais e estruturais que podem persistir além de mudanças de pessoal, mas a análise original pode ter superestimado a durabilidade sem considerar a necessidade de implementação contínua.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1273,
+    "completion_tokens": 158,
+    "total_tokens": 1431,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 377
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "f29a8c8e-a063-4196-9366-1ef53582fbff",
+  "object": "chat.completion",
+  "created": 1760389830,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe orientar fiscais e gestores a conferir documentação comprobatória para evitar desobediência a normativos e irregularidades, o que visa tratar a causa do problema (falta de verificação adequada) e não apenas corrigir a condição específica encontrada. Já em relação aos efeitos pretendidos pela recomendação, a orientação para conferência documental estabelece um procedimento que permanece válido independentemente de mudanças nos atores envolvidos, pois se baseia em normativos consolidados.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1080,
+    "completion_tokens": 159,
+    "total_tokens": 1239,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 248
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

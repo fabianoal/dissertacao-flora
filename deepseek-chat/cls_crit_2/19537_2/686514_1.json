@@ -1,0 +1,28 @@
+{
+  "id": "713cd7d5-0c54-4e40-beb1-f93a7b5595cc",
+  "object": "chat.completion",
+  "created": 1760454137,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a adoção de uma nova portaria para padronizar procedimentos em futuras contratações, o que visa prevenir a reincidência da irregularidade ao abordar a causa subjacente (falta de conformidade normativa). Para o critério 'Efeitos Duradouros', a padronização via portaria institucionaliza mudanças que podem persistir além de mudanças de pessoal, embora dependa da implementação e adesão contínua.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1211,
+    "completion_tokens": 165,
+    "total_tokens": 1376,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 315
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

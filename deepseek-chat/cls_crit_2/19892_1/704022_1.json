@@ -1,0 +1,28 @@
+{
+  "id": "9bf84b4f-3c2f-446b-ba3a-571428832552",
+  "object": "chat.completion",
+  "created": 1760468481,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação não aborda a causa central do problema relatado na constatação, que é a não realização da reconstrução mamária no mesmo ato anestésico após mastectomia radical. A recomendação se desvia para uma questão de documentação médica (elaboração de prontuários), que, embora relevante em contexto geral, não está diretamente relacionada à causa raiz do problema específico identificado. A causa provável do problema poderia envolver fatores como protocolos cirúrgicos, recursos hospitalares, ou decisões clínicas, que não são abordados na recomendação fornecida.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1271,
+    "completion_tokens": 193,
+    "total_tokens": 1464,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 311
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

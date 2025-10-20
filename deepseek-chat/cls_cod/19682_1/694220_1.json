@@ -1,0 +1,28 @@
+{
+  "id": "ef7257fa-5a6f-407f-8133-ffae441cf3a8",
+  "object": "chat.completion",
+  "created": 1760036948,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere uma ação corretiva para resolver a condição de incompletude dos relatórios, ao notificar o DSEI Parintins para inserir os relatórios na periodicidade estipulada. No entanto, a ação proposta é genérica, limitando-se ao cumprimento de normativos (Portaria de Consolidação nº 1 SESAI/MS/2020) sem especificar medidas concretas para tratar a causa subjacente que permitiu a ocorrência da condição, como falhas em processos ou capacitação.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1178,
+    "completion_tokens": 170,
+    "total_tokens": 1348,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 154
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

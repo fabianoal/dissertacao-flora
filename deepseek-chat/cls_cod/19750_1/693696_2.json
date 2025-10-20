@@ -1,0 +1,28 @@
+{
+  "id": "6b533a53-b703-4846-aed9-8daee67e69d4",
+  "object": "chat.completion",
+  "created": 1760038236,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere ações para monitorar e avaliar a assistência oncológica, incluindo auditorias em caso de suspeitas, o que visa resolver diretamente a condição de falta de monitoramento. No entanto, a ação proposta para tratar a causa é genérica, pois se limita a orientar o cumprimento de normativos existentes, sem propor medidas específicas adicionais para prevenir futuras ocorrências. Como a ação com foco na causa é genérica, os efeitos duradouros não são garantidos.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1234,
+    "completion_tokens": 162,
+    "total_tokens": 1396,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 210
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

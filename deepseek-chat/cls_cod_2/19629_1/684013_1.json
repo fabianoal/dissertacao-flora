@@ -1,0 +1,28 @@
+{
+  "id": "210f07e7-98f9-4c8b-83c2-c72ad1ce0fbe",
+  "object": "chat.completion",
+  "created": 1760391618,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"A recomendação propõe a disponibilização de um local adequado e seguro para armazenamento de OPME, gerenciado por funcionários do almoxarifado central, o que aborda diretamente a causa do problema (falta de gerência adequada e local apropriado), em vez de apenas corrigir a condição imediata. Quanto aos efeitos duradouros, a implementação de uma estrutura gerencial e física permanente assegura que os benefícios persistam mesmo com mudanças nos atores envolvidos.\",\n   \"Foco Causa\": \"Sim\",\n   \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1030,
+    "completion_tokens": 150,
+    "total_tokens": 1180,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 198
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

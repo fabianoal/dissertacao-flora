@@ -1,0 +1,28 @@
+{
+  "id": "05a69890-805d-4a0c-8b39-ea24f22f7777",
+  "object": "chat.completion",
+  "created": 1760387882,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação sugere uma ação contínua de manutenção de dados atualizados, o que aborda diretamente a causa do problema, que é a falta de processos regulares para atualização. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um processo contínuo de atualização cria uma estrutura que permanece eficaz mesmo com mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 936,
+    "completion_tokens": 132,
+    "total_tokens": 1068,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 104
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

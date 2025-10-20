@@ -1,0 +1,28 @@
+{
+  "id": "52398892-978f-4381-8e8d-c67bf65402de",
+  "object": "chat.completion",
+  "created": 1760457501,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise original aponta que a recomendação apenas cita o cumprimento de uma disposição normativa sem abordar causas subjacentes, como falhas em processos ou recursos, o que é consistente com a definição de recomendações com foco na condição. Para o critério 'Efeitos Duradouros', como o 'Foco Causa' foi avaliado como 'Não', a resposta 'Não se aplica' está correta.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1109,
+    "completion_tokens": 151,
+    "total_tokens": 1260,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 213
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

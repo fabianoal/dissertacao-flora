@@ -1,0 +1,28 @@
+{
+  "id": "bf293bcd-0c54-4f6b-bafa-24805ac03b2f",
+  "object": "chat.completion",
+  "created": 1760458397,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda diretamente a causa raiz do problema, que é a ausência de um local adequado e seguro gerido pelo almoxarifado central, conforme normas. Quanto ao critério 'Efeitos Duradouros', a implementação de uma estrutura física e gerencial permanente assegura continuidade, mas a dependência de funcionários específicos pode introduzir vulnerabilidade a mudanças.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1231,
+    "completion_tokens": 146,
+    "total_tokens": 1377,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 335
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

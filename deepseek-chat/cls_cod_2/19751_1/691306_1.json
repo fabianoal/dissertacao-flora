@@ -1,0 +1,28 @@
+{
+  "id": "4dc0b075-8380-4438-bd5d-9e011eec78bf",
+  "object": "chat.completion",
+  "created": 1760395380,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a implementação de um programa de manutenção preventiva com cronograma formal e contratos de manutenção, o que visa tratar a causa raiz da falta de manutenção periódica, qualificação térmica e calibração, ao estabelecer um sistema estruturado e contínuo. Já em relação aos efeitos pretendidos pela recomendação, o programa de manutenção preventiva, uma vez implementado, continuará a funcionar independentemente de mudanças nos atores envolvidos, pois está baseado em cronogramas formais e contratos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1190,
+    "completion_tokens": 179,
+    "total_tokens": 1369,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 358
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

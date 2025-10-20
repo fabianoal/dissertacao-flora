@@ -1,0 +1,28 @@
+{
+  "id": "beffc7cc-1664-4103-b04c-38b1e627485f",
+  "object": "chat.completion",
+  "created": 1760396900,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe capacitação das equipes para aplicar procedimentos de estratificação de riscos, o que aborda a causa do problema (falta de capacitação para definir critérios de classificação de risco). Quanto aos efeitos duradouros, a capacitação visa desenvolver competências permanentes nas equipes, que se mantêm independentemente de mudanças nos atores envolvidos, desde que a estrutura de capacitação seja mantida.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1012,
+    "completion_tokens": 138,
+    "total_tokens": 1150,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 244
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "130cb686-3f1f-44a8-aa89-1497f25bc9c0",
+  "object": "chat.completion",
+  "created": 1760451756,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação se limita a citar normas existentes sem propor ações específicas para tratar as causas subjacentes da falta de registro detalhado. No entanto, a avaliação sobre efeitos duradouros segue corretamente a lógica de que, sem foco na causa, essa análise não se aplica.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1316,
+    "completion_tokens": 124,
+    "total_tokens": 1440,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 420
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

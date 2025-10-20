@@ -1,0 +1,28 @@
+{
+  "id": "7a45cee3-e42f-435a-b730-45ae353524ea",
+  "object": "chat.completion",
+  "created": 1760455665,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação de treinamentos visa abordar a causa subjacente do problema, que é a falta de conhecimento ou atenção dos profissionais, em vez de apenas corrigir as divergências atuais. Para o critério 'Efeitos Duradouros', os treinamentos podem estabelecer práticas padronizadas, mas sua durabilidade depende da institucionalização dos procedimentos, o que não é explicitamente garantido na recomendação.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1140,
+    "completion_tokens": 151,
+    "total_tokens": 1291,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 244
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

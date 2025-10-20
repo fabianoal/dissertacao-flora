@@ -1,0 +1,28 @@
+{
+  "id": "d547e276-3adf-4db6-9e5e-b4e5acb20620",
+  "object": "chat.completion",
+  "created": 1760450668,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação trata apenas da correção imediata da condição encontrada, sem propor ações para resolver as causas subjacentes. Para o critério 'Efeitos Duradouros', a resposta 'Não se aplica' está adequada, uma vez que o critério anterior não foi atendido.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1293,
+    "completion_tokens": 131,
+    "total_tokens": 1424,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 397
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

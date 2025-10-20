@@ -1,0 +1,28 @@
+{
+  "id": "a3cc188b-c1b8-4bf0-b71f-ab98b2a560e2",
+  "object": "chat.completion",
+  "created": 1760038112,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere que a SMS fiscalize e registre a execução das metas pactuadas, o que constitui uma ação para resolver a condição encontrada de não cumprimento integral dos requisitos. No entanto, a ação proposta para tratar a causa é genérica, pois se limita a citar o dever do estabelecimento de monitorar e zelar pela utilização dos recursos, conforme normativo, sem propor medidas concretas além do cumprimento desse dever. Como a ação de foco na causa é genérica, os efeitos duradouros não se aplicam de forma específica.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1311,
+    "completion_tokens": 180,
+    "total_tokens": 1491,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 287
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

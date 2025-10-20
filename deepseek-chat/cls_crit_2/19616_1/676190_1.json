@@ -1,0 +1,28 @@
+{
+  "id": "accbff8d-4fc5-4584-8c92-fe24232c39d5",
+  "object": "chat.completion",
+  "created": 1760457425,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação não aborda a causa raiz da ausência de contratos, focando apenas em solicitar justificativas, o que é uma ação reativa e não preventiva. No entanto, a avaliação dos efeitos duradouros está alinhada com a ausência de foco na causa.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1159,
+    "completion_tokens": 118,
+    "total_tokens": 1277,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 263
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

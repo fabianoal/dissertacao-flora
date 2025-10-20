@@ -1,0 +1,28 @@
+{
+  "id": "66b3b985-ca63-423f-b8d4-4776feca60e3",
+  "object": "chat.completion",
+  "created": 1760400868,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação apenas cita a necessidade de cumprir a legislação existente, sem propor ações específicas para tratar a causa subjacente que levou ao descumprimento dos prazos estabelecidos para o início da quimioterapia adjuvante. Não há menção a medidas como revisão de processos, capacitação da equipe ou implementação de controles que possam prevenir a recorrência do problema. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, esta análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1102,
+    "completion_tokens": 171,
+    "total_tokens": 1273,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 270
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

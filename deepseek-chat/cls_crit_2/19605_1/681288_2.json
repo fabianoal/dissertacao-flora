@@ -1,0 +1,28 @@
+{
+  "id": "99e032f1-9202-42f1-b0d8-730f59ae89c1",
+  "object": "chat.completion",
+  "created": 1760455941,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação é genérica e não aborda especificamente a causa do problema de falta de documentação sobre encaminhamento de pacientes para transplantes. Para o critério 'Efeitos Duradouros', como o 'Foco Causa' foi avaliado como 'Não', a resposta 'Não se aplica' está adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1275,
+    "completion_tokens": 141,
+    "total_tokens": 1416,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 315
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

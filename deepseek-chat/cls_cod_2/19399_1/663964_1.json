@@ -1,0 +1,28 @@
+{
+  "id": "2dc5f888-76b5-4eb6-80b4-f0fccad8e009",
+  "object": "chat.completion",
+  "created": 1760385286,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação inclui ações que tratam da causa do problema, que é a falta de documentação adequada e de cumprimento das regras do programa. Especificamente, a manutenção organizada da documentação por 10 anos e a observância das regras de execução do programa visam prevenir a reincidência da falta de documentação. Já em relação aos efeitos pretendidos, as ações propostas, como a manutenção de arquivos físicos e digitais e a adesão às normas estabelecidas, criam sistemas e procedimentos que devem permanecer efetivos independentemente de mudanças nos atores envolvidos, pois são baseados em diretrizes formais e práticas documentadas.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1227,
+    "completion_tokens": 198,
+    "total_tokens": 1425,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 395
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

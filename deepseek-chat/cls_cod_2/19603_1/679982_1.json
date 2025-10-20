@@ -1,0 +1,28 @@
+{
+  "id": "170fbf14-12bf-4865-b238-9e603ca0c284",
+  "object": "chat.completion",
+  "created": 1760389014,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe apenas a ação de abastecer as Unidades Móveis com materiais e equipamentos obrigatórios, que é uma medida para corrigir a condição atual de falta de materiais, sem abordar as causas subjacentes como problemas de dimensionamento, planejamento de suprimentos ou processos de gestão que levaram a essa situação. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, esta análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1071,
+    "completion_tokens": 157,
+    "total_tokens": 1228,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 239
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

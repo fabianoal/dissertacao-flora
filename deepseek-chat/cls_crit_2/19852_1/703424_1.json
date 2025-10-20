@@ -1,0 +1,28 @@
+{
+  "id": "f4dce3a3-525b-4a48-8c39-403e869c3650",
+  "object": "chat.completion",
+  "created": 1760466905,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise da codificação apresenta argumentos coerentes sobre a recomendação focar no cumprimento de diretrizes gerais sem tratar explicitamente da causa raiz da ausência de registros, como falta de capacitação ou sistemas. No entanto, a recomendação pode ser interpretada como abordando causas subjacentes, como a falta de implementação de ações estruturais em Saúde do Trabalhador, o que merece uma avaliação mais detalhada para o critério 'Foco Causa'. Para 'Efeitos Duradouros', a conclusão de 'Não se aplica' segue logicamente se 'Foco Causa' for considerado 'Não'.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1292,
+    "completion_tokens": 188,
+    "total_tokens": 1480,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 396
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

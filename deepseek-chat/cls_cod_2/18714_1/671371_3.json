@@ -1,0 +1,28 @@
+{
+  "id": "55dee821-046e-4d33-a0ba-3f4b587eee17",
+  "object": "chat.completion",
+  "created": 1760383490,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a devolução dos recursos aplicados intempestivamente, focando na correção da condição específica identificada (aplicação indevida no mercado financeiro). Não são sugeridas ações para tratar as causas subjacentes que permitiram essa aplicação, como falhas nos controles internos ou na governança dos recursos. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1005,
+    "completion_tokens": 156,
+    "total_tokens": 1161,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 109
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

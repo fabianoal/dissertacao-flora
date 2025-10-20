@@ -1,0 +1,28 @@
+{
+  "id": "1c8bb630-cb10-416c-bbfe-1281ea14c315",
+  "object": "chat.completion",
+  "created": 1760465905,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação de rever processos de contratação e alocação de funcionários aborda diretamente a causa das inconsistências nos registros de habilitação, pois visa prevenir a recorrência do problema, não apenas corrigir os registros existentes. Quanto ao critério 'Efeitos Duradouros', a implementação de processos revisados e baseados em lei pode estabelecer procedimentos estruturados, mas a eficácia duradoura depende da adesão contínua e da supervisão, podendo ser afetada por mudanças na gestão ou na interpretação das leis, o que pode limitar a permanência dos efeitos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1177,
+    "completion_tokens": 198,
+    "total_tokens": 1375,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 281
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

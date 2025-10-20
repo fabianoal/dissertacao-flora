@@ -1,0 +1,28 @@
+{
+  "id": "8f3bebe6-07db-4457-b845-d8e18bbab793",
+  "object": "chat.completion",
+  "created": 1760463549,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a elaboração de motivação clara e congruente, com parecer técnico, para substituições de insumos em futuras contratações, o que visa tratar a causa do problema (falta de motivação adequada) e não apenas corrigir a condição atual. Quanto ao critério 'Efeitos Duradouros', a implementação de um processo formal de motivação com parecer técnico criaria um procedimento institucional que permaneceria válido mesmo com mudanças nos atores envolvidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1265,
+    "completion_tokens": 177,
+    "total_tokens": 1442,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 369
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

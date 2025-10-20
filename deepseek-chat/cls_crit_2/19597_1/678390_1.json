@@ -1,0 +1,28 @@
+{
+  "id": "3a689d66-753c-4bce-9247-f273f7a6fbec",
+  "object": "chat.completion",
+  "created": 1760455629,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação inclui ações que tratam da causa do problema (gestão documental inadequada), como a guarda adequada de documentos por 10 anos, além de medidas para a condição imediata. Para 'Efeitos Duradouros', as ações de guarda e arquivamento, baseadas em normas, tendem a persistir com mudanças de atores, mas a análise original não considerou que a recomendação também inclui ações temporárias (como prestar informações em 15 dias) que não garantem efeitos duradouros por si só, embora as medidas de guarda sim.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1592,
+    "completion_tokens": 189,
+    "total_tokens": 1781,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 696
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

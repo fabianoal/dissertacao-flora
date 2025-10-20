@@ -1,0 +1,28 @@
+{
+  "id": "1742e334-a935-4b60-bf0f-fa7f8f3003fc",
+  "object": "chat.completion",
+  "created": 1760389890,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação exige que a organização apresente justificativa formal para a não realização da visita técnica ou insira os relatórios das visitas realizadas no sistema Transferegov, conforme exigência normativa. Esta ação visa corrigir a condição específica de ausência de documentação comprobatória, sem propor medidas para evitar que a falta de visitas técnicas ocorra novamente no futuro, como a implementação de um sistema de monitoramento ou revisão de processos de supervisão. Portanto, a recomendação trata apenas da condição atual (falta de documentação), não abordando a causa subjacente (por exemplo, falhas no planejamento ou na alocação de recursos para supervisão).\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 968,
+    "completion_tokens": 196,
+    "total_tokens": 1164,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 136
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

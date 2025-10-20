@@ -1,0 +1,28 @@
+{
+  "id": "e4cc0e9b-5658-4fe7-8ae9-3203438c9c40",
+  "object": "chat.completion",
+  "created": 1760398532,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação não propõe ações específicas para tratar a causa da ausência de documentos que comprovem a execução do procedimento. Em vez disso, limita-se a citar dispositivos legais e normativos genéricos sobre competências e alimentação de sistemas, sem indicar medidas concretas para resolver o problema subjacente (como implementar um sistema de registro ou capacitação para garantir a documentação adequada). Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1101,
+    "completion_tokens": 171,
+    "total_tokens": 1272,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 269
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

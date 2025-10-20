@@ -1,0 +1,28 @@
+{
+  "id": "3a775982-69a9-4f13-a8eb-8ac37b6625ca",
+  "object": "chat.completion",
+  "created": 1760036132,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a devolução dos recursos utilizados indevidamente, corrigindo a condição específica da despesa irregular. No entanto, não sugere ações adicionais para tratar as causas subjacentes que permitiram a ocorrência, como falhas em processos de controle interno ou capacitação de pessoal. A menção ao cumprimento de normativo é genérica e não especifica medidas concretas para prevenir recorrências.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1266,
+    "completion_tokens": 146,
+    "total_tokens": 1412,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 242
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

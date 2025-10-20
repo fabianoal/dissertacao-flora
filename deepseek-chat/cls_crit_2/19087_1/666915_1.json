@@ -1,0 +1,28 @@
+{
+  "id": "bd7e5d42-f94a-4dbf-9d74-9e42b3fc199c",
+  "object": "chat.completion",
+  "created": 1760450880,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação trata diretamente da condição encontrada (falta de deliberação) sem abordar causas subjacentes. Quanto ao critério 'Efeitos Duradouros', a não aplicação está adequada, pois o primeiro critério não foi atendido.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1438,
+    "completion_tokens": 125,
+    "total_tokens": 1563,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 606
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

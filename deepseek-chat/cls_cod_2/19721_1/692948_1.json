@@ -1,0 +1,28 @@
+{
+  "id": "930b85f4-9e99-4f5a-8ec5-9ccfeab85929",
+  "object": "chat.completion",
+  "created": 1760394624,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a atualização e manutenção contínua dos dados cadastrais, o que visa tratar a causa do problema (dados desatualizados) para evitar a reincidência da incompatibilidade, caracterizando um foco na causa. Já em relação aos efeitos pretendidos pela recomendação, a manutenção contínua estabelece um processo sistemático que deve persistir independentemente de mudanças nos atores envolvidos, indicando efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1031,
+    "completion_tokens": 146,
+    "total_tokens": 1177,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 199
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

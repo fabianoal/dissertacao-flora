@@ -1,0 +1,28 @@
+{
+  "id": "4173fcfc-f3f6-4545-9dac-bfe3bf8d18e0",
+  "object": "chat.completion",
+  "created": 1760467337,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação se limita a reiterar o cumprimento de uma obrigação preexistente, sem abordar as causas subjacentes do não cumprimento. No entanto, é importante considerar que a recomendação pode ter como objetivo imediato a correção da condição identificada, o que é consistente com práticas de auditoria que priorizam a conformidade inicial.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1222,
+    "completion_tokens": 137,
+    "total_tokens": 1359,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 326
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "1dc5a15b-a23e-4903-a2f4-d032ea030530",
+  "object": "chat.completion",
+  "created": 1760451936,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação é genérica e não identifica ações específicas para tratar a causa raiz da divergência nos dados. Para o critério 'Efeitos Duradouros', como 'Foco Causa' foi avaliado como 'Não', a resposta 'Não se aplica' está adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1326,
+    "completion_tokens": 130,
+    "total_tokens": 1456,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 302
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

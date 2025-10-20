@@ -1,0 +1,28 @@
+{
+  "id": "5ba3c4cb-5895-4d87-a106-77d888195918",
+  "object": "chat.completion",
+  "created": 1760466661,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a adoção de medidas para instruir corretamente os processos de pagamento com documentos que comprovem a prestação do serviço, como relatórios de monitoramento e planilhas com quantitativos físicos e financeiros. Isso visa estabelecer um processo sistemático e documentado para futuros pagamentos, tratando a causa do problema (falta de documentação comprobatória) e não apenas corrigindo a condição atual. Já em relação ao critério 'Efeitos Duradouros', a implementação de processos padronizados e documentados para instrução de pagamentos cria um sistema que permanece funcional independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1271,
+    "completion_tokens": 218,
+    "total_tokens": 1489,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 439
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

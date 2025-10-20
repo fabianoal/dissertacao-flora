@@ -1,0 +1,28 @@
+{
+  "id": "566e4b26-f36c-4e1f-a7a9-f64a071741da",
+  "object": "chat.completion",
+  "created": 1760399216,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a implementação de um controle padronizado de registro das demandas, o que visa tratar a causa raiz do problema, que é a ausência de um sistema estruturado para manter registros detalhados, em vez de apenas corrigir os registros ausentes. Já em relação aos efeitos pretendidos pela recomendação, a padronização e a implementação de um controle formal tendem a criar um processo duradouro que permanece efetivo mesmo com mudanças nos atores envolvidos, pois se baseia em procedimentos estabelecidos e não em ações individuais.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1091,
+    "completion_tokens": 168,
+    "total_tokens": 1259,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 259
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

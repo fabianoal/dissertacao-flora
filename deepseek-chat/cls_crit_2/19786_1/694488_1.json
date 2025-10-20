@@ -1,0 +1,28 @@
+{
+  "id": "5b3c6493-5e0c-44cb-89a9-3c9d486993f2",
+  "object": "chat.completion",
+  "created": 1760464429,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a inclusão de treinamentos regulares no plano anual de capacitação, o que aborda diretamente a causa da constatação, que é a ausência de programas de treinamento regulares, estabelecendo um processo contínuo e estruturado. Quanto ao critério 'Efeitos Duradouros', a ação de incluir treinamentos regulares no plano anual cria um mecanismo institucional que pode persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1185,
+    "completion_tokens": 177,
+    "total_tokens": 1362,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 289
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

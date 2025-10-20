@@ -1,0 +1,28 @@
+{
+  "id": "1bd35e1a-0566-4458-aaa4-dd27372d3196",
+  "object": "chat.completion",
+  "created": 1760451436,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação se concentra na correção imediata do dano financeiro através da devolução de recursos, sem propor ações para prevenir a reincidência do problema. Quanto ao critério 'Efeitos Duradouros', como o 'Foco Causa' não foi atendido, a resposta 'Não se aplica' é apropriada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1385,
+    "completion_tokens": 144,
+    "total_tokens": 1529,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 361
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d06d8a69-7e43-4bef-8cee-5670caa37636",
+  "object": "chat.completion",
+  "created": 1760035524,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere a implementação de autorização prévia para corrigir a condição encontrada de datas de solicitação posteriores às datas de autorização. Além disso, propõe ações para assegurar cumprimento normativo, evitar irregularidades e facilitar o monitoramento, mas essas ações são genéricas e baseadas no mero cumprimento de normativos, sem especificar ações concretas para tratar a causa subjacente que permitiu a ocorrência da condição.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1182,
+    "completion_tokens": 155,
+    "total_tokens": 1337,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 222
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

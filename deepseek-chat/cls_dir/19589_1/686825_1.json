@@ -1,0 +1,28 @@
+{
+  "id": "77c310fd-8fb4-47cb-b69d-ecbec576f4bc",
+  "object": "chat.completion",
+  "created": 1759367862,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação propõe a realização de manutenções preventivas e corretivas para manter a infraestrutura da Central de Regulação conforme a legislação, visando melhorar as condições de trabalho. No entanto, ela não identifica explicitamente a causa que levou à condição de infraestrutura inadequada (como falta de planejamento orçamentário, ausência de processos de manutenção regulares ou deficiências na gestão de recursos), focando na correção da condição atual. A causa não está claramente situada no nível institucional (como políticas ou processos organizacionais), e as ações sugeridas, embora possam ter efeito duradouro se implementadas continuamente, são mais reativas e não abordam transformações estruturais profundas. Assim, a recomendação é predominantemente corretiva e não atende a todos os critérios para ser classificada como cause-based.\",\n    \"categoria\": \"foco-condicao\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1460,
+    "completion_tokens": 224,
+    "total_tokens": 1684,
+    "prompt_tokens_details": {
+      "cached_tokens": 1280
+    },
+    "prompt_cache_hit_tokens": 1280,
+    "prompt_cache_miss_tokens": 180
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

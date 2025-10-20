@@ -1,0 +1,28 @@
+{
+  "id": "c21bfedf-a613-4100-b187-d58e0a71d313",
+  "object": "chat.completion",
+  "created": 1760394752,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação solicita a apresentação de um documento que comprove o funcionamento do serviço, o que constitui uma ação para corrigir a condição atual de falta de comprovação, mas não propõe medidas para tratar as causas subjacentes, como falhas na gestão de comunicação ou sistemas. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1010,
+    "completion_tokens": 143,
+    "total_tokens": 1153,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 178
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

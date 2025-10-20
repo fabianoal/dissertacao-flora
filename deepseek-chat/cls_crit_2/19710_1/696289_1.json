@@ -1,0 +1,28 @@
+{
+  "id": "d58b7314-a8e9-4f28-9728-3ecffe831eeb",
+  "object": "chat.completion",
+  "created": 1760462045,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação de adequação da infraestrutura (recursos humanos, estrutura física, materiais e equipamentos) claramente visa tratar a causa raiz da incapacidade técnica e operacional instalada, que é a falta de conformidade com os requisitos normativos mínimos. Portanto, concordo com a classificação 'Sim'. Quanto ao critério 'Efeitos Duradouros', a adequação da infraestrutura, uma vez implementada, estabelece condições estruturais e normativas que tendem a persistir independentemente de mudanças nos atores envolvidos, como a substituição de pessoal, desde que haja manutenção e fiscalização contínuas. Assim, também concordo com a classificação 'Sim'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1323,
+    "completion_tokens": 216,
+    "total_tokens": 1539,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 427
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

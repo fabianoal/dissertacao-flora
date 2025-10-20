@@ -1,0 +1,28 @@
+{
+  "id": "b89de6af-ee69-4a4e-bdba-c18485ba41c1",
+  "object": "chat.completion",
+  "created": 1760037328,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere uma ação para resolver a condição encontrada (inserir documentação comprobatória no Transferegov), caracterizando uma ação corretiva. No entanto, não propõe ações específicas para tratar a causa que levou à contratação sem observância aos critérios legais, limitando-se a citar o cumprimento de normativos existentes, sem medidas concretas adicionais. Portanto, a ação com foco na causa é genérica, e os efeitos não são duradouros, pois dependem da adesão contínua aos normativos sem mudanças estruturais.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1210,
+    "completion_tokens": 187,
+    "total_tokens": 1397,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 186
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

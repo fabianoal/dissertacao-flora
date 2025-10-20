@@ -1,0 +1,28 @@
+{
+  "id": "fddb2c0c-603b-4fd0-8b29-c8c7cc369d31",
+  "object": "chat.completion",
+  "created": 1760453981,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise realizada pelo modelo está correta, pois a recomendação se limita a exigir o cumprimento formal da elaboração dos instrumentos de gestão, sem propor ações que tratem das causas subjacentes da não elaboração, como falta de capacitação ou recursos. Quanto ao critério 'Efeitos Duradouros', como o critério 'Foco Causa' não foi atendido, a resposta 'Não se aplica' está adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1355,
+    "completion_tokens": 156,
+    "total_tokens": 1511,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 459
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

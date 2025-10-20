@@ -1,0 +1,28 @@
+{
+  "id": "2212e5ce-beaa-4944-a45f-60231df35f05",
+  "object": "chat.completion",
+  "created": 1760395084,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a criação e manutenção de procedimentos operacionais padronizados por escrito, o que visa tratar a causa raiz da ausência de documentação formal que gerou a condição encontrada. Já em relação aos efeitos pretendidos pela recomendação, a implementação de procedimentos documentados permanece válida independentemente de mudanças na equipe, garantindo continuidade e padronização das operações.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 990,
+    "completion_tokens": 135,
+    "total_tokens": 1125,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 158
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "0bd328f0-712f-40fa-b72c-5b51633397d2",
+  "object": "chat.completion",
+  "created": 1760389522,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe capacitar as áreas competentes para análise de custos, o que visa melhorar processos e prevenir futuras irregularidades, tratando assim a causa do problema (falta de capacidade técnica). Já em relação aos efeitos pretendidos pela recomendação, a capacitação cria uma competência institucional que permanece mesmo com mudanças de atores, pois o conhecimento e procedimentos ficam incorporados à organização.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 948,
+    "completion_tokens": 133,
+    "total_tokens": 1081,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

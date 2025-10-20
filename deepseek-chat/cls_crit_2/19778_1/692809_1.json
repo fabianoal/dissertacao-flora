@@ -1,0 +1,28 @@
+{
+  "id": "b45411ca-34e2-47f9-9c8a-553e9111f121",
+  "object": "chat.completion",
+  "created": 1760464057,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a contratação de empresa especializada para manutenção periódica, o que aborda diretamente a causa da constatação (ausência de manutenção programada). Para o critério 'Efeitos Duradouros', a contratação estabelece um processo contínuo que deve perdurar independentemente de mudanças na equipe, garantindo sustentabilidade.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1273,
+    "completion_tokens": 142,
+    "total_tokens": 1415,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 377
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

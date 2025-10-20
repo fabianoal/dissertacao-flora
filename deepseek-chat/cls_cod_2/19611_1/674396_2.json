@@ -1,0 +1,28 @@
+{
+  "id": "82d86a7e-b234-4c82-8de7-130439cfd5b2",
+  "object": "chat.completion",
+  "created": 1760389518,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe uma ação de avaliação para verificar se os serviços foram prestados e se o sistema foi implementado, visando identificar se houve desperdício de recurso público. No entanto, essa ação está direcionada a corrigir a condição atual (falta de comprovação da necessidade e prestação dos serviços) e não aborda a causa subjacente que permitiu a contratação e pagamento sem comprovação adequada, como falhas em processos de controle, políticas de contratação ou supervisão. Portanto, a recomendação tem foco na condição, não na causa. Como o critério 'Foco Causa' não foi atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 955,
+    "completion_tokens": 213,
+    "total_tokens": 1168,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

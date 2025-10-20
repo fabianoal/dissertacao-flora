@@ -1,0 +1,28 @@
+{
+  "id": "0ff50279-032b-433f-b563-a537ea2bce2f",
+  "object": "chat.completion",
+  "created": 1760383554,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a adoção de um sistema de controle de medicamentos eficiente, que visa tratar a causa raiz da ineficiência nos controles de estoque, que é a ausência de um sistema adequado, em vez de apenas corrigir as falhas pontuais nos controles existentes. Isso caracteriza um foco na causa. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um sistema estruturado e baseado em normativas permanece independente de mudanças nos atores envolvidos, garantindo efeitos duradouros mesmo com eventual rotatividade de pessoal.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1040,
+    "completion_tokens": 177,
+    "total_tokens": 1217,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 208
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

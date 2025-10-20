@@ -1,0 +1,28 @@
+{
+  "id": "edfa1ec0-f618-4821-badf-4134db9b8077",
+  "object": "chat.completion",
+  "created": 1760465337,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação se concentra em corrigir a condição imediata (ausência de ações de saúde mental nas escolas) sem abordar explicitamente as causas subjacentes, como falta de capacitação, recursos ou problemas de gestão. No entanto, a recomendação inclui a necessidade de cumprir a Portaria de Consolidação, o que poderia ser interpretado como um reforço normativo, mas ainda assim não especifica ações para causas profundas. Para o critério 'Efeitos Duradouros', a conclusão de 'Não se aplica' é adequada, dado que o 'Foco Causa' não foi atendido.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1258,
+    "completion_tokens": 207,
+    "total_tokens": 1465,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 362
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

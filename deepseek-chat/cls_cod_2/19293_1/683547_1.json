@@ -1,0 +1,28 @@
+{
+  "id": "31507230-2844-414b-b90d-bad938008a92",
+  "object": "chat.completion",
+  "created": 1760384495,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações como aperfeiçoar o monitoramento, reforçar comunicação, programar alertas automáticos no sistema e realizar treinamentos, que visam prevenir a reincidência do descumprimento de prazos ao abordar falhas no processo e na gestão, caracterizando foco na causa. Já em relação aos efeitos pretendidos, as ações de programação do sistema para emitir alertas e fechamento automático, bem como o treinamento estruturado, criam mecanismos que permanecem independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1129,
+    "completion_tokens": 182,
+    "total_tokens": 1311,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 297
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ea0e79c4-3822-48ef-8a87-cac4599cb040",
+  "object": "chat.completion",
+  "created": 1760457417,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação aborda a causa subjacente (falta de fiscalização sistemática) e que seus efeitos são duradouros devido à implementação de processos contínuos. No entanto, é importante considerar se a recomendação realmente propõe ações específicas para tratar a causa raiz ou se foca mais em monitorar a condição existente.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1208,
+    "completion_tokens": 132,
+    "total_tokens": 1340,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 312
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

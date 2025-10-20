@@ -1,0 +1,28 @@
+{
+  "id": "19f6af72-f0af-45f8-9e2f-7a7b414048ba",
+  "object": "chat.completion",
+  "created": 1760398540,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a devolução de valores ao Fundo Nacional de Saúde como medida para corrigir o dano financeiro identificado, tratando diretamente da condição encontrada (falta de comprovação da produção), mas não aborda ações para prevenir a reocorrência do problema, como melhorias nos sistemas de controle ou processos de verificação. Portanto, não há foco na causa. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1054,
+    "completion_tokens": 165,
+    "total_tokens": 1219,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 222
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

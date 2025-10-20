@@ -1,0 +1,28 @@
+{
+  "id": "0c13bb40-797e-4c06-ae28-bd83dbf71570",
+  "object": "chat.completion",
+  "created": 1760463785,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação se limita a citar a legislação aplicável sem propor ações concretas para abordar a causa subjacente da não disponibilização da documentação. No entanto, é importante notar que a citação da lei pode ser interpretada como uma ação indireta, mas não constitui uma proposta específica para resolver a causa raiz, como a implementação de procedimentos internos ou capacitação.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1209,
+    "completion_tokens": 145,
+    "total_tokens": 1354,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 249
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "46a4f770-b751-44ee-8f72-ed3e90da38fb",
+  "object": "chat.completion",
+  "created": 1760392850,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a inserção dos relatórios de acompanhamento que estão incompletos, focando na correção da condição específica de incompletude identificada. Não há menção a ações que abordem as causas subjacentes que levaram à incompletude dos relatórios, como possíveis falhas nos processos de preenchimento, capacitação inadequada ou falta de supervisão. Portanto, a recomendação é condition-based, não cause-based. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 957,
+    "completion_tokens": 174,
+    "total_tokens": 1131,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 125
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

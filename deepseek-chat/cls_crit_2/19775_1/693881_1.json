@@ -1,0 +1,28 @@
+{
+  "id": "0f2c43c7-a99a-4d7e-a59c-381fcd39d36c",
+  "object": "chat.completion",
+  "created": 1760463921,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise realizada pelo modelo está correta, pois a recomendação se limita a sugerir a manutenção da atualização dos dados no CNES, sem propor ações que abordem as causas subjacentes da falta de atualização, como a ausência de processos, responsabilidades definidas ou mecanismos de controle. Quanto ao critério 'Efeitos Duradouros', como o 'Foco Causa' foi corretamente classificado como 'Não', a resposta 'Não se aplica' é adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1167,
+    "completion_tokens": 168,
+    "total_tokens": 1335,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 271
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

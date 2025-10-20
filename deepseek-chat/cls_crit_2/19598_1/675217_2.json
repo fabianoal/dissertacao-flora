@@ -1,0 +1,28 @@
+{
+  "id": "7c821d8c-751a-4eb3-b43e-72c54268c4e8",
+  "object": "chat.completion",
+  "created": 1760455733,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação de utilizar placa de identificação do SAMU aborda apenas um aspecto superficial da constatação de má conservação da infraestrutura predial, sem propor ações que tratem das causas subjacentes, como falta de manutenção preventiva ou alocação de recursos. Portanto, concordo com a classificação de 'Não' para este critério. Quanto ao critério 'Efeitos Duradouros', como o 'Foco Causa' foi classificado como 'Não', a resposta 'Não se aplica' está correta, não havendo necessidade de análise adicional.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1152,
+    "completion_tokens": 186,
+    "total_tokens": 1338,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 192
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

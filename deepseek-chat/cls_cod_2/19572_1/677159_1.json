@@ -1,0 +1,28 @@
+{
+  "id": "2d52b0b0-983c-4fe9-af38-42eadaee15c8",
+  "object": "chat.completion",
+  "created": 1760388350,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe apenas a correção da condição específica encontrada (não encaminhamento dos pacientes aptos para transplante), determinando que o encaminhamento seja realizado nos prazos legais. Não há nenhuma ação proposta para tratar a causa subjacente que levou ao não cumprimento dos prazos, como falhas no processo interno, capacitação da equipe ou sistema de monitoramento. Portanto, trata-se de uma recomendação com foco na condição, não na causa.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1037,
+    "completion_tokens": 153,
+    "total_tokens": 1190,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 205
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "b4313106-a06e-4845-bc79-8caaf3490048",
+  "object": "chat.completion",
+  "created": 1760457577,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise crítica considera se a classificação do modelo está correta para cada critério, com base na definição de recomendações de foco na causa (ações para evitar recorrência) e efeitos duradouros (permanência dos efeitos mesmo com mudança de atores).\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1177,
+    "completion_tokens": 109,
+    "total_tokens": 1286,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 281
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

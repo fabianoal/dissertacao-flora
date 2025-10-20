@@ -1,0 +1,28 @@
+{
+  "id": "00af824f-a4c4-48c7-b357-34b4db94ffc5",
+  "object": "chat.completion",
+  "created": 1760389894,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe que as unidades elaborem relatórios mensais com base em informações fidedignas e adotem medidas preventivas ou corretivas em caso de descumprimento, o que indica ações para evitar a reincidência das impropriedades, tratando assim a causa do problema. Já em relação aos efeitos pretendidos pela recomendação, as medidas sugeridas, como a elaboração de relatórios baseados em informações fidedignas e a adoção de ações preventivas, estabelecem procedimentos que podem ser mantidos independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1039,
+    "completion_tokens": 184,
+    "total_tokens": 1223,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 15
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

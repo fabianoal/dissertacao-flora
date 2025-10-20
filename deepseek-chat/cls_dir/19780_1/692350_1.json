@@ -1,0 +1,28 @@
+{
+  "id": "ff8dae08-e85e-4b06-a50f-5e50639093dd",
+  "object": "chat.completion",
+  "created": 1759367882,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação identifica múltiplas causas institucionais que levaram à condição detectada, incluindo a ausência de documentação adequada (mapa ilustrativo), falhas no registro e monitoramento de dados, falta de sistematização na gestão de estoque e não aplicação de procedimentos operacionais padronizados (PEPS). Essas causas estão situadas no nível institucional, relacionadas à estrutura de processos, controles e conformidade normativa. As transformações propostas, como a implementação de sistemas de registro, monitoramento e gestão, possuem potencial para perdurar no tempo, promovendo mudanças estruturais na operação da cadeia de frio.\",\n    \"categoria\": \"foco-causa\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1591,
+    "completion_tokens": 172,
+    "total_tokens": 1763,
+    "prompt_tokens_details": {
+      "cached_tokens": 1280
+    },
+    "prompt_cache_hit_tokens": 1280,
+    "prompt_cache_miss_tokens": 311
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

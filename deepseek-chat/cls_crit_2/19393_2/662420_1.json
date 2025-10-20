@@ -1,0 +1,28 @@
+{
+  "id": "c5c1a2b1-3a7c-4986-99a6-39c8868bbaab",
+  "object": "chat.completion",
+  "created": 1760452056,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda diretamente a causa da constatação, que é a falta de formalização e manutenção adequada da Comissão de Revisão de Prontuários (CRP). Quanto ao critério 'Efeitos Duradouros', a recomendação estabelece um processo documental e estrutural que visa a sustentabilidade, mas sua eficácia depende da adesão contínua e pode ser afetada por mudanças na gestão ou prioridades.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1280,
+    "completion_tokens": 162,
+    "total_tokens": 1442,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 384
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

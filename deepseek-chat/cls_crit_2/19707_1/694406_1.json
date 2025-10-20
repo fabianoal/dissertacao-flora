@@ -1,0 +1,28 @@
+{
+  "id": "e081789b-5728-4088-bb3c-7f5f73f6763d",
+  "object": "chat.completion",
+  "created": 1760461993,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação propõe o cumprimento de uma exigência legal que, se atendida desde o início, evitaria a condição encontrada, tratando assim a causa subjacente. Quanto ao critério 'Efeitos Duradouros', também concordo, uma vez que a implementação do programa de trabalho no contrato estabelece uma base formal que permanece válida independentemente de mudanças nos atores envolvidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1183,
+    "completion_tokens": 159,
+    "total_tokens": 1342,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 287
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

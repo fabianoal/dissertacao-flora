@@ -1,0 +1,28 @@
+{
+  "id": "9d38c7d5-a376-45d4-a074-32a2a5208d6a",
+  "object": "chat.completion",
+  "created": 1760384031,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a realização de pesquisa de preços conforme normas específicas, o que visa estabelecer um procedimento padrão para futuras aquisições, tratando assim da causa do problema (falta de demonstração da vantajosidade). Já em relação aos efeitos pretendidos pela recomendação, a implementação de um procedimento normativo permanece válida independentemente de mudanças nos atores envolvidos, caracterizando efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 943,
+    "completion_tokens": 144,
+    "total_tokens": 1087,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 111
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "409c8595-44c1-4f9e-b6e5-23f4e2059bcc",
+  "object": "chat.completion",
+  "created": 1760391634,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a fixação das etiquetas de rastreabilidade nos prontuários e sua incorporação obrigatória, o que trata diretamente a condição encontrada (etiquetas não fixadas), mas não aborda as causas subjacentes que levaram à não fixação, como falta de treinamento, supervisão ou processos inadequados. Portanto, foca na correção da condição imediata. Quanto aos efeitos duradouros, como o critério 'Foco Causa' é 'Não', não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1058,
+    "completion_tokens": 169,
+    "total_tokens": 1227,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 226
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

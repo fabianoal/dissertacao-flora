@@ -1,0 +1,28 @@
+{
+  "id": "ae01e0ff-44a2-4ff9-a610-df7ccdf5ca58",
+  "object": "chat.completion",
+  "created": 1760037788,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"A recomendação sugere uma ação corretiva para resolver a condição encontrada, que é a inserção da documentação comprobatória no Transferegov para sanear as impropriedades. No entanto, não propõe nenhuma ação específica para tratar a causa subjacente que permitiu a ocorrência dessas falhas, como melhorias em processos ou treinamentos, limitando-se a uma exigência genérica de cumprimento normativo.\",\n   \"Ação Corretiva\": \"Sim\",\n   \"Ação Foco Causa\": \"Genérica\",\n   \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1142,
+    "completion_tokens": 147,
+    "total_tokens": 1289,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 118
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

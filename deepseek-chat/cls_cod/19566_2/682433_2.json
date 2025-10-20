@@ -1,0 +1,28 @@
+{
+  "id": "c7b588d3-60d5-48ab-b05d-1733d5498dcd",
+  "object": "chat.completion",
+  "created": 1760037564,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação (a) sugere ações de planejamento para diagnosticar a demanda por serviços de diálise e verificar a capacidade instalada, o que visa corrigir a condição de falta de atendimento adequado. No entanto, a ação proposta é genérica, focando no cumprimento de normativos (Portaria GM/MS) sem especificar medidas concretas para tratar a causa raiz, como implementação de sistemas de monitoramento ou treinamento de pessoal. A recomendação (b) é irrelevante para a constatação, tratando de acesso a informações para auditoria, não endereçando a questão da capacidade de hemodiálise. Assim, há uma ação corretiva, mas sem foco específico na causa.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1318,
+    "completion_tokens": 211,
+    "total_tokens": 1529,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 294
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

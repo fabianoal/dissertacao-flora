@@ -1,0 +1,28 @@
+{
+  "id": "140e16e1-5093-4f03-8b6f-728827581ad9",
+  "object": "chat.completion",
+  "created": 1759367702,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação aborda parcialmente a causa ao propor a informatização das UBS e o uso do Prontuário Eletrônico, o que pode mitigar inconsistências futuras, mas não identifica explicitamente a causa raiz da divergência de dados (ex.: falhas processuais, falta de treinamento). A causa não está claramente situada no nível institucional, focando mais em soluções técnicas. As transformações têm potencial de duração, mas a ênfase na correção imediata (registro regular no SISAB) sugere um foco predominante na condição observada.\",\n    \"categoria\": \"foco-condicao\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1537,
+    "completion_tokens": 158,
+    "total_tokens": 1695,
+    "prompt_tokens_details": {
+      "cached_tokens": 1280
+    },
+    "prompt_cache_hit_tokens": 1280,
+    "prompt_cache_miss_tokens": 257
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

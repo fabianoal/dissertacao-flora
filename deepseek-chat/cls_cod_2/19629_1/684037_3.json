@@ -1,0 +1,28 @@
+{
+  "id": "631392c0-28d9-4903-8377-9f841dffca2b",
+  "object": "chat.completion",
+  "created": 1760391666,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação não propõe ações específicas para tratar a causa da ausência de anexação das folhas de requisição de OPME nos prontuários, limitando-se a citar uma obrigação legal genérica de prestar informações e facilitar acesso a documentos. Não há menção a ações como revisão de processos, capacitação de pessoal ou implementação de controles que ataquem a raiz do problema. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 990,
+    "completion_tokens": 174,
+    "total_tokens": 1164,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 94
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

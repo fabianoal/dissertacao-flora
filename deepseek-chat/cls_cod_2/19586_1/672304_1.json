@@ -1,0 +1,28 @@
+{
+  "id": "e0dd189a-2aac-4f37-ab65-e16df7d18de8",
+  "object": "chat.completion",
+  "created": 1760388386,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação 1 propõe a informatização das UBS e adoção do Prontuário Eletrônico, o que visa tratar a causa subjacente da inconsistência de dados, como a falta de sistemas integrados. A recomendação 2 foca na correção imediata da condição, exigindo o registro regular dos dados. Em relação aos efeitos duradouros, a informatização estabelece processos sistêmicos que devem persistir independentemente de mudanças nos atores envolvidos.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1091,
+    "completion_tokens": 142,
+    "total_tokens": 1233,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 259
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

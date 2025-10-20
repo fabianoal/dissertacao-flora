@@ -1,0 +1,28 @@
+{
+  "id": "e8199aac-cff6-460e-be30-c2578fd327ea",
+  "object": "chat.completion",
+  "created": 1760467777,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação menciona explicitamente 'prevenir a recorrência do fato apresentado', o que indica uma ação voltada para a causa da irregularidade na cobrança, não apenas para corrigir a condição atual. Quanto ao critério 'Efeitos Duradouros', a recomendação se baseia na adoção de procedimentos estabelecidos em normativos (Decreto e Portaria), que são estruturas formais e tendem a ser duradouras, independentemente de mudanças nos atores envolvidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1213,
+    "completion_tokens": 169,
+    "total_tokens": 1382,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 317
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

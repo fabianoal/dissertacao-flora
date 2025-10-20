@@ -1,0 +1,28 @@
+{
+  "id": "a4d2561f-5114-4904-8f88-3a7ceb7e6cf8",
+  "object": "chat.completion",
+  "created": 1760394256,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação 1 propõe a devolução dos recursos, o que é uma ação para corrigir a condição atual de irregularidade, mas não aborda a causa subjacente, como falhas nos processos de documentação ou controle interno. A recomendação 2 sugere medidas legais contra gestores anteriores, o que pode ter um efeito dissuasório, mas ainda se concentra em consequências após o fato, sem propor mudanças sistêmicas para prevenir a recorrência. Portanto, não há ações claras focadas na causa do problema. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' é 'Não', essa análise não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1360,
+    "completion_tokens": 193,
+    "total_tokens": 1553,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 528
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

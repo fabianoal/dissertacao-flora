@@ -1,0 +1,28 @@
+{
+  "id": "e1e596ce-bd3d-43c6-a7f9-8105c044a99c",
+  "object": "chat.completion",
+  "created": 1760385139,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a implementação de controles radiológicos e anexação de exames de imagem ao prontuário para comprovar a utilização de OPME, o que visa prevenir a cobrança indevida ao tratar a causa subjacente de falta de comprovação documental. Já em relação aos efeitos pretendidos pela recomendação, a adoção de procedimentos padronizados de documentação e controle deve manter sua eficácia independentemente de mudanças nos profissionais envolvidos, garantindo efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1133,
+    "completion_tokens": 159,
+    "total_tokens": 1292,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 301
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

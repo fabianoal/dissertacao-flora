@@ -1,0 +1,28 @@
+{
+  "id": "b4a4c8e7-84db-4c18-b635-cd5a17b7fd43",
+  "object": "chat.completion",
+  "created": 1760450964,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação apenas cita uma normativa sem propor ações específicas para tratar as causas do problema de controle de estoque. Para o critério 'Efeitos Duradouros', como 'Foco Causa' foi corretamente classificado como 'Não', a resposta 'Não se aplica' é apropriada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1300,
+    "completion_tokens": 136,
+    "total_tokens": 1436,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 404
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

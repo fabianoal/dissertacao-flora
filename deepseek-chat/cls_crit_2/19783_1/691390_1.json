@@ -1,0 +1,28 @@
+{
+  "id": "02bc6412-9a7e-4db3-a0be-82fc6c64ff7b",
+  "object": "chat.completion",
+  "created": 1760464337,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda ações que visam tratar a causa subjacente da não implantação do Plano de Contingência, como a falta de capacitação e processos desatualizados, indo além de uma correção imediata. Para o critério 'Efeitos Duradouros', as ações propostas estabelecem processos institucionais contínuos, como políticas de capacitação e revisão periódica, que podem manter sua eficácia mesmo com mudanças de pessoal.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1303,
+    "completion_tokens": 161,
+    "total_tokens": 1464,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 407
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

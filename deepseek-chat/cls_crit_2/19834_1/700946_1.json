@@ -1,0 +1,28 @@
+{
+  "id": "36f9ae12-abec-4d33-9104-b0b32a5b0251",
+  "object": "chat.completion",
+  "created": 1760448642,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe avaliar a formalização da contratualização e prestar assessoria técnica, o que pode abordar a causa da não publicação, como falta de formalização adequada ou desconhecimento dos procedimentos. Para o critério 'Efeitos Duradouros', a formalização e assessoria técnica têm potencial para estabelecer processos duradouros, mas a recomendação é genérica e não garante que os efeitos persistam com mudanças de atores, dependendo da implementação.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1207,
+    "completion_tokens": 166,
+    "total_tokens": 1373,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 375
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

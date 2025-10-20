@@ -1,0 +1,28 @@
+{
+  "id": "7bebda8a-a73b-4a84-8dc4-a3286b444dcb",
+  "object": "chat.completion",
+  "created": 1760037760,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere que as equipes de ESF ofereçam orientação e suporte aos familiares para corrigir a condição de não realização do acompanhamento, caracterizando uma ação corretiva. No entanto, a ação com foco na causa é genérica, pois se limita a recomendar o cumprimento de normativos existentes, sem propor medidas específicas para alterar processos ou sistemas que permitiram a ocorrência da condição. Como a ação foco causa é genérica, os efeitos duradouros não são avaliados como presentes.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1303,
+    "completion_tokens": 169,
+    "total_tokens": 1472,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 279
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d7514e2f-85dc-471a-b797-1b8215bf30a3",
+  "object": "chat.completion",
+  "created": 1760390090,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação exige a apresentação de justificativa para a não realização da visita técnica ou a inserção dos relatórios no sistema Transferegov, o que visa corrigir a condição específica de ausência de documentação/justificativa, sem propor ações para prevenir a recorrência da causa subjacente (como falhas no processo de planejamento ou execução das visitas). Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 963,
+    "completion_tokens": 167,
+    "total_tokens": 1130,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 131
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "e6b1b86c-0eb2-42bc-97c8-69a4b1607036",
+  "object": "chat.completion",
+  "created": 1760453797,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação não propõe ações específicas para tratar a causa raiz do problema, como falhas nos processos de registro ou capacitação. Em relação ao critério 'Efeitos Duradouros', como o 'Foco Causa' foi corretamente classificado como 'Não', a resposta 'Não se aplica' está adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1258,
+    "completion_tokens": 140,
+    "total_tokens": 1398,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 298
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

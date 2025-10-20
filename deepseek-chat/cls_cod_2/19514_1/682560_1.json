@@ -1,0 +1,28 @@
+{
+  "id": "385c2b53-b9ae-40bf-9f28-a0c0f3d82259",
+  "object": "chat.completion",
+  "created": 1760386590,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação não propõe ações específicas para tratar a causa do problema (inserção de dados não comprovados no SIA/SUS), limitando-se a encaminhar a constatação para conhecimento e adoção de procedimentos genéricos de controle, monitoramento e avaliação, sem especificar medidas corretivas diretas. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1129,
+    "completion_tokens": 153,
+    "total_tokens": 1282,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 297
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "86b4a9af-f6b9-4221-a35b-e8419f542b32",
+  "object": "chat.completion",
+  "created": 1760468305,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda a correção imediata da condição irregular de pagamentos, mas não propõe medidas para prevenir a recorrência do problema, como melhorias em processos de verificação ou capacitação. Para o critério 'Efeitos Duradouros', como não há foco na causa, a análise corretamente não se aplica.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1433,
+    "completion_tokens": 130,
+    "total_tokens": 1563,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 473
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "f095916e-7ee8-45d0-a5f7-f97bda378e5e",
+  "object": "chat.completion",
+  "created": 1760383914,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação se limita a citar o cumprimento de dispositivos normativos específicos sobre estrutura física, dependências e equipamentos, sem propor ações que tratem diretamente das causas subjacentes à não conformidade, como falhas de gestão, planejamento ou alocação de recursos. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, não se aplica a análise.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1068,
+    "completion_tokens": 142,
+    "total_tokens": 1210,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 236
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ce48937e-2ae4-46e6-bb2c-1e3fb0a6f8b8",
+  "object": "chat.completion",
+  "created": 1760001934,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere ações de acompanhamento, fiscalização, supervisão e auditoria para garantir que os procedimentos oncológicos sejam autorizados previamente, conforme normativos. Isso visa corrigir a condição encontrada de autorizações emitidas após o início do tratamento. No entanto, a ação proposta é genérica, limitando-se a citar o cumprimento de normativos existentes sem especificar medidas concretas para abordar a causa subjacente, como falhas em processos internos ou capacitação. Consequentemente, não há indicação de efeitos duradouros, pois a recomendação não implementa mudanças sistêmicas que persistiriam independentemente de mudanças nos atores envolvidos.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1260,
+    "completion_tokens": 204,
+    "total_tokens": 1464,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1260
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

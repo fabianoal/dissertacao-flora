@@ -1,0 +1,28 @@
+{
+  "id": "7582c8c2-317b-4be5-9d20-3ef95ec46be1",
+  "object": "chat.completion",
+  "created": 1760399440,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações para documentar, planejar e registrar os recursos da Política Nacional de Saúde do Trabalhador nos instrumentos de gestão (Relatório Anual de Gestão, Planos de Saúde, Programações Anuais) e enviar relatórios aos Conselhos de Saúde, o que visa corrigir a falta de documentação e registro identificada na constatação. No entanto, essas ações tratam principalmente da condição atual de ausência de registros, sem abordar explicitamente as causas subjacentes que levaram a essa falha (como deficiências em processos, capacitação ou sistemas). Quanto aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, essa análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1334,
+    "completion_tokens": 211,
+    "total_tokens": 1545,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 502
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

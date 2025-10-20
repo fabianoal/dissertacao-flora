@@ -1,0 +1,28 @@
+{
+  "id": "972901fc-e69f-404c-95b7-c9cec2091103",
+  "object": "chat.completion",
+  "created": 1760457713,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda tanto a correção imediata (elaboração de relatórios com base em informações fidedignas) quanto medidas preventivas/corretivas para não cumprimento, o que sugere tratamento da causa subjacente. Para 'Efeitos Duradouros', a estruturação baseada em procedimentos e normas legais indica potencial durabilidade, mas a implementação prática pode depender da continuidade das unidades de acompanhamento.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1294,
+    "completion_tokens": 158,
+    "total_tokens": 1452,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 334
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

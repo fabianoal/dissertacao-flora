@@ -1,0 +1,28 @@
+{
+  "id": "91f86dc4-0cb3-42d8-b4ed-df3166c8017d",
+  "object": "chat.completion",
+  "created": 1760393214,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a priorização do uso da planilha SINAPI ou a justificativa formal de sua inviabilidade, o que visa estabelecer um procedimento padrão para futuras elaborações de orçamentos, tratando assim a causa do problema (a falta de priorização sistemática). Já em relação aos efeitos pretendidos pela recomendação, a implementação de um procedimento formal de priorização ou justificativa criaria uma mudança processual que permaneceria independente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1011,
+    "completion_tokens": 166,
+    "total_tokens": 1177,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 179
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

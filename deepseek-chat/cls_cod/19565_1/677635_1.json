@@ -1,0 +1,28 @@
+{
+  "id": "89c27487-c534-449c-87b1-a0e4cf07a898",
+  "object": "chat.completion",
+  "created": 1760001953,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere ações para resolver a condição encontrada (substituir/reparar EPIs danificados) e também propõe uma ação específica para tratar a causa que levou à indisponibilidade de EPIs (manter estoque de reserva). Esta última ação visa prevenir a reocorrência do problema, indo além do mero cumprimento normativo. Os efeitos da ação de manter estoque são duradouros, pois independem de mudanças nos atores envolvidos.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Específica\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1202,
+    "completion_tokens": 163,
+    "total_tokens": 1365,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 242
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

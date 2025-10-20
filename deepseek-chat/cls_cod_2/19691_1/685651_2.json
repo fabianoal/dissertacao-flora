@@ -1,0 +1,28 @@
+{
+  "id": "235a4162-dad9-405f-9cdc-bbb0c60dcfbd",
+  "object": "chat.completion",
+  "created": 1760470386,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a exigir o cumprimento de normas existentes sobre organização e disponibilização de documentação comprobatória, sem propor ações específicas para tratar a causa subjacente da falta de comprovação, como falhas nos processos internos de controle ou capacitação da equipe. Portanto, não há foco na causa do problema. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1154,
+    "completion_tokens": 149,
+    "total_tokens": 1303,
+    "prompt_tokens_details": {
+      "cached_tokens": 1152
+    },
+    "prompt_cache_hit_tokens": 1152,
+    "prompt_cache_miss_tokens": 2
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "903df3e7-a5c4-4db3-ab88-0ccf78810141",
+  "object": "chat.completion",
+  "created": 1760448782,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identifica corretamente que a recomendação se concentra na implementação imediata do plano de gerenciamento de resíduos para corrigir a condição encontrada, sem abordar causas subjacentes como falhas processuais ou de capacitação. Para o critério 'Efeitos Duradouros', como o 'Foco Causa' foi avaliado como 'Não', a resposta 'Não se aplica' está alinhada com a definição do critério.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1138,
+    "completion_tokens": 164,
+    "total_tokens": 1302,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 242
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

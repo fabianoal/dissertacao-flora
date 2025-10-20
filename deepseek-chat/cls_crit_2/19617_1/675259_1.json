@@ -1,0 +1,28 @@
+{
+  "id": "8d284b23-a9c9-4798-9d26-825ef5253fcb",
+  "object": "chat.completion",
+  "created": 1760457677,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise crítica avalia a classificação do modelo quanto aos critérios 'Foco Causa' e 'Efeitos Duradouros'. Para 'Foco Causa', a recomendação propõe acompanhamento e adoção de providências administrativas, mas não identifica ações que ataquem diretamente a causa raiz das impropriedades, como deficiências em capacitação ou supervisão. Para 'Efeitos Duradouros', como 'Foco Causa' foi classificado como 'Não', a resposta 'Não se aplica' está correta.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1194,
+    "completion_tokens": 170,
+    "total_tokens": 1364,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 298
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

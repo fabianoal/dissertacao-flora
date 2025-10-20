@@ -1,0 +1,28 @@
+{
+  "id": "e5e438af-9762-4973-a57b-619bbb4745ec",
+  "object": "chat.completion",
+  "created": 1760463421,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a implementação de controles de inspeção com registro documentado, o que aborda diretamente a causa raiz do problema identificado na constatação, que é a ausência de processos adequados para assegurar a integridade física e térmica dos imunobiológicos. Quanto ao critério 'Efeitos Duradouros', a institucionalização de controles documentados assegura que os benefícios persistam independentemente de mudanças na equipe, pois se tornam parte dos procedimentos operacionais padrão.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1247,
+    "completion_tokens": 179,
+    "total_tokens": 1426,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 351
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

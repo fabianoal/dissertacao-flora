@@ -1,0 +1,28 @@
+{
+  "id": "3b07bbb1-d330-4c57-8983-467c3e6d62e3",
+  "object": "chat.completion",
+  "created": 1760385870,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação possui duas partes distintas: a primeira trata da correção imediata da condição encontrada (ajustes no RAG), sendo portanto focada na condição; a segunda parte propõe a criação de procedimentos (checklist, POP) para assegurar que a prestação de contas seja feita corretamente no futuro, o que constitui uma ação voltada para a causa do problema. Já em relação aos efeitos duradouros, os procedimentos estabelecidos (checklist, POP) criam mecanismos formais que permanecerão independentemente de mudanças nos atores envolvidos, garantindo continuidade no processo correto de prestação de contas.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1055,
+    "completion_tokens": 190,
+    "total_tokens": 1245,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 223
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

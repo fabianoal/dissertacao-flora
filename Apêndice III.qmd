@@ -18,54 +18,58 @@ knitr:
       knitr.graphics.auto_pdf: true
 ---
 
-
 ```{r}
 #| label: setup
 #| include: false
 #| echo: false
 
-pacotes_necessarios <- c(
+source("./R/funcoes_setup.r")
+
+instala_pacotes(c(
         "tidyverse",
         "httr2",
-        "dotenv",
-        "rpart",
-        "logger")
+        "dotenv"))
 
-pacotes_instalados <- installed.packages()[, 1]
-
-pacotes_para_instalar <- setdiff(pacotes_necessarios, pacotes_instalados)
-
-if (length(pacotes_para_instalar) > 0){
-    install.packages(pacotes_para_instalar, quiet = TRUE, repos = "https://cloud.r-project.org")
-}
-
+source("./R/util.r")
 
 library(tidyverse)
-library(httr2)
 
-options(scipen = 999,
-    width = 70, 
-    digits = 2, 
-    colorDF_theme = "dark",
-    #crayon.enabled = TRUE,
-    colorDF_n = 10,
-    tibble.print_max = 300)
-
-dotenv::load_dot_env()
+options(width = 70)
 ```
 
-# Introdução
-
-O presente apêndice registra os passos tomados para a escolha de um conjunto de recomendações para exemplificar o processo de classificação.
 
 ```{r}
 #| label: cria_dataset_analise
-#| echo: true
+#| echo: false
 #| eval: true
 
 set.seed(42)
 
-dataset_final <- read_rds("./Dados Gerados/dataset_final.rds")
+prompt <- "cls_cod_2"
+ds_resultados <- read_rds(obtem_nome_arquivo_resultados(prompt))
+
+dataset_analise <- read_rds("./Dados Gerados/dataset_consolidado.rds") |>
+    select(
+        `No. Auditoria`, 
+        `Arquivo`, 
+        Finalidade, 
+        `# Constatação`, 
+        `Constatação`, 
+        `Item`,
+        `Grupo`,
+        `Subgrupo`,
+        `# Recomendação`, 
+        `Recomendação`) |>
+    adapta_dataframe(obtem_pasta(prompt), "") |>
+    inner_join(
+        ds_resultados |>
+        select(-finish_reason, -erro) |>
+        mutate(`Efeitos Duradouros` = str_to_sentence(`Efeitos Duradouros`)),
+        by = c("Arquivo Saída" = "arquivo")
+    ) |>
+    select(!c(`Arquivo Saída`)) 
+
+
 
 obtem_funcao_print <- function(df){
     obtem_campo <- function(indice, campo){
@@ -75,27 +79,52 @@ obtem_funcao_print <- function(df){
     function(i){
         cat(
             "## Auditoria ", obtem_campo(i, "No. Auditoria"), 
-            ", Constatação Nº ", obtem_campo(i, "# Constatação"), "\n\n",
-            "Finalidade: " , obtem_campo(i, "Finalidade"), "\n\n",
-            "Constatação: ", obtem_campo(i, "Constatação"), "\n\n",
-            "Recomendação: " , obtem_campo(i, "Recomendação"), "\n\n",
-            "Classificação: " , obtem_campo(i, "Classificação"), "\n\n",
-            "Justificativa: " , obtem_campo(i, "Justificativa Classificação"), "\n\n",
-            "Análise Classificação: " , obtem_campo(i, "Análise Classificação"), "\n\n",
-            "Opinião: " , obtem_campo(i, "Opinião"), "\n\n",
+            ", Constatação Nº ", obtem_campo(i, "# Constatação"), 
+            " (#", obtem_campo(i, "# Recomendação"), ")\n\n", 
+            "**Finalidade**: " , obtem_campo(i, "Finalidade"), "\n\n",
+            "**Constatação**: ", obtem_campo(i, "Constatação"), "\n\n",
+            "**Recomendação**: " , obtem_campo(i, "Recomendação"), "\n\n",
+            "**Análise Codificação**: " , obtem_campo(i, "Análise"), "\n\n",
+            "- Foco Causa: " , obtem_campo(i, "Foco Causa"), "\n",
+            "- Efeitos Duradouros: " , obtem_campo(i, "Efeitos Duradouros"), "\n\n",
             sep = ""
         )
     }
 }
 
+```
 
-exemplos <- dataset_final |>
-    group_by(`Classificação`, `Opinião`) |>
-    slice_sample(n = 5)
+# Prompt
+
+```{r}
+#| label: texto_prompt
+#| echo: false
+#| eval: true
+#| results: asis
+
+cat_system_prompt(prompt)
+```
+
+# Resultados
+
+```{r}
+#| label: codigos
+#| echo: false
+#| eval: true
+
+exemplos <- dataset_analise
+
+dataset_analise |>
+summarise(
+    Total = n(),
+    .by = c(`Foco Causa`, `Efeitos Duradouros`)
+) |>
+mutate(`%` = 100 * Total/sum(Total)) |>
+knitr::kable()
 ```
 
 
-# Exemplos Recomendações com Foco na Causa e Análise Convergente
+# Listagem
 
 ```{r}
 #| label: print_exemplos_causa_concordo
@@ -103,54 +132,23 @@ exemplos <- dataset_final |>
 #| eval: true
 #| results: asis
 
-print_fn <- exemplos |>
-            filter(`Classificação` == "cause-based" & `Opinião` == "concordo") |>
+# sn <- c("sim", "não")
+
+resultados_para_impressao <- dataset_analise |>
+    group_by(`Foco Causa`, `Efeitos Duradouros`) |>
+    slice_sample(n = 5) |>
+    ungroup() |>
+    arrange(
+        `Foco Causa`, 
+        `Efeitos Duradouros`, 
+        `No. Auditoria`, 
+        `# Constatação`, 
+        `# Recomendação`)
+
+
+print_fn <- resultados_para_impressao |>
             obtem_funcao_print()
 
-walk(1:5, print_fn)
+walk(1:nrow(resultados_para_impressao), print_fn)
 ```
 
-# Exemplos Recomendações com Foco na Causa e Análise Divergente
-
-```{r}
-#| label: print_exemplos_causa_discordo
-#| echo: false
-#| eval: true
-#| results: asis
-
-print_fn <- exemplos |>
-            filter(`Classificação` == "cause-based" & `Opinião` == "discordo") |>
-            obtem_funcao_print()
-
-walk(1:5, print_fn)
-```
-
-# Exemplos Recomendações com Foco na Condição e Análise Convergente
-
-```{r}
-#| label: print_exemplos_cond_conv
-#| echo: false
-#| eval: true
-#| results: asis
-
-print_fn <- exemplos |>
-            filter(`Classificação` == "condition-based" & `Opinião` == "concordo") |>
-            obtem_funcao_print()
-
-walk(1:5, print_fn)
-```
-
-# Exemplos Recomendações com Foco na Condição e Análise Convergente
-
-```{r}
-#| label: print_exemplos_cond_diverg
-#| echo: false
-#| eval: true
-#| results: asis
-
-print_fn <- exemplos |>
-            filter(`Classificação` == "condition-based" & `Opinião` == "discordo") |>
-            obtem_funcao_print()
-
-walk(1:5, print_fn)
-```

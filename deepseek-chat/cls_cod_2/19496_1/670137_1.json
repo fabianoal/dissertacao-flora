@@ -1,0 +1,28 @@
+{
+  "id": "37dd1e4c-af8b-4d02-8e32-6af9c67fae5a",
+  "object": "chat.completion",
+  "created": 1760386223,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a guarda organizada de documentos fiscais por um período específico, o que é uma ação direcionada a assegurar a comprovação futura das aquisições, mas não aborda explicitamente a causa subjacente do problema, como falhas nos processos de registro ou controle que levaram à ausência inicial de comprovação. Portanto, ela se concentra mais em corrigir a condição de falta de documentação do que em prevenir sua recorrência através de mudanças sistêmicas. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, essa avaliação não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1105,
+    "completion_tokens": 192,
+    "total_tokens": 1297,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 273
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

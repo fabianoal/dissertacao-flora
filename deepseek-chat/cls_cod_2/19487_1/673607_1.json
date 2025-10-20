@@ -1,0 +1,28 @@
+{
+  "id": "56ab62aa-5cf8-4ac4-b5c0-c9fe36000fd8",
+  "object": "chat.completion",
+  "created": 1760386102,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação se limita a citar uma diretriz genérica sobre boas práticas de registro sem propor ações específicas para tratar a causa da discrepância nos dados, como falhas nos processos de coleta, integração ou validação de dados entre os sistemas. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1021,
+    "completion_tokens": 133,
+    "total_tokens": 1154,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 189
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "419bc75a-83e0-458a-b4bd-33c108255521",
+  "object": "chat.completion",
+  "created": 1760450512,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise crítica considera a adequação da classificação da recomendação quanto aos critérios 'Foco Causa' e 'Efeitos Duradouros'. A recomendação trata da restituição de recursos aplicados irregularmente no mercado financeiro, sem abordar medidas preventivas para causas subjacentes, como falhas em controles internos ou processos de gestão. A classificação original está correta, pois a recomendação é condição-based, focando na correção imediata da irregularidade específica, sem propor ações para evitar sua recorrência.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1277,
+    "completion_tokens": 166,
+    "total_tokens": 1443,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 317
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

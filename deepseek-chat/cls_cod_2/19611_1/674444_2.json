@@ -1,0 +1,28 @@
+{
+  "id": "979170a7-089b-4b6c-b2b2-b0addd893e5b",
+  "object": "chat.completion",
+  "created": 1760389742,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a realização de conferência da documentação comprobatória/complementar para evitar a manutenção de informações incorretas no sistema, o que constitui uma ação voltada para a causa do problema (impropriedades nos relatórios), ao estabelecer um processo de verificação que previne a ocorrência futura. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um procedimento sistemático de conferência tende a produzir efeitos duradouros, pois independe de atores específicos, sendo incorporável como prática organizacional permanente.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 965,
+    "completion_tokens": 174,
+    "total_tokens": 1139,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 133
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c0b36211-8f80-48a6-b80f-91a9a86b73f9",
+  "object": "chat.completion",
+  "created": 1760392406,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe apenas a ação de arquivar o CFID no prontuário do paciente, o que corrige a condição imediata de falta de documentação adequada, mas não aborda a causa subjacente (como a ausência de um processo sistemático de conferência e validação antes do faturamento). Portanto, não há ação voltada para a causa do problema. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 972,
+    "completion_tokens": 165,
+    "total_tokens": 1137,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 76
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

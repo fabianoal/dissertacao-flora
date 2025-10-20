@@ -1,0 +1,28 @@
+{
+  "id": "fddd3156-ce6c-4a52-938b-65af12aab3b9",
+  "object": "chat.completion",
+  "created": 1760387530,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação se limita a citar o cumprimento de um item normativo específico sem propor ações que abordem a causa subjacente da não apresentação dos certificados, como falhas em processos de gestão documental ou capacitação. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 948,
+    "completion_tokens": 129,
+    "total_tokens": 1077,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 116
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

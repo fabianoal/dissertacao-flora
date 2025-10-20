@@ -1,0 +1,28 @@
+{
+  "id": "b9cef901-ba5d-44da-b2b8-71888f2d2dd6",
+  "object": "chat.completion",
+  "created": 1760467889,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise da codificação está correta ao identificar que a recomendação se concentra na correção da condição financeira irregular (devolução de recursos) sem abordar as causas subjacentes da falta de comprovação documental da cirurgia no prazo. No entanto, a justificativa poderia ser mais específica sobre por que a devolução de recursos não trata a causa, que está relacionada a falhas nos processos de documentação e controle de prazos, e não diretamente ao aspecto financeiro.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1303,
+    "completion_tokens": 158,
+    "total_tokens": 1461,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 343
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

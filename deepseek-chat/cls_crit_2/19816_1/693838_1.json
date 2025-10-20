@@ -1,0 +1,28 @@
+{
+  "id": "d78fd2a6-cc6c-4dca-9cb5-2252381ce7b7",
+  "object": "chat.completion",
+  "created": 1760465577,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe estabelecer ações nos processos de trabalho das UBS para efetivar a continuidade do cuidado, o que visa modificar a estrutura ou procedimentos para prevenir a repetição da condição de falta de continuidade, caracterizando um foco na causa. Já em relação ao critério 'Efeitos Duradouros', as ações propostas, como a incorporação de práticas coordenadas nos processos de trabalho, tendem a permanecer mesmo com mudanças nos atores envolvidos, pois se tornam parte da rotina organizacional.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1223,
+    "completion_tokens": 176,
+    "total_tokens": 1399,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 327
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

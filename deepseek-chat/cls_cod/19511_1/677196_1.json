@@ -1,0 +1,28 @@
+{
+  "id": "4f9dd1a0-e560-4a28-ae0f-387ea61a969d",
+  "object": "chat.completion",
+  "created": 1760037456,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere a adoção de medidas de adequação física das instalações para corrigir a condição de desacordo com as normas, caracterizando uma ação corretiva. No entanto, a recomendação se limita a referenciar o cumprimento de normativos específicos sem propor ações concretas adicionais para tratar a causa subjacente que permitiu a ocorrência da condição, sendo genérica em seu foco na causa. Como a ação com foco na causa é genérica, os efeitos duradouros não são avaliados como presentes.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1282,
+    "completion_tokens": 170,
+    "total_tokens": 1452,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 258
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

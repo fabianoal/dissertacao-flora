@@ -1,0 +1,28 @@
+{
+  "id": "1f45d8e0-fc92-43ca-8053-568f7b19abca",
+  "object": "chat.completion",
+  "created": 1760390358,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a elaboração de documentos de acompanhamento observando requisitos legais específicos (Lei nº 8.159/1991 e Lei nº 9.784/1999) e características de qualidade documental (confiáveis, autênticos, acessíveis, compreensíveis e completos), o que visa tratar a causa do problema - a falta de conformidade com padrões legais e de qualidade na produção documental - em vez de apenas corrigir os documentos específicos identificados como impróprios. Já em relação aos efeitos pretendidos pela recomendação, a implementação de processos padronizados e baseados em requisitos legais para a elaboração de documentos tende a produzir efeitos duradouros, pois estabelece um sistema documental que permanece funcional independentemente de mudanças nos atores envolvidos, criando uma estrutura permanente para a produção de documentos adequados.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1053,
+    "completion_tokens": 242,
+    "total_tokens": 1295,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 29
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

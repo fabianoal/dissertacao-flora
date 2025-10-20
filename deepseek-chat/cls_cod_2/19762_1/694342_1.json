@@ -1,0 +1,28 @@
+{
+  "id": "a1e9e583-ab8f-47ae-abe5-1031ef01c2f7",
+  "object": "chat.completion",
+  "created": 1760395888,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a elaboração de motivação clara e congruente, com parecer técnico, para substituições de insumos em futuras contratações, o que visa tratar a causa do problema (falta de motivação adequada) e não apenas corrigir a condição atual. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um processo formal de motivação com parecer técnico criaria um procedimento institucional que permaneceria válido mesmo com mudanças nos atores envolvidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1057,
+    "completion_tokens": 161,
+    "total_tokens": 1218,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 225
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

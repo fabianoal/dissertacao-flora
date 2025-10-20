@@ -1,0 +1,28 @@
+{
+  "id": "79b4dc71-a4e3-46bb-b9fa-361c8cbed6ac",
+  "object": "chat.completion",
+  "created": 1760395817,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"Em relação ao foco, a recomendação propõe a elaboração de um plano de manutenção periódica e a documentação das manutenções, o que visa estabelecer um processo contínuo para prevenir a falta de manutenção, tratando assim a causa subjacente do problema. Já em relação aos efeitos pretendidos pela recomendação, o plano de manutenção e a documentação criam um sistema estruturado que deve persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n   \"Foco Causa\": \"Sim\",\n   \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1021,
+    "completion_tokens": 150,
+    "total_tokens": 1171,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 189
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

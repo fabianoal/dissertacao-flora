@@ -1,0 +1,28 @@
+{
+  "id": "52363e4b-3011-4ae7-bd39-b3e57f8cf076",
+  "object": "chat.completion",
+  "created": 1760392998,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a orientação para conferência da documentação comprobatória em processos de contratação, o que visa prevenir a ocorrência de pagamentos sem cobertura contratual no futuro, tratando assim da causa do problema (falta de verificação adequada da documentação). Já em relação aos efeitos pretendidos pela recomendação, a ação de orientar fiscais e gestores para realizar conferência sistemática da documentação estabelece um procedimento que, se implementado, permanece válido independentemente de mudanças nos atores envolvidos, pois se trata de uma prática institucionalizada de verificação.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 955,
+    "completion_tokens": 177,
+    "total_tokens": 1132,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 123
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "682d3478-7212-4d69-82f3-08973f3c3053",
+  "object": "chat.completion",
+  "created": 1760395993,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe adequações físicas específicas (separação de ambientes, ajuste de torneira, substituição de caixas térmicas inadequadas e separação de áreas) que visam corrigir as condições encontradas de não conformidade com os requisitos normativos, mas não identifica ou trata explicitamente as causas subjacentes que levaram à existência dessas inadequações físicas (como falhas em processos de planejamento, aquisição, manutenção ou supervisão). Já em relação aos efeitos pretendidos, como o critério 'Foco Causa' foi avaliado como 'Não', não se aplica a análise de efeitos duradouros.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1170,
+    "completion_tokens": 197,
+    "total_tokens": 1367,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 338
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

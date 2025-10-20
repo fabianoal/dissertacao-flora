@@ -1,0 +1,28 @@
+{
+  "id": "a2821de4-63f6-445d-af6a-f0d7c5c6c29f",
+  "object": "chat.completion",
+  "created": 1760463389,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise crítica considera a precisão da classificação fornecida para os critérios 'Foco Causa' e 'Efeitos Duradouros', com base na descrição da recomendação e nos critérios definidos.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1172,
+    "completion_tokens": 92,
+    "total_tokens": 1264,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 212
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

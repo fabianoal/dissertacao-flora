@@ -1,0 +1,28 @@
+{
+  "id": "aa708e0e-15de-4fbd-9a37-770ab774c2f1",
+  "object": "chat.completion",
+  "created": 1760387526,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a propor a devolução dos recursos financeiros com acréscimos legais, conforme procedimento administrativo estabelecido. Esta ação visa corrigir a condição específica de não comprovação da utilização dos recursos, mas não propõe nenhuma medida para tratar a causa subjacente que levou à não comprovação, como falhas nos processos de gestão, controle ou prestação de contas. Portanto, não há ação focada na causa do problema. Como o critério 'Foco Causa' não é atendido, a avaliação de 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1023,
+    "completion_tokens": 180,
+    "total_tokens": 1203,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 127
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

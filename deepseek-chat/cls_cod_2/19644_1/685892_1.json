@@ -1,0 +1,28 @@
+{
+  "id": "68a73335-1808-4626-9dd5-01c64e30faf6",
+  "object": "chat.completion",
+  "created": 1760391942,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a implementação do prontuário eletrônico e a capacitação de profissionais para garantir registros completos e atualizados, o que aborda a causa subjacente da inconsistência entre os dados consolidados e os prontuários, ao invés de apenas corrigir dados existentes. Já em relação aos efeitos pretendidos pela recomendação, a implementação de sistemas e capacitações estruturadas tende a criar processos sustentáveis que podem persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1109,
+    "completion_tokens": 164,
+    "total_tokens": 1273,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 277
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

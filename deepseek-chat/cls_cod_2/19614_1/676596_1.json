@@ -1,0 +1,28 @@
+{
+  "id": "0b7ef9ff-2cfd-411b-b1ed-38f039385ee3",
+  "object": "chat.completion",
+  "created": 1760390294,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se concentra em notificar a convenente para apresentar justificativas sobre a discordância entre as propostas e as especificações do projeto, além de observar o cumprimento de requisitos formais e solicitar justificativas sobre a não observância da correta liquidação da despesa. Essas ações visam corrigir a condição atual de não conformidade com normas específicas, sem propor medidas para tratar a causa subjacente que levou à inobservância dos requisitos, como falhas em processos internos de revisão ou capacitação da equipe. Portanto, a recomendação é focada na condição, não na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1200,
+    "completion_tokens": 213,
+    "total_tokens": 1413,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 368
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

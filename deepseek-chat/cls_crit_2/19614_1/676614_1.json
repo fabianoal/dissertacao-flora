@@ -1,0 +1,28 @@
+{
+  "id": "a8095bf1-05cc-4bd2-9dc5-992fe5b30679",
+  "object": "chat.completion",
+  "created": 1760457193,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação aborda a causa das impropriedades nos relatórios, mas superestimou a durabilidade dos efeitos, pois as ações dependem fortemente da atuação contínua e da interpretação das unidades de acompanhamento, sem estabelecer mecanismos institucionais robustos que garantam a sustentabilidade independentemente de mudanças de pessoal.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1271,
+    "completion_tokens": 136,
+    "total_tokens": 1407,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 311
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "3b2a3a5f-1b59-4062-986f-d7ea43957c35",
+  "object": "chat.completion",
+  "created": 1760470392,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação 1 propõe ações de planejamento, organização, controle e avaliação das ações de saúde, o que pode abordar causas sistêmicas subjacentes à incompatibilidade de dados, como falhas de gestão, caracterizando foco na causa. A recomendação 2 sugere buscar meios para controle e avaliação da produção ambulatorial, reforçando o tratamento da causa ao melhorar processos de monitoramento. Em relação aos efeitos duradouros, as ações propostas, como fortalecer a gestão e os controles, tendem a criar estruturas e procedimentos que persistem independentemente de mudanças de pessoal, promovendo sustentabilidade.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1050,
+    "completion_tokens": 179,
+    "total_tokens": 1229,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 218
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

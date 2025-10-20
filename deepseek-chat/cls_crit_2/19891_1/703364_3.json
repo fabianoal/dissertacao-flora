@@ -1,0 +1,28 @@
+{
+  "id": "7031e826-db64-4f6a-8e53-994b9e2025f5",
+  "object": "chat.completion",
+  "created": 1760468453,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente os dois componentes da recomendação, mas a avaliação dos critérios requer uma análise mais detalhada sobre o que constitui efetivamente um tratamento da causa raiz e efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1457,
+    "completion_tokens": 99,
+    "total_tokens": 1556,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 497
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

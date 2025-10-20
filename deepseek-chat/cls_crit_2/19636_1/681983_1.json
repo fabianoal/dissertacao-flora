@@ -1,0 +1,28 @@
+{
+  "id": "e70c5a51-116d-440d-9527-407329af87f8",
+  "object": "chat.completion",
+  "created": 1760458577,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação apenas reforça a obrigação de apresentar documentos quando solicitado, sem abordar as causas subjacentes da não apresentação, como falhas em processos de controle documental ou capacitação. Quanto ao critério 'Efeitos Duradouros', como o 'Foco Causa' foi avaliado como 'Não', a resposta 'Não se aplica' está adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1259,
+    "completion_tokens": 150,
+    "total_tokens": 1409,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 363
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

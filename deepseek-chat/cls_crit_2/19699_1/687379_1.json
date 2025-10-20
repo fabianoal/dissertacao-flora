@@ -1,0 +1,28 @@
+{
+  "id": "5be63b2b-8d50-4c0a-a3e3-63c5cba49ec7",
+  "object": "chat.completion",
+  "created": 1760460045,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação apenas encaminha a constatação para conhecimento da SVSA/MS e cita genericamente atividades de prevenção e controle, sem propor ações específicas para tratar a causa da não disponibilização dos exames. Quanto ao critério 'Efeitos Duradouros', como o 'Foco Causa' é 'Não', a resposta 'Não se aplica' está adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1252,
+    "completion_tokens": 151,
+    "total_tokens": 1403,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 356
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

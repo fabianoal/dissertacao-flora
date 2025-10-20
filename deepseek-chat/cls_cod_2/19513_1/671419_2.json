@@ -1,0 +1,28 @@
+{
+  "id": "17725cfe-524a-451a-b09a-a62315171d35",
+  "object": "chat.completion",
+  "created": 1760370510,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação não propõe ações específicas para tratar a causa do problema (alimentação parcial dos atendimentos no sistema), limitando-se a solicitar conhecimento da constatação e adoção de procedimentos genéricos de controle, monitoramento e avaliação. Não há menção a ações que ataquem diretamente as razões que levaram ao registro incompleto, como falhas de processo, capacitação ou recursos. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1058,
+    "completion_tokens": 162,
+    "total_tokens": 1220,
+    "prompt_tokens_details": {
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 866
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

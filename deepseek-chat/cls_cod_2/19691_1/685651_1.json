@@ -1,0 +1,28 @@
+{
+  "id": "57ac45bf-023b-421f-ac27-74676db2afc9",
+  "object": "chat.completion",
+  "created": 1760393254,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe apenas a restituição do valor recebido irregularmente, sem abordar ações para prevenir a ocorrência futura de inserções irregulares de procedimentos nos sistemas do SUS, como melhorias nos processos de controle, capacitação de pessoal ou implementação de verificações sistemáticas. Portanto, trata-se de uma medida corretiva da condição atual (recebimento indevido), não focada na causa raiz do problema. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, essa análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1137,
+    "completion_tokens": 179,
+    "total_tokens": 1316,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 305
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

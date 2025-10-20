@@ -1,0 +1,28 @@
+{
+  "id": "22a5feb8-ffcf-432a-86f0-f397f344f503",
+  "object": "chat.completion",
+  "created": 1760392982,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação solicita apenas a apresentação de justificativas sobre a contratação evidenciada e a não realização de cotação de preços, sem propor ações para tratar a causa do problema (como implementar procedimentos de licitação ou capacitação para evitar repetição). Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 973,
+    "completion_tokens": 139,
+    "total_tokens": 1112,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 77
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

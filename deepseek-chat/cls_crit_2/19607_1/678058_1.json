@@ -1,0 +1,28 @@
+{
+  "id": "3b8c722e-8b03-4e49-aba9-1824b62c74fe",
+  "object": "chat.completion",
+  "created": 1760456001,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identificou que a recomendação 2 aborda a causa raiz da gestão inadequada de documentos, o que é correto, pois estabelece procedimentos permanentes para prevenir a perda de documentos. No entanto, a análise do critério 'Efeitos Duradouros' é questionável, pois a recomendação 2, apesar de criar um sistema estruturado, depende da adesão contínua dos atores envolvidos e pode não ser totalmente imune a mudanças de pessoal sem supervisão ou auditoria regular.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1360,
+    "completion_tokens": 177,
+    "total_tokens": 1537,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 464
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

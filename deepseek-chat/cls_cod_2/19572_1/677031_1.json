@@ -1,0 +1,28 @@
+{
+  "id": "84035a95-418f-4b7b-8d79-aed44a90f885",
+  "object": "chat.completion",
+  "created": 1760388334,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe que a entidade mantenha disponíveis os laudos e relatórios exigidos pela RDC/ANVISA n.º 11/2014, o que representa uma ação direta para corrigir a condição específica de falta de comprovação dos procedimentos de manutenção do STDAH. Não há menção a ações que abordem as causas subjacentes que levaram à não realização ou não comprovação desses procedimentos, como falhas em processos, treinamento ou monitoramento. Portanto, a recomendação é focada na condição. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, essa análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1007,
+    "completion_tokens": 210,
+    "total_tokens": 1217,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 175
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

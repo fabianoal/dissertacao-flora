@@ -1,0 +1,28 @@
+{
+  "id": "5ac16922-26ac-483f-a6c0-5a8cf1a0be2e",
+  "object": "chat.completion",
+  "created": 1760395952,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a elaboração e implementação de POPs para o monitoramento das câmaras frias e o treinamento da equipe, ações que visam estabelecer uma rotina estruturada e permanente para verificação do funcionamento das câmaras, tratando assim a causa da ausência de rotina estabelecida. Já em relação aos efeitos pretendidos pela recomendação, a criação de POPs e a capacitação da equipe estabelecem processos e conhecimentos que permanecem independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1120,
+    "completion_tokens": 172,
+    "total_tokens": 1292,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 288
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

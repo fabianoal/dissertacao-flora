@@ -1,0 +1,28 @@
+{
+  "id": "40cb67fc-4834-47c3-bccf-6eee41ce1263",
+  "object": "chat.completion",
+  "created": 1760384562,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a apuração de responsabilidades pela inexecução parcial do contrato, o que pode identificar falhas processuais ou de gestão que levaram ao problema. No entanto, essa ação está focada em responsabilizar indivíduos ou processos passados, sem propor medidas para prevenir que situações similares ocorram no futuro, como a implementação de mecanismos de fiscalização contínua ou revisão de procedimentos contratuais. Portanto, não trata diretamente da causa raiz que permitiu a inexecução. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, essa análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1100,
+    "completion_tokens": 187,
+    "total_tokens": 1287,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 204
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

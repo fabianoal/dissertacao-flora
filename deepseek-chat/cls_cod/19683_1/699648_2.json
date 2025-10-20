@@ -1,0 +1,28 @@
+{
+  "id": "a7e4237f-0444-4103-b564-4f83f8c387fd",
+  "object": "chat.completion",
+  "created": 1760002033,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere uma ação corretiva ao orientar a conferência da documentação comprobatória para evitar danos ao erário, o que visa resolver a condição encontrada de contratação irregular. No entanto, a ação proposta para tratar a causa é genérica, pois se limita a recomendar o cumprimento de normativos existentes (art. 12 da Portaria de Consolidação Sesai/MS nº 1/2020 e outros), sem especificar medidas concretas além da mera observância legal. Como a ação de foco na causa é genérica, os efeitos duradouros não se aplicam de forma específica.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1202,
+    "completion_tokens": 193,
+    "total_tokens": 1395,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 242
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

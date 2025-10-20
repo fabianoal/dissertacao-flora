@@ -1,0 +1,28 @@
+{
+  "id": "ddc64d26-ec37-4c1b-a2ca-e70f9ec7b28f",
+  "object": "chat.completion",
+  "created": 1760451864,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identifica corretamente que a recomendação se limita a encaminhar a constatação para conhecimento e adoção de procedimentos legais para devolução de recursos, sem propor ações que tratem da causa subjacente do problema, como a ausência de controles internos ou falta de documentação comprobatória. Quanto ao critério 'Efeitos Duradouros', como o 'Foco Causa' não é atendido, a resposta 'Não se aplica' está adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1361,
+    "completion_tokens": 169,
+    "total_tokens": 1530,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 337
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

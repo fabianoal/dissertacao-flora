@@ -1,0 +1,28 @@
+{
+  "id": "379abc9b-62a2-49fd-889a-a72b28ed0ab6",
+  "object": "chat.completion",
+  "created": 1759367890,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação se limita a corrigir a condição específica identificada (pagamento indevido de tarifa bancária), determinando a devolução do valor ao Fundo Nacional de Saúde. Não identifica as causas institucionais que permitiram o pagamento irregular, como falhas nos controles internos, ausência de procedimentos de verificação ou deficiências no treinamento. A solução proposta é pontual e temporária, focada apenas na correção do erro concreto, sem promover mudanças estruturais que previnam a recorrência do problema.\",\n    \"categoria\": \"foco-condicao\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1435,
+    "completion_tokens": 148,
+    "total_tokens": 1583,
+    "prompt_tokens_details": {
+      "cached_tokens": 1216
+    },
+    "prompt_cache_hit_tokens": 1216,
+    "prompt_cache_miss_tokens": 219
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

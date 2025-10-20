@@ -1,0 +1,28 @@
+{
+  "id": "419c77e4-1a24-4296-b9b4-f9a9a7ce1c08",
+  "object": "chat.completion",
+  "created": 1760396800,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"Em relação ao foco, a recomendação propõe a contratação de uma empresa para realizar calibração térmica e qualificação térmica, o que visa corrigir diretamente a condição encontrada de falta dessas atividades, sem abordar explicitamente as causas subjacentes, como a ausência de procedimentos ou políticas internas que garantam a realização regular dessas ações. Portanto, a recomendação é focada na condição imediata. Já em relação aos efeitos pretendidos pela recomendação, como o critério 'Foco Causa' foi avaliado como 'Não', não se aplica a análise de efeitos duradouros.\",\n   \"Foco Causa\": \"Não\",\n   \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 964,
+    "completion_tokens": 180,
+    "total_tokens": 1144,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 132
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

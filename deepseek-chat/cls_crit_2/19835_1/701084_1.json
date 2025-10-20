@@ -1,0 +1,28 @@
+{
+  "id": "5c21b5bf-124c-4945-b5f0-39d934291982",
+  "object": "chat.completion",
+  "created": 1760466438,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação propõe ações que tratam da causa subjacente da constatação. Quanto ao critério 'Efeitos Duradouros', a análise também é adequada, pois as ações sugeridas visam estabelecer processos institucionais contínuos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1399,
+    "completion_tokens": 124,
+    "total_tokens": 1523,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 503
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "484b23f1-91c8-4a58-a59e-22d1e2226df5",
+  "object": "chat.completion",
+  "created": 1760467437,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação se limita a verificar a adequação dos protocolos, sem propor ações para tratar a causa subjacente da falta de comprovação. Quanto ao critério 'Efeitos Duradouros', a resposta 'Não se aplica' é adequada, pois depende de 'Foco Causa' ser 'Sim'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1307,
+    "completion_tokens": 141,
+    "total_tokens": 1448,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 411
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

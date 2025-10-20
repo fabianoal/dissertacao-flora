@@ -1,0 +1,28 @@
+{
+  "id": "3b1cdfc8-24ac-443a-87b7-0b7dbb5b1da2",
+  "object": "chat.completion",
+  "created": 1760038540,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere a implementação de indicadores específicos para monitorar retornos de pacientes, o que constitui uma ação para resolver a condição de falta de monitoramento identificada. Além disso, propõe o aprimoramento do monitoramento existente para permitir análise precisa da eficácia do atendimento e tomada de medidas corretivas, indicando uma ação com foco na causa ao buscar entender e tratar as razões subjacentes aos retornos, não se limitando ao mero cumprimento normativo. Os efeitos pretendidos, como a análise precisa e medidas corretivas, dependem de ações contínuas e podem não ser mantidos automaticamente com mudanças de atores, pois requerem implementação e manutenção ativa.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Específica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1244,
+    "completion_tokens": 216,
+    "total_tokens": 1460,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 220
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

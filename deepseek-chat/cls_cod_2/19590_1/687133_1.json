@@ -1,0 +1,28 @@
+{
+  "id": "636d4633-8608-43f4-a008-d1bb715f03cd",
+  "object": "chat.completion",
+  "created": 1760388486,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação não foi fornecida diretamente, sendo apenas referenciada a partir de outra constatação. Portanto, não é possível avaliar se há ações propostas para tratar a causa do problema ou se os efeitos pretendidos são duradouros.\",\n  \"Foco Causa\": \"Não se aplica\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 953,
+    "completion_tokens": 94,
+    "total_tokens": 1047,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "52298f26-c7d9-4f30-a619-6c6a2c6f6fa3",
+  "object": "chat.completion",
+  "created": 1760384126,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação orienta o cumprimento de diretrizes específicas para o recebimento e registro de materiais, focando na correção da condição imediata de entrada não realizada no almoxarifado. Não propõe ações para tratar as causas subjacentes, como falhas de processo, treinamento ou supervisão que levaram ao não cumprimento inicial. Portanto, não atende ao critério de foco na causa. Quanto aos efeitos duradouros, como o foco na causa não é atendido, não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1035,
+    "completion_tokens": 160,
+    "total_tokens": 1195,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 203
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

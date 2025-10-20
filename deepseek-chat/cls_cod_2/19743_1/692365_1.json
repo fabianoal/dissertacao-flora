@@ -1,0 +1,28 @@
+{
+  "id": "04ca5259-9900-491a-b43b-488f58392fc2",
+  "object": "chat.completion",
+  "created": 1760395076,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a construção, reforma ou ampliação da estrutura física da Central Municipal da Rede de Frio para atender aos requisitos mínimos do PNI, o que trata diretamente a causa do problema (estrutura física inadequada), em vez de apenas corrigir temporariamente a condição atual. Já em relação aos efeitos pretendidos pela recomendação, a infraestrutura física adequada permanecerá funcional independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1050,
+    "completion_tokens": 155,
+    "total_tokens": 1205,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 218
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

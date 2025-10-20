@@ -1,0 +1,28 @@
+{
+  "id": "b6c5b0af-bc37-4663-865b-5441e7573e3b",
+  "object": "chat.completion",
+  "created": 1760392190,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações de alimentação, análise e verificação da qualidade e consistência dos dados nos sistemas nacionais de informação, o que visa estabelecer processos sistemáticos para garantir o adequado preenchimento dos prontuários, tratando assim a causa do problema (falta de processos estruturados de gestão de dados) e não apenas corrigindo a condição específica encontrada. Já em relação aos efeitos pretendidos pela recomendação, a implementação de processos estruturados de gestão de dados permanece independentemente de mudanças nos atores envolvidos, pois se baseia em diretrizes normativas e procedimentos estabelecidos, gerando efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1024,
+    "completion_tokens": 191,
+    "total_tokens": 1215,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 256
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

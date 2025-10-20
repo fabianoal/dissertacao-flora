@@ -1,0 +1,28 @@
+{
+  "id": "eaf9ddb4-5e8e-487b-9f66-4c2625586acb",
+  "object": "chat.completion",
+  "created": 1760386414,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação enfatiza o cumprimento de normas existentes para manter e apresentar notas fiscais, focando na correção da condição específica de falta de documentação, sem propor ações que abordem as causas subjacentes, como falhas nos processos de aquisição ou controle interno. Portanto, não trata da causa do problema. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1119,
+    "completion_tokens": 144,
+    "total_tokens": 1263,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 223
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

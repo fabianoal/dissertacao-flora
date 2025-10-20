@@ -1,0 +1,28 @@
+{
+  "id": "27db5ac4-580a-4832-9baa-a1b9e18cd7c4",
+  "object": "chat.completion",
+  "created": 1759367878,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação propõe melhorar o acesso e a qualidade das ações de saúde para gestantes e atender a recomendações específicas de documentos orientadores, mas não identifica explicitamente as causas institucionais que levaram à não adoção das ações (ex.: falta de capacitação da equipe, deficiências na estrutura de saúde, ausência de monitoramento). As medidas sugeridas focam em corrigir a condição observada (baixa cobertura de consultas pré-natal) por meio da implementação de orientações existentes, sem evidenciar transformações duradouras na estrutura ou processos. Portanto, não atende integralmente aos critérios de identificar a causa, situá-la no nível institucional e garantir perenidade das mudanças.\",\n    \"categoria\": \"foco-condicao\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1464,
+    "completion_tokens": 189,
+    "total_tokens": 1653,
+    "prompt_tokens_details": {
+      "cached_tokens": 1280
+    },
+    "prompt_cache_hit_tokens": 1280,
+    "prompt_cache_miss_tokens": 184
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

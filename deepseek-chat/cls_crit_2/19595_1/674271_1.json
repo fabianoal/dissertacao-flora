@@ -1,0 +1,28 @@
+{
+  "id": "4fb255ce-9ab7-46f3-aa2c-630fc32183a5",
+  "object": "chat.completion",
+  "created": 1760455589,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identificou corretamente que a recomendação não aborda explicitamente as causas subjacentes da discrepância de dados, focando na correção da condição atual através do cumprimento de prazos e normativos. Quanto ao critério 'Efeitos Duradouros', como o 'Foco Causa' foi classificado como 'Não', a resposta 'Não se aplica' está adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1247,
+    "completion_tokens": 149,
+    "total_tokens": 1396,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 351
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

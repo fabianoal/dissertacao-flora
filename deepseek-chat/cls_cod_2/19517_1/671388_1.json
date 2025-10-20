@@ -1,0 +1,28 @@
+{
+  "id": "1418fa11-a31d-4f21-9df8-049cbf1eac57",
+  "object": "chat.completion",
+  "created": 1760386694,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação é extensa e aborda múltiplas ações. Em relação ao foco, a recomendação inclui ações que visam corrigir a condição imediata (como restabelecer a conexão ao sistema e dispensar medicamentos conforme as regras) e ações que tratam de causas subjacentes, como a implementação de procedimentos de arquivamento e controle documental para prevenir a reincidência de irregularidades. Portanto, há ações propostas que tratam da causa do problema. Já em relação aos efeitos duradouros, as ações de arquivamento e controle documental estabelecem procedimentos estruturados que independem de atores específicos, promovendo efeitos que podem persistir mesmo com mudanças de pessoal.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1208,
+    "completion_tokens": 201,
+    "total_tokens": 1409,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 376
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

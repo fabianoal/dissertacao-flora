@@ -1,0 +1,28 @@
+{
+  "id": "92a459cc-53b7-4b15-a514-e504bc8ee109",
+  "object": "chat.completion",
+  "created": 1760394108,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação se limita a citar a observância de um protocolo existente, sem propor ações específicas para implementar o controle de estoque ou abordar as causas subjacentes da ausência de controle, como falhas de treinamento ou processos. Portanto, não há ação proposta que trate da causa do problema. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 988,
+    "completion_tokens": 138,
+    "total_tokens": 1126,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 156
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

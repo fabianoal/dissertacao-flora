@@ -1,0 +1,28 @@
+{
+  "id": "19282d3a-39a5-4642-90b6-6a9fb6778eb6",
+  "object": "chat.completion",
+  "created": 1760468033,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação se concentra na correção da condição financeira irregular (devolução de recursos) sem abordar ações para prevenir a causa raiz do problema de codificação inadequada. Quanto ao critério 'Efeitos Duradouros', como o 'Foco Causa' foi corretamente classificado como 'Não', a resposta 'Não se aplica' está adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1402,
+    "completion_tokens": 151,
+    "total_tokens": 1553,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 506
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "09265e74-7a87-4bb0-94df-917cf7ee524f",
+  "object": "chat.completion",
+  "created": 1760459453,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a adoção de ações de saúde pública para melhorar a cobertura vacinal, o que pode ser interpretado como um tratamento da causa subjacente (falta de implementação das ações recomendadas) que levou à baixa cobertura. No entanto, a recomendação é genérica ao referir-se à adoção de ações sem especificá-las, o que pode limitar a clareza sobre se aborda diretamente a causa raiz. Para o critério 'Efeitos Duradouros', a suposição de que as ações criariam processos duradouros é plausível, mas depende da natureza das ações específicas não detalhadas na recomendação.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1279,
+    "completion_tokens": 208,
+    "total_tokens": 1487,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 383
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

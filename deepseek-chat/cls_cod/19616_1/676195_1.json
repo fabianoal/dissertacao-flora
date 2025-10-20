@@ -1,0 +1,28 @@
+{
+  "id": "4f4b7806-e896-4890-9247-145512192bf8",
+  "object": "chat.completion",
+  "created": 1760038556,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação solicita que a convenente apresente justificativas e documentação comprobatória para a irregularidade constatada, com base em dispositivos legais específicos. Esta ação visa corrigir a condição encontrada (irregularidade na contratação) ao exigir a regularização documental. No entanto, não propõe medidas adicionais para tratar a causa subjacente que permitiu a ocorrência da irregularidade, limitando-se ao cumprimento de normativos existentes sem sugerir ações concretas para prevenir recorrências.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1216,
+    "completion_tokens": 170,
+    "total_tokens": 1386,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 192
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

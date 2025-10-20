@@ -1,0 +1,28 @@
+{
+  "id": "ce881579-1d94-4737-b784-3faad04c217d",
+  "object": "chat.completion",
+  "created": 1760464077,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a implementação e documentação de uma rotina de distribuição, o que efetivamente trata a causa raiz do problema (ausência de procedimento formal), conforme identificado na constatação. Quanto ao critério 'Efeitos Duradouros', a rotina documentada se torna parte dos controles internos institucionais, assegurando continuidade independentemente de mudanças de pessoal.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1175,
+    "completion_tokens": 151,
+    "total_tokens": 1326,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 279
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d7f0898d-46ca-4991-9a66-68dc0fc3f922",
+  "object": "chat.completion",
+  "created": 1760463469,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a inclusão de informações detalhadas nos instrumentos de gestão, o que visa abordar a causa subjacente da falta de informações suficientes sobre o PNI, melhorando a documentação e o planejamento para prevenir futuras ocorrências. Quanto ao critério 'Efeitos Duradouros', a ação sugerida estabelece procedimentos documentados que devem permanecer em vigor independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1229,
+    "completion_tokens": 168,
+    "total_tokens": 1397,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 333
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

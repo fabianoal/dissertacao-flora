@@ -1,0 +1,28 @@
+{
+  "id": "ddea3f52-61c9-45ab-b842-f24b8cee97dd",
+  "object": "chat.completion",
+  "created": 1760037376,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere a devolução de valores identificados como pagamento indevido, o que configura uma ação corretiva para resolver a condição encontrada de inconsistências nos procedimentos cobrados. No entanto, a recomendação não propõe ações específicas para tratar a causa que permitiu a ocorrência das inconsistências, limitando-se a citar o cumprimento de normativos gerais (Portaria GM/MS nº 885/2021 e Decreto nº 3.964/2001) sem detalhar medidas concretas para prevenir recorrências.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1275,
+    "completion_tokens": 171,
+    "total_tokens": 1446,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 251
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

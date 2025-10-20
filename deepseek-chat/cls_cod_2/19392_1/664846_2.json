@@ -1,0 +1,28 @@
+{
+  "id": "6271ee55-95ef-43d3-91f1-5705a02588e5",
+  "object": "chat.completion",
+  "created": 1760385062,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a devolução dos recursos pagos indevidamente, o que constitui uma medida para corrigir a condição específica do pagamento em excesso, sem abordar as causas que levaram a esse pagamento, como falhas nos processos de controle ou na verificação de valores da tabela SIGTAP. Portanto, não há ação focada na causa do problema. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1033,
+    "completion_tokens": 154,
+    "total_tokens": 1187,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 201
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

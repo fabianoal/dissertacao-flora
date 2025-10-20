@@ -1,0 +1,28 @@
+{
+  "id": "a6ea25ff-c6af-43d0-89eb-2222a9982b19",
+  "object": "chat.completion",
+  "created": 1760398304,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe o acompanhamento dos pacientes que realizam troca de receitas em Saúde Mental, o que se alinha com diretrizes normativas para garantir acesso e qualidade no cuidado. No entanto, essa ação é focada na correção da condição imediata de falta de acompanhamento, sem abordar as causas subjacentes, como a ausência de protocolos ou capacitação da equipe. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1064,
+    "completion_tokens": 166,
+    "total_tokens": 1230,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 232
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

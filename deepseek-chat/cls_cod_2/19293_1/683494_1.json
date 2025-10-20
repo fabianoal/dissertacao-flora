@@ -1,0 +1,28 @@
+{
+  "id": "dccf2977-8655-4b7f-ad8f-b563f55c1be1",
+  "object": "chat.completion",
+  "created": 1760384446,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a revisão da política remuneratória e do rol de profissões, ações que visam tratar a causa estrutural do problema (política inadequada) e não apenas corrigir a condição atual de remuneração insuficiente. Já em relação aos efeitos pretendidos pela recomendação, a implementação de uma política remuneratória revisada e de um rol de profissões atualizado tende a produzir efeitos duradouros, pois essas mudanças institucionais permanecerão válidas mesmo com eventual mudança dos atores envolvidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1046,
+    "completion_tokens": 165,
+    "total_tokens": 1211,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 278
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

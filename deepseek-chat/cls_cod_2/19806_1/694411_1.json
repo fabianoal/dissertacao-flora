@@ -1,0 +1,28 @@
+{
+  "id": "520c538b-8b59-424a-964a-96611fc0f5a1",
+  "object": "chat.completion",
+  "created": 1760397544,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a implantação de mecanismos de acompanhamento, o que visa tratar a causa subjacente da falta de procedimentos, ao estabelecer um sistema ou processo contínuo para monitorar pacientes, em vez de apenas corrigir casos individuais. Isso indica um foco na causa. Já em relação aos efeitos pretendidos pela recomendação, os mecanismos implantados, como procedimentos ou sistemas, provavelmente permanecerão funcionando independentemente de mudanças nos profissionais de saúde, sugerindo efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1007,
+    "completion_tokens": 155,
+    "total_tokens": 1162,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 175
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

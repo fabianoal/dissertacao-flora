@@ -1,0 +1,28 @@
+{
+  "id": "93f8bfe2-da8f-427e-a3b8-08b374464867",
+  "object": "chat.completion",
+  "created": 1760391826,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a formalização da regulação de pacientes admitidos por demanda espontânea e transferências, além do preenchimento adequado dos formulários de internação para incluir o número de identificação da regulação. Essas ações visam estabelecer processos estruturados e documentação adequada, tratando a causa do problema (falta de formalização e controle) e não apenas corrigindo casos específicos. Já em relação aos efeitos pretendidos pela recomendação, a formalização de processos e a exigência de documentação adequada criam estruturas e procedimentos que permanecem independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1069,
+    "completion_tokens": 192,
+    "total_tokens": 1261,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 237
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

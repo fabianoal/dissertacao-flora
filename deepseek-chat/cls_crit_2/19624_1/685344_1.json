@@ -1,0 +1,28 @@
+{
+  "id": "6441a6cd-7244-4880-8ce2-a32d81c400b1",
+  "object": "chat.completion",
+  "created": 1760448402,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identifica corretamente que as recomendações são predominantemente corretivas e reativas, focando na inserção de documentos faltantes e no ressarcimento de pagamentos duplicados, sem abordar explicitamente as causas subjacentes, como falhas nos processos de controle interno, capacitação da equipe ou sistemas de verificação. Quanto ao critério 'Efeitos Duradouros', a conclusão de 'Não se aplica' é adequada, dado que o critério 'Foco Causa' não foi atendido.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1397,
+    "completion_tokens": 177,
+    "total_tokens": 1574,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 565
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

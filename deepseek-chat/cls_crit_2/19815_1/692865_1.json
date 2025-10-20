@@ -1,0 +1,28 @@
+{
+  "id": "2b7b0852-3bbb-425c-9bce-cd6716639c75",
+  "object": "chat.completion",
+  "created": 1760465545,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação propõe a instituição de procedimentos formais para assegurar o controle das condições dos imunobiológicos recebidos, o que aborda diretamente a causa raiz do problema (ausência de procedimentos adequados). Quanto ao critério 'Efeitos Duradouros', também concordo, pois a implementação de procedimentos documentados e baseados em normas estabelecidas cria um sistema que pode persistir independentemente de mudanças na equipe.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1385,
+    "completion_tokens": 169,
+    "total_tokens": 1554,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 489
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

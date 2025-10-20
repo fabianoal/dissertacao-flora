@@ -1,0 +1,28 @@
+{
+  "id": "d5309d7b-49fa-4c3d-8879-8c043c21ccd6",
+  "object": "chat.completion",
+  "created": 1760385950,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam das causas do problema, como capacitar e orientar fiscais para melhor acompanhamento de contratos e cobertura de sinistros, além de instaurar mecanismos de controle interno periódicos, que visam prevenir a reincidência da condição encontrada. Já em relação aos efeitos pretendidos pela recomendação, os mecanismos de controle interno e a capacitação institucionalizada tendem a produzir efeitos duradouros, mantendo-se mesmo com eventual mudança dos atores envolvidos, pois se baseiam em processos e estruturas organizacionais.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1044,
+    "completion_tokens": 173,
+    "total_tokens": 1217,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 212
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

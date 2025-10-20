@@ -1,0 +1,28 @@
+{
+  "id": "947dd64f-95f0-4967-a1ad-30ff0536a94e",
+  "object": "chat.completion",
+  "created": 1760470386,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a atualização dos dados cadastrais dos profissionais no CNES, conforme normas específicas da Portaria de Consolidação GM/MS/01. Esta ação visa corrigir diretamente a condição encontrada de cadastro desatualizado, sem indicar medidas para prevenir a reincidência do problema, como a implementação de processos sistemáticos de revisão ou políticas de atualização periódica. Portanto, trata-se de uma solução focada na condição atual. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, não se aplica a análise.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 964,
+    "completion_tokens": 177,
+    "total_tokens": 1141,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 132
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "4d5d7b8e-dc10-4788-8b5c-6ee3ba7897a7",
+  "object": "chat.completion",
+  "created": 1760037204,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere uma ação corretiva para resolver a condição encontrada de serviços funcionarem com licenças sanitárias parciais ou não válidas, ao exigir que passem a funcionar com licenças vigentes e válidas. No entanto, a ação proposta para tratar a causa é genérica, limitando-se a citar o cumprimento de um normativo (RDC/ANVISA n.º 11/2014) sem especificar medidas concretas para prevenir a reincidência, como implementação de sistemas de monitoramento ou capacitação de pessoal. Como a ação de foco na causa é genérica, os efeitos duradouros não são avaliados como positivos.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1184,
+    "completion_tokens": 204,
+    "total_tokens": 1388,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 160
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

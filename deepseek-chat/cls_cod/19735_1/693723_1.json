@@ -1,0 +1,28 @@
+{
+  "id": "027f9b9b-09c6-4949-abe8-50fa785e98b1",
+  "object": "chat.completion",
+  "created": 1760037912,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere ações para corrigir a condição encontrada, como estabelecer o contato direto entre o médico da UPA e os médicos de sobreaviso, garantindo o registro formal do tempo de chegada e acionamento. Além disso, propõe ações para tratar a causa, como monitorar e implementar o fluxo, treinar equipes médicas e assegurar que os registros sejam cumpridos conforme o contrato, visando evitar a reocorrência da condição. No entanto, a ação com foco na causa é genérica, pois se limita a cumprir o normativo contratual sem especificar medidas concretas além disso. Como a ação foco causa é genérica, os efeitos duradouros não se aplicam de forma positiva.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1386,
+    "completion_tokens": 221,
+    "total_tokens": 1607,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 362
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

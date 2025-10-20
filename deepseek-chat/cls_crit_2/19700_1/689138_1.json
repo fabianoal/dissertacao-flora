@@ -1,0 +1,28 @@
+{
+  "id": "dc474bc4-4a99-4604-9c53-0b218881c318",
+  "object": "chat.completion",
+  "created": 1760460101,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a instituição de uma rotina para registro dos testes, o que efetivamente aborda a causa subjacente do problema (falta de um processo sistemático de registro), e não apenas corrige os registros ausentes no período auditado. Quanto ao critério 'Efeitos Duradouros', a implementação de uma rotina formal estabelece um procedimento estruturado que deve persistir independentemente de mudanças na equipe, assegurando que os benefícios sejam mantidos ao longo do tempo.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1293,
+    "completion_tokens": 174,
+    "total_tokens": 1467,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 397
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "27bb8e56-94e2-4135-bbf3-7e43f59aa4b3",
+  "object": "chat.completion",
+  "created": 1760388974,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a atualização sistemática e obrigatória dos cadastros no CNES, o que visa tratar a causa do problema (divergência de dados) ao estabelecer um processo contínuo de manutenção dos registros, em vez de apenas corrigir as divergências pontuais. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um processo sistemático de atualização cria uma estrutura que permanece independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1105,
+    "completion_tokens": 158,
+    "total_tokens": 1263,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 273
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

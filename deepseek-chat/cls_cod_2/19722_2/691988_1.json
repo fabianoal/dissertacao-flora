@@ -1,0 +1,28 @@
+{
+  "id": "a1db845a-bd0b-4174-9951-abbbfa386438",
+  "object": "chat.completion",
+  "created": 1760394656,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a atualização dos dados cadastrais no CNES para corrigir a desatualização identificada, focando na condição atual (dados desatualizados) e não na causa subjacente que levou à desatualização. Não há menção a ações que previnam futuras desatualizações, como implementação de processos de revisão periódica ou responsabilização. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 988,
+    "completion_tokens": 176,
+    "total_tokens": 1164,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 156
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

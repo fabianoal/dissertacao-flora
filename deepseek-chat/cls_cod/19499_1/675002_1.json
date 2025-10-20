@@ -1,0 +1,28 @@
+{
+  "id": "4d54f6bb-fbeb-4753-a384-c3a37c3e64f4",
+  "object": "chat.completion",
+  "created": 1760037768,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere a organização das equipes com base na população adscrita e mapeamento do território para corrigir a condição de não realização da adscrição, indicando uma ação corretiva. Além disso, propõe o cumprimento de um normativo específico (Portaria de Consolidação) para abordar a causa subjacente, mas não detalha ações concretas além disso, sendo genérica. Como a ação com foco na causa é genérica, os efeitos duradouros não são avaliados positivamente.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1163,
+    "completion_tokens": 167,
+    "total_tokens": 1330,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 139
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

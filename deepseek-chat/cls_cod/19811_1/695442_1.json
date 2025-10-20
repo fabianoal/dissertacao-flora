@@ -1,0 +1,28 @@
+{
+  "id": "fd1a0a90-526a-4620-992b-f07f5addcaac",
+  "object": "chat.completion",
+  "created": 1760035480,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere uma ação corretiva ao propor que a SMS defina critérios para classificação de risco, o que visa resolver diretamente a condição encontrada de ausência desses critérios. Além disso, inclui uma ação com foco na causa ao recomendar o monitoramento da implantação e uso dos critérios, que é específica e visa prevenir a recorrência da condição. A ação de monitoramento é concreta e vai além do mero cumprimento normativo, sendo direcionada à causa subjacente. Quanto aos efeitos duradouros, a ação de monitoramento pode estabelecer processos contínuos que permanecem mesmo com mudanças de atores, pois se trata de uma prática institucionalizada.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Específica\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1351,
+    "completion_tokens": 212,
+    "total_tokens": 1563,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 391
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

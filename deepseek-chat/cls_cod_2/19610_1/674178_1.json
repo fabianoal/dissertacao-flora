@@ -1,0 +1,28 @@
+{
+  "id": "2dda37a9-b0b8-4a67-be41-a5fc6a0a2921",
+  "object": "chat.completion",
+  "created": 1760389302,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe orientar fiscais e gestores a conferir documentação comprobatória em processos de contratação, visando evitar desobediência a normativos e irregularidades futuras, o que indica um tratamento da causa (falta de verificação adequada) e não apenas da condição específica (pagamento sem cobertura contratual). Já em relação aos efeitos pretendidos, a orientação para conferência documental estabelece um procedimento que pode ser mantido independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1082,
+    "completion_tokens": 169,
+    "total_tokens": 1251,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 250
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

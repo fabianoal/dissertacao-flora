@@ -1,0 +1,28 @@
+{
+  "id": "8edd1289-9c4a-485b-af9c-aac84fca0211",
+  "object": "chat.completion",
+  "created": 1760454729,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identifica corretamente que a recomendação se concentra em fiscalizar e assegurar o cumprimento de uma obrigação normativa específica, sem propor ações para investigar ou resolver as causas subjacentes da falha no encaminhamento formal. No entanto, a avaliação do critério 'Efeitos Duradouros' poderia ser mais precisa, considerando que a fiscalização, se implementada de forma contínua e estruturada, poderia ter efeitos duradouros, embora o foco permaneça na condição imediata.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1361,
+    "completion_tokens": 174,
+    "total_tokens": 1535,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 465
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

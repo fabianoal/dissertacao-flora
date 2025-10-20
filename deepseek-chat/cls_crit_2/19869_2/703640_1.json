@@ -1,0 +1,28 @@
+{
+  "id": "4b80ad79-d137-4a26-9e01-8098b0d7e690",
+  "object": "chat.completion",
+  "created": 1760467645,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identifica corretamente que a recomendação propõe ações para tratar a causa do problema (inserção incorreta de dados), ao invés de apenas corrigir registros existentes. Quanto ao critério 'Efeitos Duradouros', a análise do modelo argumenta que os efeitos da recomendação devem persistir com mudanças nos atores, baseando-se em regulamentações e procedimentos estruturados, o que é consistente com a recomendação que estabelece um processo contínuo e normatizado.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1344,
+    "completion_tokens": 174,
+    "total_tokens": 1518,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 448
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

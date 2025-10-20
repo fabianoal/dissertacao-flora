@@ -1,0 +1,28 @@
+{
+  "id": "1fc508a7-0ff2-42a3-89fd-89ad5091e161",
+  "object": "chat.completion",
+  "created": 1760385970,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"Em relação ao foco, a recomendação propõe a adoção de medidas para assegurar o controle e manutenção dos arquivos documentais, o que visa tratar a causa subjacente da falta de documentação, que é a gestão inadequada de arquivos, em vez de apenas corrigir a condição específica de ausência de documentos para este contrato. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como a implementação de práticas de gestão documental baseadas em leis, são projetadas para criar sistemas e procedimentos que permaneçam eficazes independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n   \"Foco Causa\": \"Sim\",\n   \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1338,
+    "completion_tokens": 184,
+    "total_tokens": 1522,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 570
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

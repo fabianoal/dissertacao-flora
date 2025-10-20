@@ -1,0 +1,28 @@
+{
+  "id": "d7d7f18e-8b54-4f49-9d31-b47f36817a31",
+  "object": "chat.completion",
+  "created": 1760467977,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise da codificação está correta ao identificar que a recomendação visa corrigir a condição específica de não solicitação de radioterapia, focando na conformidade imediata com a norma, sem abordar causas subjacentes como falhas processuais ou de capacitação. Portanto, concordo com a avaliação para ambos os critérios.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1396,
+    "completion_tokens": 119,
+    "total_tokens": 1515,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 500
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

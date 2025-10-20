@@ -1,0 +1,28 @@
+{
+  "id": "80becacf-8f26-4b67-9cfc-2ea62a2c5314",
+  "object": "chat.completion",
+  "created": 1760391782,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe que seja efetuado o registro fidedigno da produção ambulatorial no SIA/SUS, conforme manuais e portarias específicas. Esta ação visa corrigir a condição de incompatibilidade entre os dados inseridos e a produção real, focando na implementação de um processo de registro correto. No entanto, não há menção a ações que tratem das causas subjacentes que levaram à inserção inadequada dos dados, como falta de capacitação, falhas nos processos internos ou deficiências na supervisão. Portanto, a recomendação é focada na condição (corrigir o registro atual) e não na causa (prevenir a ocorrência futura). Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1241,
+    "completion_tokens": 226,
+    "total_tokens": 1467,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 409
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

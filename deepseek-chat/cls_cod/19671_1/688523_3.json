@@ -1,0 +1,28 @@
+{
+  "id": "be688079-2d68-435e-b658-50e37413664f",
+  "object": "chat.completion",
+  "created": 1760037412,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere arquivar o CFID assinado no prontuário do paciente, o que corrige a condição específica de falta de conferência e validação antes do faturamento, caracterizando uma ação corretiva. No entanto, a ação proposta é limitada ao cumprimento de um normativo existente (art. 424 da Portaria) sem propor medidas adicionais para abordar a causa subjacente, como falhas em processos ou treinamento, sendo genérica em foco na causa. Como o foco na causa é genérico, os efeitos duradouros não são avaliados como presentes.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1163,
+    "completion_tokens": 187,
+    "total_tokens": 1350,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 139
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

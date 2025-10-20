@@ -1,0 +1,28 @@
+{
+  "id": "7f8f9bcc-bb94-475b-8d12-e4b8a83d0b3e",
+  "object": "chat.completion",
+  "created": 1760385771,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"A recomendação se concentra em corrigir a condição específica de não conformidade com o padrão de grafismo e layout, conforme normatização, sem propor ações para tratar as causas subjacentes da falha no gerenciamento da frota, como deficiências em processos de controle ou capacitação. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n   \"Foco Causa\": \"Não\",\n   \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1114,
+    "completion_tokens": 143,
+    "total_tokens": 1257,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 282
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

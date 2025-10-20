@@ -1,0 +1,28 @@
+{
+  "id": "b512ca5a-b2cc-4608-92c7-54c8f021cc01",
+  "object": "chat.completion",
+  "created": 1759367326,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação direciona-se à devolução de valores pagos devido à subutilização do espaço locado, focando na correção da condição financeira irregular identificada. Não identifica as causas institucionais que levaram à subutilização (como falhas no planejamento, gestão de contratos ou monitoramento), nem propõe mudanças estruturais para evitar a repetição do problema. As transformações são pontuais (restituição de valores) e não perduram no tempo, caracterizando uma solução temporária para a condição atual.\",\n    \"categoria\": \"foco-condicao\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1472,
+    "completion_tokens": 146,
+    "total_tokens": 1618,
+    "prompt_tokens_details": {
+      "cached_tokens": 1216
+    },
+    "prompt_cache_hit_tokens": 1216,
+    "prompt_cache_miss_tokens": 256
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

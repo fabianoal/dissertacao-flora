@@ -1,0 +1,28 @@
+{
+  "id": "6d3ec803-27b3-4df7-afbf-326b208bf2c5",
+  "object": "chat.completion",
+  "created": 1760459665,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está bem fundamentada e alinhada com as definições dos critérios. A recomendação claramente foca na correção imediata da condição encontrada (falhas na documentação), sem propor ações para tratar causas subjacentes como deficiências processuais ou de capacitação.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1256,
+    "completion_tokens": 112,
+    "total_tokens": 1368,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 296
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

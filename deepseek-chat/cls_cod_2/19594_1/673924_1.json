@@ -1,0 +1,28 @@
+{
+  "id": "02ff49bc-a8c8-4c5f-9c16-71f5ead7f6c9",
+  "object": "chat.completion",
+  "created": 1760388650,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação 1 propõe intervenção educativa permanente para mudar práticas em imunização e aprimorar a qualidade do registro, o que trata da causa do problema (práticas inadequadas e falta de capacitação). A recomendação 2 foca na correção da condição atual (registro irregular). Quanto aos efeitos duradouros, a intervenção educativa permanente visa mudanças culturais e de processos que devem persistir independentemente de mudanças nos atores envolvidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1043,
+    "completion_tokens": 149,
+    "total_tokens": 1192,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 211
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

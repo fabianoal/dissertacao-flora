@@ -1,0 +1,28 @@
+{
+  "id": "7dd66706-4271-46ab-a36b-d56fd7fba08d",
+  "object": "chat.completion",
+  "created": 1760466625,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação inclui ações que tratam diretamente das causas da incompatibilidade de dados, como falhas nos processos de registro e validação, sendo adequada a classificação como 'Sim'. Quanto ao critério 'Efeitos Duradouros', as ações propostas, como implementação de rotinas formais e atribuição de responsabilidades, criam estruturas que podem perdurar independentemente de mudanças de pessoal, justificando a classificação como 'Sim'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1571,
+    "completion_tokens": 162,
+    "total_tokens": 1733,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 675
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

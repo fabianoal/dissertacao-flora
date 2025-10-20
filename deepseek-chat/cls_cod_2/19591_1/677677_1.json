@@ -1,0 +1,28 @@
+{
+  "id": "d6e78798-4ae8-4b2b-b80f-a9e2569139f5",
+  "object": "chat.completion",
+  "created": 1760388606,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que visam corrigir a causa do problema (divergência nos dados) ao estabelecer processos sistemáticos de inserção, manutenção e atualização dos dados no SCNES, além de fiscalização e validação, o que trata a origem da inconsistência. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas (processos sistemáticos e fiscalização) criam mecanismos que devem permanecer independentemente de mudanças nos atores envolvidos, pois institucionalizam práticas de gestão de dados.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1187,
+    "completion_tokens": 164,
+    "total_tokens": 1351,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 355
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

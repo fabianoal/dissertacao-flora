@@ -1,0 +1,28 @@
+{
+  "id": "122b76d5-6e26-401f-b0eb-7a1406f1628f",
+  "object": "chat.completion",
+  "created": 1760390982,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a devolução de valores ao Fundo Nacional de Saúde devido à falta de rastreabilidade das OPME, focando na correção da condição financeira específica identificada. Não há menção a ações que tratem das causas subjacentes da falta de rastreabilidade, como melhorias em processos, sistemas ou capacitação. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 990,
+    "completion_tokens": 161,
+    "total_tokens": 1151,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 158
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

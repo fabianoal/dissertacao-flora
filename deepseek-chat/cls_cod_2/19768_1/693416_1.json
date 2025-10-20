@@ -1,0 +1,28 @@
+{
+  "id": "2497dad8-7418-4525-abb9-e3a69f593514",
+  "object": "chat.completion",
+  "created": 1760396048,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações como elaborar cronograma de manutenções preventivas, executar qualificação térmica regular, realizar calibração periódica e implementar rotina diária de conferência ambiental. Essas medidas visam estabelecer processos sistemáticos e preventivos para evitar que a falta de manutenção e controle térmico volte a ocorrer, tratando assim as causas subjacentes do problema. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas (cronogramas, rotinas, procedimentos padronizados) criam estruturas e processos que permanecerão funcionando independentemente de mudanças nas pessoas responsáveis, gerando efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1300,
+    "completion_tokens": 195,
+    "total_tokens": 1495,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 468
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

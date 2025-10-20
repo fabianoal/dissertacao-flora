@@ -1,0 +1,28 @@
+{
+  "id": "dc481145-ba22-43a7-8f07-7dcec6cfc01c",
+  "object": "chat.completion",
+  "created": 1760451948,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação é genérica e não propõe ações específicas para tratar a causa das divergências nos instrumentos de gestão. No entanto, é importante destacar que a recomendação se limita a solicitar conhecimento da constatação e adoção de procedimentos já estabelecidos, sem abordar as causas subjacentes das inconsistências nos dados.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1198,
+    "completion_tokens": 130,
+    "total_tokens": 1328,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 302
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

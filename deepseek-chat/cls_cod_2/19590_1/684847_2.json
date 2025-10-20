@@ -1,0 +1,28 @@
+{
+  "id": "a483cd83-3cb7-4541-8b76-a1ba996b8465",
+  "object": "chat.completion",
+  "created": 1760388494,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe ações de monitoramento da aplicação de recursos financeiros e adoção de medidas cabíveis caso sejam identificados desvios, o que visa prevenir futuras discrepâncias entre os registros e a realidade dos equipamentos. No entanto, não aborda explicitamente as causas subjacentes à divergência, como falhas nos processos de registro ou capacitação da equipe, focando mais na correção da condição atual (desvios) do que na eliminação da raiz do problema. Portanto, não há ação clara voltada para a causa. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, a análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1183,
+    "completion_tokens": 194,
+    "total_tokens": 1377,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 287
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "1285247f-df4a-44a4-aba2-f35ba34a14e2",
+  "object": "chat.completion",
+  "created": 1760387970,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação 'a' propõe a ampliação da oferta e exigência de ações de capacitação pelo NEU, o que visa tratar a causa do problema (insuficiência de qualificações de educação continuada) ao assegurar que todos os profissionais sejam capacitados, abordando a raiz da questão. Já em relação aos efeitos pretendidos pela recomendação, a ação de capacitação sistemática e a manutenção de registros detalhados ('b') criam processos estruturados que devem persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1086,
+    "completion_tokens": 176,
+    "total_tokens": 1262,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 254
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

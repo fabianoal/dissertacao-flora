@@ -1,0 +1,28 @@
+{
+  "id": "1c61f957-0955-4276-ac8f-9d35ad5c7a91",
+  "object": "chat.completion",
+  "created": 1760395376,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a adequação da estrutura física para criação de áreas segregadas, o que trata diretamente a causa raiz do problema (ausência de segregação de áreas) e não apenas corrige a condição atual temporariamente. Já em relação aos efeitos pretendidos pela recomendação, as alterações físicas na estrutura permanecerão mesmo com mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1072,
+    "completion_tokens": 137,
+    "total_tokens": 1209,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 240
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

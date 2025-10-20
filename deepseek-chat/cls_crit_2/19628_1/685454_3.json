@@ -1,0 +1,28 @@
+{
+  "id": "c3db99fd-4711-458d-bc18-3fa829732b4c",
+  "object": "chat.completion",
+  "created": 1760458321,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação é genérica e não aborda especificamente a causa da ausência de registro das OPME cardiovasculares no SIH/SUS, como falhas nos processos de registro ou capacitação da equipe. Quanto ao critério 'Efeitos Duradouros', como o 'Foco Causa' foi avaliado como 'Não', a resposta 'Não se aplica' está correta.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1188,
+    "completion_tokens": 146,
+    "total_tokens": 1334,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 228
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

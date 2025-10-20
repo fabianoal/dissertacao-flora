@@ -1,0 +1,28 @@
+{
+  "id": "3465aeb8-04fc-47fa-a4c9-3cc2f80473a2",
+  "object": "chat.completion",
+  "created": 1760459077,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise original argumenta que a recomendação não trata da causa raiz da insuficiência na oferta de serviços dialíticos, focando apenas no monitoramento da implementação da política. Quanto ao critério 'Efeitos Duradouros', como o 'Foco Causa' foi considerado não atendido, a análise original corretamente aplica a regra de 'Não se aplica'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1327,
+    "completion_tokens": 145,
+    "total_tokens": 1472,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 367
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

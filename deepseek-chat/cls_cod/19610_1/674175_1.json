@@ -1,0 +1,28 @@
+{
+  "id": "c7742a86-afef-4bfb-8ca9-9fc996ac81c0",
+  "object": "chat.completion",
+  "created": 1760037728,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere aprimorar instrumentos de análise (pareceres técnicos) para atender a um normativo específico, o que configura uma ação para resolver a condição encontrada de irregularidade na contratação. No entanto, a ação proposta é genérica, limitando-se a cumprir o normativo sem especificar medidas concretas além disso, e não há indicação de ações direcionadas à causa raiz da irregularidade, como falhas em processos de seleção ou supervisão. Como a ação de foco na causa é genérica, os efeitos duradouros não se aplicam de forma significativa.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1133,
+    "completion_tokens": 188,
+    "total_tokens": 1321,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 109
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

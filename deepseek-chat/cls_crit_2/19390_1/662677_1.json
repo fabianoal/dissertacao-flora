@@ -1,0 +1,28 @@
+{
+  "id": "5ceb499a-8504-40a4-ae0f-dabcf90e1ff4",
+  "object": "chat.completion",
+  "created": 1760451992,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise Crítica\": \"A análise fornecida avalia corretamente que a recomendação se concentra em cumprir um requisito normativo sem abordar causas subjacentes, como falta de capacitação ou recursos, o que a classifica como focada na condição imediata. No entanto, a classificação de 'Efeitos Duradouros' como 'Não se aplica' é consistente, dado que o critério 'Foco Causa' não foi atendido.\",\n  \"Análise Foco Causa\": \"Concordo\",\n  \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1264,
+    "completion_tokens": 141,
+    "total_tokens": 1405,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 368
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

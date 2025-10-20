@@ -1,0 +1,28 @@
+{
+  "id": "ba32035e-e777-41a3-b0b0-95f76cb9c8b5",
+  "object": "chat.completion",
+  "created": 1760387154,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação solicita a apresentação de documentação específica para regularizar a falta de comprovação do estoque, focando na correção imediata da condição encontrada (ausência de documentação), sem propor ações para tratar as causas subjacentes que levaram à não apresentação da documentação, como falhas em processos, sistemas ou responsabilização. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 964,
+    "completion_tokens": 160,
+    "total_tokens": 1124,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 132
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

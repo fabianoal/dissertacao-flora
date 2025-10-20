@@ -1,0 +1,28 @@
+{
+  "id": "3472182f-7090-4bf3-b942-d0eb18144f7e",
+  "object": "chat.completion",
+  "created": 1760450832,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação de manter as informações atualizadas no CNES aborda diretamente a causa da divergência identificada, que é a desatualização dos dados cadastrais. Para o critério 'Efeitos Duradouros', a implementação de um processo contínuo de atualização no CNES assegura que os efeitos persistam independentemente de mudanças na equipe, alinhando-se com a definição de efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1237,
+    "completion_tokens": 156,
+    "total_tokens": 1393,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 341
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

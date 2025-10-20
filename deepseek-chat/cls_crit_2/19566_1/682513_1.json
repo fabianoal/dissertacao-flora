@@ -1,0 +1,28 @@
+{
+  "id": "036bc6f5-0d17-4bad-acde-4671e7495b59",
+  "object": "chat.completion",
+  "created": 1760454981,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda claramente as causas sistêmicas da falha no encaminhamento de pacientes, como a falta de acompanhamento, fiscalização e articulação entre gestor e prestadora. Quanto ao critério 'Efeitos Duradouros', as ações propostas, como fiscalização contínua e articulação eficiente, são baseadas em estruturas e processos institucionais, o que sugere durabilidade, mas a dependência de articulação interpessoal pode limitar a permanência com mudanças de atores.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1568,
+    "completion_tokens": 176,
+    "total_tokens": 1744,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 672
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ed24ba19-50fe-4af4-bce8-8f683c0d1993",
+  "object": "chat.completion",
+  "created": 1760386134,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação inclui ações como 'manter um controle rigoroso' e 'notificar imediatamente' para prevenir a ocorrência de repasses financeiros insuficientes, o que indica tratamento da causa (falta de controle e comunicação) que gerou a condição de contrapartida insuficiente. Já em relação aos efeitos pretendidos pela recomendação, o estabelecimento de um controle rigoroso e procedimentos de notificação tende a criar processos institucionais que permanecem mesmo com mudanças de atores, pois são baseados em normas e sistemas, não dependendo de indivíduos específicos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1114,
+    "completion_tokens": 178,
+    "total_tokens": 1292,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 218
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

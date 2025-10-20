@@ -1,0 +1,28 @@
+{
+  "id": "5e822a12-721f-4489-8151-6d047ac9482b",
+  "object": "chat.completion",
+  "created": 1760455409,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo argumenta que a recomendação não aborda diretamente a causa subjacente da não comprovação total das análises bacteriológicas, como falhas em processos, treinamento ou recursos, focando apenas na manutenção da periodicidade. Quanto ao critério 'Efeitos Duradouros', como 'Foco Causa' foi classificado como 'Não', a resposta 'Não se aplica' está alinhada com a definição do critério.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1187,
+    "completion_tokens": 162,
+    "total_tokens": 1349,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 291
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "b47aea38-6f88-4fe4-b69b-4b48e25ca4b5",
+  "object": "chat.completion",
+  "created": 1760390734,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a adoção de critérios mínimos de detalhamento das despesas nos planos de trabalho, o que visa tratar a causa do problema (falta de padronização e clareza na elaboração dos planos) em vez de apenas corrigir planos específicos. Isso inclui definições de quantitativos, datas e inclusão do plano de ação, ações preventivas para evitar a reincidência da condição. Já em relação aos efeitos pretendidos, a implementação de critérios padronizados criaria uma estrutura permanente que permaneceria eficaz mesmo com mudanças nos atores envolvidos, como proponentes ou gestores, pois os critérios se tornariam parte dos procedimentos operacionais.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1065,
+    "completion_tokens": 206,
+    "total_tokens": 1271,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 233
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

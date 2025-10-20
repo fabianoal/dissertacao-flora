@@ -1,0 +1,28 @@
+{
+  "id": "a0f56559-68f4-4840-b546-1069369b9c5e",
+  "object": "chat.completion",
+  "created": 1760035760,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere uma ação específica para resolver a condição encontrada, que é a falta de CNPJ próprio, ao propor a inscrição no CNPJ. No entanto, essa ação é focada principalmente na correção da condição atual, sem propor medidas adicionais para tratar a causa subjacente, como a ausência de processos ou políticas que permitiram essa omissão. A ação é baseada no cumprimento de um normativo específico, mas não vai além disso para endereçar causas sistêmicas.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1150,
+    "completion_tokens": 160,
+    "total_tokens": 1310,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 126
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

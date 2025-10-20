@@ -1,0 +1,28 @@
+{
+  "id": "06f6b38c-a534-42f1-8b1e-7c79a0f81c22",
+  "object": "chat.completion",
+  "created": 1760392354,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a instituição de procedimentos de controle interno para o recebimento, armazenamento e distribuição de medicamentos, visando garantir a regularidade na dispensação. Isso aborda a causa subjacente do problema, que é a falta de processos estruturados, em vez de apenas corrigir a condição imediata de irregularidade. Quanto aos efeitos duradouros, a implementação de procedimentos formais tende a persistir independentemente de mudanças nos atores envolvidos, estabelecendo uma base sustentável para a gestão de medicamentos.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1009,
+    "completion_tokens": 159,
+    "total_tokens": 1168,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 177
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

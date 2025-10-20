@@ -1,0 +1,28 @@
+{
+  "id": "40177b3a-9352-4dc6-b023-415a267cb83c",
+  "object": "chat.completion",
+  "created": 1760400928,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação não propõe ações específicas para tratar a causa do problema identificado (ausência de evoluções em prontuário detalhando a administração de quimioterapia contínua). Em vez disso, limita-se a recomendar que a SAES/MS tome 'medidas cabíveis' para cobrança administrativa de recursos, focando na recuperação do dano financeiro, sem abordar as falhas processuais ou sistêmicas que levaram à constatação. Portanto, não há ação proposta que trate da causa do problema.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1084,
+    "completion_tokens": 162,
+    "total_tokens": 1246,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 252
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

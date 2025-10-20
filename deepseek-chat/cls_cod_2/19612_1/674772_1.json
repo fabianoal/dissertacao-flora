@@ -1,0 +1,28 @@
+{
+  "id": "ba8c21ab-adb1-4dc9-9e18-508377f6584e",
+  "object": "chat.completion",
+  "created": 1760389794,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a solicitar a inserção de comprovação de trabalho realizado no sistema Transferegov, focando na correção da condição específica de ausência dessa documentação. Não propõe ações para tratar a causa raiz da ausência de critérios para contratações, como a criação de diretrizes ou processos de seleção. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1018,
+    "completion_tokens": 165,
+    "total_tokens": 1183,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 186
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

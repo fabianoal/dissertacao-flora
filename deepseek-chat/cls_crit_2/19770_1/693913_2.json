@@ -1,0 +1,28 @@
+{
+  "id": "f11892d4-718d-4fa7-a08f-bf6b5cd4b0d0",
+  "object": "chat.completion",
+  "created": 1760463817,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação de aperfeiçoar mecanismos de controle, monitoramento e avaliação das informações no sistema SIA/SUS claramente visa abordar a causa subjacente do problema (falhas nos controles internos), e não apenas corrigir a condição específica de 2019. Quanto ao critério 'Efeitos Duradouros', a implementação de tais mecanismos aperfeiçoados é projetada para ser sustentável e operar independentemente de mudanças na equipe, garantindo efeitos de longo prazo.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1200,
+    "completion_tokens": 176,
+    "total_tokens": 1376,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 240
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

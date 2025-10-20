@@ -1,0 +1,28 @@
+{
+  "id": "05ae0f7c-7682-4f48-b1f3-d4ac4dba4aaa",
+  "object": "chat.completion",
+  "created": 1760456209,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação se concentra em ações corretivas imediatas (acompanhamento, monitoramento e medidas administrativas) para a condição específica de impropriedades na atuação do fiscal técnico, sem abordar causas subjacentes como deficiências em processos de seleção, capacitação ou supervisão. No entanto, a avaliação do critério 'Efeitos Duradouros' como 'Não se aplica' é consistente, dado que o critério 'Foco Causa' não foi atendido.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1208,
+    "completion_tokens": 174,
+    "total_tokens": 1382,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 312
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "b8e7904e-e86e-469f-a936-6c8b58b46390",
+  "object": "chat.completion",
+  "created": 1760036752,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere a adoção de critérios mínimos de detalhamento para corrigir a falta de clareza nos planos de trabalho, o que é uma ação corretiva. Além disso, propõe a definição de quantitativos, datas e inclusão de plano de ação, que são ações específicas para tratar a causa subjacente de planejamento inadequado, visando evitar a reocorrência do problema. Essas ações têm efeitos duradouros, pois estabelecem procedimentos padronizados que independem de mudanças nos atores envolvidos.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Específica\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1196,
+    "completion_tokens": 174,
+    "total_tokens": 1370,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 172
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

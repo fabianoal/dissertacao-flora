@@ -1,0 +1,28 @@
+{
+  "id": "69bcb7e8-88a8-4cbe-b652-15d5e0bcc40d",
+  "object": "chat.completion",
+  "created": 1760387066,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe o cumprimento de procedimentos normativos de armazenagem para garantir que os materiais adquiridos sejam adequadamente registrados e preservados, o que visa tratar a causa do problema (falta de controle no recebimento e armazenamento) que levou à constatação de medicamentos não constando nas entradas da farmácia. Já em relação aos efeitos pretendidos pela recomendação, a implementação de procedimentos padronizados de armazenagem, conforme a instrução normativa, estabelece um sistema que deve permanecer eficaz independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 995,
+    "completion_tokens": 186,
+    "total_tokens": 1181,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 163
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "51c1ec6a-263a-4c75-b6e3-fd4d0fe44c0c",
+  "object": "chat.completion",
+  "created": 1760462170,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda a necessidade de preenchimento e arquivamento correto do CFID, o que pode ser visto como uma ação para tratar a causa da documentação incompleta, que é a não conformidade com procedimentos estabelecidos. Para o critério 'Efeitos Duradouros', a recomendação estabelece um processo baseado em normas, que deve ser mantido independentemente de mudanças de pessoal.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1283,
+    "completion_tokens": 148,
+    "total_tokens": 1431,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 323
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

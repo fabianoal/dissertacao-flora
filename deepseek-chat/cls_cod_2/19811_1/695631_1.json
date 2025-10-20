@@ -1,0 +1,28 @@
+{
+  "id": "4e63a725-2a89-4ae2-ad3d-917dbfec21d8",
+  "object": "chat.completion",
+  "created": 1760397772,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a implantação e acompanhamento de um fluxo de atendimento para casos de urgência e emergência em saúde mental, o que visa tratar a causa raiz do problema (ausência de organização sistêmica) e não apenas a condição imediata (não realização de acolhimento). Já em relação aos efeitos pretendidos pela recomendação, a implantação de um fluxo estruturado e formalizado tende a produzir efeitos duradouros, pois se mantém independentemente de mudanças nos atores envolvidos, uma vez que se torna parte da estrutura organizacional do sistema.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1053,
+    "completion_tokens": 179,
+    "total_tokens": 1232,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 221
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

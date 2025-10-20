@@ -1,0 +1,28 @@
+{
+  "id": "99e703cd-c73f-4821-93f5-c589eed581c0",
+  "object": "chat.completion",
+  "created": 1760396728,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a manutenção atualizada dos dados no CNES e a designação de um Responsável Técnico e substituto, o que visa tratar a causa do problema (falta de atualização e responsabilização formal) que gerou a condição encontrada (rede de frio não cadastrada). Já em relação aos efeitos pretendidos pela recomendação, a implementação de um responsável técnico formal e a manutenção contínua dos dados criam uma estrutura que permanece mesmo com mudanças de pessoal, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 952,
+    "completion_tokens": 169,
+    "total_tokens": 1121,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 120
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

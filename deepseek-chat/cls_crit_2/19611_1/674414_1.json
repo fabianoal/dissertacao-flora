@@ -1,0 +1,28 @@
+{
+  "id": "45e1c6dd-ad7f-472c-8960-dac3b233b6e3",
+  "object": "chat.completion",
+  "created": 1760456449,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe orientar fiscais e gestores para conferir documentação comprobatória no processo de contratação, o que visa prevenir a reincidência de pagamentos sem cobertura contratual, tratando a causa relacionada à falta de verificação sistemática. Para o critério 'Efeitos Duradouros', a orientação padronizada pode estabelecer um procedimento contínuo, mas sua efetividade depende da adesão consistente e da incorporação formal no fluxo de trabalho, o que pode não ser garantido apenas com orientação.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1179,
+    "completion_tokens": 182,
+    "total_tokens": 1361,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 283
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6559bb63-70ae-4bd1-9f9e-76413c0c2429",
+  "object": "chat.completion",
+  "created": 1760463241,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identificou corretamente que a recomendação se limita a citar normas sem propor ações específicas para tratar a causa raiz da falta de registro padronizado. Quanto ao critério 'Efeitos Duradouros', a análise está correta ao considerar que não se aplica, dado que o critério 'Foco Causa' não foi atendido.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1352,
+    "completion_tokens": 139,
+    "total_tokens": 1491,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 456
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "3bff0cb1-8786-46f2-b8dc-8705b162bf96",
+  "object": "chat.completion",
+  "created": 1760465405,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identifica corretamente que a recomendação trata da causa do problema (falta de compartilhamento de registros) ao propor um mecanismo permanente de acesso às informações. Quanto ao critério 'Efeitos Duradouros', a análise do modelo também está correta, pois a implementação de um sistema de compartilhamento de informações cria uma estrutura que permanece funcional independentemente de mudanças de pessoal.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1124,
+    "completion_tokens": 150,
+    "total_tokens": 1274,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 228
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

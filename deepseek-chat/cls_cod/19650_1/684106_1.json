@@ -1,0 +1,28 @@
+{
+  "id": "7316f5ff-e5cb-4a3b-b9b9-3f5fceca9479",
+  "object": "chat.completion",
+  "created": 1760035824,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere ações para corrigir a condição encontrada, como manter atualizado o cadastro no sistema, o que pode resolver diretamente a questão da carga horária não cumprida. Além disso, propõe a apresentação de informações para facilitar auditorias, o que visa endereçar causas subjacentes, como falta de transparência ou controle, mas de forma genérica ao referir-se ao cumprimento de normativos sem detalhar ações concretas específicas. Não há indicação de efeitos duradouros, pois as ações dependem da adesão contínua aos normativos.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1293,
+    "completion_tokens": 178,
+    "total_tokens": 1471,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 333
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

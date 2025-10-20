@@ -1,0 +1,28 @@
+{
+  "id": "c00094ea-67d3-46d7-be20-8ab96a586c68",
+  "object": "chat.completion",
+  "created": 1760454741,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise fornecida avalia corretamente que a recomendação se concentra em garantir o preenchimento adequado dos prontuários, referenciando normas, mas não propõe ações explícitas para abordar causas subjacentes, como falta de treinamento ou recursos. No entanto, a recomendação pode ser interpretada como incluindo medidas que indiretamente tratam causas, como a implementação de processos baseados em guias, o que poderia justificar uma resposta 'Sim' para 'Foco Causa' se considerada uma abordagem preventiva. Para 'Efeitos Duradouros', a análise segue corretamente a dependência do critério anterior.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1330,
+    "completion_tokens": 188,
+    "total_tokens": 1518,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 434
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

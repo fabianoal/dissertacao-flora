@@ -1,0 +1,28 @@
+{
+  "id": "56d5783a-75c8-4eea-85df-ba7b91e2ac14",
+  "object": "chat.completion",
+  "created": 1760390354,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe que o DSEI realize a conferência da documentação comprobatória no Transferegov para evitar a manutenção de informações incorretas. Esta ação visa corrigir a condição atual de impropriedades nos documentos, focando na verificação e correção imediata dos dados, sem abordar as causas subjacentes que levam à inserção ou manutenção de informações incorretas, como falhas nos processos de inserção, capacitação insuficiente ou falta de controles preventivos. Portanto, a recomendação é condition-based, não cause-based. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 978,
+    "completion_tokens": 202,
+    "total_tokens": 1180,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 18
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

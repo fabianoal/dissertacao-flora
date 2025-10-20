@@ -1,0 +1,28 @@
+{
+  "id": "0b4dc64f-0986-4038-bdb1-2802728e7f88",
+  "object": "chat.completion",
+  "created": 1760395824,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a manutenção atualizada do cadastro dos equipamentos no CNES, o que constitui uma ação preventiva para evitar que a condição de equipamentos não cadastrados volte a ocorrer, tratando assim da causa do problema que é a falta de atualização sistemática do cadastro. Quanto aos efeitos duradouros, a ação de manter o cadastro atualizado estabelece um processo contínuo que independe de mudanças nos atores envolvidos, pois se baseia em conformidade com regulamentação específica, garantindo que os efeitos pretendidos permaneçam mesmo com eventual rotatividade de pessoal.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1030,
+    "completion_tokens": 178,
+    "total_tokens": 1208,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 198
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

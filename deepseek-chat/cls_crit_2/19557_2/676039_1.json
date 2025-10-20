@@ -1,0 +1,28 @@
+{
+  "id": "503c65d7-5b65-4014-8cfb-3e6594d76719",
+  "object": "chat.completion",
+  "created": 1760454649,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação visa implementar processos de supervisão que tratam a causa subjacente da falta de monitoramento. Para o critério 'Efeitos Duradouros', a análise também é adequada, pois a criação de estruturas formais de acompanhamento tende a ser duradoura, independentemente de mudanças de pessoal.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1218,
+    "completion_tokens": 141,
+    "total_tokens": 1359,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 322
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

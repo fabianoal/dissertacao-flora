@@ -1,0 +1,28 @@
+{
+  "id": "916a090c-96e6-4543-b95a-ac52cb4b149f",
+  "object": "chat.completion",
+  "created": 1760036628,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere ações para resolver a condição encontrada, como implementar a rede de cuidados, ampliar assistência e acesso aos ambulatórios pré-dialíticos, e melhorar a interface entre atenção especializada e básica, o que caracteriza ação corretiva. Para o foco na causa, propõe tornar mais efetiva a monitorização e fiscalização dos serviços contratados, o que vai além do mero cumprimento normativo, indicando uma ação específica para prevenir a reincidência da condição. Quanto aos efeitos duradouros, a ação de monitorização e fiscalização, se institucionalizada, pode persistir independentemente de mudanças de atores, mas a recomendação não especifica se isso será estruturado de forma permanente.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Específica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1270,
+    "completion_tokens": 221,
+    "total_tokens": 1491,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 246
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "bf7b7b5f-ff58-47b3-9504-259d97771f21",
+  "object": "chat.completion",
+  "created": 1760386158,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação contém ações que visam corrigir a condição específica de pagamento indevido de multas e desvio de recursos, como abster-se de pagar multas, requerer cancelamento administrativo e recompor o fundo municipal, mas não propõe ações para tratar as causas subjacentes que permitiram tais irregularidades, como falhas nos controles internos ou na capacitação da equipe. Já em relação aos efeitos pretendidos pela recomendação, como o critério 'Foco Causa' não foi atendido, a análise de efeitos duradouros não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1231,
+    "completion_tokens": 179,
+    "total_tokens": 1410,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 399
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

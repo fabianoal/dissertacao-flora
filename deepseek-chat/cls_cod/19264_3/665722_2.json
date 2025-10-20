@@ -1,0 +1,28 @@
+{
+  "id": "ac57331d-1237-4610-bba2-17448b0a14b7",
+  "object": "chat.completion",
+  "created": 1760036916,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere uma ação corretiva específica de devolução de valores cobrados indevidamente, visando resolver a condição encontrada de cobrança excessiva. No entanto, não propõe nenhuma ação para tratar a causa subjacente que permitiu a ocorrancia da irregularidade, limitando-se a citar o cumprimento de dispositivos legais sem especificar medidas concretas para prevenir recorrências.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se Aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1293,
+    "completion_tokens": 141,
+    "total_tokens": 1434,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 269
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "66c08fe1-4e5b-4abd-b5fd-7f11fdb8d576",
+  "object": "chat.completion",
+  "created": 1760451388,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda diretamente a causa do problema identificado na constatação, que é a falta de registro correto e obrigatório do CNPJ do fornecedor e do número da nota fiscal no SIH/SUS. Quanto ao critério 'Efeitos Duradouros', a recomendação estabelece um processo formal e sistemático de registro no sistema de informação, o que tende a criar uma prática institucional que persiste independentemente de mudanças nas pessoas envolvidas.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1432,
+    "completion_tokens": 161,
+    "total_tokens": 1593,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 472
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

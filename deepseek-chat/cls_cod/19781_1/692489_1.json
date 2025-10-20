@@ -1,0 +1,28 @@
+{
+  "id": "dfeff6d1-1e79-4f4b-bd01-de63319cea34",
+  "object": "chat.completion",
+  "created": 1760036020,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere ações para resolver a condição encontrada, como revisar e atualizar o PMS para incluir informações sobre o PNI, o que é uma ação corretiva. Além disso, propõe garantir a elaboração e disponibilização de relatórios no prazo, o que também é corretivo. Para o foco na causa, a recomendação não especifica ações além do cumprimento de normativos, como a Portaria GM/MS nº 1/2017, sendo genérica. Como a ação de foco na causa é genérica, os efeitos duradouros não são avaliados como presentes.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1305,
+    "completion_tokens": 182,
+    "total_tokens": 1487,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 281
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

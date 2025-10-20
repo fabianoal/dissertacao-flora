@@ -1,0 +1,28 @@
+{
+  "id": "45df168d-8406-49ce-a2bb-1d08faf98bb2",
+  "object": "chat.completion",
+  "created": 1760037132,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere uma ação para resolver a condição encontrada, que é a falta de cadastro atualizado dos profissionais no Cnes, ao propor a manutenção atualizada dos dados. Em relação ao foco na causa, a ação proposta é genérica, pois se limita a cumprir o normativo existente sem especificar medidas adicionais para prevenir a recorrência, como implementação de processos de revisão ou treinamentos. Quanto aos efeitos duradouros, como a ação é genérica, não há indicação de que os efeitos persistiriam com mudanças de atores.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1180,
+    "completion_tokens": 178,
+    "total_tokens": 1358,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 156
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

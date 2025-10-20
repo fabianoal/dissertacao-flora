@@ -1,0 +1,28 @@
+{
+  "id": "f27e5a77-b8e1-453a-99f4-29bab33657d7",
+  "object": "chat.completion",
+  "created": 1760469537,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identificou corretamente que a recomendação inclui uma ação focada na causa (elaboração de rotinas e normas escritas), mas não considerou adequadamente que a ação de acompanhamento e fiscalização é focada na condição. Para o critério 'Efeitos Duradouros', a análise foi baseada na ação focada na causa, mas a avaliação da durabilidade poderia ser mais precisa.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1412,
+    "completion_tokens": 153,
+    "total_tokens": 1565,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 4
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

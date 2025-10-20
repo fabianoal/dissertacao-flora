@@ -1,0 +1,28 @@
+{
+  "id": "1e3564fb-5a82-4ad2-9a15-fe9404064bbd",
+  "object": "chat.completion",
+  "created": 1760460117,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identifica corretamente que a recomendação aborda a causa da fragilidade nos mecanismos de controle, que é a falta de um sistema estruturado e compartilhado, ao propor a implementação de medidas para garantir o adequado monitoramento clínico e evitar controles manuais e locais. Para o critério 'Efeitos Duradouros', a análise do modelo argumenta que a implementação de um sistema adequado de monitoramento, conforme a portaria, cria processos padronizados que permanecem independentemente de mudanças nos atores, o que é consistente com a definição de efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1225,
+    "completion_tokens": 198,
+    "total_tokens": 1423,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 329
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

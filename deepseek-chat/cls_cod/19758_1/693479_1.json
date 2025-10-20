@@ -1,0 +1,28 @@
+{
+  "id": "a30963af-fe2a-487e-bbd9-5fcf167ea966",
+  "object": "chat.completion",
+  "created": 1760038204,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere adequar a estrutura física para resolver a condição encontrada de não conformidade com os requisitos mínimos, caracterizando uma ação corretiva. No entanto, a recomendação se limita a citar o cumprimento de normativos existentes sem propor ações específicas para tratar a causa subjacente que permitiu a ocorrência da condição, como falhas em processos de planejamento ou manutenção. Portanto, não há uma ação com foco na causa além do genérico cumprimento de normas.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1249,
+    "completion_tokens": 163,
+    "total_tokens": 1412,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 225
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

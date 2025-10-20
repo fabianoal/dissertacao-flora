@@ -1,0 +1,28 @@
+{
+  "id": "b7b629cb-0145-4ff6-8788-4ed57520374c",
+  "object": "chat.completion",
+  "created": 1760384962,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação não propõe ações específicas para tratar a causa da discrepância entre os dados inseridos no SIA e os registros hospitalares, limitando-se a solicitar conhecimento da constatação e adoção de procedimentos genéricos de controle, monitoramento e avaliação. Não há menção a ações que abordem as causas subjacentes do problema, como falhas nos processos de registro, capacitação de pessoal ou integração de sistemas. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1083,
+    "completion_tokens": 182,
+    "total_tokens": 1265,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 123
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

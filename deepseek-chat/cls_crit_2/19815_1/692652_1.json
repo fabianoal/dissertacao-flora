@@ -1,0 +1,28 @@
+{
+  "id": "783d7db7-b171-4b66-976a-5d79f139071a",
+  "object": "chat.completion",
+  "created": 1760465521,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a adoção de medidas para estruturar os instrumentos de gestão de forma a incluir informações sobre resultados dos programas, como o PNI, o que aborda a causa raiz da falta de informações (estrutura inadequada dos instrumentos) e não apenas corrige a condição atual. Portanto, concordo com a classificação 'Sim'. Quanto ao critério 'Efeitos Duradouros', a recomendação estabelece um processo contínuo baseado em normativos, que deve persistir independentemente de mudanças nos atores, promovendo efeitos duradouros. Assim, também concordo com a classificação 'Sim'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1324,
+    "completion_tokens": 203,
+    "total_tokens": 1527,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 428
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "bd69757e-77f8-4850-8a70-cddbadb8ab47",
+  "object": "chat.completion",
+  "created": 1760036924,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere uma ação corretiva ao propor a capacitação dos profissionais para corrigir os registros incompletos. Além disso, inclui uma ação com foco na causa ao enfatizar a importância da identificação e cumprimento de normativos legais, mas não propõe ações específicas além do mero cumprimento, sendo genérica. Como a ação de foco na causa é genérica, os efeitos duradouros não se aplicam de forma sustentável.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1242,
+    "completion_tokens": 152,
+    "total_tokens": 1394,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 218
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

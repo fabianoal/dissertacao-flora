@@ -1,0 +1,28 @@
+{
+  "id": "2ecc1d27-03a2-4f9d-a37b-85695763c8a3",
+  "object": "chat.completion",
+  "created": 1760467581,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a implementação de mecanismos de controle e medidas de segurança para prontuários eletrônicos, o que aborda diretamente as causas das falhas de gestão na segurança e acesso, como a ausência de políticas e procedimentos estruturados, em vez de apenas corrigir condições específicas. Para o critério 'Efeitos Duradouros', as ações sugeridas, como estabelecer controles permanentes e conformidade legal, criam estruturas que podem manter a eficácia mesmo com mudanças de pessoal, desde que implementadas adequadamente.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1273,
+    "completion_tokens": 183,
+    "total_tokens": 1456,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 377
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

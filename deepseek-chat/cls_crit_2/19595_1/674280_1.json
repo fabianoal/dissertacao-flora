@@ -1,0 +1,28 @@
+{
+  "id": "5967326f-9c25-49b7-a3c3-9bca103b497a",
+  "object": "chat.completion",
+  "created": 1760455597,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identifica corretamente que a capacitação de profissionais aborda a causa subjacente (falta de conhecimento ou prática inadequada), mas não considera que a segunda parte da recomendação (atender ao artigo 12-C da Portaria) é focada na condição atual (cálculo do incentivo financeiro), não na causa. Para 'Efeitos Duradouros', a análise assume que a capacitação gera práticas sustentáveis, mas isso depende da continuidade do treinamento e da adesão dos profissionais, o que pode não ser garantido com mudanças na equipe.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1316,
+    "completion_tokens": 188,
+    "total_tokens": 1504,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 420
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ae0c98ee-58ff-4fb7-815a-42e9c214936c",
+  "object": "chat.completion",
+  "created": 1760399988,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe comprovar a realização de visitas técnicas ou providenciá-las se ainda não realizadas, focando na correção da condição específica de falta de documentação comprobatória. Não há menção a ações que abordem a causa subjacente da não realização das visitas, como falhas em processos, capacitação ou recursos. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1106,
+    "completion_tokens": 166,
+    "total_tokens": 1272,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 274
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

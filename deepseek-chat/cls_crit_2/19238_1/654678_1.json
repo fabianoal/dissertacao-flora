@@ -1,0 +1,28 @@
+{
+  "id": "6a88b055-c5f6-4196-bd8a-4de3804433d2",
+  "object": "chat.completion",
+  "created": 1760451284,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação possui duas partes distintas e avaliou adequadamente o foco de cada uma. No entanto, a conclusão sobre o critério 'Foco Causa' merece uma análise mais aprofundada sobre qual é a causa raiz do problema identificado na constatação.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1307,
+    "completion_tokens": 117,
+    "total_tokens": 1424,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 411
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

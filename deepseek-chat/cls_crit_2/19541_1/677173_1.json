@@ -1,0 +1,28 @@
+{
+  "id": "1af7df96-5441-496b-8d16-1fa34ae45211",
+  "object": "chat.completion",
+  "created": 1760454309,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise Crítica\": \"A análise da codificação está correta ao identificar que a recomendação se concentra na correção da condição imediata (falta de documentação) sem abordar causas subjacentes, como falhas processuais ou de controle. No entanto, a recomendação pode ter efeitos duradouros se implementada adequadamente, mas isso não é avaliado devido à ausência de foco na causa.\",\n  \"Análise Foco Causa\": \"Concordo\",\n  \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1246,
+    "completion_tokens": 128,
+    "total_tokens": 1374,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 350
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

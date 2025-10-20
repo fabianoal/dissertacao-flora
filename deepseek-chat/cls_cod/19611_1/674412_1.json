@@ -1,0 +1,28 @@
+{
+  "id": "7b29680a-342d-4f34-8a59-b291f707e001",
+  "object": "chat.completion",
+  "created": 1760037544,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere notificar a convenente para inserir documentação comprobatória no Transferegov, o que visa resolver diretamente a condição de ausência de comprovação, caracterizando uma ação corretiva. No entanto, não propõe nenhuma ação adicional para tratar a causa subjacente que permitiu essa ausência, como melhorias em processos de controle ou capacitação, limitando-se a exigir o cumprimento de um normativo existente.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se Aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1161,
+    "completion_tokens": 152,
+    "total_tokens": 1313,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 137
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

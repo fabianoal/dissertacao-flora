@@ -1,0 +1,28 @@
+{
+  "id": "01fdd182-e37e-4548-aed0-2293aa378d2a",
+  "object": "chat.completion",
+  "created": 1760384347,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações para corrigir a condição imediata (anexar exames de imagem aos prontuários) e estabelecer medidas de longo prazo para prevenir a reincidência, como a atuação de comissões de revisão, avaliações frequentes e conformidade com normas de gestão documental. No entanto, não identifica ou aborda explicitamente a causa raiz da falta de exames (ex.: falhas no processo de solicitação, capacitação da equipe ou recursos). Quanto aos efeitos duradouros, as ações sugeridas (como a atuação contínua das comissões e conformidade legal) são estruturantes e tendem a persistir independentemente de mudanças nos atores envolvidos, mas como o critério 'Foco Causa' não foi atendido, este critério não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1589,
+    "completion_tokens": 235,
+    "total_tokens": 1824,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 757
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

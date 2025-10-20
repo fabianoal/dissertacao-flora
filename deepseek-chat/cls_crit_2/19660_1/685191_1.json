@@ -1,0 +1,28 @@
+{
+  "id": "cc9e7f69-4849-4301-a9e8-d5c1fe1cdd91",
+  "object": "chat.completion",
+  "created": 1760459013,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações que visam estabelecer um processo estruturado de identificação e acompanhamento da população com diabetes, incluindo agendamento de consultas e orientações, o que aborda a causa subjacente da não adoção das ações previstas na nota técnica. Quanto ao critério 'Efeitos Duradouros', as ações sugeridas, como planejamento de melhorias e garantia de exames padronizados, baseiam-se em diretrizes institucionais que podem persistir independentemente de mudanças nos atores, embora a implementação dependa de adesão contínua.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1262,
+    "completion_tokens": 193,
+    "total_tokens": 1455,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 366
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

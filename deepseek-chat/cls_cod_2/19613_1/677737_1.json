@@ -1,0 +1,28 @@
+{
+  "id": "14687344-2d43-4e08-b12d-5f36c49f073e",
+  "object": "chat.completion",
+  "created": 1760390118,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe que o DAPSI elabore e insira os relatórios de monitoramento no Transferegov, o que visa corrigir a condição específica de ausência desses relatórios, sem abordar as causas subjacentes que levaram a essa ausência (como falhas processuais, capacitação insuficiente ou falta de recursos). Portanto, a recomendação é focada na condição, não na causa. Como o critério 'Foco Causa' não é atendido, não se aplica a avaliação de efeitos duradouros.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 976,
+    "completion_tokens": 174,
+    "total_tokens": 1150,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 144
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

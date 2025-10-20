@@ -1,0 +1,28 @@
+{
+  "id": "a51b0bd1-d91b-47a1-bb4c-d92d5d425a3f",
+  "object": "chat.completion",
+  "created": 1760398328,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação se limita a citar a necessidade de cumprir dispositivos normativos específicos sobre registro de informações, sem propor ações que abordem as causas subjacentes à falta de coleta detalhada e atualizada dos registros (como falhas de capacitação, recursos insuficientes ou problemas de processo). Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, esta análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1079,
+    "completion_tokens": 148,
+    "total_tokens": 1227,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 247
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

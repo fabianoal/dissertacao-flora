@@ -1,0 +1,28 @@
+{
+  "id": "e12be866-454e-403c-ace1-e8a3e392a2f1",
+  "object": "chat.completion",
+  "created": 1760394412,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a elaboração de um plano de ação para implantar a nova APAC de diálise e efetivar a coleta sistemática de dados de indicadores de qualidade, pactuando metas específicas. Essas ações visam estabelecer um sistema estruturado de monitoramento e avaliação, o que trata diretamente a causa do problema (ausência de indicadores nos documentos descritivos que prejudica o monitoramento), configurando-se como foco na causa. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um sistema formal de coleta de dados e pactuação de metas cria processos institucionais que devem permanecer independentemente de mudanças nos atores envolvidos, pois estão baseados em normativas e procedimentos estabelecidos, caracterizando efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1605,
+    "completion_tokens": 220,
+    "total_tokens": 1825,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 773
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

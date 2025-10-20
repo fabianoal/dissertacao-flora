@@ -1,0 +1,28 @@
+{
+  "id": "d67b6e62-bfeb-4156-99f9-309905aed832",
+  "object": "chat.completion",
+  "created": 1760394993,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a finalização e elaboração de instrumentos de gestão (PAS e RDQA) para atender diretrizes do planejamento no SUS, o que visa tratar a causa do problema, que é a ausência ou insuficiência desses instrumentos, em vez de apenas corrigir a condição atual de falta de informações. Já em relação aos efeitos pretendidos pela recomendação, a implementação de instrumentos de gestão estruturados tende a criar processos contínuos de planejamento e monitoramento, cujos efeitos podem persistir mesmo com mudanças nos atores envolvidos, devido à institucionalização dessas práticas.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1031,
+    "completion_tokens": 188,
+    "total_tokens": 1219,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 199
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

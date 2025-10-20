@@ -1,0 +1,28 @@
+{
+  "id": "b98b1f1e-0107-4284-9b13-39223639e75b",
+  "object": "chat.completion",
+  "created": 1760394184,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a devolução de recursos financeiros ao Fundo Nacional de Saúde devido à incompatibilidade entre os dados de produção inseridos no SIA/SUS e a produção efetivamente executada. Esta ação visa corrigir a condição específica de irregularidade financeira identificada, tratando diretamente a consequência do problema (devolução do valor indevidamente recebido), mas não aborda as causas subjacentes que levaram à incompatibilidade dos dados, como possíveis falhas nos processos de registro, controle ou supervisão da produção. Portanto, a recomendação tem foco na condição encontrada, não na causa raiz do problema. Como o critério 'Foco Causa' não é atendido, a análise do critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1078,
+    "completion_tokens": 218,
+    "total_tokens": 1296,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 246
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

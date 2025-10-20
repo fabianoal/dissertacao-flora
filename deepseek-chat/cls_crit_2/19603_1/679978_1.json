@@ -1,0 +1,28 @@
+{
+  "id": "5e3c3870-432d-44d7-86d1-00acd03a0e73",
+  "object": "chat.completion",
+  "created": 1760455845,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe capacitação e treinamento em serviço para toda a equipe do SAMU 192, o que visa tratar a causa do problema (falta de participação comprovada nos cursos de educação permanente) ao assegurar que os profissionais estejam habilitados e atualizados. Já em relação ao critério 'Efeitos Duradouros', a capacitação e o treinamento em serviço estabelecem processos contínuos de educação, cujos benefícios persistem independentemente de mudanças nos atores envolvidos, pois estão institucionalizados por meio do Núcleo de Educação em Urgências.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1413,
+    "completion_tokens": 195,
+    "total_tokens": 1608,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 517
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "418ad9d5-93c0-44c1-a1bb-dd2ddc84f381",
+  "object": "chat.completion",
+  "created": 1760452564,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta em identificar que a recomendação aborda a causa raiz da constatação, que é a ausência de protocolos estabelecidos, e que a implementação de protocolos formais tende a gerar efeitos duradouros. No entanto, é importante considerar que a recomendação é genérica e não especifica ações concretas para assegurar que os protocolos sejam efetivamente elaborados, pactuados e adotados, o que poderia impactar a avaliação dos critérios.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1226,
+    "completion_tokens": 160,
+    "total_tokens": 1386,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 330
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

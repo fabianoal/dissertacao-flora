@@ -1,0 +1,28 @@
+{
+  "id": "f42535df-dca3-4ee2-ac2c-2692e96a6204",
+  "object": "chat.completion",
+  "created": 1760392366,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"A recomendação propõe a ação de manter os dados cadastrados e atualizados no CNES, o que visa corrigir a condição específica de ausência de cadastro do STDAH. No entanto, não há menção a ações que abordem a causa subjacente desse problema, como falhas em processos internos de cadastro ou falta de treinamento. Portanto, o foco está na correção da condição atual, não na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n   \"Foco Causa\": \"Não\",\n   \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 992,
+    "completion_tokens": 166,
+    "total_tokens": 1158,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 160
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

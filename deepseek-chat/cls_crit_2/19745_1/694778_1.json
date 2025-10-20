@@ -1,0 +1,28 @@
+{
+  "id": "fe22bce0-eaae-4bc9-9110-70c14f3cba0d",
+  "object": "chat.completion",
+  "created": 1760462881,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda diretamente a causa da constatação, que é a ausência de documentação padronizada para o processo logístico da Rede de Frios, propondo a criação de um POP. Quanto ao critério 'Efeitos Duradouros', a implementação de um POP estabelece um procedimento formal que deve persistir independentemente de mudanças na equipe, assegurando continuidade e padronização.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1302,
+    "completion_tokens": 152,
+    "total_tokens": 1454,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 406
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

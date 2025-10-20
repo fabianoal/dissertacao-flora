@@ -1,0 +1,28 @@
+{
+  "id": "c844d1c1-9046-4488-bafd-85b839222a8a",
+  "object": "chat.completion",
+  "created": 1760389434,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe uma ação específica (inserir relatórios no Transferegov) para corrigir a condição imediata de ausência dos relatórios, mas não identifica ou aborda a causa subjacente que levou à não inserção desses relatórios, como falhas de processo, falta de capacitação ou recursos insuficientes. Portanto, a recomendação é focada na condição, não na causa. Já em relação aos efeitos pretendidos, como o critério 'Foco Causa' não foi atendido, não se aplica a análise de efeitos duradouros.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 950,
+    "completion_tokens": 183,
+    "total_tokens": 1133,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 118
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

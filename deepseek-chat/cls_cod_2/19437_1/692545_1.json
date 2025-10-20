@@ -1,0 +1,28 @@
+{
+  "id": "bafb73e9-73f4-439e-9516-d16f49597ea4",
+  "object": "chat.completion",
+  "created": 1760385543,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que visam garantir o cumprimento de normas específicas (informar alterações nas tabelas à CIB e utilizar recursos próprios para complementação), mas não identifica ou trata as causas subjacentes que levaram ao não cumprimento dessas obrigações, como falhas em processos internos ou capacitação. Já em relação aos efeitos pretendidos pela recomendação, como o critério 'Foco Causa' não foi atendido, não se aplica a análise de efeitos duradouros.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1184,
+    "completion_tokens": 161,
+    "total_tokens": 1345,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 352
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

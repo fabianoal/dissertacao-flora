@@ -1,0 +1,28 @@
+{
+  "id": "de2da501-6ef2-4f70-b676-ba48e33fffea",
+  "object": "chat.completion",
+  "created": 1760035836,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere uma ação corretiva ao orientar a conferência da documentação comprobatória para evitar danos ao erário, o que visa resolver a condição encontrada de impropriedades no processo de cotação. No entanto, a ação proposta é genérica, pois se limita a orientar o cumprimento de procedimentos normativos (conferência de documentação) sem especificar medidas concretas para tratar a causa raiz, como implementação de controles adicionais ou treinamentos. Como a ação de foco na causa é genérica, os efeitos duradouros não são avaliados positivamente.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1184,
+    "completion_tokens": 188,
+    "total_tokens": 1372,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 160
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

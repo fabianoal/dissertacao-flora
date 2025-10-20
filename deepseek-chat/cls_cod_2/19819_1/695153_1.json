@@ -1,0 +1,28 @@
+{
+  "id": "4201389a-ed88-4054-960e-9c561022016d",
+  "object": "chat.completion",
+  "created": 1760398188,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe campanhas educativas para combater estigmas e preconceitos, o que visa tratar a causa subjacente (falta de informação e concepções errôneas) que gera a condição de não desenvolvimento de atividades no território. Já em relação aos efeitos pretendidos pela recomendação, as campanhas educativas buscam mudanças culturais e de percepção na comunidade, cujos efeitos (como a desmistificação de transtornos mentais) tendem a persistir mesmo com mudanças nos atores envolvidos, pois se consolidam no conhecimento coletivo.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1061,
+    "completion_tokens": 174,
+    "total_tokens": 1235,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 229
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

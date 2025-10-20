@@ -1,0 +1,28 @@
+{
+  "id": "10d85b79-2668-46c3-a62c-17826d1d7433",
+  "object": "chat.completion",
+  "created": 1760387722,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações como implementar a rede de cuidados, ampliar ambulatórios pré-dialíticos e fortalecer a interface entre atenção especializada e básica, que visam tratar as causas estruturais do problema (fluxo inadequado e início não programado da TRS), não apenas corrigir condições pontuais. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas (como implementação de rede estruturada, ampliação de ambulatórios e fortalecimento da monitorização) criam mecanismos e estruturas permanentes que devem persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1079,
+    "completion_tokens": 187,
+    "total_tokens": 1266,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 247
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

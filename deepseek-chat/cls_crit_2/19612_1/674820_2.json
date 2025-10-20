@@ -1,0 +1,28 @@
+{
+  "id": "2255b808-bbf2-484f-9b44-58a213ec6f19",
+  "object": "chat.completion",
+  "created": 1760456729,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe uma ação de conferência documental para evitar a manutenção de informações incorretas, o que aborda a causa das impropriedades nos relatórios mensais, sendo adequada a classificação como 'Sim'. Quanto ao critério 'Efeitos Duradouros', a ação de conferência, se institucionalizada como processo contínuo, pode gerar efeitos duradouros independentemente de mudanças nos atores, justificando a classificação como 'Sim'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1200,
+    "completion_tokens": 169,
+    "total_tokens": 1369,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 176
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

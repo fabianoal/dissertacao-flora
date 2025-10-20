@@ -1,0 +1,28 @@
+{
+  "id": "3da7cba3-432d-48a8-9a84-8c0c755432a5",
+  "object": "chat.completion",
+  "created": 1760458285,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe estabelecer medidas para assegurar a realização de exames pré e pós-operatórios conforme normativos, o que pode ser interpretado como uma ação que visa prevenir a reincidência da falta de anexação, abordando possíveis falhas processuais. No entanto, a recomendação não especifica claramente ações diretas para tratar a causa raiz (ex: capacitação, revisão de processos, implementação de controles sistemáticos), focando mais na conformidade com documentos existentes. Para o critério 'Efeitos Duradouros', se a causa não for adequadamente abordada, a institucionalização baseada em manuais pode não garantir efetividade duradoura sem mudanças culturais ou estruturais.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1330,
+    "completion_tokens": 221,
+    "total_tokens": 1551,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 370
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

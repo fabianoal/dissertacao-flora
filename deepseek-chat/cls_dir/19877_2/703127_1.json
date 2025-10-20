@@ -1,0 +1,28 @@
+{
+  "id": "84e7d63f-82ab-4277-8c27-a0689edc40d2",
+  "object": "chat.completion",
+  "created": 1759367534,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação não identifica a causa que levou à cobrança indevida, limitando-se a exigir conformidade com normas existentes. Não há menção a fatores institucionais subjacentes (como falhas em processos, treinamento inadequado ou controles internos deficientes) que permitiram a ocorrência do erro. As ações propostas são corretivas e reativas, focadas na condição específica identificada, sem evidência de que as mudanças perdurariam no tempo ou evitariam recorrências por meio de transformações estruturais.\",\n    \"categoria\": \"foco-condicao\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1459,
+    "completion_tokens": 151,
+    "total_tokens": 1610,
+    "prompt_tokens_details": {
+      "cached_tokens": 1216
+    },
+    "prompt_cache_hit_tokens": 1216,
+    "prompt_cache_miss_tokens": 243
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

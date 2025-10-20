@@ -1,0 +1,28 @@
+{
+  "id": "1d9bf996-00dc-4726-83a9-37cfdb8fb4e2",
+  "object": "chat.completion",
+  "created": 1760466629,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo parece correta ao identificar que a recomendação aborda a causa raiz da falta de formalização legal. Quanto ao critério 'Efeitos Duradouros', há uma superestimação da durabilidade dos efeitos, pois a mera publicação não garante continuidade sem mecanismos de sustentabilidade.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1253,
+    "completion_tokens": 128,
+    "total_tokens": 1381,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 357
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

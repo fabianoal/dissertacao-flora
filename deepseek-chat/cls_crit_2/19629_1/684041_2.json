@@ -1,0 +1,28 @@
+{
+  "id": "42c4b596-8f75-4254-a483-a4248f1412ef",
+  "object": "chat.completion",
+  "created": 1760458469,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a implantação de uma rotina para inserção de cópias de notas fiscais nos prontuários, o que aborda diretamente a causa do problema (falta de um processo sistemático), e concordo com a classificação 'Sim'. Para 'Efeitos Duradouros', a rotina institucionalizada pode persistir com mudanças de pessoal, mas depende da adesão contínua e supervisão; discordo da certeza absoluta, pois a implementação pode variar.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1314,
+    "completion_tokens": 171,
+    "total_tokens": 1485,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 354
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

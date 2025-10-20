@@ -1,0 +1,28 @@
+{
+  "id": "02587fae-9842-4d84-be9e-a8f8ce5127ca",
+  "object": "chat.completion",
+  "created": 1760459813,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identificou corretamente que a recomendação não aborda a causa raiz da não disponibilização da FPO, focando apenas na correção da condição imediata. Quanto ao critério 'Efeitos Duradouros', a não aplicação está adequada, dado que o primeiro critério não foi atendido.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1357,
+    "completion_tokens": 132,
+    "total_tokens": 1489,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 461
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

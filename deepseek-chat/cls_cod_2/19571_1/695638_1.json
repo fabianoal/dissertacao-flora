@@ -1,0 +1,28 @@
+{
+  "id": "dd5fa86b-240f-4c9b-aaba-11ce838f610a",
+  "object": "chat.completion",
+  "created": 1760388266,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe que o gestor oriente o prestador a adotar providências para o adequado dimensionamento de nutricionistas, o que visa corrigir a causa subjacente da falta de profissionais (estrutura inadequada de pessoal), em vez de apenas tratar sintomas temporários. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um dimensionamento adequado, conforme parâmetros estabelecidos, cria uma estrutura organizacional que deve persistir independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1182,
+    "completion_tokens": 167,
+    "total_tokens": 1349,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 350
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

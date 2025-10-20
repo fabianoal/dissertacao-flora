@@ -1,0 +1,28 @@
+{
+  "id": "5c40afa0-3121-4896-9d3a-0c74c6e4ed74",
+  "object": "chat.completion",
+  "created": 1760457769,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda diretamente as causas do problema ao propor o cumprimento de procedimentos específicos de recebimento e conferência, a devolução de produtos não conformes e o estabelecimento de controles internos e governança, que visam prevenir a recorrência de recebimento de OPME vencidas. Quanto ao critério 'Efeitos Duradouros', as medidas de implementação de controles internos e política de governança criam estruturas e processos permanentes, que devem persistir independentemente de mudanças nos atores envolvidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1591,
+    "completion_tokens": 182,
+    "total_tokens": 1773,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 695
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

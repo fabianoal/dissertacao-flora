@@ -1,0 +1,28 @@
+{
+  "id": "6456fe8c-4bf3-437d-adb9-352a195368a3",
+  "object": "chat.completion",
+  "created": 1760035500,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a citar dispositivos normativos que estabelecem responsabilidades gerais sobre cadastramento e fiscalização no CNES, sem propor ações específicas para corrigir a condição encontrada (cadastros desatualizados) ou para tratar a causa que permitiu essa condição. Não há menção a medidas concretas como atualização dos cadastros, implementação de processos de revisão periódica ou capacitação de responsáveis.\",\n    \"Ação Corretiva\": \"Não\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1242,
+    "completion_tokens": 148,
+    "total_tokens": 1390,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 218
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

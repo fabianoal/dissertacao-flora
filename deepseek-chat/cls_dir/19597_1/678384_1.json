@@ -1,0 +1,28 @@
+{
+  "id": "2bf0c287-b834-488d-8eed-e98ffe979dbb",
+  "object": "chat.completion",
+  "created": 1759367706,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação direciona-se à apresentação de documentação fiscal comprobatória específica para as aquisições de medicamentos, visando corrigir a condição imediata de falta de registro de estoque. Não identifica a causa subjacente que levou à não apresentação do documento (como falhas em processos de controle interno, ausência de sistemas de gestão de estoque ou capacitação inadequada), não está situada no nível institucional (pois se limita a uma ação pontual de fornecer documentos) e as transformações produzidas são temporárias (corrigindo apenas a condição atual sem modificar estruturas ou processos para prevenir recorrências).\",\n    \"categoria\": \"foco-condicao\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1474,
+    "completion_tokens": 171,
+    "total_tokens": 1645,
+    "prompt_tokens_details": {
+      "cached_tokens": 1216
+    },
+    "prompt_cache_hit_tokens": 1216,
+    "prompt_cache_miss_tokens": 258
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

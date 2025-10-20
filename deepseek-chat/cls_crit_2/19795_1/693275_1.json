@@ -1,0 +1,28 @@
+{
+  "id": "f8e3c379-9d14-46ff-85d2-aa2ce96a99ff",
+  "object": "chat.completion",
+  "created": 1760464722,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação claramente propõe o desenvolvimento e implementação de um Plano de Gerenciamento de Resíduos Sólidos (PGRSS), que é uma ação estrutural para tratar a causa raiz da ausência de controle adequado sobre resíduos, e não apenas uma correção temporária da condição encontrada. Quanto ao critério 'Efeitos Duradouros', o PGRSS, uma vez implementado, estabelece procedimentos e diretrizes permanentes que devem persistir independentemente de mudanças nos atores envolvidos, pois estão institucionalizados no plano.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1305,
+    "completion_tokens": 186,
+    "total_tokens": 1491,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 409
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

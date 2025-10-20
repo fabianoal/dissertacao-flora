@@ -1,0 +1,28 @@
+{
+  "id": "a5caad97-5fb4-4258-a8d0-b9ff5b680721",
+  "object": "chat.completion",
+  "created": 1760036104,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere a criação de um plano anual de capacitação para habilitar servidores, o que constitui uma ação corretiva para resolver a condição de falta de treinamentos regulares. Além disso, propõe a elaboração de um relatório de execução, que visa monitorar a implementação. No entanto, a ação com foco na causa é genérica, pois se limita a referenciar o cumprimento de um manual normativo sem especificar ações concretas além disso, como a definição de conteúdos ou métodos de treinamento. Como a ação foco causa é genérica, os efeitos duradouros não são avaliados como presentes.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1203,
+    "completion_tokens": 193,
+    "total_tokens": 1396,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 179
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

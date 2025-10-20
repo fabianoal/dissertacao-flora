@@ -1,0 +1,28 @@
+{
+  "id": "52e1e99c-39ae-47b5-be55-39f5130fc650",
+  "object": "chat.completion",
+  "created": 1760467525,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a operacionalização das comissões, o que pode ser interpretado como uma ação para tratar a causa da não comprovação da operacionalização, mas não necessariamente aborda as causas subjacentes (como falta de recursos, capacitação ou normativas) que impediram a operacionalização inicial. Para o critério 'Efeitos Duradouros', a implementação de uma comissão institucionalizada tende a criar estruturas permanentes, mas a análise não considera se a recomendação inclui medidas para garantir a sustentabilidade independente de mudanças de pessoal.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1217,
+    "completion_tokens": 187,
+    "total_tokens": 1404,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 321
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

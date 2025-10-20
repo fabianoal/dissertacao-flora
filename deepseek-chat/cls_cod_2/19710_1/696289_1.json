@@ -1,0 +1,28 @@
+{
+  "id": "adcd2ae3-2bd9-4e1a-b7ff-acedb16bf3a9",
+  "object": "chat.completion",
+  "created": 1760394297,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a adequação da infraestrutura (recursos humanos, estrutura física, materiais e equipamentos) para atender aos requisitos mínimos estabelecidos, o que visa tratar a causa raiz da incapacidade técnica e operacional instalada. Já em relação aos efeitos pretendidos pela recomendação, a adequação da infraestrutura tende a criar condições permanentes que independem de mudanças nos atores envolvidos, estabelecendo padrões estruturais duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1124,
+    "completion_tokens": 151,
+    "total_tokens": 1275,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 292
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

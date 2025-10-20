@@ -1,0 +1,28 @@
+{
+  "id": "fb93a227-7a32-45c4-bde0-bb58c036d8c7",
+  "object": "chat.completion",
+  "created": 1760391770,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação 1 trata da restituição de valores recebidos indevidamente, focando na correção da condição financeira irregular identificada, sem propor ações para prevenir a inserção de informações fictícias no futuro. A recomendação 2 reforça a responsabilidade legal de alimentar os bancos de dados, mas não especifica medidas para tratar as causas da incompatibilidade entre dados informados e produção real, como melhorias em processos de registro ou controle de qualidade. Portanto, não há ações claras voltadas para a causa do problema. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não é atendido, não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1318,
+    "completion_tokens": 187,
+    "total_tokens": 1505,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 422
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

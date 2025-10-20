@@ -1,0 +1,28 @@
+{
+  "id": "bf0fff6a-f499-4f87-a85c-e1e30ffb3fb3",
+  "object": "chat.completion",
+  "created": 1760397528,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação inclui ações que tratam da causa do problema, como a elaboração e implementação de protocolos clínicos e operacionais, capacitações periódicas das equipes, e estabelecimento de parcerias, que visam estruturar e qualificar o atendimento para evitar a recorrência da condição encontrada. Já em relação aos efeitos pretendidos pela recomendação, as ações propostas, como protocolos institucionalizados, capacitações contínuas e parcerias formais, tendem a produzir efeitos duradouros que permanecem mesmo com mudanças nos atores envolvidos, pois estão baseadas em estruturas e processos consolidados.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1166,
+    "completion_tokens": 189,
+    "total_tokens": 1355,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 334
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d4b908d5-fb4b-458b-82ad-49353a0f7d14",
+  "object": "chat.completion",
+  "created": 1760458925,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo considera que as ações propostas (acompanhamento nominal e flexibilização de agenda) não tratam explicitamente da causa raiz do problema, como capacitação ou revisão de protocolos. No entanto, essas ações podem ser interpretadas como abordando causas subjacentes, como falta de monitoramento sistemático e barreiras de acesso, que são fatores causais diretos para o baixo percentual de aferição de pressão arterial. Para o critério 'Efeitos Duradouros', como a avaliação de 'Foco Causa' foi 'Não', a resposta 'Não se aplica' está correta, mas discordo da premissa inicial.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1275,
+    "completion_tokens": 205,
+    "total_tokens": 1480,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 379
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

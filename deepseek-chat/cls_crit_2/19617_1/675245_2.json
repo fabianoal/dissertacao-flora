@@ -1,0 +1,28 @@
+{
+  "id": "1a5c5027-9cae-413a-8c5f-f406c65b9ba4",
+  "object": "chat.completion",
+  "created": 1760457605,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação se concentra em ações de verificação processual contínua sem abordar as causas subjacentes da ausência do contrato. Para o critério 'Efeitos Duradouros', a resposta 'Não se aplica' é apropriada, dado que o primeiro critério não foi atendido.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1285,
+    "completion_tokens": 135,
+    "total_tokens": 1420,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1285
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

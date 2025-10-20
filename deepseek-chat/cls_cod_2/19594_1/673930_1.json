@@ -1,0 +1,28 @@
+{
+  "id": "3d1cdc15-effb-4c15-baa4-80b9e5630c95",
+  "object": "chat.completion",
+  "created": 1760388674,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação sugere melhorar o acesso e a qualidade das ações de saúde para gestantes e atender a recomendações específicas de documentos orientadores, o que indica ações direcionadas a resolver problemas estruturais (como acesso e qualidade) que podem ser causas subjacentes da baixa proporção de consultas pré-natal. No entanto, não há menção explícita a ações que tratem diretamente da causa raiz (ex: falta de capacitação, recursos insuficientes). Quanto aos efeitos duradouros, como as ações propostas (melhorar acesso e qualidade) podem envolver mudanças sistêmicas, os efeitos poderiam persistir com mudanças de atores, mas a falta de especificidade torna incerta a avaliação.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1030,
+    "completion_tokens": 210,
+    "total_tokens": 1240,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 198
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

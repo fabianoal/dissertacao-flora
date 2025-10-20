@@ -1,0 +1,28 @@
+{
+  "id": "a95eb17b-0042-4ccd-8ea5-ed1324d7c322",
+  "object": "chat.completion",
+  "created": 1760388738,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que visam melhorar o processo de acompanhamento e cadastramento de pessoas com diabetes, incluindo capacitação de profissionais e adequação de procedimentos, o que trata das causas subjacentes à baixa performance do indicador, não apenas corrigindo a condição atual. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como capacitação contínua e implementação de protocolos estruturados, tendem a produzir melhorias duradouras que permanecem independentemente de mudanças nos atores envolvidos, pois estão baseadas em mudanças de processos e capacitação institucional.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1418,
+    "completion_tokens": 182,
+    "total_tokens": 1600,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 586
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "21f75f3a-2150-47a0-a7c8-9a4350473520",
+  "object": "chat.completion",
+  "created": 1760400316,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a revisão e aprimoramento dos fluxos internos de solicitação, tramitação e autorização das APACs, o que visa tratar a causa do problema (processos inadequados que permitem o início do tratamento sem autorização formal), e não apenas corrigir a condição específica observada. Já em relação aos efeitos pretendidos pela recomendação, a implementação de fluxos aprimorados tende a criar uma estrutura processual que permanece efetiva mesmo com mudanças nos atores envolvidos, pois se baseia em procedimentos formalizados.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 974,
+    "completion_tokens": 170,
+    "total_tokens": 1144,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 142
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

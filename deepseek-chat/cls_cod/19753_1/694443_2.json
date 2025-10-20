@@ -1,0 +1,28 @@
+{
+  "id": "8b7249b2-7a8f-43f1-97c8-1152e9e2c6af",
+  "object": "chat.completion",
+  "created": 1760037000,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe ações corretivas para atualizar os registros desatualizados, como a criação de procedimentos e um cronograma de revisão, o que atende ao critério de ação corretiva. Para o foco na causa, sugere a instituição de processos de controle e gestão, que visam prevenir a reincidência ao estabelecer práticas sistemáticas, indo além do mero cumprimento normativo, caracterizando uma ação específica. Quanto aos efeitos duradouros, as ações propostas, como procedimentos documentados e cronogramas regulares, são estruturas que podem persistir independentemente de mudanças nos atores envolvidos, promovendo sustentabilidade.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Específica\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1187,
+    "completion_tokens": 204,
+    "total_tokens": 1391,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 163
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d6421a85-558f-49bd-923c-55e829f57745",
+  "object": "chat.completion",
+  "created": 1760391754,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a implementação de ações de monitoramento, acompanhamento e análise da produção ambulatorial, o que visa tratar a causa subjacente da falta de controle e análise, que é a ausência de processos sistemáticos. Isso sugere um foco na causa, pois não apenas corrige a condição atual, mas estabelece práticas para prevenir sua recorrência. Em relação aos efeitos duradouros, as ações recomendadas, como o cumprimento de normas legais e portarias, tendem a criar estruturas e procedimentos permanentes que não dependem de indivíduos específicos, mantendo sua eficácia mesmo com mudanças de pessoal.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1077,
+    "completion_tokens": 178,
+    "total_tokens": 1255,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 245
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

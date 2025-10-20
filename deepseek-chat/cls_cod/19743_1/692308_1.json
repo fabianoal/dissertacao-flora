@@ -1,0 +1,28 @@
+{
+  "id": "2a04a3f1-975b-4a2d-ae49-30116e4e80cb",
+  "object": "chat.completion",
+  "created": 1760037040,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere ações para resolver a condição encontrada, como atualizar o CNES e formalizar a designação do responsável técnico, o que atende ao critério de ação corretiva. No entanto, a ação proposta é baseada no cumprimento de normativos específicos (RDC Nº 63/2011), sem indicar medidas adicionais para abordar a causa subjacente, como a implementação de políticas ou procedimentos contínuos, sendo classificada como genérica para o foco na causa. Como a ação é genérica, os efeitos duradouros não são avaliados positivamente.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1154,
+    "completion_tokens": 183,
+    "total_tokens": 1337,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 130
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

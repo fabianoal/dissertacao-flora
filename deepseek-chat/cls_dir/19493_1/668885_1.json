@@ -1,0 +1,28 @@
+{
+  "id": "66d4db1b-e18d-47aa-990d-0ab44d282d19",
+  "object": "chat.completion",
+  "created": 1759367798,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação aborda três aspectos distintos: (1) devolução de valores, que é uma medida corretiva pontual para a condição específica identificada (falta de comprovação das aquisições); (2) fornecimento de informações ao SNA, que estabelece um procedimento permanente para facilitar futuras auditorias, indicando foco na causa ao criar condições institucionais para o controle contínuo; e (3) guarda documental por 10 anos, que implementa uma política institucional duradoura para prevenir a reincidência do problema. Considerando que dois dos três elementos (fornecimento de informações e guarda documental) atendem aos critérios de identificar causas institucionais e produzir transformações duradouras, e aplicando o critério de desempate para casos mistos, a recomendação é classificada como foco-causa.\",\n    \"categoria\": \"foco-causa\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1853,
+    "completion_tokens": 219,
+    "total_tokens": 2072,
+    "prompt_tokens_details": {
+      "cached_tokens": 1280
+    },
+    "prompt_cache_hit_tokens": 1280,
+    "prompt_cache_miss_tokens": 573
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

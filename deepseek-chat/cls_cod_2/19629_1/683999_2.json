@@ -1,0 +1,28 @@
+{
+  "id": "7b046f16-1b3f-4fc7-a22a-312df2317933",
+  "object": "chat.completion",
+  "created": 1760391566,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação solicita que o hospital forneça informações e facilite o acesso a documentos para atividades de controle e auditoria, mas não propõe ações para tratar a causa raiz da ausência da Comissão Técnica de Auditoria, focando apenas em melhorar a transparência e cooperação com o sistema de auditoria. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 980,
+    "completion_tokens": 148,
+    "total_tokens": 1128,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 84
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

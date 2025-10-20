@@ -1,0 +1,28 @@
+{
+  "id": "74cc2730-f85d-47fe-9a46-2ed740682dde",
+  "object": "chat.completion",
+  "created": 1760038512,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere múltiplas ações. Para a ação corretiva, propõe a criação de um Termo de Compromisso, elaboração de fluxos de encaminhamento, criação de um sistema informatizado e habilitação de unidades de saúde, que visam diretamente resolver a condição de desorganização da rede. Em relação ao foco na causa, a recomendação inclui ações como formalizar acordos e criar sistemas para melhorar a coordenação e gestão, o que aborda causas subjacentes, como falta de integração e planejamento, mas muitas dessas ações são genéricas, pois se limitam a cumprir normativos citados sem detalhar implementação concreta. Para efeitos duradouros, como o foco na causa é genérico, não há garantia de permanência com mudança de atores.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1542,
+    "completion_tokens": 235,
+    "total_tokens": 1777,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 518
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

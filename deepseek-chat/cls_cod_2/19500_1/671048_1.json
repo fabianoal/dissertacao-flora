@@ -1,0 +1,28 @@
+{
+  "id": "fa87a073-f556-4b0e-ac6e-2c950c990ed7",
+  "object": "chat.completion",
+  "created": 1760386394,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a solicitar que o hospital mantenha as notas fiscais no prontuário do paciente, conforme manuais específicos. Esta ação visa corrigir a condição imediata de inconsistência documental, mas não propõe medidas para tratar a causa raiz do problema (como falhas no processo de registro, controle ou reconciliação entre os sistemas). Portanto, não há ação focada na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1017,
+    "completion_tokens": 161,
+    "total_tokens": 1178,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 185
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

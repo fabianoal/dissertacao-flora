@@ -1,0 +1,28 @@
+{
+  "id": "73828b7a-409c-4cc5-9fe0-ea3c6cb638be",
+  "object": "chat.completion",
+  "created": 1760450872,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise fornecida avalia corretamente que a recomendação se concentra em corrigir a condição imediata (falta de apresentação de documentação quando solicitada), sem propor ações que abordem causas subjacentes, como falhas processuais ou de controle. No entanto, a justificativa para 'Efeitos Duradouros' é adequada, pois deriva diretamente da ausência de foco na causa.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1360,
+    "completion_tokens": 139,
+    "total_tokens": 1499,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 464
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

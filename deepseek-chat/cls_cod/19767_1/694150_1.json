@@ -1,0 +1,28 @@
+{
+  "id": "5366c396-086a-4684-aa0e-e04978d978dd",
+  "object": "chat.completion",
+  "created": 1760037240,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere a formalização da Rede Sentinela, o que é uma ação para resolver a condição de ausência identificada, caracterizando uma ação corretiva. No entanto, a recomendação se limita a cumprir normativos específicos sem propor ações adicionais para tratar as causas subjacentes, como falhas de gestão ou capacitação, sendo considerada genérica em foco na causa. Como o foco na causa é genérico, os efeitos duradouros não são avaliados como presentes.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1154,
+    "completion_tokens": 161,
+    "total_tokens": 1315,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 194
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "042a0d01-fdf4-4553-af10-ae6e5928aeac",
+  "object": "chat.completion",
+  "created": 1760458721,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações que visam tratar as causas subjacentes da falta de comprovação das ações, como falhas no processo de realização e registro, e na capacitação dos profissionais, o que justifica a classificação como 'Sim'. Quanto ao critério 'Efeitos Duradouros', as medidas sugeridas, como otimização de processos, aprimoramento de registros e educação continuada, baseiam-se em protocolos e diretrizes que podem estabelecer mudanças estruturais, mas a dependência de implementação contínua e adesão dos profissionais pode limitar a durabilidade dos efeitos sem mudanças culturais ou sistêmicas mais profundas.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1384,
+    "completion_tokens": 209,
+    "total_tokens": 1593,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 488
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

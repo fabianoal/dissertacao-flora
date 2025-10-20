@@ -1,0 +1,28 @@
+{
+  "id": "e7757be7-514a-4c5c-b3aa-08316b7bb1c9",
+  "object": "chat.completion",
+  "created": 1760384646,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"A recomendação propõe a devolução de valores recebidos irregularmente, o que é uma ação para corrigir a condição específica de cobrança indevida, mas não aborda as causas subjacentes, como falhas nos processos de controle ou verificação que permitiram a ocorrência da incompatibilidade. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n   \"Foco Causa\": \"Não\",\n   \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1000,
+    "completion_tokens": 146,
+    "total_tokens": 1146,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 168
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

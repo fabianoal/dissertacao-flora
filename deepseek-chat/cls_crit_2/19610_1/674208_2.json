@@ -1,0 +1,28 @@
+{
+  "id": "ff4bbff0-29e0-4c03-a52c-88b83dd11810",
+  "object": "chat.completion",
+  "created": 1760456253,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda tanto a correção imediata (elaboração de relatórios com base em informações fidedignas) quanto medidas preventivas/corretivas para evitar reincidência, tratando assim a causa subjacente das impropriedades. Quanto ao critério 'Efeitos Duradouros', a padronização baseada em portaria específica cria uma estrutura institucional que deve persistir independentemente de mudanças nas pessoas envolvidas.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1256,
+    "completion_tokens": 159,
+    "total_tokens": 1415,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 360
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

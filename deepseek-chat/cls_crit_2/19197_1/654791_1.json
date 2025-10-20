@@ -1,0 +1,28 @@
+{
+  "id": "c0b36227-3c08-48e4-857e-eaaad751ff57",
+  "object": "chat.completion",
+  "created": 1760451056,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda diretamente a causa da disponibilização incompleta ao propor a disponibilização completa de informações, o que é correto. Para 'Efeitos Duradouros', a recomendação se baseia em um procedimento formal que pode persistir com mudanças de pessoal, mas a análise não considera que a implementação depende de adesão contínua e pode não ser sustentada sem mecanismos adicionais.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1141,
+    "completion_tokens": 151,
+    "total_tokens": 1292,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 245
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

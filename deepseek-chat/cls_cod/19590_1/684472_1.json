@@ -1,0 +1,28 @@
+{
+  "id": "0edc1f81-166a-46fc-8b4f-6e1cb96ea898",
+  "object": "chat.completion",
+  "created": 1760035460,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação inclui duas ações principais: a primeira é promover a sensibilização dos profissionais para fomentar uma cultura organizacional que valorize os registros, o que visa abordar a causa subjacente da falta de atualização, mas é genérica ao não especificar como isso será implementado além de palestras ou oficinas. A segunda ação é registrar os atendimentos, exames e indicadores nos prontuários, o que é uma medida corretiva direta para resolver a condição encontrada de registros desatualizados. A ação de sensibilização, embora focada na causa, não propõe ações concretas específicas além do cumprimento normativo implícito, sendo classificada como genérica. Quanto aos efeitos duradouros, como a ação de foco na causa é genérica, não há garantia de que os efeitos persistiriam com mudanças de atores.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1313,
+    "completion_tokens": 243,
+    "total_tokens": 1556,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 481
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

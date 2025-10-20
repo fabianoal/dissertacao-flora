@@ -1,0 +1,28 @@
+{
+  "id": "a08db72b-13ab-4854-8ec4-e9d8789708c0",
+  "object": "chat.completion",
+  "created": 1760455909,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações para ampliar a cobertura e garantir o acesso às diferentes modalidades de terapia renal substitutiva, o que aborda diretamente a causa da disponibilidade limitada (falta de estrutura/cobertura adequada) e não apenas corrige a condição atual. Quanto ao critério 'Efeitos Duradouros', as ações de ampliação da cobertura e garantia de acesso, se implementadas, criariam uma estrutura permanente no sistema de saúde que persistiria independentemente de mudanças nos atores envolvidos, caracterizando efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1291,
+    "completion_tokens": 185,
+    "total_tokens": 1476,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 395
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "740e124f-1db6-45a5-8172-2437922ff52b",
+  "object": "chat.completion",
+  "created": 1760384795,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a devolução de valores ao Fundo Nacional de Saúde como medida para corrigir a irregularidade financeira identificada, sem abordar as causas subjacentes da ausência de exames de imagenologia nos prontuários. Não há ações sugeridas para prevenir a reincidência do problema, como implementação de protocolos, capacitação de profissionais ou melhorias nos sistemas de registro. Portanto, a recomendação é focada na correção da condição atual (devolução de valores) e não na causa raiz do problema.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1003,
+    "completion_tokens": 158,
+    "total_tokens": 1161,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 171
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

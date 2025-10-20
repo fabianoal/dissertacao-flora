@@ -1,0 +1,28 @@
+{
+  "id": "db87bef7-f03c-4a5b-ad3d-29146040e81f",
+  "object": "chat.completion",
+  "created": 1760386830,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a adoção de medidas para assegurar repasses regulares baseados em relatórios de acompanhamento, focando na correção imediata da discrepância entre pagamentos e metas executadas, sem mencionar ações para tratar as causas subjacentes, como falhas em processos de verificação ou capacitação. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1082,
+    "completion_tokens": 149,
+    "total_tokens": 1231,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 250
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

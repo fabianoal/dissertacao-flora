@@ -1,0 +1,28 @@
+{
+  "id": "df0f7aa9-2c59-46b4-879a-667f5b7f55c2",
+  "object": "chat.completion",
+  "created": 1760388914,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações de educação e sensibilização para aprimorar o acolhimento e a escuta ativa, o que visa tratar a causa do problema (falta de capacitação dos profissionais) em vez de apenas corrigir a condição atual de ausência de acolhimento. Já em relação aos efeitos pretendidos pela recomendação, os conhecimentos e práticas adquiridos por meio da educação tendem a permanecer mesmo com mudanças nos atores envolvidos, pois criam uma cultura organizacional e competências duradouras.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 955,
+    "completion_tokens": 162,
+    "total_tokens": 1117,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "5299aa1a-1ec0-4bc9-b646-c9b89e38a086",
+  "object": "chat.completion",
+  "created": 1759368050,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação foca exclusivamente na correção da condição específica identificada (devolução do valor irregularmente gasto), sem abordar as causas institucionais que permitiram a irregularidade, como falhas nos processos de compra, ausência de controles internos ou capacitação inadequada. A medida proposta é pontual e reativa, sem potencial para produzir transformações duradouras no sistema.\",\n    \"categoria\": \"foco-condicao\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1482,
+    "completion_tokens": 114,
+    "total_tokens": 1596,
+    "prompt_tokens_details": {
+      "cached_tokens": 1280
+    },
+    "prompt_cache_hit_tokens": 1280,
+    "prompt_cache_miss_tokens": 202
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "33890dde-929e-4b6d-9e18-5443740d74a3",
+  "object": "chat.completion",
+  "created": 1760399612,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a criação de um Plano de Ação Corretiva que inclui a identificação dos motivos para a não disponibilização tempestiva dos prontuários (item a), o que demonstra uma abordagem voltada para a causa raiz do problema, e a elaboração de um POP detalhado (item b) e treinamento contínuo (item c), que visam prevenir a recorrência da condição por meio de mudanças estruturais e de capacitação. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como a implementação de um POP, treinamento contínuo e indicadores de desempenho, são institucionalizadas e não dependem de indivíduos específicos, promovendo efeitos duradouros mesmo com mudanças de atores.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1363,
+    "completion_tokens": 223,
+    "total_tokens": 1586,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 531
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

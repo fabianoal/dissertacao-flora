@@ -1,0 +1,28 @@
+{
+  "id": "966f0942-04e4-4beb-aa08-f29cb918d615",
+  "object": "chat.completion",
+  "created": 1760037044,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere realizar ajustes e reformas para corrigir a condição de necessidade de reparos de manutenção, o que caracteriza uma ação corretiva. No entanto, a ação proposta é genérica, limitando-se a cumprir um normativo (Art. 36 da RDC ANVISA n.° 63/2011) sem especificar medidas concretas para abordar a causa subjacente, como falhas em processos de manutenção preventiva ou alocação de recursos. Portanto, não há uma ação específica focada na causa, e os efeitos duradouros não são aplicáveis devido à natureza genérica da recomendação.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1125,
+    "completion_tokens": 191,
+    "total_tokens": 1316,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 165
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a595e358-0c28-414b-9f6b-f6798eaa2baf",
+  "object": "chat.completion",
+  "created": 1760036440,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere ações corretivas, como consultar a plataforma interativa e participar do processo de habilitação, para resolver a condição de falta de serviço habilitado. No entanto, as ações com foco na causa, como participar na formulação de estratégias e fiscalizar a execução, são genéricas, pois se limitam a cumprir normativos sem propor ações concretas específicas. Como o foco na causa é genérico, os efeitos duradouros não se aplicam para avaliação positiva.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1461,
+    "completion_tokens": 162,
+    "total_tokens": 1623,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 437
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

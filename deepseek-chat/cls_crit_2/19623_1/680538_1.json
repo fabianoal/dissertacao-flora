@@ -1,0 +1,28 @@
+{
+  "id": "351ca0a2-66cc-4fb1-84b7-ab325c393121",
+  "object": "chat.completion",
+  "created": 1760457869,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a implementação de monitoramento periódico dos cadastros no CNES para compatibilizar serviços prestados e corpo técnico, o que efetivamente visa tratar a causa subjacente do problema (falta de controle sistemático e contínuo), e não apenas corrigir a condição específica identificada. Quanto ao critério 'Efeitos Duradouros', a recomendação sugere a criação de um processo de monitoramento periódico, que, uma vez implementado, tende a ser mantido independentemente de mudanças nas equipes responsáveis, promovendo assim efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1254,
+    "completion_tokens": 194,
+    "total_tokens": 1448,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 358
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

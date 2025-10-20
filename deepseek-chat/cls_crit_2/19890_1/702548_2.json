@@ -1,0 +1,28 @@
+{
+  "id": "98e2cbba-4a86-4a2f-90f4-b94131308c66",
+  "object": "chat.completion",
+  "created": 1760468373,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações que visam corrigir processos e fluxos de documentação e realizar treinamento da equipe, o que aborda causas sistêmicas e de capacitação por trás da ausência de documentação. Quanto ao critério 'Efeitos Duradouros', a correção de processos e fluxos institucionalizados e o treinamento contínuo podem gerar efeitos duradouros, mas a análise original não diferencia adequadamente entre ações temporárias e permanentes, especialmente considerando que o treinamento pode exigir reforços periódicos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1355,
+    "completion_tokens": 182,
+    "total_tokens": 1537,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 395
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

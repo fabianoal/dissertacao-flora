@@ -1,0 +1,28 @@
+{
+  "id": "18a2a924-66f2-4be8-98fe-7ab5d99e2d0b",
+  "object": "chat.completion",
+  "created": 1760463229,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise Crítica\": \"A análise crítica avalia a classificação fornecida para os critérios 'Foco Causa' e 'Efeitos Duradouros' com base na finalidade da auditoria, constatação e recomendação. A recomendação cita uma obrigação legal sem propor ações que abordem as razões subjacentes para a ausência dos instrumentos de gestão, como falhas em processos ou capacitação.\",\n  \"Análise Foco Causa\": \"Concordo\",\n  \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1230,
+    "completion_tokens": 130,
+    "total_tokens": 1360,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 334
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2682baed-f35a-485b-a5a9-951c44156310",
+  "object": "chat.completion",
+  "created": 1760385238,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a verificação obrigatória de documentos de identificação e prescrição médica durante a dispensação de medicamentos, o que visa prevenir futuras ocorcorrências de dispensação a pessoas falecidas ao tratar a causa raiz (falta de verificação adequada da identidade e elegibilidade do paciente). Quanto aos efeitos duradouros, a implementação dessa medida cria um procedimento padrão que permanece efetivo independentemente de mudanças nos funcionários ou gestores, pois está baseado em requisitos documentais e legais.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 969,
+    "completion_tokens": 166,
+    "total_tokens": 1135,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 137
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

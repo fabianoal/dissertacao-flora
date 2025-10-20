@@ -1,0 +1,28 @@
+{
+  "id": "86543482-bd9a-46b2-9b95-e020532b6627",
+  "object": "chat.completion",
+  "created": 1760384402,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a devolução de recursos federais devido à falta de comprovação da utilização de materiais, o que constitui uma ação para corrigir a condição financeira irregular identificada, mas não aborda as causas subjacentes da falta de comprovação, como falhas em processos de registro, controle interno ou capacitação. Portanto, não há foco na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1218,
+    "completion_tokens": 158,
+    "total_tokens": 1376,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 386
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

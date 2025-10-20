@@ -1,0 +1,28 @@
+{
+  "id": "b25ea0b4-4088-49d2-acb2-a77cedf58813",
+  "object": "chat.completion",
+  "created": 1760448494,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise da classificação foi realizada considerando a definição dos critérios: 'Foco Causa' avalia se a recomendação trata da causa do problema, e 'Efeitos Duradouros' se aplica apenas quando 'Foco Causa' é 'Sim', verificando se os efeitos persistem com mudanças de atores. A constatação aponta ausência de composição e funcionamento do Conselho Municipal de Saúde, e a recomendação direciona à adoção de medidas para cumprir diretrizes legais, o que aborda a causa subjacente de não conformidade normativa.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1200,
+    "completion_tokens": 179,
+    "total_tokens": 1379,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 368
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

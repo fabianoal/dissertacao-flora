@@ -1,0 +1,28 @@
+{
+  "id": "dcaf5b4b-2aca-4589-94bc-5f2a4637c993",
+  "object": "chat.completion",
+  "created": 1760397316,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação estabelece rotina diária para verificação do funcionamento dos equipamentos e disponibiliza normas e procedimentos atualizados, o que visa prevenir a reincidência da falta de rotina verificada, tratando assim a causa do problema. Já em relação aos efeitos pretendidos, a formalização da rotina e a disponibilização permanente de documentos em local visível criam estruturas que devem persistir independentemente de mudanças nos atores envolvidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1138,
+    "completion_tokens": 143,
+    "total_tokens": 1281,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 306
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

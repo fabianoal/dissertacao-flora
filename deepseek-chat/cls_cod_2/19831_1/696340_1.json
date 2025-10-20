@@ -1,0 +1,28 @@
+{
+  "id": "8c4e05cf-ae88-4a0c-bb7b-d29889afb481",
+  "object": "chat.completion",
+  "created": 1760398640,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam da causa do problema, que é a ausência de implementação do PTS na rotina das equipes, estabelecendo critérios, mecanismos de integração e orientações para garantir a participação do paciente. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como implementar na rotina, estabelecer critérios e mecanismos de integração, criam estruturas e processos que permanecem mesmo com mudanças de atores, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1225,
+    "completion_tokens": 163,
+    "total_tokens": 1388,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 393
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "b92eaa13-9d86-491e-8d1e-18eea6267605",
+  "object": "chat.completion",
+  "created": 1760452800,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identifica corretamente que a recomendação trata da causa do problema ao propor ações de acompanhamento, monitoramento e controle para prevenir a reincidência da não aplicação da contrapartida pactuada. No entanto, em relação ao critério 'Efeitos Duradouros', discordo da avaliação do modelo, pois a recomendação não estabelece um sistema ou mecanismo permanente que garanta a continuidade do monitoramento independentemente de mudanças nos atores envolvidos, sendo dependente da ação contínua dos órgãos mencionados.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1269,
+    "completion_tokens": 180,
+    "total_tokens": 1449,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 373
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

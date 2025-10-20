@@ -1,0 +1,28 @@
+{
+  "id": "0757d251-e4a6-47f9-95e1-6cc256da3194",
+  "object": "chat.completion",
+  "created": 1760394420,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a retificação do documento descritivo para especificar que o fornecimento do aporte nutricional deve ser realizado mediante avaliação do nutricionista durante a permanência do paciente na clínica, o que aborda a causa do problema (falta de critérios claros e avaliação profissional) em vez de apenas corrigir a condição imediata. Já em relação aos efeitos pretendidos pela recomendação, a alteração documental estabelece um procedimento permanente que independe dos atores atuais, garantindo que os efeitos se mantenham mesmo com mudanças de pessoal.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1169,
+    "completion_tokens": 175,
+    "total_tokens": 1344,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 337
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

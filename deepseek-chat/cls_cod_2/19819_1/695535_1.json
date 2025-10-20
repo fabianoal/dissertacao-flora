@@ -1,0 +1,28 @@
+{
+  "id": "ca8d498d-62ad-4a16-a031-78012c373ae0",
+  "object": "chat.completion",
+  "created": 1760398192,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a realização de um levantamento de necessidades de treinamento para identificar temas críticos e lacunas, o que visa abordar a causa subjacente da falta de capacitação, que é a ausência de um processo sistemático para detectar e priorizar essas necessidades, em vez de apenas corrigir a condição atual de profissionais não capacitados. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um sistema contínuo de levantamento de necessidades, com a participação da equipe, pode estabelecer uma prática duradoura que permanece eficaz mesmo com mudanças nos atores envolvidos, promovendo educação permanente.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1113,
+    "completion_tokens": 185,
+    "total_tokens": 1298,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 281
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

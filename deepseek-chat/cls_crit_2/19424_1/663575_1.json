@@ -1,0 +1,28 @@
+{
+  "id": "1df47de7-e566-40b3-883e-7cce65d49f12",
+  "object": "chat.completion",
+  "created": 1760452348,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação apenas reforça a obrigação de fornecer documentação quando solicitada, sem abordar a causa raiz da falta de registro adequado do estoque. Para o critério 'Efeitos Duradouros', como 'Foco Causa' foi avaliado como 'Não', a resposta 'Não se aplica' está adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1272,
+    "completion_tokens": 140,
+    "total_tokens": 1412,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 376
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

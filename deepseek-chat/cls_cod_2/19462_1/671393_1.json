@@ -1,0 +1,28 @@
+{
+  "id": "d0ca16b7-6ef3-4bbf-beea-2366d943b04b",
+  "object": "chat.completion",
+  "created": 1760385658,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere a utilização de instrumentos orientativos para qualificar os registros, o que aborda a causa do problema, que é a falta de adesão às diretrizes estabelecidas. No entanto, não propõe ações específicas para garantir que os efeitos perdurem independentemente de mudanças nos atores envolvidos, como a implementação de sistemas de monitoramento contínuo ou treinamentos regulares.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1093,
+    "completion_tokens": 126,
+    "total_tokens": 1219,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 325
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

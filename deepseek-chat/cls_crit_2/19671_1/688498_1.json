@@ -1,0 +1,28 @@
+{
+  "id": "db9d77a6-d08c-49b1-8c20-a73837efab27",
+  "object": "chat.completion",
+  "created": 1760459065,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise original apresenta argumentos consistentes sobre a natureza da recomendação, mas requer uma avaliação mais aprofundada da distinção entre ações corretivas imediatas e preventivas de longo prazo.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1407,
+    "completion_tokens": 93,
+    "total_tokens": 1500,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 575
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

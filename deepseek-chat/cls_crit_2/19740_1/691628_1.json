@@ -1,0 +1,28 @@
+{
+  "id": "dc1744ce-5879-439d-beda-fd761c37fd68",
+  "object": "chat.completion",
+  "created": 1760462653,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a inserção de informações sobre a estrutura do RAG no sistema DigiSUS, o que visa tratar a causa da falta de informações no PNI, que é a ausência de registros adequados. Já em relação ao critério 'Efeitos Duradouros', a implementação de um sistema estruturado de registro (RAG no DigiSUS) tende a criar um processo contínuo e documentado, cujos efeitos (transparência e disponibilidade de informações) devem persistir independentemente de mudanças nos atores envolvidos, pois estão institucionalizados no sistema.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1203,
+    "completion_tokens": 192,
+    "total_tokens": 1395,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 307
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

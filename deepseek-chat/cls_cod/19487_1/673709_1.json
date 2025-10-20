@@ -1,0 +1,28 @@
+{
+  "id": "11539024-663a-4458-b38b-f8a8b2e54cc6",
+  "object": "chat.completion",
+  "created": 1760036216,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere que a SMS adote ações do 'Documento Orientador' e realize consultas odontológicas conforme a Nota Técnica, o que visa corrigir a condição de não atingir a meta do indicador. No entanto, a ação proposta é genérica, limitando-se ao cumprimento de normativos existentes sem especificar medidas adicionais para abordar a causa subjacente, como falhas em processos ou capacitação. Consequentemente, não há indicação de efeitos duradouros, pois a recomendação não estabelece mudanças sistêmicas que persistiriam independentemente de mudanças nos atores envolvidos.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1198,
+    "completion_tokens": 187,
+    "total_tokens": 1385,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 174
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

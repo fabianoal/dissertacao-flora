@@ -1,0 +1,28 @@
+{
+  "id": "427b074e-7de7-44e6-b185-6b9e84e21abb",
+  "object": "chat.completion",
+  "created": 1760463205,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação aborda a causa subjacente da constatação e que os efeitos seriam duradouros, mas merece uma avaliação mais detalhada sobre a natureza da implementação.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1220,
+    "completion_tokens": 99,
+    "total_tokens": 1319,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 324
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

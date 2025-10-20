@@ -1,0 +1,28 @@
+{
+  "id": "71ba2e7a-97ff-4961-be34-e621a1fd345a",
+  "object": "chat.completion",
+  "created": 1760385071,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a devolução de recursos indevidamente faturados, o que constitui uma medida para corrigir a condição específica identificada (faturamento divergente), sem abordar as causas subjacentes que permitiram essa divergência ocorrer, como falhas em processos de controle interno ou sistemas de verificação. Portanto, não há ação focada na causa. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, esta análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1026,
+    "completion_tokens": 161,
+    "total_tokens": 1187,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 194
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

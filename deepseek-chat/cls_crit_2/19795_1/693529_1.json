@@ -1,0 +1,28 @@
+{
+  "id": "adf689e5-23a1-42b7-997e-b4f9c0d8765e",
+  "object": "chat.completion",
+  "created": 1760464693,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação inclui ações que abordam a causa subjacente do problema, como a capacitação do pessoal, que visa prevenir a reincidência da condição inadequada de transporte. Quanto ao critério 'Efeitos Duradouros', a capacitação e a implementação de procedimentos padronizados podem criar estruturas que persistem independentemente de mudanças no pessoal, desde que haja continuidade institucional.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1521,
+    "completion_tokens": 150,
+    "total_tokens": 1671,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 625
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

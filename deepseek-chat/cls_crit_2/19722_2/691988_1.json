@@ -1,0 +1,28 @@
+{
+  "id": "7c85887a-0add-456d-a664-a71b932b7269",
+  "object": "chat.completion",
+  "created": 1760462374,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise Crítica\": \"A análise fornecida avalia corretamente que a recomendação se concentra em corrigir a condição imediata de dados desatualizados, sem propor ações para abordar a causa raiz, como a implementação de processos preventivos. No entanto, a avaliação dos efeitos duradouros está alinhada com a ausência de foco na causa.\",\n  \"Análise Foco Causa\": \"Concordo\",\n  \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1212,
+    "completion_tokens": 121,
+    "total_tokens": 1333,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 316
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

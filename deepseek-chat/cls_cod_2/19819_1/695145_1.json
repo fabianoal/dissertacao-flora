@@ -1,0 +1,28 @@
+{
+  "id": "acefca1a-7cd0-4860-be02-98cb89383e2d",
+  "object": "chat.completion",
+  "created": 1760398177,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"Em relação ao foco, a recomendação propõe ações como acolhimento, orientações claras e espaços de escuta para familiares, que visam abordar a causa subjacente da falta de acompanhamento, promovendo mudanças estruturais na forma como os serviços de saúde interagem com as famílias, em vez de apenas corrigir a condição imediata. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como a implementação de práticas de acolhimento e escuta, tendem a criar processos duradouros que podem persistir independentemente de mudanças nos atores envolvidos, pois se baseiam em diretrizes normativas e abordagens institucionais.\",\n   \"Foco Causa\": \"Sim\",\n   \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1124,
+    "completion_tokens": 192,
+    "total_tokens": 1316,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 292
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

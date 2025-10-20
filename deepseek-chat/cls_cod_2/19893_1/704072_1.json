@@ -1,0 +1,28 @@
+{
+  "id": "2b42381f-0fa4-49f2-9895-4d81778c30e8",
+  "object": "chat.completion",
+  "created": 1760401148,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a citar normativos existentes (Manual de Bases Técnicas da Oncologia, Portaria SAES/MS nº 470/2021 e Lei nº 14.758/2023) sem propor ações específicas para tratar a causa raiz que leva à ausência de APAC concomitante, como falhas nos processos de autorização, capacitação da equipe ou implementação de sistemas de verificação. Portanto, não há ação proposta que trate da causa do problema. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1179,
+    "completion_tokens": 179,
+    "total_tokens": 1358,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 347
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

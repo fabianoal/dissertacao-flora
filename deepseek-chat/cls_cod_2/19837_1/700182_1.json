@@ -1,0 +1,28 @@
+{
+  "id": "f23c496e-3826-4410-8f2e-78da4ae009cd",
+  "object": "chat.completion",
+  "created": 1760398964,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação é genérica e não propõe ações específicas para tratar a causa da incompatibilidade entre os dados inseridos e a produção executada, como falhas nos processos de registro, capacitação de pessoal ou implementação de controles internos. Em vez disso, sugere apenas que a Secretaria adote procedimentos estabelecidos em decreto, sem detalhar se esses procedimentos abordam a causa subjacente. Portanto, não há evidência de foco na causa. Como o critério 'Foco Causa' não é atendido, a avaliação de efeitos duradouros não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1010,
+    "completion_tokens": 170,
+    "total_tokens": 1180,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 178
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

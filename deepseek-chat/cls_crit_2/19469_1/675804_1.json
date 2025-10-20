@@ -1,0 +1,28 @@
+{
+  "id": "17c4b6a9-4e08-443d-94c1-fba61b031cdf",
+  "object": "chat.completion",
+  "created": 1760452712,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise crítica avalia a classificação dos critérios 'Foco Causa' e 'Efeitos Duradouros' com base na descrição fornecida. A recomendação propõe a instituição de instrumentos para garantir eficácia nos tempos de resposta do SAMU 192, alinhando-se a normativos específicos. No critério 'Foco Causa', a ação de instituir instrumentos visa abordar a causa subjacente (falta de processos ou estruturas adequadas) em vez de apenas corrigir sintomas temporários, o que justifica a resposta 'Sim'. Para 'Efeitos Duradouros', a instituição de instrumentos tende a estabelecer mudanças sistêmicas que persistem independentemente de mudanças de pessoal, apoiando a resposta 'Sim'. Ambos os critérios estão corretamente avaliados, com base na descrição da recomendação e sua intenção de criar melhorias duradouras.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1205,
+    "completion_tokens": 256,
+    "total_tokens": 1461,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 309
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

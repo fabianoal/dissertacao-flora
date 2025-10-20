@@ -1,0 +1,28 @@
+{
+  "id": "9f5f058b-1293-4d21-a3c9-1ec80af78b41",
+  "object": "chat.completion",
+  "created": 1760038016,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere a adoção de controles de inspeção com instrumentos de medição adequados para assegurar a preservação das especificações de qualidade dos imunobiológicos, o que visa resolver diretamente a condição encontrada de insuficiência no processo de inspeção. No entanto, a ação proposta é genérica, pois se limita a citar o cumprimento de normativos específicos (RDC n.° 430/2020) sem detalhar medidas concretas além disso, não endereçando explicitamente a causa subjacente que permitiu a ocorrência da condição, como falhas em procedimentos ou capacitação.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1237,
+    "completion_tokens": 195,
+    "total_tokens": 1432,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 213
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

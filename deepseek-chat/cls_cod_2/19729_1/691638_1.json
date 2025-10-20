@@ -1,0 +1,28 @@
+{
+  "id": "5a626c27-3c5f-4fc9-8805-4dcc87072307",
+  "object": "chat.completion",
+  "created": 1760394744,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe manter o quantitativo mínimo de profissionais conforme estabelecido na legislação, o que visa garantir a cobertura adequada dos plantões de forma contínua. Esta ação trata da causa do problema (insuficiência de profissionais) ao estabelecer um padrão permanente de pessoal, em vez de apenas corrigir temporariamente a condição atual. Em relação aos efeitos duradouros, a implementação de um quadro de pessoal mínimo conforme a norma garante que a cobertura adequada persista independentemente de mudanças nos atores envolvidos, pois se baseia em requisitos legais estruturados.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1200,
+    "completion_tokens": 172,
+    "total_tokens": 1372,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 368
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

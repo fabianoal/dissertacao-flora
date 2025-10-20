@@ -1,0 +1,28 @@
+{
+  "id": "1f7f0371-b718-4a44-8afc-0bc50211b781",
+  "object": "chat.completion",
+  "created": 1760396424,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a criação de normas e procedimentos escritos para padronizar os processos de trabalho, o que visa tratar a causa subjacente da ausência de documentação formal, em vez de apenas corrigir a condição imediata. Já em relação aos efeitos pretendidos pela recomendação, a implementação de procedimentos padronizados tende a gerar efeitos duradouros, pois a documentação permanece válida independentemente de mudanças na equipe ou gestores.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 984,
+    "completion_tokens": 146,
+    "total_tokens": 1130,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 152
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

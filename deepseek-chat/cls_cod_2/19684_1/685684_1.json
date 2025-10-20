@@ -1,0 +1,28 @@
+{
+  "id": "ddda71d0-d8a9-4fcb-9120-1138a47b9138",
+  "object": "chat.completion",
+  "created": 1760393086,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe que o gestor municipal realize o controle, avaliação e monitoramento das ações e serviços de saúde, citando normas legais e operacionais. No entanto, a ação sugerida é genérica e não identifica ou trata especificamente a causa raiz do problema que gerou a condição encontrada (como falhas no processo de inserção de dados ou falta de capacitação). Em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, esta análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1086,
+    "completion_tokens": 157,
+    "total_tokens": 1243,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 254
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c06cf5aa-d5b6-4fda-aab1-d5c57662e306",
+  "object": "chat.completion",
+  "created": 1760036704,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação contém múltiplas ações. A ação 4 ('Efetuar auditorias regulares e revisões periódicas dos dados inseridos no sistema, para verificar a sua precisão e integridade, corrigindo eventuais falhas ou omissões de maneira proativa') sugere uma ação para resolver a condição encontrada (dados inconsistentes/incompletos), caracterizando uma ação corretiva. Além disso, as ações 1 ('Informatizar e padronizar a coleta de dados no Sistema de Informações Ambulatoriais - SIA/SUS, garantindo que todos os dados sejam registrados de maneira consistente e completa'), 2 ('Criar mecanismos de acompanhamento e controle que permitam o monitoramento contínuo dos dados de produção ambulatorial') e 3 ('Capacitar as equipes de gestão e operação para assegurar que todos os envolvidos compreendam a importância do registro preciso dos dados e estejam aptos a utilizá-los de maneira eficaz') propõem ações concretas para tratar as causas que levaram à condição (falta de padronização, monitoramento e capacitação), indo além do mero cumprimento de normativos. Essas ações específicas visam estabelecer processos e estruturas que podem produzir efeitos duradouros, independentemente de mudanças nos atores envolvidos, pois institucionalizam práticas e sistemas.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Específica\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1345,
+    "completion_tokens": 361,
+    "total_tokens": 1706,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 321
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

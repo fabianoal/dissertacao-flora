@@ -1,0 +1,28 @@
+{
+  "id": "901e1cce-5abf-468e-b0a2-00348c87a3eb",
+  "object": "chat.completion",
+  "created": 1760456445,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise fornecida avalia corretamente que a recomendação se concentra em corrigir a condição imediata de ausência de documentação, sem propor ações para abordar a causa raiz, como falhas em processos de verificação ou capacitação. No entanto, a avaliação de 'Efeitos Duradouros' como 'Não se aplica' está alinhada com a ausência de foco na causa.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1210,
+    "completion_tokens": 134,
+    "total_tokens": 1344,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 314
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

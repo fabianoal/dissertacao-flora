@@ -1,0 +1,28 @@
+{
+  "id": "fa684a4d-fb5b-4760-8d1d-1943043ee3d2",
+  "object": "chat.completion",
+  "created": 1760394180,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a propor a restituição dos valores recebidos irregularmente, sem abordar as causas subjacentes da incompatibilidade entre os dados inseridos e a produção executada. Não há menção a ações corretivas para prevenir a reincidência do problema, como melhorias nos processos de alimentação de dados ou implementação de controles internos. Portanto, a recomendação é focada na correção da condição atual (devolução do valor) e não na causa do problema.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1277,
+    "completion_tokens": 150,
+    "total_tokens": 1427,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 445
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

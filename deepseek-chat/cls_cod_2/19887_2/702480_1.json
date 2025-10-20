@@ -1,0 +1,28 @@
+{
+  "id": "b6252420-020d-49d1-901d-ca0ce55c26b9",
+  "object": "chat.completion",
+  "created": 1760400764,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação apenas cita o cumprimento de uma norma específica sem propor ações para tratar a causa subjacente que levou ao registro inadequado das datas de entrada e saída da AIH, como possíveis falhas nos processos de registro, treinamento da equipe ou sistemas de informação. Já em relação aos efeitos pretendidos pela recomendação, como o critério 'Foco Causa' foi avaliado como 'Não', não se aplica a análise de efeitos duradouros.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1090,
+    "completion_tokens": 153,
+    "total_tokens": 1243,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 258
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

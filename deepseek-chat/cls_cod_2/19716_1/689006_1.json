@@ -1,0 +1,28 @@
+{
+  "id": "9768bc3d-c808-458e-9b31-99e173dba382",
+  "object": "chat.completion",
+  "created": 1760394448,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe o desenvolvimento de um sistema de controle ativo com notificações automáticas para alertar sobre exames não realizados, o que visa abordar a causa subjacente da falta de controle e monitoramento, em vez de apenas corrigir a condição atual de exames não realizados. Já em relação aos efeitos pretendidos pela recomendação, o sistema implementado permaneceria funcional independentemente de mudanças nos atores envolvidos, como gestores, proporcionando efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1285,
+    "completion_tokens": 150,
+    "total_tokens": 1435,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 453
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

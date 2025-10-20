@@ -1,0 +1,28 @@
+{
+  "id": "c79aec63-51b3-4593-81de-473db100ea1e",
+  "object": "chat.completion",
+  "created": 1760391998,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a inativação de cadastros de pessoas falecidas, o que corrige diretamente a condição encontrada de cadastros ativos indevidos. No entanto, não há menção a ações que abordem a causa subjacente, como a implementação de processos sistemáticos para prevenir a manutenção de cadastros de falecidos no futuro. Portanto, o foco é na condição imediata, não na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 934,
+    "completion_tokens": 169,
+    "total_tokens": 1103,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 102
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

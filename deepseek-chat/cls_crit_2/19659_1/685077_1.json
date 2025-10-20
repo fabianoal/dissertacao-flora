@@ -1,0 +1,28 @@
+{
+  "id": "c09e5353-0fd9-436d-b4c7-7916ef2e00f6",
+  "object": "chat.completion",
+  "created": 1760458957,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação inclui ações que abordam a causa raiz da falta de qualificação adequada, como a indicação de profissionais com formação compatível e medidas de revisão de documentação, atualização de procedimentos, capacitação e auditorias internas, que visam prevenir a reincidência do problema. Para o critério 'Efeitos Duradouros', as ações propostas, como atualização de procedimentos e capacitação, estabelecem estruturas e processos que podem persistir independentemente de mudanças no pessoal, promovendo efeitos duradouros. No entanto, a implementação dessas medidas depende da adesão contínua da organização, o que pode variar.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1288,
+    "completion_tokens": 206,
+    "total_tokens": 1494,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 392
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

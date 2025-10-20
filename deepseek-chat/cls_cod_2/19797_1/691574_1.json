@@ -1,0 +1,28 @@
+{
+  "id": "4f7af5e5-9da9-4264-bb57-d46d4d1b5acc",
+  "object": "chat.completion",
+  "created": 1760397204,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe substituir equipamentos que não atendem aos critérios e estabelecer uma rotina de verificação para substituir equipamentos obsoletos, o que trata a causa do problema (equipamentos inadequados) ao invés de apenas corrigir a condição atual. Já em relação aos efeitos pretendidos pela recomendação, a rotina de verificação e substituição de equipamentos obsoletos visa criar um processo contínuo que permanece mesmo com mudanças de atores, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1103,
+    "completion_tokens": 161,
+    "total_tokens": 1264,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 271
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

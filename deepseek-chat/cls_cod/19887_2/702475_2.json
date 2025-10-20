@@ -1,0 +1,28 @@
+{
+  "id": "74208f3b-0fb1-4b83-b3ba-7710ed42f0ef",
+  "object": "chat.completion",
+  "created": 1760036488,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere que o destinatário realize a cobrança dos procedimentos de acordo com os critérios técnicos estabelecidos no manual, o que constitui uma ação para resolver a condição encontrada de inconsistência nos registros. No entanto, a ação proposta é genérica, limitando-se a exigir o cumprimento do normativo existente sem propor medidas adicionais para tratar a causa subjacente, como melhorias nos processos de registro ou capacitação da equipe.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1299,
+    "completion_tokens": 151,
+    "total_tokens": 1450,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 275
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

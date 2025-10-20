@@ -1,0 +1,28 @@
+{
+  "id": "97e42dd1-55ad-422f-aefc-934560096326",
+  "object": "chat.completion",
+  "created": 1760389614,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a inserção de notas fiscais no sistema Transferegov, o que visa corrigir a condição específica de ausência de documentação, sem abordar as causas subjacentes, como falhas em processos de controle ou treinamento. Portanto, não há ação focada na causa. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' é 'Não', não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 970,
+    "completion_tokens": 141,
+    "total_tokens": 1111,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 138
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

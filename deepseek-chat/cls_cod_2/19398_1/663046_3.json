@@ -1,0 +1,28 @@
+{
+  "id": "c49ade85-6192-4510-8007-d2dfdc328e0c",
+  "object": "chat.completion",
+  "created": 1760385235,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação estabelece procedimentos específicos de arquivamento e preservação de documentos (cupons e laudos/atestados médicos) por um prazo determinado, com cópias em locais distintos e formatos diferentes. No entanto, não propõe ações que tratem da causa subjacente das irregularidades encontradas nos cupons e receitas médicas, como falhas em processos de verificação, controle interno ou capacitação de pessoal. Em relação aos efeitos duradouros, como o critério 'Foco Causa' não é atendido, esta análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 998,
+    "completion_tokens": 167,
+    "total_tokens": 1165,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 166
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d87a47cc-631b-4545-b490-5b5c1bd94fd9",
+  "object": "chat.completion",
+  "created": 1760387446,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação apresenta três ações distintas: contratação de farmacêutico, cobertura da garagem e reforma do piso. A contratação do farmacêutico trata da causa da falta de profissional qualificado para o ciclo de assistência farmacêutica, sendo uma solução permanente. A cobertura da garagem e reforma do piso são ações que corrigem condições físicas inadequadas específicas, focando na condição atual sem abordar as causas estruturais que levaram a essas inadequações. Em relação aos efeitos duradouros, a contratação do farmacêutico estabelece uma função permanente que independe de mudanças de pessoas específicas, enquanto as melhorias físicas permanecem independentemente de mudanças na equipe.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1075,
+    "completion_tokens": 203,
+    "total_tokens": 1278,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 243
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

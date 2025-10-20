@@ -1,0 +1,28 @@
+{
+  "id": "03f96e54-ddf5-4f95-ac7f-785aad87f6bf",
+  "object": "chat.completion",
+  "created": 1760469565,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a aquisição de equipamentos e instrumentos necessários para atender aos requisitos técnicos, o que trata diretamente a causa da inadequação dos equipamentos existentes, sendo uma solução de longo prazo. Quanto ao critério 'Efeitos Duradouros', a implementação de equipamentos adequados permanece funcional independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1228,
+    "completion_tokens": 155,
+    "total_tokens": 1383,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 332
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

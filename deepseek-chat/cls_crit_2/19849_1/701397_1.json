@@ -1,0 +1,28 @@
+{
+  "id": "1e8ee171-62c1-4b1b-bb6d-e908a4a46a7d",
+  "object": "chat.completion",
+  "created": 1760466801,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identificou que a recomendação inclui ações que tratam da causa do problema, especificamente a ação sobre o registro no inventário patrimonial, que visa resolver a falta de documentação e controle dos bens. Quanto ao critério 'Efeitos Duradouros', a análise argumenta que o registro no inventário cria um processo contínuo, mas a recomendação é genérica e não especifica mecanismos para garantir a sustentabilidade das ações, como atualizações regulares ou integração com sistemas permanentes.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1415,
+    "completion_tokens": 172,
+    "total_tokens": 1587,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 519
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

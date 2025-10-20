@@ -1,0 +1,28 @@
+{
+  "id": "04a4da74-7ba1-48ac-8b16-ff1c8a5788dd",
+  "object": "chat.completion",
+  "created": 1760463333,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda adequadamente as causas subjacentes da inadequação no armazenamento, como infraestrutura física inadequada e falta de controle de temperatura, que são fatores estruturais e normativos. Para o critério 'Efeitos Duradouros', as ações propostas são de natureza estrutural e normativa, o que sugere que os efeitos podem persistir independentemente de mudanças nos atores, mas a análise poderia considerar se a implementação e manutenção dependem de fatores humanos ou organizacionais contínuos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1150,
+    "completion_tokens": 173,
+    "total_tokens": 1323,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 254
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

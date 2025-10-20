@@ -1,0 +1,28 @@
+{
+  "id": "a5b425a3-ba87-4713-963c-851f50dfb0e4",
+  "object": "chat.completion",
+  "created": 1760392810,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"Em relação ao foco, a recomendação propõe a elaboração de um plano de capacitação para os fiscais, o que visa tratar a causa do problema, que é a falta de conhecimento ou habilidades necessárias para a atuação adequada, em vez de apenas corrigir uma condição específica. Já em relação aos efeitos pretendidos pela recomendação, o plano de capacitação, uma vez implementado, pode proporcionar melhorias duradouras na competência dos fiscais, que devem persistir mesmo com mudanças de pessoal, desde que o plano seja institucionalizado e mantido.\",\n   \"Foco Causa\": \"Sim\",\n   \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 935,
+    "completion_tokens": 161,
+    "total_tokens": 1096,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 103
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

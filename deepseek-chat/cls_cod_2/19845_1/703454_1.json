@@ -1,0 +1,28 @@
+{
+  "id": "1854d4aa-51b6-4e42-864c-ee58dfc08cb9",
+  "object": "chat.completion",
+  "created": 1760399140,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação exige o cumprimento de instrumentos de planejamento (Plano de Saúde, Programações Anuais de Saúde e Relatório Anual de Gestão) que compõem um processo cíclico de planejamento, visando estabelecer uma base permanente para a execução, acompanhamento e avaliação da gestão, o que aborda a causa subjacente da ausência de documentação de gestão. Já em relação aos efeitos pretendidos pela recomendação, a implementação desses instrumentos cria uma estrutura de planejamento contínuo e sistêmico que permanece funcional independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1197,
+    "completion_tokens": 193,
+    "total_tokens": 1390,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 365
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

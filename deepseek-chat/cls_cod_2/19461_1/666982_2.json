@@ -1,0 +1,28 @@
+{
+  "id": "fe958261-277e-4aa6-9c3e-69f32fde6c9a",
+  "object": "chat.completion",
+  "created": 1760385646,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação não trata da causa da constatação, que é a ausência de registro das irregularidades no preenchimento do CFI de quimioterapia nas atas da Comissão de Revisão de Prontuário. Em vez disso, a recomendação foca em garantir o acesso dos usuários às informações sobre seu estado de saúde, o que não aborda diretamente a causa do problema identificado (falha no registro de irregularidades). Portanto, não há ação proposta que trate da causa da condição encontrada.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1034,
+    "completion_tokens": 154,
+    "total_tokens": 1188,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 138
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

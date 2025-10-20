@@ -1,0 +1,28 @@
+{
+  "id": "92b3bdd1-3df3-46e4-ab30-9aecd514e7f1",
+  "object": "chat.completion",
+  "created": 1760462534,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação se concentra na correção direta da condição encontrada (falta de licença sanitária atualizada e afixada), sem propor ações para tratar a causa subjacente, como falhas nos processos de renovação ou monitoramento de prazos. Quanto ao critério 'Efeitos Duradouros', a conclusão de 'Não se aplica' é adequada, pois depende da existência de ações focadas na causa, que não estão presentes.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1201,
+    "completion_tokens": 170,
+    "total_tokens": 1371,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 369
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

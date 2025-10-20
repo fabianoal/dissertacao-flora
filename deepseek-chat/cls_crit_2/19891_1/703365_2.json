@@ -1,0 +1,28 @@
+{
+  "id": "b3efcd6e-53b1-4641-8ef5-34e52afd5465",
+  "object": "chat.completion",
+  "created": 1760468461,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação inclui ações que abordam a causa raiz do problema, como a implementação de um sistema de acompanhamento periódico para prevenir não conformidades futuras. Quanto ao critério 'Efeitos Duradouros', o sistema de acompanhamento proposto é uma estrutura institucional que pode persistir independentemente de mudanças na equipe, mas outras ações como treinamentos contínuos dependem de implementação consistente ao longo do tempo.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1458,
+    "completion_tokens": 156,
+    "total_tokens": 1614,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 498
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

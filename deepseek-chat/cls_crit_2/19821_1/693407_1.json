@@ -1,0 +1,28 @@
+{
+  "id": "a95d2d3a-1d6b-4b59-af6f-e1bf42533dd0",
+  "object": "chat.completion",
+  "created": 1760465861,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação de cumprir a portaria estabelece uma obrigação legal que aborda diretamente a causa do problema (falta de compartilhamento de registros), ao invés de apenas corrigir a condição atual. Quanto ao critério 'Efeitos Duradouros', a ação de institucionalizar o cumprimento da norma cria um procedimento formal que deve persistir independentemente de mudanças nos atores, pois está embasado em regulamentação.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1223,
+    "completion_tokens": 159,
+    "total_tokens": 1382,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 327
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

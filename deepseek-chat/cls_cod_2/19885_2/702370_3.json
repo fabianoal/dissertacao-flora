@@ -1,0 +1,28 @@
+{
+  "id": "78b1f094-aa1d-4237-ad33-17a9f84931d4",
+  "object": "chat.completion",
+  "created": 1760400640,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a devolução de recursos pagos indevidamente devido à incompatibilidade entre o procedimento realizado e o tempo de internação, focando na correção financeira da condição específica identificada. Não há menção a ações que tratem da causa subjacente do problema, como falhas nos processos de registro, supervisão ou capacitação que permitiram a ocorrência da incompatibilidade. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1170,
+    "completion_tokens": 162,
+    "total_tokens": 1332,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 274
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

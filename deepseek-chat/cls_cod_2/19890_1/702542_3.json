@@ -1,0 +1,28 @@
+{
+  "id": "13fe8341-b5f9-4050-92c2-da7f99f38b2e",
+  "object": "chat.completion",
+  "created": 1760400948,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a solicitar a devolução de recursos financeiros devido à falta de comprovação de procedimentos, sem propor ações que abordem a causa subjacente da não apresentação das AIHs, como falhas nos processos de documentação ou controle interno. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1235,
+    "completion_tokens": 139,
+    "total_tokens": 1374,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 339
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

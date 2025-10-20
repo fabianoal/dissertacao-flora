@@ -1,0 +1,28 @@
+{
+  "id": "0232da70-c496-4907-8f5f-fc9e408c0811",
+  "object": "chat.completion",
+  "created": 1760400384,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"Em relação ao foco, a recomendação propõe a inscrição no CNPJ para corrigir a falta de comprovação, o que trata diretamente a causa subjacente (ausência de inscrição) e não apenas a condição imediata. Já em relação aos efeitos pretendidos pela recomendação, a ação de inscrição no CNPJ estabelece um registro permanente que permanece válido independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n   \"Foco Causa\": \"Sim\",\n   \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 972,
+    "completion_tokens": 141,
+    "total_tokens": 1113,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 140
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

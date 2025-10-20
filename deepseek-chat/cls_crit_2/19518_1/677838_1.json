@@ -1,0 +1,28 @@
+{
+  "id": "8d8f44bf-a811-4430-acf2-c2af880673d3",
+  "object": "chat.completion",
+  "created": 1760453661,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda diretamente a causa da discrepância entre os sistemas ao propor a garantia do envio de dados para o SISAB com informações devidamente registradas nos prontuários, estabelecendo um processo para assegurar a consistência. Para o critério 'Efeitos Duradouros', a implementação de um processo estruturado de registro e envio de dados, baseado em normativas, tende a produzir efeitos que persistem independentemente de mudanças nos atores, devido à padronização e documentação.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1264,
+    "completion_tokens": 177,
+    "total_tokens": 1441,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 368
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

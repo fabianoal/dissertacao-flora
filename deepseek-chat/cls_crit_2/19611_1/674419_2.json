@@ -1,0 +1,28 @@
+{
+  "id": "4a28ed9e-bc3f-4778-97d9-e9c2a0400c96",
+  "object": "chat.completion",
+  "created": 1760448210,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe orientar fiscais e gestores para conferir documentação comprobatória em processos de contratação, visando evitar desobediência a normativos e irregularidades futuras, o que trata da causa subjacente (falta de verificação adequada) em vez de apenas corrigir a condição específica da prorrogação irregular. Para o critério 'Efeitos Duradouros', a ação de orientar para conferência sistemática da documentação estabelece um procedimento que deve persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1302,
+    "completion_tokens": 193,
+    "total_tokens": 1495,
+    "prompt_tokens_details": {
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 1238
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

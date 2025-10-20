@@ -1,0 +1,28 @@
+{
+  "id": "7268e552-6e52-41f6-9cb3-02ca26bd6f78",
+  "object": "chat.completion",
+  "created": 1760385566,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe o cumprimento de manuais e portarias para garantir que os bancos de dados retratem a produção fidedigna, o que aborda a causa do problema (falta de conformidade com procedimentos estabelecidos) ao estabelecer diretrizes para controle e avaliação. Já em relação aos efeitos pretendidos, a implementação dessas normas cria estruturas e processos permanentes que independem de indivíduos específicos, garantindo que os efeitos perdurem mesmo com mudanças de atores.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1132,
+    "completion_tokens": 156,
+    "total_tokens": 1288,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 300
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

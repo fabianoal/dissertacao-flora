@@ -1,0 +1,28 @@
+{
+  "id": "0025356f-57b2-4d5e-ac97-6486335e8fc0",
+  "object": "chat.completion",
+  "created": 1760390474,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a inserção de um contrato específico no sistema Transferegov para corrigir a ausência documental constatada, tratando diretamente da condição encontrada (falta do contrato) sem abordar as causas subjacentes que levaram à sua ausência, como possíveis falhas nos processos de gestão contratual ou de controle documental. Portanto, não há ação focada na causa do problema. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 921,
+    "completion_tokens": 166,
+    "total_tokens": 1087,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 89
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

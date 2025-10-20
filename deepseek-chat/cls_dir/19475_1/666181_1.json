@@ -1,0 +1,28 @@
+{
+  "id": "8a56b548-4de3-4f84-b74e-7822178c0e79",
+  "object": "chat.completion",
+  "created": 1759367558,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação identifica a necessidade de correção da condição observada (layout e padrão visual inadequados) sem abordar as causas institucionais que levaram a essa não conformidade, como falhas nos processos de implementação, fiscalização ou capacitação. A solução proposta é direcionada à correção pontual da condição atual, sem indicar transformações estruturais que previnam a recorrência do problema. As mudanças, se implementadas, corrigiriam a inconformidade imediata, mas não possuem garantia de perenidade, pois não enfrentam fatores subjacentes como a falta de monitoramento contínuo ou a ausência de mecanismos de controle de qualidade.\",\n    \"categoria\": \"foco-condicao\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1498,
+    "completion_tokens": 176,
+    "total_tokens": 1674,
+    "prompt_tokens_details": {
+      "cached_tokens": 1280
+    },
+    "prompt_cache_hit_tokens": 1280,
+    "prompt_cache_miss_tokens": 218
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

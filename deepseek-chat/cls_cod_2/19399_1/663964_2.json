@@ -1,0 +1,28 @@
+{
+  "id": "dc3da5dd-a61d-49f7-aa18-5070e295b084",
+  "object": "chat.completion",
+  "created": 1760385291,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação não propõe ações específicas para tratar a causa da falta de apresentação da cópia do cupom fiscal e prescrição médica, limitando-se a informar a constatação e citar dispositivos legais para devolução de valores. Não há menção a medidas que previnam a reincidência do problema, como implementação de controles ou capacitação. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1090,
+    "completion_tokens": 170,
+    "total_tokens": 1260,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 258
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

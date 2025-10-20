@@ -1,0 +1,28 @@
+{
+  "id": "dd8bc23b-281a-497d-9cbc-f706059552d9",
+  "object": "chat.completion",
+  "created": 1760452612,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação de alimentar, analisar e verificar a qualidade e consistência dos dados visa estabelecer processos para prevenir inconsistências futuras, tratando a causa do problema de dados não equivalentes. Quanto ao critério 'Efeitos Duradouros', as ações sugeridas, como a implementação de procedimentos de verificação, tendem a criar estruturas permanentes que mantêm a qualidade dos dados independentemente de mudanças nos atores envolvidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1232,
+    "completion_tokens": 155,
+    "total_tokens": 1387,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 336
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "0c3f5e78-898a-42df-890e-3105d691e974",
+  "object": "chat.completion",
+  "created": 1760451088,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação se refere ao cumprimento de um manual que estabelece procedimentos padronizados para recebimento e conferência de OPME, o que aborda a causa das inconsistências observadas. No entanto, a avaliação sobre os efeitos duradouros merece uma análise mais aprofundada, considerando a natureza da recomendação.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1194,
+    "completion_tokens": 131,
+    "total_tokens": 1325,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 298
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

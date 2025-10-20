@@ -1,0 +1,28 @@
+{
+  "id": "520f00d1-a01b-4b24-97ee-e9346e7a7d3a",
+  "object": "chat.completion",
+  "created": 1760469441,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identificou corretamente que a recomendação é genérica e não especifica ações para tratar a causa raiz do problema, focando na correção da condição imediata de descumprimento contratual. Quanto ao critério 'Efeitos Duradouros', a conclusão de 'Não se aplica' está alinhada com a resposta 'Não' para 'Foco Causa', conforme definido.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1370,
+    "completion_tokens": 151,
+    "total_tokens": 1521,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 410
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

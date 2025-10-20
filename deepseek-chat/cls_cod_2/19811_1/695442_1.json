@@ -1,0 +1,28 @@
+{
+  "id": "936d0291-9295-4607-adeb-aa24c8ef1974",
+  "object": "chat.completion",
+  "created": 1760397768,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a definição de critérios para classificação de risco e monitoramento da implantação, o que visa abordar a causa do problema (ausência de critérios definidos) e prevenir sua recorrência, caracterizando foco na causa. Já em relação aos efeitos pretendidos, a ação de estabelecer critérios formais e monitorar sua implantação cria uma estrutura permanente que deve persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1160,
+    "completion_tokens": 155,
+    "total_tokens": 1315,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 328
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

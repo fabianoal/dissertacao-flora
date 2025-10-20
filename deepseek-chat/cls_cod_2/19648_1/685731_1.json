@@ -1,0 +1,28 @@
+{
+  "id": "5893279d-e7c0-4fa9-b9f4-8d9dc4f68bde",
+  "object": "chat.completion",
+  "created": 1760392038,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe organizar as equipes de acordo com parâmetros estabelecidos na portaria, o que visa corrigir a condição atual de falta de comprovação da composição mínima e carga horária, mas não identifica ou trata explicitamente a causa subjacente que levou a essa não comprovação (como falhas em processos de gestão, capacitação ou monitoramento). Portanto, a ação é mais direcionada à condição encontrada do que à causa raiz. Como o critério 'Foco Causa' não foi atendido, a análise de efeitos duradouros não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1009,
+    "completion_tokens": 184,
+    "total_tokens": 1193,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 177
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

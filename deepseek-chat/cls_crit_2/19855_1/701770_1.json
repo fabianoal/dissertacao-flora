@@ -1,0 +1,28 @@
+{
+  "id": "376fe025-27e1-4696-91a6-af57b137e464",
+  "object": "chat.completion",
+  "created": 1760467017,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a inclusão sistemática das áreas da PNSTT nos instrumentos de planejamento municipal, o que efetivamente visa abordar a causa raiz do problema, que é a ausência de planejamento formal para implementar a política. Quanto ao critério 'Efeitos Duradouros', a recomendação estabelece um mecanismo permanente de integração da PNSTT no planejamento, que deve persistir independentemente de mudanças nos gestores, pois se torna parte dos documentos oficiais e processos de gestão municipal.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1321,
+    "completion_tokens": 178,
+    "total_tokens": 1499,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 425
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

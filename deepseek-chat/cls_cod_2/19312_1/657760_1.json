@@ -1,0 +1,28 @@
+{
+  "id": "137c076a-c7b5-4545-9ffc-34fb7dc7f11b",
+  "object": "chat.completion",
+  "created": 1760384627,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a implementação de 'mecanismos revisionais' para garantir que informações técnicas sejam adequadamente inseridas nos laudos, o que visa tratar a causa do problema (falta de processos de revisão que assegurem a completude das informações) e não apenas corrigir os laudos incompletos existentes. Já em relação aos efeitos pretendidos pela recomendação, a criação de mecanismos revisionais institucionalizados tende a produzir efeitos duradouros, pois estabelece um processo contínuo que permanece operante independentemente de mudanças nos profissionais envolvidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1175,
+    "completion_tokens": 173,
+    "total_tokens": 1348,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 407
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

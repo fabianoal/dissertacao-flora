@@ -1,0 +1,28 @@
+{
+  "id": "1b986205-407e-4c99-8e74-405fc518da32",
+  "object": "chat.completion",
+  "created": 1760386778,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a adoção de medidas para garantir que futuros instrumentos de contratualização contemplem todas as especificidades previstas na legislação, incluindo a descrição da estrutura física e cláusulas mínimas, o que indica um tratamento da causa (falta de conformidade com a legislação) em vez de apenas corrigir os documentos existentes. Já em relação aos efeitos pretendidos pela recomendação, as medidas sugeridas, como a incorporação de cláusulas mínimas e descrições obrigatórias, tendem a criar um processo padronizado e duradouro, que permanece mesmo com mudanças nos atores envolvidos, devido ao embasamento em normas consolidadas.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1057,
+    "completion_tokens": 202,
+    "total_tokens": 1259,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 289
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

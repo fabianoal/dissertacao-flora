@@ -1,0 +1,28 @@
+{
+  "id": "6c9073e0-0156-4005-a7af-d7b4117a0c11",
+  "object": "chat.completion",
+  "created": 1760385086,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a devolução de recursos financeiros indevidamente faturados, focando na correção da condição específica identificada (faturamento sem comprovação de uso). Não há menção a ações que abordem a causa raiz do problema, como falhas nos processos de controle, capacitação da equipe ou implementação de sistemas de verificação que poderiam prevenir a recorrência. Portanto, trata-se de uma medida corretiva pontual e não de uma ação voltada para a causa. Como o critério 'Foco Causa' não é atendido, a avaliação de 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1030,
+    "completion_tokens": 187,
+    "total_tokens": 1217,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 198
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

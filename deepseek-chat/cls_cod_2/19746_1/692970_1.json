@@ -1,0 +1,28 @@
+{
+  "id": "1c1883ec-a951-4c61-a3d4-eae86183197f",
+  "object": "chat.completion",
+  "created": 1760395216,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a implementação de um processo sistemático de manutenção periódica programada, o que visa tratar a causa raiz da falta de manutenção, que é a ausência de um procedimento regular e planejado, em vez de apenas corrigir uma falha pontual. Já em relação aos efeitos pretendidos pela recomendação, a adoção de um processo formal e contínuo de manutenção programada assegura que os benefícios persistam independentemente de mudanças na equipe ou gestão, pois se baseia em normativos e procedimentos estabelecidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1095,
+    "completion_tokens": 171,
+    "total_tokens": 1266,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 263
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

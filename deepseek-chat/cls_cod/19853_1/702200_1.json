@@ -1,0 +1,28 @@
+{
+  "id": "5c5f2b03-18a4-486c-bec1-28cd6ea27444",
+  "object": "chat.completion",
+  "created": 1760035636,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação contém três ações distintas: (a) estabelecer controle sistemático das produções ambulatoriais, (b) implantar fluxos formais de validação com definição de responsabilidades e registros, e (c) capacitar periodicamente servidores. A ação (a) sugere uma medida corretiva para resolver a condição imediata de falta de controle, enquanto as ações (b) e (c) propõem mudanças estruturais (implantação de fluxos formais e capacitação contínua) que visam tratar as causas subjacentes, como a ausência de processos definidos e a falta de treinamento adequado. A ação (b) é específica ao propor a criação de fluxos com responsabilidades claras e registros documentais, indo além do mero cumprimento de normativos. Os efeitos dessas ações, especialmente a implantação de fluxos formais e a capacitação, tendem a ser duradouros, pois criam estruturas e conhecimentos que permanecem mesmo com mudanças de pessoal.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Específica\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1658,
+    "completion_tokens": 287,
+    "total_tokens": 1945,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 698
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

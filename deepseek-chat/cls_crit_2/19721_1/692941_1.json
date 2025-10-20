@@ -1,0 +1,28 @@
+{
+  "id": "b56a4912-0b2a-4909-8985-ed3f364cb937",
+  "object": "chat.completion",
+  "created": 1760462282,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação se limita a corrigir o atraso específico no repasse financeiro, sem propor ações para tratar as causas subjacentes, como falhas processuais ou de gestão que levaram ao não cumprimento dos prazos. Quanto ao critério 'Efeitos Duradouros', como não há foco na causa, a análise corretamente não se aplica.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1199,
+    "completion_tokens": 143,
+    "total_tokens": 1342,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 303
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

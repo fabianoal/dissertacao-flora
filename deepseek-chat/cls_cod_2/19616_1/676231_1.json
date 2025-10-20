@@ -1,0 +1,28 @@
+{
+  "id": "12f2faf9-0e53-403c-9e70-ae8b53dd7906",
+  "object": "chat.completion",
+  "created": 1760390706,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe apenas a notificação para inserção tempestiva dos relatórios, sem abordar as causas subjacentes do não cumprimento dos prazos, como falhas nos processos internos, capacitação insuficiente ou questões estruturais. Já em relação aos efeitos pretendidos pela recomendação, como o critério 'Foco Causa' não foi atendido, não se aplica a análise de efeitos duradouros.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 973,
+    "completion_tokens": 145,
+    "total_tokens": 1118,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 141
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

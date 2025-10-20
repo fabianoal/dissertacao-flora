@@ -1,0 +1,28 @@
+{
+  "id": "cf7d36a9-54c2-49c8-9c94-41f67d97212b",
+  "object": "chat.completion",
+  "created": 1760455405,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a implantação de um checklist e acompanhamento pela gestão para controlar o cumprimento da limpeza semestral, o que efetivamente visa tratar a causa raiz do problema (falta de controle sistemático) e não apenas corrigir a condição atual de não comprovação. Quanto ao critério 'Efeitos Duradouros', a implantação de um processo estruturado de checklist e acompanhamento cria um mecanismo que deve permanecer eficaz independentemente de mudanças nos atores envolvidos, garantindo a continuidade do controle.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1275,
+    "completion_tokens": 186,
+    "total_tokens": 1461,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 379
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

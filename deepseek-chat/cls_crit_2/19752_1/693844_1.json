@@ -1,0 +1,28 @@
+{
+  "id": "7c236b51-c06b-4d40-a1f8-380ea3bc700e",
+  "object": "chat.completion",
+  "created": 1760463137,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta em identificar que a recomendação aborda a causa raiz do problema (falta de treinamento regular) e estabelece um processo contínuo que pode perdurar independentemente de mudanças na equipe. No entanto, é importante considerar que a eficácia dos efeitos duradouros pode depender da sustentabilidade do programa de capacitações ao longo do tempo.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1182,
+    "completion_tokens": 132,
+    "total_tokens": 1314,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 286
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

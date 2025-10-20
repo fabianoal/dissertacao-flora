@@ -1,0 +1,28 @@
+{
+  "id": "43ee9ae9-1998-4e66-8a0f-14274198bfb2",
+  "object": "chat.completion",
+  "created": 1760466489,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise da codificação apresenta uma avaliação adequada dos componentes da recomendação, distinguindo corretamente entre medidas corretivas e preventivas. No entanto, há imprecisões na aplicação dos critérios específicos solicitados, particularmente quanto à definição de 'Foco Causa' e 'Efeitos Duradouros' conforme a tipologia do IIA.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1592,
+    "completion_tokens": 128,
+    "total_tokens": 1720,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 696
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "f5c09c4a-ad3a-4106-814c-24a447168b41",
+  "object": "chat.completion",
+  "created": 1760464813,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe o desenvolvimento de um documento formal com rotinas detalhadas de distribuição de imunobiológicos, o que visa estabelecer procedimentos padronizados para evitar a ausência de rotinas estabelecidas no futuro, tratando assim a causa do problema (falta de documentação formal). Já em relação ao critério 'Efeitos Duradouros', a criação de um documento formal e sua disponibilização a todos os envolvidos visa institucionalizar as rotinas, de modo que os efeitos (procedimentos padronizados) permaneçam mesmo com mudanças nos atores, pois estarão documentados e acessíveis.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1331,
+    "completion_tokens": 199,
+    "total_tokens": 1530,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 435
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

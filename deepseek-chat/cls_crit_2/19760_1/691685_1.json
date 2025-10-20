@@ -1,0 +1,28 @@
+{
+  "id": "36e0e8b7-43f1-4061-a6ca-408472dfcb4d",
+  "object": "chat.completion",
+  "created": 1760463409,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação estabelece a criação de um programa de manutenção preventiva e corretiva com cronograma e registros, além de calibração e qualificação térmica periódicas, o que efetivamente aborda a causa raiz da falta de manutenção periódica (ausência de processos sistemáticos) e não apenas corrige a condição atual. Quanto ao critério 'Efeitos Duradouros', a implementação de um programa estruturado com documentação tende a criar processos institucionalizados que podem persistir independentemente de mudanças nos atores envolvidos, assegurando continuidade.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1377,
+    "completion_tokens": 192,
+    "total_tokens": 1569,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 481
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

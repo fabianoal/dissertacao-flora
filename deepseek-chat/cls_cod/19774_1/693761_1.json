@@ -1,0 +1,28 @@
+{
+  "id": "6158272c-0036-4bd7-9005-409ef70841bd",
+  "object": "chat.completion",
+  "created": 1760036692,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere a implementação e utilização de indicadores para gerenciar riscos e monitorar controles na Cadeia de Frio, o que constitui uma ação corretiva para resolver a condição encontrada de ausência de indicadores. Além disso, a ação proposta visa estabelecer um sistema contínuo de monitoramento e gestão de riscos, indo além da mera correção imediata, ao focar na causa subjacente de falta de mecanismos de controle e tomada de decisão baseada em dados. No entanto, a recomendação se baseia principalmente no cumprimento de um normativo específico (Manual de Rede Frio do PNI, 2017), sem detalhar ações concretas adicionais, sendo, portanto, genérica em seu foco na causa. Quanto aos efeitos duradouros, como a ação é genérica e não especifica medidas que garantam a sustentabilidade independente de mudanças de pessoal, os efeitos não são considerados duradouros.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1323,
+    "completion_tokens": 270,
+    "total_tokens": 1593,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 299
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "53c2ff6c-efdb-401d-b785-5b979f6803db",
+  "object": "chat.completion",
+  "created": 1760392058,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe ações para manter atualizadas as informações no Sisab, o que visa prevenir a discrepância entre dados consolidados e prontuários, tratando assim a causa subjacente de inconsistências nos registros. Já em relação aos efeitos pretendidos pela recomendação, a implementação de processos sistemáticos de cadastro e atualização deve garantir que as informações permaneçam precisas independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1008,
+    "completion_tokens": 145,
+    "total_tokens": 1153,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 176
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

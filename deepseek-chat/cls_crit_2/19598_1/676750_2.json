@@ -1,0 +1,28 @@
+{
+  "id": "9e29427a-f338-463c-b0f4-a48d8088ff2e",
+  "object": "chat.completion",
+  "created": 1760455713,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda a causa raiz do problema ao propor o gerenciamento do dimensionamento de profissionais reguladores, que é a alocação inadequada de recursos humanos. Para o critério 'Efeitos Duradouros', a recomendação sugere um sistema contínuo de gerenciamento, que pode manter benefícios com mudanças de pessoal, mas depende da implementação consistente.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1168,
+    "completion_tokens": 144,
+    "total_tokens": 1312,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 208
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

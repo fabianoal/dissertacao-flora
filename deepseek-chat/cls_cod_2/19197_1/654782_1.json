@@ -1,0 +1,28 @@
+{
+  "id": "ab15cb83-f7ee-49eb-b090-600bc4068d84",
+  "object": "chat.completion",
+  "created": 1760384198,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação consiste em cumprir diretrizes estabelecidas em um manual, que incluem ações como a entrega de OPME com nota fiscal, recebimento no almoxarifado, encaminhamento de registros para faturamento e implementação de um sistema de rastreabilidade. Essas ações visam estabelecer processos estruturados para aquisição, armazenamento, distribuição e controle de OPME, abordando a causa raiz da impossibilidade de rastreamento, que é a falta de procedimentos e controles adequados, em vez de apenas corrigir a condição imediata. Em relação aos efeitos duradouros, a implementação de sistemas e procedimentos padronizados, como um sistema de rastreabilidade, tende a criar mudanças institucionais que persistem independentemente de mudanças nos atores envolvidos, pois se baseiam em normas e infraestrutura contínuas.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1324,
+    "completion_tokens": 236,
+    "total_tokens": 1560,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 492
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

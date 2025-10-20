@@ -1,0 +1,28 @@
+{
+  "id": "f2249349-3543-48c7-bc72-0b33ac8476df",
+  "object": "chat.completion",
+  "created": 1760036292,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere a adoção do prontuário eletrônico para permitir o compartilhamento de registros, o que corrige diretamente a condição de não compartilhamento observada. Além disso, ao propor a implementação de um sistema tecnológico em toda a rede, a ação visa tratar a causa subjacente, que pode incluir a falta de infraestrutura ou processos inadequados, indo além do mero cumprimento normativo. Os efeitos dessa ação tendem a ser duradouros, pois a infraestrutura permanece independentemente de mudanças de pessoal.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Específica\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1193,
+    "completion_tokens": 180,
+    "total_tokens": 1373,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 169
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

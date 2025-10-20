@@ -1,0 +1,28 @@
+{
+  "id": "aada240d-8d93-4492-a9f4-e6096474c6ee",
+  "object": "chat.completion",
+  "created": 1760384307,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a solicitar o envio da documentação quando requisitada pelos órgãos de controle, sem propor ações para resolver a causa subjacente da ausência do registro de inventário, como a implementação de procedimentos sistemáticos para sua manutenção. Portanto, não há foco na causa. Como o critério 'Foco Causa' não é atendido, a avaliação de 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1094,
+    "completion_tokens": 142,
+    "total_tokens": 1236,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 262
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

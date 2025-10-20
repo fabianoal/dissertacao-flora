@@ -1,0 +1,28 @@
+{
+  "id": "34202408-7de5-4b5d-8fb4-8dc8a9977a1f",
+  "object": "chat.completion",
+  "created": 1760451192,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise crítica considera a adequação da classificação fornecida pelo modelo em relação aos critérios 'Foco Causa' e 'Efeitos Duradouros'. A constatação aponta a ausência de exames de imagem que comprovem a utilização de OPME, indicando uma falha na documentação ou controle. A recomendação propõe a implementação de uma rotina de verificação de itens obrigatórios no prontuário, com base em normativos específicos. Avalio se essa ação aborda a causa raiz do problema e se seus efeitos são sustentáveis a longo prazo, independentemente de mudanças na equipe.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1195,
+    "completion_tokens": 191,
+    "total_tokens": 1386,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 299
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

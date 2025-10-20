@@ -1,0 +1,28 @@
+{
+  "id": "906c450b-75e2-441b-9c20-3701da31aef3",
+  "object": "chat.completion",
+  "created": 1760459593,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda especificamente a causa da ausência dos relatórios, que é o não cumprimento da periodicidade estabelecida na portaria. Quanto ao critério 'Efeitos Duradouros', a ação proposta estabelece um processo contínuo que deve persistir independentemente de mudanças nos atores envolvidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1208,
+    "completion_tokens": 130,
+    "total_tokens": 1338,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 312
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

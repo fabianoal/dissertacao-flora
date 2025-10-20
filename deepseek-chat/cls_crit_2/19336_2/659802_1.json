@@ -1,0 +1,28 @@
+{
+  "id": "71a8078d-5ce6-4a38-98b1-49f3d437f80d",
+  "object": "chat.completion",
+  "created": 1760451752,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise Crítica\": \"A análise fornecida avalia corretamente que a recomendação se concentra em corrigir a condição imediata de ausência de documentação, sem abordar as causas subjacentes, como falhas em processos de treinamento ou supervisão. No entanto, a avaliação do critério 'Efeitos Duradouros' está correta apenas porque o critério 'Foco Causa' foi classificado como 'Não', tornando-o não aplicável.\",\n  \"Análise Foco Causa\": \"Concordo\",\n  \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1209,
+    "completion_tokens": 143,
+    "total_tokens": 1352,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 313
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

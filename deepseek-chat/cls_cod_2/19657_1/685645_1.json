@@ -1,0 +1,28 @@
+{
+  "id": "b4107d33-693f-49e2-a46e-07c8b566196f",
+  "object": "chat.completion",
+  "created": 1760392162,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações como realizar marcação de consulta no momento da confirmação da gestação, manter vaga aberta na agenda e criar canal de comunicação direto entre equipes, que visam modificar processos para evitar a reincidência da não comprovação do atendimento odontológico a gestantes, tratando assim a causa do problema (falta de organização e integração nos processos de atendimento). Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como a criação de um canal de comunicação e a estruturação de agendas, estabelecem procedimentos que podem persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1017,
+    "completion_tokens": 196,
+    "total_tokens": 1213,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 185
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

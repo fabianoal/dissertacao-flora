@@ -1,0 +1,28 @@
+{
+  "id": "2f91a128-485c-40ee-bcb7-02e7dfb5fbaa",
+  "object": "chat.completion",
+  "created": 1760400900,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação consiste em uma lista de referências normativas e documentais que devem ser cumpridas, sem propor ações específicas para tratar a causa subjacente à falta de comprovação do procedimento. Ela se limita a citar manuais, portarias e leis, sem indicar medidas concretas para prevenir a reincidência do problema. Portanto, não há ação proposta que trate diretamente da causa da condição encontrada.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1372,
+    "completion_tokens": 136,
+    "total_tokens": 1508,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 476
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

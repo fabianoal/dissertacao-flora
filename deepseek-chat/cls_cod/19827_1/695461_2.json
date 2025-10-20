@@ -1,0 +1,28 @@
+{
+  "id": "fa246688-2e6d-4355-b9cd-a103b7baec84",
+  "object": "chat.completion",
+  "created": 1760037992,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere uma ação específica para resolver a condição encontrada, que é a devolução dos recursos indevidamente recebidos, caracterizando uma ação corretiva. No entanto, a recomendação não propõe nenhuma ação para tratar a causa que permitiu a ocorrência da condição (ausência de documentos comprobatórios), limitando-se a citar o cumprimento de normativos existentes sem especificar medidas preventivas concretas.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se Aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1274,
+    "completion_tokens": 152,
+    "total_tokens": 1426,
+    "prompt_tokens_details": {
+      "cached_tokens": 1088
+    },
+    "prompt_cache_hit_tokens": 1088,
+    "prompt_cache_miss_tokens": 186
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

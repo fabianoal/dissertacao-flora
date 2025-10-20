@@ -1,0 +1,28 @@
+{
+  "id": "9f60f3c1-70ae-490f-9b53-d0df5f09808d",
+  "object": "chat.completion",
+  "created": 1760384630,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a anexação das etiquetas de identificação de materiais implantáveis ao prontuário do paciente conforme normas específicas, o que constitui uma ação direta para corrigir a condição encontrada de etiquetas não afixadas. No entanto, não há menção a ações que abordem a causa subjacente do problema, como falhas em processos, treinamento inadequado ou sistemas de controle que permitiram a não conformidade. Portanto, a recomendação é focada na condição imediata, não na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1148,
+    "completion_tokens": 192,
+    "total_tokens": 1340,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 316
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

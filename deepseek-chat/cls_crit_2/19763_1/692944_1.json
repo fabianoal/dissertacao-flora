@@ -1,0 +1,28 @@
+{
+  "id": "f1e8807d-8921-43e4-a22d-1c57e775b929",
+  "object": "chat.completion",
+  "created": 1760463625,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que as recomendações propostas tratam da causa raiz da falta de treinamento regular - a ausência de instrumentos de planejamento estruturados. Quanto ao critério 'Efeitos Duradouros', também concordo que as ações propostas criam estruturas e processos institucionais que permanecerão mesmo com mudanças na equipe.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1760,
+    "completion_tokens": 144,
+    "total_tokens": 1904,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 864
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

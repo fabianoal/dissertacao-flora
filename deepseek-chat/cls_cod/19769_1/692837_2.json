@@ -1,0 +1,28 @@
+{
+  "id": "9ffb89cb-73fd-464a-8a14-13cc92378dc9",
+  "object": "chat.completion",
+  "created": 1760001965,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere duas ações distintas. A primeira ação ('Realizar o acompanhamento, bem como adotar medidas administrativas para efetiva devolução do valor...') visa corrigir a condição encontrada, ou seja, a devolução dos recursos recebidos indevidamente. A segunda ação ('Aperfeiçoar mecanismos de controle, monitoramento e de avaliação acerca das informações inseridas nos sistemas SIA/SUS e SIH/SUS...') propõe uma ação para tratar a causa que permitiu a inserção de dados não comprovados e/ou incorretos, focando em prevenir a recorrência. No entanto, essa ação é genérica, pois se limita a citar o cumprimento de um normativo (Decreto nº 11.798/23) sem especificar medidas concretas, como a implementação de um sistema de verificação de dados ou treinamento específico.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1313,
+    "completion_tokens": 249,
+    "total_tokens": 1562,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 353
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

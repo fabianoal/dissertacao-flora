@@ -1,0 +1,28 @@
+{
+  "id": "66e67c41-e8f6-4e37-94d0-3b844189b6d8",
+  "object": "chat.completion",
+  "created": 1760400704,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação apenas cita a necessidade de cumprir a Portaria SAES-MS 470/2021, sem propor ações específicas para tratar a causa da ausência da APAC no prontuário, como falhas no processo de documentação ou capacitação da equipe. Já em relação aos efeitos duradouros, como a recomendação não trata da causa, não se aplica essa avaliação.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1139,
+    "completion_tokens": 134,
+    "total_tokens": 1273,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 307
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

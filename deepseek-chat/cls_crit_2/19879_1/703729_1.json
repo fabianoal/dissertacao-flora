@@ -1,0 +1,28 @@
+{
+  "id": "4ad3fa09-bb7b-4b54-b041-e482323c0c57",
+  "object": "chat.completion",
+  "created": 1760467877,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise da codificação apresenta argumentos válidos sobre o foco na causa e a durabilidade dos efeitos, mas há aspectos que merecem ponderação quanto à precisão da classificação.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1284,
+    "completion_tokens": 88,
+    "total_tokens": 1372,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 388
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

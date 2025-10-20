@@ -1,0 +1,28 @@
+{
+  "id": "89c86649-e3c5-4e4a-a228-4eaada648586",
+  "object": "chat.completion",
+  "created": 1760462145,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação de fato propõe ações que tratam das causas subjacentes da insuficiência de informações sobre a fila de espera, como organização do fluxo assistencial, adoção de protocolos e implementação de sistema de regulação dinâmico, o que justifica a resposta 'Sim'. Quanto ao critério 'Efeitos Duradouros', as ações sugeridas, como protocolos estruturados e sistema de regulação, criam estruturas que podem persistir independentemente de mudanças de pessoal, apoiando a resposta 'Sim'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1892,
+    "completion_tokens": 180,
+    "total_tokens": 2072,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 996
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

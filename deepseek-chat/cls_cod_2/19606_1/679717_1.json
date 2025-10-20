@@ -1,0 +1,28 @@
+{
+  "id": "b8971e3e-09e6-4076-adb8-32d8f44ffb96",
+  "object": "chat.completion",
+  "created": 1760389138,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação apenas reforça a necessidade de cumprir a periodicidade estabelecida nas diretrizes clínicas para a realização dos exames laboratoriais, sem propor ações que tratem da causa subjacente da não realização dos exames, como falhas em processos, capacitação ou monitoramento. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, não se aplica essa avaliação.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1050,
+    "completion_tokens": 146,
+    "total_tokens": 1196,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 154
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

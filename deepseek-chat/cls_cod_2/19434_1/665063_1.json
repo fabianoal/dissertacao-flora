@@ -1,0 +1,28 @@
+{
+  "id": "bafa8638-3966-4ac6-be69-15db74558998",
+  "object": "chat.completion",
+  "created": 1760385475,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação solicita a apresentação de documentação específica para comprovar o estoque, focando na correção da condição imediata de falta de comprovação documental, sem propor ações para tratar a causa subjacente, como falhas no processo de registro ou aquisição de medicamentos. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 984,
+    "completion_tokens": 148,
+    "total_tokens": 1132,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 152
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

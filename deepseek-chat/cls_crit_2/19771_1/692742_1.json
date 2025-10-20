@@ -1,0 +1,28 @@
+{
+  "id": "d64484fe-7684-484d-babe-0d843deafd3c",
+  "object": "chat.completion",
+  "created": 1760463825,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', discordo da classificação, pois a recomendação trata da adequação física dos leitos para atender a requisitos normativos, não abordando diretamente a causa do excesso de pacientes. Quanto ao critério 'Efeitos Duradouros', como discordo da classificação anterior, a análise não se aplica adequadamente.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1180,
+    "completion_tokens": 128,
+    "total_tokens": 1308,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 348
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

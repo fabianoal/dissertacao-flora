@@ -1,0 +1,28 @@
+{
+  "id": "195afa31-a249-431f-b8b9-15d26f92e019",
+  "object": "chat.completion",
+  "created": 1760387306,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação se limita a orientar o cumprimento de estratégias e ações já estabelecidas em documentos oficiais, sem propor medidas específicas para abordar as causas subjacentes que impedem a adesão a essas ações, como falhas na capacitação, recursos insuficientes ou problemas de gestão. Portanto, não há foco na causa. Como o critério 'Foco Causa' não é atendido, a avaliação de efeitos duradouros não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 965,
+    "completion_tokens": 145,
+    "total_tokens": 1110,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 133
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

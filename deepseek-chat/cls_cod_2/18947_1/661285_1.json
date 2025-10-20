@@ -1,0 +1,28 @@
+{
+  "id": "d9a937e8-3201-480f-a274-c5b3cbf66c3f",
+  "object": "chat.completion",
+  "created": 1760383722,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe que a Secretaria Municipal de Saúde encaminhe futuras propostas de contratação ao Conselho Municipal de Saúde para avaliação e deliberação, conforme exigido pela Resolução CNS nº 453/2012. Esta ação visa tratar a causa do problema, que é a ausência de participação do Conselho no processo de contratação, estabelecendo um procedimento formal para garantir a conformidade legal. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um processo sistemático de encaminhamento ao Conselho cria uma estrutura que permanece independentemente de mudanças nos atores envolvidos, assegurando efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1109,
+    "completion_tokens": 191,
+    "total_tokens": 1300,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 277
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

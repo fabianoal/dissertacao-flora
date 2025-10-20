@@ -1,0 +1,28 @@
+{
+  "id": "9078af2e-261c-49f7-b1f5-98fa799d9756",
+  "object": "chat.completion",
+  "created": 1760457993,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda diretamente a causa do problema, que é a falta de verificação adequada dos preços na análise técnica. Quanto ao critério 'Efeitos Duradouros', a recomendação estabelece um procedimento padrão que deve ser seguido continuamente, independentemente de mudanças nos atores envolvidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1216,
+    "completion_tokens": 128,
+    "total_tokens": 1344,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 320
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

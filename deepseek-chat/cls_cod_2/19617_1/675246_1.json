@@ -1,0 +1,28 @@
+{
+  "id": "988d3379-f15e-4037-932b-8caa76cf57ce",
+  "object": "chat.completion",
+  "created": 1760390798,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a inserção de um contrato específico em um sistema, o que corrige a condição imediata de ausência, mas não aborda as causas subjacentes, como falhas em processos de contratação ou gestão documental. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 947,
+    "completion_tokens": 134,
+    "total_tokens": 1081,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 115
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

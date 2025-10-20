@@ -1,0 +1,28 @@
+{
+  "id": "1b92c13b-67a8-47c2-b442-08ced8b407c4",
+  "object": "chat.completion",
+  "created": 1760384190,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"Em relação ao foco, a recomendação propõe o cumprimento de diretrizes normativas específicas para a etiquetagem de OPME, o que visa corrigir a condição atual de não conformidade, mas não identifica ou aborda ações para tratar a causa subjacente do problema, como falhas em processos de treinamento ou controle de qualidade. Já em relação aos efeitos pretendidos pela recomendação, como o critério 'Foco Causa' não é atendido, essa análise não se aplica.\",\n   \"Foco Causa\": \"Não\",\n   \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1249,
+    "completion_tokens": 151,
+    "total_tokens": 1400,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 417
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

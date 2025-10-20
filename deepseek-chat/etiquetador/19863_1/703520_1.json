@@ -1,0 +1,28 @@
+{
+  "id": "017b8705-24eb-4016-b0e2-3b5166df8367",
+  "object": "chat.completion",
+  "created": 1760050984,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Etiqueta\": \"Revisão de documento de caráter institucional\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2059,
+    "completion_tokens": 21,
+    "total_tokens": 2080,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 139
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

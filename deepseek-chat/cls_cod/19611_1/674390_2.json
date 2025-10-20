@@ -1,0 +1,28 @@
+{
+  "id": "10b29d27-a387-46a2-8a77-e849a12a4ed3",
+  "object": "chat.completion",
+  "created": 1760036136,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere a adoção de medidas para apurar a natureza do problema (prejuízo financeiro, falha assistencial ou erro material) e tomar providências baseadas nas conclusões, o que constitui uma ação corretiva para resolver a condição encontrada. No entanto, não propõe ações específicas para tratar a causa subjacente, como melhorias em processos de registro ou capacitação, limitando-se a uma abordagem genérica de cumprimento de normativos implícitos. Como a ação com foco na causa é genérica, os efeitos duradouros não são avaliados como positivos.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1152,
+    "completion_tokens": 182,
+    "total_tokens": 1334,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 128
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

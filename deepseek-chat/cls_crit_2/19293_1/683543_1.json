@@ -1,0 +1,28 @@
+{
+  "id": "69f5135b-e8f4-477d-a8a6-d695b04fa012",
+  "object": "chat.completion",
+  "created": 1760451452,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações que visam tratar as causas subjacentes das fragilidades nos controles, como o mapeamento de fluxos de trabalho e a criação de controles específicos, o que está correto. Para o critério 'Efeitos Duradouros', as ações de documentação e institucionalização de controles são projetadas para persistir independentemente de mudanças de pessoal, justificando a classificação como 'Sim'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1311,
+    "completion_tokens": 157,
+    "total_tokens": 1468,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 415
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

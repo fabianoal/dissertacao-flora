@@ -1,0 +1,28 @@
+{
+  "id": "6ec857a6-11fb-4101-a66c-8248cceaf5be",
+  "object": "chat.completion",
+  "created": 1760383866,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe que o Conselho Municipal de Saúde realize deliberações sobre as contratualizações, o que visa corrigir a ausência de avaliação e deliberação identificada na constatação. No entanto, essa ação trata diretamente da condição encontrada (falta de deliberação) e não aborda as causas subjacentes que levaram a essa omissão, como possíveis lacunas na estrutura organizacional, falta de capacitação dos conselheiros ou ausência de processos sistemáticos. Portanto, a recomendação é focada na condição, não na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1187,
+    "completion_tokens": 203,
+    "total_tokens": 1390,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 419
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

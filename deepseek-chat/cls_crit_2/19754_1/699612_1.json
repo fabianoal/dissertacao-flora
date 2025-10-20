@@ -1,0 +1,28 @@
+{
+  "id": "f1903b40-c1a7-48e5-9cbe-acbff30e6180",
+  "object": "chat.completion",
+  "created": 1760463189,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe estratégias de articulação entre municípios e DRS para garantir regionalização e integralidade, o que aborda diretamente a causa raiz do problema (falta de coordenação regional que resulta em violação do princípio da indivisibilidade). Quanto ao critério 'Efeitos Duradouros', as estratégias institucionais de articulação regional criam estruturas e processos formais que tendem a persistir independentemente de mudanças nos atores envolvidos, pois se baseiam em acordos interinstitucionais e princípios organizacionais do sistema de saúde.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1216,
+    "completion_tokens": 187,
+    "total_tokens": 1403,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 320
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

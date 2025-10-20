@@ -1,0 +1,28 @@
+{
+  "id": "1537ec40-dbcf-4f3a-a532-0d49b8730e67",
+  "object": "chat.completion",
+  "created": 1760388286,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a informar a constatação e solicitar a adoção de procedimentos administrativos para devolução de recursos, sem propor ações que tratem da causa raiz que levou à aprovação de APAC com procedimentos não realizados. Não há menção a medidas preventivas como revisão de processos de aprovação, capacitação de servidores ou implementação de controles que evitem a reincidência do problema.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1148,
+    "completion_tokens": 136,
+    "total_tokens": 1284,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 252
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

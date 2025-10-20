@@ -1,0 +1,28 @@
+{
+  "id": "dfa23137-91cf-458a-a4fe-15cefe64b63a",
+  "object": "chat.completion",
+  "created": 1760464701,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação propõe ações direcionadas às causas subjacentes do problema, como falta de monitoramento contínuo e capacitação inadequada. Para o critério 'Efeitos Duradouros', também concordo, pois as ações sugeridas (sistema de monitoramento, auditorias internas e treinamentos contínuos) são institucionalizadas e não dependem de indivíduos específicos, garantindo sustentabilidade.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1489,
+    "completion_tokens": 158,
+    "total_tokens": 1647,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 593
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

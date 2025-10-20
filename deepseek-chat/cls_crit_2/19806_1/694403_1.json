@@ -1,0 +1,28 @@
+{
+  "id": "1572846a-3dd1-43e6-a334-3a96fb3032b5",
+  "object": "chat.completion",
+  "created": 1760465089,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação possui foco na causa ao propor a implementação sistemática de ações, mas superestimou os efeitos duradouros ao não considerar que a sistematicidade depende da continuidade dos esforços humanos e pode não ser sustentada com mudanças na equipe ou gestão.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1205,
+    "completion_tokens": 118,
+    "total_tokens": 1323,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 309
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

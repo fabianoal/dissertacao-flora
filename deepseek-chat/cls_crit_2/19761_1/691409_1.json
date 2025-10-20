@@ -1,0 +1,28 @@
+{
+  "id": "b7c3b31b-85d6-4423-a383-43201dc03221",
+  "object": "chat.completion",
+  "created": 1760463497,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda tanto a implementação de instrumentos e documentos para registro e monitoramento quanto o treinamento contínuo da equipe, o que efetivamente trata as causas subjacentes à falta de registros (como processos inadequados e possíveis deficiências de conhecimento). Quanto ao critério 'Efeitos Duradouros', a análise original considera que os sistemas, procedimentos documentados e treinamento contínuo criam estruturas persistentes, mas o treinamento contínuo depende de comprometimento organizacional constante, o que pode variar com mudanças na gestão ou prioridades, tornando os efeitos menos garantidamente duradouros do que sugerido.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1312,
+    "completion_tokens": 208,
+    "total_tokens": 1520,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 416
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "52d030c8-13c0-4eb9-b89b-d4a67c2bd6a0",
+  "object": "chat.completion",
+  "created": 1760394964,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a elaboração de um cronograma de entrega e o estabelecimento de normas, procedimentos e rotinas técnicas escritas, o que visa tratar a causa subjacente da falta de uma rotina estabelecida, ao criar estruturas formais e documentadas para prevenir a recorrência do problema. Já em relação aos efeitos pretendidos pela recomendação, as ações focadas na causa, como a documentação de normas e rotinas, tendem a produzir efeitos duradouros, pois essas estruturas permanecem em vigor independentemente de mudanças nos atores envolvidos, assegurando continuidade nos processos.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1282,
+    "completion_tokens": 179,
+    "total_tokens": 1461,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 450
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

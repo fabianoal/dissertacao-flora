@@ -1,0 +1,28 @@
+{
+  "id": "38ded735-2eb6-4111-9309-0033b045cdd5",
+  "object": "chat.completion",
+  "created": 1760463777,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise da codificação identificou corretamente que a recomendação possui duas partes distintas, sendo uma focada na correção da condição atual (devolução dos recursos) e outra na prevenção de reincidências (aperfeiçoamento de mecanismos de controle). No entanto, há aspectos que merecem discussão quanto aos critérios de classificação.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1444,
+    "completion_tokens": 124,
+    "total_tokens": 1568,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 484
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

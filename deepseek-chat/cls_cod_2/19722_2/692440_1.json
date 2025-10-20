@@ -1,0 +1,28 @@
+{
+  "id": "f2df1bab-ffbd-496f-a1c8-f1597dc60764",
+  "object": "chat.completion",
+  "created": 1760394644,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe duas ações distintas: analisar o relatório de crítica do SIA/SUS ou alterar o contrato para adequar o fluxo de pagamento. A primeira ação ('analisar o relatório') é uma medida corretiva imediata para a condição específica (pagamento sem considerar o relatório), caracterizando-se como foco na condição. A segunda ação ('alterar o contrato') visa modificar a base contratual para evitar que o problema se repita, tratando assim da causa subjacente (inadequação contratual). Quanto aos efeitos duradouros, a alteração contratual estabelece um procedimento formal permanente que independe dos atores envolvidos, garantindo que o fluxo correto seja seguido mesmo com mudanças futuras.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1135,
+    "completion_tokens": 208,
+    "total_tokens": 1343,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 303
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

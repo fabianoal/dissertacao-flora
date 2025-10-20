@@ -1,0 +1,28 @@
+{
+  "id": "824b323a-31ea-416d-9ca5-ce005fbb42b0",
+  "object": "chat.completion",
+  "created": 1760467025,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação claramente propõe a inserção formal das áreas de saúde do trabalhador nos instrumentos de planejamento (PMS e PAS), o que constitui uma ação estrutural para tratar a causa raiz do problema - a falta de previsão formal dessas ações. Quanto ao critério 'Efeitos Duradouros', a implementação dessa recomendação estabeleceria um processo formal de planejamento que se manteria independentemente de mudanças nas equipes ou gestores, criando assim efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1300,
+    "completion_tokens": 173,
+    "total_tokens": 1473,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 404
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

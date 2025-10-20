@@ -1,0 +1,28 @@
+{
+  "id": "f694ae4a-1f5b-460e-b5bd-5068a7fd4a69",
+  "object": "chat.completion",
+  "created": 1760398456,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação trata da devolução de recursos financeiros ao Fundo Nacional de Saúde, focando na correção da condição específica de pagamento indevido identificada na auditoria. Não propõe ações para tratar as causas subjacentes que levaram à ausência de documentação comprobatória dos procedimentos, como falhas nos processos de registro, controle interno ou capacitação de pessoal. Portanto, não há ação voltada para a causa do problema. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1097,
+    "completion_tokens": 171,
+    "total_tokens": 1268,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 265
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

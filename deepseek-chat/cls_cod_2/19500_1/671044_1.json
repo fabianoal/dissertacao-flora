@@ -1,0 +1,28 @@
+{
+  "id": "f5d7febe-ec98-4db8-bcf0-1eb0239f606b",
+  "object": "chat.completion",
+  "created": 1760386366,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"A recomendação propõe a organização do arquivamento dos prontuários, incluindo a inclusão das AIHs, o que visa corrigir a condição imediata de ausência de documentos, mas não aborda explicitamente as causas subjacentes, como falhas em processos de treinamento, supervisão ou políticas de conformidade. Portanto, não há ação clara focada na causa do problema. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não é atendido, essa avaliação não se aplica.\",\n   \"Foco Causa\": \"Não\",\n   \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1002,
+    "completion_tokens": 158,
+    "total_tokens": 1160,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 170
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

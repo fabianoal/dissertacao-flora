@@ -1,0 +1,28 @@
+{
+  "id": "602cbe0d-373d-4bd4-8cc5-ce944f89f701",
+  "object": "chat.completion",
+  "created": 1760459117,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise original argumenta que a recomendação é genérica e não aborda diretamente a causa específica do problema (falta de cadastro do STDAH no CNES), focando em supervisão contínua. Concordo com essa avaliação, pois a recomendação propõe monitoramento geral de contratos, sem ações específicas para resolver a causa raiz (ex.: implementar processo de verificação de cadastro no CNES durante contratação). Para 'Efeitos Duradouros', como 'Foco Causa' é 'Não', a resposta 'Não se aplica' está correta.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1235,
+    "completion_tokens": 189,
+    "total_tokens": 1424,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 275
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

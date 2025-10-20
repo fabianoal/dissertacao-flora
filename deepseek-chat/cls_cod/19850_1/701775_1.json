@@ -1,0 +1,28 @@
+{
+  "id": "1a5fe175-8ef5-4907-a356-33dc212e0535",
+  "object": "chat.completion",
+  "created": 1760038564,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação inclui ações corretivas, como eliminar acessos desnecessários, que visam resolver a condição imediata de falta de segurança. Além disso, propõe ações com foco na causa, como elaborar e implementar uma Política de Segurança da Informação, aprimorar a gestão de acessos, realizar monitoramento contínuo e promover capacitações, que são específicas e vão além do mero cumprimento normativo, endereçando as causas subjacentes da falta de segurança. Essas ações específicas têm efeitos duradouros, pois estabelecem políticas, processos e práticas que podem persistir independentemente de mudanças nos atores envolvidos.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Específica\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1333,
+    "completion_tokens": 204,
+    "total_tokens": 1537,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 309
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

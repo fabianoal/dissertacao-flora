@@ -1,0 +1,28 @@
+{
+  "id": "d29eb239-c75a-4989-ad68-da7cd29e5306",
+  "object": "chat.completion",
+  "created": 1760036672,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"A recomendação sugere múltiplas ações: 'Integrar sistematicamente os relatórios da CAC aos processos de pagamento' e 'Incluir, nos processos de pagamento, documentos comprobatórios da produção e comparativos entre metas pactuadas e resultados alcançados' são ações corretivas para resolver a condição imediata de falta de comprovação do monitoramento. Além disso, 'Aprimorar os controles operacionais e documentais relativos à gestão e monitoramento dos contratos de serviços de alta complexidade' e 'Revisar e fortalecer os controles internos, garantindo a rastreabilidade da produção assistencial' são ações com foco na causa, pois visam melhorar processos subjacentes para prevenir recorrências, embora sejam genéricas por não especificar medidas concretas além do cumprimento normativo. A ação 'Adequar os procedimentos de liquidação da despesa às exigências legais' e a referência à Lei nº 4.320/1964 reforçam o caráter genérico, focando em conformidade sem detalhar implementações específicas. Para efeitos duradouros, como as ações de causa são genéricas, não há garantia de permanência com mudanças de atores.\",\n   \"Ação Corretiva\": \"Sim\",\n   \"Ação Foco Causa\": \"Genérica\",\n   \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1306,
+    "completion_tokens": 328,
+    "total_tokens": 1634,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 346
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

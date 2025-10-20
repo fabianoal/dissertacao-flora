@@ -1,0 +1,28 @@
+{
+  "id": "3dcc0ce2-9427-4725-9b97-d025c5b244d3",
+  "object": "chat.completion",
+  "created": 1760396272,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações para corrigir as condições físicas inadequadas da CMRF (instalações elétricas aparentes, umidade, falta de local adequado para guarda de equipamentos), que são as causas diretas que comprometem a manutenção da cadeia de frio, portanto possui foco na causa. Já em relação aos efeitos pretendidos pela recomendação, as melhorias na infraestrutura física (como correção de instalações elétricas, eliminação de umidade e adequação de espaços) tendem a ser permanentes e independem de mudanças nos atores envolvidos, pois são incorporadas à estrutura física do local.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1048,
+    "completion_tokens": 190,
+    "total_tokens": 1238,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 216
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

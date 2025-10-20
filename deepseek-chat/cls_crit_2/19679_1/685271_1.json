@@ -1,0 +1,28 @@
+{
+  "id": "6bc07304-bc1a-494b-9511-6264ae7cb438",
+  "object": "chat.completion",
+  "created": 1760459309,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe orientar fiscais e gestores para realizar acompanhamento adequado dos processos de contratualização e execução, cumprindo dispositivos legais específicos. Isso visa prevenir a reincidência da prorrogação irregular de contratos, abordando a causa do problema, que é a falta de acompanhamento adequado. Quanto ao critério 'Efeitos Duradouros', a orientação e o cumprimento dos dispositivos legais estabelecem um procedimento padrão que deve persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1206,
+    "completion_tokens": 192,
+    "total_tokens": 1398,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 310
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

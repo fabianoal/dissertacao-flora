@@ -1,0 +1,28 @@
+{
+  "id": "fc497693-5d87-4739-85b2-875dcd7a6429",
+  "object": "chat.completion",
+  "created": 1760387898,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações de planejamento, execução e monitoramento de ações estratégicas para melhorar o indicador, o que sugere um tratamento da causa subjacente (falta de ações adequadas) em vez de apenas corrigir a condição atual. Já em relação aos efeitos pretendidos pela recomendação, as ações estratégicas e o monitoramento contínuo podem gerar efeitos duradouros, pois estabelecem processos que podem persistir independentemente de mudanças nos atores envolvidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 982,
+    "completion_tokens": 153,
+    "total_tokens": 1135,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 150
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

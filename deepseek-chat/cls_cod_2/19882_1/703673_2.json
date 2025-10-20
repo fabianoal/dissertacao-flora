@@ -1,0 +1,28 @@
+{
+  "id": "edc1c727-90e5-4c52-a7fb-e992e7c59a04",
+  "object": "chat.completion",
+  "created": 1760400516,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações como aprimorar o monitoramento e controle de pagamentos, avaliar a inclusão de críticas no sistema SHD2 e monitorar devoluções financeiras. Essas medidas visam corrigir falhas sistêmicas no processo de pagamento e controle que permitiram a não emissão das APACs, tratando assim a causa do problema. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como aprimorar sistemas de monitoramento e incluir críticas automáticas, criam mecanismos permanentes que continuariam funcionando mesmo com mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1243,
+    "completion_tokens": 190,
+    "total_tokens": 1433,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 347
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "eb1dbbb7-debd-426a-aa3e-346f84e34029",
+  "object": "chat.completion",
+  "created": 1760399820,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe capacitação dos profissionais para prevenir registros incompletos no futuro, tratando a causa (falta de conhecimento/conscientização) e não apenas corrigindo os registros existentes. Já em relação aos efeitos pretendidos pela recomendação, a capacitação visa estabelecer práticas permanentes de registro adequado, cujos efeitos (conhecimento e conformidade) podem perdurar mesmo com mudanças nos profissionais, desde que a capacitação seja institucionalizada.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1051,
+    "completion_tokens": 149,
+    "total_tokens": 1200,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 219
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

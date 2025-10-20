@@ -1,0 +1,28 @@
+{
+  "id": "65e8fb75-10a6-48e3-82cf-4e0176fe8ba0",
+  "object": "chat.completion",
+  "created": 1760454385,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe aprimorar a utilização sistemática e o monitoramento dos indicadores, o que visa estabelecer um processo contínuo para tratar a causa subjacente da falta de uso consistente. Para o critério 'Efeitos Duradouros', a implementação de práticas sistemáticas baseadas em processos estruturados tende a persistir mesmo com mudanças de pessoal, mas a análise original pode ter superestimado a garantia de durabilidade sem considerar possíveis falhas na sustentação desses processos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1232,
+    "completion_tokens": 175,
+    "total_tokens": 1407,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 336
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

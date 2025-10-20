@@ -1,0 +1,28 @@
+{
+  "id": "10b776d6-c35b-4dc9-b3f2-02032da55c78",
+  "object": "chat.completion",
+  "created": 1760036720,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere ações para resolver a condição encontrada de higienização e limpeza insatisfatória, como garantir a correta higienização e limpeza dos espaços e fornecer insumos para higienização das mãos, o que caracteriza uma ação corretiva. No entanto, a recomendação se baseia no cumprimento de normativos específicos (artigos da RDC/ANVISA) sem propor ações adicionais para tratar as causas subjacentes, como falhas em processos ou treinamento, sendo assim genérica em foco na causa. Como o foco na causa é genérico, os efeitos duradouros não se aplicam de forma sustentável.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1160,
+    "completion_tokens": 201,
+    "total_tokens": 1361,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 136
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

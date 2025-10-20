@@ -1,0 +1,28 @@
+{
+  "id": "d7a8e25f-ba92-415e-b519-9771c7f2710d",
+  "object": "chat.completion",
+  "created": 1760399792,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação inclui ações que tratam da causa do problema, como a implementação de sistemas de registro eletrônico para documentar atendimentos em tempo real, reavaliação da gestão de horários e alocação de recursos, capacitação contínua da equipe e implementação de processos de controle e monitoramento, que visam prevenir a reincidência da condição de produção não comprovada. Já em relação aos efeitos pretendidos pela recomendação, as ações propostas, como sistemas eletrônicos, processos de controle e capacitação, tendem a criar estruturas e procedimentos que permanecem independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1307,
+    "completion_tokens": 198,
+    "total_tokens": 1505,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 411
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

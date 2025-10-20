@@ -1,0 +1,28 @@
+{
+  "id": "63faeea1-eb8b-4e34-804f-808aa7cdc0da",
+  "object": "chat.completion",
+  "created": 1760452600,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação sugere a utilização de instrumentos orientativos para qualificar os registros, o que aborda a causa do problema, que é a falta de adesão às diretrizes estabelecidas. Quanto ao critério 'Efeitos Duradouros', a recomendação não propõe ações específicas para garantir que os efeitos perdurem independentemente de mudanças nos atores envolvidos, como a implementação de sistemas de monitoramento contínuo ou treinamentos regulares.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1271,
+    "completion_tokens": 165,
+    "total_tokens": 1436,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 375
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

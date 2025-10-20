@@ -1,0 +1,28 @@
+{
+  "id": "f6d4938f-2119-4d57-9ceb-6b9c039e6edc",
+  "object": "chat.completion",
+  "created": 1760463377,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a implementação de controles de inspeção sistemáticos com instrumentos de medição adequados, o que aborda diretamente a causa raiz do problema (processo inadequado de inspeção), e não apenas corrige sintomas pontuais. Quanto ao critério 'Efeitos Duradouros', a implementação de controles estruturados e baseados em procedimentos padronizados tende a criar processos permanentes que independem de indivíduos específicos, garantindo sustentabilidade.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1269,
+    "completion_tokens": 169,
+    "total_tokens": 1438,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 373
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "9c6b1471-1d8e-4377-91fe-dfc4d1b355ac",
+  "object": "chat.completion",
+  "created": 1760464782,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe uma ação que visa tratar a causa subjacente da constatação, que é a falta de informações sobre o PNI nos instrumentos de gestão, ao sugerir a inserção dessas informações. Isso se alinha com a definição de recomendações com foco na causa, pois busca evitar a reocorrência da condição através de uma solução de longo prazo. Quanto ao critério 'Efeitos Duradouros', a ação de inserir informações nos instrumentos de gestão estabelece um procedimento formal que deve ser mantido independentemente de mudanças nos atores, assegurando transparência contínua sobre o PNI.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1216,
+    "completion_tokens": 205,
+    "total_tokens": 1421,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 320
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

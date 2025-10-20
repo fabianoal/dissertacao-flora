@@ -1,0 +1,28 @@
+{
+  "id": "3874995b-a6d7-4b28-9e83-a40a77bd9e8c",
+  "object": "chat.completion",
+  "created": 1760389474,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação solicita que a convenente apresente justificativas e documentação comprobatória para as contratações realizadas, focando na regularização da situação atual (condição encontrada de ausência de critérios), sem propor ações que modifiquem processos ou implementem critérios para evitar a reincidência do problema. Portanto, não há ação que trate da causa do problema. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 944,
+    "completion_tokens": 159,
+    "total_tokens": 1103,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 112
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

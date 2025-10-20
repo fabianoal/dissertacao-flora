@@ -1,0 +1,28 @@
+{
+  "id": "e2272ff8-afcf-4bb3-9df8-f3cdefc34923",
+  "object": "chat.completion",
+  "created": 1760038292,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação 1 sugere uma ação corretiva para resolver a condição encontrada de preenchimento inadequado dos prontuários, especificando o registro individualizado com códigos CID ou CIAP ou o campo rápido de hipertensão. A recomendação 2 propõe o acompanhamento nominal e verificação rotineira da frequência, que visa melhorar o acesso e a qualidade, mas não identifica claramente uma causa subjacente, como falhas em processos ou treinamento, focando mais na condição atual e sendo genérica ao referir-se à Nota Técnica sem ações concretas adicionais. Portanto, não há ação específica para tratar a causa raiz, apenas ações genéricas e corretivas.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1219,
+    "completion_tokens": 210,
+    "total_tokens": 1429,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 195
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

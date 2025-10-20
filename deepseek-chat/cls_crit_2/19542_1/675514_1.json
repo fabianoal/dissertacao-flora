@@ -1,0 +1,28 @@
+{
+  "id": "004a59d2-ce58-44b8-8b49-445cea72299e",
+  "object": "chat.completion",
+  "created": 1760454357,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a adoção de mecanismos para garantir o controle do registro de frequência, o que aborda a causa subjacente da fragilidade no controle (falta de mecanismos adequados), em vez de apenas corrigir registros específicos. Para o critério 'Efeitos Duradouros', a implementação de mecanismos estruturados de controle tende a estabelecer processos permanentes que não dependem de indivíduos específicos, mantendo sua eficácia mesmo com mudanças de pessoal. A análise do modelo está alinhada com a definição dos critérios.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1216,
+    "completion_tokens": 187,
+    "total_tokens": 1403,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 320
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

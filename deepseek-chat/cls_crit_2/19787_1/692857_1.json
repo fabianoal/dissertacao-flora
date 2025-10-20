@@ -1,0 +1,28 @@
+{
+  "id": "e3717b6e-28c8-4322-8974-bf7c72b977e6",
+  "object": "chat.completion",
+  "created": 1760464493,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação de formalizar POPs aborda a causa raiz da falta de monitoramento contínuo, que é a ausência de processos padronizados e documentados, portanto, a classificação como 'Sim' está correta. Para o critério 'Efeitos Duradouros', a formalização de POPs estabelece uma estrutura documentada que independe de indivíduos específicos, garantindo continuidade mesmo com mudanças de pessoal, então a classificação como 'Sim' também é adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1195,
+    "completion_tokens": 166,
+    "total_tokens": 1361,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 299
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

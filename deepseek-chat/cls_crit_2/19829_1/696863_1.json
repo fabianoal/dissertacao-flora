@@ -1,0 +1,28 @@
+{
+  "id": "c43fc0c8-9907-4b39-8c23-4e4310ce8c33",
+  "object": "chat.completion",
+  "created": 1760466093,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação se concentra em implementar ações diretas para corrigir a condição imediata (não realização de continuidade do cuidado ou redução de danos), sem abordar explicitamente as causas subjacentes, como falta de capacitação, recursos ou políticas institucionais. Quanto ao critério 'Efeitos Duradouros', como o 'Foco Causa' foi classificado como 'Não', a resposta 'Não se aplica' está adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1195,
+    "completion_tokens": 169,
+    "total_tokens": 1364,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 299
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

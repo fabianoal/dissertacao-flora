@@ -1,0 +1,28 @@
+{
+  "id": "094adf24-6825-4d28-a3c0-4e2b7be915a6",
+  "object": "chat.completion",
+  "created": 1760399104,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação menciona explicitamente 'prevenir a recorrência do fato apresentado', o que indica uma ação voltada para tratar a causa do problema, não apenas corrigir a condição atual. Já em relação aos efeitos pretendidos pela recomendação, a prevenção da recorrência sugere que os efeitos são duradouros, pois a implementação de medidas preventivas tende a persistir independentemente de mudanças nos atores envolvidos, especialmente quando baseada em normativos como a Portaria GM/MS n.º 885/2021.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 969,
+    "completion_tokens": 162,
+    "total_tokens": 1131,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 137
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

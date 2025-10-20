@@ -1,0 +1,28 @@
+{
+  "id": "fd425ca9-f500-4c4a-ba11-2e172588d779",
+  "object": "chat.completion",
+  "created": 1760458669,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identificou corretamente que a recomendação se concentra em cumprir exigências normativas de arquivamento quando a conexão for restabelecida, sem abordar ações para tratar a causa raiz da não apresentação dos documentos, como falhas nos processos de guarda, capacitação ou controles internos. Para o critério 'Efeitos Duradouros', a resposta 'Não se aplica' está adequada, pois deriva diretamente da ausência de foco na causa.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1282,
+    "completion_tokens": 168,
+    "total_tokens": 1450,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 386
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2c977a15-9ed6-43c5-af66-5cdfbed37112",
+  "object": "chat.completion",
+  "created": 1760384374,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a anexação da AIH ao prontuário do paciente, o que é uma ação direta para corrigir a condição encontrada de falta de anexação dos documentos, sem abordar as causas subjacentes que levaram a essa falha (como possíveis deficiências em processos, treinamento ou supervisão). Portanto, trata-se de uma medida focada na condição imediata. Como o critério 'Foco Causa' não foi atendido, a análise de efeitos duradouros não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1204,
+    "completion_tokens": 169,
+    "total_tokens": 1373,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 308
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "0c47206c-06c1-4bf9-ad11-83a4871e7e0e",
+  "object": "chat.completion",
+  "created": 1760458905,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação é genérica e não especifica ações que abordem diretamente a causa raiz do problema, como falhas na gestão, recursos ou capacitação. A recomendação foca na correção da condição atual (gestantes sem consultas adequadas) sem propor medidas preventivas de longo prazo. Quanto ao critério 'Efeitos Duradouros', como o critério 'Foco Causa' não foi atendido, a resposta 'Não se aplica' está adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1288,
+    "completion_tokens": 174,
+    "total_tokens": 1462,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 392
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "afa9636b-d775-4540-ae3e-8170e30e93e5",
+  "object": "chat.completion",
+  "created": 1760463881,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe uma revisão do Plano de Contingência para adequá-lo às possíveis intercorrências, o que efetivamente visa tratar a causa subjacente (a falta de cobertura completa das emergências) ao modificar o plano em si, em vez de apenas corrigir uma condição específica atual. Quanto ao critério 'Efeitos Duradouros', a revisão resulta em um documento formal que estabelece diretrizes permanentes, as quais devem persistir independentemente de mudanças nos atores envolvidos, garantindo assim efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1196,
+    "completion_tokens": 186,
+    "total_tokens": 1382,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 300
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

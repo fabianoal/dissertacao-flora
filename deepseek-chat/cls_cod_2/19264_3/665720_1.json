@@ -1,0 +1,28 @@
+{
+  "id": "c168316e-ee14-42ff-81fd-064d6d690138",
+  "object": "chat.completion",
+  "created": 1760384430,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se concentra exclusivamente na correção da condição financeira específica identificada (devolução de valores), sem propor ações que abordem as causas subjacentes da falta de comprovação da utilização dos materiais, como falhas nos processos de registro, controle interno ou capacitação. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1138,
+    "completion_tokens": 146,
+    "total_tokens": 1284,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 178
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

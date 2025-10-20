@@ -1,0 +1,28 @@
+{
+  "id": "134e8d37-dbc6-40c1-b2bf-72480ae72c9d",
+  "object": "chat.completion",
+  "created": 1760456177,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação possui foco na causa ao propor a criação de critérios para definição de despesas, mas superestimou os efeitos duradouros ao não considerar que a implementação depende da adesão contínua dos atores envolvidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1239,
+    "completion_tokens": 112,
+    "total_tokens": 1351,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 343
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

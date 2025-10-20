@@ -1,0 +1,28 @@
+{
+  "id": "6826bee0-55c8-4407-bcf3-e12b87e9382e",
+  "object": "chat.completion",
+  "created": 1760395556,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação se limita a citar dispositivos normativos que exigem a existência de Procedimentos Operacionais Padrão (POP), sem propor ações específicas para tratar a causa subjacente da ausência desses documentos, como falhas na gestão documental, capacitação da equipe ou processos de revisão. Já em relação aos efeitos pretendidos pela recomendação, como o critério 'Foco Causa' não foi atendido, esta análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1090,
+    "completion_tokens": 149,
+    "total_tokens": 1239,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 258
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

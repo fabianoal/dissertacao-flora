@@ -1,0 +1,28 @@
+{
+  "id": "aa075bc5-20ae-4a4a-9739-ba3f6a7d2880",
+  "object": "chat.completion",
+  "created": 1760462470,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise realizada pelo modelo está correta, pois a recomendação se limita a solicitar a comprovação do funcionamento do serviço, sem abordar as causas subjacentes da falha nos canais de comunicação e sistemas. Quanto ao critério 'Efeitos Duradouros', como o 'Foco Causa' foi corretamente classificado como 'Não', a resposta 'Não se aplica' é adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1205,
+    "completion_tokens": 151,
+    "total_tokens": 1356,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 309
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

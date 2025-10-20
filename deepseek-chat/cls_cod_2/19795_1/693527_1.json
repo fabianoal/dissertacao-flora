@@ -1,0 +1,28 @@
+{
+  "id": "0478c22a-ad9a-43c0-b90b-6260c81d7aa0",
+  "object": "chat.completion",
+  "created": 1760397104,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações para corrigir a condição encontrada de registros inadequados e falta de equipamento, como realizar registros precisos e concluir a aquisição de termômetro, mas não aborda explicitamente a causa subjacente que levou a esses problemas (ex: falta de treinamento, procedimentos inadequados ou falhas na supervisão). Portanto, o foco está mais na condição imediata do que na causa raiz. Como o critério 'Foco Causa' não é atendido, a análise de efeitos duradouros não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1120,
+    "completion_tokens": 177,
+    "total_tokens": 1297,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 288
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

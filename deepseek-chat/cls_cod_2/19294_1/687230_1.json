@@ -1,0 +1,28 @@
+{
+  "id": "97c29d94-800e-4765-ac9e-6e2accc7bf4f",
+  "object": "chat.completion",
+  "created": 1760384542,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a capacitação em gestão e fiscalização de contratos dos servidores designados, o que visa tratar a causa do problema (falta de capacitação adequada) que gerou a baixa comprovação de capacitação observada. Já em relação aos efeitos pretendidos pela recomendação, a capacitação estabelece um processo formativo que permanece mesmo com mudanças nos atores envolvidos, pois cria uma base de conhecimento institucional que pode ser aplicada independentemente de quem exerça a função de fiscal.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1040,
+    "completion_tokens": 159,
+    "total_tokens": 1199,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 272
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

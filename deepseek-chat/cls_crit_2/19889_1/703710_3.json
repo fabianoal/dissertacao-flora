@@ -1,0 +1,28 @@
+{
+  "id": "fc994e75-fdb3-46f1-8e28-701ccf7f2486",
+  "object": "chat.completion",
+  "created": 1760468257,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise fornecida avalia corretamente que a recomendação se concentra na correção financeira da condição irregular, sem propor ações para abordar a causa subjacente da ausência de APAC concomitante. Isso está alinhado com a definição de recomendações com foco na condição. No entanto, a avaliação do critério 'Efeitos Duradouros' foi feita de forma adequada, considerando que 'Foco Causa' foi 'Não', resultando em 'Não se aplica'.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1308,
+    "completion_tokens": 158,
+    "total_tokens": 1466,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 348
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

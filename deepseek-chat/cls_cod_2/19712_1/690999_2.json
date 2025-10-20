@@ -1,0 +1,28 @@
+{
+  "id": "cf179c81-5cb9-46be-9e24-1c1a57813b8f",
+  "object": "chat.completion",
+  "created": 1760394328,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a sugerir a adoção de medidas de apuração e cobrança administrativa de valores recebidos indevidamente, focando na correção da condição específica identificada (exames não comprovados). Não há menção a ações que abordem a causa raiz do problema, como falhas nos processos de registro, controle ou supervisão que permitiram a inserção não comprovada de exames. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1049,
+    "completion_tokens": 181,
+    "total_tokens": 1230,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 153
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

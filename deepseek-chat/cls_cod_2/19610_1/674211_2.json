@@ -1,0 +1,28 @@
+{
+  "id": "d2436f3c-00d2-4fc9-8912-91a9cf03397c",
+  "object": "chat.completion",
+  "created": 1760389426,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a inserção de relatórios mensais no sistema Transferegov para corrigir a ausência e impropriedades identificadas, focando diretamente na condição observada, sem abordar as causas subjacentes, como falhas nos processos de monitoramento ou capacitação. Portanto, não há ação para tratar a causa do problema. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 977,
+    "completion_tokens": 145,
+    "total_tokens": 1122,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 81
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

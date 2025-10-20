@@ -1,0 +1,28 @@
+{
+  "id": "aa5a2e29-f446-49d9-8de1-df491e9c6dbb",
+  "object": "chat.completion",
+  "created": 1760457169,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda tanto ações corretivas imediatas (elaboração de relatórios com base em informações fidedignas) quanto preventivas (adoção de medidas em caso de descumprimento), o que sugere um tratamento da causa subjacente das impropriedades. Para o critério 'Efeitos Duradouros', as ações propostas, como a elaboração sistemática de relatórios e a implementação de medidas preventivas, são processos que podem ser institucionalizados, mas dependem da adesão contínua das unidades e da aplicação consistente das normas.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1305,
+    "completion_tokens": 188,
+    "total_tokens": 1493,
+    "prompt_tokens_details": {
+      "cached_tokens": 1088
+    },
+    "prompt_cache_hit_tokens": 1088,
+    "prompt_cache_miss_tokens": 217
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

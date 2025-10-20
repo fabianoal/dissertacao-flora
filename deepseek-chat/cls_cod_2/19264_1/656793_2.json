@@ -1,0 +1,28 @@
+{
+  "id": "ffc54fab-0f6a-41e3-a01f-afe45fdb4294",
+  "object": "chat.completion",
+  "created": 1760384359,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe garantir a anexação de exames de imagem pós-operatórios ao prontuário, o que visa corrigir diretamente a condição encontrada de apresentação parcial desses exames, sem abordar as causas subjacentes que levam a essa falha (como falta de treinamento, processos inadequados ou falhas sistêmicas). Portanto, trata-se de uma medida corretiva imediata. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, não se aplica a avaliação deste critério.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1194,
+    "completion_tokens": 178,
+    "total_tokens": 1372,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 298
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

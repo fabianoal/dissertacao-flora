@@ -1,0 +1,28 @@
+{
+  "id": "4485c500-4e07-450c-a862-7e9973ed0cf1",
+  "object": "chat.completion",
+  "created": 1760466050,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação é genérica e não propõe ações específicas para tratar a causa da inexistência do serviço de acompanhamento, controle e análise da produção ambulatorial. A recomendação apenas cita dispositivos legais e normativos sem indicar medidas concretas para resolver o problema subjacente, como a implementação de processos específicos ou capacitação da equipe. Quanto ao critério 'Efeitos Duradouros', como o critério 'Foco Causa' não é atendido, a resposta 'Não se aplica' está adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1188,
+    "completion_tokens": 189,
+    "total_tokens": 1377,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 292
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

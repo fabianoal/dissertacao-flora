@@ -1,0 +1,28 @@
+{
+  "id": "09cbc621-d01a-4af2-9b06-15e032a34c04",
+  "object": "chat.completion",
+  "created": 1760462498,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação claramente aborda a causa raiz do problema, que é a inadequação da infraestrutura e capacidade instalada do hospital em relação à produção informada. Quanto ao critério 'Efeitos Duradouros', a implementação das normas de classificação e credenciamento estabelece mudanças estruturais e processuais permanentes que devem persistir independentemente de mudanças na equipe ou gestão.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1295,
+    "completion_tokens": 147,
+    "total_tokens": 1442,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 399
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

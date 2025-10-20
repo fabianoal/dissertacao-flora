@@ -1,0 +1,28 @@
+{
+  "id": "c42d7eca-c1a2-4d65-83a6-1dc39bd3b650",
+  "object": "chat.completion",
+  "created": 1760394880,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a implementação de indicadores específicos para monitorar retornos de pacientes e aprimorar o monitoramento existente para identificar causas dos retornos, o que visa tratar a causa raiz do problema (falta de identificação das causas dos retornos) e não apenas corrigir a condição atual de não monitoramento. Já em relação aos efeitos pretendidos pela recomendação, a implementação de indicadores e sistemas de monitoramento permanece mesmo com mudanças nos atores envolvidos, pois se trata de uma estrutura institucionalizada de coleta e análise de dados.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1053,
+    "completion_tokens": 169,
+    "total_tokens": 1222,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 221
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

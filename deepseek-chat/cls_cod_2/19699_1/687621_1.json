@@ -1,0 +1,28 @@
+{
+  "id": "d1ac259e-ab43-43e9-b143-9ad8135c9334",
+  "object": "chat.completion",
+  "created": 1760394100,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a disponibilização de procedimentos cirúrgicos para tratar as complicações da hanseníase, o que aborda diretamente a condição encontrada de falta de comprovação desses serviços, sem indicar ações para prevenir a causa subjacente, como falhas na gestão ou planejamento. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, esta análise não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1120,
+    "completion_tokens": 147,
+    "total_tokens": 1267,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 288
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

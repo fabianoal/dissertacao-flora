@@ -1,0 +1,28 @@
+{
+  "id": "f23109d1-6c14-41cb-a37a-9acaff8a3540",
+  "object": "chat.completion",
+  "created": 1760452784,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a adoção de indicadores específicos para monitorar o funcionamento do SAMU, o que aborda diretamente a causa da falta de avaliação baseada em parâmetros ministeriais. Para o critério 'Efeitos Duradouros', a implementação de um sistema estruturado de indicadores tende a ser sustentável, independentemente de mudanças na equipe, desde que integrado aos processos organizacionais.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1292,
+    "completion_tokens": 153,
+    "total_tokens": 1445,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 396
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

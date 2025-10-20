@@ -1,0 +1,28 @@
+{
+  "id": "0c39fa76-b0f6-4e82-9c3d-b0997fff3a7b",
+  "object": "chat.completion",
+  "created": 1760389646,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a solicitar informações sobre o problema identificado e, caso persista, determinar o ressarcimento dos valores. Não há proposta de ação para tratar a causa raiz das impropriedades no processo de cotação de preço, como a implementação de melhorias nos procedimentos, capacitação da equipe ou revisão dos controles internos. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' não foi atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 967,
+    "completion_tokens": 165,
+    "total_tokens": 1132,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 135
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

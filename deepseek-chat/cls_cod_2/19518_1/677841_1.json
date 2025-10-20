@@ -1,0 +1,28 @@
+{
+  "id": "1666fe8e-0d1b-48e4-babd-382aee015726",
+  "object": "chat.completion",
+  "created": 1760386726,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações para garantir o envio correto de dados para o SISAB e o registro adequado nos prontuários, o que visa tratar a causa da discrepância nos dados (falhas no registro e envio), e não apenas corrigir os dados existentes. Já em relação aos efeitos pretendidos pela recomendação, a implementação de processos padronizados de registro e envio de dados tende a criar uma estrutura que permanece mesmo com mudanças de atores, pois se baseia em normas e sistemas estabelecidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1039,
+    "completion_tokens": 160,
+    "total_tokens": 1199,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 207
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

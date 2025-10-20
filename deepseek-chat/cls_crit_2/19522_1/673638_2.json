@@ -1,0 +1,28 @@
+{
+  "id": "75076c07-29e7-4b60-a666-c9288747a22d",
+  "object": "chat.completion",
+  "created": 1760453805,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação não propõe ações específicas para tratar a causa da divergência entre os dados inseridos no SIA/SUS e os registros dos estabelecimentos de saúde. A recomendação se limita a encaminhar a constatação para conhecimento da SAES/MS e citar dispositivos legais, sem medidas como revisão de processos, capacitação ou implementação de controles internos. Quanto ao critério 'Efeitos Duradouros', como o 'Foco Causa' foi classificado como 'Não', a resposta 'Não se aplica' está adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1456,
+    "completion_tokens": 193,
+    "total_tokens": 1649,
+    "prompt_tokens_details": {
+      "cached_tokens": 1088
+    },
+    "prompt_cache_hit_tokens": 1088,
+    "prompt_cache_miss_tokens": 368
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

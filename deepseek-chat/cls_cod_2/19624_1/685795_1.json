@@ -1,0 +1,28 @@
+{
+  "id": "9262366f-e91b-46ca-a68a-39d7c6faab80",
+  "object": "chat.completion",
+  "created": 1760391170,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação 1 propõe que sejam adotadas medidas para cumprir a exigência legal de apreciação/homologação do gestor nos Relatórios de Acompanhamento, o que trata diretamente da causa da ausência observada (não cumprimento das normas). A recomendação 2 reforça a necessidade de fiscalização e acompanhamento, também visando a causa subjacente de falta de controle. Quanto aos efeitos duradouros, as ações sugeridas (implementação de processos de fiscalização e cumprimento de normas) criam estruturas que permanecem independentemente de mudanças nos atores envolvidos, pois estão baseadas em procedimentos formais e exigências legais.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1153,
+    "completion_tokens": 200,
+    "total_tokens": 1353,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 321
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

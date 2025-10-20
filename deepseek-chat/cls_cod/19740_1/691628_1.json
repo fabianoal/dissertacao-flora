@@ -1,0 +1,28 @@
+{
+  "id": "c6bc53b1-4b47-4582-a000-e38d96a1ec9b",
+  "object": "chat.completion",
+  "created": 1760035461,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere inserir informações sobre a estrutura do RAG no sistema DigiSUS para atender a requisitos normativos, o que é uma ação corretiva para resolver a condição de falta de informações. No entanto, não propõe ações específicas além do cumprimento normativo para tratar a causa subjacente, como melhorias em processos ou capacitação, sendo genérica em foco na causa. Como a ação de foco na causa é genérica, os efeitos duradouros não são avaliados positivamente.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1172,
+    "completion_tokens": 162,
+    "total_tokens": 1334,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 340
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

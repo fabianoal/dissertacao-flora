@@ -1,0 +1,28 @@
+{
+  "id": "031ed5a5-0f41-4c21-a652-0f266873a50c",
+  "object": "chat.completion",
+  "created": 1760036200,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere uma ação corretiva ao solicitar que a convenente apresente justificativas e documentação comprobatória para corrigir a ausência de critérios nas contratações. No entanto, a ação proposta é genérica, pois se limita a citar o cumprimento de normativos existentes sem propor medidas específicas para tratar a causa subjacente, como a implementação de novos procedimentos ou políticas.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1228,
+    "completion_tokens": 140,
+    "total_tokens": 1368,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 204
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

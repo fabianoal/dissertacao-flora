@@ -1,0 +1,28 @@
+{
+  "id": "4c311f35-c9f8-4ca3-a28c-66530093c47b",
+  "object": "chat.completion",
+  "created": 1760395760,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação se limita a citar a necessidade de atender a normativos específicos sem propor ações direcionadas à causa raiz da não conformidade, como a falta de capacitação, supervisão ou recursos. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1090,
+    "completion_tokens": 123,
+    "total_tokens": 1213,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 258
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

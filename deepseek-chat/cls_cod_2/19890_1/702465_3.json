@@ -1,0 +1,28 @@
+{
+  "id": "1b7011f2-9b6a-4826-aab0-2ad964274e2e",
+  "object": "chat.completion",
+  "created": 1760400904,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a cobrança de devolução de recursos federais devido a pagamentos irregulares por procedimentos não comprovados ou com descrição incompatível. Esta ação visa corrigir a condição específica de irregularidade financeira identificada (devolução dos valores pagos indevidamente), mas não aborda as causas subjacentes que levaram a essas inconsistências, como falhas nos processos de registro, controle ou supervisão que permitiram a ocorrência dessas irregularidades. Portanto, a recomendação é focada na condição (correção imediata do problema financeiro) e não na causa (prevenção de futuras ocorrências). Como o critério 'Foco Causa' não é atendido, a análise de 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1234,
+    "completion_tokens": 220,
+    "total_tokens": 1454,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 338
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

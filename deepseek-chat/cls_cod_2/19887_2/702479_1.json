@@ -1,0 +1,28 @@
+{
+  "id": "ae074cad-d742-4f7a-af92-5a1f88cf2c09",
+  "object": "chat.completion",
+  "created": 1760400760,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação orienta o cumprimento de uma norma específica que estabelece a necessidade de registro e faturamento da quimioterapia via APAC concomitantemente à internação, focando na correção imediata da condição observada de ausência desses registros. Não propõe ações para abordar as causas subjacentes, como falhas em processos, treinamento ou sistemas que levaram à não conformidade, sendo portanto direcionada à condição atual. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1010,
+    "completion_tokens": 171,
+    "total_tokens": 1181,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 178
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

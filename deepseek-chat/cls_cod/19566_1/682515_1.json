@@ -1,0 +1,28 @@
+{
+  "id": "bb8ba7fc-9b8d-461c-a0ff-14fc27b57162",
+  "object": "chat.completion",
+  "created": 1760036732,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere ações para corrigir a condição encontrada (ausência de informações nos prontuários) através do acompanhamento e fiscalização da contratada (item a) e trabalho articulado para garantir registros adequados (item b), caracterizando ação corretiva. Para o foco na causa, as ações propostas são majoritariamente genéricas, como 'acompanhar e fiscalizar' e 'trabalhar de forma articulada', referindo-se ao cumprimento de normativos sem especificar medidas concretas além disso. Não há ações específicas que enderecem diretamente a causa raiz, como implementação de sistemas de auditoria interna ou capacitação específica, apenas a menção ao cumprimento de leis e portarias. Portanto, o critério de ação foco causa é avaliado como genérico, e os efeitos duradouros não se aplicam.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1377,
+    "completion_tokens": 248,
+    "total_tokens": 1625,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 353
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

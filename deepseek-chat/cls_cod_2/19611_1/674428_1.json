@@ -1,0 +1,28 @@
+{
+  "id": "d2606954-d9a8-4d71-aaf1-717f81c4a24e",
+  "object": "chat.completion",
+  "created": 1760389670,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação solicita que a convenente apresente justificativas para a contratação e insira documentação comprobatória da prestação efetiva dos serviços, focando na correção da condição específica de falta de comprovação. Não propõe ações para tratar a causa subjacente que permitiu a contratação sem comprovação, como falhas em processos de controle ou políticas de verificação. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1045,
+    "completion_tokens": 173,
+    "total_tokens": 1218,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 213
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

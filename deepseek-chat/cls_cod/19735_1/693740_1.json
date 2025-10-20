@@ -1,0 +1,28 @@
+{
+  "id": "feec9cbe-eb40-4efd-85ea-6cd4c0d1afe7",
+  "object": "chat.completion",
+  "created": 1760035581,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere ações para resolver a condição encontrada (falta de monitoramento do tempo de resposta de sobreaviso médico), como implementar um sistema de monitoramento e estabelecer rotinas de acompanhamento. Além disso, propõe ações específicas para tratar a causa subjacente, como a integração do sistema de registros do hospital com a plataforma da Secretaria e a capacitação das equipes, visando prevenir a reocorrência da condição. Essas ações específicas têm efeitos duradouros, pois criam estruturas e processos que permanecem independentemente de mudanças nos atores envolvidos.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Específica\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1415,
+    "completion_tokens": 189,
+    "total_tokens": 1604,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 455
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

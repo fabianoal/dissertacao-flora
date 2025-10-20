@@ -1,0 +1,28 @@
+{
+  "id": "403e5908-53c3-4c50-8dc2-058df5be5ef1",
+  "object": "chat.completion",
+  "created": 1760388918,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe organizar os horários de descanso dos profissionais para manter o quantitativo mínimo necessário, o que visa tratar a causa do problema (falta de profissionais no turno noturno devido a desorganização dos horários), em vez de apenas corrigir a condição imediata. Quanto aos efeitos duradouros, a ação sugerida (organização dos horários) estabelece uma estrutura que pode permanecer eficaz mesmo com mudanças nos profissionais envolvidos, desde que a organização seja mantida.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 948,
+    "completion_tokens": 151,
+    "total_tokens": 1099,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 116
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

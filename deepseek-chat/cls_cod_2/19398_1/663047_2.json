@@ -1,0 +1,28 @@
+{
+  "id": "d016bc96-23c8-43c1-8fb9-ecc1fe3f139a",
+  "object": "chat.completion",
+  "created": 1760385242,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a solicitar o conhecimento da constatação e a adoção de procedimentos genéricos para a devolução dos valores, conforme citados em decretos. Não há nenhuma ação proposta que trate da causa do problema (registro de dispensação em nome de pessoas falecidas), como a implementação de um sistema de verificação de óbitos ou a revisão de processos de atualização cadastral. Portanto, o critério 'Foco Causa' não é atendido. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1057,
+    "completion_tokens": 180,
+    "total_tokens": 1237,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 225
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

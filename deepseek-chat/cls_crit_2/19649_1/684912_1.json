@@ -1,0 +1,28 @@
+{
+  "id": "0b1dee40-fbc0-4cfa-8e05-ad81c7861c4d",
+  "object": "chat.completion",
+  "created": 1760458829,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe uma ação que visa reorganizar as equipes para atender ao parâmetro populacional, o que aborda diretamente a causa do problema de inadequação na distribuição da população adscrita. Quanto ao critério 'Efeitos Duradouros', a ação baseia-se em normativa e estabelece uma estrutura permanente, mas sua durabilidade pode depender da adesão contínua à normativa e de possíveis alterações futuras, o que introduz alguma incerteza sobre a permanência dos efeitos independentemente de mudanças nos atores.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1157,
+    "completion_tokens": 186,
+    "total_tokens": 1343,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 261
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

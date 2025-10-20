@@ -1,0 +1,28 @@
+{
+  "id": "7a64641d-e820-495f-9ecf-2e68284a4eeb",
+  "object": "chat.completion",
+  "created": 1760036248,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a citar o cumprimento de uma resolução do CFM sobre a elaboração de prontuários legíveis, sem propor ações específicas para resolver a condição encontrada (inconsistências no início da quimioterapia adjuvante) ou para tratar a causa subjacente que permitiu essa condição. Ela é genérica e não direcionada à correção imediata ou à causa raiz do problema.\",\n    \"Ação Corretiva\": \"Não\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1216,
+    "completion_tokens": 150,
+    "total_tokens": 1366,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 256
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

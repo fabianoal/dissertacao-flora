@@ -1,0 +1,28 @@
+{
+  "id": "04ca0364-98b6-4bbf-8a0e-3e122dce1931",
+  "object": "chat.completion",
+  "created": 1760464141,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identificou corretamente que a recomendação se concentra em corrigir a condição imediata (falta de monitoramento e ausência de plano de ação) sem abordar explicitamente as causas subjacentes, como falta de treinamento, recursos ou políticas preventivas. Portanto, concordo com a classificação 'Não' para este critério. Quanto ao critério 'Efeitos Duradouros', como o 'Foco Causa' foi classificado como 'Não', a resposta 'Não se aplica' está correta, seguindo a definição fornecida.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1403,
+    "completion_tokens": 187,
+    "total_tokens": 1590,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 507
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

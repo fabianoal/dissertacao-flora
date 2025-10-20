@@ -1,0 +1,28 @@
+{
+  "id": "e053e054-92ad-4414-8949-0ef50c54549b",
+  "object": "chat.completion",
+  "created": 1760392262,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"A recomendação propõe ações coordenadas entre equipes de saúde para planejar e executar cuidados odontológicos para gestantes, visando melhorar um indicador específico. No entanto, as ações descritas focam na execução direta de atendimentos e no incentivo ao cuidado, sem abordar explicitamente as causas subjacentes da não adoção das ações previstas na nota técnica, como possíveis lacunas em capacitação, recursos ou processos de gestão. Portanto, não há evidência clara de que a recomendação trate da causa raiz do problema. Como o critério 'Foco Causa' não é atendido, a avaliação de 'Efeitos Duradouros' não se aplica.\",\n   \"Foco Causa\": \"Não\",\n   \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1033,
+    "completion_tokens": 193,
+    "total_tokens": 1226,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 201
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

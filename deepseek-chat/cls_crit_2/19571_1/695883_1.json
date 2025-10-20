@@ -1,0 +1,28 @@
+{
+  "id": "508bc584-dca3-4130-b8e2-86987cdc5a23",
+  "object": "chat.completion",
+  "created": 1760455173,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação aborda tanto a correção imediata quanto a prevenção de reincidência, mas há nuances na avaliação dos critérios que merecem atenção. A recomendação combina elementos de foco na condição (orientação para adequação imediata) e foco na causa (monitoramento sistemático para prevenção), sendo esta última mais relevante para os critérios avaliados.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1330,
+    "completion_tokens": 144,
+    "total_tokens": 1474,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 434
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

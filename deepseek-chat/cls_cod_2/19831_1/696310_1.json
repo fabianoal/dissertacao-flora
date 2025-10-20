@@ -1,0 +1,28 @@
+{
+  "id": "61e779cb-f4b2-4ed8-aeb4-9b17af4df713",
+  "object": "chat.completion",
+  "created": 1760398676,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a instituição de um processo de compartilhamento de registros, o que visa tratar a causa subjacente da falta de compartilhamento, como a ausência de procedimentos formais, caracterizando um foco na causa. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um processo estruturado tende a criar uma mudança duradoura, independente de mudanças nos atores envolvidos, pois estabelece uma prática institucional.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1001,
+    "completion_tokens": 144,
+    "total_tokens": 1145,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 169
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "df7a6d6d-9986-4c7e-9344-b166f9ac6b75",
+  "object": "chat.completion",
+  "created": 1760448914,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação de restituição de valores é uma medida corretiva direta para a condição financeira irregular identificada, mas não aborda as causas subjacentes que levaram à produção aprovada e não executada, como possíveis falhas nos processos de planejamento, execução ou monitoramento. Quanto ao critério 'Efeitos Duradouros', como o 'Foco Causa' foi avaliado como 'Não', a resposta 'Não se aplica' está correta.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1321,
+    "completion_tokens": 165,
+    "total_tokens": 1486,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 425
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

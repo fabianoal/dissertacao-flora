@@ -1,0 +1,28 @@
+{
+  "id": "3f30532e-b107-4e9f-bc1f-2cd7b5b0b981",
+  "object": "chat.completion",
+  "created": 1760389094,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação 'a' propõe a realização de vistorias anuais nos serviços de diálise, o que aborda diretamente a causa da falta de documentação comprobatória, que é a ausência dessas vistorias regulares, caracterizando um foco na causa. Em relação aos efeitos duradouros, a ação de vistoriar anualmente estabelece um processo contínuo que deve persistir independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros. A recomendação 'b' trata de facilitar o acesso a informações, o que é uma medida geral de suporte, mas não altera a avaliação principal.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1025,
+    "completion_tokens": 180,
+    "total_tokens": 1205,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 193
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

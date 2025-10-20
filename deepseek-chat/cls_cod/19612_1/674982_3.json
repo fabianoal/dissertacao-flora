@@ -1,0 +1,28 @@
+{
+  "id": "46d61379-a811-4708-bd83-b81048303fd5",
+  "object": "chat.completion",
+  "created": 1760038244,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere duas ações principais: a elaboração de relatórios mensais baseados em informações fidedignas (ação corretiva para resolver a condição de impropriedades nos documentos) e a adoção de medidas preventivas ou corretivas em caso de descumprimento do convênio (ação com foco na causa, mas genérica, pois apenas cita o cumprimento de normativos sem propor ações concretas específicas). Não há ações específicas para tratar a causa raiz, apenas referência genérica a medidas conforme a portaria.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1243,
+    "completion_tokens": 172,
+    "total_tokens": 1415,
+    "prompt_tokens_details": {
+      "cached_tokens": 1088
+    },
+    "prompt_cache_hit_tokens": 1088,
+    "prompt_cache_miss_tokens": 155
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

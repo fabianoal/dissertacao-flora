@@ -1,0 +1,28 @@
+{
+  "id": "ab8278b7-1985-4c31-b4fc-cdbe81949018",
+  "object": "chat.completion",
+  "created": 1760398428,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação apenas cita dispositivos normativos que estabelecem a obrigatoriedade de monitoramento e envio de relatórios, sem propor ações específicas para tratar a causa da ausência de informações sobre monitoramento nos instrumentos de gestão. Não há sugestão de implementação de processos, capacitação, revisão de procedimentos ou outras medidas que atuem na raiz do problema. Portanto, não há ação proposta que trate da causa do problema. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1125,
+    "completion_tokens": 169,
+    "total_tokens": 1294,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 293
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

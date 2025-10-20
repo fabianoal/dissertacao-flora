@@ -1,0 +1,28 @@
+{
+  "id": "56a43164-f24a-435e-8001-34b69bad15c5",
+  "object": "chat.completion",
+  "created": 1760456813,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação se concentra em corrigir a condição específica de ausência de comprovação, sem propor ações para tratar causas subjacentes como capacitação ou melhorias sistêmicas. Para o critério 'Efeitos Duradouros', como 'Foco Causa' é 'Não', a resposta 'Não se aplica' está adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1238,
+    "completion_tokens": 144,
+    "total_tokens": 1382,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 342
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "b191c151-5f8d-4ea3-aaf1-67af611d756a",
+  "object": "chat.completion",
+  "created": 1760400044,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação solicita a comprovação documental da implementação da portaria ou, caso não implementada, a sua implementação conforme o plano de ação. Esta ação visa corrigir a condição encontrada (ausência de documentação comprobatória) e implementar a portaria, mas não propõe medidas para tratar a causa subjacente que levou à não implementação ou falta de documentação, como falhas em processos, capacitação ou monitoramento. Portanto, a recomendação é focada na condição, não na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1021,
+    "completion_tokens": 189,
+    "total_tokens": 1210,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 189
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

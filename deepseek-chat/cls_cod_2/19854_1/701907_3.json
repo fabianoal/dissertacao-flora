@@ -1,0 +1,28 @@
+{
+  "id": "dca2c3c1-ca45-4481-b253-69f7a420a607",
+  "object": "chat.completion",
+  "created": 1760399512,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a adequação do mobiliário para atender a normas ergonômicas, o que aborda diretamente a causa da condição inadequada, visando prevenir problemas futuros. Já em relação aos efeitos pretendidos pela recomendação, a implementação de mobiliário adequado conforme normas estabelecidas tende a produzir melhorias duradouras, independentemente de mudanças nos atores envolvidos, pois se baseia em padrões técnicos permanentes.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 972,
+    "completion_tokens": 144,
+    "total_tokens": 1116,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 76
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "de46fa0c-4672-45bc-aa14-ac3b6fd452b0",
+  "object": "chat.completion",
+  "created": 1760400664,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a devolução de valores ao Fundo Nacional de Saúde para reparar o dano financeiro identificado, focando na correção da condição atual (inconsistência na codificação que resultou em pagamento indevido). Não há menção a ações que tratem da causa raiz do problema, como implementação de controles, capacitação ou revisão de processos para prevenir futuras inconsistências na codificação. Portanto, não atende ao critério de foco na causa.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1023,
+    "completion_tokens": 149,
+    "total_tokens": 1172,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 191
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

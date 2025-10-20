@@ -1,0 +1,28 @@
+{
+  "id": "e9afd1e9-9d79-42c8-9106-80d89e446a57",
+  "object": "chat.completion",
+  "created": 1760386247,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação exige a apresentação de documentos obrigatórios quando solicitados, sem propor ações para tratar a causa subjacente da não apresentação, como falhas no processo de gestão documental ou na capacitação dos responsáveis. Portanto, foca na correção imediata da condição (não apresentação dos documentos) e não na causa raiz. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 987,
+    "completion_tokens": 150,
+    "total_tokens": 1137,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 155
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

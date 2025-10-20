@@ -1,0 +1,28 @@
+{
+  "id": "c54d9b7d-6697-4ef7-83a9-4898d5e4443b",
+  "object": "chat.completion",
+  "created": 1760038356,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere a complementação do Plano de Gerenciamento de Resíduos de Serviços de Saúde para resolver a condição encontrada de ausência do plano, caracterizando uma ação corretiva. No entanto, a ação proposta se limita ao cumprimento de normativos existentes, sem especificar medidas adicionais para abordar a causa subjacente que permitiu a ausência do plano, como falhas em processos de implementação ou monitoramento.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1202,
+    "completion_tokens": 148,
+    "total_tokens": 1350,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 178
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

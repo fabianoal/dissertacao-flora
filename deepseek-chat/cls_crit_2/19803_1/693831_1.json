@@ -1,0 +1,28 @@
+{
+  "id": "5fbd8700-8915-4add-a8bb-538dda0f3f78",
+  "object": "chat.completion",
+  "created": 1760465013,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a criação de um sistema de controle de usuários encaminhados, o que aborda a causa subjacente da falta de compartilhamento de registros, ao estabelecer uma estrutura organizacional permanente. Para o critério 'Efeitos Duradouros', a implementação de medidas institucionais, como um sistema de controle, tende a ser sustentável independentemente de mudanças na equipe, pois se integra à operação da rede de saúde.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1226,
+    "completion_tokens": 161,
+    "total_tokens": 1387,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 330
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

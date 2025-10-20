@@ -1,0 +1,28 @@
+{
+  "id": "23dd4473-6438-4259-b1db-88b14dd6c8f2",
+  "object": "chat.completion",
+  "created": 1760459325,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise fornecida avalia corretamente que a recomendação visa corrigir a condição imediata de ausência de documentos, sem abordar causas subjacentes, como falhas processuais ou de capacitação. Isso está alinhado com a definição de recomendações com foco na condição. Como o critério 'Foco Causa' não é atendido, a não aplicação do critério 'Efeitos Duradouros' é apropriada.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1169,
+    "completion_tokens": 144,
+    "total_tokens": 1313,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 273
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

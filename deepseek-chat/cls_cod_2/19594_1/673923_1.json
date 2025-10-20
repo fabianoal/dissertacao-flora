@@ -1,0 +1,28 @@
+{
+  "id": "be7093d0-4d41-4d36-9a5a-22dceeca2c55",
+  "object": "chat.completion",
+  "created": 1760388646,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe que o município siga orientações técnicas específicas para preencher prontuários de forma adequada, visando garantir que os dados sejam consistentes com os indicadores de desempenho. Isso aborda a causa raiz do problema, que é a falta de conformidade no preenchimento dos prontuários, em vez de apenas corrigir os dados existentes. Em relação aos efeitos duradouros, a implementação dessas orientações estabelece um procedimento padrão que deve persistir independentemente de mudanças nos profissionais envolvidos, promovendo uma melhoria sustentável.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 993,
+    "completion_tokens": 166,
+    "total_tokens": 1159,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 161
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

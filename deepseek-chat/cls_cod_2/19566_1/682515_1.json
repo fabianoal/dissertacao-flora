@@ -1,0 +1,28 @@
+{
+  "id": "7e776d4f-0c91-45de-8374-7319d9d41428",
+  "object": "chat.completion",
+  "created": 1760388082,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações de acompanhamento, fiscalização e trabalho articulado para garantir registros adequados nos prontuários, o que visa tratar a causa subjacente da ausência de informações (falta de monitoramento e coordenação) e não apenas corrigir os registros faltantes. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas (estabelecimento de processos de acompanhamento e articulação) criam estruturas e procedimentos que devem persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1186,
+    "completion_tokens": 172,
+    "total_tokens": 1358,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 354
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

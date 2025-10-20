@@ -1,0 +1,28 @@
+{
+  "id": "6fe433e6-d87d-48d5-9003-83c378970a0a",
+  "object": "chat.completion",
+  "created": 1760453273,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda diretamente a causa do problema, que é a falta de divulgação dos indicadores, promovendo transparência e controle social. Para o critério 'Efeitos Duradouros', a recomendação sugere uma ação contínua que pode se tornar uma prática institucional, mas não especifica mecanismos formais para garantir sua sustentabilidade independente de mudanças de atores.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1132,
+    "completion_tokens": 145,
+    "total_tokens": 1277,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 236
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

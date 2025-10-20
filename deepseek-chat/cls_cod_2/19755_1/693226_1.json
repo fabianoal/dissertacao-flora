@@ -1,0 +1,28 @@
+{
+  "id": "6d4a4a2d-26a5-42b4-9763-730d9244077f",
+  "object": "chat.completion",
+  "created": 1760395576,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam diretamente das causas do problema identificado na constatação, que é a ausência de monitoramento contínuo e uso de indicadores de gestão na cadeia de frio. Especificamente, a recomendação sugere a implementação de manutenção regular e calibração de equipamentos, bem como a utilização de indicadores de gestão, que são medidas preventivas e corretivas para evitar a recorrência da condição observada. Já em relação aos efeitos pretendidos pela recomendação, as ações propostas, como a adoção de procedimentos de manutenção e o uso de indicadores, estabelecem sistemas e processos que devem permanecer efetivos independentemente de mudanças nos atores envolvidos, pois estão baseados em diretrizes documentadas (Manual de Rede de Frio do PNI) e práticas estruturadas de gestão.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1097,
+    "completion_tokens": 239,
+    "total_tokens": 1336,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 265
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

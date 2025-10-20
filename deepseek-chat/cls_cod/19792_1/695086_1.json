@@ -1,0 +1,28 @@
+{
+  "id": "22585a63-d91f-423f-91cb-fbcbdb868f60",
+  "object": "chat.completion",
+  "created": 1760038044,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação inclui ações corretivas, como adequar e validar o POP, que visam resolver a condição imediata da ausência de procedimentos documentados. Além disso, propõe ações com foco na causa, como implementar treinamento contínuo e estabelecer revisões periódicas, que são específicas e buscam prevenir a recorrência da falta de documentação adequada, indo além do mero cumprimento de normativos. Essas ações específicas têm efeitos duradouros, pois criam estruturas permanentes que independem de mudanças nos atores envolvidos.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Específica\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1476,
+    "completion_tokens": 181,
+    "total_tokens": 1657,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 452
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "09ceb1f0-fad1-47f0-8b6f-53a9f9c921f0",
+  "object": "chat.completion",
+  "created": 1760451272,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação estabelece um procedimento formal para registro de ocorrências, o que trata a causa subjacente da falta de acompanhamento e fiscalização. No entanto, a avaliação sobre efeitos duradouros merece uma análise mais aprofundada, considerando que a mera existência de um procedimento formal não garante automaticamente sua continuidade frente a mudanças de pessoal, sem mecanismos adicionais de sustentação.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1193,
+    "completion_tokens": 151,
+    "total_tokens": 1344,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 297
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "916be4eb-763e-45d5-9315-63d3930f68c5",
+  "object": "chat.completion",
+  "created": 1760036452,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere adequação da estrutura física e implementação de controle de temperatura para resolver a condição de armazenamento inadequado, caracterizando uma ação corretiva. Além disso, propõe conformidade com normativos específicos da RDC ANVISA/MS, mas não especifica ações concretas além do cumprimento desses normativos, sendo genérica no foco na causa. Como a ação de foco na causa é genérica, os efeitos duradouros não são avaliados como presentes.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1157,
+    "completion_tokens": 156,
+    "total_tokens": 1313,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 197
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

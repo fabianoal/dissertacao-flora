@@ -1,0 +1,28 @@
+{
+  "id": "654f6c04-ca41-45e6-be7e-c97e4ce20556",
+  "object": "chat.completion",
+  "created": 1760450840,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo apresenta uma avaliação fundamentada, mas requer uma revisão crítica para garantir a precisão na classificação dos critérios, considerando a natureza da recomendação e sua relação com a causa do problema e a durabilidade dos efeitos.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1151,
+    "completion_tokens": 103,
+    "total_tokens": 1254,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 255
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

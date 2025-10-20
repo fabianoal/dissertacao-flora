@@ -1,0 +1,28 @@
+{
+  "id": "3eb5ed55-7294-4b65-87ef-1042543c5c2a",
+  "object": "chat.completion",
+  "created": 1760394580,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe que o Departamento de Vigilância Sanitária realize a fiscalização da unidade hospitalar, o que é uma ação que visa prevenir a reincidência da condição de licença sanitária desatualizada ao estabelecer um mecanismo de controle contínuo, caracterizando foco na causa. Já em relação aos efeitos pretendidos pela recomendação, a fiscalização regular institui um processo que independe de mudanças nos atores envolvidos, pois se baseia em exigência legal e procedimento institucional, gerando efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 956,
+    "completion_tokens": 168,
+    "total_tokens": 1124,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 124
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

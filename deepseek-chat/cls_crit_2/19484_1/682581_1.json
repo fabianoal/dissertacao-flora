@@ -1,0 +1,28 @@
+{
+  "id": "8945e1b5-2156-4c67-9a74-8ecbd9588355",
+  "object": "chat.completion",
+  "created": 1760469420,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise crítica considera a adequação da classificação fornecida pelo modelo em relação aos critérios 'Foco Causa' e 'Efeitos Duradouros'. A constatação aponta incompatibilidade entre instrumentos de planejamento e prestação de contas, e a recomendação sugere medidas para assegurar elaboração adequada e estabelecer programa de qualificação profissional. Avalio se a classificação do modelo está correta com base nas definições: 'Foco Causa' para ações que tratam a causa do problema (soluções de longo prazo) e 'Efeitos Duradouros' para persistência dos efeitos mesmo com mudança de atores (quando 'Foco Causa' for Sim).\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1365,
+    "completion_tokens": 207,
+    "total_tokens": 1572,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 469
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

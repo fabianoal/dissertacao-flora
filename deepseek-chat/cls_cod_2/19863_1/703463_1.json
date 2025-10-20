@@ -1,0 +1,28 @@
+{
+  "id": "0f53c6ae-88b6-4faf-9af0-b5d762ba28f0",
+  "object": "chat.completion",
+  "created": 1760400064,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação solicita apenas a comprovação documental da contratualização dos serviços, focando na correção da condição atual de falta de documentação. Não há proposta de ações para tratar as causas subjacentes que levaram à ausência dessa documentação, como falhas nos processos de contratação ou gestão documental. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1112,
+    "completion_tokens": 157,
+    "total_tokens": 1269,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 280
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

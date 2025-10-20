@@ -1,0 +1,28 @@
+{
+  "id": "2ed1f65b-2b66-44c2-84de-d8c0923da540",
+  "object": "chat.completion",
+  "created": 1760386118,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a transferência de titularidade dos bens doados, o que corrige diretamente a condição encontrada de não incorporação ao patrimônio municipal, sem abordar as causas subjacentes, como falhas nos processos de gestão patrimonial. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não é atendido, esta análise não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 958,
+    "completion_tokens": 133,
+    "total_tokens": 1091,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 126
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

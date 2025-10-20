@@ -1,0 +1,28 @@
+{
+  "id": "c2a27e5a-1792-4c8d-aeb2-403f2a6abe25",
+  "object": "chat.completion",
+  "created": 1760037484,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere uma ação corretiva para resolver a condição encontrada de inconsistências no cadastro, ao determinar que as informações sejam registradas corretamente e imediatamente após alterações. No entanto, a ação proposta para tratar a causa é genérica, pois se limita a assegurar o cumprimento de normativos existentes (Portaria GM/MS e RDC n.° 63), sem especificar medidas concretas para prevenir a recorrência das inconsistências, como implementação de processos de verificação ou capacitação de pessoal. Como a ação de foco na causa é genérica, os efeitos duradouros não são avaliados como positivos, uma vez que a mera referência a normativos não garante a permanência dos resultados com mudanças de atores.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1341,
+    "completion_tokens": 223,
+    "total_tokens": 1564,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 317
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

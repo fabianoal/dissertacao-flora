@@ -1,0 +1,28 @@
+{
+  "id": "2e6a7487-845d-4b2e-a2a9-c79755935523",
+  "object": "chat.completion",
+  "created": 1760448710,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta em identificar que a recomendação aborda a causa subjacente (falta de registro adequado no CNPJ) e estabelece uma solução duradoura. No entanto, é importante notar que a recomendação é específica para a condição atual (ausência de CNPJ próprio) e, embora trate da causa, não explora medidas complementares para prevenir falhas similares em outros contextos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1135,
+    "completion_tokens": 142,
+    "total_tokens": 1277,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 239
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6f2a2277-5694-49cf-bae4-19c052184666",
+  "object": "chat.completion",
+  "created": 1760451104,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação de cumprir diretrizes de planejamento aborda a causa raiz do problema (falta de planejamento adequado), que levou ao descarte de materiais por perda de validade. Quanto ao critério 'Efeitos Duradouros', a implementação de processos de planejamento estruturados tende a ser duradoura, pois se baseia em diretrizes institucionais que podem persistir independentemente de mudanças de pessoal.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1106,
+    "completion_tokens": 163,
+    "total_tokens": 1269,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 210
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

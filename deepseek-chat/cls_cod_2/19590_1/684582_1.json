@@ -1,0 +1,28 @@
+{
+  "id": "1d01a413-fe14-4aed-a46b-66a155f04d0d",
+  "object": "chat.completion",
+  "created": 1760388554,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam tanto da condição imediata (falta de documentos nos prontuários) quanto das causas subjacentes. Especificamente, o treinamento de funcionários sobre a importância das assinaturas e a criação de rotinas e sistemas de arquivamento visam abordar causas como falta de conhecimento e processos inadequados. Já em relação aos efeitos duradouros, as ações propostas, como estabelecer rotinas, treinamentos e criar sistemas de arquivamento, são estruturantes e tendem a permanecer mesmo com mudanças de pessoal, pois institucionalizam processos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1229,
+    "completion_tokens": 181,
+    "total_tokens": 1410,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 397
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

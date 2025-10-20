@@ -1,0 +1,28 @@
+{
+  "id": "59110576-552c-4d4b-9e4f-1380397bb613",
+  "object": "chat.completion",
+  "created": 1760463593,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda claramente as causas estruturais e processuais que levaram à não conformidade, como deficiências no projeto arquitetônico, infraestrutura elétrica e organização dos ambientes. Para o critério 'Efeitos Duradouros', embora a maioria das ações (projeto arquitetônico, readequação de ambientes, infraestrutura elétrica, ajustes na área de lavagem, melhoria no ambiente do gerador e documentação técnica) promova mudanças físicas e documentais permanentes, a capacitação da equipe requer reforço contínuo para garantir efeitos duradouros, o que pode não ser totalmente assegurado apenas com a ação proposta.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1598,
+    "completion_tokens": 212,
+    "total_tokens": 1810,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 702
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

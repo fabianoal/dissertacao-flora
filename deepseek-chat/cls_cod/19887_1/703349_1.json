@@ -1,0 +1,28 @@
+{
+  "id": "bf37c40d-d98a-4d2e-b582-5449cec39829",
+  "object": "chat.completion",
+  "created": 1760038384,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação é composta por duas ações. A primeira ação (item 1) é específica, direcionando o cumprimento de um critério técnico do Manual de Bases Técnicas da Oncologia para garantir que o código 04.16.08.008-1 seja usado corretamente, o que visa corrigir a condição de inconsistência identificada. A segunda ação (item 2) refere-se ao desempenho da função de fiscalização e avaliação conforme o Termo de Convênio, o que é genérico, pois se limita a citar o cumprimento de um normativo existente sem propor ações adicionais para abordar a causa subjacente da falta de controle. Ambas as ações têm elementos corretivos, mas apenas a primeira é específica em seu foco na causa, enquanto a segunda é genérica. Quanto aos efeitos duradouros, a ação específica poderia ter impacto prolongado se implementada, mas a ação genérica não garante isso, pois depende da aplicação contínua do normativo sem mudanças sistêmicas.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Específica\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1396,
+    "completion_tokens": 285,
+    "total_tokens": 1681,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 372
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

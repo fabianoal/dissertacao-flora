@@ -1,0 +1,28 @@
+{
+  "id": "fb244f43-4424-4037-b509-6e980196468c",
+  "object": "chat.completion",
+  "created": 1760400072,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"A recomendação propõe a comprovação documental da sistematização da linha de cuidado do trauma, o que é uma ação direta para corrigir a condição encontrada de falta de documentação. No entanto, não há menção a ações que abordem as causas subjacentes dessa falta, como falhas em processos de implementação, capacitação de pessoal, ou mecanismos de monitoramento. Portanto, o foco está na condição imediata, não na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n   \"Foco Causa\": \"Não\",\n   \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1012,
+    "completion_tokens": 172,
+    "total_tokens": 1184,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 180
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c63bca6b-77c3-4f56-8902-64c0cd912934",
+  "object": "chat.completion",
+  "created": 1760390258,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a orientação de fiscais e gestores para conferir documentação comprobatória em processos de contratação, visando evitar desobediência a normativos e irregularidades. Essa ação busca prevenir a reincidência da condição encontrada (contratação de empresas com os mesmos sócios-administradores ou recém-criadas) ao fortalecer o controle processual, tratando assim a causa subjacente de falhas na verificação documental. Quanto aos efeitos duradouros, a implementação de um processo estruturado de conferência documental, baseado em normativos específicos, tende a persistir independentemente de mudanças nos atores envolvidos, pois se incorpora aos procedimentos operacionais.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1072,
+    "completion_tokens": 208,
+    "total_tokens": 1280,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 240
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "1c1423d4-5c23-4a7f-a3f4-8cc93b8d43e1",
+  "object": "chat.completion",
+  "created": 1760458545,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que as recomendações se concentram na correção da condição atual (restituição de valores e reforço de responsabilidade legal) sem abordar ações preventivas para as causas subjacentes da incompatibilidade de dados. Para o critério 'Efeitos Duradouros', como o 'Foco Causa' não foi atendido, a resposta 'Não se aplica' está adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1554,
+    "completion_tokens": 152,
+    "total_tokens": 1706,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 594
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

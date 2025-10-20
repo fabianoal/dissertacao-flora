@@ -1,0 +1,28 @@
+{
+  "id": "dea45020-cb52-4693-bfda-58dc8adab74a",
+  "object": "chat.completion",
+  "created": 1760468529,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise crítica avalia a classificação fornecida para os critérios 'Foco Causa' e 'Efeitos Duradouros' com base na finalidade da auditoria, constatação e recomendação. A recomendação se concentra na devolução de recursos indevidamente recebidos, sem propor ações para prevenir a recorrência das irregularidades, como melhorias em processos ou controles.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1356,
+    "completion_tokens": 129,
+    "total_tokens": 1485,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 396
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

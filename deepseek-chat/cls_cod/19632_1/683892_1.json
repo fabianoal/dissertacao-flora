@@ -1,0 +1,28 @@
+{
+  "id": "98606c39-ed15-4a3e-b5d9-d2280298ffb6",
+  "object": "chat.completion",
+  "created": 1760037252,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere uma ação corretiva ao orientar o Conselho Municipal de Saúde a fiscalizar a Secretaria de Saúde e registrar deliberações, visando resolver a condição imediata de falta de evidências de fiscalização. No entanto, a ação com foco na causa é genérica, pois se limita a citar o cumprimento de normativos (Decreto nº 1.232/1994 e Resolução CNS nº 453/2012) sem propor medidas específicas para modificar processos ou estruturas que permitiram a ocorrência da condição. Consequentemente, os efeitos duradouros não são alcançados, pois a recomendação não estabelece mudanças sistêmicas que persistiriam independentemente de mudanças nos atores envolvidos.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1291,
+    "completion_tokens": 214,
+    "total_tokens": 1505,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 267
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

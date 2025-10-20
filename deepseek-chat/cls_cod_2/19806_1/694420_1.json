@@ -1,0 +1,28 @@
+{
+  "id": "d23e4d9d-7d3a-4158-a07c-7b7341f998ce",
+  "object": "chat.completion",
+  "created": 1760397572,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação 'a' propõe a elaboração de um Plano de Ação Municipal alinhado ao Plano de Ação Regional, o que trata diretamente a causa do problema (falta de alinhamento entre os planos municipal e regional), sendo uma ação preventiva para evitar a reincidência da condição. Já a recomendação 'b' é genérica e não se relaciona com a causa específica da constatação. Quanto aos efeitos duradouros, a implementação do Plano de Ação Municipal alinhado cria uma estrutura formal que deve persistir independentemente de mudanças nos atores envolvidos, garantindo continuidade.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1030,
+    "completion_tokens": 186,
+    "total_tokens": 1216,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 198
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

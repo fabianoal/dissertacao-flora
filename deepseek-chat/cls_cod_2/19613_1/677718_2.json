@@ -1,0 +1,28 @@
+{
+  "id": "29d57c6d-72e8-4a9b-b340-1838078da589",
+  "object": "chat.completion",
+  "created": 1760390018,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe que fiscais e gestores realizem a conferência da documentação comprobatória, o que é uma ação de verificação e controle para detectar a ausência de recolhimento de impostos, mas não aborda diretamente as causas subjacentes, como falhas em processos internos, falta de capacitação ou sistemas inadequados que levam à não comprovação. Portanto, foca mais na condição imediata do que na causa raiz. Como o critério 'Foco Causa' não é atendido, a avaliação de 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 976,
+    "completion_tokens": 174,
+    "total_tokens": 1150,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 144
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

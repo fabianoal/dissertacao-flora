@@ -1,0 +1,28 @@
+{
+  "id": "de58d464-6dcd-46d2-b534-caecfd4ccad5",
+  "object": "chat.completion",
+  "created": 1760391022,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a implantação de uma rotina específica para inserção das cópias das notas fiscais nos prontuários, nomeação de área responsável por controles internos e prestação de informações para auditoria, o que indica ações voltadas para a causa do problema (falta de procedimentos e controles adequados) e não apenas para corrigir a condição atual. Já em relação aos efeitos pretendidos pela recomendação, a implantação de rotinas formais, nomeação de área responsável e estabelecimento de controles internos criam estruturas permanentes que devem persistir independentemente de mudanças nos atores envolvidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1345,
+    "completion_tokens": 185,
+    "total_tokens": 1530,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 513
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

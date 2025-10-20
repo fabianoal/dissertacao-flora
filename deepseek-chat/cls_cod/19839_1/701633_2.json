@@ -1,0 +1,28 @@
+{
+  "id": "4a3a46be-1476-4b39-9561-349197bd9399",
+  "object": "chat.completion",
+  "created": 1760038172,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação contém três ações distintas. A primeira sugere implantar rotinas de verificação e capacitação para garantir a qualidade dos dados, o que visa prevenir futuras inconsistências ao abordar causas como falta de procedimentos e treinamento, sendo uma ação com foco na causa. A segunda ação propõe garantir rastreabilidade através de mecanismos de registro e responsabilização, também focando na causa ao estabelecer controles permanentes. Ambas referem-se a normativos, mas especificam ações concretas além do mero cumprimento. A terceira ação é a restituição de recursos, que é uma ação corretiva para resolver a condição imediata de recebimento indevido. Os efeitos das ações focadas na causa são duradouros, pois as rotinas e mecanismos implementados permanecem independentemente de mudanças de pessoal.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Específica\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1501,
+    "completion_tokens": 239,
+    "total_tokens": 1740,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 477
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "86f1266a-371f-4f2f-9d01-b96ac1c75eeb",
+  "object": "chat.completion",
+  "created": 1760458185,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação aborda a causa subjacente (falta de orientação/capacitação) e possui efeitos duradouros, mas merece uma avaliação mais aprofundada sobre a sustentabilidade da solução proposta.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1195,
+    "completion_tokens": 105,
+    "total_tokens": 1300,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 299
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

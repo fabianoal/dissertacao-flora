@@ -1,0 +1,28 @@
+{
+  "id": "3a5482f6-7fa7-4563-a923-7002a12dfb12",
+  "object": "chat.completion",
+  "created": 1760399508,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe adequar as condições físicas das instalações para atender a requisitos normativos específicos, o que visa corrigir diretamente a condição encontrada de falta de adequação, sem mencionar ações para tratar as causas subjacentes, como falhas na gestão, alocação de recursos ou processos de manutenção. Portanto, a recomendação é focada na condição. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, essa análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 968,
+    "completion_tokens": 168,
+    "total_tokens": 1136,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 72
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "5abc7db2-7d55-46f9-bfcf-a500433019d8",
+  "object": "chat.completion",
+  "created": 1760462514,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda diretamente a causa raiz da constatação, que é a falta de inscrição no CNPJ conforme exigido por lei. Para o critério 'Efeitos Duradouros', a implementação da inscrição no CNPJ garante que o registro permaneça válido independentemente de mudanças na gestão, assegurando efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1157,
+    "completion_tokens": 143,
+    "total_tokens": 1300,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 261
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

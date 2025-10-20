@@ -1,0 +1,28 @@
+{
+  "id": "345e4e2f-419c-4b80-82bf-c7c897d37e41",
+  "object": "chat.completion",
+  "created": 1760396808,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam da causa do problema, que é a ausência de controles adequados no processo de inspeção da cadeia de frio, incluindo a adoção de checklists, procedimentos padronizados, treinamentos e aquisição de equipamentos para garantir a integridade dos imunobiológicos. Já em relação aos efeitos pretendidos, as ações sugeridas, como a implementação de procedimentos padronizados e treinamentos, criam estruturas e conhecimentos que permanecem mesmo com mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1100,
+    "completion_tokens": 178,
+    "total_tokens": 1278,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 268
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

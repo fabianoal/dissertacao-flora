@@ -1,0 +1,28 @@
+{
+  "id": "92d40bff-eba5-4b8d-9f65-489584c1b9a7",
+  "object": "chat.completion",
+  "created": 1760391930,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação enfatiza a necessidade de o estabelecimento seguir as regras do programa e apresentar documentos solicitados, focando na correção da condição específica de não apresentação de documentos, sem propor ações para tratar a causa subjacente, como melhorias em processos de armazenamento ou treinamento de pessoal. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1104,
+    "completion_tokens": 151,
+    "total_tokens": 1255,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 272
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

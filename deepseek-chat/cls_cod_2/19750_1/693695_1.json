@@ -1,0 +1,28 @@
+{
+  "id": "0321c4e6-de8a-46b1-92ea-7f6e1e3224b6",
+  "object": "chat.completion",
+  "created": 1760395336,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a organização do acesso e pactuação da regulação e fluxo entre serviços, o que visa tratar a causa estrutural do problema de acesso inadequado, indo além da correção imediata de casos específicos. Já em relação aos efeitos pretendidos pela recomendação, a implementação de uma estrutura organizada de regulação e fluxo tende a criar um sistema que permanece funcional mesmo com mudanças nos atores envolvidos, estabelecendo processos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1084,
+    "completion_tokens": 151,
+    "total_tokens": 1235,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 252
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

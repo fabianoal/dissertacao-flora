@@ -1,0 +1,28 @@
+{
+  "id": "38ae6f29-b28d-41d4-bca2-98af5bab7341",
+  "object": "chat.completion",
+  "created": 1760386014,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a devolução de valores financeiros repassados indevidamente, o que constitui uma ação para corrigir a condição específica encontrada (falta de amparo documental para pagamentos), mas não aborda as causas subjacentes que permitiram que essa condição ocorresse, como deficiências em processos de verificação documental ou controle interno. Portanto, a recomendação é focada na condição, não na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1122,
+    "completion_tokens": 177,
+    "total_tokens": 1299,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 226
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

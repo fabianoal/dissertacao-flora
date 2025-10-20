@@ -1,0 +1,28 @@
+{
+  "id": "92b8f074-1996-4511-a9c3-e5fd27feffa6",
+  "object": "chat.completion",
+  "created": 1760385074,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe que o hospital confira o lançamento das notas fiscais no preenchimento de dados do SIH, o que é uma ação corretiva direta para a discrepância entre o faturamento e a utilização real, mas não aborda as causas subjacentes que levaram a esse erro de lançamento (como falta de treinamento, processos inadequados ou falhas sistêmicas). Portanto, a recomendação é focada na condição imediata (corrigir o lançamento incorreto) e não na causa raiz. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, essa análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 948,
+    "completion_tokens": 205,
+    "total_tokens": 1153,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 116
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

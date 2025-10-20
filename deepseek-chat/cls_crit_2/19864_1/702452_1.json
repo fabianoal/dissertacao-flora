@@ -1,0 +1,28 @@
+{
+  "id": "6b52b53b-5fc4-46bc-b63f-1aa06dd5441b",
+  "object": "chat.completion",
+  "created": 1760467549,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda diretamente a causa do problema identificado na constatação, que é a guarda inadequada dos prontuários físicos. Quanto ao critério 'Efeitos Duradouros', a implementação de sistemas informatizados e processos formalizados de gestão documental estabelece uma estrutura que pode perdurar independentemente de mudanças na equipe, mas a destruição controlada dos originais após digitalização pode não garantir completamente a preservação dos documentos a longo prazo se houver falhas no processo.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1320,
+    "completion_tokens": 171,
+    "total_tokens": 1491,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 424
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

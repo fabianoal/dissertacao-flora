@@ -1,0 +1,28 @@
+{
+  "id": "7c677b95-b27e-498f-b546-e82b62611aeb",
+  "object": "chat.completion",
+  "created": 1760467589,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda diretamente a causa do problema, que é a falta de registro adequado dos dados da produção ambulatorial, estabelecendo um processo sistemático para garantir correspondência entre prontuários e dados do Tabwin. Quanto ao critério 'Efeitos Duradouros', a recomendação propõe a implementação de um processo padronizado baseado em normativa, o que tende a garantir continuidade mesmo com mudanças de pessoal, pois se apoia em procedimentos formais e conformidade legal.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1232,
+    "completion_tokens": 172,
+    "total_tokens": 1404,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 336
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

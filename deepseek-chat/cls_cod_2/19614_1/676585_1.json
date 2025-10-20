@@ -1,0 +1,28 @@
+{
+  "id": "50fd11a5-4abc-48d6-88af-151ee8c52504",
+  "object": "chat.completion",
+  "created": 1760390238,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe notificar a convenente para apresentar justificativas sobre a não realização de cotação de preços, o que se concentra em corrigir a condição específica de impropriedade formal identificada, sem propor ações para tratar a causa subjacente que levou a essa falha, como melhorias em processos ou capacitação. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 933,
+    "completion_tokens": 158,
+    "total_tokens": 1091,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 101
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

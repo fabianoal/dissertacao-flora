@@ -1,0 +1,28 @@
+{
+  "id": "271db13d-ce6b-49fe-b0f3-ed3fed07bab3",
+  "object": "chat.completion",
+  "created": 1760389102,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação (a) propõe ações estruturais como programação, aquisição, armazenamento e dispensação de medicamentos, que visam estabelecer processos permanentes para garantir a oferta integral e oportuna, tratando assim a causa da falta de documentação comprobatória sobre o cumprimento das responsabilidades. A recomendação (b) trata de acesso a informações para auditoria, mas não se relaciona diretamente com a causa da constatação principal. Já em relação aos efeitos pretendidos pela recomendação (a) para tratar a causa, as ações propostas (estabelecimento de processos de programação, aquisição, armazenamento e dispensação) criam sistemas e procedimentos que permanecem independentemente de mudanças nos atores envolvidos, configurando efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1136,
+    "completion_tokens": 222,
+    "total_tokens": 1358,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 240
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

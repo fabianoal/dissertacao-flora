@@ -1,0 +1,28 @@
+{
+  "id": "2f79f352-b728-41f4-a5c2-13f2ab3110d4",
+  "object": "chat.completion",
+  "created": 1760463117,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação apenas cita dispositivos normativos sem propor ações específicas para tratar a causa da inadequação da estrutura física. Para o critério 'Efeitos Duradouros', a resposta 'Não se aplica' é adequada, dado que o critério 'Foco Causa' foi avaliado como 'Não'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1576,
+    "completion_tokens": 136,
+    "total_tokens": 1712,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 680
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

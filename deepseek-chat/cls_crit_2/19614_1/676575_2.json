@@ -1,0 +1,28 @@
+{
+  "id": "ad01c4fe-2e2c-481d-8f1f-5b0f7faa7b62",
+  "object": "chat.completion",
+  "created": 1760457033,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação aborda a causa subjacente ao propor o cumprimento de disposição legal e monitoramento contínuo, mas pode ter superestimado os efeitos duradouros ao não considerar que o monitoramento contínuo depende da atuação consistente dos responsáveis, podendo ser afetado por mudanças de pessoal.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1164,
+    "completion_tokens": 130,
+    "total_tokens": 1294,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 268
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

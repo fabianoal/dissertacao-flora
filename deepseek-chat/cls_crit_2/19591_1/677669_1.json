@@ -1,0 +1,28 @@
+{
+  "id": "3bc3d503-a4d9-4e72-8ff9-5464421ed94f",
+  "object": "chat.completion",
+  "created": 1760455473,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação aborda a causa raiz da falta de serviços habilitados para DRC nos estágios pré-dialíticos, propondo soluções estruturais de longo prazo. No entanto, há uma nuance importante quanto à durabilidade dos efeitos que merece consideração.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1587,
+    "completion_tokens": 119,
+    "total_tokens": 1706,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 691
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

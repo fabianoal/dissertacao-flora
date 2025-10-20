@@ -1,0 +1,28 @@
+{
+  "id": "72477349-3336-49b9-addd-8f1f62bc51f6",
+  "object": "chat.completion",
+  "created": 1760452124,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise fornecida avalia corretamente que a recomendação se concentra em adequar as estruturas físicas e sanitárias às normas, sem abordar explicitamente causas subjacentes como falhas em processos de manutenção ou planejamento. Isso está alinhado com a definição de recomendações com foco na condição, que buscam corrigir a situação atual, em vez de prevenir recorrências. Como o critério 'Foco Causa' não é atendido, a avaliação de 'Efeitos Duradouros' como 'Não se aplica' é apropriada.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1277,
+    "completion_tokens": 172,
+    "total_tokens": 1449,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 445
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

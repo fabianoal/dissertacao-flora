@@ -1,0 +1,28 @@
+{
+  "id": "a8108fc7-2e8a-4953-9bef-31ba187688ba",
+  "object": "chat.completion",
+  "created": 1760399184,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe que a Comissão de Revisão de Prontuários assegure o cumprimento das exigências legais quanto às informações obrigatórias nos prontuários, incluindo legibilidade e identificação do profissional. Isso aborda a causa das inconsistências e fragilidades nos registros, que é a não conformidade com as normas estabelecidas, ao estabelecer um mecanismo de controle contínuo. Quanto aos efeitos duradouros, a ação sugerida cria um processo de revisão que deve persistir independentemente de mudanças nos atores envolvidos, como membros da comissão ou profissionais de saúde, pois está baseada em normas institucionais.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1024,
+    "completion_tokens": 188,
+    "total_tokens": 1212,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 128
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

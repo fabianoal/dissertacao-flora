@@ -1,0 +1,28 @@
+{
+  "id": "3bd7f800-82ad-4c9f-9f6e-31dc3ebbb4b4",
+  "object": "chat.completion",
+  "created": 1760389750,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe apenas a inserção tempestiva dos relatórios, que é uma ação direta para corrigir a condição específica de intempestividade identificada, sem abordar as causas subjacentes que levam a essa demora. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, esta análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 962,
+    "completion_tokens": 135,
+    "total_tokens": 1097,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 130
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

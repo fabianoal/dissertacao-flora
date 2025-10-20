@@ -1,0 +1,28 @@
+{
+  "id": "b485a584-7cbd-4506-822e-5a37c485e362",
+  "object": "chat.completion",
+  "created": 1760391898,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação consiste apenas em encaminhar a constatação para conhecimento do departamento competente, sem propor ações específicas para tratar a causa da não apresentação dos documentos. Não há menção a implementação de procedimentos, capacitação, sistemas ou outras medidas que ataquem a raiz do problema. Portanto, não há ação proposta que trate da causa do problema.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1040,
+    "completion_tokens": 119,
+    "total_tokens": 1159,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 208
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

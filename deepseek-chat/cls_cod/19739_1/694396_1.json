@@ -1,0 +1,28 @@
+{
+  "id": "da401837-33ef-46bb-bfe7-47e26e99f1be",
+  "object": "chat.completion",
+  "created": 1760038264,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"A recomendação contém três partes: (a) sugere o cumprimento de normativos para correta alimentação dos bancos de dados, o que é uma ação genérica para tratar a causa; (b) propõe a restituição de valores, que é uma ação corretiva para resolver a condição imediata; (c) orienta manter-se atualizado com legislações para evitar devoluções de recursos, focando na causa de forma específica. A ação corretiva está presente na restituição de valores. A ação com foco na causa inclui tanto uma parte genérica (cumprir normativos) quanto uma específica (manter-se atualizado com legislações), sendo a específica predominante para avaliação. Para efeitos duradouros, a ação específica de manter-se atualizado com legislações visa mudanças institucionais que podem persistir com mudanças de atores, pois envolve processos contínuos de atualização.\",\n   \"Ação Corretiva\": \"Sim\",\n   \"Ação Foco Causa\": \"Específica\",\n   \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1487,
+    "completion_tokens": 259,
+    "total_tokens": 1746,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 463
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

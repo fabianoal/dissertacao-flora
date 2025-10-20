@@ -1,0 +1,28 @@
+{
+  "id": "7eb4abc3-3136-4162-bf7b-11840a2fc409",
+  "object": "chat.completion",
+  "created": 1760395940,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação inclui ações que tratam tanto da condição imediata (atualização do CNES) quanto da causa do problema (estabelecimento de procedimentos internos, designação de responsável, documentação de processos e treinamento da equipe), visando prevenir a recorrência da desatualização. Já em relação aos efeitos pretendidos pela recomendação, as ações focadas na causa (como procedimentos documentados e designação de função) são estruturadas para persistir independentemente de mudanças nos atores envolvidos, promovendo sustentabilidade.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1202,
+    "completion_tokens": 168,
+    "total_tokens": 1370,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 370
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

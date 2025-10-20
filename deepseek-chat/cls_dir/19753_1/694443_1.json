@@ -1,0 +1,28 @@
+{
+  "id": "5fab1671-e57f-48f4-8b25-7ada8aa40347",
+  "object": "chat.completion",
+  "created": 1759367462,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação propõe a atualização completa dos cadastros de funcionários no CNES para eliminar inconsistências, identificando a causa como a desatualização dos registros. No entanto, a causa está situada no nível operacional (falta de atualização pontual) e não no nível institucional (como ausência de políticas ou processos permanentes para manutenção dos cadastros). As transformações produzidas são temporárias, pois a atualização não garante que os cadastros permaneçam corretos ao longo do tempo sem mudanças estruturais.\",\n    \"categoria\": \"foco-condicao\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1390,
+    "completion_tokens": 149,
+    "total_tokens": 1539,
+    "prompt_tokens_details": {
+      "cached_tokens": 1216
+    },
+    "prompt_cache_hit_tokens": 1216,
+    "prompt_cache_miss_tokens": 174
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

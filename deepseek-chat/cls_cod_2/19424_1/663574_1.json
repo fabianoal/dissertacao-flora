@@ -1,0 +1,28 @@
+{
+  "id": "999fb50d-5cf3-4a28-9573-916e87477bb2",
+  "object": "chat.completion",
+  "created": 1760385398,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a solicitar o envio da documentação quando requisitada, sem propor ações para garantir que o estabelecimento mantenha a documentação obrigatória de forma proativa ou para tratar as causas da falta de documentação (como falhas em processos internos de gestão documental). Portanto, não há foco na causa do problema. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1073,
+    "completion_tokens": 149,
+    "total_tokens": 1222,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 241
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

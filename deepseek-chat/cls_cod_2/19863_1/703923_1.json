@@ -1,0 +1,28 @@
+{
+  "id": "4ef64fe8-9e7b-428c-8491-c25a3d0d01bd",
+  "object": "chat.completion",
+  "created": 1760400004,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a elaboração de um manual para implantar comissões obrigatórias, o que aborda diretamente a causa da ausência de documentação, estabelecendo um processo normativo para evitar a reincidência. Já em relação aos efeitos pretendidos pela recomendação, a criação de um manual institucionaliza o procedimento, garantindo que os efeitos perdurem independentemente de mudanças nos atores envolvidos.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 962,
+    "completion_tokens": 135,
+    "total_tokens": 1097,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 130
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

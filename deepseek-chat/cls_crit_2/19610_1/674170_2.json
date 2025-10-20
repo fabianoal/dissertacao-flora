@@ -1,0 +1,28 @@
+{
+  "id": "8074da8c-b7c0-427b-9b26-40e95eb7671b",
+  "object": "chat.completion",
+  "created": 1760456065,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe estabelecer critérios para contratações e controle de frequência, o que efetivamente visa tratar a causa da ausência de critérios que gerou a constatação, sendo uma ação preventiva. Quanto ao critério 'Efeitos Duradouros', a implementação de critérios formais e controles institucionalizados tende a persistir mesmo com mudanças nos atores, mas a análise do modelo não considerou que a recomendação também inclui ações corretivas imediatas (como solicitar a instituição de controles específicos), o que pode afetar a durabilidade se dependente de ações pontuais.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1254,
+    "completion_tokens": 205,
+    "total_tokens": 1459,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 358
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

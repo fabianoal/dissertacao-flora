@@ -1,0 +1,28 @@
+{
+  "id": "0c387ac3-444e-42d7-b5be-2dbdb403dcec",
+  "object": "chat.completion",
+  "created": 1760384203,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação se limita a citar o cumprimento de uma resolução específica que trata da verificação de documentação fiscal, sem propor ações que abordem diretamente a causa raiz da impossibilidade de rastreamento, que é a falta de registro e controle de itens utilizados. A recomendação foca na condição atual (falta de verificação documental) em vez de sugerir medidas para prevenir a ocorrência futura do problema. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, esta análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1050,
+    "completion_tokens": 177,
+    "total_tokens": 1227,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 154
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

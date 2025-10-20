@@ -1,0 +1,28 @@
+{
+  "id": "bc486b85-4ac7-4f5a-9a66-632033d9c41e",
+  "object": "chat.completion",
+  "created": 1760392610,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação trata apenas da correção da condição encontrada (pagamento indevido de adicional de insalubridade), focando no levantamento, notificação e ressarcimento dos valores pagos indevidamente. Não há nenhuma ação proposta que aborde a causa raiz do problema, como a falta de laudo técnico adequado ou a implementação de controles preventivos para evitar que pagamentos indevidos ocorram novamente no futuro.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1123,
+    "completion_tokens": 137,
+    "total_tokens": 1260,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 291
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

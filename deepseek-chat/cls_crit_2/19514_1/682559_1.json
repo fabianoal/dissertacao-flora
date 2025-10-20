@@ -1,0 +1,28 @@
+{
+  "id": "dd193d75-b4a5-446d-86f4-b35d0d401a15",
+  "object": "chat.completion",
+  "created": 1760453533,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação se limita a citar dispositivos legais sem propor ações específicas para tratar a causa da falta de acompanhamento, controle e análise. No entanto, a recomendação poderia ser interpretada como uma ação de conformidade legal que, se implementada, poderia indiretamente abordar a causa, mas a falta de detalhamento sobre como executar essas atribuições legais justifica a classificação como 'Não' para o critério 'Foco Causa'.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1356,
+    "completion_tokens": 156,
+    "total_tokens": 1512,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 460
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

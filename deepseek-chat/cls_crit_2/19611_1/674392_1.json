@@ -1,0 +1,28 @@
+{
+  "id": "9d6c1382-6d2b-4a18-9a60-0400d4bc8bbc",
+  "object": "chat.completion",
+  "created": 1760456357,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identificou corretamente que a recomendação não aborda a causa subjacente da concessão do adicional sem laudo técnico, focando apenas na correção da condição atual. Para o critério 'Efeitos Duradouros', a resposta 'Não se aplica' está adequada, dado que o primeiro critério foi 'Não'. A análise é consistente com as definições fornecidas.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1443,
+    "completion_tokens": 148,
+    "total_tokens": 1591,
+    "prompt_tokens_details": {
+      "cached_tokens": 1152
+    },
+    "prompt_cache_hit_tokens": 1152,
+    "prompt_cache_miss_tokens": 291
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

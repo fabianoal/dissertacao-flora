@@ -1,0 +1,28 @@
+{
+  "id": "d4ffd3aa-07d5-4067-808d-2bcd9aca3180",
+  "object": "chat.completion",
+  "created": 1760391846,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe monitorar a capacidade instalada e operacional, realizar interface com áreas responsáveis e adotar medidas corretivas para problemas que causaram impedimentos dos leitos, o que sugere ações para tratar as causas subjacentes, como a falta de monitoramento e resolução de problemas. Já em relação aos efeitos pretendidos pela recomendação, as ações de monitoramento e interface institucionalizadas podem persistir independentemente de mudanças nos atores envolvidos, indicando efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1023,
+    "completion_tokens": 150,
+    "total_tokens": 1173,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 191
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2696efca-f1e9-484b-bc0f-f5999c0fb163",
+  "object": "chat.completion",
+  "created": 1760455305,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações específicas de padronização visual e instalação de sinalização, que são medidas diretas para corrigir a condição encontrada de não conformidade com os critérios legais. No entanto, não aborda causas subjacentes, como falhas em processos de implementação, monitoramento ou capacitação que permitiram a não conformidade persistir. Portanto, concordo que o foco é na condição. Para o critério 'Efeitos Duradouros', como o 'Foco Causa' é 'Não', a resposta 'Não se aplica' está correta.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1349,
+    "completion_tokens": 191,
+    "total_tokens": 1540,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 453
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

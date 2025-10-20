@@ -1,0 +1,28 @@
+{
+  "id": "10e7034d-49e0-47ae-977f-5dc6d745f1a5",
+  "object": "chat.completion",
+  "created": 1760400856,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a devolução de valores cobrados indevidamente, focando na correção da condição financeira específica identificada na auditoria. Não há menção a ações que tratem das causas que levaram às inconsistências nos procedimentos cirúrgicos, como falhas em processos, controles ou sistemas que permitiram a cobrança inadequada. Portanto, o critério 'Foco Causa' não é atendido. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1104,
+    "completion_tokens": 167,
+    "total_tokens": 1271,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 208
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

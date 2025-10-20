@@ -1,0 +1,28 @@
+{
+  "id": "4b27b7c2-c433-4d66-8712-411438e0e11d",
+  "object": "chat.completion",
+  "created": 1760453113,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identifica corretamente que a recomendação se concentra em ações para garantir comprovação e transparência das despesas, mas não aborda explicitamente causas subjacentes, como deficiências em processos internos ou capacitação. Quanto ao critério 'Efeitos Duradouros', a análise segue corretamente a premissa de que, se 'Foco Causa' for 'Não', a resposta deve ser 'Não se aplica'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1345,
+    "completion_tokens": 162,
+    "total_tokens": 1507,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 385
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

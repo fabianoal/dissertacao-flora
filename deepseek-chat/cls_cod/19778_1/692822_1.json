@@ -1,0 +1,28 @@
+{
+  "id": "9e83c2f9-515f-419a-b15e-6c8fba7902e2",
+  "object": "chat.completion",
+  "created": 1760037956,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere revisar o Plano de Contingência, o que pode ser visto como uma ação para resolver a condição encontrada de ausência do plano, caracterizando uma ação corretiva. No entanto, a ação proposta é genérica, pois se limita a revisar o plano com base em orientações normativas existentes, sem especificar ações concretas além do cumprimento dessas normas. Como a ação de foco na causa é genérica, os efeitos duradouros não se aplicam de forma sustentável.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1198,
+    "completion_tokens": 162,
+    "total_tokens": 1360,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 174
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

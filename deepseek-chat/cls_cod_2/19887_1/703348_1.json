@@ -1,0 +1,28 @@
+{
+  "id": "4d1e5ff8-a8d5-46d3-b287-b4a2cb1a6b57",
+  "object": "chat.completion",
+  "created": 1760400720,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe que a Secretaria de Estado da Saúde de São Paulo exerça suas funções de fiscalização e avaliação conforme estabelecido no Termo de Convênio, o que representa uma ação para tratar a causa do problema (falta de controle e fiscalização) que gerou a condição encontrada (incompatibilidade entre CIDs informados e exigidos). Em relação aos efeitos duradouros, a implementação de um processo contínuo de fiscalização e avaliação, conforme o convênio, tende a persistir mesmo com mudanças nos atores envolvidos, pois se baseia em um acordo formal e em responsabilidades institucionais estabelecidas.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1069,
+    "completion_tokens": 185,
+    "total_tokens": 1254,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 237
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

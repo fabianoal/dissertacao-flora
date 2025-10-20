@@ -1,0 +1,28 @@
+{
+  "id": "4d7ff7eb-cf4f-4ae5-9900-46daa38d8812",
+  "object": "chat.completion",
+  "created": 1760401032,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações como revisar e atualizar a equipe sobre a sistemática de lançamentos no SIGTAP e estabelecer protocolos claros para registro de intervenções, que visam tratar as causas subjacentes das inconsistências nos registros, como falta de conhecimento da equipe e ausência de procedimentos padronizados. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como a criação de protocolos claros e o treinamento da equipe, têm efeitos que podem perdurar mesmo com mudanças nos atores envolvidos, pois estabelecem processos e conhecimentos institucionalizados.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1187,
+    "completion_tokens": 179,
+    "total_tokens": 1366,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 355
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

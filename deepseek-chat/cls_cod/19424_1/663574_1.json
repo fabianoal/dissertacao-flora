@@ -1,0 +1,28 @@
+{
+  "id": "e5c8c5f6-b5d5-4857-bee7-f12f8cbb7586",
+  "object": "chat.completion",
+  "created": 1760001969,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere que o estabelecimento encaminhe a documentação obrigatória quando solicitada, o que constitui uma ação corretiva para resolver a condição imediata de falta de documentação. No entanto, a ação proposta é genérica, pois se limita a citar o cumprimento de normativos existentes sem propor medidas adicionais para abordar a causa subjacente, como a implementação de um sistema de gestão documental. Como a ação é genérica, não há efeitos duradouros a serem considerados.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1231,
+    "completion_tokens": 166,
+    "total_tokens": 1397,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 271
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

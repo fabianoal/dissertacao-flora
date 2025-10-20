@@ -1,0 +1,28 @@
+{
+  "id": "fa036aa6-35cf-46cb-a2d3-28c2c4f89baa",
+  "object": "chat.completion",
+  "created": 1760036992,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere estabelecer medidas para assegurar que as cópias das folhas de requisição de OPME sejam anexadas aos prontuários, o que constitui uma ação para resolver a condição encontrada (ausência de anexação). No entanto, a recomendação é genérica, limitando-se a citar a necessidade de cumprir normativos existentes sem propor ações concretas para tratar a causa subjacente que permitiu a ocorrência da condição, como a implementação de processos específicos de verificação ou treinamento. Como a ação com foco na causa é genérica, os efeitos duradouros não são avaliados positivamente.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1282,
+    "completion_tokens": 199,
+    "total_tokens": 1481,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 258
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

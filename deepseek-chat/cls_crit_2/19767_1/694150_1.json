@@ -1,0 +1,28 @@
+{
+  "id": "2ba95f19-793f-4d10-a117-40096e79d23f",
+  "object": "chat.completion",
+  "created": 1760463669,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo considerou que a recomendação trata da causa (ausência de formalização) e que os efeitos seriam duradouros devido à institucionalização. No entanto, é necessário examinar se essa interpretação está correta em relação aos critérios definidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1158,
+    "completion_tokens": 106,
+    "total_tokens": 1264,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 326
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

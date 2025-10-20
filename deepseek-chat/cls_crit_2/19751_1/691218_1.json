@@ -1,0 +1,28 @@
+{
+  "id": "b81aefc6-393d-4dca-bde5-05cb96e9cc61",
+  "object": "chat.completion",
+  "created": 1760463065,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação se concentra em ações corretivas imediatas (inserir oportunamente os relatórios e atribuir ao CMS a emissão de parecer) sem abordar as causas subjacentes dos atrasos e pendências, como falhas nos processos internos ou capacitação inadequada. Quanto ao critério 'Efeitos Duradouros', como o 'Foco Causa' foi corretamente classificado como 'Não', a resposta 'Não se aplica' está adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1284,
+    "completion_tokens": 177,
+    "total_tokens": 1461,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 388
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

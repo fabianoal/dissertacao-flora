@@ -1,0 +1,28 @@
+{
+  "id": "799e3fa6-6ce8-43fe-9215-7f1a312e7b8e",
+  "object": "chat.completion",
+  "created": 1760383902,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a regularização da implantação e funcionamento das comissões, o que visa tratar a causa subjacente da não conformidade (ausência de funcionamento permanente), em vez de apenas corrigir casos específicos de falhas. Isso sugere uma abordagem de longo prazo para evitar a recorrência do problema. Já em relação aos efeitos pretendidos pela recomendação, a ação de estabelecer um funcionamento permanente e conforme a legislação tende a criar uma estrutura contínua, cujos efeitos provavelmente persistiriam mesmo com mudanças nos atores envolvidos, devido à institucionalização do processo.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1057,
+    "completion_tokens": 182,
+    "total_tokens": 1239,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 161
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

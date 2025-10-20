@@ -1,0 +1,28 @@
+{
+  "id": "64d738a8-d4f4-42e2-9b6c-9fce00a8d8f3",
+  "object": "chat.completion",
+  "created": 1760465045,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a implementação de ações específicas de redução de danos para populações vulneráveis, o que aborda diretamente a causa da falta dessas ações nas UBSs, conforme a constatação. Para o critério 'Efeitos Duradouros', a recomendação baseia-se em uma portaria consolidada, o que sugere a criação de um processo institucionalizado, mas a análise não garante que os efeitos sejam necessariamente duradouros sem detalhes sobre a sustentabilidade ou independência de atores específicos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1188,
+    "completion_tokens": 178,
+    "total_tokens": 1366,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 292
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

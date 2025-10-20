@@ -1,0 +1,28 @@
+{
+  "id": "949a29c3-edeb-425f-a987-1a38877746f9",
+  "object": "chat.completion",
+  "created": 1760465849,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações que vão além de simplesmente corrigir a condição imediata (não realizar levantamento), estabelecendo processos sistemáticos para identificar necessidades de formação e promover educação permanente, o que ataca a causa subjacente da falta de capacitação adequada. Quanto ao critério 'Efeitos Duradouros', a implementação de estruturas e processos de educação permanente e identificação contínua de necessidades tende a se institucionalizar, persistindo mesmo com mudanças na equipe, desde que haja comprometimento organizacional.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1227,
+    "completion_tokens": 182,
+    "total_tokens": 1409,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 331
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ff2969b2-74a5-4e23-8f5a-b2891d0d9913",
+  "object": "chat.completion",
+  "created": 1760467501,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identifica corretamente que a recomendação visa corrigir a condição imediata de falta de documentação, sem abordar causas subjacentes como falhas processuais ou de gestão. Para 'Efeitos Duradouros', a conclusão de não se aplicar é adequada, dado que o foco na causa não foi atendido.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1231,
+    "completion_tokens": 135,
+    "total_tokens": 1366,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 335
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

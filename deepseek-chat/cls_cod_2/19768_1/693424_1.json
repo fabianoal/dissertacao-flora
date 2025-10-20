@@ -1,0 +1,28 @@
+{
+  "id": "27e146cb-25b8-4a85-ae0f-fa03740063e6",
+  "object": "chat.completion",
+  "created": 1760396077,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam da causa do problema (falta de programas de treinamento regulares), como realizar levantamento de competências, elaborar plano de capacitação anual e estabelecer rotinas para integração de novos colaboradores, visando prevenir a reocorrência da condição. Já em relação aos efeitos pretendidos, as ações sugeridas (como planos anuais e rotinas estabelecidas) são estruturadas para permanecerem efetivas mesmo com mudanças nos atores envolvidos, pois institucionalizam processos de capacitação.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1167,
+    "completion_tokens": 166,
+    "total_tokens": 1333,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 335
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

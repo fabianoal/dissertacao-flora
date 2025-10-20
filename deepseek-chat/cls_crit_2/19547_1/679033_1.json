@@ -1,0 +1,28 @@
+{
+  "id": "63f1ca42-d319-458a-89f1-213e2b71e8f4",
+  "object": "chat.completion",
+  "created": 1760454505,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação sugere a implementação de processos estruturados e documentação sistemática, o que pode abordar a causa subjacente da não adoção de ações. No entanto, a recomendação é genérica e não especifica ações concretas para tratar a causa raiz. Para o critério 'Efeitos Duradouros', a análise assume que os procedimentos estabelecidos serão duradouros, mas sem detalhes sobre a implementação, essa suposição pode ser questionável.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1398,
+    "completion_tokens": 162,
+    "total_tokens": 1560,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 502
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

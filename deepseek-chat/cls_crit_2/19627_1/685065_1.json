@@ -1,0 +1,28 @@
+{
+  "id": "eb8af025-23de-44c7-99ad-f03340b3f6c1",
+  "object": "chat.completion",
+  "created": 1760458061,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe orientar fiscais e responsáveis para garantir a regularidade dos atos, o que pode ser interpretado como uma ação preventiva para evitar futuras impropriedades, tratando a causa subjacente de falta de supervisão adequada. Quanto ao critério 'Efeitos Duradouros', a orientação visa estabelecer práticas padronizadas e registros apropriados que podem persistir independentemente de mudanças nos atores envolvidos, indicando efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1176,
+    "completion_tokens": 170,
+    "total_tokens": 1346,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 280
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

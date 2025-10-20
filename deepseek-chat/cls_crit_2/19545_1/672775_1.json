@@ -1,0 +1,28 @@
+{
+  "id": "aa03851f-147b-461a-ae63-86a160858411",
+  "object": "chat.completion",
+  "created": 1760454465,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação aborda a causa estrutural da ausência da sala de equipamentos, mas a avaliação sobre efeitos duradouros merece uma revisão mais cuidadosa.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1177,
+    "completion_tokens": 94,
+    "total_tokens": 1271,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 281
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

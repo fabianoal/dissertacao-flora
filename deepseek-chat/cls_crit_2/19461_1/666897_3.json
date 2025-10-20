@@ -1,0 +1,28 @@
+{
+  "id": "bf68ce31-7de8-4c2d-931b-f672e44c5ee2",
+  "object": "chat.completion",
+  "created": 1760452572,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação apenas solicita o fornecimento imediato da documentação ausente, sem abordar as causas estruturais da falta de documentação. Quanto ao critério 'Efeitos Duradouros', como o 'Foco Causa' não foi atendido, a resposta 'Não se aplica' está adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1239,
+    "completion_tokens": 137,
+    "total_tokens": 1376,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 279
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

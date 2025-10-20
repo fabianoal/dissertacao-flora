@@ -1,0 +1,28 @@
+{
+  "id": "d208e93f-9fe4-4b57-b30c-a02eb9de8b8b",
+  "object": "chat.completion",
+  "created": 1760466201,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a instituição de um processo de compartilhamento de registros, o que efetivamente visa tratar a causa subjacente da falta de compartilhamento, como a ausência de procedimentos formais, sendo, portanto, uma recomendação focada na causa. Para o critério 'Efeitos Duradouros', a implementação de um processo estruturado tende a criar mudanças duradouras, pois estabelece uma prática institucional que persiste independentemente de mudanças nos atores envolvidos, desde que o processo seja mantido e seguido.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1198,
+    "completion_tokens": 183,
+    "total_tokens": 1381,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 302
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

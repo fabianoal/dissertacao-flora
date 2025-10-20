@@ -1,0 +1,28 @@
+{
+  "id": "0e7c7383-ca2f-4dc6-bbe7-3bf4ce589e25",
+  "object": "chat.completion",
+  "created": 1760458041,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise crítica considera que a recomendação, ao propor orientações formais e registro sistemático, aborda a causa das impropriedades ao estabelecer procedimentos padronizados, mas a avaliação dos efeitos duradouros pode ser questionada devido à dependência da adesão contínua dos fiscais e possíveis variações na aplicação das orientações.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1213,
+    "completion_tokens": 125,
+    "total_tokens": 1338,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 317
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2cbde810-822f-4e38-a979-562ffca67c5c",
+  "object": "chat.completion",
+  "created": 1760390494,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a inserção de relatórios de visita técnica em sistema específico, o que é uma ação direta para corrigir a ausência documental da visita, mas não aborda as causas subjacentes que levaram à ausência da visita técnica em si (como falta de recursos, planejamento ou capacitação). Portanto, a recomendação é focada na condição (documentação) e não na causa do problema. Como o critério 'Foco Causa' não foi atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 957,
+    "completion_tokens": 172,
+    "total_tokens": 1129,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 125
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

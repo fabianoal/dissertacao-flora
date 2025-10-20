@@ -1,0 +1,28 @@
+{
+  "id": "7c137ec0-a962-4f7d-b7ed-3f0d31499329",
+  "object": "chat.completion",
+  "created": 1760466993,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo apresenta algumas inconsistências na aplicação dos critérios definidos. A recomendação trata especificamente da adequação do mobiliário para cumprir normas ergonômicas, o que parece ser uma correção direta da condição encontrada (mobiliário inadequado) em vez de abordar a causa raiz que levou a essa condição. Além disso, a avaliação de efeitos duradouros não deveria ter sido realizada uma vez que o critério 'Foco Causa' não foi adequadamente atendido.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1167,
+    "completion_tokens": 165,
+    "total_tokens": 1332,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 207
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

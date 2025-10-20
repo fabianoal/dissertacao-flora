@@ -1,0 +1,28 @@
+{
+  "id": "9b437cb6-9b72-4619-80cb-bbfbdcfd72a8",
+  "object": "chat.completion",
+  "created": 1760036640,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a citar dispositivos legais genéricos (Decreto nº 9.795/2019 e Decreto nº 3.964/2001) sem propor ações específicas para tratar a causa da dispensação irregular de medicamentos. A ação sugerida é genérica ('adoção dos procedimentos a seu cargo'), sem detalhamento de medidas concretas para prevenir a reincidência. Embora mencione a possibilidade de dedução de valores, isso se caracteriza como uma ação corretiva para resolver a condição atual, mas não há proposta de ação focada na causa.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1402,
+    "completion_tokens": 180,
+    "total_tokens": 1582,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 378
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

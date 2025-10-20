@@ -1,0 +1,28 @@
+{
+  "id": "3c60e44f-9558-4256-ba3e-c4f01b496393",
+  "object": "chat.completion",
+  "created": 1760395260,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a implementação de um programa de manutenção periódica programada para os equipamentos da CMRF, o que visa tratar a causa raiz do problema (ausência de manutenção preventiva regular) e não apenas corrigir as condições atuais de falta de manutenção. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um sistema estruturado de manutenção programada criaria processos permanentes que continuariam funcionando independentemente de mudanças nos atores envolvidos, estabelecendo uma rotina institucionalizada de manutenção preventiva.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1179,
+    "completion_tokens": 174,
+    "total_tokens": 1353,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 347
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

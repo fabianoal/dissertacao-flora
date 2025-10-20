@@ -1,0 +1,28 @@
+{
+  "id": "d4e58d78-d96c-4211-bcc0-99bbfeac7cfa",
+  "object": "chat.completion",
+  "created": 1760459381,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identifica corretamente que a recomendação aborda a causa subjacente ao problema, que é a falta de processos adequados e cumprimento de prazos para o acompanhamento das ações. Quanto ao critério 'Efeitos Duradouros', a análise do modelo também está correta, pois a implementação de processos institucionais estruturados tende a persistir independentemente de mudanças nos atores envolvidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1307,
+    "completion_tokens": 155,
+    "total_tokens": 1462,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 411
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

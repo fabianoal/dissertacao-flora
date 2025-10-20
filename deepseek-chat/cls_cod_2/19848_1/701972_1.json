@@ -1,0 +1,28 @@
+{
+  "id": "e5af52e1-1bbd-4520-83b0-d6a98baac3c1",
+  "object": "chat.completion",
+  "created": 1760399208,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a ação de 'alimentar regularmente' o sistema SINAN com informações documentadas sobre notificações compulsórias, o que visa corrigir diretamente a condição encontrada de ausência de comprovação dos atendimentos, sem abordar as causas subjacentes que levaram a essa falha (como falta de capacitação, recursos humanos insuficientes ou problemas de processo). Portanto, a recomendação é focada na condição, não na causa. Como o critério 'Foco Causa' não foi atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1123,
+    "completion_tokens": 183,
+    "total_tokens": 1306,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 291
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

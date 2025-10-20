@@ -1,0 +1,28 @@
+{
+  "id": "98b3212b-8aff-49ff-93de-fcc76c4926a2",
+  "object": "chat.completion",
+  "created": 1760400524,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe que o hospital assegure a realização da reconstrução mamária no mesmo ato anestésico, conforme exigido legalmente, o que constitui uma ação direta para corrigir a condição específica de não realização observada. No entanto, não são propostas medidas para tratar as causas subjacentes que levaram à não realização (como falhas em processos, capacitação da equipe ou definição de protocolos). Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, esta análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1204,
+    "completion_tokens": 179,
+    "total_tokens": 1383,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 372
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

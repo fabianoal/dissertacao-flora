@@ -1,0 +1,28 @@
+{
+  "id": "7b3fb4d2-53a3-4031-b164-74c2202c1ff8",
+  "object": "chat.completion",
+  "created": 1760399236,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam diretamente da causa do problema identificado na constatação, que é a ausência de contrato formal, suporte técnico e planos de continuidade para o serviço de internet. Ao exigir que a empresa contratada forneça capacidade de conexão suficiente, suporte técnico e planos de continuidade, a recomendação visa resolver as deficiências estruturais que levaram à condição encontrada, caracterizando um foco na causa. Já em relação aos efeitos pretendidos pela recomendação, a implementação de contratos formais, suporte técnico e planos de continuidade estabelece procedimentos e acordos que permanecem válidos independentemente de mudanças nos atores envolvidos, como gestores ou técnicos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1066,
+    "completion_tokens": 220,
+    "total_tokens": 1286,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 234
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

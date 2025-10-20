@@ -1,0 +1,28 @@
+{
+  "id": "04e8c4d2-3182-47c7-bc85-67bc82fc2125",
+  "object": "chat.completion",
+  "created": 1760386862,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe que o gestor municipal cumpra o Manual de Operação do SIA/SUS e a Portaria de Consolidação GM/MS n.º 1, que estabelecem diretrizes para controle, avaliação e alimentação fidedigna dos dados nos sistemas de informação. Isso visa implementar processos e controles permanentes para garantir que a produção inserida corresponda à realizada, abordando a causa raiz do problema, que é a falta de aderência aos procedimentos normativos. Já em relação aos efeitos pretendidos pela recomendação, a implementação dessas normas cria estruturas e procedimentos que devem persistir independentemente de mudanças nos atores envolvidos, como a substituição de gestores ou funcionários, promovendo assim efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1259,
+    "completion_tokens": 210,
+    "total_tokens": 1469,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 427
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "01642cdc-8466-45e2-9784-486d13d930a0",
+  "object": "chat.completion",
+  "created": 1760388142,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe garantir a realização tempestiva dos exames de imagem, o que visa corrigir diretamente a condição encontrada de atraso nos exames, sem abordar as causas subjacentes que levaram a essa situação, como falhas no processo de agendamento, falta de recursos ou capacitação. Portanto, trata-se de uma medida focada na condição imediata. Como o critério 'Foco Causa' não foi atendido, não se aplica a avaliação de efeitos duradouros.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 969,
+    "completion_tokens": 163,
+    "total_tokens": 1132,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 137
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "20abdffa-897d-4d0c-b88c-646245cebe5f",
+  "object": "chat.completion",
+  "created": 1760036348,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere ações corretivas para resolver a condição de controle insatisfatório do registro de ponto, como a implementação de um sistema de ponto eletrônico. Além disso, propõe ações com foco na causa, como treinamento e estabelecimento de políticas, que visam prevenir a recorrência do problema. No entanto, a ação de estabelecer políticas é genérica, pois não especifica detalhes concretos além do cumprimento normativo, e os efeitos duradouros não são garantidos, pois dependem da continuidade das práticas mesmo com mudanças de atores.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1178,
+    "completion_tokens": 178,
+    "total_tokens": 1356,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 154
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

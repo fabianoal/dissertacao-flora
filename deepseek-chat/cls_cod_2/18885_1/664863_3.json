@@ -1,0 +1,28 @@
+{
+  "id": "de23f676-5133-4439-b75a-3acb61cc5c4e",
+  "object": "chat.completion",
+  "created": 1760383642,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a solicitar o acompanhamento da devolução dos recursos desembolsados indevidamente, sem propor nenhuma ação para tratar a causa subjacente do problema, que é a ausência de comprovação da execução dos serviços. Não há menção a medidas para prevenir a reincidência, como melhorias nos processos de fiscalização, capacitação de pessoal ou revisão de procedimentos. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' não foi atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1029,
+    "completion_tokens": 178,
+    "total_tokens": 1207,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 133
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

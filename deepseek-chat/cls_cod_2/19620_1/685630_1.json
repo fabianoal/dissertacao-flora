@@ -1,0 +1,28 @@
+{
+  "id": "9dde10a0-e818-4e18-b1f5-ebec20dd7450",
+  "object": "chat.completion",
+  "created": 1760391026,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam tanto da condição imediata (assegurar a emissão e presença das AIH nos prontuários) quanto da causa subjacente (nomear área responsável por controles internos para acompanhamento e validação do processo de gestão de OPME). A nomeação de área responsável visa estabelecer uma estrutura organizacional permanente para prevenir a reincidência do problema. Já em relação aos efeitos pretendidos pela recomendação, a nomeação de área responsável por controles internos cria um mecanismo institucional que deve permanecer funcional independentemente de mudanças nos atores envolvidos, estabelecendo processos duradouros de acompanhamento e validação.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1168,
+    "completion_tokens": 203,
+    "total_tokens": 1371,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 336
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

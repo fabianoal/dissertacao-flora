@@ -1,0 +1,28 @@
+{
+  "id": "9f9579a3-917a-4fb6-9dd2-ebc1135e7800",
+  "object": "chat.completion",
+  "created": 1760457249,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a atualização periódica de informações no CNES, o que pode ser interpretado como uma ação para tratar a causa subjacente relacionada à gestão inadequada de dados, que pode estar contribuindo para o excesso de carga horária. No entanto, a constatação específica é sobre excesso de carga horária, e a recomendação não aborda diretamente as causas desse excesso, como questões de escalas, contratos ou distribuição de trabalho, focando apenas na atualização de dados. Para o critério 'Efeitos Duradouros', se a causa não for adequadamente tratada, a durabilidade pode ser questionada.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1136,
+    "completion_tokens": 204,
+    "total_tokens": 1340,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 240
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

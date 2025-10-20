@@ -1,0 +1,28 @@
+{
+  "id": "10fa32dd-e90f-4b64-aa1d-85ffcb82e320",
+  "object": "chat.completion",
+  "created": 1760453105,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise Crítica\": \"A análise fornecida avalia corretamente que a recomendação se concentra na correção imediata da condição financeira irregular, sem abordar as causas subjacentes, como falhas processuais ou de controle. No entanto, a avaliação do critério 'Efeitos Duradouros' está alinhada com a lógica de que ele só se aplica se 'Foco Causa' for 'Sim'.\",\n  \"Análise Foco Causa\": \"Concordo\",\n  \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1247,
+    "completion_tokens": 134,
+    "total_tokens": 1381,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 351
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

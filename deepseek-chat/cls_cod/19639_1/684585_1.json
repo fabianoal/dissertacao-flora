@@ -1,0 +1,28 @@
+{
+  "id": "dc3128f6-a184-4b41-beb5-627f12122a48",
+  "object": "chat.completion",
+  "created": 1760037472,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere ações para resolver a condição encontrada de prontuários incompletos e desorganizados, como garantir registros completos e preenchimento legível, o que atende ao critério de ação corretiva. No entanto, a recomendação se baseia exclusivamente no cumprimento de normativos existentes (RDC nº 63/2011), sem propor ações específicas adicionais para tratar as causas subjacentes, como falhas em processos ou treinamento, sendo classificada como genérica para foco na causa. Como a ação de foco na causa é genérica, os efeitos duradouros não são avaliados positivamente.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1202,
+    "completion_tokens": 192,
+    "total_tokens": 1394,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 242
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "227dbd82-cfed-48b7-928f-ea1fecac461a",
+  "object": "chat.completion",
+  "created": 1760386658,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação é composta por várias ações distintas. Em relação ao foco, a recomendação inclui ações como devolver valores, prestar informações, manter notas fiscais e comercializar conforme regras. A ação de manter notas fiscais por 10 anos visa prevenir a reocorrência da falta de comprovação, tratando da causa relacionada à documentação inadequada. Já em relação aos efeitos pretendidos pela recomendação, a manutenção sistemática de notas fiscais estabelece um procedimento que independe de pessoas específicas, criando efeitos duradouros mesmo com mudança de atores.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1373,
+    "completion_tokens": 169,
+    "total_tokens": 1542,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 477
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

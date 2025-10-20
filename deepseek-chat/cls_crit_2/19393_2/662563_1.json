@@ -1,0 +1,28 @@
+{
+  "id": "2965db91-857d-4b21-b725-2cf4f018649a",
+  "object": "chat.completion",
+  "created": 1760452096,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda diretamente a causa do problema, que é a falta de comprovação documental da utilização de OPME, ao exigir controles radiológicos e anexação de exames ao prontuário. Para o critério 'Efeitos Duradouros', a implementação de procedimentos padronizados, como descrito nos manuais citados, tende a ser sustentável mesmo com mudanças de pessoal, pois se baseia em normas institucionais.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1343,
+    "completion_tokens": 165,
+    "total_tokens": 1508,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 447
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

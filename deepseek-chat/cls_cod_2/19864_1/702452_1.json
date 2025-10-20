@@ -1,0 +1,28 @@
+{
+  "id": "191ed44a-6f6f-4b9a-ac7d-0a24c05327db",
+  "object": "chat.completion",
+  "created": 1760400108,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe duas ações principais: manter os prontuários físicos conforme normativa do CFM e implementar a digitalização com destruição controlada dos originais. A primeira ação trata diretamente da causa do problema (falta de guarda adequada dos prontuários físicos), enquanto a segunda estabelece um processo estruturado para transição e gestão documental. Ambas as ações visam resolver a causa raiz da não apresentação dos prontuários. Quanto aos efeitos duradouros, a implementação de sistemas informatizados e processos formalizados de gestão documental criará uma estrutura permanente que permanecerá efetiva independentemente de mudanças nas equipes ou gestores.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1080,
+    "completion_tokens": 192,
+    "total_tokens": 1272,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 312
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

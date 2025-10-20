@@ -1,0 +1,28 @@
+{
+  "id": "7cfc047d-c91e-4ec1-a535-968ea6806724",
+  "object": "chat.completion",
+  "created": 1760390378,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe que o DSEI realize a conferência da documentação comprobatória/complementar no Transferegov para evitar a manutenção de informações incorretas, o que visa prevenir a recorrência do problema de impropriedades nos relatórios, tratando assim a causa (falta de conferência adequada) e não apenas corrigindo as informações existentes. Já em relação aos efeitos pretendidos pela recomendação, a ação de conferência sistemática, se implementada como processo contínuo, estabelece uma prática que pode persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 963,
+    "completion_tokens": 187,
+    "total_tokens": 1150,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 3
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

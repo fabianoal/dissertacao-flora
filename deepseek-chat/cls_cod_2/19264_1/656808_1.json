@@ -1,0 +1,28 @@
+{
+  "id": "714f6f08-2fbc-43d8-bf7f-f0a8c4b3865b",
+  "object": "chat.completion",
+  "created": 1760384394,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação trata especificamente da devolução de recursos federais cobrados indevidamente, focando na correção da condição financeira irregular identificada (cobrança superior ao implantado). Não propõe ações para tratar a causa que permitiu essa cobrança excessiva ocorrer, como falhas nos processos de controle interno, sistema de registro de implantes ou mecanismos de verificação. Portanto, a recomendação é condition-based, não cause-based. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1244,
+    "completion_tokens": 170,
+    "total_tokens": 1414,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 412
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

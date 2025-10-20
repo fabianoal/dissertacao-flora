@@ -1,0 +1,28 @@
+{
+  "id": "394f07d0-5610-4394-b7fc-4b987ea43de7",
+  "object": "chat.completion",
+  "created": 1760037944,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere uma ação para resolver a condição encontrada, orientando a atualização periódica das informações no CNES para os profissionais não inscritos. No entanto, não propõe ações específicas para tratar a causa subjacente, como implementar processos de verificação ou treinamento, limitando-se a uma orientação genérica de cumprimento normativo.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1114,
+    "completion_tokens": 126,
+    "total_tokens": 1240,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 90
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

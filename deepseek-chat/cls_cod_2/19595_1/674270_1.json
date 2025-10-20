@@ -1,0 +1,28 @@
+{
+  "id": "9f030d72-db44-4f81-959c-9ef87651f414",
+  "object": "chat.completion",
+  "created": 1760388710,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe uma ação de registro regular e oportuno no SISAB, focando na correção da discrepância de dados observada, mas não aborda as causas subjacentes, como falhas nos processos de coleta, integração de sistemas ou capacitação de pessoal que levaram à inconsistência. Portanto, ela é condition-based, não cause-based. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não é atendido, essa avaliação não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1017,
+    "completion_tokens": 148,
+    "total_tokens": 1165,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 185
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

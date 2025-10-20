@@ -1,0 +1,28 @@
+{
+  "id": "d301fc69-c969-4e88-9792-7cc453fd392c",
+  "object": "chat.completion",
+  "created": 1760468493,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise crítica considera se a classificação do modelo sobre os critérios 'Foco Causa' e 'Efeitos Duradouros' está correta, com base na descrição fornecida da finalidade, constatação, recomendação e análise de codificação.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1231,
+    "completion_tokens": 105,
+    "total_tokens": 1336,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 271
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

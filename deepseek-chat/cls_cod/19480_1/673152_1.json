@@ -1,0 +1,28 @@
+{
+  "id": "df68eaeb-a341-48bc-87e6-4d60154bdaa9",
+  "object": "chat.completion",
+  "created": 1760037232,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere que o destinatário utilize todos os indicadores normativos do Ministério da Saúde para avaliar o funcionamento do SAMU 192, o que constitui uma ação para resolver a condição encontrada de não conformidade com os indicadores. No entanto, a ação proposta é genérica, limitando-se ao cumprimento de normativos preexistentes sem especificar medidas concretas para abordar as causas subjacentes, como falhas de processo ou capacitação. Consequentemente, não há indicação de efeitos duradouros, pois a recomendação não estabelece mudanças sistêmicas que persistiriam independentemente de mudanças nos atores envolvidos.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1329,
+    "completion_tokens": 193,
+    "total_tokens": 1522,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 305
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

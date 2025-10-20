@@ -1,0 +1,28 @@
+{
+  "id": "4d49acd4-3572-4503-8015-8efd2306be15",
+  "object": "chat.completion",
+  "created": 1760392246,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe apenas a restituição do valor recebido indevidamente, focando na correção da condição financeira irregular identificada. Não há nenhuma ação que trate das causas que levaram ao recebimento indevido dos recursos, como falhas nos processos de controle, verificação ou sistemas que permitiram essa ocorrência. Portanto, o critério 'Foco Causa' não é atendido, tornando o critério 'Efeitos Duradouros' não aplicável.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1066,
+    "completion_tokens": 151,
+    "total_tokens": 1217,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 170
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

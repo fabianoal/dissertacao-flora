@@ -1,0 +1,28 @@
+{
+  "id": "7afe3752-ed2d-4edf-8988-c374df87f56a",
+  "object": "chat.completion",
+  "created": 1760387602,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a adoção de medidas orientadas por documentos normativos e a inserção de detalhamento qualitativo e quantitativo nos instrumentos de gestão, o que sugere ações para tratar a causa subjacente da falta de implementação das ações propostas, como a ausência de processos estruturados de acompanhamento e planejamento. Quanto aos efeitos duradouros, as ações recomendadas, como a elaboração de instrumentos de gestão com detalhamento dos indicadores, visam estabelecer estruturas e processos que podem persistir independentemente de mudanças nos atores envolvidos, promovendo sustentabilidade.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1165,
+    "completion_tokens": 183,
+    "total_tokens": 1348,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 333
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

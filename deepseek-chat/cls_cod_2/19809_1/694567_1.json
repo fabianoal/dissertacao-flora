@@ -1,0 +1,28 @@
+{
+  "id": "5a2798e4-f1b3-470c-9aa6-5144e49bcac8",
+  "object": "chat.completion",
+  "created": 1760397632,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam diretamente da causa do problema (ausência de critérios definidos para classificação de risco e vulnerabilidade), incluindo elaboração e implementação de protocolos, capacitação de profissionais e implantação de processos de trabalho. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas (protocolos, capacitação e processos estruturados) criam estruturas e procedimentos que permanecerão mesmo com mudanças nos atores envolvidos, pois estabelecem sistemas organizacionais duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1289,
+    "completion_tokens": 160,
+    "total_tokens": 1449,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 521
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "47fc743e-3196-409a-8eb1-d84e36e276e7",
+  "object": "chat.completion",
+  "created": 1760458245,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise original está correta ao identificar que a recomendação se concentra na correção imediata da condição específica (devolução do valor financeiro), sem propor ações que abordem as causas subjacentes da falta de comprovação. Para o critério 'Efeitos Duradouros', como o 'Foco Causa' não foi atendido, a resposta 'Não se aplica' está adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1207,
+    "completion_tokens": 149,
+    "total_tokens": 1356,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 311
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

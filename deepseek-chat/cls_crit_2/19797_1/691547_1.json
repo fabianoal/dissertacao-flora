@@ -1,0 +1,28 @@
+{
+  "id": "b401bb77-6109-4af1-842f-956f2115a363",
+  "object": "chat.completion",
+  "created": 1760464821,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações que visam prevenir a recorrência da falta de monitoramento contínuo, tratando a causa subjacente. Quanto ao critério 'Efeitos Duradouros', as ações estabelecem processos estruturados que devem persistir independentemente de mudanças de pessoal, mas há uma ressalva sobre a dependência da adesão contínua aos processos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1246,
+    "completion_tokens": 144,
+    "total_tokens": 1390,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 350
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

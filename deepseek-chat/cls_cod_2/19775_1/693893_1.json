@@ -1,0 +1,28 @@
+{
+  "id": "f6d5323e-7ae1-4f03-b985-c4b9d2baaf66",
+  "object": "chat.completion",
+  "created": 1760396284,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a criação de um plano anual de capacitação para habilitar servidores, o que visa tratar a causa subjacente da falta de treinamentos regulares, que é a ausência de um planejamento estruturado. Já em relação aos efeitos pretendidos pela recomendação, o estabelecimento de um plano anual assegura que os treinamentos se tornem uma prática contínua, independentemente de mudanças nos servidores, pois o plano institucionaliza a capacitação.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1012,
+    "completion_tokens": 153,
+    "total_tokens": 1165,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 180
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

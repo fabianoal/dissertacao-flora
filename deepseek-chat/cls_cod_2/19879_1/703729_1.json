@@ -1,0 +1,28 @@
+{
+  "id": "0d758c27-b0f3-45f5-9092-6db12c335da9",
+  "object": "chat.completion",
+  "created": 1760400456,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações de acompanhamento, fiscalização, supervisão e auditoria para garantir a adequada codificação no SIGTAP, o que visa tratar a causa do problema (erros de codificação) ao estabelecer mecanismos de controle contínuo. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas (acompanhamento, fiscalização, supervisão e auditoria) são processos institucionais que podem permanecer efetivos mesmo com mudanças nos atores envolvidos, pois se baseiam em diretrizes estabelecidas (como o Manual de Operação do SIA) e não dependem de indivíduos específicos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1047,
+    "completion_tokens": 189,
+    "total_tokens": 1236,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 215
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

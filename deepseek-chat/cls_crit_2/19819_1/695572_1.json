@@ -1,0 +1,28 @@
+{
+  "id": "8cdf04d5-ad01-4025-81b4-7d9961a90092",
+  "object": "chat.completion",
+  "created": 1760465693,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação aborda a causa subjacente da falta de critérios de classificação de risco, que é a ausência de processos estruturados e capacitação adequada. As ações propostas visam mudanças sistêmicas para prevenir a recorrência do problema. Quanto ao critério 'Efeitos Duradouros', a análise do modelo também está correta, pois as ações sugeridas, como treinamentos e procedimentos padronizados, estabelecem práticas institucionais que podem persistir independentemente de mudanças nos atores envolvidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1339,
+    "completion_tokens": 187,
+    "total_tokens": 1526,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 443
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

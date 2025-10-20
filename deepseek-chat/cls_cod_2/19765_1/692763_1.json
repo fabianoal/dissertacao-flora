@@ -1,0 +1,28 @@
+{
+  "id": "4038f7b1-5d59-4adf-aaf7-b1b41a413799",
+  "object": "chat.completion",
+  "created": 1760396000,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a ação de fornecer EPIs específicos para corrigir a condição imediata de falta de equipamentos de proteção, sem mencionar ações que abordem as causas subjacentes, como falhas em processos de aquisição, treinamento ou monitoramento. Portanto, o foco está na condição, não na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1189,
+    "completion_tokens": 144,
+    "total_tokens": 1333,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 357
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

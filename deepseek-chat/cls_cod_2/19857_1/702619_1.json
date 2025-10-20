@@ -1,0 +1,28 @@
+{
+  "id": "982ac6ac-d19c-426e-b5ca-b96b38ac19d7",
+  "object": "chat.completion",
+  "created": 1760399668,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a orientar o tomador de conhecimento sobre a adoção de procedimentos estabelecidos em normativo específico para tratar a condição encontrada, sem propor ações que ataquem diretamente a causa subjacente à realização de transações bancárias sem comprovação fiscal, como falhas em processos de controle interno ou capacitação de pessoal. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 960,
+    "completion_tokens": 160,
+    "total_tokens": 1120,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 128
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

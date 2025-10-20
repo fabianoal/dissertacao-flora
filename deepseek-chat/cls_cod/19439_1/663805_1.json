@@ -1,0 +1,28 @@
+{
+  "id": "5064f5f3-8a9e-4646-bd63-5300b033ec8c",
+  "object": "chat.completion",
+  "created": 1760037296,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a citar dispositivos normativos sem propor ações específicas para corrigir a condição encontrada (ausência de referência à produção ambulatorial nos instrumentos de gestão) ou para tratar a causa subjacente. Ela apenas instrui o cumprimento de normas existentes, sem detalhar medidas concretas.\",\n    \"Ação Corretiva\": \"Não\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1404,
+    "completion_tokens": 124,
+    "total_tokens": 1528,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 380
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

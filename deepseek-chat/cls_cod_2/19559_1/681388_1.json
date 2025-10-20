@@ -1,0 +1,28 @@
+{
+  "id": "37b0b419-6005-4081-8db1-f0d454c6b4e6",
+  "object": "chat.completion",
+  "created": 1760387786,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações de fiscalização e asseguramento para garantir o arquivamento adequado dos laudos médicos e a inclusão da assinatura digital no sistema de prontuário eletrônico, o que visa corrigir diretamente as condições encontradas (ausência de laudos e falta de assinatura digital), sem propor medidas para tratar as causas subjacentes que levaram a essas falhas, como problemas de processos, treinamento ou gestão. Portanto, a recomendação é focada na condição. Como o critério 'Foco Causa' não foi atendido, não se aplica a avaliação de efeitos duradouros.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1308,
+    "completion_tokens": 193,
+    "total_tokens": 1501,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 476
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

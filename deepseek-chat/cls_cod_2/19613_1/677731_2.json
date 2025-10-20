@@ -1,0 +1,28 @@
+{
+  "id": "4d6896ac-8fe2-4af1-9cc3-17ad0544ab8b",
+  "object": "chat.completion",
+  "created": 1760390086,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a apresentação de documentos (relação de servidores e certificados) como comprovação da capacitação realizada, o que visa atestar que a capacitação ocorreu, mas não aborda diretamente ações para tratar a causa da carência de subsídios, como a implementação de processos contínuos de capacitação ou melhorias na estrutura de suporte. Já em relação aos efeitos pretendidos pela recomendação, como o critério 'Foco Causa' foi avaliado como 'Não', não se aplica a análise de efeitos duradouros.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 926,
+    "completion_tokens": 172,
+    "total_tokens": 1098,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 94
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

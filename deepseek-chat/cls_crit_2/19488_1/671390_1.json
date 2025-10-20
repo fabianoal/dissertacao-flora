@@ -1,0 +1,28 @@
+{
+  "id": "df9afab0-e631-4f6b-adf4-6e18895997a7",
+  "object": "chat.completion",
+  "created": 1760453076,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação trata especificamente da regularização da titularidade dos bens doados, que é a ação imediata para corrigir a condição de não incorporação ao patrimônio. No entanto, não aborda causas subjacentes, como falhas nos processos de gestão patrimonial ou capacitação da equipe, que poderiam evitar a repetição do problema. Portanto, concordo que o foco está na condição, não na causa. Para o critério 'Efeitos Duradouros', como 'Foco Causa' é 'Não', a resposta 'Não se aplica' está correta.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1142,
+    "completion_tokens": 189,
+    "total_tokens": 1331,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 246
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

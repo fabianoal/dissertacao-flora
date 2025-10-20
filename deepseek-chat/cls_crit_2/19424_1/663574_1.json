@@ -1,0 +1,28 @@
+{
+  "id": "7c970db1-f004-4a10-bab3-40dd162f12d1",
+  "object": "chat.completion",
+  "created": 1760452344,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise da codificação está correta em identificar que a recomendação se limita a uma ação reativa de envio de documentação quando solicitada, sem abordar as causas subjacentes da falta de documentação obrigatória. No entanto, é importante destacar que a recomendação se baseia em dispositivos legais que estabelecem a obrigatoriedade de prestar informações, o que reforça a natureza condicional da ação proposta.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1270,
+    "completion_tokens": 138,
+    "total_tokens": 1408,
+    "prompt_tokens_details": {
+      "cached_tokens": 1088
+    },
+    "prompt_cache_hit_tokens": 1088,
+    "prompt_cache_miss_tokens": 182
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

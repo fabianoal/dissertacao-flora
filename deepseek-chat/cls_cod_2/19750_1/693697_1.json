@@ -1,0 +1,28 @@
+{
+  "id": "6b09d117-1592-4472-b55a-4a7756f844e4",
+  "object": "chat.completion",
+  "created": 1760395348,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a contratualização formal dos serviços oncológicos com estabelecimento habilitado, o que visa tratar a causa da ausência de formalização contratual que gerou a condição encontrada. Já em relação aos efeitos pretendidos pela recomendação, a criação de um contrato com metas qualiquantitativas estabelece um mecanismo estruturado e permanente para monitoramento e avaliação dos serviços, cujos efeitos devem persistir independentemente de mudanças nos atores envolvidos, uma vez que o contrato e suas cláusulas permanecem vinculantes.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1104,
+    "completion_tokens": 170,
+    "total_tokens": 1274,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 272
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

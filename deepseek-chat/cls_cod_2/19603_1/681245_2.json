@@ -1,0 +1,28 @@
+{
+  "id": "92cb6fb8-9001-4b85-958e-63d8e8763fd6",
+  "object": "chat.completion",
+  "created": 1760388954,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe três ações principais: revisão das obrigações legais, implementação de mecanismos de controle e fiscalização, e realinhamento dos valores de contrapartida. A primeira ação (revisão das obrigações legais) visa compreender e garantir o cumprimento integral dos repasses, tratando potencialmente da causa raiz do problema, que pode ser a falta de conhecimento ou aplicação inadequada das normas. A segunda ação (mecanismos de controle e fiscalização) busca prevenir a recorrência do problema através de processos sistemáticos, focando na causa relacionada à ausência de supervisão contínua. A terceira ação (realinhamento dos valores) corrige a condição atual de repasses insuficientes, sendo mais focada na condição. Considerando que pelo menos uma ação (mecanismos de controle) propõe medidas para evitar a recorrência, o critério 'Foco Causa' é atendido. Já em relação aos efeitos pretendidos pela recomendação, os mecanismos de controle e fiscalização, se implementados, criariam estruturas permanentes que continuariam funcionando independentemente de mudanças nos atores envolvidos, como gestores ou equipes, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1290,
+    "completion_tokens": 320,
+    "total_tokens": 1610,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 394
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

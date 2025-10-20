@@ -1,0 +1,28 @@
+{
+  "id": "dd04a343-96a6-4528-9ca2-6d19ffc09e75",
+  "object": "chat.completion",
+  "created": 1760392166,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe ações para melhorar a cobertura de exames citopatológicos, como ofertar exames a todas as mulheres na idade preconizada, o que aborda diretamente a causa subjacente da baixa cobertura, que pode ser a falta de oferta sistemática ou estratégias inadequadas. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como a oferta universal e contínua de exames, tendem a criar um processo estruturado que pode persistir mesmo com mudanças nos profissionais de saúde, promovendo efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 975,
+    "completion_tokens": 169,
+    "total_tokens": 1144,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 143
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

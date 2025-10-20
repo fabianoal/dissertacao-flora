@@ -1,0 +1,28 @@
+{
+  "id": "d7d32e8b-7ca0-4ff3-84df-119937d197aa",
+  "object": "chat.completion",
+  "created": 1760468533,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise original identifica corretamente que a recomendação aborda causas subjacentes, como falhas processuais e falta de capacitação, por meio de ações como padronização de registros e capacitação. Quanto ao critério 'Efeitos Duradouros', a análise original avalia que as ações propostas podem persistir independentemente de mudanças de atores, mas isso depende da implementação efetiva de processos sustentáveis, o que pode não ser garantido apenas pela recomendação.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1349,
+    "completion_tokens": 163,
+    "total_tokens": 1512,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 453
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

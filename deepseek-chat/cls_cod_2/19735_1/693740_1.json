@@ -1,0 +1,28 @@
+{
+  "id": "fd35067a-4785-4ba2-9b4f-b16dceee6755",
+  "object": "chat.completion",
+  "created": 1760394904,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a implementação de um sistema de monitoramento e avaliação do tempo de resposta dos sobreavisos médicos, incluindo rotinas de acompanhamento sistemático e integração de sistemas. Essas ações visam tratar a causa raiz da falta de monitoramento, que é a ausência de processos e ferramentas adequadas, caracterizando um foco na causa. Já em relação aos efeitos pretendidos pela recomendação, a implementação de sistemas, rotinas e integrações permanece funcional independentemente de mudanças nos atores envolvidos, pois se baseia em estruturas e processos institucionalizados, indicando efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1224,
+    "completion_tokens": 187,
+    "total_tokens": 1411,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 392
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

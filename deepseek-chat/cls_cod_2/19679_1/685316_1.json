@@ -1,0 +1,28 @@
+{
+  "id": "34d8b90f-d8fc-45cf-8730-4dedd1a78b54",
+  "object": "chat.completion",
+  "created": 1760392595,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe que o Dsei verifique o cumprimento da carga horária pelos profissionais e notifique a convenente para atualizar os registros no CNES, conforme a legislação. Essas ações visam corrigir a condição específica encontrada (carga horária superior à permitida) e garantir o registro adequado, mas não abordam explicitamente a causa subjacente do problema, como falhas nos processos de contratação, supervisão ou controle de jornada que permitiram a ocorrência da irregularidade. Portanto, a recomendação tem foco na condição, não na causa. Como o critério 'Foco Causa' não foi atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1021,
+    "completion_tokens": 206,
+    "total_tokens": 1227,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 189
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

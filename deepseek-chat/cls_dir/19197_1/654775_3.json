@@ -1,0 +1,28 @@
+{
+  "id": "5f2dca18-b1d9-42f3-a9c7-6a66379777b5",
+  "object": "chat.completion",
+  "created": 1759367570,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação propõe a anexação da nota fiscal correta ao prontuário, o que corrige a condição específica de ausência de documentação, mas não identifica ou aborda as causas institucionais que levaram a essa falha (ex: falta de procedimentos padronizados, treinamento inadequado, ausência de controles de qualidade). As mudanças são pontuais e não garantem durabilidade, pois a mesma falha pode ocorrer novamente se as causas subjacentes não forem tratadas.\",\n    \"categoria\": \"foco-condicao\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1419,
+    "completion_tokens": 143,
+    "total_tokens": 1562,
+    "prompt_tokens_details": {
+      "cached_tokens": 1280
+    },
+    "prompt_cache_hit_tokens": 1280,
+    "prompt_cache_miss_tokens": 139
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

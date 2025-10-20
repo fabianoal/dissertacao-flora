@@ -1,0 +1,28 @@
+{
+  "id": "7c168bba-d6d1-447d-a61c-4b50804017e0",
+  "object": "chat.completion",
+  "created": 1760390202,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a atualização periódica de informações no CNES, o que visa estabelecer um processo contínuo de monitoramento e registro, tratando assim a causa do problema relacionado à falta de atualização sistemática dos dados. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um processo periódico de atualização no CNES cria uma estrutura que permanece funcional independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 967,
+    "completion_tokens": 149,
+    "total_tokens": 1116,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 135
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

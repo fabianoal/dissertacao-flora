@@ -1,0 +1,28 @@
+{
+  "id": "8fcecb26-764c-4369-b504-01a1f4a3d3a4",
+  "object": "chat.completion",
+  "created": 1760036972,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere notificar a CGPSI para inserir os relatórios de monitoramento no Transferegov, o que constitui uma ação corretiva para resolver a condição encontrada de ausência dos relatórios. No entanto, a ação proposta limita-se a cumprir o normativo estabelecido na Portaria, sem propor medidas adicionais para tratar a causa subjacente que permitiu a ausência dos relatórios, como falhas em processos ou capacitação. Portanto, não há uma ação específica com foco na causa, apenas uma ação genérica de cumprimento normativo.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1144,
+    "completion_tokens": 183,
+    "total_tokens": 1327,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 120
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

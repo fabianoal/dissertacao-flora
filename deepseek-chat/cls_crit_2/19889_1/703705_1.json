@@ -1,0 +1,28 @@
+{
+  "id": "2dd6f01f-a1e3-484e-ad48-38fb486c9920",
+  "object": "chat.completion",
+  "created": 1760468225,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação de cumprir a legislação e adotar critérios de registro aborda diretamente a causa do problema, que é o descumprimento da lei e a falta de procedimentos padronizados. Para o critério 'Efeitos Duradouros', a implementação de procedimentos padronizados de registro e acompanhamento tende a criar mecanismos institucionais que podem persistir mesmo com mudanças de pessoal, desde que integrados à rotina do estabelecimento.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1274,
+    "completion_tokens": 166,
+    "total_tokens": 1440,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 378
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

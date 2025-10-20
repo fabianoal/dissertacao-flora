@@ -1,0 +1,28 @@
+{
+  "id": "93d5bdf8-df9b-420a-be2a-66087c321360",
+  "object": "chat.completion",
+  "created": 1760385450,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação se limita a exigir a apresentação e posse de documentação específica, sem propor ações que tratem das causas subjacentes à falta ou inadequação da documentação, como falhas em processos de controle interno ou capacitação. Portanto, não há foco na causa. Quanto aos efeitos duradouros, como o critério 'Foco Causa' é 'Não', não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1042,
+    "completion_tokens": 137,
+    "total_tokens": 1179,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 210
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

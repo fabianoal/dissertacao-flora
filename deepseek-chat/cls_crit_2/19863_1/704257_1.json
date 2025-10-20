@@ -1,0 +1,28 @@
+{
+  "id": "48368abd-6b9e-4d77-97b8-65c192f6255f",
+  "object": "chat.completion",
+  "created": 1760467329,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação de elaborar o Plano de Segurança do Paciente aborda diretamente a causa da constatação, que é a ausência desse plano. Para o critério 'Efeitos Duradouros', a implementação do plano estabelece diretrizes e procedimentos que podem persistir independentemente de mudanças na equipe, desde que o plano seja institucionalizado e mantido.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1196,
+    "completion_tokens": 142,
+    "total_tokens": 1338,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 300
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

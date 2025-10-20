@@ -1,0 +1,28 @@
+{
+  "id": "488d71b8-1df6-46ee-a1cc-1109912f2329",
+  "object": "chat.completion",
+  "created": 1760397648,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a realização de ações específicas do Programa Saúde na Escola (PSE) focadas em saúde mental, com articulação entre UBSs e escolas, para abordar diretamente a condição encontrada de não realização dessas ações. No entanto, não há menção a medidas que tratem das causas subjacentes para essa não realização, como falta de capacitação, recursos insuficientes ou questões organizacionais. Portanto, a recomendação é focada na condição imediata, não na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1007,
+    "completion_tokens": 181,
+    "total_tokens": 1188,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 175
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

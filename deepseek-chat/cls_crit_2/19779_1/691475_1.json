@@ -1,0 +1,28 @@
+{
+  "id": "8f0561b6-83c7-4551-b10b-f17c6d717bf8",
+  "object": "chat.completion",
+  "created": 1760464133,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação propõe a criação de um POP para estruturar o processo de inspeção, tratando a causa raiz da falta de procedimentos formalizados. No entanto, a avaliação sobre efeitos duradouros merece uma análise mais aprofundada sobre a sustentabilidade da implementação.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1558,
+    "completion_tokens": 120,
+    "total_tokens": 1678,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 662
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

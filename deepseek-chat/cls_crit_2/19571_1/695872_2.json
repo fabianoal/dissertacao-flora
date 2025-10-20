@@ -1,0 +1,28 @@
+{
+  "id": "501deaa0-8d49-4f90-a0d9-dc41b3f1ce75",
+  "object": "chat.completion",
+  "created": 1760455181,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise crítica avalia a classificação dos critérios 'Foco Causa' e 'Efeitos Duradouros' com base na recomendação fornecida. A recomendação se concentra em ações administrativas para devolução de recursos, sem abordar medidas preventivas para a causa subjacente do problema.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1332,
+    "completion_tokens": 113,
+    "total_tokens": 1445,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 372
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

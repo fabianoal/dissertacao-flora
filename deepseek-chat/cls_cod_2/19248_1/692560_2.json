@@ -1,0 +1,28 @@
+{
+  "id": "3908c011-ae37-4279-8525-ed9bb1d90650",
+  "object": "chat.completion",
+  "created": 1760384322,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação não propõe ações específicas para tratar a causa do problema (falta de apresentação de documentos), limitando-se a encaminhar a constatação para conhecimento do departamento competente e indicar um anexo com proposição de devolução de recursos. Não há menção a medidas que evitem a reincidência da condição, como implementação de controles internos ou capacitação. Portanto, não atende ao critério de foco na causa, tornando o critério de efeitos duradouros não aplicável.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1076,
+    "completion_tokens": 159,
+    "total_tokens": 1235,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 244
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

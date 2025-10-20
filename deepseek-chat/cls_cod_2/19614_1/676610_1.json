@@ -1,0 +1,28 @@
+{
+  "id": "af5dd3a3-c5cf-496f-b7f6-49a758d59437",
+  "object": "chat.completion",
+  "created": 1760390362,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"Em relação ao foco, a recomendação propõe apenas a inserção dos relatórios ausentes, o que corrige a condição imediata de falta de documentos, mas não aborda as causas subjacentes, como falhas nos processos de monitoramento ou capacitação da equipe. Já em relação aos efeitos pretendidos pela recomendação, como o critério 'Foco Causa' não é atendido, não se aplica a análise de efeitos duradouros.\",\n   \"Foco Causa\": \"Não\",\n   \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 950,
+    "completion_tokens": 140,
+    "total_tokens": 1090,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 118
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

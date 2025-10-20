@@ -1,0 +1,28 @@
+{
+  "id": "119f73da-6a8c-471a-bf2e-be145a77898b",
+  "object": "chat.completion",
+  "created": 1760451444,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe uma revisão da política remuneratória e do rol de profissões, o que claramente visa abordar a causa estrutural do problema (política inadequada) em vez de apenas corrigir a condição atual de remuneração insuficiente. Quanto ao critério 'Efeitos Duradouros', a implementação de uma política remuneratória revisada e de um rol de profissões atualizado constitui uma mudança institucional que tende a persistir independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1259,
+    "completion_tokens": 182,
+    "total_tokens": 1441,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 363
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

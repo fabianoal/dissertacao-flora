@@ -1,0 +1,28 @@
+{
+  "id": "e1bcfbd4-5af3-4727-a457-c2f9e7bc1e04",
+  "object": "chat.completion",
+  "created": 1760399156,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a citar dispositivos normativos que estabelecem a obrigatoriedade de organização e disponibilização da documentação comprobatória, sem propor ações específicas para tratar a causa subjacente da não apresentação da documentação. Não há menção a medidas que visem prevenir a reincidência do problema, como implementação de processos de controle, capacitação de pessoal ou melhorias sistêmicas. Portanto, a recomendação não atende ao critério de foco na causa.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1163,
+    "completion_tokens": 149,
+    "total_tokens": 1312,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 203
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

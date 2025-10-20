@@ -1,0 +1,28 @@
+{
+  "id": "8355bbc6-cf4c-43ae-a44d-9e0a0d1911fc",
+  "object": "chat.completion",
+  "created": 1760464449,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda claramente as causas subjacentes da constatação, como falta de conhecimento, ausência de padronização e deficiências no registro, por meio de treinamento, padronização de documentos e orientações. Quanto ao critério 'Efeitos Duradouros', as ações propostas, como a criação de um documento padrão e treinamento estruturado, estabelecem processos que podem persistir independentemente de mudanças na equipe, desde que implementados adequadamente.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1294,
+    "completion_tokens": 166,
+    "total_tokens": 1460,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 398
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

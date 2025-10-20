@@ -1,0 +1,28 @@
+{
+  "id": "bf36c617-e44b-42dc-bb58-41f5c6a8897c",
+  "object": "chat.completion",
+  "created": 1760456029,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe uma ação de gestão contínua para garantir que os serviços funcionem com licenças sanitárias vigentes e válidas, o que aborda a causa subjacente (falta de gestão adequada para manter as licenças atualizadas) e não apenas a condição imediata (apresentação parcial das cópias). Quanto ao critério 'Efeitos Duradouros', a implementação de uma gestão contínua estabelece uma prática organizacional que deve persistir independentemente de mudanças nos atores envolvidos, pois cria um processo estruturado para manter a conformidade com a regulamentação.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1215,
+    "completion_tokens": 197,
+    "total_tokens": 1412,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 319
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

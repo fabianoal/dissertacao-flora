@@ -1,0 +1,28 @@
+{
+  "id": "e7b75074-082d-473e-8649-a5e6d9b9662b",
+  "object": "chat.completion",
+  "created": 1760036060,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere ações para corrigir a condição encontrada de não mapeamento de atividades produtivas, como estabelecer prioridades e analisar o perfil produtivo, o que constitui uma ação corretiva. Além disso, propõe a implementação de processos contínuos baseados em normativos, como mapeamento e análise sistemática, que visam endereçar a causa subjacente de falta de planejamento e gestão, mas essas ações são genéricas por se limitarem ao cumprimento de portarias existentes sem detalhar ações concretas adicionais. Como a ação de foco na causa é genérica, os efeitos duradouros não são garantidos, pois dependem da adesão contínua aos normativos sem mudanças estruturais robustas.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1350,
+    "completion_tokens": 220,
+    "total_tokens": 1570,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 326
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "63f22c40-3355-4518-860f-23b8d26285f3",
+  "object": "chat.completion",
+  "created": 1760396260,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a formalização da CMRF na estrutura da SMS através da publicação de organograma e elaboração de regimento interno, o que visa tratar a causa raiz da ausência de estrutura formal que gerou a condição encontrada. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas (documentação formal da estrutura e regimento) criam mecanismos institucionais que permanecem independentemente de mudanças nos atores envolvidos, estabelecendo bases duradouras para a operação da CMRF.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1026,
+    "completion_tokens": 163,
+    "total_tokens": 1189,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 194
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

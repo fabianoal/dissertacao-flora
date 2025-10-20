@@ -1,0 +1,28 @@
+{
+  "id": "904094c8-7f7f-4f7c-8e3f-5bd1035f3be1",
+  "object": "chat.completion",
+  "created": 1760395192,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam diretamente da causa do problema (falta de programas de treinamento regulares), incluindo a elaboração de um plano anual de capacitação, mapeamento de necessidades, implementação de sistema de registro e promoção de capacitação contínua, que visam prevenir a reocorrência da condição. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas (como a criação de um plano anual, sistema de registro e parcerias institucionais) estabelecem estruturas e processos permanentes que independem dos atores atuais, garantindo efeitos duradouros mesmo com mudanças de pessoal.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1363,
+    "completion_tokens": 189,
+    "total_tokens": 1552,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 531
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

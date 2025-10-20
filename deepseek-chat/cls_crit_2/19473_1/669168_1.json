@@ -1,0 +1,28 @@
+{
+  "id": "cddce29b-0ccc-49d3-952d-0ac2928d8c4a",
+  "object": "chat.completion",
+  "created": 1760452752,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a implementação de um processo de atualização periódica dos dados no CNES, o que efetivamente visa tratar a causa do problema, que é a ausência de procedimentos regulares para manter as informações atualizadas. Quanto ao critério 'Efeitos Duradouros', a recomendação estabelece uma rotina de atualização que, uma vez implementada, deve persistir independentemente de mudanças na equipe, garantindo efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1196,
+    "completion_tokens": 162,
+    "total_tokens": 1358,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 300
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

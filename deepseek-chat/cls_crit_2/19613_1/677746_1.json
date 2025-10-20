@@ -1,0 +1,28 @@
+{
+  "id": "461ab993-0d95-45da-97d0-434c07f4e981",
+  "object": "chat.completion",
+  "created": 1760456981,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identifica corretamente que a recomendação se concentra em corrigir a condição imediata (ausência da avaliação no sistema), sem abordar as causas subjacentes da omissão, como falhas processuais, capacitação insuficiente ou lacunas de supervisão. Para o critério 'Efeitos Duradouros', a resposta 'Não se aplica' está adequada, pois depende de uma recomendação com foco na causa, o que não ocorre aqui.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1168,
+    "completion_tokens": 168,
+    "total_tokens": 1336,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 272
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

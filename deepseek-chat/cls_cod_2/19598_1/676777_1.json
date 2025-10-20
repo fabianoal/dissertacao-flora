@@ -1,0 +1,28 @@
+{
+  "id": "4f7fd8b1-a489-4f6f-bce0-304263b3ecb7",
+  "object": "chat.completion",
+  "created": 1760388878,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a adição de explicações sobre os significados dos indicadores e os filtros utilizados em seus cálculos, além da revisão para identificar os indicadores essenciais para o monitoramento. Essas ações visam corrigir a ausência ou insuficiência de notas explicativas, abordando a causa subjacente, que é a falta de documentação clara e padronizada sobre os métodos de cálculo, o que pode prevenir a reocorrência do problema. Já em relação aos efeitos pretendidos pela recomendação, a implementação de uma estrutura padronizada de documentação e a definição de indicadores essenciais tendem a produzir efeitos duradouros, pois a clareza e a padronização permanecem independentemente de mudanças nos atores envolvidos, desde que integradas aos processos da Central.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 979,
+    "completion_tokens": 228,
+    "total_tokens": 1207,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 147
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

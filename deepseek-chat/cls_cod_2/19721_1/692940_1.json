@@ -1,0 +1,28 @@
+{
+  "id": "9f55e7dd-aed8-46e0-8325-f046aa081b39",
+  "object": "chat.completion",
+  "created": 1760394549,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a formalização do processo de contratualização conforme a legislação vigente, o que visa tratar a causa do problema (ausência de documentos obrigatórios) ao estabelecer um procedimento padrão para futuras contratações, em vez de apenas corrigir a documentação faltante no caso específico. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um processo formalizado conforme a lei cria uma estrutura que permanece independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1013,
+    "completion_tokens": 163,
+    "total_tokens": 1176,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 181
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

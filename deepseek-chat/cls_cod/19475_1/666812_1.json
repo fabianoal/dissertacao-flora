@@ -1,0 +1,28 @@
+{
+  "id": "0631137b-0383-4aab-a1bb-658ff9344dca",
+  "object": "chat.completion",
+  "created": 1760036524,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere duas ações distintas: a primeira é disponibilizar uniformes conforme o manual, o que corrige diretamente a condição de inadequação observada, caracterizando uma ação corretiva. A segunda ação propõe a implementação de programas de controles internos para identificar uso inadequado, o que visa prevenir a recorrência do problema ao abordar a causa subjacente de falta de monitoramento, indo além do mero cumprimento normativo ao especificar a necessidade de planejamento e execução de programas. Quanto aos efeitos duradouros, a ação focada na causa é específica e, se implementada, pode persistir independentemente de mudanças nos atores, pois estabelece um sistema de controle contínuo.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Específica\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1181,
+    "completion_tokens": 212,
+    "total_tokens": 1393,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 221
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

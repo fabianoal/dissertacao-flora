@@ -1,0 +1,28 @@
+{
+  "id": "eac062b1-bd79-4076-bbd8-17d297155f67",
+  "object": "chat.completion",
+  "created": 1760037588,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere ações para corrigir a condição de repasses insuficientes, como notificar o Estado e transferir a diferença, caracterizando uma ação corretiva. Além disso, propõe manter um controle rigoroso dos recursos para prevenir futuras ocorrências, o que indica foco na causa, mas é genérico por se limitar a cumprir normativos sem especificar ações concretas adicionais. Como o foco na causa é genérico, os efeitos duradouros não são considerados.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1386,
+    "completion_tokens": 163,
+    "total_tokens": 1549,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 362
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

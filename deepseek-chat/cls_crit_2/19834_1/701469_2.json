@@ -1,0 +1,28 @@
+{
+  "id": "c6437f7d-aa09-443a-b485-48f552fa0330",
+  "object": "chat.completion",
+  "created": 1760466369,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação claramente propõe ações que visam tratar a causa subjacente da ausência de auditorias, que é a falta de implementação de políticas e processos estruturados, conforme descrito na análise. Quanto ao critério 'Efeitos Duradouros', as ações sugeridas, como cumprir diretrizes nacionais e adotar práticas estruturadas, são de natureza institucional e processual, o que tende a garantir a continuidade dos efeitos mesmo com mudanças de pessoal, desde que os sistemas sejam mantidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1473,
+    "completion_tokens": 178,
+    "total_tokens": 1651,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 513
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

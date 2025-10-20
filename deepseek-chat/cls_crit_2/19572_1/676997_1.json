@@ -1,0 +1,28 @@
+{
+  "id": "ac4b8493-c882-4882-9ab3-f3ed71ed987d",
+  "object": "chat.completion",
+  "created": 1760455217,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a implementação de mecanismos de referência e contrarreferência, o que efetivamente visa tratar a causa raiz da falta de regulação identificada na constatação, sendo uma solução de longo prazo. Quanto ao critério 'Efeitos Duradouros', a recomendação estabelece procedimentos e fluxos baseados em regulamentações, que tendem a persistir independentemente de mudanças de pessoal, mas a implementação e manutenção podem depender de fatores organizacionais contínuos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1341,
+    "completion_tokens": 175,
+    "total_tokens": 1516,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 445
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c2870dd9-2bed-48db-9e49-06f54af53588",
+  "object": "chat.completion",
+  "created": 1760035868,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação contém duas partes distintas: a primeira (item a) sugere adequar a distribuição e pagamento das bolsas para alinhá-las à legislação, o que visa corrigir a condição atual de uso indevido, mas não propõe ações concretas além do cumprimento normativo para prevenir recorrências. A segunda (item b) propõe apurar e aplicar medidas para devolução de valores, focando na correção da condição específica de falta de produtos/relatórios, sem abordar causas subjacentes como falhas em processos de monitoramento ou controle.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1343,
+    "completion_tokens": 184,
+    "total_tokens": 1527,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 383
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

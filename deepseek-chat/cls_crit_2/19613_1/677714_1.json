@@ -1,0 +1,28 @@
+{
+  "id": "654a1b2c-f341-40ca-9ef4-49277e81a1e0",
+  "object": "chat.completion",
+  "created": 1760456785,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações que tratam diretamente da causa identificada na constatação, que é a ausência de critérios para contratações, acompanhamento e comprovação de serviços. Quanto ao critério 'Efeitos Duradouros', a implementação de critérios formais e controles permanentes tende a criar estruturas que persistem independentemente de mudanças nas pessoas envolvidas, o que justifica a classificação como tendo efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1318,
+    "completion_tokens": 166,
+    "total_tokens": 1484,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 422
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

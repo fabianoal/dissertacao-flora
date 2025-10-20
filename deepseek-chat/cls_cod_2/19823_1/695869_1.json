@@ -1,0 +1,28 @@
+{
+  "id": "57b6cf0a-4715-4f05-ab84-6627d1f8868b",
+  "object": "chat.completion",
+  "created": 1760398396,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a realização de ações do Programa Saúde na Escola relacionadas à saúde mental, o que trata diretamente da condição encontrada (ausência dessas ações), mas não identifica ou aborda a causa subjacente dessa ausência (ex: falta de capacitação, recursos insuficientes, planejamento inadequado). Portanto, a recomendação é focada na condição, não na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1030,
+    "completion_tokens": 168,
+    "total_tokens": 1198,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 198
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "795108ba-a846-4fb6-9be3-0ac64274a788",
+  "object": "chat.completion",
+  "created": 1760466425,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a criação de procedimentos formais para acompanhamento de pacientes, o que aborda a causa subjacente da falta de acompanhamento sistemático, e não apenas corrige casos isolados. Quanto ao critério 'Efeitos Duradouros', a implementação de rotinas e protocolos formais estabelece uma estrutura institucional que deve persistir independentemente de mudanças na equipe, promovendo efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1314,
+    "completion_tokens": 158,
+    "total_tokens": 1472,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 418
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

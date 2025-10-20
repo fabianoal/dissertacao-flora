@@ -1,0 +1,28 @@
+{
+  "id": "3e32b275-93cf-49ec-aedd-1e9749af7e81",
+  "object": "chat.completion",
+  "created": 1760036932,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação contém duas ações distintas: uma para realizar a manutenção predial nas bases com problemas (remoção de mofo e outras correções), que é uma ação corretiva para resolver a condição encontrada, e outra para estabelecer um plano de manutenção preventiva regular, que visa evitar problemas futuros ao endereçar a causa subjacente (falta de manutenção preventiva). A ação de estabelecer um plano de manutenção preventiva é específica, pois propõe uma medida concreta (criação de um plano) além do mero cumprimento normativo, e seus efeitos são duradouros, pois o plano permanece independentemente de mudanças nos atores envolvidos.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Específica\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1439,
+    "completion_tokens": 210,
+    "total_tokens": 1649,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 415
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

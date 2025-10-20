@@ -1,0 +1,28 @@
+{
+  "id": "98c1c837-ac61-4b00-aaa9-b2c97fa175b0",
+  "object": "chat.completion",
+  "created": 1760385031,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe que o gestor municipal cumpra normas específicas do Manual de Operação do SIA/SUS e da Portaria de Consolidação GM/MS nº 01/2017, visando garantir que a produção ambulatorial informada no sistema seja fidedigna. Isso aborda diretamente a causa do problema, que é a falta de controle e avaliação adequados da produção informada, em vez de apenas corrigir os registros específicos não comprovados. Quanto aos efeitos duradouros, a implementação dessas normas estabelece um processo contínuo de controle e avaliação, que deve persistir independentemente de mudanças nos atores envolvidos, assegurando que a condição não se repita.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1083,
+    "completion_tokens": 198,
+    "total_tokens": 1281,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 251
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

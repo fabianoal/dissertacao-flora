@@ -1,0 +1,28 @@
+{
+  "id": "509c721a-474d-44ea-8209-ee153a424d5f",
+  "object": "chat.completion",
+  "created": 1760462917,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe adequação da estrutura física para atender aos requisitos mínimos, o que trata diretamente da causa do problema (estrutura inadequada), sendo classificado corretamente como 'Sim'. Quanto ao critério 'Efeitos Duradouros', a implementação de uma estrutura física adequada, conforme normas, gera efeitos duradouros, pois as melhorias na infraestrutura permanecem independentemente de mudanças nos atores envolvidos, justificando a classificação 'Sim'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1277,
+    "completion_tokens": 172,
+    "total_tokens": 1449,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 381
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "e891c39c-0634-4afb-a8bb-99a1a72c52d4",
+  "object": "chat.completion",
+  "created": 1760451692,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação se concentra em ações corretivas imediatas para a condição observada, sem abordar as causas subjacentes, como falhas em procedimentos ou treinamento. No entanto, a avaliação dos efeitos duradouros está alinhada com a ausência de foco na causa.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1330,
+    "completion_tokens": 121,
+    "total_tokens": 1451,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 434
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

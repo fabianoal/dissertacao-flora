@@ -1,0 +1,28 @@
+{
+  "id": "d3ced44f-0d51-4e60-98c0-4c877fee11d4",
+  "object": "chat.completion",
+  "created": 1760394456,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação possui duas partes distintas: a primeira trata da manutenção adequada dos registros em prontuário único, com especificações sobre conteúdo e assinaturas eletrônicas, que se concentra em corrigir a condição atual de discordâncias nos prontuários. A segunda parte, que recomenda treinamento contínuo para profissionais sobre a correta utilização do sistema de prontuário eletrônico, visa abordar a causa subjacente do problema, que pode ser a falta de conhecimento ou capacitação adequada dos profissionais. Quanto aos efeitos duradouros, o treinamento contínuo e atualizado proposto tem potencial para manter os benefícios mesmo com mudanças na equipe, pois estabelece uma prática institucionalizada de capacitação.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1247,
+    "completion_tokens": 208,
+    "total_tokens": 1455,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 415
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

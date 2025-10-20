@@ -1,0 +1,28 @@
+{
+  "id": "d87a0cde-bcf9-4f33-a4f9-9eea0c64676d",
+  "object": "chat.completion",
+  "created": 1760453149,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a instalação de um sistema de gravação digital, que aborda a causa raiz do problema (ausência de um sistema adequado) e não apenas a condição imediata de não realização das gravações. Quanto ao critério 'Efeitos Duradouros', a implementação de um sistema estruturado e com controle de acesso assegura que os benefícios persistam mesmo com mudanças na equipe, desde que o sistema seja mantido operacional.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1255,
+    "completion_tokens": 167,
+    "total_tokens": 1422,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 359
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

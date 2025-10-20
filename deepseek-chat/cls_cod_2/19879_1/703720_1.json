@@ -1,0 +1,28 @@
+{
+  "id": "2488cd3f-a0fa-4668-95a2-8e6f05cbdea9",
+  "object": "chat.completion",
+  "created": 1760400428,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a avaliação e promoção de ajustes para alinhar normativos vigentes, especificamente entre o Manual Técnico Operacional SIH (que exige compatibilidade entre CID e procedimento) e a Portaria de Consolidação SAES/MS (que exclui críticas sobre essa compatibilidade). Essa ação visa resolver a incompatibilidade identificada entre as AIHs pagas e os atributos do CID principal, abordando a causa subjacente relacionada à divergência normativa. Quanto aos efeitos duradouros, a implementação do alinhamento normativo estabeleceria uma base consistente para futuras operações, independentemente de mudanças nos atores envolvidos, pois se baseia em ajustes estruturais nos procedimentos e normativos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1094,
+    "completion_tokens": 212,
+    "total_tokens": 1306,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 262
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

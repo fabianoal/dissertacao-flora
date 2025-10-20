@@ -1,0 +1,28 @@
+{
+  "id": "1740bbef-ea79-499d-8b52-c42dfe4b6c14",
+  "object": "chat.completion",
+  "created": 1760388730,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe ações que visam tratar a causa da baixa cobertura vacinal, como a captação precoce de crianças, orientação sobre vacinação desde o pré-natal, acompanhamento de faltosos e busca ativa, além da capacitação de profissionais. Essas medidas buscam modificar processos e práticas para prevenir a reincidência do problema, caracterizando foco na causa. Quanto aos efeitos duradouros, as ações sugeridas, como a implementação de fluxos de trabalho estruturados (captação no teste do pezinho, acompanhamento de faltosos) e capacitação contínua, tendem a produzir melhorias sustentáveis que persistem independentemente de mudanças nos profissionais envolvidos, uma vez que se baseiam em protocolos e práticas institucionalizadas.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1393,
+    "completion_tokens": 213,
+    "total_tokens": 1606,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1393
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

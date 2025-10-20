@@ -1,0 +1,28 @@
+{
+  "id": "37030d28-eb8f-4fa6-bcff-b5d606b5d72e",
+  "object": "chat.completion",
+  "created": 1760458629,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a implementação de um controle interno da gestão, que visa tratar diretamente a causa do problema identificado na constatação (ausência de controle interno instituído). Quanto ao critério 'Efeitos Duradouros', a implementação de um controle interno formalizado e em conformidade com normativa estabelece processos e sistemas que podem persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1123,
+    "completion_tokens": 158,
+    "total_tokens": 1281,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 227
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

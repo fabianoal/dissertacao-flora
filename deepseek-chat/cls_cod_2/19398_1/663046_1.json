@@ -1,0 +1,28 @@
+{
+  "id": "90dd29d5-8d28-4e3c-a110-8cb47c80cf6b",
+  "object": "chat.completion",
+  "created": 1760385226,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a exigência de documentos para dispensar medicamentos, o que visa corrigir a condição imediata de irregularidades em cupons e receitas, mas não aborda ações para tratar as causas subjacentes, como falhas em processos internos ou treinamento inadequado. Já em relação aos efeitos pretendidos pela recomendação, como o critério 'Foco Causa' não é atendido, não se aplica avaliar se os efeitos são duradouros.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 970,
+    "completion_tokens": 150,
+    "total_tokens": 1120,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 138
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

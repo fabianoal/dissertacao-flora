@@ -1,0 +1,28 @@
+{
+  "id": "fee24478-0099-4b6d-ac8e-bd1d4f0b5e6f",
+  "object": "chat.completion",
+  "created": 1760391082,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a devolução dos valores pagos pelo contrato devido à falta de comprovação dos serviços prestados, focando na correção da condição financeira irregular identificada (pagamento por serviços não executados). Não há menção a ações que tratem da causa subjacente do problema, como falhas nos processos de fiscalização, controle ou verificação prévia dos serviços, que permitiram o pagamento sem a devida comprovação. Portanto, a recomendação é condition-based, não cause-based. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 996,
+    "completion_tokens": 186,
+    "total_tokens": 1182,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 36
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

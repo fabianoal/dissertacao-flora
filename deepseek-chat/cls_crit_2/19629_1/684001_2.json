@@ -1,0 +1,28 @@
+{
+  "id": "39924bb1-be0d-4f88-b78b-4e36e62987dc",
+  "object": "chat.completion",
+  "created": 1760458353,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise fornecida avalia corretamente que a recomendação é reativa e não aborda a causa raiz da falta de comprovação da Comissão de Revisão de Prontuários, focando apenas na correção imediata da condição. No entanto, há uma nuance: a recomendação pode indiretamente incentivar a criação de processos para facilitar auditorias futuras, mas isso não é explícito ou direto o suficiente para alterar a classificação. Para o critério 'Efeitos Duradouros', a não aplicação está correta, dado que 'Foco Causa' foi avaliado como 'Não'.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1195,
+    "completion_tokens": 184,
+    "total_tokens": 1379,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 235
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

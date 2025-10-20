@@ -1,0 +1,28 @@
+{
+  "id": "c7501067-8a99-42c7-a113-3142c13d9dfe",
+  "object": "chat.completion",
+  "created": 1760384458,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam da causa do problema, como o mapeamento de fluxos de trabalho para identificar pontos críticos e a criação de controles específicos, visando resolver fragilidades estruturais nos controles internos. Já em relação aos efeitos pretendidos, as ações sugeridas, como documentação de fluxos e criação de controles, são institucionalizadas e tendem a permanecer mesmo com mudanças de atores, promovendo melhorias duradouras.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1115,
+    "completion_tokens": 150,
+    "total_tokens": 1265,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 283
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

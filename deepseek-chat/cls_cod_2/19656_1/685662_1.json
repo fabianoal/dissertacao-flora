@@ -1,0 +1,28 @@
+{
+  "id": "b313570f-8aae-4614-8e0c-5951b53d57fb",
+  "object": "chat.completion",
+  "created": 1760392102,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação sugere a adoção de boas práticas de registro de informações, o que visa melhorar a qualidade dos dados de forma contínua e prevenir a ocorrência de discrepâncias futuras, tratando assim da causa subjacente do problema de dados não suportados. Já em relação aos efeitos pretendidos pela recomendação, a implementação de boas práticas tende a criar processos padronizados e sustentáveis que permanecem eficazes mesmo com mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 984,
+    "completion_tokens": 158,
+    "total_tokens": 1142,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 152
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

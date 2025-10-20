@@ -1,0 +1,28 @@
+{
+  "id": "3b3e3623-9eb1-4e9c-b014-c3c4719dcde1",
+  "object": "chat.completion",
+  "created": 1760400748,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação trata especificamente da devolução de valores ao Fundo Nacional de Saúde devido à inconsistência identificada nos registros de procedimentos, focando na correção financeira do problema identificado. Não há menção a ações que abordem as causas subjacentes da inconsistência nos registros, como falhas nos processos de documentação, treinamento de pessoal ou sistemas de controle interno. Portanto, a recomendação é focada na condição (correção do dano financeiro) e não na causa raiz do problema. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1128,
+    "completion_tokens": 187,
+    "total_tokens": 1315,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 232
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

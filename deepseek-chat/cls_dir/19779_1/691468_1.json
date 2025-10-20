@@ -1,0 +1,28 @@
+{
+  "id": "6d8f52b1-31d6-47b9-b6cf-797b6fa7443f",
+  "object": "chat.completion",
+  "created": 1759367582,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação propõe a adoção de mapa ilustrativo para identificar imunobiológicos armazenados, conforme manual do PNI. Ela identifica a causa (ausência de mapa ilustrativo) que levou à condição detectada, e essa causa está situada no nível institucional (falta de procedimento padronizado). As transformações produzidas pela implementação desta recomendação possuem potencial para perdurar no tempo, pois estabelecem um controle permanente na gestão da cadeia de frio.\",\n    \"categoria\": \"foco-causa\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1432,
+    "completion_tokens": 134,
+    "total_tokens": 1566,
+    "prompt_tokens_details": {
+      "cached_tokens": 1280
+    },
+    "prompt_cache_hit_tokens": 1280,
+    "prompt_cache_miss_tokens": 152
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

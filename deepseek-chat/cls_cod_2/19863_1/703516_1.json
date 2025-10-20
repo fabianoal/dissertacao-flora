@@ -1,0 +1,28 @@
+{
+  "id": "a903f642-47eb-42f3-9165-cb85f6b7351c",
+  "object": "chat.completion",
+  "created": 1760399916,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação apenas repete o compromisso já assumido no plano de ação, sem propor ações específicas para tratar a causa subjacente da não revisão do regimento interno. Não há menção a medidas que abordem as razões pelas quais a SES/TO não cumpriu o prazo, como falhas de gestão, falta de recursos ou capacitação. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, esta análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 970,
+    "completion_tokens": 157,
+    "total_tokens": 1127,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 138
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

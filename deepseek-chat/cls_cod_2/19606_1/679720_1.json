@@ -1,0 +1,28 @@
+{
+  "id": "8ea6c8ab-855c-431e-91c0-640baa32c023",
+  "object": "chat.completion",
+  "created": 1760389130,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"A recomendação propõe ações para garantir que os pacientes sejam informados e encaminhados para inscrição na lista de transplantes dentro de prazos legais, focando na implementação de procedimentos operacionais para cumprir a legislação. No entanto, não aborda explicitamente as causas subjacentes, como falta de treinamento ou recursos, que levam ao não cumprimento dos prazos, concentrando-se mais na correção da condição imediata. Portanto, não há ação clara para tratar a causa do problema. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n   \"Foco Causa\": \"Não\",\n   \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1100,
+    "completion_tokens": 187,
+    "total_tokens": 1287,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 268
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

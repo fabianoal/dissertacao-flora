@@ -1,0 +1,28 @@
+{
+  "id": "307164a4-684d-469a-a350-673d7e9413a3",
+  "object": "chat.completion",
+  "created": 1760387890,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe que a equipe INE 1548808 mantenha a população adstrita conforme os critérios da PNAB, o que sugere uma ação contínua para garantir o atendimento aos parâmetros estabelecidos. No entanto, a recomendação não identifica ou aborda explicitamente a causa subjacente que levou ao não atendimento inicial (como falta de capacitação, recursos insuficientes ou falhas no processo de alocação), focando apenas na correção da condição atual. Portanto, não há evidência de que a recomendação trate da causa do problema. Como o critério 'Foco Causa' não foi atendido, a análise de 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 964,
+    "completion_tokens": 205,
+    "total_tokens": 1169,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 132
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

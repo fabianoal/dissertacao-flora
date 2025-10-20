@@ -1,0 +1,28 @@
+{
+  "id": "fc17fe47-0328-417d-9a95-24194ce23209",
+  "object": "chat.completion",
+  "created": 1760387430,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a adoção de mecanismos para garantir o controle do registro de frequência, o que visa tratar a causa raiz da fragilidade no controle (falta de mecanismos adequados) em vez de apenas corrigir registros específicos. Já em relação aos efeitos pretendidos pela recomendação, a implementação de mecanismos estruturados de controle tende a criar processos permanentes que independem de indivíduos específicos, mantendo sua eficácia mesmo com mudanças de pessoal.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1017,
+    "completion_tokens": 152,
+    "total_tokens": 1169,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 185
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "7d12165f-098d-40c5-939b-4ec5733be3e8",
+  "object": "chat.completion",
+  "created": 1760386210,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação é composta por três ações distintas. A primeira ação (devolução de valores) é claramente focada na condição específica encontrada, corrigindo o problema financeiro identificado. A segunda ação (prestar informações ao SNA) visa garantir transparência e acesso a dados, mas não trata diretamente da causa raiz da falta de documentação. A terceira ação (assegurar guarda de documentos por 10 anos) estabelece um procedimento permanente para preservação de comprovantes, o que pode ser considerado uma ação que trata da causa do problema de falta de documentação, criando um sistema de controle documental preventivo. Quanto aos efeitos duradouros, a ação de guarda de documentos estabelece um procedimento institucional que permanece independente de mudanças de pessoal.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1419,
+    "completion_tokens": 213,
+    "total_tokens": 1632,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 587
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

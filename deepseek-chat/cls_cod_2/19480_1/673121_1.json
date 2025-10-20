@@ -1,0 +1,28 @@
+{
+  "id": "b0cc079a-1063-468f-90b9-6d1d2cc2952b",
+  "object": "chat.completion",
+  "created": 1760385954,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a implementação de mapas de abastecimento, solicitação diária e checklists para garantir o reabastecimento oportuno de materiais e medicamentos, o que visa tratar a causa do problema (falta de processos sistemáticos de gestão de suprimentos) e não apenas corrigir a condição atual de desabastecimento. Já em relação aos efeitos pretendidos pela recomendação, a implementação de processos estruturados como mapas e checklists cria um sistema que permanece funcional independentemente de mudanças nos atores envolvidos, pois estabelece procedimentos padronizados e duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1005,
+    "completion_tokens": 182,
+    "total_tokens": 1187,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 173
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d0c19998-d6a3-4290-9f67-03aefbec6a4f",
+  "object": "chat.completion",
+  "created": 1760037556,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere implementar e registrar a demanda de usuários regulados, o que corrige a condição específica de falta de relatórios. No entanto, a ação proposta é genérica, limitando-se a cumprir o normativo existente sem detalhar medidas concretas para abordar a causa subjacente, como falhas em processos ou capacitação.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1189,
+    "completion_tokens": 125,
+    "total_tokens": 1314,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 165
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

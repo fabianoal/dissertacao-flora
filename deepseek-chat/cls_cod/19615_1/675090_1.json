@@ -1,0 +1,28 @@
+{
+  "id": "2ddab0d3-ae20-4dfd-9a86-5c4337c3f3eb",
+  "object": "chat.completion",
+  "created": 1760035876,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a elaboração de um plano de trabalho para os fiscais técnicos de convênio, o que visa fornecer subsídios para sua atuação, corrigindo a condição de carência identificada. No entanto, a ação é genérica, pois se limita a cumprir uma determinação normativa do TCU sem especificar ações concretas adicionais para abordar as causas subjacentes, como falhas em processos ou capacitação. Portanto, não há indicação de efeitos duradouros que persistam independentemente de mudanças nos atores envolvidos.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1123,
+    "completion_tokens": 176,
+    "total_tokens": 1299,
+    "prompt_tokens_details": {
+      "cached_tokens": 1088
+    },
+    "prompt_cache_hit_tokens": 1088,
+    "prompt_cache_miss_tokens": 35
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

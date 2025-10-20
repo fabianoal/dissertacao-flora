@@ -1,0 +1,28 @@
+{
+  "id": "c73217d2-fcbb-4c01-aa1b-98c52ce6d6f3",
+  "object": "chat.completion",
+  "created": 1760383970,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe o cumprimento dos prazos de pagamento aos fornecedores, o que é uma ação direta para corrigir a condição atual de falta de pagamentos, mas não aborda as causas subjacentes que levaram aos atrasos, como possíveis falhas nos processos internos, falta de recursos ou deficiências na gestão financeira. Portanto, a recomendação é focada na condição. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, essa análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 987,
+    "completion_tokens": 174,
+    "total_tokens": 1161,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 155
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

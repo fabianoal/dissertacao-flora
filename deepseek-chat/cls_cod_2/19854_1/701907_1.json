@@ -1,0 +1,28 @@
+{
+  "id": "2f496c47-2f51-481f-bd7a-cc77f0a7fa16",
+  "object": "chat.completion",
+  "created": 1760399504,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe providenciar e manter equipamentos adequados, o que visa corrigir a condição atual de falta de equipamentos compatíveis, mas não aborda as causas subjacentes, como falhas na aquisição, manutenção preventiva ou planejamento orçamentário. Portanto, trata-se de uma medida corretiva direta da condição encontrada, sem foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 985,
+    "completion_tokens": 166,
+    "total_tokens": 1151,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 153
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

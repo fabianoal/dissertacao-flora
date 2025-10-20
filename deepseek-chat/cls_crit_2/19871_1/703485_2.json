@@ -1,0 +1,28 @@
+{
+  "id": "d3f6a88b-dccd-48c3-a385-da3b4f6b4150",
+  "object": "chat.completion",
+  "created": 1760467669,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe aprimorar o registro do código CID para garantir compatibilidade com o procedimento, o que aborda diretamente a causa do problema de incompatibilidade identificado na constatação, evitando sua recorrência. Para o critério 'Efeitos Duradouros', a implementação de um aprimoramento no registro baseado em diretrizes técnicas estabelece uma prática padronizada que tende a ser mantida independentemente de mudanças na equipe, desde que haja adesão contínua às diretrizes.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1175,
+    "completion_tokens": 178,
+    "total_tokens": 1353,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 215
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

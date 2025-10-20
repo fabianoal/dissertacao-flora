@@ -1,0 +1,28 @@
+{
+  "id": "166c3603-78eb-4492-bec7-105ae18020f9",
+  "object": "chat.completion",
+  "created": 1760387998,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe ações como a realização de uma visita técnica multidisciplinar para avaliação das condições de trabalho e a aquisição de mobiliário ergonômico, que visam identificar e corrigir as causas subjacentes das deficiências ergonômicas, como a falta de avaliação especializada e equipamentos inadequados, caracterizando um foco na causa. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como a implementação de diretrizes da NR 4 e a aquisição de mobiliário durável, tendem a estabelecer melhorias estruturais e procedimentais que persistem independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1111,
+    "completion_tokens": 200,
+    "total_tokens": 1311,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 279
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

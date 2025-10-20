@@ -1,0 +1,28 @@
+{
+  "id": "cb539a1c-ba63-43ad-83a0-a03f0045bbdf",
+  "object": "chat.completion",
+  "created": 1760457945,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identifica corretamente que a recomendação 2 aborda a causa do problema ao propor mudanças estruturais para prevenir a reocorrência. No entanto, a recomendação 1 é classificada como 'condition-based', mas a análise geral do modelo atribui 'Sim' ao critério 'Foco Causa', o que é adequado, pois pelo menos uma recomendação (a 2) trata da causa. Para o critério 'Efeitos Duradouros', a análise do modelo está correta, pois a recomendação 2 estabelece uma estrutura permanente que independe de mudanças nos atores.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1582,
+    "completion_tokens": 191,
+    "total_tokens": 1773,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 686
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

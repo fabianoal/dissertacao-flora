@@ -1,0 +1,28 @@
+{
+  "id": "d53e64f0-33eb-4da7-80ee-7b198cfdedae",
+  "object": "chat.completion",
+  "created": 1760394132,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações como apoiar a manutenção do CNES e fiscalizar, auditar, validar ou alterar cadastros, visando corrigir a desatualização do cadastro de profissionais que não atuam nas unidades. Essas ações abordam diretamente a causa do problema, que é a falta de processos contínuos de atualização e validação dos dados no CNES, em vez de apenas remover os registros incorretos existentes. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como a manutenção contínua e a fiscalização do CNES, estabelecem processos sistemáticos que devem persistir independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros na correção da causa.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 988,
+    "completion_tokens": 215,
+    "total_tokens": 1203,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 156
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

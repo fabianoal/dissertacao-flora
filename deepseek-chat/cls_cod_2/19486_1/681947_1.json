@@ -1,0 +1,28 @@
+{
+  "id": "7e59451f-794a-4ada-9a83-db24eeca7e65",
+  "object": "chat.completion",
+  "created": 1760386059,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações como manter cadastro atualizado, monitorar gestantes, registrar informações diariamente e orientar sobre a importância do pré-natal, que visam tratar as causas estruturais das divergências nos dados, não apenas corrigir os dados existentes. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas (como manter cadastro completo e monitoramento regular) estabelecem processos e práticas que permaneceriam válidos mesmo com mudanças nos profissionais envolvidos, criando uma estrutura duradoura para qualidade dos dados.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1116,
+    "completion_tokens": 160,
+    "total_tokens": 1276,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 284
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "bb91fd50-8b36-4526-90de-a60687820fed",
+  "object": "chat.completion",
+  "created": 1760391746,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação orienta o cumprimento de dispositivos normativos que estabelecem a obrigatoriedade de utilização de instrumentos de gestão (Plano de Saúde, Programação Anual de Saúde e Relatório Anual de Gestão) para planejamento, execução e monitoramento no SUS. Esses instrumentos, quando implementados, permitiriam o monitoramento dos dados de produção, tratando assim a causa subjacente da falta de controle sobre a inserção de dados no SIA/SUS. Em relação aos efeitos duradouros, a implementação desses instrumentos de gestão cria uma estrutura permanente de planejamento e monitoramento que permanece funcional independentemente de mudanças nos atores envolvidos, estabelecendo processos contínuos de gestão.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1236,
+    "completion_tokens": 202,
+    "total_tokens": 1438,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 404
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

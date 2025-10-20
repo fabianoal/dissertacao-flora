@@ -1,0 +1,28 @@
+{
+  "id": "ad5f1f88-7e2b-40de-b508-94f9b82948ba",
+  "object": "chat.completion",
+  "created": 1760458121,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação inclui ações que abordam tanto a condição imediata (providenciar relatórios faltantes) quanto a causa subjacente (adotar medidas preventivas/corretivas para evitar não conformidades futuras). Para o critério 'Efeitos Duradouros', a análise também está adequada, pois as medidas institucionalizadas baseadas em portaria consolidada tendem a criar sistemas duradouros independentes de mudanças de atores.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1327,
+    "completion_tokens": 170,
+    "total_tokens": 1497,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 431
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

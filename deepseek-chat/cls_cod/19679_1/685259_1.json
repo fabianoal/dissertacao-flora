@@ -1,0 +1,28 @@
+{
+  "id": "115ffca8-82dd-4266-93c6-1b8836727cd3",
+  "object": "chat.completion",
+  "created": 1760035800,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere a adoção de providências para que futuras aquisições atendam aos requisitos legais, o que constitui uma ação corretiva para prevenir a repetição da condição observada. No entanto, a ação proposta é genérica, limitando-se ao cumprimento de normativos existentes, sem especificar medidas concretas para tratar a causa subjacente da inobservância dos aspectos formais. Como a ação de foco na causa é genérica, os efeitos duradouros não são avaliados como presentes.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1172,
+    "completion_tokens": 167,
+    "total_tokens": 1339,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 148
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

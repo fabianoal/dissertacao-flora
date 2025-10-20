@@ -1,0 +1,28 @@
+{
+  "id": "1d9d67e6-a1a2-47c5-89ec-57bf344fcb26",
+  "object": "chat.completion",
+  "created": 1760457717,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe uma ação de conferência da documentação para evitar a manutenção de informações incorretas, o que sugere um foco na causa subjacente (falta de verificação adequada) e não apenas na correção pontual. Quanto ao critério 'Efeitos Duradouros', a ação de conferência, se implementada como um processo contínuo, pode gerar efeitos que persistem independentemente de mudanças nos atores, desde que seja institucionalizada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1174,
+    "completion_tokens": 167,
+    "total_tokens": 1341,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 150
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

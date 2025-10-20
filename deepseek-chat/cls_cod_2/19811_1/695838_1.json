@@ -1,0 +1,28 @@
+{
+  "id": "d80c6bb9-0e12-4243-bb02-5d7084f213c5",
+  "object": "chat.completion",
+  "created": 1760397792,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a adoção de estratégias para atendimento de pacientes após notificação de casos de violência, o que visa corrigir a condição atual de falta de estratégias definidas. No entanto, não há menção a ações que abordem as causas subjacentes dessa falta, como falhas na capacitação, recursos insuficientes ou questões estruturais. Portanto, a recomendação é focada na condição imediata, não na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1043,
+    "completion_tokens": 166,
+    "total_tokens": 1209,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 211
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

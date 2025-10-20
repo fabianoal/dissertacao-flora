@@ -1,0 +1,28 @@
+{
+  "id": "7c19b0a7-10d4-44b9-886e-f3b447bb61f9",
+  "object": "chat.completion",
+  "created": 1760387434,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe o cadastramento e a atualização sistemática dos dados dos profissionais no SCNES, o que visa estabelecer um processo contínuo para evitar que as divergências de informações ocorram novamente, tratando assim da causa do problema (falta de atualização regular). Já em relação aos efeitos pretendidos pela recomendação, a implementação de um processo sistemático de atualização mensal ou imediata após mudanças cria uma estrutura que permanece independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1056,
+    "completion_tokens": 164,
+    "total_tokens": 1220,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 224
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

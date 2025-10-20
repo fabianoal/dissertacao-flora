@@ -1,0 +1,28 @@
+{
+  "id": "82c2d1a8-3efd-4d22-ae20-62596197b176",
+  "object": "chat.completion",
+  "created": 1760467077,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação busca garantir o cumprimento de normas legais para assegurar participação regular e representativa, o que efetivamente trata a causa do problema (não cumprimento da legislação). Quanto ao critério 'Efeitos Duradouros', a institucionalização da participação via cumprimento normativo tende a criar estruturas permanentes, mas a efetividade depende da aplicação contínua, o que pode não ser totalmente garantido apenas pela recomendação.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1262,
+    "completion_tokens": 164,
+    "total_tokens": 1426,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 366
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d324cce2-ab3d-473f-b167-ccca44420e47",
+  "object": "chat.completion",
+  "created": 1760384650,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe anexar os espelhos de AIH aos prontuários e garantir assinaturas, o que corrige a condição imediata de documentação ausente ou incompleta, mas não identifica ou trata a causa subjacente (como falhas em processos de documentação, treinamento inadequado ou supervisão insuficiente). Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não é atendido, não se aplica a avaliação.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 976,
+    "completion_tokens": 163,
+    "total_tokens": 1139,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 144
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

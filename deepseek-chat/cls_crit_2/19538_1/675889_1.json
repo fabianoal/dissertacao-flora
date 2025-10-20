@@ -1,0 +1,28 @@
+{
+  "id": "eda9edf3-dd4a-463b-b9ad-7dc4d2c1986c",
+  "object": "chat.completion",
+  "created": 1760454201,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação aborda a causa do problema ao propor mudanças nos processos de registro, mas a avaliação sobre efeitos duradouros requer uma análise mais criteriosa sobre a implementação efetiva das práticas recomendadas.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1201,
+    "completion_tokens": 104,
+    "total_tokens": 1305,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 305
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

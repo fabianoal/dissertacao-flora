@@ -1,0 +1,28 @@
+{
+  "id": "43196323-6aca-4e81-938c-0d97438b4435",
+  "object": "chat.completion",
+  "created": 1760400312,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a revisão dos critérios de codificação e emissão de AIHs para garantir que internações com tempo de permanência superior a seis dias sejam reclassificadas adequadamente, o que aborda a causa do problema (critérios inadequados de codificação) em vez de apenas corrigir as AIHs existentes. Já em relação aos efeitos pretendidos pela recomendação, a implementação de critérios revisados e diretrizes permanentes assegura que os efeitos (conformidade assistencial, registro preciso da produção e controle do faturamento) persistam mesmo com mudanças nos atores envolvidos, pois se baseia em procedimentos padronizados.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1107,
+    "completion_tokens": 193,
+    "total_tokens": 1300,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 211
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

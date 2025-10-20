@@ -1,0 +1,28 @@
+{
+  "id": "6f338dce-871a-4314-b2ae-a45c18e19472",
+  "object": "chat.completion",
+  "created": 1760466453,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a criação de rotinas, protocolos e fluxos formais para o compartilhamento de registros, o que efetivamente visa tratar a causa raiz do problema (falta de estruturas estabelecidas), e não apenas corrigir a condição atual. Quanto ao critério 'Efeitos Duradouros', a implementação de protocolos e fluxos institucionalizados tende a perdurar independentemente de mudanças na equipe, desde que haja manutenção adequada dessas estruturas.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1412,
+    "completion_tokens": 172,
+    "total_tokens": 1584,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 516
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

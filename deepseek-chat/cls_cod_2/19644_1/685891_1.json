@@ -1,0 +1,28 @@
+{
+  "id": "133d492c-1d42-4a1e-8c26-e83225387e83",
+  "object": "chat.completion",
+  "created": 1760391938,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam da causa do problema do preenchimento inadequado do prontuário, incluindo a implementação do prontuário eletrônico e a capacitação dos profissionais, que são medidas para evitar a reocorrência da condição. Já em relação aos efeitos pretendidos pela recomendação, a implementação do sistema eletrônico e os processos de capacitação e verificação de dados criam estruturas e procedimentos que devem permanecer eficazes mesmo com mudanças nos atores envolvidos, como a rotatividade de profissionais.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1094,
+    "completion_tokens": 167,
+    "total_tokens": 1261,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 326
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

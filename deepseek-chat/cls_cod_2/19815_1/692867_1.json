@@ -1,0 +1,28 @@
+{
+  "id": "18e2bc05-babf-41b9-8cb5-a54855796a9e",
+  "object": "chat.completion",
+  "created": 1760398008,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a instituição de ações de controle no transporte dos imunobiológicos, incluindo monitoramento contínuo da temperatura, proteção contra impactos e rastreabilidade dos produtos. Essas ações visam estabelecer processos e controles permanentes para prevenir a ocorrência dos pontos vulneráveis identificados, tratando assim as causas do problema. Já em relação aos efeitos pretendidos pela recomendação, as ações propostas (como monitoramento contínuo, proteção contra impactos e rastreabilidade) são estruturadas como processos institucionais que independem de pessoas específicas, podendo ser mantidos mesmo com mudanças nos atores envolvidos, configurando efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1056,
+    "completion_tokens": 196,
+    "total_tokens": 1252,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 224
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

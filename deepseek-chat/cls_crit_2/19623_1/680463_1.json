@@ -1,0 +1,28 @@
+{
+  "id": "40bcbac5-c916-4410-9a38-ddbfdfdc653f",
+  "object": "chat.completion",
+  "created": 1760457853,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise original identifica corretamente que a recomendação possui um componente que trata da causa raiz (capacitação para prevenir recorrência), além da medida corretiva imediata (cobrança do valor). Para o critério 'Efeitos Duradouros', a análise original avalia que as capacitações criam efeitos duradouros, mas isso depende da implementação contínua e institucionalização dessas capacitações, que pode não ser garantida apenas pela recomendação.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1378,
+    "completion_tokens": 165,
+    "total_tokens": 1543,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 482
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

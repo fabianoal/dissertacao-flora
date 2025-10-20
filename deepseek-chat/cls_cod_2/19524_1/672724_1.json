@@ -1,0 +1,28 @@
+{
+  "id": "7d46d538-83b6-4d02-9cc1-41542de6f19d",
+  "object": "chat.completion",
+  "created": 1760386974,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a reavaliação das metas pactuadas no Plano Operativo para consultas e cirurgias, com o objetivo de reduzir a demanda e o tempo de espera, e cita a necessidade de cumprir a Portaria de Consolidação GM/MS nº 2/2017, que estabelece a responsabilidade da SMS em monitorar e avaliar essas metas. Isso aborda a causa do problema, que é a falta de monitoramento e ajuste contínuo das metas, em vez de apenas corrigir a ausência atual de relatórios. Quanto aos efeitos duradouros, a implementação de um processo de reavaliação e monitoramento contínuo das metas, conforme a portaria, tende a persistir mesmo com mudanças nos atores envolvidos, pois se baseia em diretrizes normativas e procedimentos estruturados.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1091,
+    "completion_tokens": 229,
+    "total_tokens": 1320,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 259
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

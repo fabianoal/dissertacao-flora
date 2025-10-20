@@ -1,0 +1,28 @@
+{
+  "id": "a2896e58-63bc-4b3e-9e42-f9b4a0218a89",
+  "object": "chat.completion",
+  "created": 1760388658,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação 1 propõe intervenções educativas permanentes para melhorar a qualidade do registro das informações de saúde, o que visa tratar a causa do problema (falhas no registro) ao promover capacitação contínua. A recomendação 2, por sua vez, foca na condição imediata (registrar dados no prazo), sem abordar a causa subjacente. Já em relação aos efeitos pretendidos pela recomendação 1, as intervenções educativas permanentes podem gerar efeitos duradouros, pois criam uma cultura de registro adequado que persiste mesmo com mudanças de atores, devido ao caráter contínuo e institucionalizado.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1072,
+    "completion_tokens": 190,
+    "total_tokens": 1262,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 240
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "8e62f1b4-8cd2-49c5-9050-b2b75ffbe0a8",
+  "object": "chat.completion",
+  "created": 1760394664,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a elaboração tempestiva do Relatório Anual de Gestão com prestação de contas detalhada, o que visa estabelecer um processo sistemático de documentação e transparência, tratando assim a causa do problema (falta de informações adequadas nos instrumentos de gestão) e não apenas corrigindo a condição atual. Já em relação aos efeitos pretendidos, a implementação de um processo formal de elaboração do relatório anual cria uma estrutura permanente de prestação de contas que deve persistir independentemente de mudanças nos atores envolvidos, estabelecendo uma rotina institucionalizada.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1036,
+    "completion_tokens": 179,
+    "total_tokens": 1215,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 268
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

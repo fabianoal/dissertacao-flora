@@ -1,0 +1,28 @@
+{
+  "id": "766bd956-ad0d-4ef4-a04a-cbeb67241fb5",
+  "object": "chat.completion",
+  "created": 1760467409,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação se limita a reiterar o cumprimento de um compromisso preexistente, sem propor ações que abordem as causas subjacentes da não revisão do regimento interno, como falta de recursos, capacitação ou processos inadequados. No entanto, a recomendação pode ser interpretada como uma ação corretiva direta para a condição atual, mas não atende ao critério de foco na causa, que exige medidas para prevenir a recorrência.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1193,
+    "completion_tokens": 157,
+    "total_tokens": 1350,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 297
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "5a3d2c5f-f4eb-4011-bea8-7005ed0bc7dc",
+  "object": "chat.completion",
+  "created": 1760400672,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe que o provedor, corpo clínico e cirúrgico registrem detalhadamente no prontuário a história clínica do usuário, incluindo procedimentos realizados em outros serviços, e avaliem as diretrizes técnicas sobre o prazo para início da quimioterapia adjuvante. Essa ação visa garantir que os profissionais tenham informações completas para tomar decisões adequadas sobre o tratamento, abordando a causa do problema, que é a falta de registro e avaliação criteriosa que leva ao não cumprimento do prazo. Quanto aos efeitos duradouros, a implementação de um registro detalhado e a referência a diretrizes permanentes criam um processo estruturado que independe de mudanças nos atores envolvidos, assegurando que a conduta seja mantida ao longo do tempo.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1212,
+    "completion_tokens": 225,
+    "total_tokens": 1437,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 380
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

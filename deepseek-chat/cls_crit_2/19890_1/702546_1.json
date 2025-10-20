@@ -1,0 +1,28 @@
+{
+  "id": "ab81c7d4-ea94-4096-8232-aa5e6adbf471",
+  "object": "chat.completion",
+  "created": 1760468365,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação se limita a orientar o cumprimento de normas existentes sem propor ações que abordem as causas subjacentes do descumprimento. Para o critério 'Efeitos Duradouros', a resposta 'Não se aplica' é adequada, dado que o critério 'Foco Causa' foi avaliado como 'Não'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1688,
+    "completion_tokens": 144,
+    "total_tokens": 1832,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 792
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2450f5e8-8a4e-4b77-93e7-6792608d9b11",
+  "object": "chat.completion",
+  "created": 1760455505,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identifica corretamente que a recomendação aborda a causa subjacente relacionada às falhas na gestão da cadeia de suprimentos e na previsão de riscos do mercado, em vez de apenas corrigir a condição imediata de falta de medicamentos. Quanto ao critério 'Efeitos Duradouros', a análise do modelo avalia que a implementação de um processo sistemático de análise de ameaças e prevenção tende a criar uma estrutura duradoura, independente de mudanças nos atores envolvidos, o que está alinhado com a definição do critério.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1373,
+    "completion_tokens": 192,
+    "total_tokens": 1565,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 477
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

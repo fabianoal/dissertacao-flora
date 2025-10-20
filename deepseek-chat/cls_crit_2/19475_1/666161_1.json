@@ -1,0 +1,28 @@
+{
+  "id": "6f63c7f6-0f90-46ac-815d-dd21748c0f69",
+  "object": "chat.completion",
+  "created": 1760452848,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações que tratam da causa do problema, que é a falta de controle e acompanhamento sistemático dos licenciamentos. As medidas sugeridas (capacitação, orientação, cobrança de fiscais e instauração de mecanismos de controle interno) visam prevenir a reincidência da falta de documentação. Já em relação ao critério 'Efeitos Duradouros', os mecanismos de controle interno e a capacitação institucionalizada tendem a produzir efeitos duradouros, mantendo-se mesmo com mudanças nos atores envolvidos, pois se baseiam em processos e sistemas estabelecidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1281,
+    "completion_tokens": 196,
+    "total_tokens": 1477,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 385
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

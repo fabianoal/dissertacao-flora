@@ -1,0 +1,28 @@
+{
+  "id": "631b27aa-82c6-4715-b4a6-d8607c8a0b72",
+  "object": "chat.completion",
+  "created": 1760035744,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação estabelece procedimentos obrigatórios para a dispensação de medicamentos e correlatos no PFPB, exigindo documentação específica do beneficiário e prescrição médica conforme normativo. Esta ação visa corrigir a condição de dispensação sem comprovação adequada, ao impor requisitos documentais que devem ser atendidos no ato da dispensação. No entanto, a recomendação se limita a reforçar o cumprimento de normativos já existentes, sem propor ações adicionais para tratar as causas subjacentes que permitiram a ocorrência da condição, como falhas em processos de verificação, treinamento de pessoal ou monitoramento.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1244,
+    "completion_tokens": 198,
+    "total_tokens": 1442,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 220
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

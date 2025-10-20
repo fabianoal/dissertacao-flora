@@ -1,0 +1,28 @@
+{
+  "id": "1197cebf-2703-49d6-8cc2-cc7465659f86",
+  "object": "chat.completion",
+  "created": 1760385638,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe orientar e verificar o correto preenchimento do CFI, o que é uma ação direta para corrigir a condição irregular observada, sem mencionar medidas para abordar as causas subjacentes, como falta de treinamento ou falhas sistêmicas. Portanto, foca na condição, não na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1058,
+    "completion_tokens": 143,
+    "total_tokens": 1201,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 226
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

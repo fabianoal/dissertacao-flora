@@ -1,0 +1,28 @@
+{
+  "id": "1b29a13a-c8a1-4119-824d-f297638a2c96",
+  "object": "chat.completion",
+  "created": 1760390762,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe uma ação de apuração sobre o cumprimento da carga horária, mas não identifica ou trata a causa raiz do excesso de carga horária, como possíveis falhas na gestão de recursos humanos, dimensionamento inadequado de equipes ou ausência de políticas de controle de jornada. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 981,
+    "completion_tokens": 150,
+    "total_tokens": 1131,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 149
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

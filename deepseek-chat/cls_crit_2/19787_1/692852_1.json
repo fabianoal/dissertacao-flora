@@ -1,0 +1,28 @@
+{
+  "id": "f25554d5-d71b-4967-b5d4-20a526724af2",
+  "object": "chat.completion",
+  "created": 1760464473,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda diretamente a causa do problema ao propor medidas para controlar a temperatura durante o recebimento e expedição, o que é consistente com a constatação. Para o critério 'Efeitos Duradouros', a implementação de áreas refrigeradas e práticas padronizadas sugere uma solução estrutural que pode persistir independentemente de mudanças de pessoal.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1271,
+    "completion_tokens": 142,
+    "total_tokens": 1413,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 375
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

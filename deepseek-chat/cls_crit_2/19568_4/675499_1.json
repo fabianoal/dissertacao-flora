@@ -1,0 +1,28 @@
+{
+  "id": "3771956f-437c-4572-b197-c30f7beee898",
+  "object": "chat.completion",
+  "created": 1760455061,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo argumenta que a recomendação não aborda causas subjacentes como problemas de planejamento ou gestão de recursos humanos, focando apenas na correção imediata da condição. No entanto, a recomendação de contratar profissionais para cumprir a carga horária mínima pode ser interpretada como uma ação que trata da causa raiz da falta de composição mínima, que é a insuficiência de profissionais. Para o critério 'Efeitos Duradouros', a análise é dependente da avaliação do 'Foco Causa'.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1268,
+    "completion_tokens": 182,
+    "total_tokens": 1450,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 372
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

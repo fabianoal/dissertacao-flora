@@ -1,0 +1,28 @@
+{
+  "id": "4f0ffaa9-ff7b-43a0-b25b-d9ffcd8d9299",
+  "object": "chat.completion",
+  "created": 1759367774,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação propõe ações estratégicas para melhorar o registro de informações, incluindo registro diário no prontuário, envio mensal ao Sisab e preenchimento adequado dos campos dos indicadores. No entanto, não identifica explicitamente as causas institucionais que levaram ao preenchimento inadequado (como falta de treinamento, ausência de supervisão, problemas no sistema eletrônico ou carência de protocolos). As medidas sugeridas focam na correção da condição observada (preenchimento incorreto) sem abordar causas estruturais subjacentes. As transformações propostas, embora possam perdurar, não são claramente direcionadas a mudanças institucionais profundas.\",\n    \"categoria\": \"foco-condicao\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1516,
+    "completion_tokens": 184,
+    "total_tokens": 1700,
+    "prompt_tokens_details": {
+      "cached_tokens": 1216
+    },
+    "prompt_cache_hit_tokens": 1216,
+    "prompt_cache_miss_tokens": 300
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

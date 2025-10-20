@@ -1,0 +1,28 @@
+{
+  "id": "d3b0383f-3c90-4f09-96c1-65a288dc43d2",
+  "object": "chat.completion",
+  "created": 1760451608,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise fornecida avalia corretamente que a recomendação aborda a causa subjacente da falta de controle adequado, mas superestima a garantia de efeitos duradouros, pois a implementação prática depende de fatores humanos e organizacionais que podem variar.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1347,
+    "completion_tokens": 105,
+    "total_tokens": 1452,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 451
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "74f7b3c4-7a79-4cd8-94e3-fa182eee8e75",
+  "object": "chat.completion",
+  "created": 1760458433,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação trata especificamente da devolução de valores devido à falta de rastreabilidade, sem propor ações para prevenir a recorrência do problema, como melhorias em processos ou sistemas. Portanto, concordo com a classificação de 'Não'. Quanto ao critério 'Efeitos Duradouros', como 'Foco Causa' é 'Não', a resposta 'Não se aplica' está correta.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1221,
+    "completion_tokens": 147,
+    "total_tokens": 1368,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 261
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "4546e8fd-e170-4297-9cb4-dcd1bc15caa0",
+  "object": "chat.completion",
+  "created": 1760463142,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a finalização e elaboração de instrumentos de gestão (PAS e RDQA), que são ações voltadas para tratar a causa subjacente da falta de informações estratégicas no Programa de Imunizações, conforme a constatação. Para o critério 'Efeitos Duradouros', a implementação desses instrumentos estabelece processos formais que podem persistir independentemente de mudanças de pessoal, mas a análise original não considera possíveis limitações na adesão contínua a esses processos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1253,
+    "completion_tokens": 174,
+    "total_tokens": 1427,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 357
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

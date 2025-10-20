@@ -1,0 +1,28 @@
+{
+  "id": "cdafb5d7-9ca6-4ffd-b19c-8594a7966b62",
+  "object": "chat.completion",
+  "created": 1760390742,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a adoção de critérios mínimos de detalhamento das despesas nos planos de trabalho, visando prevenir a ausência de discriminação de despesas administrativas, o que trata a causa do problema (falta de especificação clara) e não apenas corrige a condição atual. Já em relação aos efeitos pretendidos pela recomendação, a implementação de critérios formais e padronizados para detalhamento de despesas criaria um procedimento institucional que permaneceria válido independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1043,
+    "completion_tokens": 180,
+    "total_tokens": 1223,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 19
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

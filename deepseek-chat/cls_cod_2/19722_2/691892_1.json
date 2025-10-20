@@ -1,0 +1,28 @@
+{
+  "id": "813f32a8-73e2-4e7a-8094-1a4ca35cae08",
+  "object": "chat.completion",
+  "created": 1760394636,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam da causa do problema, que é a ausência de planejamento e monitoramento sistemático dos dados de produção ambulatorial, incluindo a definição de instâncias de controle. Já em relação aos efeitos pretendidos, as ações sugeridas, como a institucionalização do planejamento e a definição de instâncias de controle, são estruturantes e tendem a permanecer mesmo com mudanças de atores, pois criam processos e responsabilidades formais.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1047,
+    "completion_tokens": 155,
+    "total_tokens": 1202,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 215
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

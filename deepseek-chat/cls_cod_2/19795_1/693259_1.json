@@ -1,0 +1,28 @@
+{
+  "id": "b65dcf70-6365-4af8-ae74-af72287f5b15",
+  "object": "chat.completion",
+  "created": 1760397084,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe assegurar o correto registro das informações no Cnes imediatamente após alterações, o que visa estabelecer um processo contínuo de atualização para prevenir inconsistências futuras, tratando assim a causa do problema (falta de atualização sistemática). Já em relação aos efeitos pretendidos pela recomendação, a ação de garantir registros corretos e atualizados cria um procedimento padrão que permanece independentemente de mudanças nos atores envolvidos, assegurando efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1150,
+    "completion_tokens": 160,
+    "total_tokens": 1310,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 318
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

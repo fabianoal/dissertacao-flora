@@ -1,0 +1,28 @@
+{
+  "id": "8d5555cd-4c8c-4154-992c-a98294ba8bf9",
+  "object": "chat.completion",
+  "created": 1760383634,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação não propõe ações específicas para tratar a causa do problema (liquidação de despesas sem comprovação), limitando-se a sugerir o acompanhamento de recomendações já direcionadas à Secretaria de Saúde. Não há menção a medidas que abordem as causas subjacentes, como falhas nos processos de controle ou capacitação. Portanto, não atende ao critério de foco na causa, e o critério de efeitos duradouros não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 969,
+    "completion_tokens": 151,
+    "total_tokens": 1120,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 137
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

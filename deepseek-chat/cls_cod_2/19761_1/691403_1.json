@@ -1,0 +1,28 @@
+{
+  "id": "7a8c6384-cfbe-45c0-844a-ff4bc59482bf",
+  "object": "chat.completion",
+  "created": 1760395808,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe adequar a estrutura física para incluir áreas específicas e identificadas, o que visa resolver a causa subjacente (estrutura inadequada) que gerou a condição encontrada, e não apenas corrigir sintomas temporários. Já em relação aos efeitos pretendidos pela recomendação, as mudanças na estrutura física (como áreas específicas e identificadas) tendem a permanecer mesmo com mudanças nos atores envolvidos, pois são incorporadas ao ambiente físico e aos processos organizacionais.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1074,
+    "completion_tokens": 154,
+    "total_tokens": 1228,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 242
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "9d63024d-cf0e-48bd-9fdf-59d2d1682a92",
+  "object": "chat.completion",
+  "created": 1760401136,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação sugere melhorias no fluxo de atendimento, protocolos e indicadores de monitoramento, que são ações voltadas para modificar processos e sistemas subjacentes que causaram o atraso na quimioterapia adjuvante, caracterizando foco na causa. Já em relação aos efeitos pretendidos pela recomendação, as melhorias propostas em fluxos, protocolos e indicadores tendem a ser incorporadas à estrutura organizacional do hospital, persistindo independentemente de mudanças nos profissionais envolvidos, indicando efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1074,
+    "completion_tokens": 164,
+    "total_tokens": 1238,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 242
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

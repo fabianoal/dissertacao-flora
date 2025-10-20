@@ -1,0 +1,28 @@
+{
+  "id": "21c3deda-7a1b-4aa3-9a6f-57cb9ec4d984",
+  "object": "chat.completion",
+  "created": 1760400956,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a sugerir a cobrança administrativa dos recursos identificados como dano, sem propor ações que tratem da causa subjacente da ausência de documentação (AIHs e prontuários) que gerou a condição encontrada. Não há menção a medidas preventivas, como melhorias em sistemas de registro, treinamento de pessoal ou revisão de processos, que poderiam evitar a recorrência do problema. Portanto, a recomendação não atende ao critério de foco na causa. Como o critério 'Foco Causa' não foi atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1095,
+    "completion_tokens": 187,
+    "total_tokens": 1282,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 263
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "5a7aec43-3e70-4136-aeca-11ff7d8899b9",
+  "object": "chat.completion",
+  "created": 1760391214,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a inclusão de documentação específica (mapa descritivo de preços, pesquisa de preços, memória de cálculo e fundamentação) para atender a requisitos normativos, o que visa corrigir a ausência identificada, mas não aborda as causas subjacentes que levaram à não apresentação inicial desses documentos, como falhas em processos, capacitação ou controle interno. Portanto, a recomendação é focada na condição imediata (ausência de documentos) e não na causa raiz. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, essa análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1036,
+    "completion_tokens": 195,
+    "total_tokens": 1231,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 140
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

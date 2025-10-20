@@ -1,0 +1,28 @@
+{
+  "id": "b6072dd7-8665-4086-a0ae-bbdf5bee2d3f",
+  "object": "chat.completion",
+  "created": 1760398828,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe ações como fortalecer a Comissão de Prontuário para padronizar o preenchimento e garantir a supervisão do Médico Responsável Técnico, visando tratar as causas subjacentes das falhas de registro, como falta de padronização e supervisão inadequada, em vez de apenas corrigir os registros existentes. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como a padronização de procedimentos e a atuação estruturada da comissão, tendem a produzir mudanças duradouras que persistem independentemente de mudanças nos profissionais envolvidos, pois estabelecem processos e estruturas organizacionais.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1341,
+    "completion_tokens": 192,
+    "total_tokens": 1533,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 509
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

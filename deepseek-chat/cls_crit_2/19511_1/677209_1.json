@@ -1,0 +1,28 @@
+{
+  "id": "28bf983d-43aa-4617-9142-79a6386930ea",
+  "object": "chat.completion",
+  "created": 1760453457,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação estabelece medidas para assegurar a atuação de uma comissão específica, o que pode ser interpretado como uma ação para tratar a causa organizacional do problema (falta de estrutura de gestão para OPME), mas não aborda diretamente a causa imediata da falta de anexação dos exames (como falhas processuais ou de treinamento). Para o critério 'Efeitos Duradouros', a criação de uma comissão formal tende a gerar efeitos duradouros, pois a estrutura institucional persiste independentemente de mudanças de pessoal.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1230,
+    "completion_tokens": 190,
+    "total_tokens": 1420,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 334
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

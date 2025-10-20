@@ -1,0 +1,28 @@
+{
+  "id": "07e15d86-1ab9-48f3-8bda-01d87ea0138e",
+  "object": "chat.completion",
+  "created": 1760385123,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação se limita a citar a exigência normativa de anexar exames de imagem ao prontuário, sem propor ações que tratem da causa subjacente da não apresentação desses exames, como falhas em processos de documentação, treinamento de pessoal ou sistemas de controle. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, esta análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1104,
+    "completion_tokens": 147,
+    "total_tokens": 1251,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 272
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

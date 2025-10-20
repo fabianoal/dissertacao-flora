@@ -1,0 +1,28 @@
+{
+  "id": "a718e2cd-66b5-49b9-8df2-82bf5519f587",
+  "object": "chat.completion",
+  "created": 1760038548,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a devolução de valores ao Fundo Nacional de Saúde como ação para corrigir o prejuízo financeiro identificado, focando na condição específica de inconsistência nas cirurgias oncológicas. No entanto, não há sugestão de ações para tratar a causa raiz que permitiu a ocorrência dessas inconsistências, limitando-se ao cumprimento de dispositivos legais existentes sem propor medidas concretas para prevenir recorrências.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se Aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1389,
+    "completion_tokens": 155,
+    "total_tokens": 1544,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 365
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

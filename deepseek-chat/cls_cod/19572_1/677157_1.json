@@ -1,0 +1,28 @@
+{
+  "id": "976e4126-f773-48e8-8fc9-551320cad076",
+  "object": "chat.completion",
+  "created": 1760036184,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere uma ação direta para corrigir a condição encontrada, que é a ausência dos instrumentos necessários anexados aos prontuários, ao exigir que sejam mantidos anexados e disponíveis. No entanto, a ação proposta é genérica, limitando-se a citar o cumprimento de normativos existentes (Portaria GM/MS nº 01/2022 e Portaria GM/MS nº 03/2017) sem especificar medidas adicionais para abordar a causa subjacente que levou à não conformidade, como falhas em processos internos ou capacitação.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1311,
+    "completion_tokens": 183,
+    "total_tokens": 1494,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 287
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

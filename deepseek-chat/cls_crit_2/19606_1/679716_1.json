@@ -1,0 +1,28 @@
+{
+  "id": "f2779c76-8b11-41cc-aa03-5e95ed93e8f0",
+  "object": "chat.completion",
+  "created": 1760455985,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação se concentra na correção imediata da condição (falta de exames), sem abordar causas subjacentes como falhas processuais ou de monitoramento. Para o critério 'Efeitos Duradouros', a conclusão de 'Não se aplica' é adequada, dado que o 'Foco Causa' não foi atendido.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1273,
+    "completion_tokens": 147,
+    "total_tokens": 1420,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 377
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

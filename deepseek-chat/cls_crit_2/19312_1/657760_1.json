@@ -1,0 +1,28 @@
+{
+  "id": "8596d9c1-7ef2-453a-9363-b016c9c012c1",
+  "object": "chat.completion",
+  "created": 1760451612,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação propõe a implementação de mecanismos revisionais para garantir a inserção adequada de informações técnicas, o que aborda a causa subjacente (falta de processos de revisão) e não apenas a condição imediata (laudos incompletos). Para o critério 'Efeitos Duradouros', a análise também é adequada, já que mecanismos revisionais institucionalizados criam processos contínuos que podem persistir independentemente de mudanças na equipe.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1396,
+    "completion_tokens": 173,
+    "total_tokens": 1569,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 500
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "7ea04b8c-55b7-494f-94ee-2ee6e2f7eb65",
+  "object": "chat.completion",
+  "created": 1760459289,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação aborda a causa do problema (falta de orientação adequada) e que os efeitos seriam duradouros devido à institucionalização do procedimento. No entanto, há nuances que merecem atenção na avaliação dos critérios.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1200,
+    "completion_tokens": 111,
+    "total_tokens": 1311,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 304
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

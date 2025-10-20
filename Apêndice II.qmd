@@ -26,6 +26,8 @@ nocite: |
 #| include: false
 #| echo: false
 
+source("./R/funcoes_setup.r")
+
 pacotes_necessarios <- c(
         "rpart",
         "rpart.plot",
@@ -37,16 +39,16 @@ pacotes_necessarios <- c(
         "httr2",
         "dotenv",
         "rpart",
-        "logger")
+        "logger",
+        "extrafont", 
+        "ggplot2", 
+        "ggthemes", 
+        "kableExtra", 
+        "formattable")
 
-pacotes_instalados <- installed.packages()[, 1]
+instala_pacotes(pacotes_necessarios)
 
-pacotes_para_instalar <- setdiff(pacotes_necessarios, pacotes_instalados)
-
-if (length(pacotes_para_instalar) > 0){
-    install.packages(pacotes_para_instalar, quiet = TRUE, repos = "https://cloud.r-project.org")
-}
-
+source("./R/util.r")
 
 library(tidyverse)
 library(httr2)
@@ -59,7 +61,7 @@ options(scipen = 999,
     colorDF_theme = "dark",
     #crayon.enabled = TRUE,
     colorDF_n = 10,
-    tibble.print_max = 300)
+    tibble.print_max = 10)
 
 dotenv::load_dot_env()
 
@@ -70,30 +72,18 @@ modelo <- "deepseek-chat"
 
 O presente documento registra os passos tomados para classificar as recomendações emitidas pelo DENASUS com base nos critérios definidos na pesquisa.
 
-Em linhas gerais, o processo consiste em realizar chamadas à API do fornecedor de LLM escolhido com um prompt que instrua o modelo a realizar a classificação da recomendação.
+Em linhas gerais, o processo consistiu em realizar chamadas à API do fornecedor de LLM escolhido com um prompt que instruiu o modelo a realizar a codificação da recomendação. Usou-se o papel (*role*) `system` para o prompt contendo as instruções de codificação e o papel (*role*) `user` com os dados da recomendação.
 
 Esse documento registra a forma como optou-se por organizar os dados, os passos tomados para chamar a API e guardar os resultados de acordo com a forma de organização de dados definida e, finalmente, a tabulação dos resultados.
 
-Abaixo, tem-se uma amostra dos dados que serão usados para montar os *prompts*.
+Abaixo, tem-se uma amostra dos dados que foram usados usados para montar os *prompts*.
 ```{r}
 #| label: amostra_dados_recomendacoes
 #| echo: true
 #| eval: true
 #| tbl-cap: "Amostra dos dados de recomendações"
 
-recomendacoes <- read_rds("./Dados Gerados/auditorias.rds") |>
-    inner_join(
-        read_rds("./Dados Gerados/constatacoes.rds") |>
-        select(-`No. Auditoria`),
-        by = "Arquivo"
-    ) |>
-    inner_join(
-        read_rds("./Dados Gerados/recomendacoes.rds") |>
-        select(-`No. Auditoria`),
-        by = c("Arquivo", "# Constatação")
-    ) |>
-    slice_sample(n = 200)
-    
+recomendacoes <- read_rds("./Dados Gerados/dataset_consolidado.rds")
 
 recomendacoes |>
 select(Finalidade, `# Constatação`, `Constatação`, `# Recomendação`, `Recomendação`) |>
@@ -110,11 +100,11 @@ rename(
 knitr::kable()
 ```
 
-O processo de classificação está dividido em etapas que correspondem aos prompts definidos na pesquisa. Para cada prompt definido, executa-se uma chamada na API do fornecedor escolhido e guarda-se o resultado e arquivos em pastas cujo modelo de organização está detalhado na próxima seção.
+O processo de categorização foi dividido em etapas que correspondem aos prompts definidos na pesquisa. Para cada prompt definido, executa-se uma chamada na API do fornecedor escolhido e guarda-se o resultado e arquivos em pastas cujo modelo de organização está detalhado na próxima seção.
 
-Por fim, realiza-se a tabulação dos dados em um *dataset* final para permitir a análise dos dados. É importante notar tem-se `r nrow(recomendacoes)` recomendações, e cada recomendação implica em uma chamada na API, a qual pode, sob determinadas circunstâncias, retornar erros. 
+Por fim, realiza-se a tabulação dos dados em um *dataset* final para permitir a análise dos dados.
 
-Assim, o modelo de organização dos dados foi tal que permitiu identificar chamadas que geraram erros e repetir o processo somente para essas chamadas até se obter o o resultado completo das chamadas para o conjunto das recomendações.
+O modelo de organização dos dados foi tal que permitiu identificar chamadas que geraram erros e repetir o processo somente para essas chamadas até se obter o o resultado completo das chamadas para o conjunto das recomendações.
 
 # Organização dos Dados
 
@@ -133,9 +123,9 @@ Onde:
 - \# recomendação: número que identifica a recomendação (numeração incremental criada para cada recomendação no contexto de uma constatação)
 - .json sufixo padrão para arquivos no formato `json`, que é o formato usado pelas APIs.
 
-Para filtrar o conjunto de recomendações para as quais ainda precisa ser feita a classificação, gera-se, no *dataframe* das recomendações, o nome do arquivo para onde o resultado da chamada para a recomendação será salvo (que é "montado" com base no modelo exposto no parágrafo anterior), e depois filtra-se somente recomendações cujo nome do arquivo de destino não conste na listagem de arquivos de recomendações já processadas. Dessa forma, se todas as recomendações já tiverem sido processadas e, portanto, seus respectivos arquivos já existirem, o filtro irá gerá um *dataframe* vazio.
+Para filtrar o conjunto de recomendações para as quais ainda precisa ser feita a classificação, gera-se, no *dataframe* das recomendações, o nome do arquivo para onde o resultado da chamada para a recomendação será salvo (que é "montado" com base no modelo exposto no parágrafo anterior), e depois filtra-se somente recomendações cujo nome do arquivo de destino não conste na listagem de arquivos de recomendações já processadas. Dessa forma, se todas as recomendações já tiverem sido processadas e, portanto, seus respectivos arquivos já existirem, o filtro irá gerar um *dataframe* vazio.
 
-Importante frisar que, como o nome do arquivo de prompt, o nome do fornecedor e o nome do modelo usado compõe o nome do arquivo onde o resultado é salvo, basta alterar qualquer dessas variáveis para que o conjunto de recomendações pendentes de classificação mude, a depender do que já foi classificado para a combinação prompt/modelo.
+Importante frisar que, como o nome do arquivo de prompt, o nome do fornecedor e o nome do modelo usado compõem o nome do arquivo onde o resultado é salvo, basta alterar qualquer dessas variáveis para que o conjunto de recomendações pendentes de classificação mude, a depender do que já foi classificado para a combinação prompt/modelo.
 
 
 # Implementação das Funções de Necessárias
@@ -143,10 +133,10 @@ Importante frisar que, como o nome do arquivo de prompt, o nome do fornecedor e 
 Com o modelo de organização de dados definido, define-se o processo de chamada da API em três partes descritas abaixo:
 
 1. Obtencao das recomendações não processadas: consiste em gerar, no *dataframe* uma coluna com o nome do arquivo onde a recomendação deve ser salva, conforme detalhado na seção anterior e, com base nessa coluna filtrar somente recomendações para as quais o arquivo ainda não exista no sistema de arquivos,
-2. Com as recomendações pendentes, cria-se uma requisição (que representa uma chamada na api) por recomendação e executa-se todas essas chamadas usando-se a função `req_perform_parallel` do pacote httr2[@httr2] o qual implementa todo o controle de chamadas em paralelo. 
+2. Com as recomendações pendentes, cria-se uma requisição (que representa uma chamada na api) por recomendação e executa-se todas essas chamadas usando-se a função `req_perform_parallel` do pacote *httr2* [@httr2] o qual implementa todo o controle de chamadas em paralelo. 
 3. Após o término das chamadas, salva-se o conteúdo de cada resposta em um arquivo `.json` conforme especificado na seção anterior para as chamadas que resultaram em sucesso.
 
-O processo definido acima é implementado pela função `executa_chamadas`, que foi usado nas seções subsequentes para implementar as duas etapas de classificação propostas.
+O processo definido acima é implementado pela função `executa_chamadas`, que foi usado nas seções subsequentes para implementar as duas etapas definidas para o presente trabalho.
 
 Abaixo, o conjunto de funções que serão usadas para cada prompt.
 
@@ -154,64 +144,6 @@ Abaixo, o conjunto de funções que serão usadas para cada prompt.
 #| label: funcoes_uteis
 #| echo: true
 #| eval: true
-
-#' Função auxiliar que, dado um identificador de prompt, retorna a pasta
-#' onde os dados serão salvos.
-#' @param identificador
-obtem_pasta <- function(identificador) {
-    sprintf("./%s/%s", modelo, identificador)
-}
-
-#' Função auxiliar que retorna o conteúdo do arquivo de prompt identificado por
-#' ./Prompts/<identificador>.txt
-#' @param identificador
-obtem_prompt_system <- function(identificador){
-    read_file(sprintf("./Prompts/%s.txt", identificador))
-}
-
-#' Função auxiliar que mostra um exemplo de prompt de um dataframe.
-#' @param df dataframe
-#' @param rn inteiro. Número da linha para usar de exemplo.
-cat_exemplo_prompt <- function(df, rn = 50){
-    exemplo <- df |>
-        filter(row_number() == 100) |>
-        transpose() |>
-        pluck(1)
-    cat("```{txt}\n", exemplo$Prompt, "\n```")
-}
-
-#' Função auxiliar que mostra um exemplo de system prompt.
-#' @param identificador identificador do prompt
-cat_system_prompt <- function(identificador){
-    cat("```{txt}\n", obtem_prompt_system(identificador), "\n```")
-}
-
-#' Função auxiliar que mostra um exemplo de arquivo de saída.
-#' @param df dataframe com coluna "Arquivo Saída"
-#' @param rn inteiro com número do registro para usar.
-cat_resultado <- function(df, rn = 50){
-    exemplo <- df |>
-        filter(row_number() == 100) |>
-        transpose() |>
-        pluck(1)
-    cat("```{json}\n", 
-    read_file(exemplo$`Arquivo Saída`), "
-    ```")
-}
-
-#' Função auxiliar gera as variáveis "Arquivo Saída" e "Prompt"
-#' no dataframe de recomendações
-#' @param dataframe
-#' @param pasta_saida
-#' @param template template para gerar a coluna "Prompt"
-adapta_dataframe <- function(df, pasta_saida, template){
-    df |>
-    mutate(
-        `Prefixo Arquivo` = str_replace(Arquivo, ".pdf", ""),
-        `Arquivo Saída` = "{pasta_saida}/{`Prefixo Arquivo`}/{`# Constatação`}_{`# Recomendação`}.json" |>
-                          str_glue(),
-        Prompt = str_glue(template)) 
-}
 
 #' Função auxiliar que, dada uma pasta de saída, lê os arquivos .json, e
 #' retorna o dataset recomendacoes filtrado contendo somente recomendações
@@ -339,7 +271,7 @@ processa_arquivo <- function(arquivo){
         lista_base <- list(
             "arquivo" = arquivo, 
             "finish_reason" = choice_1$finish_reason,  
-            "erro" = NULL)
+            "erro" = NA)
 
         append(lista_base, content)
     },
@@ -355,7 +287,7 @@ processa_arquivo <- function(arquivo){
 #' @param identificador_prompt identificador do prompt que gerou os dados
 consolida_resultados <- function(identificador_prompt){
     lista_arquivos <- list.files(
-                        sprintf("./%s", identificador_prompt), 
+                        sprintf("./%s/%s", modelo, identificador_prompt), 
                         "*.json$", 
                         full.names = TRUE, 
                         recursive = TRUE)
@@ -367,7 +299,7 @@ consolida_resultados <- function(identificador_prompt){
     clusterExport(cl, "processa_arquivo")
 
     conteudos <- foreach(arquivo = lista_arquivos) %dopar% { 
-        processa_arquivo(arquivo, "classificacao", "justificativa")
+        processa_arquivo(arquivo)
     }
 
     stopCluster(cl)
@@ -387,287 +319,97 @@ consolida_resultados <- function(identificador_prompt){
         warning()
     }
 
-    write_rds(classificacoes,
-        sprintf("./Dados Gerados/cls_%s_%s.rds", identificador_prompt, modelo))
+    write_rds(
+        classificacoes, 
+        obtem_nome_arquivo_resultados(identificador_prompt))
 }
 
 ```
 
-# Prompt Classificador Direto
-
-Nessa etapa, procedemos à classificação inicial usando um prompt identificado como `cls_dir`.
+# Etapa Codificação
 
 ```{r}
-#| label: setup_prompt_1
+#| label: cls_cod_2
 #| echo: true
 #| eval: true
-#| include: false
+#| include: true
+#| results: asis
 
-prompt <- "cls_dir"
+prompt <- "cls_cod_2"
+
+cat("\nPrompt *role* `system`:\n\n")
+
+cat_system_prompt(prompt)
 
 template <- "Finalidade da auditoria: {Finalidade}\n\n
 Constatação:\n\n{`Constatação`}\n\n
 Recomendação:\n\n{`Recomendação`}"
 
 dataframe_adaptado <- recomendacoes |>
-    adapta_dataframe(obtem_pasta(prompt) , template)
+    adapta_dataframe(obtem_pasta(prompt) , template) 
+
+cat("\nExemplo prompt *role* `user`:\n\n")
+
+cat_exemplo_prompt(dataframe_adaptado)
 
 recomendacoes_pendentes <- dataframe_adaptado |>
     obtem_recomendacoes_pendentes(obtem_pasta(prompt)) 
+
+if (nrow(recomendacoes_pendentes) > 0 ){     
+    executa_chamadas(recomendacoes_pendentes, obtem_prompt_system(prompt))
+    consolida_resultados(prompt)
+}
+
 ```
 
-Abaixo, tem-se o conteúdo que vai na mensagem para o papel `system`:
+# Crítica da Categorização
 
 ```{r}
-#| label: prompt_system_classificacao
+#| label: analise_todo
 #| echo: false
-#| eval: true
-#| results: asis
-
-cat_system_prompt(prompt)
-```
-
-Abaixo, vemos um exemplo de mensagem que vai na segunda entrada da lista de mensagens da chamada da API (para o papel *user*):
-
-```{r}
-#| label: exemplo_recomendacao
-#| echo: false
-#| eval: true
-#| results: asis
-
-cat_exemplo_prompt(dataframe_adaptado)
-```
-
-Com o programa configurado, procede-se para o processo de classificação. Conforme já descrito acima, as respostas são salvas em arquivos de texto no formato `.json` na pasta `r pasta_prompt_1`.
-
-```{r}
-#| label: rodada_prompt_1
-#| echo: true
 #| eval: false
 #| include: false
 
-if (nrow(recomendacoes_pendentes) > 0 ){     
-    executa_chamadas(recomendacoes_pendentes, system_prompt_1)
-}
-```
+prompt_crit <- "cls_crit_2"
 
-Abaixo, temos o exemplo da resposta da API para a chamada referente à recomendação acima para o modelo `r modelo` (fornecedor `r fornecedor`).
+cat("\nPrompt *role* `system`:\n\n")
 
-```{r}
-#| label: exemplo_resultado
-#| echo: false
-#| eval: true
-#| results: asis
+cat_system_prompt(prompt_crit)
 
-exemplo_resultado <- read_file(exemplo_prompt_1$`Arquivo Saída`)
+df_codificacao <- read_rds(obtem_nome_arquivo_resultados(prompt))
 
-cat("```{json}\n", exemplo_resultado, "\n```")
-```
+template_prompt_crit <- "Finalidade da auditoria: {Finalidade}\n
+Constatação: {`Constatação`}\n
+Recomendação: {`Recomendação`}\n
+Análise Codificação: {`Análise`}\n
+- Foco Causa: {`Foco Causa`}
+- Efeitos Duradouros: {`Efeitos Duradouros`}\n"
 
-Nota-se que, conforme instruído pelo *prompt* `system`, a mensagem de resposta (atributo `content`) também é formatado como um texto `json` com dois atributos: `classificacao` e `justificativa`.
-
-# Prompt 2
-
-O prompt 2 usa dados produzidos pelo prompt 1. Assim, integra-se os dados produzidos no prompt 1 antes de proceder às chamadas.
-
-```{r}
-#| label: setup_prompt_2
-#| echo: true
-#| eval: true
-#| include: false
-
-consolida_resultados(prompt_1, modelo)
-
-prompt_2 <- "prompt_2"
-pasta_prompt_2 <- sprintf("./%s/%s/%s", prompt_2, fornecedor, modelo)
-system_prompt_2 <- read_file(sprintf("./Prompts/%s.txt", prompt_2))
-
-dados_prompt_1 <- read_rds(sprintf("./Dados Gerados/cls_%s_%s.rds", prompt_1, modelo))
-
-template_prompt_2 <- "Finalidade da auditoria: {Finalidade}\n\n
-Constatação:\n\n{`Constatação`}\n\n
-Recomendação:\n\n{`Recomendação`}\n\n
-Classificação: {`classificacao`}\n\n
-Justificativa para Classificação: {`Justificativa Classificação`}"
-
-recomendacoes_prompt_2 <- recomendacoes |>
-    adapta_dataframe(pasta_prompt_1, template_prompt_1) |>
+recomendacoes_prompt_crit <- recomendacoes |>
+    adapta_dataframe(obtem_pasta(prompt), "") |>
     select(`Arquivo`, `Arquivo Saída`, Finalidade, `# Constatação`, `Constatação`, `# Recomendação`, `Recomendação`) |>
     left_join(
-        classificacoes |>
+        df_codificacao |>
         select(-finish_reason, -erro) |>
-        rename(`Justificativa Classificação` = justificativa),
+        mutate(`Efeitos Duradouros` = str_to_sentence(`Efeitos Duradouros`)),
         by = c("Arquivo Saída" = "arquivo")
     ) |>
     select(!c(`Arquivo Saída`)) |>
-    adapta_dataframe(pasta_prompt_2, template_prompt_2)
+    adapta_dataframe(obtem_pasta(prompt_crit), template_prompt_crit)
 
-recomendacoes_pendentes_prompt_2 <- recomendacoes_prompt_2 |>
-    obtem_recomendacoes_pendentes(pasta_prompt_2)
-```
+cat("\nExemplo prompt *role* `user`:\n\n")
 
-Abaixo, tem-se o conteúdo que vai na mensagem para o papel `system`:
+cat_exemplo_prompt(recomendacoes_prompt_crit)
 
-```{r}
-#| label: prompt_system_2
-#| echo: false
-#| eval: true
-#| results: asis
+recomendacoes_pendentes_prompt_crit <- recomendacoes_prompt_crit |>
+    obtem_recomendacoes_pendentes(obtem_pasta(prompt_crit)) 
 
-cat("```{txt}\n", system_prompt_2, "\n```")
-```
-
-Abaixo, vemos um exemplo de mensagem que vai na segunda entrada da lista de mensagens da chamada da API (para o papel *user*):
-
-```{r}
-#| label: exemplo_recomendacao_2
-#| echo: false
-#| eval: true
-#| results: asis
-
-recomendacao_exemplo_2 <- recomendacoes_prompt_2 |>
-    filter(row_number() == 100)  |>
-    transpose() |>
-    pluck(1)
-
-cat("```{txt}\n", recomendacao_exemplo_2$Prompt, "\n```")
-```
-
-Com o processo já devidamente configurado, procede-se à execução das chamadas. As respostas são salvas em arquivos de texto no formato `.json` na pasta `r pasta_prompt_2`.
-
-```{r}
-```{r}
-#| label: execucao_prompt_2
-#| echo: true
-#| eval: false
-#| include: false
-
-if (nrow(recomendacoes_pendentes_prompt_2) > 0){
-    executa_chamadas(recomendacoes_pendentes_prompt_2, system_prompt_2)
+if (nrow(recomendacoes_pendentes_prompt_crit) > 0 ){     
+    executa_chamadas(recomendacoes_pendentes_prompt_crit, obtem_prompt_system(prompt_crit))
+    consolida_resultados(prompt_crit)
 }
-```
-
-Abaixo, temos o exemplo da resposta da API para a chamada referente à recomendação acima para o modelo `r modelo` (fornecedor `r fornecedor`).
-
-```{r}
-#| label: exemplo_resultado_2
-#| echo: false
-#| eval: true
-#| results: asis
-
-exemplo_resultado <- read_file(recomendacao_exemplo_2$`Arquivo Saída`)
-
-cat("```{json}\n", exemplo_resultado, "\n```")
-```
-
-Com as chamadas já realizadas, procede-se à leitura dos arquivos, identificação de falhas e consolidação dos dados em um dataset para uso em conjunto com os dados das classificações.
-
-```{r}
-#| label: criacao_dataset_analises
-#| echo: true
-#| eval: false
-#| include: false
-
-consolida_resultados(prompt_2, modelo)
-```
-
-# Prompt 3
-
-O prompt 3 só usa dados das recomendações, dispensando assim os dados dos prompts anteriores.
-
-```{r}
-#| label: setup_prompt_2
-#| echo: true
-#| eval: true
-#| include: false
-
-prompt_3 <- "prompt_3"
-pasta_prompt_3 <- sprintf("./%s/%s/%s", prompt_3, fornecedor, modelo)
-system_prompt_3 <- read_file(sprintf("./Prompts/%s.txt", prompt_3))
-
-template_prompt_3 <- "Finalidade da auditoria: {Finalidade}\n\n
-Constatação:\n\n{`Constatação`}\n\n
-Recomendação:\n\n{`Recomendação`}"
-
-recomendacoes_prompt_3 <- recomendacoes |>
-    adapta_dataframe(pasta_prompt_3, template_prompt_3)
-
-recomendacoes_pendentes_prompt_3 <- recomendacoes_prompt_3 |>
-    obtem_recomendacoes_pendentes(pasta_prompt_3) |>
-    slice_sample(n = 100)
-```
-
-Abaixo, tem-se o conteúdo que vai na mensagem para o papel `system`:
-
-```{r}
-#| label: prompt_system_2
-#| echo: false
-#| eval: true
-#| results: asis
-
-cat("```{txt}\n", system_prompt_3, "\n```")
-```
-
-Abaixo, vemos um exemplo de mensagem que vai na segunda entrada da lista de mensagens da chamada da API (para o papel *user*):
-
-```{r}
-#| label: exemplo_recomendacao_2
-#| echo: false
-#| eval: true
-#| results: asis
-
-recomendacao_exemplo_3 <- recomendacoes_pendentes_prompt_3 |>
-    filter(row_number() == 100)  |>
-    transpose() |>
-    pluck(1)
-
-cat("```{txt}\n", recomendacao_exemplo_3$Prompt, "\n```")
-```
-
-Com o processo já devidamente configurado, procede-se à execução das chamadas. As respostas são salvas em arquivos de texto no formato `.json` na pasta `r pasta_prompt_2`.
-
-```{r}
-```{r}
-#| label: execucao_prompt_2
-#| echo: true
-#| eval: false
-#| include: false
-
-if (nrow(recomendacoes_pendentes_prompt_3) > 0){
-    executa_chamadas(recomendacoes_pendentes_prompt_3, system_prompt_3)
-}
-```
-
-Abaixo, temos o exemplo da resposta da API para a chamada referente à recomendação acima para o modelo `r modelo` (fornecedor `r fornecedor`).
-
-```{r}
-#| label: exemplo_resultado_2
-#| echo: false
-#| eval: true
-#| results: asis
-
-exemplo_resultado <- read_file(recomendacao_exemplo_3$`Arquivo Saída`)
-
-cat("```{json}\n", exemplo_resultado, "\n```")
-```
-
-Com as chamadas já realizadas, procede-se à leitura dos arquivos, identificação de falhas e consolidação dos dados em um dataset para uso em conjunto com os dados das classificações.
-
-```{r}
-#| label: criacao_dataset_analises
-#| echo: true
-#| eval: false
-#| include: false
-
-consolida_resultados(prompt_3, modelo)
-
 
 ```
-
-
-
-
-
 
 # Tabulação dos Resultados
 
@@ -678,67 +420,57 @@ Com os dados das duas estapas de classificação devidamente salvos, cruza-se ta
 #| echo: true
 #| eval: true
 
-classificacoes <- read_rds(sprintf("./Dados Gerados/cls_%s_%s.rds", "prompt_1", modelo))
-analises <- read_rds(sprintf("./Dados Gerados/cls_%s_%s.rds", "prompt_2", modelo))
+# cls_dir <- read_rds(obtem_nome_arquivo_resultados("cls_dir"))
+cls_cod <- read_rds(obtem_nome_arquivo_resultados("cls_cod"))
+etiquetas <- read_rds(obtem_nome_arquivo_resultados("etiquetador"))
 
 dataset_final <- recomendacoes |>
-    adapta_dataframe(sprintf("./%s/%s/%s", "prompt_1", fornecedor, modelo), "") |>
-    left_join(
-        classificacoes |>
-        select(-finish_reason, -erro) |>
-        rename(
-            `Justificativa Classificação` = justificativa,
-            `Classificação` = classificacao),
+    # adapta_dataframe(obtem_pasta("cls_dir"), "") |>
+    # left_join(
+    #     cls_dir |>
+    #     select(-finish_reason, -erro) |>
+    #     rename(
+    #         `Análise Categorização` = analise,
+    #         `Categoria (LLM)` = categoria),
+    #     by = c("Arquivo Saída" = "arquivo")
+    # ) |>
+    # select(!c(`Arquivo Saída`)) |>
+    #adapta_dataframe(obtem_pasta("cls_cod"), "") |>
+    # left_join(
+    #     cls_cod |>
+    #     select(-finish_reason, -erro),
+    #     by = c("Arquivo Saída" = "arquivo")
+    # ) |>
+    adapta_dataframe(obtem_pasta("etiquetador"), "") |>
+    inner_join(
+        etiquetas |>
+        select(-finish_reason, -erro),
         by = c("Arquivo Saída" = "arquivo")
-    ) |>
-    select(!c(`Arquivo Saída`)) |>
-    adapta_dataframe(sprintf("./%s/%s/%s", "prompt_2", fornecedor, modelo), "") |>
-    left_join(
-        analises |>
-        select(-finish_reason, -erro) |>
-        rename(
-            `Análise Classificação` = analise, 
-            `Opinião` = opiniao),
-        by = c("Arquivo Saída" = "arquivo")
-    ) |>
-    mutate(Ano = year(`Data Geração`) |> as.character()) |>
-    mutate(Grupo = str_extract(Grupo, "(^.*?) Constata..o.*", 1)) |>
-    mutate(UF = str_sub(`Munícipio/UF`, -2), .keep = "unused") |>
-    mutate(Objeto = Objeto |> 
-                str_replace(fixed(".Fora de bloco|"), "Sem Bloco|") |>
-                str_replace("\\.(?=[A-Z])", ". ") |>
-                str_replace(fixed("MAC-OPME"), "MAC|OPME") |>
-                str_replace(" Órgão\\(s\\).*", ""),
-        Bloco = str_extract(Objeto, "(.*?)\\|.*", 1),
-        `Sub bloco` = str_extract(Objeto, ".*?\\|(.*?)(\\|.*|$)", 1),
-        Bloco = coalesce(Bloco, Objeto),
-        Bloco = str_replace(Bloco, "REGULAÇÃO DO ACESSO.*", "Reg. Acesso Consultas/Exames"))
+    )
 
 write_rds(dataset_final, "./Dados Gerados/dataset_final.rds")
 ```
 
-# Análise dos Resultados
-
-Conforme vê-se abaixo, somente 12% das recomendações foram classificadas como baseadas na condição.
 
 ```{r}
 #| label: resultado_geral
 #| echo: false
-#| eval: true
+#| eval: false
 #| tbl-cap: "Resultado geral"
 dataset_final <- read_rds("./Dados Gerados/dataset_final.rds")
+
 dataset_final |>
-summarise(Total = n(), .by = c(`Classificação`,`Opinião`)) |>
+summarise(Total = n(), .by = c(`Categoria (LLM)`,`Categoria (Calculada)`)) |>
 mutate(`% Total` = 100 * Total / sum(Total)) |>
 knitr::kable()
+
 ```
 
-Abaixo, temos a evolução no tempo de tal classificação, considerando-se como marco temporal a data de geração do relatório.
 
 ```{r}
 #| label: analise_ano
 #| echo: false
-#| eval: true
+#| eval: false
 #| tbl-cap: "Resultado por Ano da Geração do Relatório"
 
 analise_por_var <- function(data, var_name, replace = "Outros *"){
@@ -767,16 +499,11 @@ arrange(Ano) |>
 knitr::kable()
 ```
 
-Da análise acima, nota-se que de 2023 para 2024 houve uma queda grande no percentual de recomendações com foco na condição.
-
-Tal percentual está aumentando para o ano de 2025, mas ainda está em patamar mais baixo que em 2023.
-
-Abaixo, tem-se analise similar, mas segmentando pela variável "Grupo", que é uma variável da constatação, ou seja, todas as recomendações de uma dada Constatação "Herdam" o mesmo valor.
 
 ```{r}
 #| label: analise_grupo
 #| echo: false
-#| eval: true
+#| eval: false
 #| tbl-cap: "Resultado por Grupo de Constatação"
 
 dataset_analise |>
@@ -784,16 +511,11 @@ analise_por_var("Grupo") |>
 knitr::kable()
 ```
 
-\* Grupos com menos de 20 recomendações no total.
-
-Nota-se prevalência acima da média (de 12%) de recomendações com foco na condição nos grupos "Recursos Financeiros", "Programa Farmácia Popular do Brasil" e "Assistência Média e Alta Complexidade" e em grupos com menos de 20 recomendações.
-
-Abaixo, tem-se a análise por UF.
 
 ```{r}
 #| label: analise_uf
 #| echo: false
-#| eval: true
+#| eval: false
 #| tbl-cap: "Resultado por UF da Auditoria"
 
 dataset_analise |>
@@ -801,11 +523,6 @@ analise_por_var("UF") |>
 knitr::kable()
 ```
 
-Nota-se que os estados com maior volume de recomendações parecem apresentar maior propensão à ocorrência de recomendações com foco na condição (embora não proporcionamente).
-
-Chama a atenção o caso das auditorias no estadp da Paraíba, onde das 181 recomendações, somente 5 foram classificadas como baseada na condição.
-
-Abaixo, temos a análise por demandante do trabalho de auditoria.
 
 ```{r}
 #| label: analise_demandante
@@ -818,14 +535,10 @@ analise_por_var("Demandante") |>
 knitr::kable()
 ```
 
-Nota-se uma grande proporção de recomendações baseadas na condição para os demandantes MS/SAES, Ms/SCTIE e Polícia Federal.
-
-Por fim, na tabela abaixo, organizamos as quantidades em cada classificação, ordenando pela quantidade de recomendações classificadas como baseadas na condição para a combinação de variáveis Grupo, UF, e Demandante.
-
 ```{r}
 #| label: analise_combinacao_variaveis
 #| echo: false
-#| eval: true
+#| eval: false
 #| tbl-cap: "10 Maiores em Termos de Quantidade por Grupo, UF e Demandante"
 
 dataset_analise |> 
@@ -848,9 +561,6 @@ head(n = 10) |>
 knitr::kable()
 ```
 
-# Conclusão
-
-Nota-se que o objetivo proposto foi concluído com sucesso, gerando uma base de dados de recomendações já classificadas que podem inclusive ser úteis em outros trabalhos, e também com uma sugestão metodológica de organização dos dados para replicação do processo com outros fornecedores de LLM.
 
 ```{r}
 #| label: arvore_decisao

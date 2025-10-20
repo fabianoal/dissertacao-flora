@@ -1,0 +1,28 @@
+{
+  "id": "610b0ce7-2946-44f9-af42-055db772d16b",
+  "object": "chat.completion",
+  "created": 1760448386,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a criação de Procedimentos Operacionais Padrão (POPs) para o processo logístico da cadeia de frio, o que efetivamente aborda a causa raiz da constatação, que é a ausência de procedimentos padronizados e acessíveis. Para o critério 'Efeitos Duradouros', a instituição de POPs estabelece um controle documentado que, se mantido atualizado e acessível, pode perdurar independentemente de mudanças na equipe, embora dependa de práticas contínuas de gestão documental.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1329,
+    "completion_tokens": 186,
+    "total_tokens": 1515,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 433
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

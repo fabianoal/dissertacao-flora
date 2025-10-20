@@ -1,0 +1,28 @@
+{
+  "id": "69efa9b1-f4b0-4aa1-9035-0c31cf62b284",
+  "object": "chat.completion",
+  "created": 1760384603,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a anexação de cópias das notas fiscais ao prontuário do paciente, conforme exigido pelo manual técnico, o que visa corrigir diretamente a condição de ausência desses documentos. No entanto, não há menção a ações que abordem a causa subjacente, como falhas em processos de treinamento, supervisão ou sistemas que levam à não conformidade, focando apenas na correção imediata da condição observada.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 957,
+    "completion_tokens": 141,
+    "total_tokens": 1098,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 125
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

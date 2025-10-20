@@ -1,0 +1,28 @@
+{
+  "id": "a0ab7dca-5ccd-46f5-9f41-977809126eeb",
+  "object": "chat.completion",
+  "created": 1760457565,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação aborda a causa raiz do problema (falta de diretrizes claras para detalhamento de despesas) e que os efeitos seriam duradouros devido à institucionalização de critérios formais. No entanto, há nuances que merecem atenção na avaliação dos critérios.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1262,
+    "completion_tokens": 125,
+    "total_tokens": 1387,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 366
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

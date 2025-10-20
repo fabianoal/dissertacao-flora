@@ -1,0 +1,28 @@
+{
+  "id": "927a5717-988d-48c5-8e49-ea9195f28012",
+  "object": "chat.completion",
+  "created": 1760399020,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação contém duas partes distintas. A primeira parte trata da restituição de recursos recebidos indevidamente, que é uma medida corretiva para a condição específica encontrada (recebimento irregular de recursos), caracterizando-se como foco na condição. A segunda parte recomenda a implementação de mecanismos de registro, verificação e responsabilização por inconsistências, visando prevenir a ocorrência futura de problemas similares, o que demonstra foco na causa. Em relação aos efeitos duradouros, a implementação de mecanismos permanentes de controle e responsabilização criaria estruturas que persistiriam independentemente de mudanças nos atores envolvidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1221,
+    "completion_tokens": 185,
+    "total_tokens": 1406,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 389
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ca7cb1f4-1f93-4535-ae56-7e104499f82d",
+  "object": "chat.completion",
+  "created": 1760388754,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação exige a apresentação de documentação fiscal comprobatória e cópia autenticada do registro na Secretaria da Fazenda quando solicitada, focando na correção da condição específica de falta de documentação, sem propor ações para prevenir a causa raiz da não apresentação, como falhas em processos de gestão documental. Portanto, não trata da causa do problema. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1040,
+    "completion_tokens": 157,
+    "total_tokens": 1197,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 208
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

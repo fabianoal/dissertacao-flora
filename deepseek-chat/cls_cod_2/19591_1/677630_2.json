@@ -1,0 +1,28 @@
+{
+  "id": "6f364596-5ba3-45ea-bb2b-b19d87f24d8d",
+  "object": "chat.completion",
+  "created": 1760388630,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações para garantir programação, aquisição e distribuição adequadas do medicamento Alfapoetina 4.000UI, visando evitar a falta do produto e garantir o tratamento aos pacientes. No entanto, essas ações tratam especificamente da condição atual de estoque insuficiente e distribuição inadequada, sem abordar as causas subjacentes que levam a essa condição, como falhas nos processos de planejamento, aquisição ou gestão de estoques. Portanto, a recomendação é focada na condição (corrigir o estoque e a distribuição), não na causa (evitar que o problema ocorra novamente através de mudanças estruturais). Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1066,
+    "completion_tokens": 231,
+    "total_tokens": 1297,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 170
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

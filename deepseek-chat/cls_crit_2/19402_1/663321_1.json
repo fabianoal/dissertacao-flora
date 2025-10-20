@@ -1,0 +1,28 @@
+{
+  "id": "6618aa2c-b4e1-457c-9ee0-f6a4990f668a",
+  "object": "chat.completion",
+  "created": 1760452252,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise realizada pelo modelo apresenta uma avaliação coerente com os critérios estabelecidos, identificando corretamente que a recomendação se concentra em medidas corretivas imediatas sem abordar as causas subjacentes do problema.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1427,
+    "completion_tokens": 97,
+    "total_tokens": 1524,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 531
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

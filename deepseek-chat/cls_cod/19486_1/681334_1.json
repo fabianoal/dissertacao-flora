@@ -1,0 +1,28 @@
+{
+  "id": "b62edc61-c0fe-4a3a-9bb5-23906edd4be9",
+  "object": "chat.completion",
+  "created": 1760038224,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere ações específicas para resolver a condição encontrada, como marcar consultas no primeiro contato do pré-natal e manter vagas proporcionais, o que configura uma ação corretiva. Além disso, propõe medidas como criar canais de comunicação direto, que visam abordar a causa subjacente da falta de coordenação entre equipes, indo além do mero cumprimento de normativos e sendo específica. Essas ações com foco na causa, se implementadas, podem ter efeitos duradouros, pois estabelecem processos estruturados que não dependem de indivíduos específicos.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Específica\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1314,
+    "completion_tokens": 185,
+    "total_tokens": 1499,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 290
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

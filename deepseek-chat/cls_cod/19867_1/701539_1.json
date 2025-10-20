@@ -1,0 +1,28 @@
+{
+  "id": "7677b903-d6d0-4338-bec5-25128df2233a",
+  "object": "chat.completion",
+  "created": 1760036280,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere duas ações distintas: uma ação corretiva para devolver os recursos recebidos indevidamente (elisão do dano) e uma ação preventiva para evitar a recorrência do fato. A ação preventiva é genérica, limitando-se a citar o cumprimento de um normativo (art. 3º da Portaria GM/MS n.º 885/2021) sem especificar medidas concretas para tratar a causa raiz do problema, como melhorias nos processos de inserção de dados ou controles internos.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1214,
+    "completion_tokens": 169,
+    "total_tokens": 1383,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 190
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

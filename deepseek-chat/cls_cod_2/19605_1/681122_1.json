@@ -1,0 +1,28 @@
+{
+  "id": "dc7af250-6307-40b2-8f90-f75c29cf0fae",
+  "object": "chat.completion",
+  "created": 1760389042,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a organização de uma linha de cuidado, diagnóstico e adequação de fluxos, o que visa tratar a causa subjacente da falta de organização da rede de saúde, ao invés de apenas corrigir a condição atual. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como a construção de grades de referência e contrarreferência, são estruturas que podem persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1030,
+    "completion_tokens": 150,
+    "total_tokens": 1180,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 198
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

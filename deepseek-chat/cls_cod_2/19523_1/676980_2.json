@@ -1,0 +1,28 @@
+{
+  "id": "c99f11bc-a03f-4ad1-bd6a-ddd480328fb3",
+  "object": "chat.completion",
+  "created": 1760386910,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação apenas solicita que a SAES/MS tome conhecimento da constatação e adote procedimentos conforme estabelecido em decreto, sem especificar ações concretas para tratar a causa da divergência entre os dados inseridos no SIA/SUS e os registros hospitalares. Não há menção a ações que abordem a origem do problema, como falhas no processo de registro, capacitação de pessoal ou implementação de controles internos. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1263,
+    "completion_tokens": 181,
+    "total_tokens": 1444,
+    "prompt_tokens_details": {
+      "cached_tokens": 1152
+    },
+    "prompt_cache_hit_tokens": 1152,
+    "prompt_cache_miss_tokens": 111
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

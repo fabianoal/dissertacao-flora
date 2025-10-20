@@ -1,0 +1,28 @@
+{
+  "id": "3731fd49-e745-43c7-9c59-b8df17bfed84",
+  "object": "chat.completion",
+  "created": 1760002001,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere uma ação corretiva para formalizar a Rede Frio na estrutura da SMS, resolvendo a condição de ausência de documentação. No entanto, a ação proposta é genérica, pois se limita a cumprir um normativo (RDC n.º 63/2011) sem especificar medidas concretas para abordar as causas subjacentes, como falhas em processos ou responsabilidades.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1180,
+    "completion_tokens": 139,
+    "total_tokens": 1319,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 220
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

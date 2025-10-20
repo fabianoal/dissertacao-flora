@@ -1,0 +1,28 @@
+{
+  "id": "dc9ae078-844a-408e-823b-cdf56917f6c7",
+  "object": "chat.completion",
+  "created": 1760035640,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação solicita que o Conselho Municipal de Saúde avalie e se manifeste sobre as prestações de contas mensais dos convênios, o que constitui uma ação corretiva para resolver a condição encontrada de falta de manifestação. No entanto, a recomendação se limita a citar o cumprimento de dispositivos normativos específicos da Resolução CNS nº 453/2012, sem propor ações concretas além do mero cumprimento dessas normas para tratar a causa subjacente da falta de manifestação, como a implementação de processos ou capacitações. Portanto, a ação com foco na causa é genérica. Como a ação é genérica, os efeitos duradouros não são alcançados, pois a recomendação não estabelece mecanismos que persistam independentemente de mudanças nos atores envolvidos.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1385,
+    "completion_tokens": 234,
+    "total_tokens": 1619,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 425
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

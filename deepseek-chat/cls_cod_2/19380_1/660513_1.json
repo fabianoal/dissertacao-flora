@@ -1,0 +1,28 @@
+{
+  "id": "a5d41eef-9d6b-4856-b76f-24f85665e8bc",
+  "object": "chat.completion",
+  "created": 1760384923,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"A recomendação 1 propõe a restituição de recursos recebidos indevidamente, focando na correção da condição atual de recebimento irregular, sem abordar as causas subjacentes, como falhas nos sistemas de controle ou processos de inserção de dados. A recomendação 2 aborda o cumprimento de leis para controle contábil e responsabilidades, o que pode tratar causas relacionadas a conformidade legal, mas não especifica ações para prevenir a reincidência de inserção de dados adulterados. Portanto, não há ações claramente voltadas para a causa raiz do problema. Em relação aos efeitos duradouros, como o critério 'Foco Causa' é 'Não', não se aplica.\",\n   \"Foco Causa\": \"Não\",\n   \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1770,
+    "completion_tokens": 197,
+    "total_tokens": 1967,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 938
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

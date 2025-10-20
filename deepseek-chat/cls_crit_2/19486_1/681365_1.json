@@ -1,0 +1,28 @@
+{
+  "id": "acb68714-2e82-4038-926a-049015f617a5",
+  "object": "chat.completion",
+  "created": 1760469477,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações que visam tratar a causa raiz das divergências nos dados de cobertura vacinal, como a elaboração de protocolos locais para organização da atenção, rastreamento e busca ativa, o que é consistente com a definição de recomendações com foco na causa. Quanto ao critério 'Efeitos Duradouros', as ações sugeridas, como a criação de protocolos, são estruturadas para estabelecer processos padronizados que podem permanecer eficazes mesmo com mudanças nos atores envolvidos, alinhando-se com a definição do critério.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1345,
+    "completion_tokens": 189,
+    "total_tokens": 1534,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 449
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "577a4b4f-03b2-49fe-ab2a-7f3c79d1a9f0",
+  "object": "chat.completion",
+  "created": 1760400960,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe duas ações principais: corrigir processos e fluxo de documentação no DAME e realizar orientação/treinamento da equipe técnica. A correção de processos e fluxos visa tratar a causa raiz da ausência de documentação adequada, que pode estar relacionada a falhas sistêmicas na gestão documental. Já em relação aos efeitos pretendidos pela recomendação, a correção de processos e fluxos institucionalizados tende a produzir efeitos duradouros, pois cria estruturas e procedimentos que permanecem independentemente de mudanças na equipe, enquanto o treinamento também contribui para sustentabilidade ao capacitar permanentemente os profissionais.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1115,
+    "completion_tokens": 192,
+    "total_tokens": 1307,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 219
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

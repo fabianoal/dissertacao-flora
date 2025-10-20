@@ -1,0 +1,28 @@
+{
+  "id": "5f5d5cd8-e3a8-40c4-a6fd-ab0080716119",
+  "object": "chat.completion",
+  "created": 1760387146,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a apresentação imediata dos documentos solicitados, o que é uma medida corretiva da condição atual (não apresentação), e estabelece procedimentos de manutenção e arquivamento dos documentos por 10 anos, visando prevenir a reincidência do problema. No entanto, a recomendação não identifica nem trata a causa raiz da não apresentação (como falhas no processo de gestão documental, falta de capacitação, ou problemas no sistema de informação), focando apenas na correção da condição e em medidas de conformidade documental. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, a análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1126,
+    "completion_tokens": 198,
+    "total_tokens": 1324,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 230
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

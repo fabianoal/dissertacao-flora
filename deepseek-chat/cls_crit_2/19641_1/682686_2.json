@@ -1,0 +1,28 @@
+{
+  "id": "215d1616-0cb5-4371-82f2-84d58db4ec76",
+  "object": "chat.completion",
+  "created": 1760458677,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise da codificação apresenta uma avaliação coerente, identificando corretamente que a recomendação não aborda a causa raiz do problema (dispensação para CPF de beneficiários falecidos), focando apenas em aspectos documentais após o restabelecimento da conexão. No entanto, a análise poderia ser mais precisa ao destacar que a recomendação se concentra em conformidade processual sem propor ações preventivas para evitar a reincidência da causa subjacente.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1395,
+    "completion_tokens": 150,
+    "total_tokens": 1545,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 499
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

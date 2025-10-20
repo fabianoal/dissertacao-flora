@@ -1,0 +1,28 @@
+{
+  "id": "1c4c7c59-29fe-4652-bb06-02f884b6b665",
+  "object": "chat.completion",
+  "created": 1760392078,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe ações como manter atualizado mensalmente o cadastro no sistema, o que visa prevenir a reocorrência da condição de desatualização ao abordar a causa subjacente, como a falta de processos regulares de atualização. Já em relação aos efeitos pretendidos pela recomendação, a implementação de procedimentos sistemáticos e mensais para atualização do cadastro tende a criar efeitos duradouros, pois estabelece uma rotina que não depende de indivíduos específicos, persistindo mesmo com mudanças de atores.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1074,
+    "completion_tokens": 161,
+    "total_tokens": 1235,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 306
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

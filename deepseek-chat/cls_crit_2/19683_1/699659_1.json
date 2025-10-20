@@ -1,0 +1,28 @@
+{
+  "id": "52fbc7c1-89e1-46fb-80be-a4c924790d1b",
+  "object": "chat.completion",
+  "created": 1760459673,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a implementação de um processo de conferência documental que visa prevenir a ocorrência futura de problemas similares, tratando a causa raiz (falta de verificação adequada) e não apenas corrigindo a condição específica (ausência de contrato). Quanto ao critério 'Efeitos Duradouros', a recomendação estabelece um procedimento sistemático de conferência que, uma vez implementado, criaria um mecanismo institucional independente dos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1333,
+    "completion_tokens": 178,
+    "total_tokens": 1511,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 437
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

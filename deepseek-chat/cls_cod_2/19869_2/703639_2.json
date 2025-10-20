@@ -1,0 +1,28 @@
+{
+  "id": "b6d1598b-c9d3-480c-96d8-3d8a5beb4a83",
+  "object": "chat.completion",
+  "created": 1760400208,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe duas ações distintas: a primeira é corrigir o processo de alimentação dos bancos de dados (foco na causa), enquanto a segunda é devolver valores recebidos irregularmente (foco na condição). A ação de proceder à correta alimentação dos bancos de dados visa prevenir a reincidência do problema, tratando a causa. Já em relação aos efeitos pretendidos pela recomendação, a ação de correção na alimentação dos bancos de dados estabelece um procedimento que, se implementado adequadamente, pode manter seus efeitos mesmo com mudanças nos atores envolvidos, pois se baseia em conformidade com normativa específica.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1161,
+    "completion_tokens": 189,
+    "total_tokens": 1350,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 265
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

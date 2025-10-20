@@ -1,0 +1,28 @@
+{
+  "id": "6816cd58-991b-448e-96bc-491b0788c4e9",
+  "object": "chat.completion",
+  "created": 1760458685,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação não propõe ações específicas para tratar a causa do problema, limitando-se a encaminhar a constatação para adoção de procedimentos genéricos sem medidas preventivas claras. No entanto, a justificativa poderia ser mais detalhada, explicando que a ausência de ações direcionadas à causa (como implementação de controles de documentação ou treinamento) impede a classificação como 'Foco Causa'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1268,
+    "completion_tokens": 155,
+    "total_tokens": 1423,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 372
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

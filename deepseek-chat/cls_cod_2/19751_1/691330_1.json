@@ -1,0 +1,28 @@
+{
+  "id": "23719be7-9c25-4b34-8ec9-63b415422109",
+  "object": "chat.completion",
+  "created": 1760395404,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam da causa do problema, que é a ausência de um sistema estruturado de monitoramento por indicadores. As medidas incluem a implantação de um plano de ação com treinamentos regulares e a criação de um sistema de registro consistente, visando estabelecer processos permanentes para coleta e análise de dados. Já em relação aos efeitos pretendidos, as ações sugeridas (como o plano de ação, treinamentos e sistema de registro) são estruturadas para criar mecanismos institucionais que permaneçam funcionais mesmo com mudanças na equipe, pois se baseiam em procedimentos documentados e sistemas estabelecidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1092,
+    "completion_tokens": 188,
+    "total_tokens": 1280,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 260
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

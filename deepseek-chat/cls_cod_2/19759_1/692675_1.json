@@ -1,0 +1,28 @@
+{
+  "id": "220313b8-0c8c-4ee2-ba2d-a99da07dc70f",
+  "object": "chat.completion",
+  "created": 1760395692,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe adequar a estrutura física da CMRF para incluir áreas específicas e identificadas para recebimento/inspeção, distribuição de materiais e quarentena de produtos segregados, o que visa tratar a causa raiz do problema (estrutura física inadequada) e não apenas corrigir a condição atual temporariamente. Já em relação aos efeitos pretendidos pela recomendação, as adequações estruturais propostas são permanentes e independem de mudanças nos atores envolvidos, garantindo efeitos duradouros mesmo com eventual rotatividade de pessoal.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1132,
+    "completion_tokens": 172,
+    "total_tokens": 1304,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 300
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "e9de2256-600f-4226-bc29-13ea92ab7e4d",
+  "object": "chat.completion",
+  "created": 1760385590,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação orienta o cumprimento de dispositivos normativos que estabelecem a obrigatoriedade de planejamento e documentação das ações de saúde nos instrumentos de gestão do SUS (Plano de Saúde, Programação Anual de Saúde e Relatório Anual de Gestão). Isso aborda a causa do problema, que é a falta de referência à produção ambulatorial nos instrumentos de gestão, ao exigir a incorporação sistemática dessas informações nos processos de planejamento. Quanto aos efeitos duradouros, a implementação desses instrumentos como parte do ciclo de gestão cria uma estrutura permanente de planejamento e monitoramento que independe de mudanças nos atores envolvidos, estabelecendo um processo contínuo e institucionalizado.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1213,
+    "completion_tokens": 202,
+    "total_tokens": 1415,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 381
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

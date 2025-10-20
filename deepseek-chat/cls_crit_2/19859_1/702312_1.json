@@ -1,0 +1,28 @@
+{
+  "id": "ea95272a-1f2f-4daa-8205-7185d0010706",
+  "object": "chat.completion",
+  "created": 1760467221,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identificou corretamente que as recomendações abordam as causas subjacentes do problema, como a falta de capacitação adequada e a ausência de rotinas de verificação. No entanto, para o critério 'Efeitos Duradouros', embora as ações propostas tenham potencial para institucionalizar processos, a análise não considerou adequadamente a dependência de implementação consistente e recursos contínuos, que podem variar com mudanças na gestão.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1681,
+    "completion_tokens": 163,
+    "total_tokens": 1844,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 785
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

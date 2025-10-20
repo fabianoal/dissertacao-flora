@@ -1,0 +1,28 @@
+{
+  "id": "80837c45-572f-483d-a0c3-1e81c2109293",
+  "object": "chat.completion",
+  "created": 1760455433,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda diretamente a causa do problema identificado na constatação, que é a falta de consideração das necessidades nutricionais individuais dos pacientes. Para o critério 'Efeitos Duradouros', a recomendação propõe a implementação de um processo estruturado e individualizado, que tende a ser mantido independentemente de mudanças na equipe, garantindo continuidade no cuidado nutricional.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1390,
+    "completion_tokens": 150,
+    "total_tokens": 1540,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 494
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

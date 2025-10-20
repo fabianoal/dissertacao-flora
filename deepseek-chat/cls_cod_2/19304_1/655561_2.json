@@ -1,0 +1,28 @@
+{
+  "id": "e82af753-146c-491c-a7f4-03c94d4c7d0a",
+  "object": "chat.completion",
+  "created": 1760384614,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação trata especificamente da restituição de valores cobrados indevidamente, focando na correção da condição financeira irregular identificada. Não há nenhuma ação proposta que aborde as causas que levaram à cobrança de DMIs diferentes dos implantados, como falhas nos processos de controle, sistemas de verificação ou procedimentos operacionais. Portanto, a recomendação é condition-based, não cause-based. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1021,
+    "completion_tokens": 162,
+    "total_tokens": 1183,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 189
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

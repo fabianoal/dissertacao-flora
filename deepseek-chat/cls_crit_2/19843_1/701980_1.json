@@ -1,0 +1,28 @@
+{
+  "id": "b426403b-566a-4796-9077-e3e3499a74a7",
+  "object": "chat.completion",
+  "created": 1760466613,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação inclui tanto ações para correção imediata das inconsistências (foco na condição) quanto a implementação de um processo contínuo de revisão periódica e designação de um responsável pela manutenção dos dados, que aborda a causa raiz (falta de processos sistemáticos). Portanto, a classificação como 'Sim' é adequada. Para o critério 'Efeitos Duradouros', a institucionalização de um processo de revisão e responsabilização cria uma estrutura que pode persistir independentemente de mudanças de pessoal, justificando a resposta 'Sim'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1265,
+    "completion_tokens": 190,
+    "total_tokens": 1455,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 369
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

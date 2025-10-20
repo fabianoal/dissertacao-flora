@@ -1,0 +1,28 @@
+{
+  "id": "b0fcbf6d-7728-4199-88d9-da61a9925b9f",
+  "object": "chat.completion",
+  "created": 1760395765,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a adoção de controles para monitoramento da temperatura durante o transporte e a identificação completa da caixa térmica, além da capacitação de um profissional para acompanhamento. Essas ações visam estabelecer procedimentos permanentes que previnem a ocorrência do problema (transporte inadequado) ao tratar as causas relacionadas à falta de monitoramento, identificação e acompanhamento qualificado. Já em relação aos efeitos pretendidos pela recomendação, os controles implementados (como monitoramento de temperatura e identificação padronizada) e a capacitação profissional criam sistemas e processos que devem persistir independentemente de mudanças nos atores envolvidos, pois se baseiam em normas e procedimentos estabelecidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1055,
+    "completion_tokens": 202,
+    "total_tokens": 1257,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 223
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

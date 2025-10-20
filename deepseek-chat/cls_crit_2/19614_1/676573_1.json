@@ -1,0 +1,28 @@
+{
+  "id": "d339c06a-da97-4b74-93f8-856931cfd1a3",
+  "object": "chat.completion",
+  "created": 1760457013,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise crítica avalia a classificação dos critérios 'Foco Causa' e 'Efeitos Duradouros' com base na recomendação fornecida. A recomendação sugere uma ação de apuração para verificar o cumprimento da carga horária, o que se alinha com a identificação da condição atual, mas não propõe medidas para abordar as causas subjacentes do excesso de carga horária, como questões de gestão ou alocação de recursos.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1175,
+    "completion_tokens": 149,
+    "total_tokens": 1324,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 279
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

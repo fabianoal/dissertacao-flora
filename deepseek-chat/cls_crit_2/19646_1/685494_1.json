@@ -1,0 +1,28 @@
+{
+  "id": "0453e515-a6de-49fa-ae1f-3fcb7d8ce723",
+  "object": "chat.completion",
+  "created": 1760458753,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda a identificação de necessidades de formação e qualificação, o que pode tratar causas subjacentes como lacunas de conhecimento, mas não especifica ações diretas para corrigir a causa imediata do preenchimento inadequado (ex.: falta de procedimentos claros ou supervisão). Quanto ao critério 'Efeitos Duradouros', as ações de educação permanente podem ter efeitos duradouros, mas dependem da continuidade de implementação e podem não ser totalmente independentes de mudanças de atores.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1201,
+    "completion_tokens": 174,
+    "total_tokens": 1375,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 305
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

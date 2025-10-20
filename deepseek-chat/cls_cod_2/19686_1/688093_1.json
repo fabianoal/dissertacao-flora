@@ -1,0 +1,28 @@
+{
+  "id": "47152408-b887-4964-a9f0-ee3ef8ff2a0d",
+  "object": "chat.completion",
+  "created": 1760393150,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe múltiplas ações, incluindo a efetivação da regulação das solicitações médicas em filas de espera, atualização da PPI do Estado, cumprimento de prazos estabelecidos por órgãos de controle e integralização dos Sistemas de Regulação. Essas ações visam corrigir a condição imediata das listas de espera, mas também incluem medidas como a integralização dos sistemas de regulação, que pode abordar causas subjacentes, como a falta de integração entre sistemas, potencialmente prevenindo a recorrência do problema. No entanto, a recomendação é ampla e mistura ações corretivas imediatas com possíveis soluções de causa. Quanto aos efeitos duradouros, se a integralização dos sistemas for implementada, ela poderia criar uma estrutura mais robusta que permaneça eficaz mesmo com mudanças de atores, devido à automação e padronização, mas a dependência de cumprimento de prazos e atualizações contínuas pode limitar a durabilidade.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1228,
+    "completion_tokens": 282,
+    "total_tokens": 1510,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 396
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

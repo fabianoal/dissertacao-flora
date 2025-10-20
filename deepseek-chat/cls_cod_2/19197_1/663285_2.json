@@ -1,0 +1,28 @@
+{
+  "id": "34d50d65-1ff1-4fa2-95ce-62a84a4d0c89",
+  "object": "chat.completion",
+  "created": 1760384078,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a adoção de procedimentos para assegurar o correto recebimento da Nota Fiscal Eletrônica, incluindo a inclusão obrigatória de informações específicas como número de lote, o que visa prevenir a ocorrência futura de inconsistências entre os dados das notas fiscais e os registros no sistema de controle de almoxarifado, tratando assim a causa do problema (falta de conformidade na documentação de entrada). Já em relação aos efeitos pretendidos pela recomendação, a implementação de procedimentos padronizados e baseados em normativas permanece independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1050,
+    "completion_tokens": 196,
+    "total_tokens": 1246,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 154
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

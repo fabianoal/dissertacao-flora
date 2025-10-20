@@ -1,0 +1,28 @@
+{
+  "id": "849704de-7c74-4270-b19e-500938068edf",
+  "object": "chat.completion",
+  "created": 1760450908,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação se concentra em fiscalizar e acompanhar a afixação, que é uma ação corretiva direta para a condição imediata (ausência de afixação), sem propor medidas para tratar causas subjacentes, como falhas processuais ou de supervisão. Para o critério 'Efeitos Duradouros', como 'Foco Causa' foi avaliado como 'Não', a resposta 'Não se aplica' está adequada, não havendo necessidade de análise adicional.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1552,
+    "completion_tokens": 175,
+    "total_tokens": 1727,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 592
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

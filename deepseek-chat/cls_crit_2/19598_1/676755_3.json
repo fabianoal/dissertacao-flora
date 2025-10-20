@@ -1,0 +1,28 @@
+{
+  "id": "035630d3-86b6-46d6-a984-31fd0c140fa0",
+  "object": "chat.completion",
+  "created": 1760448826,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação de padronizar escalas e eliminar rasuras aborda a causa raiz da ausência de escalas oficiais apresentadas, que pode ser a falta de procedimentos formais e controle de qualidade. Quanto ao critério 'Efeitos Duradouros', a padronização estabelece um processo contínuo que não depende de indivíduos específicos, mas a eliminação de rasuras pode exigir vigilância constante e mudanças comportamentais, o que pode ser menos durável se não houver sistemas robustos de monitoramento.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1119,
+    "completion_tokens": 176,
+    "total_tokens": 1295,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 287
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

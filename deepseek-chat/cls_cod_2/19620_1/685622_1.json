@@ -1,0 +1,28 @@
+{
+  "id": "c64bf3e5-9190-4054-8d39-881d5bfccbed",
+  "object": "chat.completion",
+  "created": 1760390962,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a realização do inventário físico anual conforme normativa existente, o que constitui uma ação preventiva para evitar a reincidência da falta de inventários, tratando assim a causa do problema. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um processo sistemático de inventário anual cria uma rotina institucional que permanece independentemente de mudanças nos atores envolvidos, gerando efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1057,
+    "completion_tokens": 145,
+    "total_tokens": 1202,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 225
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

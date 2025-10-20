@@ -1,0 +1,28 @@
+{
+  "id": "a6565270-d6ae-45b1-b1e6-aa489c1729a2",
+  "object": "chat.completion",
+  "created": 1760455205,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise crítica considera a adequação da classificação nos critérios 'Foco Causa' e 'Efeitos Duradouros' com base nas definições fornecidas. Para o critério 'Foco Causa', a recomendação deve propor ações que tratem a causa do problema, não apenas a condição encontrada. Para 'Efeitos Duradouros', avaliado apenas se 'Foco Causa' for 'Sim', os efeitos devem persistir independentemente de mudanças nos atores envolvidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1259,
+    "completion_tokens": 158,
+    "total_tokens": 1417,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 363
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "910f92e0-fefc-446f-b283-3bd1e4ecfaee",
+  "object": "chat.completion",
+  "created": 1760455609,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação propõe ações que abordam as causas subjacentes da baixa performance do indicador, como a falta de acompanhamento nominal, capacitação inadequada e procedimentos não alinhados com diretrizes. Quanto ao critério 'Efeitos Duradouros', discordo da avaliação do modelo, pois embora algumas ações (como implementação de protocolos) possam ter efeitos duradouros, outras (como capacitação pontual e orientações específicas) dependem da continuidade dos atores e podem não se sustentar com mudanças na equipe ou gestão.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1649,
+    "completion_tokens": 196,
+    "total_tokens": 1845,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 753
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

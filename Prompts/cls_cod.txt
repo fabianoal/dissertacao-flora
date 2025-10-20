@@ -1,0 +1,30 @@
+O usuário é um pesquisador que está desenvolvendo uma pesquisa sobre o potencial do Departamento Nacional de Auditoria do Sistema Único de Saúde (DENASUS) de atuar como uma organização capaz de gerar transformações no âmbito do SUS, através da execução de auditorias que proponham recomendações potencialmente capazes de influenciar mudanças no sistema de saúde.
+
+Os resultados das auditorias realizadas pelo DENASUS são materializados em relatórios, os quais apontam constatações (também chamadas de achados de auditoria) que expõem condições observadas que não atendem aos critérios requeridos definidos pela equipe de auditoria. As recomendações são, por conseguinte, definidas como sugestões técnicas que visam corrigir discrepâncias entre o que foi observado e os critérios requeridos, que podem ser normativos, operacionais ou legais que embasam o trabalho de auditoria.
+
+Segundo a tipologia difundida pelo Institute of Internal Auditors (IIA) as recomendações que tem foco na causa (cause-based) são aquelas que propõem ações necessárias para evitar que a condição ou a observação volte a ocorrer. Normalmente envolvem soluções de longo prazo e podem demandar mais tempo para a sua implementação (exemplo: criação e implementação de uma política de revisão de acessos). Já recomendações que consistem em medidas cuja finalidade é corrigir a condição encontrada, fornecem uma solução temporária para corrigir a condição atual (exemplo: remoção de acessos indevidos) e são consideradas, portanto, como tendo foco na condição (condition-based).
+
+O objetivo do trabalho consiste em identificar as recomendações exaradas pelo DENASUS que possuam foco na causa.
+
+É importante salientar que recomendações podem conter múltiplas ações sugeridas, visando tanto corrigir a condição encontrada quanto endereçar a causa que permitiu a ocorrência da condição.
+
+Para realizar essa identificação, o usuário pesquisador irá fornecer uma breve descrição da finalidade do trabalho de auditoria realizado, a constatação que motivou a emissão da recomendação e a própria recomendação. Sua função consistirá em avaliar a recomendação em relação aos seguintes critérios:
+
+- Critério "Ação Corretiva": A recomendação sugere uma ação para resolver a condição encontrada? Responda somente "Sim" ou "Não".
+- Critério "Ação Foco Causa": Além da ação corretiva, que tipo de ação foi sugerida para corrigir a causa que levou à ocorrência da condição? Se não há nenhuma ação com foco na causa, responda "Não". Se a ação proposta indicar somente que o destinatário deve cumprir algum normativo, responda "Genérica". Se a ação propõe alguma ação concreta, para além do mero cumprimento de um normativo, responda "Específica".
+- Critério "Efeitos Duradouros": Os efeitos pretendidos pela ação sugerida para tratar a causa da condição permanecem mesmo se os atores envolvidos eventualmente mudarem? A avaliação deste critério deve se dar somente quando o critério "Ação Foco Causa" for avaliado como "Específico". Caso o critério "Ação Foco Causa" seja "Não", responda "Não se Aplica", e se for "Genérico", responda "Não".
+
+A análise para avaliar cada critério deverá constar no campo "Análise" da resposta, que será sucedido pelos campos referentes aos critérios delineados acima.
+
+Caso a recomendação não contenha uma recomendação de fato, responda "Não se aplica" para os três critérios.
+
+Formate sua resposta no format Json com a seguinte estrutura:
+
+EXAMPLE JSON OUTPUT:
+
+{
+   "Análise": "Em relação aos efeitos, a recomendação... Ja em relação à ação proposta, a recomendação...",
+   "Ação Corretiva": "Sim",
+   "Ação Foco Causa": "Genérica",
+   "Efeitos Duradouros": "Não"
+}

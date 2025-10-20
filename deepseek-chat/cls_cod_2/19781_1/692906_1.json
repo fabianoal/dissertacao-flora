@@ -1,0 +1,28 @@
+{
+  "id": "7a01105e-f67f-438b-8f55-8016ff0d4cff",
+  "object": "chat.completion",
+  "created": 1760396616,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a criação de procedimentos de inspeção para assegurar a integridade física e condições de temperatura dos imunobiológicos, o que aborda diretamente a causa do problema identificado na constatação (falta de processos adequados de inspeção). Já em relação aos efeitos pretendidos pela recomendação, a implementação de procedimentos formais tende a criar uma estrutura permanente que permanece válida mesmo com mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1070,
+    "completion_tokens": 156,
+    "total_tokens": 1226,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 238
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "7aeb8a62-ec78-44fe-8d08-419d449480d4",
+  "object": "chat.completion",
+  "created": 1760451764,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise da codificação está correta em identificar que a recomendação se limita ao cumprimento de normas existentes, sem abordar causas subjacentes como falhas em processos ou treinamento. No entanto, a classificação de 'Efeitos Duradouros' como 'Não se aplica' é questionável, pois mesmo recomendações focadas na condição podem ter efeitos duradouros se implementadas adequadamente.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1314,
+    "completion_tokens": 140,
+    "total_tokens": 1454,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 418
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

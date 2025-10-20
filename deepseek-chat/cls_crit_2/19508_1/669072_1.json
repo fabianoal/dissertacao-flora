@@ -1,0 +1,28 @@
+{
+  "id": "80f6ffb9-089a-4425-bee8-11bee530f16d",
+  "object": "chat.completion",
+  "created": 1760453401,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação se concentra em ações corretivas imediatas e conformidade normativa, sem abordar explicitamente a causa raiz da falta de apresentação do livro de inventário. Quanto ao critério 'Efeitos Duradouros', a resposta 'Não se aplica' é adequada, dado que o primeiro critério não foi atendido.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1420,
+    "completion_tokens": 145,
+    "total_tokens": 1565,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 524
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

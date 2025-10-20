@@ -1,0 +1,28 @@
+{
+  "id": "b903367e-0fa6-4367-9395-a25b13b7224d",
+  "object": "chat.completion",
+  "created": 1760397252,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"Em relação ao foco, a recomendação propõe a elaboração de um plano de gerenciamento de resíduos, o que aborda diretamente a causa da falta de controle adequado, estabelecendo uma estrutura formal para prevenir a recorrência da condição observada. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um plano formal tende a criar procedimentos duradouros que permanecem independentemente de mudanças nos atores envolvidos, assegurando continuidade no manejo de resíduos.\",\n   \"Foco Causa\": \"Sim\",\n   \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1010,
+    "completion_tokens": 152,
+    "total_tokens": 1162,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 178
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

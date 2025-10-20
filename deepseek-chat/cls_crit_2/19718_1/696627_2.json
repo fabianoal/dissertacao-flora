@@ -1,0 +1,28 @@
+{
+  "id": "fe76d731-5686-4e5e-a065-558eef716ffb",
+  "object": "chat.completion",
+  "created": 1760462229,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação trata da causa raiz do problema (ausência de CNPJ) e que seus efeitos são duradouros, independentemente de mudanças nos atores envolvidos. A inscrição no CNPJ é uma ação estrutural que resolve definitivamente a irregularidade identificada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1190,
+    "completion_tokens": 118,
+    "total_tokens": 1308,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 294
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "4442ae80-fee0-4924-bf01-fa5f4dc01f47",
+  "object": "chat.completion",
+  "created": 1760036372,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere uma ação para resolver a condição encontrada, que é a falta de treinamentos regulares, ao propor a inclusão no plano anual de capacitação. Além disso, a ação proposta visa tratar a causa subjacente, que é a ausência de programas de treinamento, ao estabelecer treinamentos regulares como parte do plano. No entanto, a recomendação se baseia no cumprimento de um normativo específico (Manual de Rede Frio do PNI de 2017), sem detalhar ações concretas além disso, o que a torna genérica em termos de foco na causa. Quanto aos efeitos duradouros, como a ação é genérica e depende da adesão contínua ao normativo, não há garantia de que os efeitos persistam com mudanças de atores.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1164,
+    "completion_tokens": 226,
+    "total_tokens": 1390,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 140
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

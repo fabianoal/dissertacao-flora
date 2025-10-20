@@ -1,0 +1,28 @@
+{
+  "id": "e890f0ad-a9a3-4ce4-b5e0-8c74d8758d7c",
+  "object": "chat.completion",
+  "created": 1760392298,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações para garantir o atendimento aos critérios mínimos de composição e carga horária das equipes de Saúde da Família, mas não identifica ou trata as causas subjacentes que levam ao não cumprimento desses requisitos (como falta de profissionais, problemas de gestão ou recursos insuficientes). Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, esta análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1017,
+    "completion_tokens": 153,
+    "total_tokens": 1170,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 185
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

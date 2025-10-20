@@ -1,0 +1,28 @@
+{
+  "id": "3ce4f29e-de2b-42e6-893f-bb1fad403e9b",
+  "object": "chat.completion",
+  "created": 1760394229,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação não propõe ações específicas para tratar a causa do problema (produção não comprovada inserida no SIA/SUS), limitando-se a informar a constatação e remeter à adoção de procedimentos já estabelecidos em portaria, sem especificar medidas corretivas direcionadas à causa raiz. Portanto, não há ação proposta que trate da causa do problema. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1015,
+    "completion_tokens": 157,
+    "total_tokens": 1172,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 119
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

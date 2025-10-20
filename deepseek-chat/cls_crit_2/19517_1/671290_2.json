@@ -1,0 +1,28 @@
+{
+  "id": "6852ae38-10b2-42f8-974c-ce26a49638a3",
+  "object": "chat.completion",
+  "created": 1760453629,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise da codificação identificou corretamente que a recomendação possui múltiplas partes com diferentes focos, mas a avaliação dos critérios requer uma análise mais detalhada sobre qual parte da recomendação realmente aborda a causa raiz do problema identificado na constatação.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1516,
+    "completion_tokens": 109,
+    "total_tokens": 1625,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 556
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

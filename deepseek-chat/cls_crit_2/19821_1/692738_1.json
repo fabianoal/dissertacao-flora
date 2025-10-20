@@ -1,0 +1,28 @@
+{
+  "id": "40ed43d4-7a57-4f80-b3a5-b16dd5558891",
+  "object": "chat.completion",
+  "created": 1760465873,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identifica corretamente que a recomendação propõe ações para estabelecer processos e estruturas formais que podem prevenir a recorrência da condição, tratando assim da causa do problema. Quanto ao critério 'Efeitos Duradouros', a análise do modelo também está correta ao afirmar que a implementação de planos de ação formalmente pactuados e a obrigação de prestar informações criam estruturas e processos que devem permanecer independentemente de mudanças nos atores envolvidos, gerando efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1429,
+    "completion_tokens": 179,
+    "total_tokens": 1608,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 533
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

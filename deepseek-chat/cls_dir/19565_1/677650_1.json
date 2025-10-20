@@ -1,0 +1,28 @@
+{
+  "id": "e25419f1-9b19-40b4-a7d8-d9115db104c8",
+  "object": "chat.completion",
+  "created": 1759367678,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação identifica a causa institucional (ausência de avaliação especializada e mobiliário inadequado) que levou às deficiências ergonômicas, está situada no nível institucional ao propor ações estruturais do SESMET/PCMSO e aquisição de mobiliário adequado, e as transformações (avaliação contínua e mobiliário ergonômico) possuem potencial para perdurar no tempo, corrigindo a causa raiz do problema.\",\n    \"categoria\": \"foco-causa\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1545,
+    "completion_tokens": 127,
+    "total_tokens": 1672,
+    "prompt_tokens_details": {
+      "cached_tokens": 1280
+    },
+    "prompt_cache_hit_tokens": 1280,
+    "prompt_cache_miss_tokens": 265
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ddfe352a-b541-4488-bbb5-c5914fd7f9db",
+  "object": "chat.completion",
+  "created": 1760036784,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere padronizar a inserção de informações nos sistemas de saúde para possibilitar a avaliação e monitoramento dos casos de saúde mental, o que constitui uma ação corretiva para resolver a condição de falta de documentação. No entanto, a ação proposta é genérica, pois se limita a indicar o cumprimento de uma padronização sem detalhar ações concretas além disso, e não há indicação de efeitos duradouros, já que a ação genérica não garante permanência com mudanças de atores.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1117,
+    "completion_tokens": 164,
+    "total_tokens": 1281,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 93
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

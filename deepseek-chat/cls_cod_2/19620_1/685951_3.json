@@ -1,0 +1,28 @@
+{
+  "id": "9f9ca304-ae82-409e-9a04-35d82a28e86e",
+  "object": "chat.completion",
+  "created": 1760390986,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam da causa do problema ao estabelecer controles internos, políticas de governança, rotinas de verificação e medidas de supervisão que visam prevenir a falta de rastreabilidade no futuro. Já em relação aos efeitos pretendidos pela recomendação, as medidas institucionais, como implementação de controles internos e políticas de governança, tendem a permanecer mesmo com mudanças de atores envolvidos, pois se tornam parte da estrutura organizacional do hospital.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1273,
+    "completion_tokens": 153,
+    "total_tokens": 1426,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 441
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

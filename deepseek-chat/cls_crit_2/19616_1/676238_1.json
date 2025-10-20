@@ -1,0 +1,28 @@
+{
+  "id": "e001c1c6-62eb-4fb7-a568-7c0714f48465",
+  "object": "chat.completion",
+  "created": 1760457525,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda apenas a correção imediata da condição (ausência de relatórios) sem propor ações para prevenir a recorrência, como melhorias em processos ou capacitação. Para 'Efeitos Duradouros', como o foco não é na causa, a análise de não aplicação está correta.\",\n  \"Análise Foco Causa\": \"Concordo\",\n  \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1147,
+    "completion_tokens": 124,
+    "total_tokens": 1271,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 187
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

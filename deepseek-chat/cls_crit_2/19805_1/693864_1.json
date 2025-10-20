@@ -1,0 +1,28 @@
+{
+  "id": "8d3ea01e-e86f-4a6e-944f-11238a805343",
+  "object": "chat.completion",
+  "created": 1760465077,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta em identificar que a recomendação aborda a causa subjacente da ausência de documentação e acompanhamento, propondo a criação de estruturas formais e processos. No entanto, a avaliação sobre efeitos duradouros merece uma análise mais cautelosa, pois embora a formalização de grupos e documentação possa criar estruturas mais permanentes, a efetividade desses mecanismos ainda depende de fatores como continuidade de recursos, comprometimento institucional e mudanças políticas.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1303,
+    "completion_tokens": 159,
+    "total_tokens": 1462,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 407
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

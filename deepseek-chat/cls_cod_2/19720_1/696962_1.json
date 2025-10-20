@@ -1,0 +1,28 @@
+{
+  "id": "ed8dda40-a7e6-47a2-a77a-5b3117b60119",
+  "object": "chat.completion",
+  "created": 1760394536,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe orientar a equipe médica sobre a importância de elaborar prontuários médicos de forma legível e completa, incluindo dados clínicos necessários e preenchimento adequado conforme normas éticas. Esta ação visa tratar a causa do problema, que é a falta de documentação adequada que impede a comprovação da produção ambulatorial, ao invés de apenas corrigir a condição específica de não comprovação no exercício de 2022. Já em relação aos efeitos pretendidos pela recomendação, a orientação sobre a elaboração correta de prontuários estabelece um procedimento padrão que deve ser seguido independentemente de mudanças na equipe médica, promovendo efeitos duradouros na qualidade da documentação.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1096,
+    "completion_tokens": 215,
+    "total_tokens": 1311,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 264
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

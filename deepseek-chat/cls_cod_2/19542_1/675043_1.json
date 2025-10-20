@@ -1,0 +1,28 @@
+{
+  "id": "2440af06-dd68-4834-bc2b-2e3cef34b59a",
+  "object": "chat.completion",
+  "created": 1760387398,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe apenas a destinação dos recursos devolvidos ao FUNDES, sem propor ações para tratar a causa que levou à aplicação indevida dos recursos (como falhas nos controles internos, processos de aprovação ou capacitação). Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, não se aplica a análise.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 982,
+    "completion_tokens": 136,
+    "total_tokens": 1118,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 150
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

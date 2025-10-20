@@ -1,0 +1,28 @@
+{
+  "id": "73534ed3-4db8-4435-9dd6-a8bb0c9de4dc",
+  "object": "chat.completion",
+  "created": 1760386122,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe ações específicas para regularizar a transferência de propriedade dos veículos doados, como solicitar e registrar a ATPV-e junto ao DETRAN/PB. No entanto, essas ações focam na correção da condição atual (veículos não incorporados ao patrimônio) e não abordam as causas subjacentes que levaram à não incorporação, como possíveis falhas nos processos de gestão patrimonial, falta de capacitação da equipe ou deficiências na comunicação com o Ministério da Saúde. Assim, a recomendação é condition-based, pois visa resolver o problema imediato sem tratar de suas causas fundamentais. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, essa análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1071,
+    "completion_tokens": 212,
+    "total_tokens": 1283,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 239
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

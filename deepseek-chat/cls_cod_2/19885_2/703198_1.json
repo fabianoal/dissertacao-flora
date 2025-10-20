@@ -1,0 +1,28 @@
+{
+  "id": "e6fe88e9-382e-4836-9795-99418e322cb9",
+  "object": "chat.completion",
+  "created": 1760400680,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe que a instituição siga normas regulamentares específicas sobre autorização prévia de procedimentos radioterápicos, o que constitui uma ação voltada para a causa do problema (não solicitação de autorização prévia), ao estabelecer diretrizes permanentes de conformidade. Já em relação aos efeitos pretendidos pela recomendação, a implementação de procedimentos padronizados baseados em normas oficiais tende a produzir efeitos duradouros, independentemente de mudanças na equipe ou prestadores de serviços, pois se baseia em protocolos institucionais consolidados.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1027,
+    "completion_tokens": 178,
+    "total_tokens": 1205,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 195
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "69726cab-7dc5-43f6-a578-3d8431b1fd4a",
+  "object": "chat.completion",
+  "created": 1760392542,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a adoção de providências para orientar a convenente sobre a obrigatoriedade de incluir todas as cláusulas necessárias nos contratos, conforme legislação. Isso visa prevenir a ocorrência futura de problemas como a alteração na vigência sem cláusula de prorrogação, tratando assim a causa (falta de conformidade com a legislação) e não apenas corrigindo a condição específica. Já em relação aos efeitos pretendidos pela recomendação, a orientação sobre a obrigatoriedade das cláusulas legais deve resultar em uma mudança duradoura na forma como os contratos são elaborados, independentemente de mudanças nos atores envolvidos, pois estabelece um padrão baseado em legislação.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 958,
+    "completion_tokens": 214,
+    "total_tokens": 1172,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 126
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

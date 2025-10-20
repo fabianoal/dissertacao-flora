@@ -1,0 +1,28 @@
+{
+  "id": "7bcceb1e-9579-4e9d-90cb-61995bd3b519",
+  "object": "chat.completion",
+  "created": 1760001933,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere uma ação corretiva para conferir a documentação comprobatória/complementar no Transferegov, visando resolver a condição de informações incorretas no sistema. No entanto, a ação com foco na causa é genérica, pois se limita a determinar o cumprimento de um normativo existente (inciso IV, art. 11 da Portaria de Consolidação nº 1 SESAI/MS/2020), sem propor medidas adicionais ou específicas para evitar a causa raiz das impropriedades, como melhorias em processos ou capacitação.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1119,
+    "completion_tokens": 180,
+    "total_tokens": 1299,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1119
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

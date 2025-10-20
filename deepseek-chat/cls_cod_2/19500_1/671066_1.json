@@ -1,0 +1,28 @@
+{
+  "id": "493dd1f9-1992-4f6f-b9cd-6ac55b3e1b3a",
+  "object": "chat.completion",
+  "created": 1760386323,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação solicita a apresentação de documentos comprobatórios de utilização das OPMEs, o que visa corrigir a condição imediata de ausência de laudos, sem propor ações para tratar a causa subjacente (como falhas no processo de documentação ou capacitação de profissionais). Quanto aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, não se aplica a análise.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1041,
+    "completion_tokens": 142,
+    "total_tokens": 1183,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 209
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

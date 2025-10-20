@@ -1,0 +1,28 @@
+{
+  "id": "4a8e7e88-dc78-4393-8b75-7c3d1137a7e2",
+  "object": "chat.completion",
+  "created": 1760036408,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere a realização de um procedimento licitatório para corrigir a condição de aquisição irregular, caracterizando uma ação corretiva. No entanto, a ação proposta é genérica, pois se limita a cumprir a Lei 8666/1993 sem especificar medidas adicionais para prevenir a causa subjacente, como a falta de capacitação ou controles internos. Portanto, não há indicação de efeitos duradouros.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1133,
+    "completion_tokens": 149,
+    "total_tokens": 1282,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 173
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

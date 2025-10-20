@@ -1,0 +1,28 @@
+{
+  "id": "d7519006-fad7-4b6b-83e9-1b88d8dab601",
+  "object": "chat.completion",
+  "created": 1760468405,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação se concentra na devolução de recursos pagos indevidamente, sem propor ações para prevenir a recorrência de pagamentos irregulares, como melhorias em processos de verificação. Para 'Efeitos Duradouros', como 'Foco Causa' é 'Não', a resposta 'Não se aplica' está correta.\",\n  \"Análise Foco Causa\": \"Concordo\",\n  \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1415,
+    "completion_tokens": 128,
+    "total_tokens": 1543,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 519
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

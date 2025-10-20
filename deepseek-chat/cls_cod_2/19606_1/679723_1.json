@@ -1,0 +1,28 @@
+{
+  "id": "b120e255-e671-43d0-b3da-67db77beb9f6",
+  "object": "chat.completion",
+  "created": 1760389126,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe ações específicas para registrar e manter documentação obrigatória no prontuário do paciente, o que corrige diretamente a condição encontrada de ausência das fichas de controle de uso de dialisador assinadas. No entanto, não há menção a ações que abordem a causa raiz dessa ausência, como falhas em processos, treinamento ou supervisão. Portanto, a recomendação é focada na condição imediata, não na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 994,
+    "completion_tokens": 180,
+    "total_tokens": 1174,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 162
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

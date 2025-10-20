@@ -1,0 +1,28 @@
+{
+  "id": "a9ed7553-6c44-4293-a329-e5cc0cc1b7db",
+  "object": "chat.completion",
+  "created": 1760036900,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere ações para resolver a condição insatisfatória de qualificações de educação continuada. A ação 'a' propõe ampliar e exigir capacitações, incluindo treinamento prático, o que visa corrigir a condição atual e prevenir sua recorrência ao garantir que todos os profissionais sejam capacitados, indicando foco na causa. No entanto, a referência à conformidade com a portaria torna a ação genérica. A ação 'b' é corretiva, focando em manter registros para facilitar avaliações, mas não aborda diretamente a causa raiz. Em relação aos efeitos duradouros, a ação genérica não garante permanência com mudanças de atores.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1277,
+    "completion_tokens": 205,
+    "total_tokens": 1482,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 253
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "9fa1db45-506b-435f-ba99-e7a6747e33d4",
+  "object": "chat.completion",
+  "created": 1760452504,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda diretamente a causa do problema, que é a não conformidade com os procedimentos normativos estabelecidos para registro de atendimentos. Quanto ao critério 'Efeitos Duradouros', a implementação da sistemática definida na portaria cria um procedimento permanente que deve persistir independentemente de mudanças nos atores envolvidos, pois está institucionalizado por norma.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1242,
+    "completion_tokens": 142,
+    "total_tokens": 1384,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 346
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

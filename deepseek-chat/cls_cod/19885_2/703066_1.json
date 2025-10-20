@@ -1,0 +1,28 @@
+{
+  "id": "06044a4d-4e22-4138-8730-3831224fb4cd",
+  "object": "chat.completion",
+  "created": 1760038032,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere que o provedor e o corpo clínico registrem detalhadamente a não realização de cirurgia ou radioterapia em tempo oportuno, o que constitui uma ação para documentar e corrigir a condição encontrada de terapias neoadjuvantes sem continuidade. No entanto, a recomendação se limita a exigir o cumprimento de normativos existentes (Manual de Oncologia, procedimentos do SIGTAP e Protocolo Clínico) sem propor ações concretas adicionais para abordar a causa subjacente que permitiu a ocorrência da condição, como melhorias em processos de monitoramento ou capacitação da equipe.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1419,
+    "completion_tokens": 199,
+    "total_tokens": 1618,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 395
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

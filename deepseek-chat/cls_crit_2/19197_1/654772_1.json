@@ -1,0 +1,28 @@
+{
+  "id": "ffaef959-ee4a-4348-b5d7-5492efc106a1",
+  "object": "chat.completion",
+  "created": 1760451080,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise original argumenta que a recomendação apenas cita dispositivos legais sem propor ações específicas para tratar a causa da inadequação no fluxo. No entanto, a recomendação de 'Cumprir as determinações' pode ser interpretada como uma ação direcionada à causa subjacente, que é o não cumprimento de normas legais, potencialmente exigindo mudanças sistêmicas. Para o critério 'Efeitos Duradouros', a análise depende da resposta ao 'Foco Causa', e uma reavaliação pode levar a uma conclusão diferente.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1125,
+    "completion_tokens": 185,
+    "total_tokens": 1310,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 229
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

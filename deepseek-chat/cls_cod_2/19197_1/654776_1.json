@@ -1,0 +1,28 @@
+{
+  "id": "bef04212-87a7-4c87-9e54-1aa2781cc82f",
+  "object": "chat.completion",
+  "created": 1760384134,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação se limita a exigir o cumprimento de uma diretriz normativa que trata da verificação de documentação fiscal, sem propor ações para abordar as causas subjacentes à troca de materiais sem nota fiscal, como falhas em processos, treinamento ou supervisão. Já em relação aos efeitos pretendidos pela recomendação, como o critério 'Foco Causa' não foi atendido, não se aplica a análise de efeitos duradouros.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1039,
+    "completion_tokens": 147,
+    "total_tokens": 1186,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 207
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a9019b75-42a7-48d8-96ba-bb3c3be326d5",
+  "object": "chat.completion",
+  "created": 1760383958,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a citar o cumprimento de dispositivos normativos específicos sem propor ações concretas para tratar as causas subjacentes das distorções na conservação/adaptação predial. Não há menção a medidas como revisão de processos de manutenção, capacitação de equipes ou implementação de sistemas de gestão que abordem as razões pelas quais as normas não estão sendo cumpridas. Portanto, a recomendação não possui foco na causa. Como o critério 'Foco Causa' não é atendido, a avaliação de 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 946,
+    "completion_tokens": 177,
+    "total_tokens": 1123,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 114
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

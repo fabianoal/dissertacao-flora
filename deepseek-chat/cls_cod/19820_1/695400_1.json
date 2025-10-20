@@ -1,0 +1,28 @@
+{
+  "id": "4eb09d2b-3ded-48d5-ba51-d8e559047b64",
+  "object": "chat.completion",
+  "created": 1760037108,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe ações para resolver a condição encontrada (dificuldades de renovação de receitas), como identificar problemas e adequar profissionais. Além disso, sugere ações para tratar a causa subjacente, como estabelecer fluxos de atendimento e disseminar informações através de palestras e cursos, embora parte dessas ações seja genérica por referir-se ao cumprimento de portaria. No entanto, as ações específicas (estabelecer fluxos e disseminar informações) têm efeitos que podem persistir com mudanças de atores, pois envolvem estruturas e processos.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Específica\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1310,
+    "completion_tokens": 182,
+    "total_tokens": 1492,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 286
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

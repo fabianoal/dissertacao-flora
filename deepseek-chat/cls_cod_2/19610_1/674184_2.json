@@ -1,0 +1,28 @@
+{
+  "id": "fbed04be-eb9a-4c12-80b7-3a430227949a",
+  "object": "chat.completion",
+  "created": 1760389342,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe uma ação específica (inserir Termo Aditivo no Transferegov) para corrigir a condição imediata de pagamento sem cobertura contratual, mas não aborda as causas subjacentes, como falhas nos processos de controle ou gestão que permitiram essa situação. Portanto, não trata da causa do problema. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' é 'Não', não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 930,
+    "completion_tokens": 151,
+    "total_tokens": 1081,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 98
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

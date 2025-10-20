@@ -1,0 +1,28 @@
+{
+  "id": "1c24d58e-035f-4af0-964a-84b0b6cd3227",
+  "object": "chat.completion",
+  "created": 1760392938,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a inserção de documentação comprobatória no sistema Transferegov para sanar impropriedades específicas, tratando diretamente a condição encontrada (falhas na comprovação), sem abordar as causas subjacentes, como deficiências em processos de controle ou capacitação. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não é atendido, não se aplica a avaliação.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1061,
+    "completion_tokens": 149,
+    "total_tokens": 1210,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 165
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

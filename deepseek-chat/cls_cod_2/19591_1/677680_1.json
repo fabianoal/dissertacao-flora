@@ -1,0 +1,28 @@
+{
+  "id": "5632bcb8-f54d-4c35-aeca-0e9cb088bc08",
+  "object": "chat.completion",
+  "created": 1760388590,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam da causa do problema (falta de organização em rede), como a criação de Termo de Compromisso, elaboração de fluxos de encaminhamento, sistema informatizado e habilitação de unidades, visando estruturar o sistema de forma permanente. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas (como formalização de acordos, fluxos padronizados e sistema informatizado) criam estruturas e processos que permanecem mesmo com mudanças de atores, pois são institucionalizados no sistema de saúde.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1351,
+    "completion_tokens": 169,
+    "total_tokens": 1520,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 519
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

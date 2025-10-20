@@ -1,0 +1,28 @@
+{
+  "id": "b51d1d49-20f0-4df3-8871-bc29c478989a",
+  "object": "chat.completion",
+  "created": 1760454849,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe revisar e ajustar práticas orçamentárias e de gestão financeira, o que aborda a causa raiz do problema (práticas inadequadas) e não apenas a condição imediata (falta de execução de despesas), justificando a resposta 'Sim'. Para o critério 'Efeitos Duradouros', a implementação de práticas ajustadas cria estruturas e processos que podem persistir independentemente de mudanças de pessoal, apoiando a resposta 'Sim'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1241,
+    "completion_tokens": 173,
+    "total_tokens": 1414,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 345
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

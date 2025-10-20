@@ -1,0 +1,28 @@
+{
+  "id": "f5716475-a269-4c17-a4cf-7779c0fccae9",
+  "object": "chat.completion",
+  "created": 1760452048,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe uma ação de conferência pontual do lançamento de Notas Fiscais no prontuário e no SIH, o que parece mais uma correção imediata da condição encontrada (faturamento sem comprovação) do que uma ação que ataque a causa raiz, como a falta de processos sistemáticos ou falhas na capacitação. Quanto ao critério 'Efeitos Duradouros', como discordo do 'Foco Causa', a análise não se aplica plenamente, mas se considerada, a ação sugerida é específica e não garante mudanças duradouras independentemente de mudanças de pessoal.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1200,
+    "completion_tokens": 209,
+    "total_tokens": 1409,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 304
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

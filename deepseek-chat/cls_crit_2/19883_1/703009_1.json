@@ -1,0 +1,28 @@
+{
+  "id": "fe168417-8401-48c0-9e75-6188f9d1a513",
+  "object": "chat.completion",
+  "created": 1760467953,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta em identificar que a recomendação se concentra em corrigir a condição específica observada (não emissão de nova AIH quando necessário), sem propor ações para tratar as causas subjacentes que levaram a essa condição, como falhas nos processos internos, falta de capacitação da equipe ou deficiências nos sistemas de controle. No entanto, a justificativa poderia ser mais precisa ao mencionar que a recomendação é essencialmente uma medida corretiva imediata e operacional, alinhada ao foco na condição.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1400,
+    "completion_tokens": 171,
+    "total_tokens": 1571,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 504
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "42265710-78a1-4258-babb-cbd0a0410402",
+  "object": "chat.completion",
+  "created": 1760390542,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a elaboração de documentos de acompanhamento observando leis específicas e características de documentos arquivísticos, focando na correção da condição atual de impropriedades nos relatórios. Não há menção a ações que tratem da causa subjacente que levou à produção inadequada dos relatórios, como possíveis deficiências em processos, capacitação ou sistemas. Portanto, a recomendação é focada na condição, não na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1038,
+    "completion_tokens": 176,
+    "total_tokens": 1214,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 14
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

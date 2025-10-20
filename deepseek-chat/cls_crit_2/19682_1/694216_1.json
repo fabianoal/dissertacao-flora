@@ -1,0 +1,28 @@
+{
+  "id": "100a08b6-42c9-40dd-8752-91b5f54b040e",
+  "object": "chat.completion",
+  "created": 1760459553,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação visa tratar a causa subjacente da ausência de visita técnica, focando na conformidade normativa para prevenir recorrência, e que os efeitos são duradouros devido à ancoragem em diretrizes formais. No entanto, a recomendação é genérica e não especifica ações concretas para assegurar o cumprimento da norma, o que pode limitar sua efetividade prática.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1152,
+    "completion_tokens": 146,
+    "total_tokens": 1298,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 256
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

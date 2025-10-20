@@ -1,0 +1,28 @@
+{
+  "id": "d6459e25-59fd-4d6b-9d89-27d935bf647d",
+  "object": "chat.completion",
+  "created": 1760452592,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação aborda a causa do problema ao propor o cumprimento das competências da Comissão de Revisão de Prontuário conforme a resolução, mas a avaliação sobre os efeitos duradouros merece revisão, pois a implementação de normas institucionais tende a criar estruturas mais permanentes.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1193,
+    "completion_tokens": 128,
+    "total_tokens": 1321,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 233
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

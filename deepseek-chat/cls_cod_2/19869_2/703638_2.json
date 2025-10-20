@@ -1,0 +1,28 @@
+{
+  "id": "c8b8bda9-260e-402f-a359-5fe64d2049a1",
+  "object": "chat.completion",
+  "created": 1760400200,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a cobrança administrativa de valores recebidos indevidamente, focando na correção da condição financeira irregular identificada. Não há menção a ações que abordem a causa subjacente do problema, como falhas nos processos de registro ou controle que levaram à incompatibilidade entre registros e valores pagos. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1105,
+    "completion_tokens": 161,
+    "total_tokens": 1266,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 209
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

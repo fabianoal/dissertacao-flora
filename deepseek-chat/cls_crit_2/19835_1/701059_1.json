@@ -1,0 +1,28 @@
+{
+  "id": "6a411337-f311-4692-a995-5f19bd9a49e2",
+  "object": "chat.completion",
+  "created": 1760466389,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identifica corretamente que a recomendação propõe ações para tratar a causa subjacente (organização inadequada do trabalho), não apenas a condição imediata. Quanto ao critério 'Efeitos Duradouros', a análise do modelo também está correta, pois as ações sugeridas (estabelecimento de processos organizados e integração com a rede) são estruturantes e baseadas em diretrizes normativas, tendendo a persistir independentemente de mudanças nos atores envolvidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1378,
+    "completion_tokens": 172,
+    "total_tokens": 1550,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 482
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c9599c4f-6409-4a92-85ad-9039d48f5875",
+  "object": "chat.completion",
+  "created": 1760396268,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere a manutenção da atualização dos dados no CNES, o que é uma ação contínua para corrigir a condição específica de dados desatualizados, sem abordar as causas subjacentes, como a falta de processos ou responsabilidades para garantir a atualização. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 975,
+    "completion_tokens": 141,
+    "total_tokens": 1116,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 143
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

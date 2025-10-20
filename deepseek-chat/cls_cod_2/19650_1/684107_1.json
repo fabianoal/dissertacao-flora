@@ -1,0 +1,28 @@
+{
+  "id": "5f260d10-3649-4eed-8c8e-9c3027d0fa0a",
+  "object": "chat.completion",
+  "created": 1760392086,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a organização das equipes de Saúde da Família de acordo com os parâmetros estabelecidos na portaria, o que visa corrigir a causa estrutural do problema (desorganização na alocação da população) e não apenas a condição imediata de superlotação. Já em relação aos efeitos pretendidos pela recomendação, a implementação de uma estrutura organizacional baseada em critérios normativos tende a produzir efeitos duradouros, mantendo-se mesmo com mudanças nos atores envolvidos, pois estabelece um padrão permanente de funcionamento.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 985,
+    "completion_tokens": 168,
+    "total_tokens": 1153,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 153
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

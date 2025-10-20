@@ -1,0 +1,28 @@
+{
+  "id": "ed55a830-161d-4346-a836-6bc9ebf5fad5",
+  "object": "chat.completion",
+  "created": 1760389214,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe o estabelecimento de critérios para contratações e controle de frequência, o que visa tratar a causa raiz da ausência de critérios que gerou a condição encontrada, sendo portanto uma ação de prevenção. Já em relação aos efeitos pretendidos pela recomendação, a implementação de critérios formais e controles permanece válida independentemente de mudanças nos atores envolvidos, configurando efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1058,
+    "completion_tokens": 148,
+    "total_tokens": 1206,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 226
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

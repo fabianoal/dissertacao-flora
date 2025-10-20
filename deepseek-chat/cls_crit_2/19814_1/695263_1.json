@@ -1,0 +1,28 @@
+{
+  "id": "8e3ff716-34f5-4faa-b245-88f8a415d753",
+  "object": "chat.completion",
+  "created": 1760465481,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação estabelece a inclusão de ações de saúde mental no planejamento das atividades coletivas das UBS, o que aborda a causa subjacente da ausência de ações (falta de planejamento estruturado), e não apenas a condição imediata de não realização. Quanto ao critério 'Efeitos Duradouros', a implementação de um planejamento formal tende a institucionalizar as ações, criando processos contínuos que podem persistir independentemente de mudanças na equipe, desde que integrados às diretrizes operacionais.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1265,
+    "completion_tokens": 183,
+    "total_tokens": 1448,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 369
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "0a92307b-8782-4afc-9de2-eb98a0097e07",
+  "object": "chat.completion",
+  "created": 1760400544,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe que o hospital assegure o cumprimento do prazo de 30 dias para a realização da cirurgia oncológica após a quimioterapia, conforme diretriz normativa. No entanto, ela não sugere ações para abordar as causas subjacentes que levaram ao descumprimento do prazo, como possíveis deficiências em processos, recursos ou capacitação. Portanto, foca na correção da condição específica, não na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1174,
+    "completion_tokens": 175,
+    "total_tokens": 1349,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 342
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a79ff051-9d72-4e07-9ba6-653cb797ce34",
+  "object": "chat.completion",
+  "created": 1760467357,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação se limita a exigir o cumprimento de uma obrigação previamente acordada, sem propor ações que abordem as causas subjacentes do não cumprimento. A recomendação trata apenas da condição atual (ausência do plano), sem medidas para prevenir recorrências, como investigar falhas de gestão, alocar recursos ou capacitar equipes.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1209,
+    "completion_tokens": 137,
+    "total_tokens": 1346,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 313
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

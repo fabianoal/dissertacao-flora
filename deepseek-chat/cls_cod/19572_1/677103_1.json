@@ -1,0 +1,28 @@
+{
+  "id": "13b4b4bd-8077-4139-9a49-7732b468cf0f",
+  "object": "chat.completion",
+  "created": 1760036264,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a realização de treinamentos para capacitar os profissionais, o que constitui uma ação corretiva para resolver a condição imediata de falta de documentação comprobatória. No entanto, a ação sugerida é genérica, pois se limita a cumprir o normativo da RDC/ANVISA sem especificar medidas adicionais para abordar a causa subjacente, como a implementação de um sistema de gestão de capacitações ou auditorias internas para garantir conformidade contínua.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1188,
+    "completion_tokens": 164,
+    "total_tokens": 1352,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 164
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

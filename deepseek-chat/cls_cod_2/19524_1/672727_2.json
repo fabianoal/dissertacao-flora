@@ -1,0 +1,28 @@
+{
+  "id": "18fb4505-9676-4473-9454-11ce8f3292c0",
+  "object": "chat.completion",
+  "created": 1760387010,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a inclusão de informações no RAG 2022 para comprovar o alcance das metas, o que constitui uma ação direta para corrigir a condição específica de falta de comprovação identificada, sem abordar as causas subjacentes que levaram à não comprovação, como possíveis deficiências nos sistemas de monitoramento, capacitação da equipe ou processos internos. Portanto, trata-se de uma medida corretiva da condição atual. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, esta análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1021,
+    "completion_tokens": 188,
+    "total_tokens": 1209,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 125
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "eea16537-eefc-475f-901d-352404c21e31",
+  "object": "chat.completion",
+  "created": 1759367894,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação identifica a causa da condição detectada (não cumprimento de prazos e impropriedades no acompanhamento) ao exigir o envio dos relatórios conforme a portaria, porém a causa não está situada no nível institucional, pois se limita a corrigir a condição específica de não envio dos relatórios. As transformações produzidas são pontuais e não perduram no tempo, pois não abordam causas estruturais como falhas em processos, capacitação ou sistemas que levam ao não cumprimento.\",\n    \"categoria\": \"foco-condicao\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1410,
+    "completion_tokens": 148,
+    "total_tokens": 1558,
+    "prompt_tokens_details": {
+      "cached_tokens": 1280
+    },
+    "prompt_cache_hit_tokens": 1280,
+    "prompt_cache_miss_tokens": 130
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

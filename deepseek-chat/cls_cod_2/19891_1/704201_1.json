@@ -1,0 +1,28 @@
+{
+  "id": "39ad8eb0-e5ee-47e0-b8c9-bade24364435",
+  "object": "chat.completion",
+  "created": 1760401020,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe múltiplas ações, incluindo a implementação de mecanismos de controle, capacitação das equipes, revisão de fluxos internos e integração entre sistemas, que visam tratar as causas subjacentes da impropriedade observada, como falhas nos processos de registro, conhecimento inadequado e desconexão entre sistemas. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como a implementação de mecanismos de controle permanentes e a integração de sistemas, tendem a produzir efeitos duradouros, pois estabelecem estruturas e processos que não dependem exclusivamente dos atores atuais, mantendo a conformidade mesmo com mudanças de pessoal.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1111,
+    "completion_tokens": 198,
+    "total_tokens": 1309,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 279
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

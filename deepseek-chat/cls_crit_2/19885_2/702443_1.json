@@ -1,0 +1,28 @@
+{
+  "id": "33b3a437-4c39-464b-8b6e-973c801ae63a",
+  "object": "chat.completion",
+  "created": 1760468045,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda a causa subjacente do problema, que é a falta de conhecimento ou procedimentos inadequados na descrição e codificação dos procedimentos, por meio de capacitação, monitoramento e avaliação. Quanto ao critério 'Efeitos Duradouros', as ações propostas, como capacitação contínua e uso de diretrizes atualizadas, visam estabelecer sistemas e padrões que podem persistir independentemente de mudanças na equipe, embora a eficácia dependa da implementação consistente.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1249,
+    "completion_tokens": 172,
+    "total_tokens": 1421,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 353
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "094ba710-09e3-4a29-a8d9-2b4af219d3d1",
+  "object": "chat.completion",
+  "created": 1760458401,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação não está adequadamente relacionada à constatação específica sobre o armazenamento de OPME sem gerência do almoxarifado central. A recomendação genérica sobre prestação de informações não aborda diretamente a causa (falta de gerência) nem a condição encontrada (armazenamento inadequado).\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1185,
+    "completion_tokens": 129,
+    "total_tokens": 1314,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 225
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

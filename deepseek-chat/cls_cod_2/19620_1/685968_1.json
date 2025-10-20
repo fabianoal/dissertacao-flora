@@ -1,0 +1,28 @@
+{
+  "id": "0cdf685e-0a06-4994-996f-e38506b813ac",
+  "object": "chat.completion",
+  "created": 1760390990,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe uma ação de ressarcimento financeiro para compensar a irregularidade identificada, focando na correção da condição atual de falta de rastreabilidade, sem abordar as causas subjacentes, como falhas em processos ou sistemas que levaram à irregularidade. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1035,
+    "completion_tokens": 138,
+    "total_tokens": 1173,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 203
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

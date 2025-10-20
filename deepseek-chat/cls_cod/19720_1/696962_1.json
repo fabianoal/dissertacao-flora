@@ -1,0 +1,28 @@
+{
+  "id": "0dcc0101-4530-4d17-9a3c-a82f0e04e264",
+  "object": "chat.completion",
+  "created": 1760037032,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere uma ação corretiva ao orientar a equipe médica a elaborar prontuários legíveis e completos, o que visa resolver a condição de não comprovação da produção. Além disso, propõe uma ação com foco na causa ao enfatizar a importância da elaboração adequada dos prontuários, mas se limita a referenciar o cumprimento de um normativo específico (Resolução CFM 2217), sem detalhar ações concretas adicionais. Portanto, a ação com foco na causa é genérica. Quanto aos efeitos duradouros, como a ação é genérica e depende da adesão contínua dos profissionais, não há garantia de que os efeitos persistam com mudanças de atores.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1287,
+    "completion_tokens": 220,
+    "total_tokens": 1507,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 263
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

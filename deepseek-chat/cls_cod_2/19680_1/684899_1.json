@@ -1,0 +1,28 @@
+{
+  "id": "d43b855d-04f6-4ddc-9120-210f1054b090",
+  "object": "chat.completion",
+  "created": 1760392686,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações como garantir a manutenção da composição mínima das equipes, efetuar registros de frequência, manter atualizado o SCNES e cumprir critérios normativos, que visam tratar as causas estruturais e processuais que levaram à não conformidade, como falhas na gestão de pessoal e registros. Já em relação aos efeitos pretendidos, as ações sugeridas, como a manutenção de sistemas de registro e cumprimento de normas, tendem a produzir efeitos duradouros, pois estabelecem processos e controles que permanecem independentemente de mudanças nos atores envolvidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1133,
+    "completion_tokens": 187,
+    "total_tokens": 1320,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 301
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

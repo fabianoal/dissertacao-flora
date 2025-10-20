@@ -1,0 +1,28 @@
+{
+  "id": "1dbc0f5d-8079-413f-bbd0-c0bef2916037",
+  "object": "chat.completion",
+  "created": 1760383658,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a citar dispositivos normativos que autorizam a suspensão de repasses financeiros como sanção pelo descumprimento das normativas sobre composição das equipes, sem propor ações específicas para tratar a causa do problema (como processos de recrutamento, capacitação ou revisão de políticas de alocação de profissionais). Portanto, não há ação proposta que trate da causa da condição encontrada. O critério 'Efeitos Duradouros' não se aplica, pois o critério 'Foco Causa' foi avaliado como 'Não'.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1082,
+    "completion_tokens": 168,
+    "total_tokens": 1250,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 250
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

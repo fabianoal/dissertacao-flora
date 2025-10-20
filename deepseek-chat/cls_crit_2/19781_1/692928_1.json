@@ -1,0 +1,28 @@
+{
+  "id": "a5f203ae-30e3-4001-93af-429f456d6032",
+  "object": "chat.completion",
+  "created": 1760464269,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a implementação de um sistema de informação para gerenciar estoque e controlar pedidos e movimentações, o que efetivamente trata a causa raiz da falta de registro e atualização das informações logísticas, ao estabelecer um processo estruturado e permanente. Quanto ao critério 'Efeitos Duradouros', a implementação de um sistema de informação cria uma infraestrutura que permanece funcional independentemente de mudanças nos atores envolvidos, assegurando efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1359,
+    "completion_tokens": 176,
+    "total_tokens": 1535,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 463
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

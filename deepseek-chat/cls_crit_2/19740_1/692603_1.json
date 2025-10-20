@@ -1,0 +1,28 @@
+{
+  "id": "a259a7c0-e201-4df6-a9d0-4c1b1c218f5e",
+  "object": "chat.completion",
+  "created": 1760462661,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a implementação de uma fonte de energia alternativa, que aborda diretamente a causa da insuficiência parcial dos equipamentos (falta de energia de backup), e não apenas a condição atual. Quanto ao critério 'Efeitos Duradouros', a solução é estrutural e independente de mudanças de pessoal, garantindo continuidade.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1181,
+    "completion_tokens": 140,
+    "total_tokens": 1321,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 285
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

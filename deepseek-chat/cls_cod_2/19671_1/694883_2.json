@@ -1,0 +1,28 @@
+{
+  "id": "76fc37aa-2a22-436d-80ed-2863d39222ff",
+  "object": "chat.completion",
+  "created": 1760392346,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a adoção de ações efetivas para viabilizar o acesso tempestivo à consulta com nefrologista, focando na correção da condição imediata (lista de espera) sem especificar medidas que ataquem as causas subjacentes, como falta de profissionais, problemas de gestão ou infraestrutura. Portanto, não há ação clara para tratar a causa do problema. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1055,
+    "completion_tokens": 164,
+    "total_tokens": 1219,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 223
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

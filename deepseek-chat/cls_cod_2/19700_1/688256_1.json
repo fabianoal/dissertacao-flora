@@ -1,0 +1,28 @@
+{
+  "id": "3b887189-3662-4a96-af3a-8626e6530351",
+  "object": "chat.completion",
+  "created": 1760394152,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a implementação de medidas para garantir o adequado monitoramento clínico e das terapias, evitando especificamente o uso de controle manual, local, sem compartilhamento de dados e sem relatórios confiáveis. Isso aborda a causa da fragilidade nos mecanismos de controle, que é a falta de um sistema estruturado e compartilhado. Já em relação aos efeitos pretendidos, a implementação de um sistema adequado de monitoramento, conforme a portaria, tende a criar processos padronizados e sistemas que permanecem independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 991,
+    "completion_tokens": 188,
+    "total_tokens": 1179,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 159
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

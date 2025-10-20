@@ -1,0 +1,28 @@
+{
+  "id": "95602278-b9e4-4995-8f14-b78a75dc1d67",
+  "object": "chat.completion",
+  "created": 1760458689,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação se concentra na correção imediata da condição encontrada (ausência de documentação comprobatória), sem propor ações que abordem a causa subjacente do problema, como falhas nos processos de arquivamento ou controle documental. Para o critério 'Efeitos Duradouros', como o 'Foco Causa' foi corretamente classificado como 'Não', a resposta 'Não se aplica' está adequada, pois a avaliação de efeitos duradouros só é pertinente quando há ações voltadas para a causa.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1351,
+    "completion_tokens": 190,
+    "total_tokens": 1541,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 455
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

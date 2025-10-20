@@ -1,0 +1,28 @@
+{
+  "id": "dac4df6c-1524-4ed0-8fc4-e31ddbacef8d",
+  "object": "chat.completion",
+  "created": 1760456425,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe uma ação que visa prevenir a reincidência de impropriedades ao orientar a conferência da documentação, o que trata a causa subjacente de falta de verificação adequada. Para o critério 'Efeitos Duradouros', a recomendação estabelece um procedimento baseado em normativos, que pode persistir com mudanças de pessoal, mas depende da adesão contínua e da efetividade da orientação, o que pode não garantir efeitos totalmente duradouros sem medidas adicionais.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1298,
+    "completion_tokens": 178,
+    "total_tokens": 1476,
+    "prompt_tokens_details": {
+      "cached_tokens": 1152
+    },
+    "prompt_cache_hit_tokens": 1152,
+    "prompt_cache_miss_tokens": 146
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

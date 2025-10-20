@@ -1,0 +1,28 @@
+{
+  "id": "d70ee90c-e5cb-4e48-b372-bd56a75d4ca3",
+  "object": "chat.completion",
+  "created": 1760386362,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação solicita a apresentação de documentos comprobatórios, incluindo etiquetas de rastreabilidade, para atender a requisitos contratuais e normativos. Esta ação visa corrigir a condição imediata de falta de etiquetas nos prontuários, mas não propõe medidas para tratar a causa subjacente que levou à ausência dessas etiquetas, como falhas nos processos de identificação ou rastreabilidade. Portanto, o foco está na condição atual, não na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1028,
+    "completion_tokens": 185,
+    "total_tokens": 1213,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 196
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

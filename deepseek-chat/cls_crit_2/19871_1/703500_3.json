@@ -1,0 +1,28 @@
+{
+  "id": "ffdb16ea-544e-4075-9307-bd9298afe9be",
+  "object": "chat.completion",
+  "created": 1760467705,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identifica corretamente que a recomendação propõe ações para tratar a causa subjacente (processos inadequados de documentação e registro), e não apenas corrigir a condição específica. Para o critério 'Efeitos Duradouros', a análise também está correta, pois a implementação de processos revisados e alinhados às diretrizes estabelece um sistema padronizado que persiste independentemente de mudanças na equipe.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1422,
+    "completion_tokens": 158,
+    "total_tokens": 1580,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 462
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

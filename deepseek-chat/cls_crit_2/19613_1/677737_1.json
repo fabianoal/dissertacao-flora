@@ -1,0 +1,28 @@
+{
+  "id": "c08a709b-8ad3-4868-8b8b-befcb4f0ddaf",
+  "object": "chat.completion",
+  "created": 1760456937,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identificou corretamente que a recomendação se concentra em corrigir a condição imediata (ausência dos relatórios) sem abordar as causas subjacentes, como falhas processuais ou de capacitação. Para o critério 'Efeitos Duradouros', a resposta 'Não se aplica' é adequada, pois depende de 'Foco Causa' ser 'Sim'. A recomendação é claramente condition-based, focando na inserção dos relatórios específicos de 2022, sem medidas preventivas para evitar recorrência.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1198,
+    "completion_tokens": 182,
+    "total_tokens": 1380,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 302
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

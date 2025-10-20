@@ -1,0 +1,28 @@
+{
+  "id": "d6fb9d9f-5fa3-43dc-ad81-14d933fbe786",
+  "object": "chat.completion",
+  "created": 1760395392,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação inclui a manutenção de documentação e a implementação de um sistema automatizado de monitoramento da temperatura. A ação de implementar um sistema automatizado visa tratar a causa raiz da falta de registros, que pode ser a ausência de processos ou ferramentas adequadas para monitoramento contínuo, caracterizando um foco na causa. Já em relação aos efeitos pretendidos pela recomendação, o sistema automatizado estabelece um processo estruturado que deve persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1092,
+    "completion_tokens": 164,
+    "total_tokens": 1256,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 260
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

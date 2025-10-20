@@ -1,0 +1,28 @@
+{
+  "id": "6c0acee5-1532-488d-bd27-e8c408cb3c96",
+  "object": "chat.completion",
+  "created": 1760389326,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a orientação de fiscais e gestores para conferir documentação comprobatória de contratação de maneira tempestiva, visando evitar desobediência a normativos e irregularidades. Essa ação busca prevenir a reincidência da condição encontrada (ausência de cotação prévia e justificativa) ao estabelecer um processo de verificação contínua, tratando assim a causa do problema, que é a falta de controle sistemático. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um processo de conferência tempestiva no sistema Transferegov cria um mecanismo que permanece independentemente de mudanças nos atores envolvidos, pois se baseia em procedimentos e sistemas, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1000,
+    "completion_tokens": 214,
+    "total_tokens": 1214,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 168
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

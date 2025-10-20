@@ -1,0 +1,28 @@
+{
+  "id": "029c1d6a-7097-4713-aeb4-88dca44065f1",
+  "object": "chat.completion",
+  "created": 1760395196,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam diretamente da causa do problema (ausência de monitoramento contínuo e de procedimentos definidos), como implementar um sistema de monitoramento, desenvolver POP específico e um plano para falhas, visando evitar a reocorrência da condição. Já em relação aos efeitos duradouros, as ações sugeridas (sistema, POP e plano) são estruturadas e documentadas, permanecendo válidas mesmo com mudanças nos atores envolvidos, pois estabelecem procedimentos e responsabilidades independentes de indivíduos específicos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1075,
+    "completion_tokens": 170,
+    "total_tokens": 1245,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 243
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

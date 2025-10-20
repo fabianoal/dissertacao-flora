@@ -1,0 +1,28 @@
+{
+  "id": "e9a2a527-db32-4b86-a1e4-a2162da16d01",
+  "object": "chat.completion",
+  "created": 1760400372,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a adoção de procedimentos estabelecidos em normativos legais para prevenir a recorrência do fato apresentado, indicando uma ação que visa tratar a causa do problema (cobrança irregular) ao invés de apenas corrigir a condição atual. Já em relação aos efeitos pretendidos pela recomendação, a implementação de procedimentos baseados em normativos legais tende a criar estruturas permanentes que independem de atores específicos, garantindo efeitos duradouros mesmo com mudanças de pessoal.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1010,
+    "completion_tokens": 161,
+    "total_tokens": 1171,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 178
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

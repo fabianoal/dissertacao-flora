@@ -1,0 +1,28 @@
+{
+  "id": "ded91fd7-ff37-4948-8686-39b032cbb68f",
+  "object": "chat.completion",
+  "created": 1760386978,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe uma ação específica de correção no preenchimento do cadastro dos contratos no Portal da Transparência, visando resolver a condição imediata de falta de transparência, sem abordar as causas subjacentes que levaram ao preenchimento incorreto (como falhas nos processos internos, falta de capacitação ou ausência de mecanismos de verificação). Portanto, a recomendação é focada na condição, não na causa. Como o critério 'Foco Causa' não foi atendido, a análise de efeitos duradouros não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1011,
+    "completion_tokens": 178,
+    "total_tokens": 1189,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 179
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

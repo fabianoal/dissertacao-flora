@@ -1,0 +1,28 @@
+{
+  "id": "ead5a926-b383-41b9-86dc-9d6621205fdc",
+  "object": "chat.completion",
+  "created": 1760394049,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a citar normas e responsabilidades existentes sem propor ações específicas para tratar a causa da divergência entre os dados do SIA/SUS e os registros físicos da unidade de saúde. Não há menção a medidas como implementação de procedimentos de reconciliação de dados, capacitação da equipe, revisão de processos de registro ou outras ações que ataquem diretamente a raiz do problema. Portanto, não há ação proposta que trate da causa do problema.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1094,
+    "completion_tokens": 147,
+    "total_tokens": 1241,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 262
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

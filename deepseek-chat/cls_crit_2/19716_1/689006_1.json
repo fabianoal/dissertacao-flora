@@ -1,0 +1,28 @@
+{
+  "id": "173071a8-d9b4-4328-8b2c-0415d1e076d0",
+  "object": "chat.completion",
+  "created": 1760462174,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação de desenvolver um sistema de controle ativo com notificações automáticas aborda a causa raiz da falta de monitoramento e controle dos exames, que é a ausência de um processo sistemático para acompanhar a realização dos exames conforme as diretrizes. Isso visa prevenir a reincidência do problema, caracterizando uma recomendação com foco na causa. Quanto ao critério 'Efeitos Duradouros', a implementação de um sistema automatizado assegura que os benefícios persistam mesmo com mudanças na equipe, pois o sistema opera independentemente dos indivíduos envolvidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1486,
+    "completion_tokens": 189,
+    "total_tokens": 1675,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 590
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

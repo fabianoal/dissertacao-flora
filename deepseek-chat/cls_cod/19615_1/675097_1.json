@@ -1,0 +1,28 @@
+{
+  "id": "562954d3-ddd6-468a-9cd2-a3295acfd71f",
+  "object": "chat.completion",
+  "created": 1760036876,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere duas ações principais: (1) elaborar relatórios mensais com base em informações fidedignas, o que corrige a condição encontrada de documentos inadequados; e (2) adotar medidas preventivas ou corretivas em caso de descumprimento, referenciando especificamente dispositivos da Portaria de Consolidação Sesai/MS nº 1/2020. A primeira ação é corretiva, enquanto a segunda, embora mencione medidas preventivas, limita-se a exigir o cumprimento de normativos existentes sem propor ações concretas adicionais para tratar a causa raiz da impropriedade documental.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1243,
+    "completion_tokens": 197,
+    "total_tokens": 1440,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 219
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

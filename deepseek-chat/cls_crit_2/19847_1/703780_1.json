@@ -1,0 +1,28 @@
+{
+  "id": "6ed8f6b1-dc94-4489-be3f-dc89f77967d8",
+  "object": "chat.completion",
+  "created": 1760466669,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe monitorar a execução dos contratos, o que pode ser visto como uma ação para prevenir a reincidência da falta de monitoramento, mas não necessariamente aborda a causa raiz do problema, como falhas na estrutura, recursos ou capacitação da Comissão. Para o critério 'Efeitos Duradouros', se o monitoramento for institucionalizado, pode ser duradouro, mas a análise depende da interpretação da causa.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1283,
+    "completion_tokens": 160,
+    "total_tokens": 1443,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 387
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

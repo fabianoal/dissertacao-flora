@@ -1,0 +1,28 @@
+{
+  "id": "8eba67f2-76b0-4dc0-880b-850aba86bbaf",
+  "object": "chat.completion",
+  "created": 1759367426,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação aborda a correção imediata das irregularidades identificadas, focando na disponibilização de documentação comprobatória e no cumprimento de manuais e portarias específicas para garantir a fidedignidade dos dados inseridos. No entanto, não identifica as causas institucionais subjacentes que permitiram o surgimento dessas irregularidades (como falhas em processos de controle interno, capacitação inadequada de pessoal ou deficiências na supervisão), nem propõe mudanças estruturais para prevenir a recorrência dos problemas. As medidas sugeridas são corretivas e reativas, direcionadas à condição observada, sem evidência de transformações duradouras nos processos organizacionais.\",\n    \"categoria\": \"foco-condicao\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1602,
+    "completion_tokens": 184,
+    "total_tokens": 1786,
+    "prompt_tokens_details": {
+      "cached_tokens": 1216
+    },
+    "prompt_cache_hit_tokens": 1216,
+    "prompt_cache_miss_tokens": 386
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

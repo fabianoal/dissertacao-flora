@@ -1,0 +1,28 @@
+{
+  "id": "de5b0424-3a2c-4a8b-86ce-663ff9c0ca8b",
+  "object": "chat.completion",
+  "created": 1760386498,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"Em relação ao foco, a recomendação propõe estabelecer medidas para assegurar o anexo das cópias das folhas de requisição de OPME aos prontuários, o que aborda diretamente a causa do problema, que é a ausência de um processo ou controle que garanta essa anexação, em vez de apenas corrigir a condição atual de prontuários sem os documentos. Já em relação aos efeitos pretendidos pela recomendação, as medidas estabelecidas, como a implementação de procedimentos ou controles permanentes, provavelmente manterão seus efeitos mesmo com mudanças nos atores envolvidos, pois se baseiam em sistemas ou normas duradouras.\",\n   \"Foco Causa\": \"Sim\",\n   \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1091,
+    "completion_tokens": 186,
+    "total_tokens": 1277,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 195
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

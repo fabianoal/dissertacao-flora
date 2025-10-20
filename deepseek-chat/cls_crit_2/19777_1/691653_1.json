@@ -1,0 +1,28 @@
+{
+  "id": "f320c238-60e8-4db4-b935-8f12cd02dd09",
+  "object": "chat.completion",
+  "created": 1760464001,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise da codificação identificou corretamente que a recomendação estabelece uma rotina documentada para o preenchimento dos mapas de temperatura, abordando a causa subjacente da falta de procedimentos padronizados. No entanto, a avaliação sobre os efeitos duradouros merece uma análise mais aprofundada, considerando que a mera documentação de rotinas não garante automaticamente sua perpetuidade sem mecanismos de controle e monitoramento contínuos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1197,
+    "completion_tokens": 148,
+    "total_tokens": 1345,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 301
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

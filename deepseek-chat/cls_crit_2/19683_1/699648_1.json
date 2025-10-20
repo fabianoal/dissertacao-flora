@@ -1,0 +1,28 @@
+{
+  "id": "ae8b76b3-d6aa-4d82-b71d-30c9447e27ee",
+  "object": "chat.completion",
+  "created": 1760459685,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação solicita justificativas para a não realização de cotação de preços, o que se concentra na condição irregular específica (contratação sem cotação) e não propõe ações para tratar as causas subjacentes, como falhas nos processos internos ou capacitação inadequada. Portanto, concordo com a classificação 'Não'. Para o critério 'Efeitos Duradouros', como 'Foco Causa' é 'Não', a resposta 'Não se aplica' está correta, e também concordo.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1144,
+    "completion_tokens": 176,
+    "total_tokens": 1320,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 248
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

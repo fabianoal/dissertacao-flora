@@ -1,0 +1,28 @@
+{
+  "id": "7127bb36-a8aa-4120-bd7d-355a6877aca0",
+  "object": "chat.completion",
+  "created": 1760398032,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe estabelecer ações nos processos de trabalho das UBS para efetivar a continuidade do cuidado, o que visa modificar a estrutura ou procedimentos para prevenir a repetição da condição de falta de continuidade, caracterizando um foco na causa. Já em relação aos efeitos pretendidos, as ações propostas, como a incorporação de práticas coordenadas nos processos de trabalho, tendem a permanecer mesmo com mudanças nos atores envolvidos, pois se tornam parte da rotina organizacional.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1020,
+    "completion_tokens": 155,
+    "total_tokens": 1175,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 188
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

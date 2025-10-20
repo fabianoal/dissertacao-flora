@@ -1,0 +1,28 @@
+{
+  "id": "73966bbd-eb9f-414c-9a22-cf5cf5fc9a49",
+  "object": "chat.completion",
+  "created": 1760399164,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a adoção de medidas para instruir corretamente os processos de pagamento com documentos que comprovem a prestação do serviço, como relatórios de monitoramento e planilhas com quantitativos físicos e financeiros. Isso visa estabelecer um processo sistemático e documentado para futuros pagamentos, tratando a causa do problema (falta de documentação comprobatória) e não apenas corrigindo a condição atual. Já em relação aos efeitos pretendidos pela recomendação, a implementação de processos padronizados e documentados para instrução de pagamentos cria um sistema que permanece funcional independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1023,
+    "completion_tokens": 200,
+    "total_tokens": 1223,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 255
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

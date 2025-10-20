@@ -1,0 +1,28 @@
+{
+  "id": "f6bb4e4d-f013-4b57-80b4-26608658969b",
+  "object": "chat.completion",
+  "created": 1760386263,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação apenas encaminha a constatação para conhecimento do departamento competente, citando dispositivos legais, mas não propõe nenhuma ação específica para tratar a causa do problema (falta de apresentação completa dos documentos). Não há sugestão de medidas corretivas ou preventivas.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1055,
+    "completion_tokens": 105,
+    "total_tokens": 1160,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 159
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

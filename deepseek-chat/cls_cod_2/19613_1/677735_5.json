@@ -1,0 +1,28 @@
+{
+  "id": "f960876a-29d4-47c8-ab5f-cfb25db60e1b",
+  "object": "chat.completion",
+  "created": 1760390114,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe uma ação de conferência da documentação comprobatória no sistema Transferegov para evitar a manutenção de informações incorretas, o que visa tratar a causa do problema (informações incorretas persistindo no sistema) ao implementar um processo de verificação contínua. Já em relação aos efeitos pretendidos pela recomendação, a ação de conferência estabelece um procedimento sistemático que deve permanecer independentemente de mudanças nos atores envolvidos, pois se baseia em um requisito normativo (Portaria de Consolidação) e em um processo documentado.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 965,
+    "completion_tokens": 175,
+    "total_tokens": 1140,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 5
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

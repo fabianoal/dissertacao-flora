@@ -1,0 +1,28 @@
+{
+  "id": "68dc7fcb-b550-4bce-a364-01f4b6ab37c1",
+  "object": "chat.completion",
+  "created": 1760455233,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação se limita a exigir a disponibilidade dos laudos, sem abordar as causas subjacentes da não apresentação, como falhas nos processos de coleta, registro ou armazenamento. Portanto, concordo que não há foco na causa. Quanto ao critério 'Efeitos Duradouros', como o 'Foco Causa' é 'Não', a resposta 'Não se aplica' está adequada, e concordo com essa avaliação.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1263,
+    "completion_tokens": 170,
+    "total_tokens": 1433,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 367
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

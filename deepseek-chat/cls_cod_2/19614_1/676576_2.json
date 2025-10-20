@@ -1,0 +1,28 @@
+{
+  "id": "38805de6-2f22-45b7-a150-16831a72cac0",
+  "object": "chat.completion",
+  "created": 1760390218,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe o cumprimento de uma lei específica e o monitoramento dos registros de horário, o que visa corrigir a falta de documentação adequada para afastamentos, mas não aborda diretamente as causas subjacentes, como falhas em processos internos ou na capacitação de pessoal. Portanto, não há ação clara focada na causa do problema. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 979,
+    "completion_tokens": 151,
+    "total_tokens": 1130,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 19
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

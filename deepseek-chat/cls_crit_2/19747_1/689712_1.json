@@ -1,0 +1,28 @@
+{
+  "id": "6f2369bd-9ca4-4c3e-a8a6-18816aab93fb",
+  "object": "chat.completion",
+  "created": 1760462949,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação se concentra na correção da condição imediata (falta de inserção formal no CNES) sem abordar causas subjacentes, como falhas em processos de gestão ou políticas de integração. No entanto, a avaliação de 'Efeitos Duradouros' como 'Não se aplica' é consistente com a ausência de foco na causa.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1260,
+    "completion_tokens": 140,
+    "total_tokens": 1400,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 364
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

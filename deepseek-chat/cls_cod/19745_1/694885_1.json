@@ -1,0 +1,28 @@
+{
+  "id": "2bd7f621-d7a3-40fa-b310-4aeeed5cce9f",
+  "object": "chat.completion",
+  "created": 1760036600,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere ações corretivas para resolver a condição de falta de registro e atualização constante das informações logísticas, como estabelecer procedimentos específicos e realizar auditorias periódicas. Além disso, propõe ações com foco na causa, como elaborar um documento que defina ações, etapas e responsáveis, o que visa endereçar a causa subjacente de falta de processos definidos. No entanto, a referência a cumprir normativos específicos é genérica, mas a ação de elaborar o documento é específica e concreta. Quanto aos efeitos duradouros, a definição de procedimentos e responsabilidades pode persistir mesmo com mudanças de atores, pois institucionaliza o processo.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Específica\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1386,
+    "completion_tokens": 208,
+    "total_tokens": 1594,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 362
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

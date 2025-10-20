@@ -1,0 +1,28 @@
+{
+  "id": "7e1760e9-663d-42e9-9910-cee4c4c0b92f",
+  "object": "chat.completion",
+  "created": 1760453861,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação não especifica ações concretas para tratar a causa raiz do problema. No entanto, é importante considerar que a referência a dispositivos legais pode implicar ações subjacentes, mas a falta de detalhamento na recomendação justifica a classificação.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1295,
+    "completion_tokens": 113,
+    "total_tokens": 1408,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 335
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

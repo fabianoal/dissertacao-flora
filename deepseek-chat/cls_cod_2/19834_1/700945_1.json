@@ -1,0 +1,28 @@
+{
+  "id": "0c3fc769-e6c7-427d-a0d6-84e50ac25daa",
+  "object": "chat.completion",
+  "created": 1760398784,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a exigir o cumprimento de uma exigência normativa específica (possuir licença sanitária atualizada), sem propor ações que abordem as causas subjacentes que levaram à ausência do alvará sanitário, como possíveis deficiências nos processos de solicitação, acompanhamento ou adequação às normas. Portanto, não há ação proposta que trate da causa do problema. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 988,
+    "completion_tokens": 163,
+    "total_tokens": 1151,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 220
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

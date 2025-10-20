@@ -1,0 +1,28 @@
+{
+  "id": "d02c09fc-eafc-4c6b-ae05-4581e292964e",
+  "object": "chat.completion",
+  "created": 1760465145,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações que tratam da causa do problema (ausência de instituição formal do Grupo Condutor Municipal) ao sugerir a criação formal do grupo com definição de composição e atribuições, o que visa prevenir a reocorrência da condição. Já em relação ao critério 'Efeitos Duradouros', a instituição formal do grupo com atribuições definidas tende a gerar efeitos duradouros, pois a estrutura e normas estabelecidas permanecem independentemente de mudanças nos atores envolvidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1233,
+    "completion_tokens": 178,
+    "total_tokens": 1411,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 337
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

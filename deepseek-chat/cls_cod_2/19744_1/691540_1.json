@@ -1,0 +1,28 @@
+{
+  "id": "f3bcc6fd-d014-4d36-b959-8b90be35f356",
+  "object": "chat.completion",
+  "created": 1760395117,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a aquisição de equipamentos e instrumentos necessários para atender aos requisitos técnicos, o que trata diretamente a causa da inadequação dos equipamentos existentes, sendo uma solução de longo prazo. Já em relação aos efeitos pretendidos pela recomendação, a implementação de equipamentos adequados permanece funcional independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1041,
+    "completion_tokens": 139,
+    "total_tokens": 1180,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 209
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

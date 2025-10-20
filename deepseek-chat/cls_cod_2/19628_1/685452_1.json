@@ -1,0 +1,28 @@
+{
+  "id": "81855834-7409-410e-867c-de6affb8a75f",
+  "object": "chat.completion",
+  "created": 1760391506,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe estabelecer medidas para assegurar a anexação correta das cópias das notas fiscais nos prontuários, o que aborda diretamente a causa do problema, como falhas nos processos de documentação, visando prevenir a reincidência da ausência de documentos. Já em relação aos efeitos pretendidos pela recomendação, as medidas estabelecidas, como a implementação de procedimentos padronizados, tendem a criar mudanças sistêmicas que podem persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1065,
+    "completion_tokens": 168,
+    "total_tokens": 1233,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 233
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

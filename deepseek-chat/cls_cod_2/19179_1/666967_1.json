@@ -1,0 +1,28 @@
+{
+  "id": "2b5d9573-5375-457b-b306-a7cbd10a6049",
+  "object": "chat.completion",
+  "created": 1760383918,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a citar dispositivos normativos que estabelecem requisitos para a estrutura física das unidades de internação e a proporcionalidade de leitos por postos de enfermagem, sem propor ações específicas para tratar a causa subjacente da falta de instalações e equipamentos. Não há menção a medidas que abordem as razões pelas quais o hospital não conta com essas instalações, como questões orçamentárias, de gestão ou planejamento. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, esta análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1035,
+    "completion_tokens": 175,
+    "total_tokens": 1210,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 203
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

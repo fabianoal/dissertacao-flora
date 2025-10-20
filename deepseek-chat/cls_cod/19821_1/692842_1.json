@@ -1,0 +1,28 @@
+{
+  "id": "3361ac90-91a8-411e-8237-90d40ad08bb4",
+  "object": "chat.completion",
+  "created": 1760037924,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere acompanhar os pacientes para resolver a condição encontrada de falta de acompanhamento, o que caracteriza uma ação corretiva. No entanto, a ação proposta é genérica, pois se limita a citar o cumprimento de uma portaria sem especificar medidas concretas para tratar a causa subjacente, como a implementação de protocolos ou treinamentos. Como a ação de foco na causa é genérica, os efeitos duradouros não são avaliados positivamente.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1255,
+    "completion_tokens": 156,
+    "total_tokens": 1411,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 231
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

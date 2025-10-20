@@ -1,0 +1,28 @@
+{
+  "id": "e1cff050-0ead-4dc1-91bb-3d35a3d11ec2",
+  "object": "chat.completion",
+  "created": 1760396420,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe estabelecer e documentar uma rotina de verificação diária, o que visa prevenir a recorrência da falta de verificação, tratando assim a causa subjacente do problema. Já em relação aos efeitos pretendidos pela recomendação, a implementação de uma rotina documentada tende a criar um processo contínuo e independente de indivíduos específicos, resultando em efeitos duradouros mesmo com mudanças de pessoal.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 975,
+    "completion_tokens": 140,
+    "total_tokens": 1115,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 143
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

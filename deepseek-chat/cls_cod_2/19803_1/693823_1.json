@@ -1,0 +1,28 @@
+{
+  "id": "4fa46c8a-2af6-47a3-8903-13db4cfcbdb2",
+  "object": "chat.completion",
+  "created": 1760397412,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe o desenvolvimento de estratégias para garantir o acompanhamento dos familiares, o que aborda a causa subjacente da falta de procedimentos ou práticas estruturadas que levam à condição de não realização do acompanhamento, em vez de apenas corrigir casos específicos. Já em relação aos efeitos pretendidos pela recomendação, as estratégias desenvolvidas provavelmente estabelecerão processos ou diretrizes permanentes que continuarão a orientar o acompanhamento mesmo com mudanças nas equipes, indicando efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1071,
+    "completion_tokens": 163,
+    "total_tokens": 1234,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 239
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

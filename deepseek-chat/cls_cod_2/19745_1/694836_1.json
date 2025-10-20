@@ -1,0 +1,28 @@
+{
+  "id": "2e5324e5-bcb3-4c1b-a0d0-a7d4d184e64f",
+  "object": "chat.completion",
+  "created": 1760395156,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a inserção de informações completas sobre imunização nos Instrumentos de Gestão, o que visa corrigir a causa do problema (informações incompletas) estabelecendo um processo sistemático de registro. Já em relação aos efeitos pretendidos, a ação de documentação formal nos instrumentos de gestão cria um procedimento estruturado que permanece independente de mudanças nos atores envolvidos, garantindo continuidade.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 991,
+    "completion_tokens": 139,
+    "total_tokens": 1130,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 159
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

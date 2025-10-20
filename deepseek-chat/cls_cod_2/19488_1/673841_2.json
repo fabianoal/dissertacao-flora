@@ -1,0 +1,28 @@
+{
+  "id": "c1ba57af-adce-41dc-8cbd-54e02bc3d8db",
+  "object": "chat.completion",
+  "created": 1760386130,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam da causa do problema ao sugerir a revisão das obrigações legais e a implementação de mecanismos de controle e fiscalização, visando prevenir a ocorrência futura de repasses insuficientes. Já em relação aos efeitos pretendidos pela recomendação, os mecanismos de controle e fiscalização propostos têm efeitos duradouros, pois permanecem funcionais mesmo com mudanças nos atores envolvidos, assegurando a continuidade dos repasses adequados.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1115,
+    "completion_tokens": 158,
+    "total_tokens": 1273,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 219
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

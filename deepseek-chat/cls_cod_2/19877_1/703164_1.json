@@ -1,0 +1,28 @@
+{
+  "id": "2692f8e4-2409-471c-9d1c-019e4b89529e",
+  "object": "chat.completion",
+  "created": 1760400380,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a implementação de medidas para garantir a autorização prévia dos procedimentos, o que visa tratar a causa raiz do problema (falta de autorização prévia) e não apenas corrigir as APACs específicas com datas irregulares. Isso indica um foco na causa, pois busca prevenir a ocorrência futura da condição. Já em relação aos efeitos pretendidos pela recomendação, a implementação de medidas para garantir autorização prévia estabelece um processo ou controle que deve permanecer em vigor independentemente de mudanças nos atores envolvidos, como a substituição de funcionários ou gestores, sugerindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1080,
+    "completion_tokens": 188,
+    "total_tokens": 1268,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 248
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "3a9c0844-ae54-40de-9465-689d16f5e53d",
+  "object": "chat.completion",
+  "created": 1759367850,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação identifica a causa que levou à condição detectada (ausência de documentação comprobatória da elaboração anual do informe) ao propor a elaboração e divulgação anual do informe, conforme estabelecido no Plano de Ação. A causa identificada está situada no nível institucional, pois se refere à implementação de um processo sistemático e formal de produção e divulgação do informe, que é uma responsabilidade institucional da SES/TO. As transformações produzidas pela recomendação, caso implementada, possuem potencial para perdurar no tempo, pois estabelece uma prática anual contínua e institucionalizada de elaboração e divulgação do informe epidemiológico, caracterizando uma mudança estrutural e duradoura nos processos organizacionais.\",\n    \"categoria\": \"foco-causa\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1435,
+    "completion_tokens": 189,
+    "total_tokens": 1624,
+    "prompt_tokens_details": {
+      "cached_tokens": 1280
+    },
+    "prompt_cache_hit_tokens": 1280,
+    "prompt_cache_miss_tokens": 155
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

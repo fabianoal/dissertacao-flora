@@ -1,0 +1,28 @@
+{
+  "id": "bc944d29-56a8-49a5-bbf2-56e5f8c830af",
+  "object": "chat.completion",
+  "created": 1760386098,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação cita a necessidade de cumprir boas práticas de registro de informações em saúde conforme nota técnica, focando na qualidade do registro dos dados. No entanto, não propõe ações específicas para tratar a causa raiz das divergências encontradas nos dados de Sífilis e HIV em gestantes, como possíveis falhas nos processos de coleta, treinamento de pessoal ou validação dos dados. Em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, esta análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1053,
+    "completion_tokens": 162,
+    "total_tokens": 1215,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 221
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "5afef79f-954b-47ea-9fe3-2c31dc8f9fc8",
+  "object": "chat.completion",
+  "created": 1760462933,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação aborda diretamente a causa raiz da falta de controles padronizados. Para o critério 'Efeitos Duradouros', a análise também é adequada, já que as medidas propostas criam estruturas e práticas institucionais que podem perdurar independentemente de mudanças na equipe.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1273,
+    "completion_tokens": 135,
+    "total_tokens": 1408,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 377
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

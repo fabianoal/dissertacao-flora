@@ -1,0 +1,28 @@
+{
+  "id": "441e7167-17c9-46f7-bf3e-09af3606f331",
+  "object": "chat.completion",
+  "created": 1760388418,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe ações específicas para regularizar a situação patrimonial dos veículos doados, como realizar a baixa dos bens e cumprir disposições legais sobre transferência de titularidade e registros patrimoniais. No entanto, essas ações focam na correção da condição irregular atual (veículos não incorporados ao patrimônio) e no cumprimento de procedimentos formais, sem abordar as causas subjacentes que levaram a essa falha, como deficiências em processos de gestão patrimonial, capacitação de pessoal ou controles internos. Em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, esta análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1140,
+    "completion_tokens": 197,
+    "total_tokens": 1337,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 308
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

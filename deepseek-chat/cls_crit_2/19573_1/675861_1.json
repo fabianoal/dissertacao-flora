@@ -1,0 +1,28 @@
+{
+  "id": "b8ce4cb3-be8d-4a6a-a988-140ba70995e8",
+  "object": "chat.completion",
+  "created": 1760455269,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação trata especificamente da implementação e registro da demanda regulada, sem abordar causas subjacentes como falhas processuais ou de capacitação. Para o critério 'Efeitos Duradouros', como 'Foco Causa' foi classificado como 'Não', a resposta 'Não se aplica' está adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1191,
+    "completion_tokens": 139,
+    "total_tokens": 1330,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 295
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

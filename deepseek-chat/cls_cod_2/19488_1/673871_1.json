@@ -1,0 +1,28 @@
+{
+  "id": "584d5fe4-df20-41fe-b4ab-79dbf31c07ce",
+  "object": "chat.completion",
+  "created": 1760386191,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações para eliminar problemas físicos específicos (mofo, cupim, paredes deterioradas, falta de isolamento acústico, sistemas inadequados de iluminação e temperatura, e esgoto a céu aberto), que são as condições observadas na constatação. No entanto, não há menção a ações que tratem das causas subjacentes que levaram a esses problemas, como falhas em processos de manutenção preventiva, planejamento inadequado da infraestrutura, ou deficiências na gestão de recursos. Portanto, a recomendação é focada na correção das condições atuais, não na causa. Como o critério 'Foco Causa' não foi atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1065,
+    "completion_tokens": 220,
+    "total_tokens": 1285,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 233
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

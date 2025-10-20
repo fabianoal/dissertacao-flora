@@ -1,0 +1,28 @@
+{
+  "id": "7f68ab67-b080-4a94-ad12-61dfbf7232f1",
+  "object": "chat.completion",
+  "created": 1760399188,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a implantação de ações para assegurar que os prontuários médicos contenham informações obrigatórias conforme a Resolução CFM n.º 1.638/2002, incluindo identificação do paciente, anamnese, exames, diagnósticos, tratamento e evolução diária. Isso visa corrigir a causa raiz das inconsistências e fragilidades nos registros, que é a ausência de um padrão documental completo e obrigatório, promovendo uma solução estrutural. Quanto aos efeitos duradouros, a implementação de diretrizes padronizadas e a atribuição de responsabilidade à Comissão para garantir seu cumprimento criam um sistema que persiste independentemente de mudanças nos profissionais envolvidos, assegurando continuidade.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1112,
+    "completion_tokens": 212,
+    "total_tokens": 1324,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 216
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

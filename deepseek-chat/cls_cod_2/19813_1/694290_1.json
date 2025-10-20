@@ -1,0 +1,28 @@
+{
+  "id": "39fa1bde-7086-4f7e-96da-73f68f77c9ce",
+  "object": "chat.completion",
+  "created": 1760397920,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a aplicação de medidas para possibilitar o compartilhamento de registros entre os pontos da RAPS, o que visa tratar diretamente a causa da falta de coordenação e comunicação identificada na constatação, sendo portanto uma recomendação com foco na causa. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um sistema ou processo de compartilhamento de registros tende a criar uma estrutura permanente que permanece funcional mesmo com mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1067,
+    "completion_tokens": 163,
+    "total_tokens": 1230,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 235
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

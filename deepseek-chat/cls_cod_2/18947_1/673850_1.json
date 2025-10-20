@@ -1,0 +1,28 @@
+{
+  "id": "1e9909d8-154f-4916-b981-4ee09983bbd1",
+  "object": "chat.completion",
+  "created": 1760383738,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a exigir a liquidação das despesas já realizadas mediante a apresentação dos comprovantes de pagamento, focando exclusivamente na correção da condição irregular específica (despesas sem comprovação). Não propõe nenhuma ação para tratar a causa subjacente que permitiu que essas despesas fossem realizadas sem a devida comprovação, como falhas nos processos de controle interno, capacitação de pessoal ou revisão de procedimentos.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1478,
+    "completion_tokens": 150,
+    "total_tokens": 1628,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 646
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

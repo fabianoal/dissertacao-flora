@@ -1,0 +1,28 @@
+{
+  "id": "356734f0-f766-448d-a9f1-967df306037b",
+  "object": "chat.completion",
+  "created": 1760385743,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe adequações físicas e de infraestrutura (arquitetura, manutenção predial, adequação de ambientes) que visam resolver diretamente a condição encontrada de falta de manutenção predial, sem evidenciar ações que ataquem as causas subjacentes que levaram à ausência de manutenção (como falhas em processos de gestão, alocação de recursos ou monitoramento). Portanto, a recomendação tem foco na condição, não na causa. Como o critério 'Foco Causa' não é atendido, não se aplica a análise de efeitos duradouros.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1027,
+    "completion_tokens": 187,
+    "total_tokens": 1214,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 195
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

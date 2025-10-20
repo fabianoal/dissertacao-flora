@@ -1,0 +1,28 @@
+{
+  "id": "e1bc37e6-892c-450a-80c2-3246f7cbf4dc",
+  "object": "chat.completion",
+  "created": 1760452236,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda ações que visam corrigir a falta de documentação e garantir o cumprimento das regras do programa, mas não identifica claramente a causa raiz do problema, como possíveis falhas de treinamento ou supervisão. Quanto ao critério 'Efeitos Duradouros', as ações propostas, como manutenção de arquivos e adesão a normas, podem criar sistemas duráveis, mas dependem de implementação consistente e podem não ser totalmente imunes a mudanças de pessoal.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1474,
+    "completion_tokens": 173,
+    "total_tokens": 1647,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 578
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

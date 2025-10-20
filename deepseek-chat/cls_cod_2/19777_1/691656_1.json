@@ -1,0 +1,28 @@
+{
+  "id": "b57870a4-2633-4546-85eb-a307aecbf296",
+  "object": "chat.completion",
+  "created": 1760396356,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe monitorar a temperatura de transporte dos imunobiológicos, o que constitui uma ação para verificar e controlar a condição identificada (transporte inadequado), mas não aborda as causas subjacentes que levam ao não cumprimento das orientações do PNI, como falta de capacitação, recursos inadequados ou falhas nos processos. Portanto, a recomendação é focada na condição, não na causa. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 987,
+    "completion_tokens": 172,
+    "total_tokens": 1159,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 155
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

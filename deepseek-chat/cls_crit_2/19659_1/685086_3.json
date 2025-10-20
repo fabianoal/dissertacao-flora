@@ -1,0 +1,28 @@
+{
+  "id": "909c031b-434a-4f5e-946e-3c338b1b36d1",
+  "object": "chat.completion",
+  "created": 1760458989,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação se concentra na correção imediata da condição financeira irregular (devolução do valor), sem propor ações para tratar as causas subjacentes que permitiram o recebimento indevido dos recursos, como falhas em processos de controle ou sistemas. No entanto, a análise poderia ser mais detalhada ao explicar que recomendações focadas na causa exigiriam medidas como revisão de procedimentos ou implementação de controles preventivos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1265,
+    "completion_tokens": 156,
+    "total_tokens": 1421,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 305
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

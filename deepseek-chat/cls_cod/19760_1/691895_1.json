@@ -1,0 +1,28 @@
+{
+  "id": "d579d9b4-7b11-429e-8606-3a58f86946a1",
+  "object": "chat.completion",
+  "created": 1760036520,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere a adoção de controles para monitorar a temperatura durante o transporte, o que corrige diretamente a condição de não conformidade identificada. Além disso, propõe a identificação completa na caixa térmica e a presença de um profissional capacitado, que são ações específicas para tratar a causa subjacente, como falhas em procedimentos e capacitação, visando prevenir a recorrência. Essas ações específicas têm efeitos duradouros, pois estabelecem processos estruturados que independem de indivíduos específicos.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Específica\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1246,
+    "completion_tokens": 170,
+    "total_tokens": 1416,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 222
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

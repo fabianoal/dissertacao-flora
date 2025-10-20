@@ -1,0 +1,28 @@
+{
+  "id": "4adfa07a-d4f8-406d-b675-5f61ca965c5b",
+  "object": "chat.completion",
+  "created": 1760386114,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a inserção de informações sobre os sete indicadores do Programa Previne Brasil nos instrumentos de gestão (PMS, PAS e RAG), o que constitui uma ação para tratar a causa do problema (ausência dessas informações nos instrumentos), visando evitar que a condição de incompletude volte a ocorrer. Já em relação aos efeitos pretendidos pela recomendação, a inserção dessas informações nos instrumentos formais de gestão tende a produzir efeitos duradouros, pois essas informações se tornam parte integrante dos documentos oficiais, permanecendo válidas mesmo com eventual mudança de atores envolvidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 985,
+    "completion_tokens": 186,
+    "total_tokens": 1171,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 153
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "32372c3e-473a-4046-9aea-95651357d087",
+  "object": "chat.completion",
+  "created": 1760399572,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a criação de uma rotina de verificação e atualização periódica do cadastro, o que visa tratar a causa do problema (falta de processos sistemáticos para manter o cadastro atualizado), em vez de apenas corrigir a condição atual de desatualização. Já em relação aos efeitos pretendidos pela recomendação, a implementação de uma rotina com designação de responsável e prazos definidos estabelece um processo contínuo que deve persistir mesmo com mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 993,
+    "completion_tokens": 163,
+    "total_tokens": 1156,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 161
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

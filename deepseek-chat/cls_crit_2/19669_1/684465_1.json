@@ -1,0 +1,28 @@
+{
+  "id": "c82d5416-90f0-42f4-83a7-e1ad1226addf",
+  "object": "chat.completion",
+  "created": 1760459057,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise da codificação apresenta argumentos válidos sobre o foco na causa e os efeitos duradouros, mas requer uma avaliação mais aprofundada da natureza da recomendação e sua relação com a constatação específica.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1500,
+    "completion_tokens": 98,
+    "total_tokens": 1598,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 604
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

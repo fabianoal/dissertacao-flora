@@ -1,0 +1,28 @@
+{
+  "id": "d7dc5402-b2d9-40a8-ba51-fd326be7061b",
+  "object": "chat.completion",
+  "created": 1760465889,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação visa estabelecer um processo sistemático de apuração e inclusão de informações nos relatórios, abordando a causa subjacente da ausência de monitoramento (falta de implementação do processo), e não apenas corrigir a condição específica observada. Para o critério 'Efeitos Duradouros', também concordo que a implementação de um processo contínuo baseado em normativos tende a ser duradoura, independentemente de mudanças nos atores, pois se apoia em procedimentos institucionalizados.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1276,
+    "completion_tokens": 185,
+    "total_tokens": 1461,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 380
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

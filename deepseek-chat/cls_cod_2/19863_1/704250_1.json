@@ -1,0 +1,28 @@
+{
+  "id": "b8a5b380-9f88-42f2-a4bb-c9c78f4b2f24",
+  "object": "chat.completion",
+  "created": 1760399924,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação solicita que a SES/TO elabore o Plano de Segurança do Paciente do Hospital Regional de Alvorada, conforme acordado no Plano de Ação. Esta ação visa estabelecer um processo formal e documentado para a segurança do paciente, o que aborda a causa subjacente da ausência do plano (falta de implementação de um sistema estruturado). Quanto aos efeitos duradouros, a implementação de um plano formal tende a criar uma estrutura permanente que permanece válida independentemente de mudanças na equipe ou gestão, assegurando continuidade nas práticas de segurança.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 975,
+    "completion_tokens": 174,
+    "total_tokens": 1149,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 143
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

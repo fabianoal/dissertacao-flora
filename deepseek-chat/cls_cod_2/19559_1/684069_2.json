@@ -1,0 +1,28 @@
+{
+  "id": "05208fd8-e3a7-42e9-96da-0050915340f2",
+  "object": "chat.completion",
+  "created": 1760387802,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação 1 propõe a devolução de valores indevidamente faturados, tratando apenas da correção da condição financeira irregular identificada, sem abordar as causas que levaram à incompatibilidade entre sessões faturadas e registradas. A recomendação 2 visa assegurar a documentação adequada nos prontuários, o que pode prevenir a reocorrência do problema ao estabelecer um controle documental permanente, tratando assim de uma causa subjacente. Já em relação aos efeitos pretendidos pela recomendação 2, a fiscalização e manutenção de documentos obrigatórios criam um procedimento que independe de mudanças nos atores envolvidos, pois se baseia em normas e sistemas documentais que permanecem válidos independentemente das pessoas responsáveis, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1355,
+    "completion_tokens": 226,
+    "total_tokens": 1581,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 459
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

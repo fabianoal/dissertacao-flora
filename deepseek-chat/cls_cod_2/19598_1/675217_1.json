@@ -1,0 +1,28 @@
+{
+  "id": "ce5e0532-c54d-4319-be52-086ca5f777e4",
+  "object": "chat.completion",
+  "created": 1760388862,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações diretas para corrigir a condição encontrada de má conservação da infraestrutura (pintura, reparo de infiltrações, acesso para PNE), sem abordar as causas subjacentes que levaram a essa situação, como falhas em processos de manutenção preventiva ou gestão de recursos. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, não se aplica a análise.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1058,
+    "completion_tokens": 155,
+    "total_tokens": 1213,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 226
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

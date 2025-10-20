@@ -1,0 +1,28 @@
+{
+  "id": "24b9c29e-dc53-437a-a2ef-11e7f91108bc",
+  "object": "chat.completion",
+  "created": 1760398944,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"Em relação ao foco, a recomendação propõe a divulgação de informações sobre ações, serviços e campanhas de saúde mental, o que visa corrigir a condição específica de falta de divulgação identificada na constatação, sem abordar as causas subjacentes, como possíveis deficiências em políticas, recursos ou processos que levam à não divulgação. Portanto, a recomendação é focada na condição, não na causa. Já em relação aos efeitos pretendidos pela recomendação, como o critério 'Foco Causa' não é atendido, não se aplica a análise de efeitos duradouros.\",\n   \"Foco Causa\": \"Não\",\n   \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1284,
+    "completion_tokens": 177,
+    "total_tokens": 1461,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 452
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

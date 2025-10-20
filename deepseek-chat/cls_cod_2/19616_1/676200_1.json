@@ -1,0 +1,28 @@
+{
+  "id": "551c9488-6185-4cce-a62c-66b3adb72bc9",
+  "object": "chat.completion",
+  "created": 1760390642,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a solicitar justificativas e, se confirmadas as ocorrências, aplicar medidas administrativas previstas em normativo específico. Não propõe ações para tratar a causa subjacente da impropriedade em processos de cotação de preços e pagamentos, como falhas em controles internos, capacitação inadequada ou deficiências em sistemas de gestão. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1008,
+    "completion_tokens": 171,
+    "total_tokens": 1179,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 176
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

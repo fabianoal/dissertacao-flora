@@ -1,0 +1,28 @@
+{
+  "id": "2dffcafa-5c68-474c-a8fa-154c5d9a7e26",
+  "object": "chat.completion",
+  "created": 1760397340,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a realização de capacitação para a equipe da Rede de Frio, abordando procedimentos específicos e exigindo registros formais, o que visa tratar a causa do problema (falta de treinamento regular) e não apenas corrigir a condição imediata. Já em relação aos efeitos pretendidos pela recomendação, a exigência de capacitação permanente, adaptada à evolução do conhecimento e identificação de novos riscos, sugere que os efeitos podem persistir mesmo com mudanças nos atores envolvidos, desde que os programas de treinamento sejam institucionalizados.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1194,
+    "completion_tokens": 175,
+    "total_tokens": 1369,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 362
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

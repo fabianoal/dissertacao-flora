@@ -1,0 +1,28 @@
+{
+  "id": "7626b987-98b2-42cd-8c29-80c89f8dc1df",
+  "object": "chat.completion",
+  "created": 1760384786,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a exigir o cumprimento da norma que determina o arquivamento do formulário de comunicação de uso no prontuário, sem propor ações que abordem as causas subjacentes à ausência do documento, como falhas no processo de preenchimento, capacitação da equipe ou sistema de controle. Portanto, não há foco na causa. Como o critério 'Foco Causa' não foi atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 996,
+    "completion_tokens": 153,
+    "total_tokens": 1149,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 164
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

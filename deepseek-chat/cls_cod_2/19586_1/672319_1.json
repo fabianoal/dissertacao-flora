@@ -1,0 +1,28 @@
+{
+  "id": "7282825e-01c8-467d-881c-c2801a9a949f",
+  "object": "chat.completion",
+  "created": 1760388398,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe duas ações principais: prestar contas sobre a aplicação de recursos por meio do Relatório de Gestão e divulgar amplamente essas prestações de contas. Ambas as ações focam em corrigir a condição específica de falta de informações nos Instrumentos de Gestão, sem abordar as causas subjacentes que levaram à ausência ou incompletude dessas informações, como possíveis deficiências em processos internos, capacitação da equipe ou sistemas de coleta de dados. Portanto, a recomendação não trata da causa do problema. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1108,
+    "completion_tokens": 195,
+    "total_tokens": 1303,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 276
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

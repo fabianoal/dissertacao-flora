@@ -1,0 +1,28 @@
+{
+  "id": "1c0784dd-1a66-46ff-908d-e36e32725b8f",
+  "object": "chat.completion",
+  "created": 1760463477,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação de capacitação/conscientização aborda a causa subjacente do problema, que é a falta de conhecimento ou conscientização sobre o uso adequado dos equipamentos, conforme a análise fornecida. Para o critério 'Efeitos Duradouros', a capacitação pode gerar efeitos duradouros se for institucionalizada e contínua, mas a análise original assume essa institucionalização sem evidência explícita na recomendação, o que pode não ser garantido.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1202,
+    "completion_tokens": 166,
+    "total_tokens": 1368,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 306
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

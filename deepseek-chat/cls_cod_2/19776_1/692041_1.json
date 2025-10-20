@@ -1,0 +1,28 @@
+{
+  "id": "8de4e233-1316-45f0-9266-03d6edfb326c",
+  "object": "chat.completion",
+  "created": 1760396292,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe tanto a realização da manutenção nos equipamentos (ação corretiva para a condição atual) quanto o estabelecimento de um cronograma de manutenção periódica e a contratação de serviços de calibração e qualificação, que visam prevenir a reocorrência do problema, tratando assim da causa subjacente da falta de manutenção sistemática. Já em relação aos efeitos pretendidos pela recomendação, o estabelecimento de um cronograma formal e a contratação de serviços especializados criam processos estruturados que devem persistir independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1145,
+    "completion_tokens": 192,
+    "total_tokens": 1337,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 313
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

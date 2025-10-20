@@ -1,0 +1,28 @@
+{
+  "id": "0dd4352c-d46f-442e-80a4-b3a72e7f6bf6",
+  "object": "chat.completion",
+  "created": 1760451420,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação se concentra em corrigir a condição imediata (devolução de valores cobrados indevidamente) sem abordar as causas subjacentes do problema. No entanto, a justificativa poderia ser mais específica sobre quais causas não foram tratadas, como falhas nos sistemas de controle de estoque, processos de auditoria interna ou mecanismos de verificação de implantes versus cobranças.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1379,
+    "completion_tokens": 145,
+    "total_tokens": 1524,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 355
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

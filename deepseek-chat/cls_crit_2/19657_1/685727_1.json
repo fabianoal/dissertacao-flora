@@ -1,0 +1,28 @@
+{
+  "id": "26f5d160-eed8-4c4a-97d7-6661c0fb6a92",
+  "object": "chat.completion",
+  "created": 1760458921,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações como captação precoce de crianças, construção de protocolos locais e busca ativa, que visam tratar as causas estruturais da baixa cobertura vacinal, como falta de organização do fluxo de atenção e rastreamento, não apenas corrigir a condição atual. Portanto, concordo com a classificação 'Sim'. Quanto ao critério 'Efeitos Duradouros', as ações sugeridas, como protocolos locais e organização da atenção, criam mecanismos permanentes que podem ser mantidos independentemente de mudanças de gestão ou equipe, então também concordo com a classificação 'Sim'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1285,
+    "completion_tokens": 199,
+    "total_tokens": 1484,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 389
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

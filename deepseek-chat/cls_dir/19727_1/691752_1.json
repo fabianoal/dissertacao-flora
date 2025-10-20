@@ -1,0 +1,28 @@
+{
+  "id": "b3f64048-a396-4bc9-b7a8-850648124ea4",
+  "object": "chat.completion",
+  "created": 1759367350,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação propõe a manutenção do controle dos profissionais do SAMU 192, incluindo identificação por cargos, carga horária, local de atuação e controle de frequência, bem como o cumprimento da Portaria de Consolidação nº 01/2017 para atualização do SCNES. No entanto, ela não identifica explicitamente as causas institucionais que levaram à falta de controle (ex.: ausência de procedimentos formais, deficiências na estrutura de governança, falta de capacitação ou sistemas inadequados). As ações sugeridas focam na correção da condição observada (falta de controle) sem abordar transformações estruturais que garantam a permanência das soluções. Assim, a recomendação atende parcialmente ao primeiro critério (identifica a condição, mas não a causa raiz), não atende ao segundo (a causa não está claramente no nível institucional) e não atende ao terceiro (as mudanças não têm garantia de perdurabilidade sem abordar as causas subjacentes).\",\n    \"categoria\": \"foco-condicao\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1501,
+    "completion_tokens": 259,
+    "total_tokens": 1760,
+    "prompt_tokens_details": {
+      "cached_tokens": 1216
+    },
+    "prompt_cache_hit_tokens": 1216,
+    "prompt_cache_miss_tokens": 285
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

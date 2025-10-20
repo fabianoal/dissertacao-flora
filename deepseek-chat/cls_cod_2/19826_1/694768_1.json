@@ -1,0 +1,28 @@
+{
+  "id": "4929143e-cd59-4b69-b48f-90c966cda525",
+  "object": "chat.completion",
+  "created": 1760398512,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe o cumprimento de normas específicas (artigos 145 e 146 da Portaria SAES/MS nº 01/2022 e Manual de Operação do SIA) que estabelecem a organização, disponibilização e controle da documentação comprobatória, o que visa tratar a causa do problema (falta de comprovação sistemática) ao instituir processos permanentes de controle. Já em relação aos efeitos pretendidos pela recomendação, a implementação dessas normas cria estruturas e procedimentos formais que devem persistir independentemente de mudanças nos atores envolvidos, pois estão institucionalizados através de portarias e manuais operacionais.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1127,
+    "completion_tokens": 189,
+    "total_tokens": 1316,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 295
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

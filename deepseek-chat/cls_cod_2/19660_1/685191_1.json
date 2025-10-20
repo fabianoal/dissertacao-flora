@@ -1,0 +1,28 @@
+{
+  "id": "c4672b1b-5fb4-49c8-926c-15f633304eba",
+  "object": "chat.completion",
+  "created": 1760392270,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações para melhorar a identificação e acompanhamento nominal da população com diabetes, incluindo agendamento de consultas e orientações sobre exames, o que visa tratar a causa subjacente da não adoção das ações previstas na nota técnica, que é a falta de um processo estruturado de acompanhamento. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como planejamento de melhorias e garantia de realização de exames padronizados, estabelecem processos que podem persistir independentemente de mudanças nos atores envolvidos, pois se baseiam em diretrizes e procedimentos institucionais.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1027,
+    "completion_tokens": 187,
+    "total_tokens": 1214,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 195
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

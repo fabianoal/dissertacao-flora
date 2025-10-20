@@ -1,0 +1,28 @@
+{
+  "id": "a55fbcd4-bb3e-480a-b452-92cc0efb8992",
+  "object": "chat.completion",
+  "created": 1760384982,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação é genérica e não propõe ações específicas para tratar a causa das divergências nos instrumentos de gestão, limitando-se a solicitar conhecimento e adoção de procedimentos existentes. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1026,
+    "completion_tokens": 120,
+    "total_tokens": 1146,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 194
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

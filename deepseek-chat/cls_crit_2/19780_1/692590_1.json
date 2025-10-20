@@ -1,0 +1,28 @@
+{
+  "id": "3bf5d09c-9304-4ed4-8fcd-d6e53814b349",
+  "object": "chat.completion",
+  "created": 1760464161,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação inclui ações que visam tratar a causa subjacente da falta de estruturação da Rede de Frio, como a formalização da CMRF com atribuições definidas, o que é uma solução de longo prazo. Para o critério 'Efeitos Duradouros', a formalização institucionaliza a estrutura, tornando-a independente de mudanças de pessoal, o que garante continuidade. No entanto, a recomendação também contém elementos focados na condição imediata, como o controle de frequência e atualização de cadastro, mas a análise do modelo considerou corretamente a presença de ações de causa.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1267,
+    "completion_tokens": 200,
+    "total_tokens": 1467,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 371
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

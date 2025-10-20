@@ -1,0 +1,28 @@
+{
+  "id": "b90a369e-229c-4a3a-95e1-dd6e9bb125d0",
+  "object": "chat.completion",
+  "created": 1760462262,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta em identificar que a recomendação trata apenas da correção da condição financeira irregular, sem propor ações para prevenir a reocorrência do problema. A devolução de valores é uma medida corretiva imediata que não aborda as causas estruturais como falhas nos processos de registro, controle interno ou capacitação da equipe.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1280,
+    "completion_tokens": 123,
+    "total_tokens": 1403,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 256
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "fad0a184-8622-4045-86c8-b7252ce4c902",
+  "object": "chat.completion",
+  "created": 1760393250,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação se limita a citar a exigência normativa de cumprir os artigos da Portaria de Consolidação, sem propor ações específicas para tratar a causa subjacente da não apresentação da documentação, como falhas no processo de gestão documental ou capacitação da equipe. Já em relação aos efeitos pretendidos pela recomendação, como o critério 'Foco Causa' não foi atendido, não se aplica a análise de efeitos duradouros.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1150,
+    "completion_tokens": 154,
+    "total_tokens": 1304,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 318
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

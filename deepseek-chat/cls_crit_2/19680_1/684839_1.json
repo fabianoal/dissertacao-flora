@@ -1,0 +1,28 @@
+{
+  "id": "60626533-9777-4460-b406-31f733d4ed36",
+  "object": "chat.completion",
+  "created": 1760459449,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identificou corretamente que a recomendação se concentra na implementação direta das ações da Nota Técnica para melhorar a cobertura, sem propor medidas que abordem as causas subjacentes da não implementação inicial (como deficiências em capacitação, recursos ou processos). Quanto ao critério 'Efeitos Duradouros', como o 'Foco Causa' foi avaliado como 'Não', a resposta 'Não se aplica' está adequada, seguindo a regra estabelecida.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1178,
+    "completion_tokens": 171,
+    "total_tokens": 1349,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 282
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

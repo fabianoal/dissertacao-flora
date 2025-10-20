@@ -1,0 +1,28 @@
+{
+  "id": "0062225d-2d3e-471c-9324-658cd756f7ac",
+  "object": "chat.completion",
+  "created": 1760462774,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação inclui ações que tratam diretamente da causa do problema (falta de processos sistemáticos de calibração e qualificação térmica), como a implementação de um plano de calibração periódica, que visa prevenir a recorrência. Quanto ao critério 'Efeitos Duradouros', a implementação de um plano sistemático estabelece processos contínuos que devem persistir independentemente de mudanças de pessoal, desde que integrados à estrutura organizacional.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1373,
+    "completion_tokens": 162,
+    "total_tokens": 1535,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 477
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

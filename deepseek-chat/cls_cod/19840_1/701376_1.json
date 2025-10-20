@@ -1,0 +1,28 @@
+{
+  "id": "9daea841-4e6f-4971-bf43-8c029a3b0a15",
+  "object": "chat.completion",
+  "created": 1760037316,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação contém duas ações distintas. A primeira ação é a restituição dos recursos recebidos indevidamente, que visa corrigir diretamente a condição encontrada de produção não comprovada. A segunda ação é garantir a rastreabilidade das informações por meio de implementação de mecanismos de registro, verificação e responsabilização, que busca endereçar a causa subjacente que permitiu a ocorrência da condição, focando em prevenir futuras inconsistências.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Específica\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1412,
+    "completion_tokens": 155,
+    "total_tokens": 1567,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 388
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

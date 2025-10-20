@@ -1,0 +1,28 @@
+{
+  "id": "024abf52-892a-46a7-9ac8-04737afb5b74",
+  "object": "chat.completion",
+  "created": 1760399772,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação aborda a causa do problema ao propor ações como informatizar e padronizar a coleta de dados, criar mecanismos de acompanhamento, capacitar equipes e realizar auditorias regulares, visando resolver a falta de informações para monitoramento na origem. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas (como padronização, mecanismos de controle e auditorias periódicas) são estruturadas para permanecerem eficazes mesmo com mudanças nos atores envolvidos, pois estabelecem processos e sistemas duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1154,
+    "completion_tokens": 163,
+    "total_tokens": 1317,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 322
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

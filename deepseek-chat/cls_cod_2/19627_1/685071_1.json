@@ -1,0 +1,28 @@
+{
+  "id": "3f3add7a-c30d-4151-85c8-6f21a6ae21fd",
+  "object": "chat.completion",
+  "created": 1760391186,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a revisão de procedimentos internos para análise e emissão de pareceres sobre idoneidade e qualificação de proponentes antes da formalização de convênios, o que visa tratar a causa da deficiência identificada (processos inadequados) e não apenas corrigir a condição específica do convênio analisado. Já em relação aos efeitos pretendidos pela recomendação, a implementação de procedimentos revisados permaneceria válida mesmo com mudanças nos atores envolvidos, pois se trata de estabelecer processos institucionais duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1145,
+    "completion_tokens": 172,
+    "total_tokens": 1317,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 313
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c5820b38-1a03-4f1d-863b-a3e833df42c8",
+  "object": "chat.completion",
+  "created": 1760397208,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe duas ações principais: contratar uma empresa para manutenção de equipamentos sem contratos vigentes e estabelecer uma rotina de manutenção preventiva, calibração e qualificação térmica. A primeira ação é focada na condição imediata de falta de contratos, fornecendo uma solução temporária. A segunda ação, ao estabelecer uma rotina de manutenção, aborda a causa raiz do problema, que é a ausência de procedimentos sistemáticos para garantir a manutenção periódica, visando prevenir a recorrência da condição. Em relação aos efeitos duradouros, a implementação de uma rotina estruturada de manutenção é projetada para persistir independentemente de mudanças nos atores envolvidos, pois se baseia em processos institucionalizados.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1057,
+    "completion_tokens": 213,
+    "total_tokens": 1270,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 225
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

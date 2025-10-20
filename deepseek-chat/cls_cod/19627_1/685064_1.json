@@ -1,0 +1,28 @@
+{
+  "id": "cdcc3ca7-f880-43d2-a895-736013407a54",
+  "object": "chat.completion",
+  "created": 1760035532,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere uma ação para corrigir a condição encontrada de formalização inadequada dos contratos, ao solicitar a inclusão de cláusulas obrigatórias. No entanto, a ação proposta é genérica, pois se limita a cumprir um normativo legal sem especificar medidas adicionais para abordar a causa subjacente, como falhas em processos internos ou treinamento. Portanto, não há indicação de efeitos duradouros.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1133,
+    "completion_tokens": 150,
+    "total_tokens": 1283,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 173
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

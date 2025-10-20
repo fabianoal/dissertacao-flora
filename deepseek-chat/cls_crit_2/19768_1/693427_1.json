@@ -1,0 +1,28 @@
+{
+  "id": "65ce7019-5afe-49b8-852b-8015515943c2",
+  "object": "chat.completion",
+  "created": 1760463733,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações que tratam da causa do problema, que é a ausência de um plano de contingência abrangente para a Cadeia de Frio. As medidas incluem aprimorar o plano com identificação de riscos, estabelecer procedimentos de emergência, plano de comunicação, treinamento contínuo e testes periódicos, visando prevenir a recorrência da condição encontrada. Já em relação ao critério 'Efeitos Duradouros', as ações sugeridas, como diretrizes de treinamento, procedimentos estabelecidos e cronograma de testes, são estruturadas para permanecerem efetivas mesmo com mudanças nos atores envolvidos, pois criam sistemas e processos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1531,
+    "completion_tokens": 221,
+    "total_tokens": 1752,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 635
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

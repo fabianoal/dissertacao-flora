@@ -1,0 +1,28 @@
+{
+  "id": "ba7268ec-539b-4492-91d2-2b7ba34a7e63",
+  "object": "chat.completion",
+  "created": 1760395176,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a elaboração e disponibilização de um documento formal com rotinas detalhadas de distribuição de imunobiológicos, o que visa estabelecer procedimentos padronizados para prevenir a ocorrência de falhas no processo de inspeção que comprometam a integridade física e as condições de temperatura dos imunobiológicos, tratando assim a causa subjacente da falta de controle adequado. Já em relação aos efeitos pretendidos pela recomendação, a implementação de normas e rotinas documentadas cria uma estrutura permanente que independe dos indivíduos específicos envolvidos, garantindo que os procedimentos corretos sejam seguidos mesmo com mudanças na equipe, resultando em efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1097,
+    "completion_tokens": 202,
+    "total_tokens": 1299,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 201
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

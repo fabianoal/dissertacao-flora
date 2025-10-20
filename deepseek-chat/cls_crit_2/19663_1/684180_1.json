@@ -1,0 +1,28 @@
+{
+  "id": "73fe3a4c-a12a-45be-8a35-1840dd9d5306",
+  "object": "chat.completion",
+  "created": 1760459025,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação não trata especificamente da causa da ausência de informações quantitativas e qualitativas dos indicadores do Programa Previne Brasil. As ações propostas são genéricas e focam em transparência e conformidade, sem abordar as razões subjacentes para a falta de dados. Quanto ao critério 'Efeitos Duradouros', como o critério 'Foco Causa' não foi atendido, a resposta 'Não se aplica' está adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1330,
+    "completion_tokens": 173,
+    "total_tokens": 1503,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 434
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

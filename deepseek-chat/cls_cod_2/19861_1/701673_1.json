@@ -1,0 +1,28 @@
+{
+  "id": "5684e614-3f61-4ffd-832c-c39eca815938",
+  "object": "chat.completion",
+  "created": 1760399796,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam das causas subjacentes à condição encontrada, como a informatização e padronização da coleta de dados, criação de mecanismos de acompanhamento, capacitação das equipes e auditorias regulares, que visam prevenir a reincidência da inserção inadequada de dados. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como a padronização de processos e a implementação de sistemas de controle, tendem a produzir efeitos duradouros, independentemente de mudanças nos atores envolvidos, pois estabelecem estruturas e procedimentos permanentes.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1229,
+    "completion_tokens": 182,
+    "total_tokens": 1411,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 397
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

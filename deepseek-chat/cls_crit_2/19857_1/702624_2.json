@@ -1,0 +1,28 @@
+{
+  "id": "e38f9e61-08f2-428e-a557-5fa0ae02afa7",
+  "object": "chat.completion",
+  "created": 1760467181,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise original argumenta que a ação de cobrar esclarecimentos visa identificar as razões das transferências irregulares, tratando assim a causa. No entanto, essa ação é reativa e investigativa, não necessariamente implementando mudanças sistêmicas para prevenir a recorrência. Já para o critério 'Efeitos Duradouros', a análise sugere que a prática de cobrar esclarecimentos pode se tornar contínua e independente de mudanças de atores, mas isso depende da institucionalização do processo, o que não está explicitamente garantido na recomendação.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1384,
+    "completion_tokens": 186,
+    "total_tokens": 1570,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 488
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

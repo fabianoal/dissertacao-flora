@@ -1,0 +1,28 @@
+{
+  "id": "4f19a522-45ac-464e-ae21-c8df2ed692ba",
+  "object": "chat.completion",
+  "created": 1760460061,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação foca na correção da condição imediata (falta de fornecimento de órteses, palmilhas e calçados adaptados) sem abordar as causas subjacentes. No entanto, é importante notar que a recomendação cita normativas específicas que poderiam, em tese, embasar ações mais estruturais, mas ela mesma não propõe medidas para modificar processos, recursos ou capacitação que levariam à prevenção da recorrência.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1446,
+    "completion_tokens": 162,
+    "total_tokens": 1608,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 486
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

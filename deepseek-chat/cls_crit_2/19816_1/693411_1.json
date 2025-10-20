@@ -1,0 +1,28 @@
+{
+  "id": "4ba43184-5359-4f37-9017-d73338fb220e",
+  "object": "chat.completion",
+  "created": 1760465613,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação propõe a implementação de estruturas e processos que visam resolver a causa subjacente da falta de avaliação e monitoramento. Para o critério 'Efeitos Duradouros', a análise também é adequada, já que as ações sugeridas, como a implementação de sistemas de monitoramento e fluxos estruturados, são institucionais e tendem a persistir independentemente de mudanças de pessoal.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1391,
+    "completion_tokens": 160,
+    "total_tokens": 1551,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 495
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

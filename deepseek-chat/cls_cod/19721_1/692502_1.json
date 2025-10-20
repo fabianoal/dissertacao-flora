@@ -1,0 +1,28 @@
+{
+  "id": "2817fb18-46c2-45bd-9c43-8f4ae16e10ef",
+  "object": "chat.completion",
+  "created": 1760037952,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere ações diretas para corrigir a condição encontrada de falta de mobiliários conservados, como climatização, substituição de colchões e poltronas, e instalação de grades de proteção, o que atende ao critério de ação corretiva. No entanto, não propõe ações específicas para tratar a causa subjacente que levou à falta de conservação, limitando-se a citar o cumprimento de normativos, o que caracteriza uma ação genérica de foco na causa. Como a ação de foco na causa é genérica, os efeitos duradouros não são considerados.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1181,
+    "completion_tokens": 188,
+    "total_tokens": 1369,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 157
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "390b0cdd-a874-463d-8f24-68196ec1a4ea",
+  "object": "chat.completion",
+  "created": 1760466941,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação trata da causa raiz do problema ao propor um processo sistemático de atualização do CNES, mas pode ter superestimado os efeitos duradouros ao não considerar adequadamente a dependência da adesão contínua dos profissionais e gestores.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1275,
+    "completion_tokens": 113,
+    "total_tokens": 1388,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 379
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

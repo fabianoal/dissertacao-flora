@@ -1,0 +1,28 @@
+{
+  "id": "ddd5804e-7be8-4634-9569-0d8960fa5545",
+  "object": "chat.completion",
+  "created": 1760387110,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a manutenção de documentos comprobatórios por prazo determinado, com arquivamento em diferentes mídias, visando atender a requisitos normativos específicos. No entanto, não identifica ou trata a causa subjacente que levou à não informação da posição de estoque, como possíveis falhas nos processos de registro, controle interno ou capacitação da equipe. Em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, a análise deste aspecto não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1082,
+    "completion_tokens": 161,
+    "total_tokens": 1243,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 250
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

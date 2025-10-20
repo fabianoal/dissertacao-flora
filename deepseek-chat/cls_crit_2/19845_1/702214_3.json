@@ -1,0 +1,28 @@
+{
+  "id": "bd1736b5-7e73-4c24-96fe-957ee4fde8f6",
+  "object": "chat.completion",
+  "created": 1760466657,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação trata apenas da recuperação do recurso financeiro, sem abordar as causas da falta de documentação. Para o critério 'Efeitos Duradouros', a resposta 'Não se aplica' é adequada, dado que o 'Foco Causa' foi avaliado como 'Não'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1386,
+    "completion_tokens": 133,
+    "total_tokens": 1519,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 362
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

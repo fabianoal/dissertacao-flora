@@ -1,0 +1,28 @@
+{
+  "id": "06ca3c7c-0509-4fbd-8044-a76e307e8117",
+  "object": "chat.completion",
+  "created": 1760384511,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe garantir a transparência das escalas de trabalho, o que visa tratar a causa da divergência entre as escalas publicadas e executadas, ao estabelecer um processo claro e normativo para alterações de escala. Isso aborda a causa subjacente de falta de conformidade com prazos estabelecidos. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um processo baseado em portaria tende a criar efeitos duradouros, pois as regras permanecem válidas independentemente de mudanças nos atores envolvidos, como profissionais ou gestores.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1049,
+    "completion_tokens": 174,
+    "total_tokens": 1223,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 217
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

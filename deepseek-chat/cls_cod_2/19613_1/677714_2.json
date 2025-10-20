@@ -1,0 +1,28 @@
+{
+  "id": "845fee12-3ed6-4c07-a771-9b142f587057",
+  "object": "chat.completion",
+  "created": 1760389962,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação solicita que a convenente apresente justificativa e documentação comprobatória para regularizar a prestação de contas do convênio, focando na correção da condição específica de ausência de documentação no Transferegov. Não há menção a ações que tratem das causas subjacentes da ausência de critérios para definição de contratações, acompanhamento ou comprovação de serviços, como a criação de procedimentos ou políticas para prevenir a recorrência do problema. Portanto, o foco é na condição imediata, não na causa. Como o critério 'Foco Causa' não foi atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1068,
+    "completion_tokens": 203,
+    "total_tokens": 1271,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 172
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "b8ee3d6f-b3be-4a4f-8e53-49da008c9f23",
+  "object": "chat.completion",
+  "created": 1760458365,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise fornecida avalia corretamente a recomendação como focada na condição, pois propõe ações diretas para corrigir o armazenamento inadequado, sem abordar causas subjacentes como falta de treinamento ou políticas preventivas. No entanto, a avaliação do critério 'Efeitos Duradouros' está correta, pois não se aplica quando 'Foco Causa' é 'Não'.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1191,
+    "completion_tokens": 135,
+    "total_tokens": 1326,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 295
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a0ebed33-868e-4b95-810e-bbfc0e0ec294",
+  "object": "chat.completion",
+  "created": 1760394545,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe que a SMS busque deliberação e aprovação da CIB para complementação de valores, o que visa tratar a causa do problema, que é a ausência de autorização formal para essa prática. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um processo formal de deliberação e aprovação pela CIB estabelece um procedimento que deve persistir independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1003,
+    "completion_tokens": 149,
+    "total_tokens": 1152,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 171
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

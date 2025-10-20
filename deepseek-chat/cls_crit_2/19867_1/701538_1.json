@@ -1,0 +1,28 @@
+{
+  "id": "b1b6f3a2-8ddf-4cea-8923-ea48f162b307",
+  "object": "chat.completion",
+  "created": 1760467617,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação estabelece a necessidade de assegurar a fidedignidade da produção ambulatorial por meio de documentação comprobatória e controle sistemático, o que aborda a causa raiz da falta de comprovação. Quanto ao critério 'Efeitos Duradouros', a recomendação propõe um mecanismo permanente de controle e avaliação, que deve perdurar independentemente de mudanças de pessoal, mas a implementação depende da adesão contínua do gestor municipal, o que pode variar.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1383,
+    "completion_tokens": 174,
+    "total_tokens": 1557,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 487
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d1f374c3-3b50-476a-aef6-fe0b7877fb35",
+  "object": "chat.completion",
+  "created": 1760399388,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações para subsidiar tecnicamente as atividades de saúde do trabalhador e cumprir procedimentos de habilitação, o que aborda diretamente as causas da não conformidade e falta de comprovação de atuação, sendo, portanto, focada na causa. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como o cumprimento de procedimentos normativos, tendem a estabelecer práticas institucionais que podem persistir independentemente de mudanças nos atores envolvidos, indicando efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1059,
+    "completion_tokens": 169,
+    "total_tokens": 1228,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 227
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

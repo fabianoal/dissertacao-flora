@@ -1,0 +1,28 @@
+{
+  "id": "c03e6fc5-956d-4cf2-bbc6-e0c7e4ca65f6",
+  "object": "chat.completion",
+  "created": 1760391674,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação é genérica e não propõe ações específicas para tratar a causa do problema identificado (ausência dos números de AIH nos prontuários). Ela apenas cita uma obrigação legal genérica de prestar informações quando exigidas, sem indicar medidas concretas para garantir que os números de AIH sejam inseridos nos prontuários no futuro. Portanto, não há foco na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 963,
+    "completion_tokens": 161,
+    "total_tokens": 1124,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 131
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

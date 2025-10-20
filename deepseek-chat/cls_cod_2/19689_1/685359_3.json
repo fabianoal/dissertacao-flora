@@ -1,0 +1,28 @@
+{
+  "id": "e425ecc4-cf61-4613-92c0-6f039d3ae727",
+  "object": "chat.completion",
+  "created": 1760393230,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe apenas o ressarcimento do valor superfaturado, que é uma medida para corrigir a condição atual de superfaturamento identificada. Não há nenhuma ação sugerida que trate das causas subjacentes que permitiram o superfaturamento, como falhas nos processos de controle, licitação ou fiscalização. Portanto, o critério 'Efeitos Duradouros' não se aplica, pois o foco não é na causa.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1040,
+    "completion_tokens": 145,
+    "total_tokens": 1185,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 144
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

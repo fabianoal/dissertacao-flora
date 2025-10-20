@@ -1,0 +1,28 @@
+{
+  "id": "c6fdca47-5594-408e-8dd1-3b29f384aec8",
+  "object": "chat.completion",
+  "created": 1760391866,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a busca de parcerias para pactuação de cirurgias em outros hospitais, o que visa resolver a causa subjacente da falta de capacidade interna para realizar as cirurgias, em vez de apenas tratar os pacientes em espera. Já em relação aos efeitos pretendidos pela recomendação, a formalização de parcerias e pactuações cria um mecanismo estruturado que deve persistir independentemente de mudanças nos gestores ou equipes envolvidas, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1022,
+    "completion_tokens": 158,
+    "total_tokens": 1180,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 254
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

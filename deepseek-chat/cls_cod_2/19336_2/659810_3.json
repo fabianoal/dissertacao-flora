@@ -1,0 +1,28 @@
+{
+  "id": "dcb1991d-360d-4b5f-8c0b-32e12b20c61d",
+  "object": "chat.completion",
+  "created": 1760384815,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a devolução de valores ao Fundo Nacional de Saúde como medida de correção financeira pela irregularidade documental identificada. Esta ação é reativa e direcionada a remediar o efeito financeiro da condição encontrada (ausência de documentação), sem abordar as causas subjacentes que levaram à falta de documentação, como possíveis falhas em processos de registro, treinamento inadequado ou controle insuficiente. Portanto, não há ação proposta que trate da causa do problema. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1008,
+    "completion_tokens": 185,
+    "total_tokens": 1193,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 176
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

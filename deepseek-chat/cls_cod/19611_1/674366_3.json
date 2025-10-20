@@ -1,0 +1,28 @@
+{
+  "id": "7cdd75b3-d871-4898-b8a5-7712872032ab",
+  "object": "chat.completion",
+  "created": 1760038360,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere uma ação para resolver a condição encontrada, pois manter as informações atualizadas no CNES pode ajudar a monitorar e corrigir o excesso de carga horária. No entanto, a ação proposta é genérica, focando apenas no cumprimento de um procedimento de atualização periódica, sem especificar medidas adicionais para tratar a causa raiz, como revisão de processos de alocação de pessoal ou implementação de políticas de controle de carga horária. Portanto, não há uma ação específica com foco na causa, e os efeitos não são duradouros, pois dependem da continuidade da atualização sem mudanças estruturais.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1101,
+    "completion_tokens": 192,
+    "total_tokens": 1293,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 77
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

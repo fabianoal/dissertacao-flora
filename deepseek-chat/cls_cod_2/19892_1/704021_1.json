@@ -1,0 +1,28 @@
+{
+  "id": "b0bece76-7bd6-4f7c-bcc0-6949296bc827",
+  "object": "chat.completion",
+  "created": 1760401060,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação trata da elaboração adequada do prontuário médico, conforme a Resolução CFM nº 1931/09, mas não aborda a causa do problema específico da não realização da reconstrução mamária no mesmo ato anestésico após mastectomia. A recomendação foca em um aspecto documental geral, sem propor ações diretas para corrigir a falha no procedimento cirúrgico ou suas causas subjacentes, como protocolos clínicos, capacitação da equipe ou recursos necessários. Portanto, não há ação proposta que trate da causa da condição encontrada. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1056,
+    "completion_tokens": 204,
+    "total_tokens": 1260,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 224
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

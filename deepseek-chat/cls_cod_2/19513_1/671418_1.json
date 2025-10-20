@@ -1,0 +1,28 @@
+{
+  "id": "5e61a9b8-30e8-457a-8bfc-3925fc27b52c",
+  "object": "chat.completion",
+  "created": 1760386554,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação não propõe ações específicas para tratar a causa do problema identificado (discrepância entre dados inseridos no SIA/SUS e registros hospitalares), limitando-se a encaminhar a constatação para conhecimento da SAES/MS e mencionar de forma genérica a adoção de procedimentos legais. Não há indicação de medidas que abordem as causas subjacentes, como falhas nos processos de registro, inconsistências nos sistemas de informação ou necessidade de capacitação. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1134,
+    "completion_tokens": 192,
+    "total_tokens": 1326,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 302
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

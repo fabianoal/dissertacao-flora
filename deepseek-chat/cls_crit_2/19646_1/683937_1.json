@@ -1,0 +1,28 @@
+{
+  "id": "f55e10c3-ebc0-4304-a0b7-25940f1ede5a",
+  "object": "chat.completion",
+  "created": 1760458769,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação aborda a causa da falta de controle de frequência ao propor o cumprimento da carga horária integral, mas a avaliação sobre efeitos duradouros pode ser questionada, pois a recomendação se concentra mais em garantir conformidade imediata do que em estabelecer mecanismos estruturais permanentes.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1170,
+    "completion_tokens": 125,
+    "total_tokens": 1295,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 274
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "b76b7e5b-3c3c-424a-8def-c24481542a63",
+  "object": "chat.completion",
+  "created": 1760451492,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações que abordam tanto a causa quanto a condição encontrada. A readequação do sistema para impedir lançamentos inadequados trata diretamente da causa subjacente (sistema que permite lançamentos incorretos), enquanto o aprimoramento do monitoramento pode ser visto como uma medida complementar. Para o critério 'Efeitos Duradouros', a readequação do sistema cria um controle automatizado que deve persistir independentemente de mudanças de pessoal.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1302,
+    "completion_tokens": 166,
+    "total_tokens": 1468,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 406
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

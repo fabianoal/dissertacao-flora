@@ -1,0 +1,28 @@
+{
+  "id": "9f0b8f7b-eed7-4ef5-a2bb-8632789d107d",
+  "object": "chat.completion",
+  "created": 1760463021,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação trata da causa raiz do problema (ausência de CNPJ próprio) e que os efeitos seriam duradouros devido à natureza estrutural da solução. No entanto, é importante notar que a recomendação poderia ser mais específica sobre ações concretas para alcançar a regularização.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1130,
+    "completion_tokens": 123,
+    "total_tokens": 1253,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 234
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

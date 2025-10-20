@@ -1,0 +1,28 @@
+{
+  "id": "29b7088c-9f83-4031-bb61-73a36766d142",
+  "object": "chat.completion",
+  "created": 1759367478,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação solicita comprovação documental do monitoramento realizado por meio do Painel da Oncologia e da regulação do acesso, focando na correção da condição específica de falta de comprovação do monitoramento. Ela não identifica as causas estruturais que levaram à ausência desse monitoramento (como falhas nos processos de coleta de dados, capacitação insuficiente da equipe, ou deficiências no sistema de informação), não está situada no nível institucional para promover mudanças duradouras, e as transformações pretendidas são pontuais (apresentar documentos), sem garantia de perenidade.\",\n    \"categoria\": \"foco-condicao\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1439,
+    "completion_tokens": 165,
+    "total_tokens": 1604,
+    "prompt_tokens_details": {
+      "cached_tokens": 1216
+    },
+    "prompt_cache_hit_tokens": 1216,
+    "prompt_cache_miss_tokens": 223
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

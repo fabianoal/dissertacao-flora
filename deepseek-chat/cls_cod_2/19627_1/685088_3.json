@@ -1,0 +1,28 @@
+{
+  "id": "afb75a72-08fb-4d3c-b416-6c5ad882b39d",
+  "object": "chat.completion",
+  "created": 1760391434,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe capacitar servidores para aprimorar sua competência técnica na elaboração de pareceres, o que visa tratar a causa do problema (deficiência na elaboração) ao investir no desenvolvimento das habilidades necessárias para evitar a reincidência da condição. Já em relação aos efeitos pretendidos pela recomendação, a capacitação visa estabelecer uma base de conhecimento que permanece mesmo com mudanças de servidores, pois o treinamento pode ser incorporado como prática institucional, embora dependa de continuidade nos programas de capacitação.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1041,
+    "completion_tokens": 167,
+    "total_tokens": 1208,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 145
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

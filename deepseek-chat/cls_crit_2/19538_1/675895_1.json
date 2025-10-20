@@ -1,0 +1,28 @@
+{
+  "id": "9fabd6f4-7bf2-498b-90b0-204e37895d27",
+  "object": "chat.completion",
+  "created": 1760454209,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identifica corretamente que a recomendação inclui ações que tratam da causa subjacente do problema, especificamente a terceira ação sobre informatização das UBS. Quanto ao critério 'Efeitos Duradouros', a análise também está correta ao afirmar que a informatização cria uma infraestrutura permanente que garante efeitos duradouros independentemente de mudanças nos atores.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1428,
+    "completion_tokens": 151,
+    "total_tokens": 1579,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 532
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

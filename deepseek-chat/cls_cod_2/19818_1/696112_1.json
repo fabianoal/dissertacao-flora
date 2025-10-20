@@ -1,0 +1,28 @@
+{
+  "id": "f5d3201b-537c-4714-99b4-faf893dfddea",
+  "object": "chat.completion",
+  "created": 1760398132,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações para estabelecer e manter um processo sistemático de registro de informações (cadastramento e atualização de prontuários, uso do sistema de informação), o que visa tratar a causa do problema (falta de um processo adequado e contínuo de registro) e não apenas corrigir os registros incompletos existentes. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um processo estruturado de registro e utilização do sistema de informação vigente tende a produzir efeitos duradouros, pois estabelece uma rotina e infraestrutura que permanecem independentemente de mudanças nos atores envolvidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1045,
+    "completion_tokens": 189,
+    "total_tokens": 1234,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 213
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

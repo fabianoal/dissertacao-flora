@@ -1,0 +1,28 @@
+{
+  "id": "267d6bf1-8066-4c6f-8384-3612efea9406",
+  "object": "chat.completion",
+  "created": 1760400036,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação solicita apenas a apresentação de comprovação documental de que uma ação já realizada (implementação do ACR no sistema MV Soul) foi efetivamente executada, conforme registrado em relatório específico. Não há nenhuma ação proposta que trate da causa do problema que gerou a condição encontrada (não comprovação da implementação), focando exclusivamente na correção da condição atual de falta de comprovação. Portanto, não atende ao critério de foco na causa.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1019,
+    "completion_tokens": 154,
+    "total_tokens": 1173,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 123
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

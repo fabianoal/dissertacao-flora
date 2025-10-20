@@ -1,0 +1,28 @@
+{
+  "id": "23616af5-fcf2-4fff-86be-f9c67161be22",
+  "object": "chat.completion",
+  "created": 1760384886,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação orienta o cumprimento de dispositivos normativos que estabelecem a elaboração e utilização de instrumentos de planejamento (Plano de Saúde, Programação Anual de Saúde e Relatório Anual de Gestão) para operacionalizar de forma integrada e sistêmica o SUS. Esses instrumentos, quando adequadamente implementados, visam estruturar o processo de planejamento e gestão, abordando a causa subjacente da falta de informações sobre procedimentos de média e alta complexidade nos instrumentos de gestão, que é a ausência de um ciclo de planejamento efetivo. Já em relação aos efeitos pretendidos pela recomendação, a implementação desses instrumentos de planejamento cria um processo cíclico e institucionalizado de gestão, cujos efeitos (como a melhoria no registro e monitoramento das ações de saúde) tendem a permanecer independentemente de mudanças nos atores envolvidos, pois estão embasados em normativas e em uma estrutura de planejamento consolidada.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1227,
+    "completion_tokens": 270,
+    "total_tokens": 1497,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 395
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

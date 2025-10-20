@@ -1,0 +1,28 @@
+{
+  "id": "161086e6-82fb-4326-8e59-0ce268bc47c0",
+  "object": "chat.completion",
+  "created": 1760385219,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a manutenção organizada e duplicada dos documentos por um prazo específico, o que visa prevenir a ausência futura desses registros, tratando assim a causa da condição encontrada (falta de apresentação dos documentos). Já em relação aos efeitos pretendidos pela recomendação, a implementação de um sistema de arquivamento estruturado e com cópias em locais distintos assegura que os efeitos permaneçam mesmo com mudanças nos atores envolvidos, pois se baseia em procedimentos documentados e não em ações individuais.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1007,
+    "completion_tokens": 171,
+    "total_tokens": 1178,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 175
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

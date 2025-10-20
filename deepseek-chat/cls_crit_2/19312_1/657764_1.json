@@ -1,0 +1,28 @@
+{
+  "id": "dcc21180-ffb1-4ffd-89f7-7239e75e03d0",
+  "object": "chat.completion",
+  "created": 1760451632,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise da codificação está correta em identificar que a recomendação trata apenas da correção da condição imediata (documentação ausente ou incompleta) sem abordar causas subjacentes, como falhas processuais ou de supervisão. No entanto, a recomendação inclui a exigência de conferência pela direção técnica/clínica, o que poderia ser interpretado como um elemento de controle futuro, embora não especifique mudanças sistêmicas para prevenir a recorrência.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1187,
+    "completion_tokens": 153,
+    "total_tokens": 1340,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 291
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

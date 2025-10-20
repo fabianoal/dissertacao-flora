@@ -1,0 +1,28 @@
+{
+  "id": "4ca4c208-7892-437d-8e01-0fb68223a7db",
+  "object": "chat.completion",
+  "created": 1760456845,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise Crítica\": \"A análise da codificação está correta em identificar que a recomendação aborda a causa do problema, que é a falta de verificação adequada da documentação comprobatória, e que a implementação de um processo formal pode ter efeitos duradouros. No entanto, há nuances que merecem atenção, como a dependência da adesão contínua dos fiscais e gestores, o que pode influenciar a durabilidade dos efeitos.\",\n  \"Análise Foco Causa\": \"Concordo\",\n  \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1259,
+    "completion_tokens": 141,
+    "total_tokens": 1400,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 363
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

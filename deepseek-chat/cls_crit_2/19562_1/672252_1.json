@@ -1,0 +1,28 @@
+{
+  "id": "25ed92f7-9945-4a20-be42-121bab200db1",
+  "object": "chat.completion",
+  "created": 1760454797,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe uma ação contínua de manutenção de dados atualizados, o que aborda a causa do problema (falta de processos regulares para atualização). Quanto ao critério 'Efeitos Duradouros', a implementação de um processo contínuo cria uma estrutura que permanece eficaz mesmo com mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1120,
+    "completion_tokens": 146,
+    "total_tokens": 1266,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 224
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "4a73a952-61ba-4c41-a541-552986a0b6e2",
+  "object": "chat.completion",
+  "created": 1760455017,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identifica corretamente que a recomendação 'a' aborda a causa raiz do problema (falta de planejamento adequado). No entanto, em relação ao critério 'Efeitos Duradouros', há uma superestimação da durabilidade dos efeitos, pois as ações propostas são pontuais e não estabelecem necessariamente processos institucionalizados permanentes.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1366,
+    "completion_tokens": 143,
+    "total_tokens": 1509,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 470
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c6a1b3a1-c42d-42c5-9611-64fc3c30b148",
+  "object": "chat.completion",
+  "created": 1760462721,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações que tratam da causa subjacente (estabelecer um cronograma de verificação) para garantir a manutenção periódica programada, além de ações para a condição atual (realizar manutenções preventivas e corretivas). Quanto ao critério 'Efeitos Duradouros', o estabelecimento de um cronograma de verificação como procedimento formal tende a institucionalizar a prática, produzindo efeitos duradouros independentemente de mudanças nos atores envolvidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1366,
+    "completion_tokens": 175,
+    "total_tokens": 1541,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 470
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

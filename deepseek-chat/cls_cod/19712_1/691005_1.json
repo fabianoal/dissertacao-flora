@@ -1,0 +1,28 @@
+{
+  "id": "95bd3ed1-252f-4a64-baa1-0d134fba2775",
+  "object": "chat.completion",
+  "created": 1760038576,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação contém múltiplas ações: a) sugere a correta alimentação dos bancos de dados para resolver a condição de registros incorretos, caracterizando uma ação corretiva; b) propõe a restituição de valores, que é uma ação corretiva para a condição financeira; c) recomenda a abertura de sindicância para apurar responsabilidades e exclusão de registros, o que visa tratar a causa subjacente, mas é genérica ao se basear no cumprimento de leis sem detalhar ações concretas além da exclusão. A ação de exclusão é corretiva, enquanto a sindicância aborda a causa de forma genérica, sem especificar mudanças sistêmicas duradouras.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1453,
+    "completion_tokens": 212,
+    "total_tokens": 1665,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 429
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

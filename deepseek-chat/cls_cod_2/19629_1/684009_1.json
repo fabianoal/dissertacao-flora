@@ -1,0 +1,28 @@
+{
+  "id": "1978c23c-3cf7-49b1-bb9f-eceb29dc5c28",
+  "object": "chat.completion",
+  "created": 1760391594,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a implementação de mecanismos de rastreabilidade, o que visa tratar a causa raiz do problema (falta de controle sistemático) e não apenas corrigir a condição específica das 33 OPME não rastreadas. Já em relação aos efeitos pretendidos pela recomendação, a implementação de mecanismos permanentes de rastreabilidade criará uma estrutura duradoura que permanecerá funcional independentemente de mudanças nos atores envolvidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 965,
+    "completion_tokens": 148,
+    "total_tokens": 1113,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 133
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

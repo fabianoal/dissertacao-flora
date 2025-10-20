@@ -1,0 +1,28 @@
+{
+  "id": "86e6e345-fe2d-493e-87c9-85054ab504db",
+  "object": "chat.completion",
+  "created": 1760390142,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação solicita informações sobre o não cumprimento de metas, o que pode ajudar a identificar a causa da ausência dos relatórios, mas não propõe ações diretas para tratar a causa subjacente, como melhorias em processos ou sistemas. Portanto, não há uma ação clara focada na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 929,
+    "completion_tokens": 135,
+    "total_tokens": 1064,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 97
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

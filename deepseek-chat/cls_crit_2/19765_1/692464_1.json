@@ -1,0 +1,28 @@
+{
+  "id": "0dd7c787-e9f3-4b80-8a0e-ec04982e3b70",
+  "object": "chat.completion",
+  "created": 1760463645,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a implementação de programas de treinamento regulares, que visam tratar a causa subjacente da falta de capacitação (ausência de programas estruturados), e não apenas corrigir a condição imediata de profissionais não treinados. Quanto ao critério 'Efeitos Duradouros', a implementação de um sistema contínuo de treinamento assegura que os efeitos perdurem mesmo com mudanças na equipe, pois estabelece um processo institucionalizado.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1188,
+    "completion_tokens": 170,
+    "total_tokens": 1358,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 292
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

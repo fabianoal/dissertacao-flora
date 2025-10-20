@@ -1,0 +1,28 @@
+{
+  "id": "d93877e9-cf2e-4124-9982-2cf2ec7c588a",
+  "object": "chat.completion",
+  "created": 1760037324,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere uma ação corretiva para resolver a condição encontrada, que é a falta de registros de acompanhamento e encaminhamento, ao propor garantir e acompanhar o encaminhamento. No entanto, a ação com foco na causa é genérica, pois se limita a citar o cumprimento de normativos existentes sem propor medidas específicas adicionais para prevenir a recorrência da causa subjacente, como falhas em processos ou capacitação. Como a ação foco causa é genérica, os efeitos duradouros não são avaliados positivamente.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1370,
+    "completion_tokens": 176,
+    "total_tokens": 1546,
+    "prompt_tokens_details": {
+      "cached_tokens": 1088
+    },
+    "prompt_cache_hit_tokens": 1088,
+    "prompt_cache_miss_tokens": 282
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

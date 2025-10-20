@@ -1,0 +1,28 @@
+{
+  "id": "1d31da51-8939-46b9-82d4-4d303cd700f5",
+  "object": "chat.completion",
+  "created": 1760037064,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere uma ação corretiva para cobrar administrativamente o valor indevidamente utilizado, visando corrigir a condição específica de falta de comprovação no uso de DMIs. No entanto, a ação proposta é genérica, limitando-se a cumprir normativos existentes sem especificar medidas concretas para tratar a causa subjacente, como melhorias em processos de documentação ou auditoria interna. Portanto, não há ação com foco na causa que vá além do mero cumprimento legal, e os efeitos duradouros não se aplicam, pois a recomendação não endereça mudanças sistêmicas.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1288,
+    "completion_tokens": 187,
+    "total_tokens": 1475,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 264
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

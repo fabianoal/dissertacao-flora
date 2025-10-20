@@ -1,0 +1,28 @@
+{
+  "id": "a32c72e9-44ad-4d03-b38a-ba218c17f84e",
+  "object": "chat.completion",
+  "created": 1760391534,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a implementação de controles internos e política de governança, o que visa tratar a causa raiz da ausência de registros (falta de estrutura de controle e governança), e não apenas corrigir os registros ausentes. Já em relação aos efeitos pretendidos pela recomendação, a implementação de controles internos e política de governança cria uma estrutura organizacional que permanece independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 978,
+    "completion_tokens": 152,
+    "total_tokens": 1130,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 82
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

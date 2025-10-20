@@ -1,0 +1,28 @@
+{
+  "id": "6f1105b6-1665-48e2-a511-b5c1ac1646c3",
+  "object": "chat.completion",
+  "created": 1760457661,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe orientar fiscais e gestores a realizar conferência da documentação comprobatória, o que aborda diretamente a causa do problema (falta de verificação adequada), sendo uma ação preventiva. Para 'Efeitos Duradouros', a orientação estabelece um processo contínuo baseado em normativos, que pode persistir com mudanças de pessoal se incorporado institucionalmente, mas depende de adesão consistente.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1289,
+    "completion_tokens": 159,
+    "total_tokens": 1448,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 393
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

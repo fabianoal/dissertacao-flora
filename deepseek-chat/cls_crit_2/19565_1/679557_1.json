@@ -1,0 +1,28 @@
+{
+  "id": "a0c6ff55-0bd4-4fa9-b768-0a9d30e02e3f",
+  "object": "chat.completion",
+  "created": 1760454857,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação se concentra na correção imediata da condição irregular (devolução dos valores), sem propor ações para tratar as causas subjacentes que permitiram as irregularidades, como falhas em processos de controle interno ou capacitação. No entanto, a justificativa para 'Efeitos Duradouros' poderia ser mais clara, pois a ausência de foco na causa impede a avaliação de efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1276,
+    "completion_tokens": 153,
+    "total_tokens": 1429,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 380
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

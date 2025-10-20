@@ -1,0 +1,28 @@
+{
+  "id": "3ce36e18-0aaf-4b3c-9c8b-c7cbc362d6f6",
+  "object": "chat.completion",
+  "created": 1760390710,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe notificar o DSEI para inserir relatórios mensais de acompanhamento no Transferegov, focando na correção imediata da ausência documental (condição encontrada). Não há menção a ações que tratem das causas subjacentes à não elaboração/envio dos relatórios, como capacitação da equipe, revisão de processos ou implementação de sistemas de monitoramento contínuo. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 950,
+    "completion_tokens": 182,
+    "total_tokens": 1132,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "3c495a62-f90d-47b8-ab0a-a8454c4164cc",
+  "object": "chat.completion",
+  "created": 1760391490,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação estabelece medidas para assegurar a fixação das etiquetas de rastreabilidade nos documentos exigidos, o que visa corrigir a condição encontrada de etiquetas não fixadas, mas não propõe ações para tratar a causa subjacente que levou à não fixação, como falhas no processo, treinamento inadequado ou falta de supervisão. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, não se aplica a avaliação.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1161,
+    "completion_tokens": 163,
+    "total_tokens": 1324,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 329
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

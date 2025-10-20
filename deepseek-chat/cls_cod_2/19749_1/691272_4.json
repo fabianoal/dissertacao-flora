@@ -1,0 +1,28 @@
+{
+  "id": "c61a35c7-2472-4126-927e-b14e4eec66ec",
+  "object": "chat.completion",
+  "created": 1760395320,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação não propõe ações específicas para tratar a causa da ausência de documentos comprobatórios da produção ambulatorial, limitando-se a solicitar que a SAES/MS adote procedimentos conforme a portaria mencionada e considere a devolução de recursos, sem especificar medidas para prevenir a reincidência do problema. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1003,
+    "completion_tokens": 153,
+    "total_tokens": 1156,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 107
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

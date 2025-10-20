@@ -1,0 +1,28 @@
+{
+  "id": "13a9b2e5-5018-4dcd-9146-2fa3dcfe716e",
+  "object": "chat.completion",
+  "created": 1760463689,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda tanto a correção imediata dos atrasos quanto a prevenção de problemas futuros através da inclusão de metas e recursos para a Cadeia de Frio nos instrumentos de planejamento. Quanto ao critério 'Efeitos Duradouros', a formalização no planejamento sugere continuidade, mas a dependência de implementação contínua e possíveis mudanças normativas pode limitar a durabilidade.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1544,
+    "completion_tokens": 157,
+    "total_tokens": 1701,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 648
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

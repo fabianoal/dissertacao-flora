@@ -1,0 +1,28 @@
+{
+  "id": "8a9e809b-bacf-444c-90b7-7b07abc9e709",
+  "object": "chat.completion",
+  "created": 1760390966,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações como fazer cumprir procedimentos específicos de recebimento e conferência de OPME, devolver produtos não conformes ao fornecedor, e estabelecer medidas para implementação de controles internos e política de governança, que visam tratar as causas do problema de recebimento de OPME vencidas, como falhas nos processos de recebimento, conferência e controles internos. Já em relação aos efeitos pretendidos pela recomendação, as medidas propostas, como a implementação de controles internos e política de governança, tendem a criar estruturas e processos permanentes que permanecem mesmo com mudanças de atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1339,
+    "completion_tokens": 204,
+    "total_tokens": 1543,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 507
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

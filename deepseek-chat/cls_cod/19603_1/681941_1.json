@@ -1,0 +1,28 @@
+{
+  "id": "5a8ed6e6-8635-4ed0-81fc-ee8e8e2ebc7d",
+  "object": "chat.completion",
+  "created": 1760036368,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação contém múltiplas ações: a restituição de valores é uma ação corretiva para resolver a condição específica de irregularidade no recebimento de recursos, enquanto o reforço de mecanismos de controle e monitoramento visa prevenir futuras irregularidades, focando na causa. No entanto, a ação de reforço é genérica, pois se limita a citar conformidade com normativos sem propor medidas concretas específicas. Portanto, não há efeitos duradouros garantidos, pois a recomendação não estabelece mudanças estruturais ou procedimentais específicas que persistiriam independentemente de mudanças nos atores envolvidos.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1371,
+    "completion_tokens": 187,
+    "total_tokens": 1558,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 347
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

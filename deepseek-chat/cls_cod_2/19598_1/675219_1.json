@@ -1,0 +1,28 @@
+{
+  "id": "e0c41c09-8e94-4119-8e7d-4c60050e35ae",
+  "object": "chat.completion",
+  "created": 1760388894,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe ações específicas para adequar a infraestrutura física da Central de Regulação às exigências legais, como dimensionamento de área por posto de trabalho, isolamento acústico e controle de temperatura. Essas medidas visam corrigir diretamente a condição encontrada de incompatibilidade com a legislação, mas não abordam as causas subjacentes que levaram a essa inadequação (como falhas no planejamento, gestão de recursos ou processos de manutenção). Portanto, trata-se de uma recomendação com foco na condição. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, a análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1065,
+    "completion_tokens": 196,
+    "total_tokens": 1261,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 233
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a0d120e2-aeff-4cb0-9e8b-af60be987833",
+  "object": "chat.completion",
+  "created": 1760397132,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a capacitação da equipe responsável pelo gerenciamento de estoques e registros para garantir familiarização com os sistemas de informação e atualizações precisas, o que visa tratar a causa raiz da discrepância entre registros no Sies e estoque físico, que é a falta de conhecimento ou habilidade da equipe. Já em relação aos efeitos pretendidos pela recomendação, a capacitação promove conhecimento que permanece mesmo com mudanças de atores, desde que novos membros também sejam capacitados, criando um processo sustentável de treinamento conforme estabelecido no manual.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1102,
+    "completion_tokens": 174,
+    "total_tokens": 1276,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 270
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

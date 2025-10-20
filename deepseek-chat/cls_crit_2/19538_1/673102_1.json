@@ -1,0 +1,28 @@
+{
+  "id": "ed128a2d-f43e-42ff-a43a-d07dc16d281e",
+  "object": "chat.completion",
+  "created": 1760454225,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise Crítica\": \"A análise fornecida avalia corretamente que a recomendação se concentra em cumprir estratégias existentes sem abordar explicitamente as causas subjacentes da não adoção, como falta de recursos ou capacitação. No entanto, a classificação do critério 'Foco Causa' como 'Não' pode ser questionada, pois a implementação das ações orientadas pode, implicitamente, tratar causas se estas forem relacionadas à não conformidade com diretrizes. Para 'Efeitos Duradouros', a não aplicação está alinhada com a premissa de que o foco na causa não foi atendido, mas isso depende da avaliação inicial.\",\n  \"Análise Foco Causa\": \"Discordo\",\n  \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1176,
+    "completion_tokens": 186,
+    "total_tokens": 1362,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 280
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

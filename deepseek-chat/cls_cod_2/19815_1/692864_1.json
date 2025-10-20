@@ -1,0 +1,28 @@
+{
+  "id": "2ccbc2fc-e169-43d3-b9e0-76d4e75b99b4",
+  "object": "chat.completion",
+  "created": 1760397996,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe implementar ações que tratam diretamente da causa do problema, que é a falta de implementação adequada do Procedimento Operacional Padrão (POP) e a ausência de controles específicos (como área de quarentena e EPIs), visando prevenir a reocorrência das condições observadas. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas (implementação de POP, criação de área de quarentena e fornecimento de EPIs) estabelecem estruturas e processos que devem permanecer independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1147,
+    "completion_tokens": 183,
+    "total_tokens": 1330,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 315
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

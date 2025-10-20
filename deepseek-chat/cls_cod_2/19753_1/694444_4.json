@@ -1,0 +1,28 @@
+{
+  "id": "d2e39b97-d3dd-4607-a709-d354b06e4d3f",
+  "object": "chat.completion",
+  "created": 1760395484,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe que apenas a produção ambulatorial comprovada seja processada e enviada, focando na correção imediata da condição encontrada (ausência de documentos comprobatórios) sem abordar as causas subjacentes, como falhas nos processos de registro, capacitação da equipe ou implementação de controles preventivos. Portanto, não há ação direcionada à causa do problema. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 992,
+    "completion_tokens": 162,
+    "total_tokens": 1154,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 32
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "be39a706-0e9e-4f9f-87a6-279da83acaf1",
+  "object": "chat.completion",
+  "created": 1760384902,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe duas ações distintas: a primeira trata da atualização cadastral no CNES, que visa corrigir a condição específica de desatualização (foco na condição). A segunda ação, que exige a realização de concurso público para profissionais de saúde, aborda a causa raiz do problema (falta de pessoal concursado), sendo, portanto, uma recomendação com foco na causa. Quanto aos efeitos duradouros, a implementação de concursos públicos estabelece um processo estruturado e permanente de seleção, cujos benefícios (profissionais qualificados e estáveis) persistem independentemente de mudanças nos atores envolvidos, como gestores ou servidores.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1137,
+    "completion_tokens": 201,
+    "total_tokens": 1338,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 305
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

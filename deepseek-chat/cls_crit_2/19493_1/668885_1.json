@@ -1,0 +1,28 @@
+{
+  "id": "199cbc63-3320-4397-b74d-d766ca1841a9",
+  "object": "chat.completion",
+  "created": 1760453165,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise realizada pelo modelo identificou corretamente que a recomendação possui múltiplas ações, sendo que uma delas (assegurar a guarda de documentos por 10 anos) trata da causa do problema. No entanto, discordo da avaliação sobre os efeitos duradouros, pois a ação de guarda de documentos, embora estabeleça um procedimento, não garante efetivamente que os efeitos pretendidos permaneçam com mudanças de atores, uma vez que depende da adesão contínua e pode ser negligenciada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1680,
+    "completion_tokens": 167,
+    "total_tokens": 1847,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 784
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "9eb8fe19-6a91-47e6-ad29-5e379ab288a7",
+  "object": "chat.completion",
+  "created": 1760464913,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identifica corretamente que a recomendação inclui ações que tratam da causa do problema (ausência de rotina estabelecida), especificamente a criação de normas, procedimentos e rotinas técnicas escritas. Quanto ao critério 'Efeitos Duradouros', a análise do modelo também está correta, pois essas normas e rotinas, uma vez implementadas, se tornam parte da estrutura organizacional e permanecem válidas independentemente de mudanças nos atores envolvidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1376,
+    "completion_tokens": 166,
+    "total_tokens": 1542,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 480
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

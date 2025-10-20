@@ -1,0 +1,28 @@
+{
+  "id": "5bdbf330-ea71-4e00-a6ed-2cc3b831f5c0",
+  "object": "chat.completion",
+  "created": 1760388110,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações para ampliar a cobertura de atendimento aos portadores de insuficiência renal crônica, garantindo acesso às diferentes modalidades de terapia renal substitutiva, incluindo a diálise peritoneal que estava limitada. Esta abordagem visa tratar a causa subjacente da disponibilidade limitada, que pode envolver questões estruturais, de planejamento ou alocação de recursos, em vez de apenas corrigir a condição imediata. Já em relação aos efeitos pretendidos pela recomendação, as ações de ampliação da cobertura e garantia de princípios como universalidade e equidade tendem a criar mudanças sistêmicas e duradouras no serviço de saúde, que permaneceriam mesmo com mudanças nos atores envolvidos, pois estão baseadas em políticas e estruturas de atendimento.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1062,
+    "completion_tokens": 225,
+    "total_tokens": 1287,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 230
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "5d503aeb-0143-4470-a522-d0e0048f2b89",
+  "object": "chat.completion",
+  "created": 1760456613,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério Foco Causa, a recomendação propõe a adoção de critérios mínimos de detalhamento, o que aborda diretamente a causa raiz do problema (ausência de padrões claros) e não apenas corrige a condição atual. Quanto ao critério Efeitos Duradouros, a implementação de critérios formais estabelece um padrão permanente que deve persistir independentemente de mudanças nas equipes ou proponentes, promovendo assim efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1286,
+    "completion_tokens": 163,
+    "total_tokens": 1449,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 390
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

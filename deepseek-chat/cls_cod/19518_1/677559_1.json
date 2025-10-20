@@ -1,0 +1,28 @@
+{
+  "id": "1c0e7dd6-dd11-40fc-9477-8ec25ede671a",
+  "object": "chat.completion",
+  "created": 1760036940,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere duas ações distintas: capacitar profissionais e efetuar registros de atendimentos. A capacitação visa educar sobre a importância do programa e melhorar o indicador, o que pode ser visto como uma ação para tratar a causa subjacente de falta de conhecimento ou engajamento. No entanto, a referência a cumprir a alínea 'C' do Documento Orientador indica que parte da recomendação é genérica, focada em conformidade normativa. A ação de efetuar registros visa corrigir a condição imediata de falta de registros adequados, sendo uma ação corretiva. A ação de capacitação, embora específica, não é claramente estruturada para garantir efeitos duradouros independentemente de mudanças de atores, pois depende da implementação contínua.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1259,
+    "completion_tokens": 226,
+    "total_tokens": 1485,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 235
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

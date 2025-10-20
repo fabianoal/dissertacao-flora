@@ -1,0 +1,28 @@
+{
+  "id": "fb87f7e7-58e6-4eda-aaa6-08029b773121",
+  "object": "chat.completion",
+  "created": 1760448834,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação se limita a exigir o cumprimento dos exames periódicos sem investigar ou propor ações sobre as causas subjacentes da não realização (como falta de recursos, capacitação ou falhas processuais). Quanto ao critério 'Efeitos Duradouros', a resposta 'Não se aplica' é adequada, dado que o critério 'Foco Causa' não foi atendido.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1389,
+    "completion_tokens": 156,
+    "total_tokens": 1545,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 557
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "331bd1e7-12e5-43f7-a0a0-165af4f8f3c0",
+  "object": "chat.completion",
+  "created": 1760398204,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam da causa do problema, que é a ausência de protocolos padronizados e sistema de monitoramento para casos de saúde mental, visando prevenir a recorrência da condição encontrada. Já em relação aos efeitos pretendidos pela recomendação, a padronização de protocolos e a implantação de sistemas de monitoramento criam estruturas permanentes que independem de atores específicos, garantindo que os efeitos se mantenham mesmo com mudanças de pessoal.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1135,
+    "completion_tokens": 153,
+    "total_tokens": 1288,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 303
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

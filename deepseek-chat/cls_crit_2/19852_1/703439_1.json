@@ -1,0 +1,28 @@
+{
+  "id": "af28701f-6a57-43e4-9c34-f155fadea5b2",
+  "object": "chat.completion",
+  "created": 1760466925,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que as recomendações não abordam diretamente a causa da falta de equipamentos para atendimento à população. As ações propostas são genéricas e administrativas, sem mencionar aquisição, alocação ou provisão específica de equipamentos. Quanto ao critério 'Efeitos Duradouros', como o 'Foco Causa' foi corretamente classificado como 'Não', a resposta 'Não se aplica' está adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1369,
+    "completion_tokens": 165,
+    "total_tokens": 1534,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 473
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "79ac9f26-6a85-4bf3-90bc-472244cab4f5",
+  "object": "chat.completion",
+  "created": 1760454277,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identifica corretamente que a recomendação visa o cumprimento de normativas, o que aborda a causa subjacente da não conformidade. Para o critério 'Efeitos Duradouros', a análise do modelo argumenta que a implementação de medidas para garantir o cumprimento contínuo das normativas estabelece um padrão duradouro, mas a recomendação em si é genérica ('adotar providências') e não especifica ações concretas que assegurem a sustentabilidade, como a criação de políticas ou procedimentos formais, tornando a avaliação de efeitos duradouros incerta.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1237,
+    "completion_tokens": 198,
+    "total_tokens": 1435,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 341
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

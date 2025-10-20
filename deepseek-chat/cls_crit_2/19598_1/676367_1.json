@@ -1,0 +1,28 @@
+{
+  "id": "93ebf0e9-0035-4282-844b-a52f373b5044",
+  "object": "chat.completion",
+  "created": 1760455653,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identificou corretamente que a recomendação trata da causa do problema, que é a falta de transparência e controle na aplicação dos recursos. Quanto ao critério 'Efeitos Duradouros', a análise também está correta, pois as medidas propostas estabelecem procedimentos formais que independem de mudanças nos atores envolvidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1340,
+    "completion_tokens": 136,
+    "total_tokens": 1476,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 444
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d6f31b89-66cf-4ead-a2b5-712161ac4ce9",
+  "object": "chat.completion",
+  "created": 1760385107,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações específicas para corrigir a condição imediata de ausência de etiquetas nos prontuários, como afixar e manter etiquetas, e disponibilizar um número mínimo delas em locais específicos. No entanto, não identifica ou aborda a causa subjacente que levou à não afixação das etiquetas (ex: falta de treinamento, processos inadequados, falhas de supervisão), focando apenas na correção da condição observada. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não é atendido, essa análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1131,
+    "completion_tokens": 191,
+    "total_tokens": 1322,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 299
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

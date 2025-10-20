@@ -1,0 +1,28 @@
+{
+  "id": "b7c0ae0e-c752-4d02-92d9-6147b4a9c586",
+  "object": "chat.completion",
+  "created": 1760386998,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a implementação completa do SISREG com funcionalidades específicas que visam corrigir a não utilização do sistema, abordando tanto a condição atual (não uso) quanto as causas subjacentes, como a falta de mecanismos para acompanhamento e controle de processos de regulação. Isso inclui ações como acompanhar desproporções oferta-demanda e controlar fluxos de pacientes, que tratam de causas estruturais. Já em relação aos efeitos pretendidos, a implementação do SISREG com essas funcionalidades estabelece processos e sistemas padronizados que devem permanecer operantes independentemente de mudanças nos atores envolvidos, pois são incorporados à infraestrutura e procedimentos da organização.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1184,
+    "completion_tokens": 204,
+    "total_tokens": 1388,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 352
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

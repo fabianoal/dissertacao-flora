@@ -1,0 +1,28 @@
+{
+  "id": "e331707f-46f3-4369-a0b3-76b3af41bb89",
+  "object": "chat.completion",
+  "created": 1760462901,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações que tratam diretamente da causa do problema (falta de programas de treinamento regulares), incluindo a elaboração de um plano anual de capacitação, mapeamento de necessidades, implementação de sistema de registro e promoção de capacitação contínua, que visam prevenir a reocorrência da condição. Já em relação ao critério 'Efeitos Duradouros', as ações sugeridas (como a criação de um plano anual, sistema de registro e parcerias institucionais) estabelecem estruturas e processos permanentes que independem dos atores atuais, garantindo efeitos duradouros mesmo com mudanças de pessoal.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1600,
+    "completion_tokens": 207,
+    "total_tokens": 1807,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 704
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

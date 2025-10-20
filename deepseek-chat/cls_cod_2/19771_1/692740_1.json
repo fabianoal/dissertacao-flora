@@ -1,0 +1,28 @@
+{
+  "id": "74ba55aa-db2f-4c31-9adb-ab3d220c8795",
+  "object": "chat.completion",
+  "created": 1760396180,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe realizar ajustes e reformas nas instalações físicas para atender a requisitos normativos, focando na correção direta da condição observada (necessidade de reparos), sem mencionar ações que abordem as causas subjacentes que levaram à deterioração ou à falta de manutenção preventiva. Portanto, não há ação proposta para tratar a causa do problema. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 934,
+    "completion_tokens": 159,
+    "total_tokens": 1093,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 102
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

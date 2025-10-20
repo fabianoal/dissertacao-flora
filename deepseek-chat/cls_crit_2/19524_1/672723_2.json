@@ -1,0 +1,28 @@
+{
+  "id": "91972678-a2e9-4e5f-b7bb-2c84a6a58e69",
+  "object": "chat.completion",
+  "created": 1760453917,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação se concentra em melhorar a condição imediata de transparência, sem abordar causas subjacentes, como a falta de políticas ou procedimentos sistemáticos. No entanto, a avaliação do critério 'Efeitos Duradouros' está adequada, pois depende do resultado do 'Foco Causa'.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1195,
+    "completion_tokens": 125,
+    "total_tokens": 1320,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 235
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

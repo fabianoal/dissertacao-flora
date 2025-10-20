@@ -1,0 +1,28 @@
+{
+  "id": "301b3f3f-192e-4d10-92a2-aa5710887bcb",
+  "object": "chat.completion",
+  "created": 1760387058,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a realização da aceitação dos medicamentos e insumos conforme a legislação, o que corrige diretamente a condição encontrada de falta de aceitação, mas não aborda as causas subjacentes, como falhas nos processos ou na capacitação, que levaram a essa omissão. Portanto, foca na condição imediata, não na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1075,
+    "completion_tokens": 153,
+    "total_tokens": 1228,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 243
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "f181f927-a788-40c3-b252-9afb26a8072c",
+  "object": "chat.completion",
+  "created": 1760394780,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe que o hospital atenda às normas de classificação e credenciamento/habilitação, o que envolve ajustes na estrutura física, profissionais, materiais e equipamentos para adequar a capacidade instalada à produção informada. Isso visa tratar a causa subjacente do problema, que é a inadequação da infraestrutura em relação à demanda de procedimentos. Quanto aos efeitos duradouros, a implementação dessas normas tende a estabelecer padrões permanentes na estrutura e processos do hospital, que persistem independentemente de mudanças nos atores envolvidos, como gestores ou profissionais.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1076,
+    "completion_tokens": 171,
+    "total_tokens": 1247,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 244
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

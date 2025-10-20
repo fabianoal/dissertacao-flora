@@ -1,0 +1,28 @@
+{
+  "id": "41fe4eb6-c07e-4de1-85ec-e35a8805f572",
+  "object": "chat.completion",
+  "created": 1760399880,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação solicita o cumprimento de uma ação previamente acordada no plano de ação (revisão/elaboração do regimento interno), que visa diretamente corrigir a condição encontrada de falta de revisão do documento. No entanto, não há menção a ações que abordem as causas subjacentes que levaram à não revisão (como falhas nos processos de gestão documental, ausência de mecanismos de monitoramento ou capacitação inadequada). Portanto, a recomendação foca na condição imediata (regimento desatualizado) e não na causa do problema. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 979,
+    "completion_tokens": 204,
+    "total_tokens": 1183,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 147
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

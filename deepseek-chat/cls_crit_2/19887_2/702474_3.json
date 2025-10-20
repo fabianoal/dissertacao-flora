@@ -1,0 +1,28 @@
+{
+  "id": "a06856b2-626e-4257-9e3b-3437d28cbe3f",
+  "object": "chat.completion",
+  "created": 1760468149,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise da codificação está correta ao identificar que a recomendação se concentra em corrigir a condição específica de incompatibilidade de CIDs, sem propor ações para tratar as causas subjacentes, como falhas nos processos de registro ou capacitação da equipe. No entanto, a avaliação do critério 'Efeitos Duradouros' como 'Não se aplica' é consistente, uma vez que o critério 'Foco Causa' não foi atendido.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1319,
+    "completion_tokens": 150,
+    "total_tokens": 1469,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 359
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

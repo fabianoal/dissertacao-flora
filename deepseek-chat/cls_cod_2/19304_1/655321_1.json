@@ -1,0 +1,28 @@
+{
+  "id": "4acd3993-9ba3-434a-a600-0118c9b95475",
+  "object": "chat.completion",
+  "created": 1760384606,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a reforçar o cumprimento de procedimentos operacionais existentes para documentação de materiais, sem propor ações que abordem as causas subjacentes às falhas de registro identificadas (como falta de treinamento, sistemas inadequados ou processos deficientes). Portanto, não há foco na causa do problema. Como o critério 'Foco Causa' não é atendido, a avaliação de 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1042,
+    "completion_tokens": 145,
+    "total_tokens": 1187,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 210
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

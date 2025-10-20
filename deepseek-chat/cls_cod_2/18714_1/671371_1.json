@@ -1,0 +1,28 @@
+{
+  "id": "0ec40b34-f2c0-4d1d-8db7-62d97a6ecd70",
+  "object": "chat.completion",
+  "created": 1760383483,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a adoção de medidas para assegurar que os repasses sejam aplicados tempestivamente, o que visa prevenir a reocorrência da aplicação intempestiva no mercado financeiro, tratando assim da causa do problema (falta de controle tempestivo). Já em relação aos efeitos pretendidos pela recomendação, as medidas institucionalizadas para assegurar a aplicação tempestiva provavelmente permaneceriam eficazes mesmo com mudanças nos atores envolvidos, pois se baseiam em processos e normas.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 960,
+    "completion_tokens": 160,
+    "total_tokens": 1120,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 128
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

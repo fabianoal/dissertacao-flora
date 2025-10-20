@@ -1,0 +1,28 @@
+{
+  "id": "7055ac61-cdc6-40f3-aca2-5294a99352b5",
+  "object": "chat.completion",
+  "created": 1760448238,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise fornecida avalia corretamente que a recomendação se concentra na correção imediata da condição financeira irregular, sem propor ações para abordar as causas subjacentes, como falhas processuais ou de controle que levaram ao pagamento indevido. No entanto, a avaliação dos efeitos duradouros é consistente com a ausência de foco na causa.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1271,
+    "completion_tokens": 127,
+    "total_tokens": 1398,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 439
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

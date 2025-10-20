@@ -1,0 +1,28 @@
+{
+  "id": "11385acd-8fbb-4fca-9387-88aa38566d67",
+  "object": "chat.completion",
+  "created": 1760457773,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação possui foco na causa ao propor medidas estruturais de governança e controle, mas superestimou os efeitos duradouros ao não considerar que a implementação efetiva depende de fatores contingentes como mudanças na equipe e prioridades institucionais.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1393,
+    "completion_tokens": 114,
+    "total_tokens": 1507,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 497
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

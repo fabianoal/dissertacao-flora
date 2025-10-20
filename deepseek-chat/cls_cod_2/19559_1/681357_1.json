@@ -1,0 +1,28 @@
+{
+  "id": "93006fc2-57b5-4172-99be-99045829b170",
+  "object": "chat.completion",
+  "created": 1760387770,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe fiscalizar e garantir que o Cenefron possua o prontuário médico como documento único e que o sistema informatizado contenha assinatura digital conforme NGS2, o que constitui ações para tratar a causa do problema (falta de conformidade com normas) e não apenas corrigir a condição atual. Já em relação aos efeitos pretendidos pela recomendação, as mudanças propostas (implementação de sistema conforme NGS2 e estabelecimento do prontuário como documento único) são estruturais e permaneceriam mesmo com mudança de atores envolvidos, pois estão baseadas em sistemas e procedimentos formais.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1175,
+    "completion_tokens": 184,
+    "total_tokens": 1359,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 343
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

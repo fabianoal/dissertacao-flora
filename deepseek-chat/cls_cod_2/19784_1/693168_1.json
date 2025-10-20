@@ -1,0 +1,28 @@
+{
+  "id": "9dbe575d-dbfb-4eb4-b182-95d6d6b311a4",
+  "object": "chat.completion",
+  "created": 1760396748,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a elaboração de um mapa ilustrativo e identificação do equipamento com informações detalhadas sobre os imunobiológicos armazenados, o que representa uma ação para melhorar o controle e organização do processo de armazenamento, tratando assim a causa do problema de não seguir integralmente as orientações do PNI. Já em relação aos efeitos pretendidos pela recomendação, a implementação do mapa ilustrativo e identificação do equipamento cria um procedimento estruturado que permanece mesmo com mudanças de pessoal, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 993,
+    "completion_tokens": 170,
+    "total_tokens": 1163,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 161
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

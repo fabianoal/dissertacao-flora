@@ -1,0 +1,28 @@
+{
+  "id": "115f99f2-3c11-43aa-a512-0cc82b7685c1",
+  "object": "chat.completion",
+  "created": 1760037016,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere a elaboração de um plano de contingência para corrigir a ausência do documento, o que constitui uma ação corretiva direta. Além disso, a recomendação se baseia no cumprimento de normativos específicos (PRC nº 3/2017) para garantir a preparação da central de regulação, mas não propõe ações concretas adicionais além da mera elaboração do plano conforme exigido, caracterizando uma abordagem genérica para tratar a causa subjacente.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1422,
+    "completion_tokens": 158,
+    "total_tokens": 1580,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 398
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

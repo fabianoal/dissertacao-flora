@@ -1,0 +1,28 @@
+{
+  "id": "460cb4b1-05cb-4c5d-8b0c-110e3650ee25",
+  "object": "chat.completion",
+  "created": 1760395564,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a implementação de um sistema de gestão da qualidade para documentar, verificar e assegurar requisitos específicos dos processos, o que visa abordar a causa raiz do problema, como a falta de controles sistemáticos, em vez de apenas corrigir a condição imediata de transporte inadequado. Já em relação aos efeitos pretendidos pela recomendação, o sistema de gestão da qualidade é uma estrutura institucionalizada que deve permanecer funcional independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 993,
+    "completion_tokens": 163,
+    "total_tokens": 1156,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 97
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

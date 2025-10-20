@@ -1,0 +1,28 @@
+{
+  "id": "9891680a-ddcb-4bee-83a0-2b7f280b596d",
+  "object": "chat.completion",
+  "created": 1759367418,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação identifica a causa da impropriedade nos relatórios (falta de observância das leis que estabelecem requisitos para documentos públicos) e está situada no nível institucional, ao propor a elaboração de documentos conforme normas legais que definem padrões arquivísticos. As transformações produzidas, caso implementadas, possuem potencial para perdurar no tempo, pois estabelecem uma prática documental baseada em requisitos legais permanentes, promovendo confiabilidade, autenticidade e transparência de forma sustentável.\",\n    \"categoria\": \"foco-causa\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1472,
+    "completion_tokens": 143,
+    "total_tokens": 1615,
+    "prompt_tokens_details": {
+      "cached_tokens": 1280
+    },
+    "prompt_cache_hit_tokens": 1280,
+    "prompt_cache_miss_tokens": 192
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

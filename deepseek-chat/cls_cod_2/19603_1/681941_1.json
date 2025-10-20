@@ -1,0 +1,28 @@
+{
+  "id": "c41ab937-b68f-4611-b818-a4053a44f25e",
+  "object": "chat.completion",
+  "created": 1760388966,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação possui duas partes distintas: a primeira sugere o reforço de mecanismos de controle e monitoramento para evitar futuras irregularidades, o que indica uma ação voltada para a causa do problema (falta de controle adequado); a segunda parte trata da restituição de valores, que é uma medida corretiva da condição atual. Portanto, há ação proposta que trata da causa. Já em relação aos efeitos duradouros, os mecanismos de controle e monitoramento propostos (como relatórios regulares) são estruturas que podem permanecer independentemente de mudanças nos atores envolvidos, pois se tornam parte dos processos institucionais.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1180,
+    "completion_tokens": 186,
+    "total_tokens": 1366,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 348
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

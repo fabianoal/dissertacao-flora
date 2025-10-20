@@ -1,0 +1,28 @@
+{
+  "id": "d8579243-b1a3-47e9-a60f-5ee09aaefde3",
+  "object": "chat.completion",
+  "created": 1760395080,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a criação de rotinas padronizadas para verificação de equipamentos, o que visa tratar a causa subjacente da falta de procedimentos descritos, ao estabelecer diretrizes formais para prevenir a reocorrência da condição. Já em relação aos efeitos pretendidos pela recomendação, a padronização por meio de procedimentos escritos e acessíveis garante que os efeitos permaneçam mesmo com mudanças nos atores envolvidos, pois as rotinas se tornam parte integrante dos processos de trabalho.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1100,
+    "completion_tokens": 158,
+    "total_tokens": 1258,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 268
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

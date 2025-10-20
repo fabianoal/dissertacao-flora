@@ -1,0 +1,28 @@
+{
+  "id": "77cc991b-6dff-40b9-b450-726f6fcc9469",
+  "object": "chat.completion",
+  "created": 1760395864,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação inclui ações que tratam tanto da condição imediata (implementação de sistema de emergência com gerador, câmaras refrigeradas e estabilizador) quanto da causa subjacente (elaboração, revisão e atualização periódica do plano de contingência, difusão dos procedimentos entre a equipe e identificação do quadro de energia). A ação de elaborar e manter atualizado o plano de contingência aborda diretamente a causa da falta de preparo para emergências. Já em relação aos efeitos pretendidos pela recomendação para tratar a causa, a institucionalização do plano de contingência por meio de documentação escrita, difusão entre a equipe e revisão periódica cria estruturas e processos que permanecem independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1257,
+    "completion_tokens": 227,
+    "total_tokens": 1484,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 425
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "4cb9596a-75ad-42aa-aa42-b168b5338583",
+  "object": "chat.completion",
+  "created": 1760390686,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a citar o cumprimento de uma disposição normativa específica sem propor ações que tratem da causa subjacente à ausência de visita técnica, como falhas em processos de planejamento, alocação de recursos ou capacitação. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 924,
+    "completion_tokens": 138,
+    "total_tokens": 1062,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 92
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

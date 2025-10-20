@@ -1,0 +1,28 @@
+{
+  "id": "3ddd5751-4416-4546-ac09-91a738aefac2",
+  "object": "chat.completion",
+  "created": 1760388178,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe o planejamento de ações estratégicas para garantir o preenchimento adequado do prontuário, o que aborda a causa subjacente do problema, como a falta de processos estruturados e capacitação, em vez de apenas corrigir prontuários existentes. Já em relação aos efeitos pretendidos pela recomendação, as ações estratégicas visam estabelecer mudanças sistêmicas, como a implementação de diretrizes e procedimentos padronizados, que devem persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1071,
+    "completion_tokens": 170,
+    "total_tokens": 1241,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 239
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

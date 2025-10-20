@@ -1,0 +1,28 @@
+{
+  "id": "668c15d6-34ff-443c-803d-f031c52cb019",
+  "object": "chat.completion",
+  "created": 1760389838,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a orientação de fiscais e gestores para conferir documentação comprobatória em processos de contratação, visando evitar desobediência a normativos e irregularidades. Essa ação busca prevenir a recorrência do problema de não utilização do reajuste correto, tratando assim a causa (falta de verificação adequada) e não apenas a condição específica. Já em relação aos efeitos pretendidos, a orientação, se implementada como prática contínua, pode gerar mudanças duradouras nos processos de fiscalização, mantendo-se mesmo com mudanças nos atores envolvidos, pois estabelece um procedimento formal de verificação.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1071,
+    "completion_tokens": 193,
+    "total_tokens": 1264,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 239
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

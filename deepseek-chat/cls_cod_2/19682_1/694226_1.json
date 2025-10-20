@@ -1,0 +1,28 @@
+{
+  "id": "cb95217d-3937-49b4-985a-6d7344b0e3db",
+  "object": "chat.completion",
+  "created": 1760392866,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a elaboração de relatórios mensais baseados em informações fidedignas e a adoção de medidas preventivas ou corretivas em caso de descumprimento, o que visa tratar a causa do problema (falta de acompanhamento e monitoramento adequados) ao estabelecer um processo sistemático e contínuo. Já em relação aos efeitos pretendidos pela recomendação, a implementação de relatórios mensais e medidas preventivas/corretivas cria um mecanismo permanente que deve persistir independentemente de mudanças nos atores envolvidos, pois se baseia em procedimentos documentados e normativos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1050,
+    "completion_tokens": 181,
+    "total_tokens": 1231,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 218
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

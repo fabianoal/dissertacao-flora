@@ -1,0 +1,28 @@
+{
+  "id": "ebccd96f-baae-41e0-b3e2-b9442c3d0372",
+  "object": "chat.completion",
+  "created": 1760448298,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda múltiplas ações que visam corrigir a causa raiz do problema de transporte inadequado, como a adoção de veículos refrigerados, implementação de sistemas de fixação e revisão de POPs, o que justifica a classificação como 'Sim'. Quanto ao critério 'Efeitos Duradouros', as ações propostas, especialmente a revisão e atualização de POPs e a implementação de sistemas, estabelecem estruturas e procedimentos formais que tendem a persistir independentemente de mudanças de pessoal, apoiando a classificação como 'Sim'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1318,
+    "completion_tokens": 188,
+    "total_tokens": 1506,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 422
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

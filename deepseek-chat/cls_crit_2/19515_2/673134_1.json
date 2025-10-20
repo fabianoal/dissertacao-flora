@@ -1,0 +1,28 @@
+{
+  "id": "8a4a0e0c-e84b-4566-a2d3-f145007040c8",
+  "object": "chat.completion",
+  "created": 1760453577,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação se concentra na correção imediata da condição financeira irregular (devolução dos recursos) sem abordar as causas subjacentes do problema. A recomendação não propõe ações preventivas ou corretivas para evitar que situações semelhantes ocorram no futuro, focando apenas na resolução da irregularidade atual.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1641,
+    "completion_tokens": 130,
+    "total_tokens": 1771,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 745
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

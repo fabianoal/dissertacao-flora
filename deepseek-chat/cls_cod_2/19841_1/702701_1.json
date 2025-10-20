@@ -1,0 +1,28 @@
+{
+  "id": "67cd7df4-b5a8-4bac-9efd-17e5ead49ae3",
+  "object": "chat.completion",
+  "created": 1760399048,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a apresentação sistematizada de documentos comprobatórios nos próximos RAGs, o que visa estabelecer um processo contínuo para assegurar a rastreabilidade e validação dos dados, abordando a causa subjacente de falta de documentação adequada, e não apenas corrigir a condição atual. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um sistema de documentação estruturado deve persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1073,
+    "completion_tokens": 162,
+    "total_tokens": 1235,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 241
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

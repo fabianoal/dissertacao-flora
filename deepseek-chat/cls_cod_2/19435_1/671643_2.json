@@ -1,0 +1,28 @@
+{
+  "id": "410a7524-938d-46f9-a5d1-cfd112e7a423",
+  "object": "chat.completion",
+  "created": 1760385515,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a solicitar que o Departamento de Assistência Farmacêutica tome conhecimento da constatação e adote procedimentos para a devolução dos valores, conforme dispositivos legais citados. Não há nenhuma ação proposta que trate da causa do problema (falta de apresentação de cupons vinculados e receitas médicas), como implementação de controles, treinamento ou mudanças processuais para prevenir a recorrência. Portanto, não atende ao critério de foco na causa, e o critério de efeitos duradouros não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1077,
+    "completion_tokens": 168,
+    "total_tokens": 1245,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 245
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

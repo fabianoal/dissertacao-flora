@@ -1,0 +1,28 @@
+{
+  "id": "e6ac32fc-3f8d-4cf9-801d-10537d176a47",
+  "object": "chat.completion",
+  "created": 1760463365,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação possui foco na causa ao propor a implementação de processos sistemáticos de manutenção, calibração e qualificação térmica, que abordam a causa raiz da falta de controles preventivos. No entanto, a avaliação dos efeitos duradouros merece uma análise mais criteriosa quanto à sua sustentabilidade institucional.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1378,
+    "completion_tokens": 131,
+    "total_tokens": 1509,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 482
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

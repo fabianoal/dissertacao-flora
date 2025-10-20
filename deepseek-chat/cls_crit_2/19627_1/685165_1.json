@@ -1,0 +1,28 @@
+{
+  "id": "c2dc424b-8569-4d6e-9edb-663555735920",
+  "object": "chat.completion",
+  "created": 1760458117,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações de apoio, orientação e supervisão aos fiscais, que podem abordar causas subjacentes como deficiências na capacitação ou supervisão, justificando a resposta 'Sim'. Para o critério 'Efeitos Duradouros', a recomendação estabelece um sistema de apoio estruturado baseado em processos institucionais, que tende a persistir independentemente de mudanças nos fiscais, apoiando a resposta 'Sim'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1217,
+    "completion_tokens": 162,
+    "total_tokens": 1379,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 321
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "f7920fec-7c21-4182-838b-09ebc9cf5efb",
+  "object": "chat.completion",
+  "created": 1760391486,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação proposta é genérica e não aborda especificamente a causa da constatação, que é a ausência de cópias das folhas de requisição de OPME nos prontuários. Ela sugere medidas gerais de direção, controle e supervisão, sem mencionar ações diretas para resolver a falha no processo de anexação dos documentos ou suas causas subjacentes, como falta de procedimentos específicos, treinamento ou monitoramento. Portanto, não há ação proposta que trate da causa do problema. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 990,
+    "completion_tokens": 189,
+    "total_tokens": 1179,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 94
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

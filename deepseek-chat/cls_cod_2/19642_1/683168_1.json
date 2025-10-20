@@ -1,0 +1,28 @@
+{
+  "id": "a84cd46c-cd6a-4cb8-abe8-8a11282cdb3a",
+  "object": "chat.completion",
+  "created": 1760391922,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação não propõe ações específicas para tratar a causa do problema (dispensação sem comprovação de aquisição), limitando-se a encaminhar a constatação para conhecimento e adoção de procedimentos genéricos, sem indicar medidas para prevenir a recorrência. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1077,
+    "completion_tokens": 144,
+    "total_tokens": 1221,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 245
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

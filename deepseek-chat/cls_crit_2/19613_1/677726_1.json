@@ -1,0 +1,28 @@
+{
+  "id": "2730dcbb-205f-43f6-bdca-ac3a5d640625",
+  "object": "chat.completion",
+  "created": 1760456873,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe uma ação preventiva que visa evitar a repetição do problema, tratando assim a causa subjacente (relações comerciais que comprometem a competitividade). Quanto ao critério 'Efeitos Duradouros', a recomendação estabelece uma diretriz baseada em princípios, que pode perdurar independentemente de mudanças nos atores, mas sua implementação depende de adesão contínua e pode não ser institucionalizada de forma permanente.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1165,
+    "completion_tokens": 161,
+    "total_tokens": 1326,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 269
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

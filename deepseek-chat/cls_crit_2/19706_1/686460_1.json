@@ -1,0 +1,28 @@
+{
+  "id": "8be6e02d-d277-4af7-a150-8b5327e71b27",
+  "object": "chat.completion",
+  "created": 1760469530,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação aborda a causa subjacente da incompatibilidade de dados ao propor a implementação de mecanismos de controle e fiscalização, mas a avaliação sobre efeitos duradouros requer uma consideração mais cuidadosa sobre a natureza específica da implementação.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1213,
+    "completion_tokens": 113,
+    "total_tokens": 1326,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 317
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

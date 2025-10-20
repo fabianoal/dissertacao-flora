@@ -1,0 +1,28 @@
+{
+  "id": "077af54d-4193-4982-b0f6-09efc39c9435",
+  "object": "chat.completion",
+  "created": 1760387878,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe ações como melhorar a qualidade das informações, realizar busca ativa e atualizar cadastros, que visam corrigir a condição imediata de discrepância nos dados, mas não aborda explicitamente a causa raiz do problema, como falhas nos processos de coleta ou integração de dados entre sistemas. Já em relação aos efeitos pretendidos pela recomendação, como o critério 'Foco Causa' não foi atendido, não se aplica a análise de efeitos duradouros.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 983,
+    "completion_tokens": 155,
+    "total_tokens": 1138,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 151
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

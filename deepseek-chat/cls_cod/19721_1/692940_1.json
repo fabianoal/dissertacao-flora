@@ -1,0 +1,28 @@
+{
+  "id": "a1bbacad-30f4-44ba-aa4a-a829bcb4d46f",
+  "object": "chat.completion",
+  "created": 1760037304,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere a formalização do processo de contratualização e a disponibilização de documentação para corrigir a condição de ausência de documentos obrigatórios, caracterizando uma ação corretiva. No entanto, as ações propostas são genéricas, limitando-se ao cumprimento de normativos legais sem especificar medidas concretas para abordar a causa subjacente, como a implementação de procedimentos de verificação ou treinamento. Portanto, não há uma ação específica com foco na causa que garanta efeitos duradouros.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1204,
+    "completion_tokens": 169,
+    "total_tokens": 1373,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 180
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

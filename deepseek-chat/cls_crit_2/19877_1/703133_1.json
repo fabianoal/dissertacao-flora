@@ -1,0 +1,28 @@
+{
+  "id": "01b00c2b-6865-451b-b841-305c35ee3b07",
+  "object": "chat.completion",
+  "created": 1760467773,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação inclui ações que visam prevenir a recorrência da irregularidade, como o estabelecimento de mecanismos de monitoramento, o que pode ser interpretado como foco na causa. No entanto, a análise sobre 'Efeitos Duradouros' pode ser questionada, pois a implementação e manutenção de tais mecanismos dependem de fatores como recursos, comprometimento e continuidade das políticas, que podem variar com mudanças nos atores ou contextos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1609,
+    "completion_tokens": 162,
+    "total_tokens": 1771,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 713
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

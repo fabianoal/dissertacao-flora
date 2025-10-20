@@ -1,0 +1,28 @@
+{
+  "id": "6e936421-cd63-44c9-bc61-d2cf1fca243c",
+  "object": "chat.completion",
+  "created": 1760385619,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação exige o fornecimento de documentação ou informações específicas para atender à solicitação da auditoria, focando na correção imediata da condição encontrada (ausência de documentação apresentada). Não propõe ações para tratar a causa subjacente, como falhas em processos de gestão documental ou capacitação, que poderiam prevenir a recorrência do problema. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1038,
+    "completion_tokens": 162,
+    "total_tokens": 1200,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 206
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

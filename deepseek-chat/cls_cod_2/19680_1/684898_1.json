@@ -1,0 +1,28 @@
+{
+  "id": "9e3dc06c-ca72-411a-b46a-b4abf68b448d",
+  "object": "chat.completion",
+  "created": 1760392682,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a manutenção da atualização fidedigna do cadastro das equipes no SCNES, o que constitui uma ação preventiva para evitar a reincidência da condição encontrada (cadastro desatualizado), tratando assim da causa do problema. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um processo contínuo de atualização cadastral, conforme os critérios legais citados, tende a produzir efeitos duradouros, independentemente de mudanças nos atores envolvidos, pois se baseia em procedimentos institucionalizados.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1156,
+    "completion_tokens": 178,
+    "total_tokens": 1334,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 324
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

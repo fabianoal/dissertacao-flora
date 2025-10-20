@@ -1,0 +1,28 @@
+{
+  "id": "dbd83448-0bd1-42e7-96af-e131513b3050",
+  "object": "chat.completion",
+  "created": 1760466521,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a inscrição no CNPJ como ação direta para resolver a causa raiz da constatação, que é a ausência de CNPJ próprio, e não apenas corrigir sintomas temporários. Para o critério 'Efeitos Duradouros', a ação de inscrição no CNPJ estabelece uma condição institucional permanente que não depende de indivíduos específicos, garantindo que os benefícios persistam mesmo com mudanças de pessoal.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1171,
+    "completion_tokens": 161,
+    "total_tokens": 1332,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 275
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

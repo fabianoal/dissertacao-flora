@@ -1,0 +1,28 @@
+{
+  "id": "1e039544-d5c2-4905-aa4f-15687a7ee95f",
+  "object": "chat.completion",
+  "created": 1760397224,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe o desenvolvimento e implementação de um mapa de controle que oriente procedimentos de armazenamento e identifique equipamentos, tipos e quantidades de imunobiológicos, além de registrar dados para rastreamento. Esta ação visa estabelecer um sistema estruturado e permanente para garantir o armazenamento adequado, tratando assim a causa raiz do problema (falta de controles sistemáticos) e não apenas corrigindo a condição imediata. Já em relação aos efeitos pretendidos, o mapa de controle criará procedimentos padronizados e documentados que permanecerão válidos independentemente de mudanças nos atores envolvidos, assegurando efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1132,
+    "completion_tokens": 195,
+    "total_tokens": 1327,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 300
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

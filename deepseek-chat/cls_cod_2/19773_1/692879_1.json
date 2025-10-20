@@ -1,0 +1,28 @@
+{
+  "id": "a08cca98-e4f6-42ee-8ce1-913edb732876",
+  "object": "chat.completion",
+  "created": 1760396228,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a revisão do Plano de Contingência para adequá-lo às possíveis intercorrências, o que visa tratar a causa do problema (a falta de cobertura completa das emergências) ao modificar o próprio plano, em vez de apenas corrigir uma condição específica atual. Já em relação aos efeitos pretendidos pela recomendação, a revisão do plano resulta em um documento formal que permanece válido independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 991,
+    "completion_tokens": 157,
+    "total_tokens": 1148,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 159
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

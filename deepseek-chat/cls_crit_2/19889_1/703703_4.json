@@ -1,0 +1,28 @@
+{
+  "id": "ff280393-8b5f-4eff-84d3-12b5c50e08b3",
+  "object": "chat.completion",
+  "created": 1760468221,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação se concentra na correção da condição financeira específica (devolução de valores) sem abordar as causas subjacentes das inconsistências na produção do procedimento. No entanto, é importante destacar que a recomendação menciona a observância de princípios norteadores dos processos administrativos, o que poderia ser interpretado como uma referência indireta a melhorias processuais, mas de fato não especifica ações concretas para tratar causas como falhas em registros ou controles.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1273,
+    "completion_tokens": 164,
+    "total_tokens": 1437,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 313
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

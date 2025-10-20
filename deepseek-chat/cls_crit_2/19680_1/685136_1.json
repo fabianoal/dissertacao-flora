@@ -1,0 +1,28 @@
+{
+  "id": "ed0a2969-7949-4c6d-9ff8-d72af158275a",
+  "object": "chat.completion",
+  "created": 1760459421,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação propõe ações que visam tratar a causa subjacente do problema (falta de capacitação e cultura inadequada de registro). Quanto ao critério 'Efeitos Duradouros', discordo da classificação, pois a recomendação se baseia em capacitação contínua e mudança cultural, que dependem da adesão e rotatividade dos profissionais, não garantindo efeitos duradouros independentemente de mudanças nos atores.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1300,
+    "completion_tokens": 167,
+    "total_tokens": 1467,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 404
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

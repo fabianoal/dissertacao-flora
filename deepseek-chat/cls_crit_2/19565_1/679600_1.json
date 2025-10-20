@@ -1,0 +1,28 @@
+{
+  "id": "4d67edd8-2c44-440f-a85c-4117eae1030c",
+  "object": "chat.completion",
+  "created": 1760454933,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise está correta ao identificar que as recomendações 'a' e 'c' tratam da causa do problema (falta de controle de estoque e dependência de um único fornecedor), não apenas da condição atual. Quanto ao critério 'Efeitos Duradouros', a análise também está correta, pois as medidas propostas criam sistemas e estruturas permanentes que independem de mudanças de pessoal.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1345,
+    "completion_tokens": 151,
+    "total_tokens": 1496,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 449
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

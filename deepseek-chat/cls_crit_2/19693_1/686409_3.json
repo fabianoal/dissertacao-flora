@@ -1,0 +1,28 @@
+{
+  "id": "fedc229e-90f2-4e83-9020-1c4e562039fd",
+  "object": "chat.completion",
+  "created": 1760460029,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise da codificação está correta em sua avaliação geral. A recomendação se concentra exclusivamente na correção da condição financeira irregular (devolução dos recursos), sem propor ações para tratar as causas subjacentes que permitiram a inserção incorreta de dados no sistema. Isso a caracteriza como uma recomendação com foco na condição, não na causa.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1365,
+    "completion_tokens": 126,
+    "total_tokens": 1491,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 341
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "917c5695-f230-485c-8945-567b37929698",
+  "object": "chat.completion",
+  "created": 1760456009,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identificou corretamente que a recomendação 2 aborda a causa ao estabelecer procedimentos de arquivamento que previnem a falta de comprovação fiscal no futuro, e a recomendação 3 promove conformidade contínua. No entanto, a recomendação 1, que trata da prestação de informações durante auditorias, não está diretamente relacionada à causa raiz da constatação (falta de comprovação fiscal), sendo mais reativa do que preventiva. Para o critério 'Efeitos Duradouros', a análise considerou que as recomendações 2 e 3 criam estruturas duradouras, mas a recomendação 2, ao especificar arquivamento físico e digital, e a 3, ao enfatizar regras estabelecidas, de fato têm potencial para persistir com mudanças de pessoal, embora a implementação dependa de adesão contínua.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1521,
+    "completion_tokens": 264,
+    "total_tokens": 1785,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 561
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

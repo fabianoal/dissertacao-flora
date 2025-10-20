@@ -1,0 +1,28 @@
+{
+  "id": "f97f4d19-f25b-40b6-84f9-6970619b01ac",
+  "object": "chat.completion",
+  "created": 1760454913,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda diretamente as causas do problema identificado na constatação, que são a redução no quantitativo de ambulâncias e a necessidade de revezamento. As ações propostas (reparo e manutenção, revisão do processo de compra e estabelecimento de Reserva Técnica) visam resolver a escassez de ambulâncias, tratando assim da causa raiz. Quanto ao critério 'Efeitos Duradouros', as ações são baseadas em processos, normas e estruturas (como NR 12, processos de compra e RT funcional) que tendem a ser mantidos independentemente de mudanças nos atores, promovendo efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1425,
+    "completion_tokens": 214,
+    "total_tokens": 1639,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 529
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

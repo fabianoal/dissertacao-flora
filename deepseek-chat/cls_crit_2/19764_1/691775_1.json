@@ -1,0 +1,28 @@
+{
+  "id": "068d684e-ac4e-497a-b4fc-d6320551b847",
+  "object": "chat.completion",
+  "created": 1760448678,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo argumenta que as adequações físicas propostas corrigem condições de não conformidade, mas não tratam causas subjacentes como falhas em processos de planejamento, aquisição, manutenção ou supervisão. Quanto ao critério 'Efeitos Duradouros', como 'Foco Causa' foi 'Não', a resposta 'Não se aplica' está correta.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1414,
+    "completion_tokens": 146,
+    "total_tokens": 1560,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 518
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

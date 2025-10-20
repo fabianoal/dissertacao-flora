@@ -1,0 +1,28 @@
+{
+  "id": "3336fc69-280e-401a-ad86-b8d207731feb",
+  "object": "chat.completion",
+  "created": 1760400740,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a devolução de recursos financeiros pagos indevidamente devido à inconsistência entre procedimentos registrados e realizados, focando na correção da condição específica identificada (pagamento irregular) sem propor ações para tratar as causas subjacentes que permitiram o registro inadequado, como falhas nos processos de registro ou supervisão. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1188,
+    "completion_tokens": 158,
+    "total_tokens": 1346,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 356
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

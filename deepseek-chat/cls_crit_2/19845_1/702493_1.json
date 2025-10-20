@@ -1,0 +1,28 @@
+{
+  "id": "0c8cd78a-51ac-45ad-95df-1a50ea0db194",
+  "object": "chat.completion",
+  "created": 1760448574,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação apenas cita dispositivos legais sem propor ações específicas para tratar a causa da ausência de instâncias e mecanismos de controle. Quanto ao critério 'Efeitos Duradouros', a resposta 'Não se aplica' é adequada, uma vez que o critério 'Foco Causa' não foi atendido.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1355,
+    "completion_tokens": 141,
+    "total_tokens": 1496,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 459
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

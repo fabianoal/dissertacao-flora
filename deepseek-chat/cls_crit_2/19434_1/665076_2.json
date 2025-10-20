@@ -1,0 +1,28 @@
+{
+  "id": "6b23baed-d4da-412c-93ce-744d3fdd61e0",
+  "object": "chat.completion",
+  "created": 1760452436,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identificou corretamente que as recomendações 2 e 3 abordam as causas subjacentes da falta de documentação e não conformidade com normas, enquanto a recomendação 1 foca na condição imediata. Para 'Efeitos Duradouros', a análise considerou que as recomendações 2 e 3 criam sistemas e adesão a regras que persistem independentemente de mudanças de pessoal, o que está alinhado com a definição do critério.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1506,
+    "completion_tokens": 170,
+    "total_tokens": 1676,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 610
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

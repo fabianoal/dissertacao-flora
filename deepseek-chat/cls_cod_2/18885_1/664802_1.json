@@ -1,0 +1,28 @@
+{
+  "id": "585a0572-b4a2-4013-8898-5b754eebe6be",
+  "object": "chat.completion",
+  "created": 1760383606,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a citar dispositivos legais que estabelecem a obrigatoriedade de execução contratual conforme previsto e a rejeição de despesas não autorizadas, sem propor ações específicas para tratar a causa que levou à realização da despesa não prevista (como falhas nos processos de controle, capacitação ou supervisão). Portanto, não há ação proposta que trate da causa do problema. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1245,
+    "completion_tokens": 165,
+    "total_tokens": 1410,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 413
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

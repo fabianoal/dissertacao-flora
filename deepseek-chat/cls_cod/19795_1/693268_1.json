@@ -1,0 +1,28 @@
+{
+  "id": "7aa5e37c-0f27-4afb-abca-f8a5d8729b6a",
+  "object": "chat.completion",
+  "created": 1760035732,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação contém múltiplas ações. Para a ação corretiva, sugere aperfeiçoar a formalização das rotinas e procedimentos, o que visa resolver diretamente a condição encontrada de falta de formalização. Para a ação com foco na causa, propõe treinamentos regulares e estabelecimento de monitoramento e avaliação contínua, que são ações específicas para evitar a recorrência da causa subjacente, como falta de capacitação e supervisão. Essas ações específicas têm efeitos duradouros, pois criam estruturas e processos que podem persistir independentemente de mudanças na equipe.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Específica\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1596,
+    "completion_tokens": 190,
+    "total_tokens": 1786,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 572
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

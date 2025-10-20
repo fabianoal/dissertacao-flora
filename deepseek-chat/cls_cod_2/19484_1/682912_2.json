@@ -1,0 +1,28 @@
+{
+  "id": "7630bf29-a1c9-4210-a07e-2db8cea3a89b",
+  "object": "chat.completion",
+  "created": 1760386026,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a devolução dos recursos repassados indevidamente, focando na correção da condição específica identificada (repasse superior à produção), sem abordar ações que tratem das causas subjacentes que permitiram essa discrepância, como falhas nos sistemas de controle, processos de verificação de produção ou mecanismos de prevenção. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1108,
+    "completion_tokens": 157,
+    "total_tokens": 1265,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 212
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

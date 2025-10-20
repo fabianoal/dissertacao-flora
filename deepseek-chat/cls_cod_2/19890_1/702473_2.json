@@ -1,0 +1,28 @@
+{
+  "id": "8d3459a7-54f9-454e-9cc3-b4a6d18bf404",
+  "object": "chat.completion",
+  "created": 1760400932,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a citar normas e procedimentos técnicos estabelecidos, sem propor ações específicas para tratar a causa subjacente da falta de registro das evoluções em prontuário. Ela não sugere medidas como capacitação da equipe, revisão de processos de documentação ou implementação de sistemas de verificação que possam prevenir a recorrência do problema. Portanto, não há foco na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1511,
+    "completion_tokens": 164,
+    "total_tokens": 1675,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 615
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "60c8b42b-5c99-454b-8a1e-5c5acdc3bb96",
+  "object": "chat.completion",
+  "created": 1760467965,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação se concentra em garantir o cumprimento do prazo estabelecido, sem propor ações para abordar as causas subjacentes do descumprimento. No entanto, é importante considerar que a recomendação, ao exigir conformidade com a norma, pode implicitamente pressupor que a causa seja a falta de adesão aos procedimentos, embora não explore causas mais profundas como deficiências operacionais ou de recursos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1401,
+    "completion_tokens": 149,
+    "total_tokens": 1550,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 505
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

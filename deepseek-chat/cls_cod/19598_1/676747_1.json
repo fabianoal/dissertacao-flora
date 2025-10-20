@@ -1,0 +1,28 @@
+{
+  "id": "62ade313-475a-48ae-bb38-5f41676fad56",
+  "object": "chat.completion",
+  "created": 1760038340,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere uma ação direta para corrigir a condição encontrada de quantitativo insuficiente de profissionais, especificando números mínimos por turno, o que caracteriza uma ação corretiva. No entanto, não propõe medidas adicionais para abordar a causa subjacente que levou à insuficiência, como falhas em processos de contratação ou gestão de pessoal, limitando-se a exigir o cumprimento da legislação vigente. Portanto, a ação com foco na causa é genérica, e os efeitos duradouros não são alcançados, pois dependem da adesão contínua sem mudanças sistêmicas.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1166,
+    "completion_tokens": 200,
+    "total_tokens": 1366,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 142
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

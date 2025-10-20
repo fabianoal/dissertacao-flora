@@ -1,0 +1,28 @@
+{
+  "id": "18562b87-7577-4141-abde-89aa03797ec6",
+  "object": "chat.completion",
+  "created": 1760384970,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação não propõe ações específicas para tratar a causa da divergência entre os dados inseridos no SIA e os registros da unidade, limitando-se a solicitar conhecimento da constatação e adoção de procedimentos genéricos para controle, monitoramento e avaliação. Não há menção a ações que abordem as razões subjacentes para a discrepância, como falhas no processo de registro, capacitação da equipe ou mecanismos de verificação. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1091,
+    "completion_tokens": 187,
+    "total_tokens": 1278,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 131
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

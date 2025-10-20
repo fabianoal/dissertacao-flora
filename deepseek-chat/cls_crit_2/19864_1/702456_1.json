@@ -1,0 +1,28 @@
+{
+  "id": "eb29beb0-6a10-4c3a-87c2-1ea20a2d908c",
+  "object": "chat.completion",
+  "created": 1760467561,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a implementação de mecanismos de controle, acesso e proteção, que são medidas estruturais para prevenir acessos não autorizados, tratando assim a causa raiz do problema (falta de segurança e controle de acesso adequado). Quanto ao critério 'Efeitos Duradouros', os mecanismos estabelecidos, como controles de acesso, são institucionais e não dependem de indivíduos específicos, garantindo que os efeitos perdurem mesmo com mudanças de pessoal.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1183,
+    "completion_tokens": 169,
+    "total_tokens": 1352,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 287
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

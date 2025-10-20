@@ -1,0 +1,28 @@
+{
+  "id": "ca131c26-e132-4457-9e66-a771b0c48e75",
+  "object": "chat.completion",
+  "created": 1760451772,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação se concentra na recuperação de recursos financeiros desviados, sem abordar as causas subjacentes da ausência de exames de imagenologia nos prontuários. No entanto, a análise poderia ter explorado mais explicitamente que a recomendação trata apenas das consequências financeiras do problema, não de suas causas operacionais ou sistêmicas.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1295,
+    "completion_tokens": 134,
+    "total_tokens": 1429,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 399
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

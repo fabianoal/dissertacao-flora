@@ -1,0 +1,28 @@
+{
+  "id": "4e943f0c-2597-4a76-bcba-9623a6ca8c3e",
+  "object": "chat.completion",
+  "created": 1760386143,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações como revisão de processos de contratação, elaboração de Termos de Referência completos e capacitação da equipe, que visam tratar as causas do problema (desconformidade com a legislação) ao estabelecer procedimentos permanentes e melhorar o conhecimento dos responsáveis. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas (como a elaboração de Termos de Referência padronizados e a capacitação) criam estruturas e conhecimentos que permanecem mesmo com mudanças nos atores envolvidos, pois se incorporam aos processos da organização.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1091,
+    "completion_tokens": 177,
+    "total_tokens": 1268,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 259
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2bb07cc1-5788-42e2-b915-3c5adce543fa",
+  "object": "chat.completion",
+  "created": 1760397576,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam da causa do problema (ausência de instituição formal do Grupo Condutor Municipal) ao sugerir a criação formal do grupo com definição de composição e atribuições, o que visa prevenir a reocorrência da condição. Já em relação aos efeitos pretendidos pela recomendação, a instituição formal do grupo com atribuições definidas tende a gerar efeitos duradouros, pois a estrutura e normas estabelecidas permanecem independentemente de mudanças nos atores envolvidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1025,
+    "completion_tokens": 160,
+    "total_tokens": 1185,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 193
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a2803f0a-b39d-4689-88bc-72e6c10bb465",
+  "object": "chat.completion",
+  "created": 1760392566,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a adoção de providências para solicitar a apresentação da memória de cálculo do rateio, condicionando o pagamento ao cumprimento dessa exigência. No entanto, a ação sugerida é focada em corrigir a condição específica de falta de apresentação do documento, sem propor medidas para tratar a causa subjacente que levou à omissão, como a implementação de processos internos de controle ou capacitação para evitar a recorrência do problema. Portanto, não há ação voltada para a causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 994,
+    "completion_tokens": 190,
+    "total_tokens": 1184,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 162
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

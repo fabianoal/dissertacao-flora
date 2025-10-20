@@ -1,0 +1,28 @@
+{
+  "id": "a4bb9dd2-28b7-4543-88b1-4ab0c264908d",
+  "object": "chat.completion",
+  "created": 1760392042,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe uma reorganização estrutural das equipes para adequar a população adscrita aos parâmetros estabelecidos pela PNAB, o que constitui uma ação que trata da causa do problema (desorganização na distribuição da população por equipe), em vez de apenas corrigir temporariamente a condição atual. Já em relação aos efeitos pretendidos pela recomendação, a reorganização proposta visa estabelecer uma estrutura permanente que mantém os efeitos mesmo com mudanças nos profissionais das equipes, pois se trata de uma redefinição organizacional.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1022,
+    "completion_tokens": 164,
+    "total_tokens": 1186,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 190
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

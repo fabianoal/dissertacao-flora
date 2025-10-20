@@ -1,0 +1,28 @@
+{
+  "id": "c4a49b3a-b98e-4226-b4d3-d20c048ec87c",
+  "object": "chat.completion",
+  "created": 1760462985,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise fornecida avalia corretamente que a recomendação se concentra em corrigir a condição imediata de desatualização dos dados, sem abordar as causas subjacentes, como a ausência de processos sistemáticos de atualização ou falhas de responsabilização. No entanto, a avaliação dos efeitos duradouros é adequadamente considerada como não aplicável, dada a ausência de foco na causa.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1199,
+    "completion_tokens": 136,
+    "total_tokens": 1335,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 303
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

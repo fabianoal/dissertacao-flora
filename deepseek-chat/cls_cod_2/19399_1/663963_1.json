@@ -1,0 +1,28 @@
+{
+  "id": "155f1b2f-8411-4708-ada2-878aa0251aeb",
+  "object": "chat.completion",
+  "created": 1760385278,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação 1 trata da apresentação de documentação para auditoria, mas não aborda a causa do problema (dispensação irregular para funcionários e sócios). A recomendação 2 estabelece procedimentos de arquivamento, que são medidas administrativas, mas não atacam a causa raiz. A recomendação 3 determina a observância das regras do programa, o que é uma medida corretiva geral, mas não especifica ações para prevenir que dispensações irregulares ocorram novamente. Nenhuma das recomendações propõe ações específicas para tratar as causas que permitiram as dispensações irregulares, como falhas nos controles de acesso, ausência de verificações de elegibilidade, ou deficiências nos sistemas de validação. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, não se aplica essa análise.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1237,
+    "completion_tokens": 244,
+    "total_tokens": 1481,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 405
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

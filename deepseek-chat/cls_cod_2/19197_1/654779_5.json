@@ -1,0 +1,28 @@
+{
+  "id": "75a2d020-3525-4455-b002-1cf2253c669f",
+  "object": "chat.completion",
+  "created": 1760384110,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a propor a devolução de valores ao Fundo Nacional de Saúde como medida de correção financeira pela perda de materiais por validade vencida. Não há nenhuma ação proposta que trate das causas que levaram ao descarte, como falhas no controle de estoque, planejamento inadequado de compras ou processos de distribuição. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' não foi atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 986,
+    "completion_tokens": 166,
+    "total_tokens": 1152,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 154
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a649efe1-9c50-47bf-afd8-4d49f371f5ac",
+  "object": "chat.completion",
+  "created": 1760391906,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação consiste apenas em encaminhar a constatação para conhecimento do departamento competente, sem propor ações específicas para tratar a causa do problema (dispensação de medicamentos para beneficiários falecidos). Não há menção a medidas como revisão de procedimentos, implementação de verificações em tempo real ou outras ações que ataquem a raiz do problema.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1058,
+    "completion_tokens": 119,
+    "total_tokens": 1177,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 226
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

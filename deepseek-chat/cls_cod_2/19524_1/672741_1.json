@@ -1,0 +1,28 @@
+{
+  "id": "4b6bb2b0-9904-4616-a42f-40cfd05063d4",
+  "object": "chat.completion",
+  "created": 1760386938,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação não propõe ações para tratar a causa do problema (ausência de estudos técnicos que fundamentaram os contratos), limitando-se a exigir o fornecimento de informações quando solicitado, o que é uma medida reativa e não preventiva. Como o critério 'Foco Causa' não foi atendido, a análise sobre efeitos duradouros não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 979,
+    "completion_tokens": 130,
+    "total_tokens": 1109,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 211
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

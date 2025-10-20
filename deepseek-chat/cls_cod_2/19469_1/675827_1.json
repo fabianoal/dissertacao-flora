@@ -1,0 +1,28 @@
+{
+  "id": "5613dc01-4bc6-4df0-a53e-93d48ee71f31",
+  "object": "chat.completion",
+  "created": 1760385727,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe evidenciar as prestações de contas nos relatórios anuais de gestão, o que visa corrigir a falta de detalhamento identificada na constatação, tratando diretamente da condição encontrada (ausência de evidência detalhada) sem abordar as causas subjacentes que levaram a essa omissão, como possíveis falhas nos processos de registro, capacitação da equipe ou sistemas de controle interno. Já em relação aos efeitos pretendidos pela recomendação, como o critério 'Foco Causa' não foi atendido, não se aplica a análise de efeitos duradouros.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1015,
+    "completion_tokens": 188,
+    "total_tokens": 1203,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 183
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

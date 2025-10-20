@@ -1,0 +1,28 @@
+{
+  "id": "ff7eb855-b3c5-4986-ba49-b9a3cad55e93",
+  "object": "chat.completion",
+  "created": 1759367311,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação identifica a causa (falta de padronização, acesso e treinamento) que levou à condição detectada (registros não detalhados e atualizados), está situada no nível institucional (implementação de ferramentas, acesso sistêmico e treinamentos periódicos) e as transformações propostas (padronização, acesso estruturado e capacitação contínua) possuem potencial para perdurar no tempo, promovendo mudanças estruturais na forma como os registros são realizados.\",\n    \"categoria\": \"foco-causa\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1541,
+    "completion_tokens": 138,
+    "total_tokens": 1679,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 645
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

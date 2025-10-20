@@ -1,0 +1,28 @@
+{
+  "id": "30024ab5-46bb-44fb-b5bc-732ec99cb2e4",
+  "object": "chat.completion",
+  "created": 1760384086,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a citar o cumprimento de dispositivos normativos específicos da RDC ANVISA/MS nº 63/2011, sem propor ações concretas que abordem a causa subjacente das fragilidades no controle e acondicionamento das OPMEs, como falhas nos procedimentos operacionais, capacitação da equipe ou implementação de sistemas de controle. Portanto, não há ação proposta que trate da causa do problema. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 983,
+    "completion_tokens": 171,
+    "total_tokens": 1154,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 87
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

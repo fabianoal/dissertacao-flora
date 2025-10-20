@@ -1,0 +1,28 @@
+{
+  "id": "26bad1bb-1b18-4c53-95da-48d0b5f1d22c",
+  "object": "chat.completion",
+  "created": 1760453573,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise Crítica\": \"A análise fornecida avalia corretamente que a recomendação se concentra em corrigir a condição imediata de dados não comprovados, sem propor ações para abordar as causas subjacentes, como falhas de processo ou capacitação. No entanto, a avaliação dos efeitos duradouros está correta, pois depende do critério 'Foco Causa' não ter sido atendido.\",\n  \"Análise Foco Causa\": \"Concordo\",\n  \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1414,
+    "completion_tokens": 129,
+    "total_tokens": 1543,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 518
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "1617442e-202c-463d-891c-55e3ac0a65ef",
+  "object": "chat.completion",
+  "created": 1760451920,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação apenas encaminha a constatação para a SAES/MS sem propor ações específicas que tratem da causa do problema. Para o critério 'Efeitos Duradouros', a resposta 'Não se aplica' é adequada, já que o primeiro critério foi 'Não'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1203,
+    "completion_tokens": 131,
+    "total_tokens": 1334,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 243
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

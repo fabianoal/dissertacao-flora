@@ -1,0 +1,28 @@
+{
+  "id": "ab131258-b879-42af-b4f6-cc2906f9708a",
+  "object": "chat.completion",
+  "created": 1760397904,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a realização contínua de levantamentos de necessidades de capacitação, o que visa tratar a causa do problema (falta de identificação sistemática de necessidades de capacitação) e não apenas corrigir a condição atual de ausência de levantamento. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um processo contínuo de levantamento cria uma estrutura que permanece mesmo com mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1042,
+    "completion_tokens": 153,
+    "total_tokens": 1195,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 210
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

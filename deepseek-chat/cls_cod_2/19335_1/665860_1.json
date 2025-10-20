@@ -1,0 +1,28 @@
+{
+  "id": "280e3da2-e958-4876-976a-6e2a8739e6ae",
+  "object": "chat.completion",
+  "created": 1760384751,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a adoção de medidas de apuração para cobrança administrativa e recomposição de recursos ao Fundo Nacional de Saúde, visando à elisão do dano financeiro identificado. No entanto, a ação sugerida é reativa e focada na correção da condição financeira específica (devolução de valores), sem abordar as causas subjacentes que levaram à utilização não comprovada dos dispositivos médicos, como falhas nos processos de registro, controle ou supervisão. Portanto, não há ação proposta que trate da causa do problema. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1098,
+    "completion_tokens": 202,
+    "total_tokens": 1300,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 266
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

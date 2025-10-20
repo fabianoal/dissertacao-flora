@@ -1,0 +1,28 @@
+{
+  "id": "f747eab7-d1f8-4d07-8f38-cf373e682a1b",
+  "object": "chat.completion",
+  "created": 1760459409,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações que tratam da causa do problema, que é a ausência de procedimentos adequados de análise, homologação e guarda documental dos relatórios de acompanhamento. Quanto ao critério 'Efeitos Duradouros', as medidas institucionalizam processos baseados em normativas, mas a implementação depende da adesão contínua das unidades, podendo ser afetada por mudanças na gestão ou recursos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1370,
+    "completion_tokens": 158,
+    "total_tokens": 1528,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 474
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

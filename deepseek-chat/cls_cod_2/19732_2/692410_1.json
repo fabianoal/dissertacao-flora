@@ -1,0 +1,28 @@
+{
+  "id": "4b65566a-9905-4cf8-bf0c-1390b045af9c",
+  "object": "chat.completion",
+  "created": 1760394812,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"A recomendação propõe a ação de cadastrar o Centro de Especialidades no CNES, o que visa corrigir a condição imediata de ausência de registro. No entanto, não há menção a ações que abordem a causa subjacente, como falhas nos processos de cadastro ou falta de políticas preventivas, focando apenas na regularização pontual. Portanto, não trata da causa do problema. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n   \"Foco Causa\": \"Não\",\n   \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1008,
+    "completion_tokens": 157,
+    "total_tokens": 1165,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 176
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

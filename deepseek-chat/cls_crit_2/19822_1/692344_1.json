@@ -1,0 +1,28 @@
+{
+  "id": "8002ae68-0fbd-4935-8e5a-a1838bd3f9ef",
+  "object": "chat.completion",
+  "created": 1760465893,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta em identificar que a recomendação aborda a causa raiz da ausência de procedimentos operacionais, definindo fluxos formais para prevenir a recorrência do problema. No entanto, a avaliação de 'Efeitos Duradouros' como 'Sim' é questionável, pois a implementação de fluxos formalizados depende de adesão contínua e pode não ser sustentável sem monitoramento e atualizações regulares, especialmente em um ambiente dinâmico como o SUS.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1171,
+    "completion_tokens": 157,
+    "total_tokens": 1328,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 275
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

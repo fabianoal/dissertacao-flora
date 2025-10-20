@@ -1,0 +1,28 @@
+{
+  "id": "67906e22-c4e7-432a-9c7e-04a977510b70",
+  "object": "chat.completion",
+  "created": 1760465149,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a adoção de instrumentos padronizados e a implantação de estratégias de classificação de risco e continuidade do cuidado, o que efetivamente visa tratar a causa subjacente da falta de critérios, que é a ausência de processos estruturados. Quanto ao critério 'Efeitos Duradouros', a padronização e institucionalização desses processos, baseados em protocolos, tendem a sustentar os efeitos mesmo com mudanças de pessoal, desde que haja adesão contínua e supervisão.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1378,
+    "completion_tokens": 183,
+    "total_tokens": 1561,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 482
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

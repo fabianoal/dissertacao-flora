@@ -1,0 +1,28 @@
+{
+  "id": "dd490082-2855-4368-bf1e-2ca134de1349",
+  "object": "chat.completion",
+  "created": 1760462549,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda diretamente a causa da constatação, que é a falta de profissionais de enfermagem conforme a norma, em vez de medidas paliativas. Para o critério 'Efeitos Duradouros', a implementação de uma equipe mínima conforme norma estabelece uma base estrutural que deve perdurar, independentemente de mudanças de pessoal.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1210,
+    "completion_tokens": 137,
+    "total_tokens": 1347,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 314
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

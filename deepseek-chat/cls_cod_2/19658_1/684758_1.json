@@ -1,0 +1,28 @@
+{
+  "id": "cb64a42c-b0bb-45fa-b49b-bea311ac7c7c",
+  "object": "chat.completion",
+  "created": 1760392194,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações como 'alimentar, analisar e verificar a qualidade e a consistência dos dados', que visam tratar a causa do problema (dados inconsistentes nos sistemas) e não apenas corrigir a condição atual de dados não suportados pelos prontuários. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas (como verificação contínua da qualidade dos dados) estabelecem processos que podem persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 974,
+    "completion_tokens": 163,
+    "total_tokens": 1137,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 142
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

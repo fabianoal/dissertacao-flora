@@ -1,0 +1,28 @@
+{
+  "id": "4b739dfb-e67b-475b-99f0-4e3153ffd698",
+  "object": "chat.completion",
+  "created": 1760390178,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a adoção de critérios mínimos de detalhamento das despesas nos planos de trabalho, o que visa prevenir a reincidência da condição de falta de detalhamento, tratando assim a causa do problema. Já em relação aos efeitos pretendidos pela recomendação, a implementação de critérios formais e padronizados assegura que os efeitos permaneçam mesmo com mudanças nos atores envolvidos, pois estabelece uma estrutura duradoura para a elaboração dos planos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1056,
+    "completion_tokens": 161,
+    "total_tokens": 1217,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 224
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

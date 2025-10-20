@@ -1,0 +1,28 @@
+{
+  "id": "c3940d32-b0cb-4683-bdd8-42a1f0ddf056",
+  "object": "chat.completion",
+  "created": 1760387506,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a devolução de valores pagos indevidamente, focando na correção da condição financeira irregular identificada, sem indicar ações para tratar a causa que permitiu o pagamento em objeto diverso do componente SAMU. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1015,
+    "completion_tokens": 134,
+    "total_tokens": 1149,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 183
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

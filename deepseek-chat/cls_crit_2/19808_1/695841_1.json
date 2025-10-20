@@ -1,0 +1,28 @@
+{
+  "id": "e3a0c48b-b2dc-4dc3-8502-4cac712f3ab5",
+  "object": "chat.completion",
+  "created": 1760465173,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo sobre a recomendação foi bem fundamentada, identificando corretamente que a inclusão sistemática da diretriz visa modificar processos para prevenir a recorrência da condição observada, o que caracteriza um foco na causa. No entanto, a avaliação dos efeitos duradouros merece uma análise mais detalhada, pois a mera inclusão da diretriz não garante automaticamente a sua permanência sem mecanismos de sustentação adicionais.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1160,
+    "completion_tokens": 149,
+    "total_tokens": 1309,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 264
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

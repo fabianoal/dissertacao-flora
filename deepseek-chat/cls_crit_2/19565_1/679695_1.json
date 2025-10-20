@@ -1,0 +1,28 @@
+{
+  "id": "bfddfcd6-2f1c-44e4-b56c-be50459bfd52",
+  "object": "chat.completion",
+  "created": 1760454941,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe investigar os motivos dos custos elevados de manutenção, o que indica uma abordagem voltada para a causa raiz do problema, e não apenas para corrigir a condição atual. Quanto ao critério 'Efeitos Duradouros', as ações sugeridas, como identificar padrões de problemas e garantir transparência contratual, visam estabelecer processos e responsabilidades que podem persistir independentemente de mudanças nos atores envolvidos, promovendo melhorias duradouras.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1323,
+    "completion_tokens": 172,
+    "total_tokens": 1495,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 427
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

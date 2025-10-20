@@ -1,0 +1,28 @@
+{
+  "id": "4ac8e0f2-1dfe-4659-9924-acc1b573dc9d",
+  "object": "chat.completion",
+  "created": 1760035880,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere manter os dados atualizados no CNES, o que corrige diretamente a condição encontrada de cadastro desatualizado. No entanto, a ação proposta é genérica, limitando-se a citar o cumprimento de um normativo (RDC n.º 63/2011) sem especificar medidas concretas para abordar a causa subjacente, como falhas nos processos internos de atualização. Portanto, não há uma ação específica focada na causa, e os efeitos duradouros não são assegurados, pois a recomendação não propõe mudanças sistêmicas que persistiriam independentemente de mudanças nos atores envolvidos.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1166,
+    "completion_tokens": 197,
+    "total_tokens": 1363,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 142
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

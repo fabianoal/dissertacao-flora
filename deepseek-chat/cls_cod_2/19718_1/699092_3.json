@@ -1,0 +1,28 @@
+{
+  "id": "c973dd58-d9ec-4f9f-a9a3-4e46e6b66f94",
+  "object": "chat.completion",
+  "created": 1760394517,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a devolução dos recursos pagos indevidamente, focando na correção da condição financeira irregular identificada, sem abordar as causas que levaram ao pagamento em desacordo com a legislação, como falhas nos processos de controle ou capacitação. Portanto, não há ação voltada para a causa do problema. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1077,
+    "completion_tokens": 147,
+    "total_tokens": 1224,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 181
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

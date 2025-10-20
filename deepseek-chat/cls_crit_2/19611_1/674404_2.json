@@ -1,0 +1,28 @@
+{
+  "id": "5432f69d-46f1-4e7a-8684-ddf565d58824",
+  "object": "chat.completion",
+  "created": 1760456409,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise do modelo está bem fundamentada, mas requer uma avaliação detalhada para cada critério.\",\n   \"Análise Foco Causa\": \"Discordo\",\n   \"Análise Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1160,
+    "completion_tokens": 66,
+    "total_tokens": 1226,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 264
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

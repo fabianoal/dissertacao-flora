@@ -1,0 +1,28 @@
+{
+  "id": "207eadb3-f30e-497b-af5d-b143b3f25bc7",
+  "object": "chat.completion",
+  "created": 1760389134,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a ação de prover os exames de imagem conforme as diretrizes clínicas e o contrato estabelecido, focando na correção imediata da condição encontrada (falta de exames). Não há menção a ações que tratem da causa subjacente do problema, como falhas em processos, capacitação, ou monitoramento que levaram ao não cumprimento inicial. Portanto, o foco é na condição, não na causa. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não é atendido, não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1051,
+    "completion_tokens": 174,
+    "total_tokens": 1225,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 219
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

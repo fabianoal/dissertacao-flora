@@ -1,0 +1,28 @@
+{
+  "id": "1bdb13db-fc07-4722-b3c7-cabd4b7e3bf1",
+  "object": "chat.completion",
+  "created": 1760392706,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a adoção de ações de saúde pública específicas para melhorar a cobertura vacinal, o que pode ser considerado um tratamento da causa do problema (baixa cobertura vacinal) através da implementação de medidas preventivas e de promoção da saúde. Já em relação aos efeitos pretendidos pela recomendação, as ações de saúde pública recomendadas na nota técnica, se implementadas adequadamente, tendem a criar processos e estruturas que permanecem mesmo com mudanças de atores envolvidos, pois se tratam de políticas e procedimentos institucionalizados.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1065,
+    "completion_tokens": 166,
+    "total_tokens": 1231,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 233
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

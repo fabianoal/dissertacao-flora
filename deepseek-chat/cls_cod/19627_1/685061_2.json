@@ -1,0 +1,28 @@
+{
+  "id": "bcdc17d0-ba3e-4a78-9751-242fbcff0cab",
+  "object": "chat.completion",
+  "created": 1760037652,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação solicita que a organização realize cotações de preços para corrigir a classificação inadequada dos processos, o que constitui uma ação corretiva. Além disso, orienta o cumprimento de dispositivos legais específicos (art. 45 da Portaria Interministerial e art. 191 da Lei nº 14.133/2021) para evitar a reincidência, mas não propõe ações concretas além do mero cumprimento normativo, sendo genérica no foco na causa. Como a ação de foco na causa é genérica, os efeitos duradouros não se aplicam de forma positiva.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1188,
+    "completion_tokens": 191,
+    "total_tokens": 1379,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 164
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

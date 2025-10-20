@@ -1,0 +1,28 @@
+{
+  "id": "f1991ca3-8562-459d-bf58-3bcc9ed7dd18",
+  "object": "chat.completion",
+  "created": 1760036196,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere duas ações principais: a elaboração de relatórios mensais baseados em informações fidedignas (ação corretiva para resolver a condição de impropriedades no acompanhamento) e a adoção de medidas preventivas ou corretivas em caso de não cumprimento do convênio/Plano de Ação, referenciando normativos específicos. A ação de adotar medidas preventivas/corretivas, embora mencione a causa, é genérica, pois se limita a citar o cumprimento de portarias sem propor ações concretas além disso.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1243,
+    "completion_tokens": 181,
+    "total_tokens": 1424,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 219
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

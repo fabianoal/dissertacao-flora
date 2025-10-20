@@ -1,0 +1,28 @@
+{
+  "id": "939e8e40-4dad-416e-84d3-fa116865ab12",
+  "object": "chat.completion",
+  "created": 1760036548,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação contém duas ações distintas. A primeira ação sugere a informatização das UBS e adoção do Prontuário Eletrônico, visando resolver a causa raiz da inconsistência de dados, que é a falta de integração e preenchimento adequado dos sistemas. Esta ação é específica e focada na causa, pois propõe uma solução estrutural de longo prazo. A segunda ação é corretiva, pois busca corrigir imediatamente a condição encontrada de dados desencontrados, exigindo o registro regular no SISAB. Ambas as ações são concretas e vão além do mero cumprimento de normativos, embora façam referência a notas técnicas. Os efeitos da ação focada na causa são duradouros, pois a informatização e o uso do prontuário eletrônico criam uma infraestrutura que permanece independentemente de mudanças de pessoal.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Específica\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1304,
+    "completion_tokens": 255,
+    "total_tokens": 1559,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 280
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

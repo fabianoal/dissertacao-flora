@@ -1,0 +1,28 @@
+{
+  "id": "fb86f5ca-b01c-4a07-8af6-240b425d0ac9",
+  "object": "chat.completion",
+  "created": 1760390094,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe ações para corrigir a condição específica de relatórios não disponibilizados, sem abordar as causas subjacentes, como possíveis lacunas em processos ou capacitação. Já em relação aos efeitos pretendidos pela recomendação, como o critério 'Foco Causa' não é atendido, esta análise não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 972,
+    "completion_tokens": 120,
+    "total_tokens": 1092,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 140
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

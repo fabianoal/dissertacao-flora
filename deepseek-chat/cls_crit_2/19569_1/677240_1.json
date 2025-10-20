@@ -1,0 +1,28 @@
+{
+  "id": "6f6bb0b8-e92c-469e-a4f2-c7c687174c27",
+  "object": "chat.completion",
+  "created": 1760455097,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo argumenta que a recomendação não trata da causa subjacente da não adoção das propostas, como falta de capacitação ou recursos, focando apenas na adoção de estratégias documentadas. No entanto, a recomendação especifica a adoção de estratégias contidas em documentos oficiais, que podem incluir ações para abordar causas como deficiências processuais ou de implementação. Para o critério 'Efeitos Duradouros', como a análise do 'Foco Causa' foi 'Não', a resposta 'Não se aplica' está correta, mas a avaliação do 'Foco Causa' merece revisão.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1228,
+    "completion_tokens": 199,
+    "total_tokens": 1427,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 332
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

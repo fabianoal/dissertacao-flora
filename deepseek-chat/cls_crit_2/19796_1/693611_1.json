@@ -1,0 +1,28 @@
+{
+  "id": "10c8e2ea-2e00-4a52-a515-ae1066a131a0",
+  "object": "chat.completion",
+  "created": 1760464741,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação propõe a criação de protocolos, fluxos e sistemas informatizados que atacam diretamente a causa raiz da falta de documentação formalizada, que é a ausência de processos estruturados. Para o critério 'Efeitos Duradouros', também concordo, pois essas estruturas institucionais tendem a persistir independentemente de mudanças na equipe.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1524,
+    "completion_tokens": 150,
+    "total_tokens": 1674,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 628
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "42adcb87-e48e-44b0-b41f-a0abe684dfd9",
+  "object": "chat.completion",
+  "created": 1760448330,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise crítica avalia a classificação fornecida para os critérios 'Foco Causa' e 'Efeitos Duradouros' com base na recomendação e constatação apresentadas. A recomendação é extensa e detalhada, abordando múltiplos aspectos do processo de armazenamento, o que requer uma avaliação cuidadosa de cada ação proposta.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1917,
+    "completion_tokens": 126,
+    "total_tokens": 2043,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 1021
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

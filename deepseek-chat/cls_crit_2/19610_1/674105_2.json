@@ -1,0 +1,28 @@
+{
+  "id": "a36ddb1b-c797-4d89-a07e-3b42b9a93dd1",
+  "object": "chat.completion",
+  "created": 1760456041,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe aprimorar o processo de elaboração de instrumentos de análise (pareceres técnicos) para avaliar aspectos necessários à habilitação das entidades proponentes, o que visa tratar a causa do problema (processo inadequado de análise de capacidade técnica e operacional) que gerou a condição encontrada (ausência de comprovação da capacidade do IOM). Já em relação ao critério 'Efeitos Duradouros', o aprimoramento do processo de análise institucionalizado no Transferegov tende a produzir efeitos duradouros, pois as melhorias no processo permanecerão mesmo com eventual mudança dos atores envolvidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1225,
+    "completion_tokens": 209,
+    "total_tokens": 1434,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 265
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

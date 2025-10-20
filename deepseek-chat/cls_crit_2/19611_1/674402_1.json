@@ -1,0 +1,28 @@
+{
+  "id": "4e95c257-2f45-4f85-9eac-4b2d7f743d51",
+  "object": "chat.completion",
+  "created": 1760456397,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise fornecida avalia corretamente que a recomendação se limita a notificar a convenente para apuração e justificativas, sem propor ações direcionadas à causa subjacente, como a implementação de controles internos ou políticas de prevenção de conflitos de interesse. Isso está alinhado com a definição de que recomendações com foco na causa visam evitar a recorrência do problema, o que não é abordado aqui. Como o critério 'Foco Causa' é corretamente classificado como 'Não', a avaliação de 'Efeitos Duradouros' como 'Não se aplica' também está adequada.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1150,
+    "completion_tokens": 187,
+    "total_tokens": 1337,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 254
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

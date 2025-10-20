@@ -1,0 +1,28 @@
+{
+  "id": "aabee0e4-5bc5-4b36-9d79-0aeaa4dd7195",
+  "object": "chat.completion",
+  "created": 1760400508,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação possui múltiplas ações. Em relação ao foco, a ação de 'avaliar a necessidade de reforçar a equipe técnica do setor de controle e avaliação, tanto com novos profissionais como agendas continuadas de cursos de capacitação' propõe tratar a causa subjacente (capacitação e estruturação da equipe) para evitar a reincidência da condição encontrada, caracterizando foco na causa. As demais ações, como 'notificar a Santa Casa' e 'monitorar o cumprimento', são focadas na condição imediata. Quanto aos efeitos duradouros, a ação de reforço da equipe com capacitação contínua e possíveis novos profissionais cria uma estrutura permanente de monitoramento que independe de atores específicos, garantindo efeitos duradouros mesmo com mudanças de pessoal.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1333,
+    "completion_tokens": 223,
+    "total_tokens": 1556,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 501
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

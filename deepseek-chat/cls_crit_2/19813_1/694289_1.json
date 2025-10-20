@@ -1,0 +1,28 @@
+{
+  "id": "56271e8b-d076-4743-a679-d60c5119ae9f",
+  "object": "chat.completion",
+  "created": 1760465461,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a implementação de mecanismos sistemáticos de avaliação e monitoramento, o que aborda diretamente a causa subjacente da falta de avaliação e monitoramento, em vez de apenas corrigir a condição atual. Para o critério 'Efeitos Duradouros', a institucionalização desses mecanismos sugere que os processos se tornem parte da estrutura organizacional, potencialmente persistindo mesmo com mudanças de pessoal, embora a eficácia dependa da implementação adequada.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1259,
+    "completion_tokens": 166,
+    "total_tokens": 1425,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 363
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

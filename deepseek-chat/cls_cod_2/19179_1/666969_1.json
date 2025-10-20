@@ -1,0 +1,28 @@
+{
+  "id": "d0ee9832-bb15-4752-ac00-76df545e61fb",
+  "object": "chat.completion",
+  "created": 1760383926,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"A recomendação se limita a citar a conformidade com um dispositivo normativo específico, sem propor ações concretas para tratar a causa subjacente da falta de instalações físicas adequadas, como falhas no planejamento, alocação de recursos ou processos de manutenção. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n   \"Foco Causa\": \"Não\",\n   \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 960,
+    "completion_tokens": 139,
+    "total_tokens": 1099,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 128
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

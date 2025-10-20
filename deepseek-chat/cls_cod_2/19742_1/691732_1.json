@@ -1,0 +1,28 @@
+{
+  "id": "3bc4f069-4edb-4b14-809d-e6af4097d8a5",
+  "object": "chat.completion",
+  "created": 1760395048,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe adequar a estrutura física da Central Municipal da Rede Frio para atender aos requisitos normativos, o que constitui uma ação direta sobre a condição encontrada (estrutura inadequada), sem evidenciar medidas para tratar a causa subjacente que levou à inadequação (ex: falhas no planejamento, ausência de manutenção preventiva, insuficiência orçamentária). Portanto, a recomendação é focada na condição, não na causa. Como o critério 'Foco Causa' não foi atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1068,
+    "completion_tokens": 188,
+    "total_tokens": 1256,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 236
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

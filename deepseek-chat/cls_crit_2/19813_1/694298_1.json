@@ -1,0 +1,28 @@
+{
+  "id": "12b0529f-d0a5-48ae-a828-9cfc36a01948",
+  "object": "chat.completion",
+  "created": 1760465469,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a elaboração do Plano de Ação Municipal de Saúde Mental, que visa estabelecer uma estrutura organizacional para prevenir a reocorrência da ausência do plano, tratando assim a causa subjacente (falta de planejamento sistemático). Quanto ao critério 'Efeitos Duradouros', a implementação do plano institucionaliza processos e diretrizes, criando um marco normativo que permanece válido independentemente de mudanças nos atores, garantindo efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1352,
+    "completion_tokens": 173,
+    "total_tokens": 1525,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 456
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "02a434c9-823a-470f-aa40-57907e482a3b",
+  "object": "chat.completion",
+  "created": 1760451396,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação se concentra na correção da condição específica de cobrança excessiva, sem abordar as causas subjacentes que permitiram essa irregularidade. No entanto, é importante notar que a recomendação se baseia em procedimentos administrativos estabelecidos em normativos, o que poderia ter efeitos preventivos indiretos, mas não modifica diretamente os processos operacionais do hospital.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1828,
+    "completion_tokens": 143,
+    "total_tokens": 1971,
+    "prompt_tokens_details": {
+      "cached_tokens": 1088
+    },
+    "prompt_cache_hit_tokens": 1088,
+    "prompt_cache_miss_tokens": 740
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

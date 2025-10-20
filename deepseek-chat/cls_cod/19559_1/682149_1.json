@@ -1,0 +1,28 @@
+{
+  "id": "cf56d38c-d5ac-4b4e-b998-ff7cf003cb44",
+  "object": "chat.completion",
+  "created": 1760036288,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere uma ação corretiva ao orientar a manutenção dos relatórios de monitoramento e avaliação, o que visa resolver diretamente a condição encontrada de ausência desses documentos. No entanto, a ação proposta é genérica, limitando-se a cumprir um normativo existente sem especificar medidas concretas para abordar a causa subjacente, como falhas em processos ou capacitação, que permitiram a não apresentação dos relatórios. Como a ação de foco na causa é genérica, os efeitos duradouros não são alcançados, pois a recomendação não estabelece mudanças estruturais que persistiriam independentemente de mudanças nos atores envolvidos.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1209,
+    "completion_tokens": 201,
+    "total_tokens": 1410,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 185
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

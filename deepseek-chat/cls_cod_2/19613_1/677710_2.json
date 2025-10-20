@@ -1,0 +1,28 @@
+{
+  "id": "f218711f-351f-4197-b38d-6635ad6d1a34",
+  "object": "chat.completion",
+  "created": 1760389974,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a atualização periódica das informações no CNES, o que visa estabelecer um processo contínuo de manutenção dos dados. No entanto, essa ação trata diretamente da condição de informações desatualizadas, não abordando explicitamente a causa raiz do excesso de carga horária (como questões de dimensionamento de equipe, planejamento de escalas ou condições de trabalho). Em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, não se aplica essa avaliação.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 947,
+    "completion_tokens": 161,
+    "total_tokens": 1108,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 115
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

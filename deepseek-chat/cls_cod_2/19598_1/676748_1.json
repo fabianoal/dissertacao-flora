@@ -1,0 +1,28 @@
+{
+  "id": "bd3529f2-51c1-4d65-a7a4-9fbad4827c84",
+  "object": "chat.completion",
+  "created": 1760388814,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a manutenção apenas de profissionais que efetivamente prestam serviços de urgência e emergência, focando na causa do problema, que é a presença de profissionais sem atuação regular, ao estabelecer um critério permanente para inclusão na lista. Em relação aos efeitos duradouros, a ação sugere uma mudança de procedimento que deve persistir independentemente de mudanças nos atores envolvidos, como a substituição de profissionais.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 961,
+    "completion_tokens": 134,
+    "total_tokens": 1095,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 129
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

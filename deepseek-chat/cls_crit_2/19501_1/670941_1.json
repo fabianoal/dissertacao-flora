@@ -1,0 +1,28 @@
+{
+  "id": "933dc7f0-af01-4ea1-b043-e93c31597c50",
+  "object": "chat.completion",
+  "created": 1760453353,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda principalmente a correção da condição imediata (não apresentação da documentação) ao exigir a apresentação dos documentos solicitados, mas também inclui elementos preventivos ao estabelecer um sistema de manutenção e arquivamento documental por 10 anos. No entanto, a causa raiz da não apresentação (como falhas nos processos internos, falta de capacitação ou recursos) não é explicitamente tratada. Para o critério 'Efeitos Duradouros', a análise pressupõe que o sistema de arquivamento permanecerá eficaz com mudanças de atores, mas isso depende da implementação e manutenção contínua de processos, o que pode não ser garantido apenas pela recomendação.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1338,
+    "completion_tokens": 219,
+    "total_tokens": 1557,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 442
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "4ef2a931-6eb0-4b35-9585-87fe00ce575b",
+  "object": "chat.completion",
+  "created": 1760398904,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a realização de ações voltadas para o acompanhamento dos familiares, o que aborda diretamente a causa do problema (ausência de acompanhamento familiar), configurando-se como uma recomendação com foco na causa. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, baseadas em diretrizes estabelecidas (Caderno de Atenção Básica 34), visam implementar práticas estruturadas e contínuas de acompanhamento familiar, cujos efeitos (como identificação de especificidades familiares, promoção de apoio mútuo) tendem a persistir independentemente de mudanças nos atores envolvidos, devido à institucionalização dessas práticas.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1056,
+    "completion_tokens": 205,
+    "total_tokens": 1261,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 224
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

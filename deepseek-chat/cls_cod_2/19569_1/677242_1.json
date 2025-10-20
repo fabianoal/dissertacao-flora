@@ -1,0 +1,28 @@
+{
+  "id": "dae6b316-e4bf-4fc9-95d8-37e166aa317e",
+  "object": "chat.completion",
+  "created": 1760388218,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação orienta a adoção de estratégias específicas contidas em documentos normativos para alcançar a meta do indicador de cobertura vacinal, sem propor ações que tratem diretamente da causa subjacente à não adoção inicial dessas estratégias (como falta de capacitação, recursos insuficientes ou problemas de gestão). Portanto, foca na correção da condição atual (não cumprimento) em vez de abordar a causa raiz. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1025,
+    "completion_tokens": 173,
+    "total_tokens": 1198,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 193
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

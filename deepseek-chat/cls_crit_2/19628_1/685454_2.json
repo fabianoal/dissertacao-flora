@@ -1,0 +1,28 @@
+{
+  "id": "2b23e569-0453-4d25-bee6-941724f609c3",
+  "object": "chat.completion",
+  "created": 1760458317,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a implementação de controles internos e política de governança, que são ações estruturais e preventivas, alinhadas com o tratamento da causa raiz do problema (falta de estrutura de controle), e não apenas uma correção pontual da condição encontrada (ausência de registros). Quanto ao critério 'Efeitos Duradouros', a implementação de controles internos e política de governança estabelece uma base organizacional que tende a persistir independentemente de mudanças de pessoal, promovendo sustentabilidade nas práticas de registro.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1177,
+    "completion_tokens": 185,
+    "total_tokens": 1362,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 217
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "9eed1b30-1363-4bed-aec7-0f8c993e3bab",
+  "object": "chat.completion",
+  "created": 1760389854,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a orientação de fiscais e gestores para conferir documentação comprobatória em processos de contratação, visando evitar desobediência a normativos e irregularidades. Essa ação busca prevenir a reincidência do problema (empresas com mesmo sócio administrador participando de licitações) ao estabelecer um procedimento de verificação contínua, tratando assim a causa subjacente de falta de controle adequado. Já em relação aos efeitos pretendidos, a recomendação estabelece um procedimento formal de conferência que, uma vez implementado, permaneceria em vigor independentemente de mudanças nos fiscais ou gestores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1061,
+    "completion_tokens": 200,
+    "total_tokens": 1261,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 229
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

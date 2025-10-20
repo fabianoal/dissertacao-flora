@@ -1,0 +1,28 @@
+{
+  "id": "f1987630-b165-4091-ac72-9a412e23ca20",
+  "object": "chat.completion",
+  "created": 1760455701,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A classificação original está correta em identificar que a recomendação se concentra na correção imediata da condição (quantitativo insuficiente de ROs) sem abordar causas subjacentes. No entanto, a análise dos efeitos duradouros poderia ser expandida, pois mesmo recomendações focadas na condição podem ter implicações de sustentabilidade.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1198,
+    "completion_tokens": 127,
+    "total_tokens": 1325,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 302
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

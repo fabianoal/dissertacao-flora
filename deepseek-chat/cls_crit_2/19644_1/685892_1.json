@@ -1,0 +1,28 @@
+{
+  "id": "1224d2e2-a139-4a9e-ac20-e64e7e90d008",
+  "object": "chat.completion",
+  "created": 1760458705,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise da classificação realizada pelo modelo requer uma avaliação cuidadosa dos critérios 'Foco Causa' e 'Efeitos Duradouros' com base na constatação e recomendação fornecidas. A constatação identifica que os dados consolidados no SISAB não são suportados pelas informações dos prontuários dos pacientes, indicando uma desconexão entre os sistemas de registro e consolidação. A recomendação propõe a implementação do prontuário eletrônico, capacitação de profissionais e verificação da qualidade dos dados, visando resolver essa inconsistência de forma abrangente.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1325,
+    "completion_tokens": 183,
+    "total_tokens": 1508,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 429
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

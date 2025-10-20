@@ -1,0 +1,28 @@
+{
+  "id": "152c2256-4a69-4a14-a874-dc488ebe9223",
+  "object": "chat.completion",
+  "created": 1760396280,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a obtenção dos certificados de calibração e qualificação térmica, o que constitui uma ação direta para corrigir a condição imediata de ausência desses documentos, sem abordar as causas subjacentes que levaram à falta desses controles (como falhas nos processos de gestão documental, capacitação da equipe ou implementação de sistemas de monitoramento contínuo). Portanto, a recomendação é focada na condição, não na causa. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 989,
+    "completion_tokens": 185,
+    "total_tokens": 1174,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 157
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

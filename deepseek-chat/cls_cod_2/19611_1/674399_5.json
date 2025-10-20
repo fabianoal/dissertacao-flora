@@ -1,0 +1,28 @@
+{
+  "id": "2331cea9-4b73-4e25-897f-59d74595aa8c",
+  "object": "chat.completion",
+  "created": 1760389538,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"A recomendação propõe uma ação para corrigir a condição específica de irregularidade no pagamento, focando na identificação e acréscimo de valores não informados, sem abordar as causas subjacentes que permitiram a ocorrência da irregularidade, como falhas em controles internos ou processos de aprovação. Portanto, não há foco na causa. Como o critério 'Foco Causa' não é atendido, a avaliação de efeitos duradouros não se aplica.\",\n   \"Foco Causa\": \"Não\",\n   \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 928,
+    "completion_tokens": 148,
+    "total_tokens": 1076,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 32
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

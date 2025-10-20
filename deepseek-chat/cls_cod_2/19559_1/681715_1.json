@@ -1,0 +1,28 @@
+{
+  "id": "6c229c4e-f90b-4295-ab20-543da3273f5e",
+  "object": "chat.completion",
+  "created": 1760387790,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"A recomendação propõe a fiscalização para assegurar que a unidade cumpra a normativa de arquivar o CFID no prontuário do paciente, focando na correção imediata da condição de armazenamento inadequado, sem sugerir ações para abordar as causas subjacentes, como falhas em processos ou capacitação. Como o critério 'Foco Causa' não é atendido, a avaliação de efeitos duradouros não se aplica.\",\n   \"Foco Causa\": \"Não\",\n   \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 994,
+    "completion_tokens": 142,
+    "total_tokens": 1136,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 162
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

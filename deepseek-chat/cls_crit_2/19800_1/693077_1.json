@@ -1,0 +1,28 @@
+{
+  "id": "cafeb967-6188-4eb9-bd84-1a5d144e6ade",
+  "object": "chat.completion",
+  "created": 1760464921,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações de monitoramento contínuo e avaliação dos controles, além da elaboração de um documento de gerenciamento de risco, que visam identificar e mitigar as causas subjacentes da falta de monitoramento contínuo, como falhas nos processos ou ausência de sistemática de avaliação de riscos. Quanto ao critério 'Efeitos Duradouros', a implementação de um sistema contínuo de monitoramento e um documento formal de gerenciamento de risco cria estruturas e processos que podem permanecer independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1321,
+    "completion_tokens": 198,
+    "total_tokens": 1519,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 425
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

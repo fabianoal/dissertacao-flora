@@ -1,0 +1,28 @@
+{
+  "id": "7da8ff80-d467-4d5d-b70e-e63338a645fc",
+  "object": "chat.completion",
+  "created": 1759367594,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação identifica a necessidade de adequação da estrutura física da CMRF para atender aos requisitos mínimos do PNI, o que constitui uma causa institucional relacionada à infraestrutura. As transformações propostas, uma vez implementadas, possuem potencial para perdurar no tempo, pois envolvem adequações físicas permanentes que previnem a reincidência da condição observada.\",\n    \"categoria\": \"foco-causa\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1403,
+    "completion_tokens": 113,
+    "total_tokens": 1516,
+    "prompt_tokens_details": {
+      "cached_tokens": 1216
+    },
+    "prompt_cache_hit_tokens": 1216,
+    "prompt_cache_miss_tokens": 187
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

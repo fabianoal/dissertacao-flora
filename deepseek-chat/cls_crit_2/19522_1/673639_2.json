@@ -1,0 +1,28 @@
+{
+  "id": "c31afb36-569b-444d-84eb-13955f79863b",
+  "object": "chat.completion",
+  "created": 1760453813,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação não propõe ações específicas para tratar a causa da condição encontrada, limitando-se a encaminhar a constatação para conhecimento e adoção de procedimentos genéricos conforme dispositivos legais, sem indicar medidas corretivas diretas ou preventivas. Portanto, concordo com a classificação de que não há foco na causa e que o critério de efeitos duradouros não se aplica.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1417,
+    "completion_tokens": 151,
+    "total_tokens": 1568,
+    "prompt_tokens_details": {
+      "cached_tokens": 1088
+    },
+    "prompt_cache_hit_tokens": 1088,
+    "prompt_cache_miss_tokens": 329
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

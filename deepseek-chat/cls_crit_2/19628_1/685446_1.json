@@ -1,0 +1,28 @@
+{
+  "id": "e54838cd-1a74-40ec-bff1-88c8c2c390cd",
+  "object": "chat.completion",
+  "created": 1760458249,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação estabelece medidas para assegurar controle efetivo, o que aborda a causa do problema (falta de controle), e concordo com a classificação 'Sim'. Para o critério 'Efeitos Duradouros', a implementação de medidas de controle baseadas em normas institucionalizadas tende a produzir efeitos duradouros, independentemente de mudanças de atores, e concordo com a classificação 'Sim'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1236,
+    "completion_tokens": 155,
+    "total_tokens": 1391,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 340
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "33f4a5b4-1ef3-4d4f-aa1f-b66f2439b784",
+  "object": "chat.completion",
+  "created": 1760383583,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação é genérica e não propõe ações específicas para tratar a causa do problema, como a falta de controle ou fiscalização dos pagamentos, limitando-se a exigir o cumprimento do contrato existente. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1006,
+    "completion_tokens": 125,
+    "total_tokens": 1131,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 174
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "97c00733-ccfe-4edc-ae2b-ed3047f6231b",
+  "object": "chat.completion",
+  "created": 1760467673,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda diretamente a causa raiz do problema, que é a incompatibilidade entre normativos. Quanto ao critério 'Efeitos Duradouros', a ação proposta visa estabelecer uma base normativa permanente, mas sua implementação e manutenção podem depender de atores específicos, o que pode limitar a durabilidade dos efeitos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1273,
+    "completion_tokens": 138,
+    "total_tokens": 1411,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 313
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

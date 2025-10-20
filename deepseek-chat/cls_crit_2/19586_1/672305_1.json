@@ -1,0 +1,28 @@
+{
+  "id": "b1eb7db6-3a57-48fd-8216-b4431cfb8c34",
+  "object": "chat.completion",
+  "created": 1760455285,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identificou corretamente que a recomendação 1 aborda a causa raiz do problema ao propor a informatização das UBS e implementação do Prontuário Eletrônico, que visa prevenir inconsistências futuras nos dados. Quanto ao critério 'Efeitos Duradouros', a análise do modelo também está correta, pois a informatização cria uma infraestrutura permanente que independe de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1343,
+    "completion_tokens": 167,
+    "total_tokens": 1510,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 447
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

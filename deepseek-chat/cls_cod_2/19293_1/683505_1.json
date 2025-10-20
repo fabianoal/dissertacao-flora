@@ -1,0 +1,28 @@
+{
+  "id": "de03b8f6-7d49-4ea8-a3ea-c48b0bb42e75",
+  "object": "chat.completion",
+  "created": 1760384478,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe estabelecer fluxos de monitoramento periódico e criar mecanismos de controle para mitigar riscos de desatualização no SCNES, o que visa abordar a causa raiz do problema (falta de processos sistemáticos de atualização) em vez de apenas corrigir a condição atual de desatualização. Já em relação aos efeitos pretendidos pela recomendação, os fluxos e mecanismos de controle institucionalizados tendem a permanecer mesmo com mudanças de atores, pois se tornam parte dos processos organizacionais.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1109,
+    "completion_tokens": 163,
+    "total_tokens": 1272,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 277
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

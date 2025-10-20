@@ -1,0 +1,28 @@
+{
+  "id": "317b6a02-3d2a-4946-8fd1-b424023d75aa",
+  "object": "chat.completion",
+  "created": 1760385302,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a propor a dedução de valores dos pagamentos pendentes referentes aos meses em que ocorreram as dispensações irregulares, sem identificar ou tratar as causas que levaram à ausência de comprovação por notas fiscais. Não há menção a ações corretivas para prevenir a recorrência do problema, como melhorias em processos de controle, capacitação ou revisão de sistemas. Portanto, a recomendação é focada na condição atual (correção financeira imediata) e não na causa subjacente. Como o critério 'Foco Causa' não é atendido, a análise de 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1188,
+    "completion_tokens": 192,
+    "total_tokens": 1380,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 356
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

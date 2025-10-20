@@ -1,0 +1,28 @@
+{
+  "id": "fccb69ce-a93e-4335-84fb-d1e7fb747067",
+  "object": "chat.completion",
+  "created": 1760399124,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação se concentra em manter as instalações físicas em boas condições, o que aborda diretamente a condição encontrada de estrutura física inadequada, mas não propõe ações específicas para tratar a causa subjacente, como falta de planejamento, recursos ou políticas de manutenção preventiva. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1010,
+    "completion_tokens": 145,
+    "total_tokens": 1155,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 178
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

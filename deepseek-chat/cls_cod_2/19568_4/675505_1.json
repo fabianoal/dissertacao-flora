@@ -1,0 +1,28 @@
+{
+  "id": "cc2723fb-a708-4797-b4d0-044605b79996",
+  "object": "chat.completion",
+  "created": 1760388158,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações como capacitação de profissionais, estabelecimento de rotinas e preferência por prontuários eletrônicos, que visam tratar as causas subjacentes dos problemas de registro (como falta de treinamento e processos inadequados), não apenas corrigir os dados inconsistentes atuais. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas (como capacitação contínua e implementação de prontuários eletrônicos) tendem a criar estruturas e processos que permanecem mesmo com mudanças de atores, promovendo melhorias duradouras.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1002,
+    "completion_tokens": 177,
+    "total_tokens": 1179,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 170
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

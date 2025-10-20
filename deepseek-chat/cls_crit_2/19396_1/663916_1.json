@@ -1,0 +1,28 @@
+{
+  "id": "4a85b3a8-9069-40bd-8001-247508391a87",
+  "object": "chat.completion",
+  "created": 1760452152,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise crítica avalia a classificação fornecida sobre a recomendação em relação aos critérios 'Foco Causa' e 'Efeitos Duradouros'. A constatação identifica a não informação da posição de estoque, enquanto a recomendação propõe a guarda de documentos fiscais por dez anos, focando na comprovação futura, mas sem abordar diretamente as causas da falha no registro ou comunicação da posição de estoque.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1196,
+    "completion_tokens": 144,
+    "total_tokens": 1340,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 300
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

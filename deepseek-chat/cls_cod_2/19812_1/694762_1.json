@@ -1,0 +1,28 @@
+{
+  "id": "73eb699e-26f1-4700-abba-3fdee7630283",
+  "object": "chat.completion",
+  "created": 1760397828,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"Em relação ao foco, a recomendação propõe a elaboração e implementação de uma classificação de risco, o que visa estabelecer critérios sistemáticos para prevenir a ausência de classificação de risco, tratando assim a causa subjacente do problema. Já em relação aos efeitos pretendidos pela recomendação, a implementação de uma estratégia estruturada de classificação de risco tende a criar processos duradouros que permanecem independentemente de mudanças nos atores envolvidos, como profissionais de saúde.\",\n   \"Foco Causa\": \"Sim\",\n   \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 913,
+    "completion_tokens": 146,
+    "total_tokens": 1059,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 145
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

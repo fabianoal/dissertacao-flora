@@ -1,0 +1,28 @@
+{
+  "id": "ae5a5bc3-e9ac-483c-af24-30a4b6c30fee",
+  "object": "chat.completion",
+  "created": 1760465257,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação de elaborar um Plano de Ação Municipal para a RAPS aborda diretamente a causa subjacente da ausência de planejamento e coordenação na rede de atenção psicossocial, conforme a constatação de que a SMS de Cuiabá não possui tal plano. Quanto ao critério 'Efeitos Duradouros', o plano estabelece estruturas e processos formais que devem perdurar mesmo com mudanças nos atores, promovendo sustentabilidade. A análise do modelo está correta em ambos os aspectos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1205,
+    "completion_tokens": 174,
+    "total_tokens": 1379,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 309
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

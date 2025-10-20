@@ -1,0 +1,28 @@
+{
+  "id": "dffb2ae2-2529-4c19-8bef-833473c6d294",
+  "object": "chat.completion",
+  "created": 1760395788,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"Em relação ao foco, a recomendação propõe a elaboração e implementação de um PGRSS, que é uma ação estruturante destinada a prevenir a ausência de um plano de gerenciamento de resíduos, tratando assim a causa subjacente da condição encontrada, e não apenas corrigindo a falta imediata do documento. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um PGRSS, incluindo planejamento de recursos e capacitação, estabelece processos e políticas que devem persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n   \"Foco Causa\": \"Sim\",\n   \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1046,
+    "completion_tokens": 173,
+    "total_tokens": 1219,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 214
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

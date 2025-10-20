@@ -1,0 +1,28 @@
+{
+  "id": "094d1d47-bc48-4895-b903-809ad766c3c6",
+  "object": "chat.completion",
+  "created": 1759367610,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação identifica a causa da condição detectada (falta de planejamento nas aquisições) e propõe mudanças institucionais (priorização de pregão próprio e uso de sistema de registro de preços) que, se implementadas, terão efeito duradouro, alterando processos organizacionais de forma estrutural.\",\n    \"categoria\": \"foco-causa\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1406,
+    "completion_tokens": 99,
+    "total_tokens": 1505,
+    "prompt_tokens_details": {
+      "cached_tokens": 1216
+    },
+    "prompt_cache_hit_tokens": 1216,
+    "prompt_cache_miss_tokens": 190
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

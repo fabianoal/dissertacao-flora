@@ -1,0 +1,28 @@
+{
+  "id": "03e0dc56-7e80-4c11-b95b-5b09687789e3",
+  "object": "chat.completion",
+  "created": 1760038140,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se concentra em cumprir normativos legais existentes, sem propor ações específicas para além do mero cumprimento dessas normativas. Embora mencione a necessidade de realizar monitoramento e avaliação contínua, essa referência é genérica e não detalha ações concretas para corrigir as causas subjacentes às deficiências identificadas. A recomendação não sugere ações específicas para resolver a condição encontrada, limitando-se a citar o cumprimento de leis e decretos.\",\n    \"Ação Corretiva\": \"Não\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1401,
+    "completion_tokens": 164,
+    "total_tokens": 1565,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 377
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

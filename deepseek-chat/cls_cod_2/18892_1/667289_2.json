@@ -1,0 +1,28 @@
+{
+  "id": "581c9911-6bfb-442e-8f63-eaf2397980d9",
+  "object": "chat.completion",
+  "created": 1760383706,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a restituição do valor pago indevidamente, o que constitui uma medida para corrigir a condição específica identificada (pagamento sem registro de entrada), sem abordar as causas subjacentes que permitiram essa ocorrência, como falhas nos processos de controle interno ou na gestão de almoxarifado. Portanto, o foco é na condição imediata, não na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1034,
+    "completion_tokens": 166,
+    "total_tokens": 1200,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 138
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "7b1cbe9e-0cca-4f83-9e15-34ddf1dee8a3",
+  "object": "chat.completion",
+  "created": 1760392022,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação solicita que o município apresente prestação de contas sobre a aplicação de recursos por meio do Relatório de Gestão, conforme estabelecido na Portaria de Consolidação nº 01/2017. Esta ação visa corrigir a falta de informações nos instrumentos de gestão (PMS, PAS e RAG) sobre recursos financeiros e cumprimento de metas do Programa Previne Brasil, tratando diretamente da condição encontrada de ausência de dados. No entanto, não propõe medidas para abordar as causas subjacentes que levaram à omissão dessas informações, como falhas nos processos de coleta, registro ou consolidação de dados, ou deficiências na capacitação da equipe. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não é atendido, essa avaliação não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1103,
+    "completion_tokens": 232,
+    "total_tokens": 1335,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 271
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

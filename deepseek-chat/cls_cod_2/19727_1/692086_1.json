@@ -1,0 +1,28 @@
+{
+  "id": "a1479e6f-96e8-41ca-9390-9d863d79e4ac",
+  "object": "chat.completion",
+  "created": 1760394704,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação I propõe a criação de um plano de ação para manutenção preventiva e corretiva, o que visa tratar a causa do problema de gestão da frota, evitando que a inoperância dos veículos volte a ocorrer. As demais recomendações (II, III e IV) são focadas na correção de condições específicas (documentação, padronização visual e registro no CNES), sem abordar causas subjacentes. Portanto, apenas a recomendação I atende ao critério de foco na causa. Quanto aos efeitos duradouros, a implementação de um plano de manutenção estruturado (recomendação I) cria um processo contínuo que permanece efetivo independentemente de mudanças nos atores envolvidos, pois se baseia em procedimentos estabelecidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1346,
+    "completion_tokens": 224,
+    "total_tokens": 1570,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 514
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "bc47c394-e480-4e67-a344-e2b0e9b0ce6b",
+  "object": "chat.completion",
+  "created": 1760389322,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe orientar fiscais e gestores a conferir documentação comprobatória para verificar duplicidade de serviço prestado, indicando fontes de consulta como portais, manuais e cursos disponíveis. No entanto, essa ação está focada na verificação e identificação da condição atual (duplicidade de serviço) e no acesso a informações, sem propor medidas para tratar a causa subjacente que levou à ausência de justificativa e possibilidade de duplicidade, como falhas em processos de contratação, controle ou supervisão. Portanto, não há ação que trate da causa do problema. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1109,
+    "completion_tokens": 213,
+    "total_tokens": 1322,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 213
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

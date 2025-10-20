@@ -1,0 +1,28 @@
+{
+  "id": "a3f544e6-cc27-4928-a3a3-857ecf0c6c61",
+  "object": "chat.completion",
+  "created": 1760385423,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação aborda a necessidade de efetuar pagamentos após regular liquidação, conforme legislação específica, o que sugere uma ação para corrigir a condição atual de pagamento indevido, mas não propõe medidas para tratar a causa subjacente, como falhas no processo de verificação de identidade ou controle de acesso que permitiram a utilização indevida do CNES. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1133,
+    "completion_tokens": 168,
+    "total_tokens": 1301,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 365
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

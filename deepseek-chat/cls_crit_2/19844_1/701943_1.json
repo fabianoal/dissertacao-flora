@@ -1,0 +1,28 @@
+{
+  "id": "a3424371-2c16-44b1-8f92-4aeb35c689aa",
+  "object": "chat.completion",
+  "created": 1760466638,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação orienta a manutenção das condições físicas, o que é uma ação corretiva direta para a condição encontrada, mas não aborda explicitamente as causas subjacentes, como falta de planejamento ou recursos. Para o critério 'Efeitos Duradouros', como o 'Foco Causa' foi avaliado como 'Não', a resposta 'Não se aplica' está correta.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1207,
+    "completion_tokens": 149,
+    "total_tokens": 1356,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 311
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

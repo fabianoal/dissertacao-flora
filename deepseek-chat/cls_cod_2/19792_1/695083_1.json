@@ -1,0 +1,28 @@
+{
+  "id": "df70d6f7-9e35-4c37-8a59-74300588ad8a",
+  "object": "chat.completion",
+  "created": 1760397040,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação é composta por três ações distintas. A primeira ação (providenciar gerador) visa resolver uma condição específica (falta de fonte alternativa de energia) que contribui para o problema dos equipamentos inadequados, mas não aborda a causa raiz da inadequação dos equipamentos em si. As outras duas ações tratam de registros contábeis, que são medidas administrativas gerais não diretamente relacionadas à causa do problema identificado. Nenhuma das ações propostas trata especificamente da causa fundamental que levou à disponibilização de equipamentos inadequados para armazenamento de imunobiológicos.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1216,
+    "completion_tokens": 175,
+    "total_tokens": 1391,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 384
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

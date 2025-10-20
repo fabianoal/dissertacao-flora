@@ -1,0 +1,28 @@
+{
+  "id": "fb8bf515-3acf-4cf8-8e8f-b9f9a82d5586",
+  "object": "chat.completion",
+  "created": 1760389986,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe notificar a convenente para apresentar o laudo assinado, o que visa corrigir a condição específica de falta de assinatura, sendo uma solução temporária para regularizar o pagamento do adicional de insalubridade. Não há ações que tratem das causas subjacentes, como a implementação de processos para prevenir a omissão de assinaturas em documentos futuros. Portanto, o foco é na condição, não na causa. Quanto aos efeitos duradouros, como o foco na causa não é atendido, não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1146,
+    "completion_tokens": 179,
+    "total_tokens": 1325,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 314
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

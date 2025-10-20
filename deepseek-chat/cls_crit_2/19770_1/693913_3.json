@@ -1,0 +1,28 @@
+{
+  "id": "3cf25126-577d-4ed9-a348-028dd28a98dd",
+  "object": "chat.completion",
+  "created": 1760463822,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação se concentra na correção imediata da condição financeira irregular (restituição de valores), sem propor ações que abordem as causas subjacentes do recebimento indevido, como falhas em processos de controle ou sistemas. No entanto, a avaliação do critério 'Efeitos Duradouros' como 'Não se aplica' é adequada, pois esse critério só é considerado quando há foco na causa.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1264,
+    "completion_tokens": 153,
+    "total_tokens": 1417,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 304
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

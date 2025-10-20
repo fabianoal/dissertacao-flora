@@ -1,0 +1,28 @@
+{
+  "id": "e15d84fc-436f-4b7a-9a13-8190aed8a49d",
+  "object": "chat.completion",
+  "created": 1760448950,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identificou corretamente que a recomendação se concentra em corrigir a condição imediata (ausência de exames nos prontuários) sem abordar causas subjacentes, como falhas processuais ou de treinamento. Para o critério 'Efeitos Duradouros', a análise está adequada, pois a não aplicação decorre logicamente da ausência de foco na causa.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1192,
+    "completion_tokens": 150,
+    "total_tokens": 1342,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 296
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ffdf2932-aa72-4fda-8bdb-c22d42602895",
+  "object": "chat.completion",
+  "created": 1760385375,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe que, em caso de restabelecimento da conexão ao Sistema de Vendas do PFPB, sejam seguidas as regras de execução do programa e apresentados documentos solicitados pelos órgãos de controle. No entanto, não há ações específicas que tratem da causa do problema (falta de comprovação de aquisições por notas fiscais), como implementação de controles internos ou capacitação para garantir a documentação adequada. A recomendação foca na correção da condição atual (dispensação irregular) sem abordar as causas subjacentes. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1104,
+    "completion_tokens": 202,
+    "total_tokens": 1306,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 272
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

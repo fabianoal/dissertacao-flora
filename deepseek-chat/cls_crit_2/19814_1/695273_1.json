@@ -1,0 +1,28 @@
+{
+  "id": "0fe3e493-f6a3-4a7f-8236-f12a9d686274",
+  "object": "chat.completion",
+  "created": 1760465509,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a utilização do Sistema de Informação da Atenção Básica para registro das ações de saúde, o que visa abordar a causa subjacente da coleta inadequada de dados, como a falta de um sistema padronizado, em vez de apenas corrigir os registros existentes. Isso justifica a classificação como 'Sim'. Para o critério 'Efeitos Duradouros', a implementação de um sistema de informação padronizado tende a produzir efeitos duradouros, pois as melhorias na coleta e qualidade dos dados são institucionalizadas e não dependem de indivíduos específicos, sustentando a classificação como 'Sim'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1260,
+    "completion_tokens": 205,
+    "total_tokens": 1465,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 364
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

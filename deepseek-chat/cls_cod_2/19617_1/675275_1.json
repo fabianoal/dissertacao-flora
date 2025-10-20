@@ -1,0 +1,28 @@
+{
+  "id": "143e3523-e6a4-44da-b038-544e2e628090",
+  "object": "chat.completion",
+  "created": 1760390926,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe que as unidades elaborem relatórios mensais com base em informações fidedignas e adotem medidas preventivas ou corretivas em caso de não cumprimento, o que indica ações direcionadas à causa das impropriedades nos relatórios, visando evitar sua recorrência. Já em relação aos efeitos pretendidos, as medidas sugeridas, como a elaboração de relatórios baseados em documentos específicos e a adoção de ações preventivas/corretivas, estabelecem procedimentos que podem perdurar independentemente de mudanças nos atores envolvidos, pois são baseados em normas e processos documentados.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1053,
+    "completion_tokens": 185,
+    "total_tokens": 1238,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 93
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

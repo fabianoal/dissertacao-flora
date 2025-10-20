@@ -1,0 +1,28 @@
+{
+  "id": "63e5a5dd-ac5b-44f3-b66a-908298a39625",
+  "object": "chat.completion",
+  "created": 1760038020,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação apenas cita dispositivos legais genéricos (Decreto nº 9.795/2019 e Decreto nº 3.964/2001) sem propor ações específicas para resolver a condição encontrada (dispensação sem comprovação de aquisição) ou para tratar a causa subjacente. Não há menção a medidas concretas como implementação de controles, revisão de processos ou capacitação, limitando-se a uma referência normativa.\",\n    \"Ação Corretiva\": \"Não\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1274,
+    "completion_tokens": 154,
+    "total_tokens": 1428,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 250
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

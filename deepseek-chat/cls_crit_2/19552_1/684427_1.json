@@ -1,0 +1,28 @@
+{
+  "id": "db04d163-5aef-4633-b313-30f3c9a21b8d",
+  "object": "chat.completion",
+  "created": 1760454545,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações que visam estabelecer um sistema contínuo de monitoramento e avaliação, o que aborda diretamente a causa da inexistência de ação sistemática, sendo portanto correta a classificação como 'Sim'. Quanto ao critério 'Efeitos Duradouros', a recomendação sugere a institucionalização de práticas de gestão baseadas em critérios pactuados e epidemiológicos, que são independentes de mudanças nos atores, justificando a classificação como 'Sim'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1371,
+    "completion_tokens": 174,
+    "total_tokens": 1545,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 475
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

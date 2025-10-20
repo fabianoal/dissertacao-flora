@@ -1,0 +1,28 @@
+{
+  "id": "4b058e1a-ee9a-455f-9b73-2bebd4a47c36",
+  "object": "chat.completion",
+  "created": 1760390110,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe rever valores de referência e estabelecer programação compatível com a capacidade laboral, o que visa tratar a causa do problema (valores desatualizados e programação inadequada) em vez de apenas corrigir os relatórios mensais existentes. Já em relação aos efeitos pretendidos pela recomendação, a revisão de valores e estabelecimento de programação adequada criam um padrão que permanece independentemente de mudanças nos atores envolvidos, pois se baseia em critérios atualizados e capacidade laboral objetiva.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 942,
+    "completion_tokens": 165,
+    "total_tokens": 1107,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 110
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

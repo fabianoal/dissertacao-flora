@@ -1,0 +1,28 @@
+{
+  "id": "319ce39b-bbc7-4bf4-8759-33d1953dd575",
+  "object": "chat.completion",
+  "created": 1760455913,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identifica corretamente que a recomendação aborda causas estruturais, mas a avaliação sobre efeitos duradouros merece ponderação. A recomendação é genérica e não especifica mecanismos concretos que garantam sustentabilidade independente de pessoas.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1261,
+    "completion_tokens": 105,
+    "total_tokens": 1366,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 365
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

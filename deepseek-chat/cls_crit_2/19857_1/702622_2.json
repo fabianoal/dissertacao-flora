@@ -1,0 +1,28 @@
+{
+  "id": "bbe24760-431f-4351-a69a-e14b94100e4f",
+  "object": "chat.completion",
+  "created": 1760467165,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação é genérica e não especifica ações concretas para abordar a causa raiz do problema de dupla contratação, focando apenas em procedimentos administrativos existentes. Quanto ao critério 'Efeitos Duradouros', como não há foco na causa, a análise de durabilidade não se aplica corretamente.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1153,
+    "completion_tokens": 134,
+    "total_tokens": 1287,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 257
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

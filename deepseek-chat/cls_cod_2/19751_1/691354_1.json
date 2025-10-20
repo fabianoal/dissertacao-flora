@@ -1,0 +1,28 @@
+{
+  "id": "94c02539-a5ea-4b0f-9d7e-22f221a3c6c5",
+  "object": "chat.completion",
+  "created": 1760395412,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a implementação de um programa de treinamento para as equipes, visando prepará-las para responder a falhas elétricas, desastres naturais e outras emergências que afetam a Cadeia de Frio. Isso aborda a causa subjacente do problema, que é a falta de capacitação e preparo dos funcionários para lidar com situações de contingência, em vez de apenas corrigir a condição imediata (ausência do plano). Já em relação aos efeitos pretendidos pela recomendação, o treinamento visa estabelecer conhecimentos e procedimentos padronizados que, uma vez implementados, devem permanecer efetivos mesmo com mudanças na equipe, desde que o programa seja mantido e atualizado conforme necessário.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1128,
+    "completion_tokens": 213,
+    "total_tokens": 1341,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 296
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

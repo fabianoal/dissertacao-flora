@@ -1,0 +1,28 @@
+{
+  "id": "89d793a1-d8d0-4418-b486-92e486be5839",
+  "object": "chat.completion",
+  "created": 1760038056,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere a anexação de exames de imagem pré-operatórios ao prontuário do paciente, o que constitui uma ação direta para resolver a condição encontrada de falta de exames comprobatórios. No entanto, a recomendação se baseia principalmente na citação de normativos existentes, sem propor ações adicionais específicas para endereçar as causas subjacentes, como falhas em processos ou políticas que permitiram a omissão dos exames.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1387,
+    "completion_tokens": 153,
+    "total_tokens": 1540,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 363
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

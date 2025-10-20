@@ -1,0 +1,28 @@
+{
+  "id": "42b9a858-512a-49db-b13a-1fa6b4d715bb",
+  "object": "chat.completion",
+  "created": 1760002009,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere a elaboração e implementação de normas, procedimentos e rotinas técnicas para corrigir a ausência de documentação no recebimento, armazenagem e distribuição de OPME, o que constitui uma ação corretiva. Além disso, ao propor a criação de procedimentos escritos e atualizados, a ação visa tratar a causa subjacente da falta de documentação, mas a referência ao cumprimento de normativos existentes (como a RDC/ANVISA n.º 63) torna a ação genérica, pois não especifica medidas concretas além da adesão a esses normativos. Quanto aos efeitos duradouros, como a ação é genérica, não há garantia de que os efeitos persistiriam com mudanças de atores, pois depende da mera conformidade sem mecanismos específicos de sustentação.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1227,
+    "completion_tokens": 235,
+    "total_tokens": 1462,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 267
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

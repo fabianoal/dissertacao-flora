@@ -1,0 +1,28 @@
+{
+  "id": "d6c8e386-1439-46a5-ae6a-5bf4fe81051f",
+  "object": "chat.completion",
+  "created": 1760390818,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a orientação de fiscais e gestores para conferir documentação comprobatória de contratações, visando evitar desobediência a normativos e irregularidades. Esta ação busca tratar a causa subjacente (falta de verificação adequada) que levou à contratação de empresas similares, em vez de apenas corrigir a condição específica. Já em relação aos efeitos duradouros, a orientação formalizada e baseada em normativos pode estabelecer um processo contínuo de verificação, cujos efeitos (conformidade nas contratações) tendem a persistir mesmo com mudanças nos atores envolvidos, desde que incorporada à rotina organizacional.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1071,
+    "completion_tokens": 201,
+    "total_tokens": 1272,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 239
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "afd735b2-04bb-498b-a429-6673b972e748",
+  "object": "chat.completion",
+  "created": 1760398740,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações corretivas como realizar manutenções nos equipamentos e manter inventário atualizado, que visam tratar as causas dos equipamentos não estarem apropriados (como falta de manutenção e controle inadequado), caracterizando foco na causa. Já em relação aos efeitos duradouros, as ações sugeridas (manutenção regular e controle de inventário) estabelecem processos contínuos que permaneceriam efetivos mesmo com mudanças nos atores envolvidos, pois são baseados em procedimentos documentados e normativos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1035,
+    "completion_tokens": 164,
+    "total_tokens": 1199,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 203
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

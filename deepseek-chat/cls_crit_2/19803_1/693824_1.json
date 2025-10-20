@@ -1,0 +1,28 @@
+{
+  "id": "4aa7b21b-e6e2-4020-816c-ba2180e03c15",
+  "object": "chat.completion",
+  "created": 1760464989,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe o desenvolvimento de mecanismos para promover o acompanhamento dos pacientes, o que efetivamente visa abordar a causa subjacente da falta de procedimentos estruturados, em vez de apenas corrigir a condição imediata. Portanto, concordo com a classificação 'Sim'. Quanto ao critério 'Efeitos Duradouros', a implementação de mecanismos estabeleceria processos permanentes que persistiriam independentemente de mudanças nos atores envolvidos, como profissionais de saúde, o que justifica a classificação 'Sim'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1183,
+    "completion_tokens": 181,
+    "total_tokens": 1364,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 287
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

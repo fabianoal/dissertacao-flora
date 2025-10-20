@@ -1,0 +1,28 @@
+{
+  "id": "4ccb68a6-a046-4b96-8652-f01a4bcc932e",
+  "object": "chat.completion",
+  "created": 1760454925,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação estabelece a necessidade de documentação adequada e padronizada dos processos relacionados aos convênios e veículos, o que aborda diretamente a causa das inconsistências documentais, que é a falta de procedimentos formais. Para o critério 'Efeitos Duradouros', a implementação de processos documentados e integrados na estrutura organizacional tende a persistir independentemente de mudanças de pessoal, desde que haja adesão institucional.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1178,
+    "completion_tokens": 159,
+    "total_tokens": 1337,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 282
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

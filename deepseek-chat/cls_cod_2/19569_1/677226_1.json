@@ -1,0 +1,28 @@
+{
+  "id": "a5c7cdc4-28b2-4854-b271-37dfb9b2fd62",
+  "object": "chat.completion",
+  "created": 1760388222,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação orienta a adoção de estratégias documentadas para alcançar a meta do indicador, mas não propõe ações específicas para tratar a causa subjacente da não adoção inicial, como falta de capacitação ou recursos, focando apenas na correção da condição atual. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1024,
+    "completion_tokens": 138,
+    "total_tokens": 1162,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 192
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

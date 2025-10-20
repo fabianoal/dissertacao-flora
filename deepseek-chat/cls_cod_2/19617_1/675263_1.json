@@ -1,0 +1,28 @@
+{
+  "id": "3c5f7974-8295-4e1e-9910-f7f3ad677b36",
+  "object": "chat.completion",
+  "created": 1760390886,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe apenas a inserção dos relatórios de acompanhamento devidamente preenchidos, o que corrige a condição atual de falta de preenchimento, mas não aborda as causas subjacentes que levaram a essa omissão, como possíveis deficiências de capacitação, recursos ou processos. Portanto, trata-se de uma medida corretiva imediata, com foco na condição. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, essa análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 974,
+    "completion_tokens": 173,
+    "total_tokens": 1147,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 142
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

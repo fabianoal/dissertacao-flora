@@ -1,0 +1,28 @@
+{
+  "id": "2e1e39d6-c1cb-4e8a-a08e-b36dd3a30496",
+  "object": "chat.completion",
+  "created": 1760394892,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações como pactuar e aprimorar continuamente os fluxos de encaminhamento, restringir o uso do protocolo 'vaga zero' a situações excepcionais, evitar transferências para especialidades não habilitadas, solicitar regularmente vagas adequadas via SISREG, e monitorar e corrigir o processo de regulação. Essas medidas visam modificar processos e práticas institucionais para prevenir a reincidência da condição encontrada (referenciamento para 'vaga zero' sem especialidade habilitada), tratando assim a causa subjacente do problema. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como a pactuação de fluxos, o monitoramento contínuo e a correção de falhas, são estruturadas para criar mecanismos permanentes no sistema de saúde, que devem persistir independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1125,
+    "completion_tokens": 259,
+    "total_tokens": 1384,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 293
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "01cf36d3-2ab6-4cd0-8fd4-8359c404afdd",
+  "object": "chat.completion",
+  "created": 1760036340,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere assegurar o cumprimento da carga horária integral, o que visa resolver diretamente a condição encontrada de falta de controle de frequência. No entanto, a ação proposta se limita a cumprir normativos existentes, sem propor medidas adicionais para endereçar a causa subjacente, como implementação de sistemas de controle ou treinamentos específicos, sendo genérica em foco na causa. Como a ação foco na causa é genérica, os efeitos duradouros não são avaliados positivamente.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1165,
+    "completion_tokens": 165,
+    "total_tokens": 1330,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 205
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

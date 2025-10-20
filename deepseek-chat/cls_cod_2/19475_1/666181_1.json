@@ -1,0 +1,28 @@
+{
+  "id": "b1e58d36-76ee-4230-b43e-cfab2b1e9a7c",
+  "object": "chat.completion",
+  "created": 1760385890,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a adoção de medidas corretivas para garantir a correta identificação visual do SAMU 192 nas Bases Descentralizadas, conforme normas específicas. No entanto, a recomendação é genérica ('adote as medidas corretivas') e não especifica ações que tratem da causa do problema (como falhas no processo de implementação, ausência de controle de qualidade, ou falta de capacitação). Portanto, não há evidência de foco na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1064,
+    "completion_tokens": 176,
+    "total_tokens": 1240,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 232
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

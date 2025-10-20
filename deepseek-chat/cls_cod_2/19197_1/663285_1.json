@@ -1,0 +1,28 @@
+{
+  "id": "598149ef-7688-4607-ae54-7a0f9770bc72",
+  "object": "chat.completion",
+  "created": 1760384074,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe o cumprimento de um manual que inclui instruções gerais para recebimento e conferência de OPME, o que sugere ações para prevenir inconsistências futuras, tratando assim a causa do problema. Já em relação aos efeitos pretendidos, a implementação de procedimentos padronizados do manual tende a criar efeitos duradouros, independentemente de mudanças nos atores envolvidos, pois estabelece diretrizes institucionais.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1000,
+    "completion_tokens": 147,
+    "total_tokens": 1147,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 168
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

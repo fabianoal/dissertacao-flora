@@ -1,0 +1,28 @@
+{
+  "id": "528bf182-f922-463d-9a82-309beda14164",
+  "object": "chat.completion",
+  "created": 1760392274,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"Em relação ao foco, a recomendação propõe a elaboração dos instrumentos de gestão (PMS, PAS e RAG) com informações voltadas ao cumprimento de metas estabelecidas vinculadas à APS e prestar contas sobre a aplicação de recursos, o que visa corrigir a condição imediata de ausência de descrição de metas e resultados nos documentos, sem abordar explicitamente as causas subjacentes, como falta de capacitação ou recursos, que levaram a essa omissão. Portanto, não há ação clara focada na causa do problema. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' foi avaliado como 'Não', este critério não se aplica.\",\n   \"Foco Causa\": \"Não\",\n   \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1043,
+    "completion_tokens": 198,
+    "total_tokens": 1241,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 211
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

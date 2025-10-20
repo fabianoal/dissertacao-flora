@@ -1,0 +1,28 @@
+{
+  "id": "491c87e1-6d92-4b8f-a072-2c4440670c68",
+  "object": "chat.completion",
+  "created": 1760395652,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações direcionadas à causa do problema, que é a inadequação da estrutura física e a falta de controle de temperatura, visando prevenir a recorrência da falha na preservação da temperatura dos imunobiológicos. Já em relação aos efeitos pretendidos pela recomendação, as melhorias na estrutura física e a implementação de controles de temperatura são medidas permanentes que continuarão a assegurar as condições adequadas mesmo com mudanças nos atores envolvidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1056,
+    "completion_tokens": 148,
+    "total_tokens": 1204,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 224
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

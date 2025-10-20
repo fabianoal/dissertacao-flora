@@ -1,0 +1,28 @@
+{
+  "id": "5ee66d68-121b-419c-8587-bc8db8d15b97",
+  "object": "chat.completion",
+  "created": 1760392974,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a orientação de fiscais e gestores para conferir documentação comprobatória, visando evitar desobediência a normativos e irregularidades futuras, o que indica um tratamento da causa (falta de verificação adequada) em vez de apenas corrigir as inconsistências específicas encontradas. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um processo de conferência sistemático, baseado em normativos, tende a criar uma prática institucional que permanece mesmo com mudanças de atores, pois está embasada em procedimentos formais e não depende de indivíduos específicos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1091,
+    "completion_tokens": 182,
+    "total_tokens": 1273,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 195
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

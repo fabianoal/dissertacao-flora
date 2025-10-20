@@ -1,0 +1,28 @@
+{
+  "id": "a9bed88d-528e-437d-9f4a-e2cd0df520d7",
+  "object": "chat.completion",
+  "created": 1760395672,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a realização de inventários periódicos e a certificação de que os registros no sistema sejam fidedignos aos imunobiológicos existentes, o que visa estabelecer um processo contínuo de verificação e correção para evitar que as informações se desatualizem novamente, tratando assim a causa do problema (falta de processos regulares de atualização). Já em relação aos efeitos pretendidos pela recomendação, a implementação de inventários periódicos cria um procedimento sistemático que deve persistir independentemente de mudanças nos atores envolvidos, pois se torna parte dos controles internos da instituição.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1031,
+    "completion_tokens": 183,
+    "total_tokens": 1214,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 199
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "27782ad2-54dc-4f05-b4c8-fab94fefdc6b",
+  "object": "chat.completion",
+  "created": 1760455997,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que as recomendações se limitam a exigir a apresentação de documentação e informações durante auditorias, sem propor ações para tratar as causas subjacentes da não conformidade documental, como falhas em processos de controle, capacitação ou supervisão. Quanto ao critério 'Efeitos Duradouros', como o 'Foco Causa' foi corretamente classificado como 'Não', a resposta 'Não se aplica' está adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1212,
+    "completion_tokens": 165,
+    "total_tokens": 1377,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 316
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

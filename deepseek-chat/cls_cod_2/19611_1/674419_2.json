@@ -1,0 +1,28 @@
+{
+  "id": "5d71af03-11dc-4483-accd-3e5f7fc0998f",
+  "object": "chat.completion",
+  "created": 1760389638,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a orientação de fiscais e gestores para conferir documentação comprobatória em processos de contratação, visando evitar desobediência a normativos e irregularidades futuras, o que indica um tratamento da causa (falta de verificação adequada) em vez de apenas corrigir a condição específica da prorrogação irregular. Já em relação aos efeitos pretendidos pela recomendação, a ação de orientar para conferência sistemática da documentação estabelece um procedimento que deve persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1076,
+    "completion_tokens": 179,
+    "total_tokens": 1255,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 244
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

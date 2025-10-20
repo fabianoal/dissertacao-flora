@@ -1,0 +1,28 @@
+{
+  "id": "5a9b3b4e-82cd-4740-a414-b0d0e897478c",
+  "object": "chat.completion",
+  "created": 1760396948,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a definição de estratégias para atendimento de pacientes após notificação de casos de violência, o que aborda diretamente a causa do problema identificado na constatação (ausência de estratégias definidas). Esta ação visa estabelecer um processo estruturado e permanente para lidar com essas situações, indo além da correção pontual de casos específicos. Já em relação aos efeitos pretendidos pela recomendação, a implementação de estratégias definidas criaria um protocolo institucional que permaneceria válido independentemente de mudanças na equipe ou gestores, garantindo continuidade no atendimento desses casos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1125,
+    "completion_tokens": 183,
+    "total_tokens": 1308,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 293
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d4b7a0b4-4ce1-43bd-b798-664915f30fe1",
+  "object": "chat.completion",
+  "created": 1760395636,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a submissão de uma proposta de reforma administrativa atualizada para formalizar a inserção da CMRF na estrutura da SMS, o que trata da causa do problema (falta de estrutura organizacional formal) e não apenas da condição encontrada. Já em relação aos efeitos pretendidos pela recomendação, a implementação de uma estrutura formalizada através de reforma administrativa tende a criar efeitos duradouros que permanecem independentemente de mudanças nos atores envolvidos, pois estabelece bases legais e organizacionais permanentes.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1012,
+    "completion_tokens": 166,
+    "total_tokens": 1178,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 244
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "40b60e4c-1e12-4645-a16d-c526f35651ed",
+  "object": "chat.completion",
+  "created": 1760398380,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação não propõe ações específicas para tratar a causa do problema identificado, limitando-se a solicitar conhecimento da constatação e adoção de procedimentos genéricos conforme portaria, sem indicar medidas que abordem as causas subjacentes da irregularidade na produção inserida nos sistemas SIA e SIH/SUS. Portanto, não há ação proposta que trate da causa do problema.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 972,
+    "completion_tokens": 126,
+    "total_tokens": 1098,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 140
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

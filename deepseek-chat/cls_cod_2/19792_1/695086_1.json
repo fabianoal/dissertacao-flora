@@ -1,0 +1,28 @@
+{
+  "id": "73c94984-4c25-43b2-ab5e-b9d16faa470f",
+  "object": "chat.completion",
+  "created": 1760397052,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam diretamente da causa do problema (ausência de procedimentos operacionais padronizados) através da criação/adequação de POPs, implementação de treinamentos contínuos e estabelecimento de revisões periódicas, visando prevenir a reincidência da condição encontrada. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas (documentação formalizada, programas de treinamento estruturados e cronogramas de revisão) criam estruturas e processos que permanecerão válidos independentemente de mudanças nos atores envolvidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1285,
+    "completion_tokens": 176,
+    "total_tokens": 1461,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 453
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

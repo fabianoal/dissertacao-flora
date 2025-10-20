@@ -1,0 +1,28 @@
+{
+  "id": "d8575d74-5f92-45b5-ba1d-9ed1524ec660",
+  "object": "chat.completion",
+  "created": 1760036668,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação contém três ações distintas. A primeira ação (prestar informações) visa facilitar auditorias futuras, mas não corrige diretamente a condição encontrada. A segunda ação (manter documentos fiscais) é uma ação corretiva que resolve a falta de comprovação identificada na constatação. A terceira ação (comercializar e dispensar em observância às regras) é genérica, pois apenas reforça o cumprimento de normativos existentes sem propor ações específicas para prevenir a causa raiz da irregularidade. Não há ações específicas focadas em tratar a causa subjacente que permitiu a ocorrência da condição.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1426,
+    "completion_tokens": 196,
+    "total_tokens": 1622,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 402
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

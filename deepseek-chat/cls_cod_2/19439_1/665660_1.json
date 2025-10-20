@@ -1,0 +1,28 @@
+{
+  "id": "f68a55f1-f95a-404d-9cf0-185e385e3691",
+  "object": "chat.completion",
+  "created": 1760385578,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se concentra exclusivamente na correção da condição encontrada, que é a devolução dos recursos recebidos indevidamente. Não há nenhuma ação proposta para tratar a causa raiz do problema, que seria a inserção de informações adulteradas nos sistemas do SUS sem comprovação da efetiva prestação do atendimento. A recomendação é puramente corretiva e reativa, sem elementos preventivos ou de melhoria de processos que evitem a recorrência do problema. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1554,
+    "completion_tokens": 179,
+    "total_tokens": 1733,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 722
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "94166526-646c-4b12-8881-fffb32a2f790",
+  "object": "chat.completion",
+  "created": 1760035856,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere uma ação para resolver a condição encontrada de falta de compartilhamento de registros, tornando as informações disponíveis para todos os pontos da rede, o que caracteriza uma ação corretiva. No entanto, ela não propõe ações específicas para tratar a causa subjacente, como a implementação de sistemas ou políticas que garantam o compartilhamento contínuo; em vez disso, é genérica ao focar no cumprimento da disponibilidade de informações sem detalhar mecanismos concretos. Como a ação com foco na causa é genérica, não há efeitos duradouros a serem avaliados.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1119,
+    "completion_tokens": 183,
+    "total_tokens": 1302,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 159
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

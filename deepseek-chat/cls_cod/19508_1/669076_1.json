@@ -1,0 +1,28 @@
+{
+  "id": "abf6bac5-5c51-4867-b5f6-c742338df81c",
+  "object": "chat.completion",
+  "created": 1760038552,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação contém múltiplas ações. A primeira ação ('Devolver ao Fundo Nacional de Saúde o valor de R$ 12,00') é claramente uma ação corretiva para resolver a condição específica da falta de documentação. As ações subsequentes ('Prestar... toda informação necessária' e 'Manter... as vias assinadas dos cupons vinculados...') são medidas preventivas e de conformidade, mas não propõem ações específicas para tratar a causa raiz da falta de apresentação dos documentos. A ação de manter documentos por 10 anos é genérica, baseada em cumprimento normativo, sem especificar como evitar futuras falhas na apresentação.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1398,
+    "completion_tokens": 202,
+    "total_tokens": 1600,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 374
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

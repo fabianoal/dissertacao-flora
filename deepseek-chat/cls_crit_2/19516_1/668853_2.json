@@ -1,0 +1,28 @@
+{
+  "id": "974d6bc7-3b57-4910-a842-fcdca12c7993",
+  "object": "chat.completion",
+  "created": 1760453597,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação inclui múltiplas ações, sendo que a ação de manter notas fiscais por 10 anos aborda diretamente a causa da falta de comprovação documental, enquanto outras ações são corretivas ou de cumprimento normativo. Para o critério 'Efeitos Duradouros', a ação de manter notas fiscais estabelece um procedimento que pode persistir independentemente de mudanças de pessoal, mas a análise deve considerar se todas as ações com foco na causa atendem a esse critério.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1589,
+    "completion_tokens": 170,
+    "total_tokens": 1759,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 629
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

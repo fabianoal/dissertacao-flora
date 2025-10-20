@@ -1,0 +1,28 @@
+{
+  "id": "bbc671db-59f7-4e4e-81d2-bfd7ac001eac",
+  "object": "chat.completion",
+  "created": 1760395168,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a criação de normas e rotinas para verificação do funcionamento dos equipamentos, o que visa tratar a causa raiz do problema (ausência de procedimentos padronizados) e não apenas corrigir a condição atual específica. Já em relação aos efeitos pretendidos pela recomendação, a implementação de normas e rotinas formais cria um sistema que permanece independentemente da mudança de funcionários, garantindo efeitos duradouros mesmo com a rotatividade de pessoal.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 985,
+    "completion_tokens": 153,
+    "total_tokens": 1138,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 153
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

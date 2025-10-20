@@ -1,0 +1,28 @@
+{
+  "id": "6d8c3e7e-74f5-4212-b58f-5aad432c202d",
+  "object": "chat.completion",
+  "created": 1760389118,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação é genérica e não propõe ações específicas para tratar a causa da falta de informações sobre serviços de apoio diagnóstico terceirizados. Ela apenas reforça princípios gerais de atendimento, sem abordar as causas subjacentes, como falhas na gestão de contratos ou sistemas de informação. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 966,
+    "completion_tokens": 148,
+    "total_tokens": 1114,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 70
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

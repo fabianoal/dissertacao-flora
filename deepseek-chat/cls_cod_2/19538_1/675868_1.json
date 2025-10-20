@@ -1,0 +1,28 @@
+{
+  "id": "2926d2f2-2b91-46d9-9704-a2a5ecaa5d29",
+  "object": "chat.completion",
+  "created": 1760387282,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a organização das equipes para garantir o atendimento da população adscrita conforme normas, o que indica uma ação para tratar a causa subjacente da não conformidade, como realocação ou ajuste estrutural. No entanto, não especifica se os efeitos pretendidos, como a estrutura e cobertura adequadas, seriam mantidos independentemente de mudanças nos atores envolvidos, tornando incerta a durabilidade.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 983,
+    "completion_tokens": 130,
+    "total_tokens": 1113,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 151
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

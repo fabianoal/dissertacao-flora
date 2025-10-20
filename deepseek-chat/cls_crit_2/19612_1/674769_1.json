@@ -1,0 +1,28 @@
+{
+  "id": "928c9674-a85f-4c5a-95c7-7de34966e756",
+  "object": "chat.completion",
+  "created": 1760456653,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação se concentra em corrigir a condição imediata (falta de documentação) sem propor ações para abordar a causa raiz do problema, como falhas nos processos de gestão de pessoal ou controle de afastamentos. Além disso, a avaliação de efeitos duradouros é corretamente considerada como não aplicável, dado que o critério de foco na causa não foi atendido.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1239,
+    "completion_tokens": 148,
+    "total_tokens": 1387,
+    "prompt_tokens_details": {
+      "cached_tokens": 1088
+    },
+    "prompt_cache_hit_tokens": 1088,
+    "prompt_cache_miss_tokens": 151
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

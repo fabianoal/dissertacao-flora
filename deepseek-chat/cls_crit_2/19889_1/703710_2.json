@@ -1,0 +1,28 @@
+{
+  "id": "878a472a-0590-49fe-bd89-f98eef1d2628",
+  "object": "chat.completion",
+  "created": 1760468253,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação se concentra na devolução de recursos financeiros para corrigir o dano já ocorrido, sem abordar as causas subjacentes da ausência de APAC concomitante. Para o critério 'Efeitos Duradouros', a resposta 'Não se aplica' é adequada, já que o critério 'Foco Causa' foi classificado como 'Não'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1294,
+    "completion_tokens": 151,
+    "total_tokens": 1445,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 334
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

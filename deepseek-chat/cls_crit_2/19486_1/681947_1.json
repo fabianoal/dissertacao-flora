@@ -1,0 +1,28 @@
+{
+  "id": "21085ae4-f1d8-4fc9-86f4-ade181bcd4ea",
+  "object": "chat.completion",
+  "created": 1760469482,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda ações que visam prevenir a reincidência das divergências nos dados, tratando causas estruturais. Para o critério 'Efeitos Duradouros', as ações propostas estabelecem processos que podem persistir independentemente de mudanças na equipe, promovendo sustentabilidade.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1324,
+    "completion_tokens": 123,
+    "total_tokens": 1447,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 428
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

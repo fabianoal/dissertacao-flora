@@ -1,0 +1,28 @@
+{
+  "id": "9feed2e5-6ae8-4fd4-92a0-c413a35b9560",
+  "object": "chat.completion",
+  "created": 1760035796,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação exige o cumprimento de um normativo específico para corrigir a ausência de laudo nos prontuários, focando na condição imediata, mas não propõe ações adicionais para tratar causas subjacentes, como falhas em processos ou treinamento.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1177,
+    "completion_tokens": 111,
+    "total_tokens": 1288,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 217
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

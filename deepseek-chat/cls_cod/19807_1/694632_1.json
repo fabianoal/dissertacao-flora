@@ -1,0 +1,28 @@
+{
+  "id": "4eeb287a-b6e6-47d3-93b3-0dd9cc4eb74f",
+  "object": "chat.completion",
+  "created": 1760037664,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere ações para resolver a condição encontrada (falta de detalhamento e atualização dos registros) através da padronização do PTS, acesso ao prontuário eletrônico e treinamentos. Além disso, propõe ações para tratar a causa subjacente, como treinamentos que enfatizam a importância do documento e melhores práticas, visando prevenir a reincidência do problema. No entanto, a referência ao cumprimento de normativos específicos torna a ação de foco na causa mais genérica, pois se limita a exigir conformidade sem detalhar mecanismos institucionais permanentes. Os efeitos duradouros não são claramente assegurados, pois dependem da continuidade dos treinamentos e adesão dos profissionais, sem menção a mudanças estruturais ou políticas que persistam independentemente de mudanças de pessoal.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1298,
+    "completion_tokens": 247,
+    "total_tokens": 1545,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 274
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

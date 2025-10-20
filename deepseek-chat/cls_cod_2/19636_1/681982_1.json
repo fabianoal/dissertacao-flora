@@ -1,0 +1,28 @@
+{
+  "id": "128f3a61-6c73-414d-94ae-a609f1c9b864",
+  "object": "chat.completion",
+  "created": 1760391798,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a encaminhar a constatação para conhecimento e adoção de procedimentos administrativos conforme dispositivos legais, sem propor ações específicas para tratar a causa do problema de não apresentação dos documentos. Não há menção a medidas que ataquem as razões subjacentes à falta de documentação, como falhas em processos, capacitação ou controles internos. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1058,
+    "completion_tokens": 169,
+    "total_tokens": 1227,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 290
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

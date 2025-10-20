@@ -1,0 +1,28 @@
+{
+  "id": "7088928e-b00a-4e50-a874-c285657891a2",
+  "object": "chat.completion",
+  "created": 1760396104,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"Em relação ao foco, a recomendação propõe ações de cadastramento e manutenção de dados cadastrais no CNES, que visam corrigir a causa do problema, que é a ausência ou inadequação do registro dos profissionais, em vez de apenas tratar a condição atual de registros indevidos. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um processo contínuo de manutenção cadastral estabelece uma solução que pode persistir independentemente de mudanças nos atores envolvidos, como a substituição de funcionários responsáveis pelo cadastro.\",\n   \"Foco Causa\": \"Sim\",\n   \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 987,
+    "completion_tokens": 163,
+    "total_tokens": 1150,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 155
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

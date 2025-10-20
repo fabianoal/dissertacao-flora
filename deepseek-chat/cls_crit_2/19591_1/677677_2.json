@@ -1,0 +1,28 @@
+{
+  "id": "39380edc-3ca6-4b5d-9300-76bf29016885",
+  "object": "chat.completion",
+  "created": 1760455489,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação sugere monitorar a aplicação do incentivo financeiro e adotar ações cabíveis se identificados desvios, o que aborda a causa subjacente (possíveis desvios na aplicação de recursos) em vez de apenas corrigir a divergência de dados imediata. Para o critério 'Efeitos Duradouros', o monitoramento contínuo e as ações cabíveis, se implementados, criariam um mecanismo de controle que poderia permanecer efetivo independentemente de mudanças nos atores envolvidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1403,
+    "completion_tokens": 178,
+    "total_tokens": 1581,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 443
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

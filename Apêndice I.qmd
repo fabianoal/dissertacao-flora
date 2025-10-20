@@ -25,39 +25,17 @@ nocite: |
 #| include: false
 #| echo: false
 
-pacotes_instalados <- installed.packages()[, 1]
+source("./R/funcoes_setup.r")
 
-pacotes_necessarios <- c("tidyverse", "httr2", "dotenv", "duckdb",
+instala_pacotes(c("tidyverse", "httr2", "dotenv", "duckdb",
         "readxl", "doParallel", "gt", "gtsummary", "pdftools", "tidytext",
-        "colorDF", "fansi")
+        "colorDF", "fansi"))
 
-pacotes_para_instalar <- setdiff(pacotes_necessarios, pacotes_instalados)
+source("./R/util.r")
 
-if (length(pacotes_para_instalar) > 0){
-    install.packages(pacotes_para_instalar, quiet = TRUE, repos = "https://cloud.r-project.org")
-}
-
-options(scipen = 999,
-    width = 70, 
-    digits = 2, 
-    colorDF_theme = "dark",
-    #crayon.enabled = TRUE,
-    colorDF_n = 10,
-    tibble.print_max = 300)
-
-# options(colorDF_theme = "dark", width = 210)
-
-# knitr::knit_hooks$set(output = function(x, options){
-#   paste0(
-#     '<pre class="r-output"><code>',
-#     fansi::sgr_to_html(x = htmltools::htmlEscape(x), warn = FALSE),
-#     '</code></pre>'
-#   )
-# })
+options(width = 70)
 
 library(tidyverse)
-
-print.tbl <- colorDF:::print_colorDF
 
 dotenv::load_dot_env()
 ```
@@ -1129,11 +1107,11 @@ A hipótese do "Tópico" ser sempre sucedido por "Grupo" é valida, pois o contr
 
 # Conclusão
 
-Para facilitar o uso das informações criadas nesse trabalho, pode-se particionar os dados em três conjunto distintos: um para guardar dados das auditorias, um segundo para as constatações e, finalmente, um para  recomendações.
+Para facilitar o uso das informações criadas nesse trabalho, particionou-se os dados em três conjunto distintos: um para guardar dados das auditorias, um segundo para as constatações e, finalmente, um para recomendações. Adicionalmente, criou-se um dataset consolidando todas as informações e realizando alguns pequenos ajustes nos dados.
 
 ```{r}
 #| label: criacao_datasets_finais
-#| eval: true
+#| eval: false
 #| echo: true
 
 auditorias <- conteudo_estruturado_const_delim |>
@@ -1181,7 +1159,30 @@ write_rds(auditorias, "./Dados Gerados/auditorias.rds")
 write_rds(constatacoes, "./Dados Gerados/constatacoes.rds")
 write_rds(recomendacoes, "./Dados Gerados/recomendacoes.rds")
 
-
+auditorias |>
+inner_join(
+    constatacoes |>
+    select(-`No. Auditoria`),
+    by = "Arquivo"
+) |>
+inner_join(
+    recomendacoes |>
+    select(-`No. Auditoria`),
+    by = c("Arquivo", "# Constatação")
+) |>
+mutate(Ano = year(`Data Geração`) |> as.character()) |>
+mutate(Grupo = str_extract(Grupo, "(^.*?) Constata..o.*", 1)) |>
+mutate(UF = str_sub(`Munícipio/UF`, -2), .keep = "unused") |>
+mutate(Objeto = Objeto |> 
+            str_replace(fixed(".Fora de bloco|"), "Sem Bloco|") |>
+            str_replace("\\.(?=[A-Z])", ". ") |>
+            str_replace(fixed("MAC-OPME"), "MAC|OPME") |>
+            str_replace(" Órgão\\(s\\).*", ""),
+    Bloco = str_extract(Objeto, "(.*?)\\|.*", 1),
+    `Sub bloco` = str_extract(Objeto, ".*?\\|(.*?)(\\|.*|$)", 1),
+    Bloco = coalesce(Bloco, Objeto),
+    Bloco = str_replace(Bloco, "REGULAÇÃO DO ACESSO.*", "Reg. Acesso Consultas/Exames")) |>
+write_rds("./Dados Gerados/dataset_consolidado.rds")
 ```
 
 Abaixo, algumas estatísticas descritivas sobre os datasets.
@@ -1191,6 +1192,11 @@ Abaixo, algumas estatísticas descritivas sobre os datasets.
 #| eval: true
 #| echo: false
 #| results: asis
+
+
+auditorias <- write_rds("./Dados Gerados/auditorias.rds")
+constatacoes <- write_rds("./Dados Gerados/constatacoes.rds")
+recomendacoes <- write_rds("./Dados Gerados/recomendacoes.rds")
 
 
 estatisticas_constatacoes <- constatacoes |>

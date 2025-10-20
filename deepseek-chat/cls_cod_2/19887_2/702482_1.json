@@ -1,0 +1,28 @@
+{
+  "id": "e2cb8329-280b-43d4-80e2-bacedccdec8a",
+  "object": "chat.completion",
+  "created": 1760400772,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação se limita a exigir o cumprimento de uma norma específica que determina a manutenção da APAC durante internações, sem propor ações que tratem das causas subjacentes que levaram ao não cumprimento dessa norma, como possíveis falhas nos processos internos, falta de capacitação ou deficiências no sistema de controle. Portanto, a recomendação é focada na condição encontrada (ausência de APACs concomitantes) e não na causa raiz do problema. Como o critério 'Foco Causa' não foi atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 980,
+    "completion_tokens": 188,
+    "total_tokens": 1168,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 148
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

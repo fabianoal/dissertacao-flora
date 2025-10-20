@@ -1,0 +1,28 @@
+{
+  "id": "d12d4495-d525-4d5d-ad8c-e0cc5f2615bc",
+  "object": "chat.completion",
+  "created": 1760390278,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a orientação de fiscais e gestores para conferir documentação comprobatória, o que visa prevenir a ocorrência de impropriedades similares no futuro, tratando assim a causa relacionada à falta de verificação adequada. Já em relação aos efeitos pretendidos pela recomendação, a ação de conferir documentação, se implementada como um procedimento padrão, pode persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1004,
+    "completion_tokens": 151,
+    "total_tokens": 1155,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 172
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

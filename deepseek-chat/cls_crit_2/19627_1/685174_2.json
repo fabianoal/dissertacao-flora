@@ -1,0 +1,28 @@
+{
+  "id": "a3e1e299-76e3-43f6-a1cc-0c42c8c8dda1",
+  "object": "chat.completion",
+  "created": 1760458153,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação estabelece processos sistemáticos para garantir a elaboração e envio de relatórios trimestrais, além de medidas preventivas ou corretivas em caso de descumprimento, o que efetivamente trata a causa da ausência de documentos de suporte. Quanto ao critério 'Efeitos Duradouros', as ações propostas, como a inserção no Transferegov e a adoção de medidas padronizadas, criam procedimentos que devem persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1261,
+    "completion_tokens": 182,
+    "total_tokens": 1443,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 365
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "9f19c3ce-e1b3-400f-b866-ae6156e6b2c7",
+  "object": "chat.completion",
+  "created": 1760395220,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe duas ações principais: capacitação da equipe e estabelecimento de sistema de registros. A capacitação da equipe visa tratar a causa do problema (falta de conhecimento/competência para execução correta das rotinas), enquanto o sistema de registros visa criar mecanismos de controle e documentação. Portanto, há ação focada na causa. Já em relação aos efeitos pretendidos pela recomendação, tanto a capacitação quanto o sistema de registros criam estruturas e procedimentos que permanecem independentemente da mudança de atores específicos, pois o conhecimento institucionalizado e os sistemas documentais persistem mesmo com rotatividade de pessoal.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1120,
+    "completion_tokens": 189,
+    "total_tokens": 1309,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 288
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

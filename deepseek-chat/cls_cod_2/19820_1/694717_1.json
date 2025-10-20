@@ -1,0 +1,28 @@
+{
+  "id": "54fe1bfe-e53f-4928-9a71-118221199852",
+  "object": "chat.completion",
+  "created": 1760398228,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações como levantamento de problemas, definição de prioridades, planejamento das ações e estabelecimento de critérios de classificação de risco, que visam tratar as causas subjacentes da falta de planejamento e critérios definidos, indo além da correção imediata da condição. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como a definição de critérios e metas, tendem a criar estruturas e processos permanentes que permanecerão mesmo com mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1050,
+    "completion_tokens": 178,
+    "total_tokens": 1228,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 218
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "47d1feda-9dc8-4ed3-87f5-d98f6b5daacb",
+  "object": "chat.completion",
+  "created": 1760401120,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação proposta consiste em notificar os responsáveis para que efetuem a devolução de valores cobrados indevidamente, focando na correção da condição financeira irregular identificada. Não há menção a ações que tratem das causas subjacentes que levaram à cobrança inadequada, como falhas em processos de verificação, capacitação de pessoal ou controles internos. Portanto, a recomendação é condition-based, visando remediar o efeito imediato, e não cause-based. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1152,
+    "completion_tokens": 182,
+    "total_tokens": 1334,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 192
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

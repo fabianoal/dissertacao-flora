@@ -1,0 +1,28 @@
+{
+  "id": "9ab43aa1-4793-4ca1-918c-722f9f3132f7",
+  "object": "chat.completion",
+  "created": 1760468397,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda diretamente a causa do problema identificado na constatação, que é a falta de registro adequado da cirurgia de tireoidectomia nos prontuários, propondo uma ação corretiva sistemática. Para o critério 'Efeitos Duradouros', a recomendação estabelece uma prática institucional de registro que deve persistir independentemente de mudanças na equipe, alinhando-se com a definição de efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1206,
+    "completion_tokens": 162,
+    "total_tokens": 1368,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 310
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "f2edd5f4-6e9d-4a35-9d18-d62e0e6d90b5",
+  "object": "chat.completion",
+  "created": 1760462165,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações que visam prevenir a reincidência do problema ao estabelecer processos de validação e conferência antes do pagamento, abordando assim a causa raiz (falta de controle adequado na verificação documental). Quanto ao critério 'Efeitos Duradouros', as medidas sugeridas (validação e conferência sistemática) criam um processo que deve persistir independentemente de mudanças de pessoal, indicando durabilidade.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1356,
+    "completion_tokens": 163,
+    "total_tokens": 1519,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 396
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

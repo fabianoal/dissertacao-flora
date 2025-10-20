@@ -1,0 +1,28 @@
+{
+  "id": "f8e0f75d-26e1-46a7-acab-3346a94ba0d7",
+  "object": "chat.completion",
+  "created": 1760466569,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise identificou corretamente que a terceira ação da recomendação aborda a causa raiz do problema. Para o critério 'Efeitos Duradouros', a avaliação considerou que a ação de qualificação e organização de processos criaria estruturas permanentes, mas discordo dessa conclusão devido à natureza temporária dos efeitos de capacitação.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1740,
+    "completion_tokens": 135,
+    "total_tokens": 1875,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 908
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

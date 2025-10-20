@@ -1,0 +1,28 @@
+{
+  "id": "f55fb12c-de9a-4fa3-84a4-3c7d71c97b71",
+  "object": "chat.completion",
+  "created": 1760462717,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda diretamente as causas estruturais e operacionais que levaram à não conformidade, como rachaduras, infiltrações, instalações elétricas inadequadas e falta de espaços dedicados, alinhando-se com a definição de recomendações com foco na causa. Quanto ao critério 'Efeitos Duradouros', as melhorias propostas, como adequações físicas e criação de salas específicas, são de natureza permanente e não dependem de atores específicos para sua continuidade, desde que haja manutenção básica.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1739,
+    "completion_tokens": 185,
+    "total_tokens": 1924,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 843
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

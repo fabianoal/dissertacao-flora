@@ -1,0 +1,28 @@
+{
+  "id": "6c86b885-dfc4-464b-8277-9a438d270b66",
+  "object": "chat.completion",
+  "created": 1760464253,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a criação de procedimentos formais para o transporte de imunobiológicos, incluindo monitoramento contínuo de temperatura e protocolos específicos, o que visa tratar a causa raiz do problema (ausência de procedimentos padronizados) e não apenas corrigir a condição atual. Já em relação ao critério 'Efeitos Duradouros', a implementação de procedimentos documentados e protocolos estabelecidos criará uma estrutura permanente que permanecerá efetiva mesmo com mudanças na equipe ou nos atores envolvidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1366,
+    "completion_tokens": 179,
+    "total_tokens": 1545,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 470
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

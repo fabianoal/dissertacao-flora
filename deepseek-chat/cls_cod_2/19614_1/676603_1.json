@@ -1,0 +1,28 @@
+{
+  "id": "eabf88b6-62f7-4813-bc62-11a13f45a665",
+  "object": "chat.completion",
+  "created": 1760390326,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"A recomendação se limita a citar o cumprimento de uma portaria existente, sem propor ações específicas para abordar a causa subjacente da ausência de visitas técnicas, como falhas em processos de planejamento, alocação de recursos ou monitoramento. Portanto, não há ação proposta que trate da causa do problema. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n   \"Foco Causa\": \"Não\",\n   \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 924,
+    "completion_tokens": 141,
+    "total_tokens": 1065,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 92
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

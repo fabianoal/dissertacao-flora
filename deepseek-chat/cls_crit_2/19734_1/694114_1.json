@@ -1,0 +1,28 @@
+{
+  "id": "dfc89e31-a4d0-4477-8866-92535e811711",
+  "object": "chat.completion",
+  "created": 1760462554,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identifica corretamente que a recomendação trata da causa da deficiência na infraestrutura, que é a falta de profissionais de enfermagem conforme a normativa. Para o critério 'Efeitos Duradouros', a análise do modelo argumenta que suprir o quadro estabelece uma estrutura permanente, mas a recomendação em si não especifica mecanismos para garantir a permanência dessa estrutura independentemente de mudanças na equipe, sendo mais focada na correção imediata da condição.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1220,
+    "completion_tokens": 169,
+    "total_tokens": 1389,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 260
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

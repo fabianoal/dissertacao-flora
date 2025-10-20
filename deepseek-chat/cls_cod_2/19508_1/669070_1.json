@@ -1,0 +1,28 @@
+{
+  "id": "0c5be572-34ae-4dd6-98fb-35a7c3560ae6",
+  "object": "chat.completion",
+  "created": 1760386450,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação exige a apresentação de documentos específicos (Licença Sanitária e Certificado de Regularidade Técnica) para comprovar a regularidade do estabelecimento, mas não propõe ações que tratem da causa subjacente da não apresentação desses documentos, como falhas em processos internos de gestão documental ou capacitação de pessoal. Em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, esta análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1088,
+    "completion_tokens": 152,
+    "total_tokens": 1240,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 192
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

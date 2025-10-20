@@ -1,0 +1,28 @@
+{
+  "id": "76709d66-2ac6-45c0-bfcc-f042e07f2d26",
+  "object": "chat.completion",
+  "created": 1760455313,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identificou corretamente que a recomendação se concentra na correção da condição irregular atual (veículos não incorporados ao patrimônio) e no cumprimento de procedimentos legais, sem abordar as causas subjacentes da falha. Quanto ao critério 'Efeitos Duradouros', a análise está correta ao considerar que não se aplica, dado que o critério 'Foco Causa' não foi atendido.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1384,
+    "completion_tokens": 157,
+    "total_tokens": 1541,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 488
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

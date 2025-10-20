@@ -1,0 +1,28 @@
+{
+  "id": "e2ba532a-74ce-4a77-a12d-ffbfeecc5a32",
+  "object": "chat.completion",
+  "created": 1759368018,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação se limita a exigir o ressarcimento do valor referente às OPME sem rastreabilidade, não identificando as causas institucionais que levaram à falta de rastreabilidade (como falhas nos processos de registro, controle ou monitoramento), não atuando no nível institucional para prevenir a recorrência do problema, e as mudanças produzidas são pontuais (ressarcimento financeiro) sem potencial de perduração no tempo.\",\n    \"categoria\": \"foco-condicao\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1451,
+    "completion_tokens": 124,
+    "total_tokens": 1575,
+    "prompt_tokens_details": {
+      "cached_tokens": 1280
+    },
+    "prompt_cache_hit_tokens": 1280,
+    "prompt_cache_miss_tokens": 171
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

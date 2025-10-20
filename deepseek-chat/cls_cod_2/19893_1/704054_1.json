@@ -1,0 +1,28 @@
+{
+  "id": "168fb08a-dacc-43e3-b687-4d55ef49321e",
+  "object": "chat.completion",
+  "created": 1760401128,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações como revisão e padronização de registros médicos, capacitação das equipes, monitoramento ativo e discussão multidisciplinares de casos complexos, que visam tratar as causas subjacentes do problema (como falhas processuais, falta de capacitação e ausência de monitoramento) em vez de apenas corrigir a condição específica de atraso cirúrgico. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas (padronização de registros, capacitação e monitoramento) estabelecem processos e estruturas que podem persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1107,
+    "completion_tokens": 196,
+    "total_tokens": 1303,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 275
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

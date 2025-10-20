@@ -1,0 +1,28 @@
+{
+  "id": "fe8a024a-b69b-4fb8-853d-15681a87eade",
+  "object": "chat.completion",
+  "created": 1760035724,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere que a empresa encaminhe a documentação quando solicitada, o que constitui uma ação para resolver a condição encontrada de não apresentação do relatório de estoque. No entanto, a ação proposta é genérica, limitando-se a citar o cumprimento de normativos existentes sem propor medidas específicas para prevenir a recorrência da causa subjacente, como melhorias em processos internos ou capacitação. Portanto, não há ação com foco na causa que vá além do mero cumprimento normativo, e os efeitos duradouros não se aplicam devido à natureza genérica da recomendação.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1268,
+    "completion_tokens": 189,
+    "total_tokens": 1457,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 244
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

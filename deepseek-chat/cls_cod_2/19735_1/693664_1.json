@@ -1,0 +1,28 @@
+{
+  "id": "05e249ec-decf-4756-9a91-ccc2a599f514",
+  "object": "chat.completion",
+  "created": 1760370511,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações para corrigir condições específicas identificadas (metodologia inadequada da pesquisa de satisfação e falta de pediatra com RQE), sem abordar as causas subjacentes que levaram a essas condições, como falhas nos processos de gestão contratual ou monitoramento. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, esta análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se Aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1127,
+    "completion_tokens": 144,
+    "total_tokens": 1271,
+    "prompt_tokens_details": {
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 935
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

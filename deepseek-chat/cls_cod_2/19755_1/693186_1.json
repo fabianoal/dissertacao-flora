@@ -1,0 +1,28 @@
+{
+  "id": "be6f51b9-015f-4cdf-84c9-661e8601aa3d",
+  "object": "chat.completion",
+  "created": 1760395540,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a citar a obrigatoriedade legal de envio do Relatório de Gestão ao Conselho de Saúde, sem propor ações específicas para tratar a causa subjacente da ausência dos instrumentos de gestão (como capacitação, revisão de processos ou implementação de sistemas de controle). Portanto, não há foco na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1035,
+    "completion_tokens": 148,
+    "total_tokens": 1183,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 203
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

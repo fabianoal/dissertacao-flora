@@ -1,0 +1,28 @@
+{
+  "id": "4dad7a56-09d2-4772-bdae-b829eea30fae",
+  "object": "chat.completion",
+  "created": 1760384678,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a anexação de exames comprobatórios ao prontuário do paciente, o que visa corrigir diretamente a condição encontrada de ausência desses documentos, sem abordar as causas subjacentes, como falhas em processos de documentação ou treinamento. Portanto, o foco está na condição, não na causa. Como o critério 'Foco Causa' não é atendido, a avaliação de efeitos duradouros não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1013,
+    "completion_tokens": 146,
+    "total_tokens": 1159,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 117
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

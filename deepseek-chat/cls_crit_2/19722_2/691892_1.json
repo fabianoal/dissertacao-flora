@@ -1,0 +1,28 @@
+{
+  "id": "ae0da87e-d385-44c7-aea0-487ab15f8209",
+  "object": "chat.completion",
+  "created": 1760462354,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação claramente aborda a causa raiz do problema, que é a falta de planejamento e monitoramento sistemático dos dados de produção ambulatorial, incluindo a definição de instâncias de controle. Quanto ao critério 'Efeitos Duradouros', as ações propostas, como institucionalizar o planejamento e estabelecer instâncias formais de controle, são estruturantes e criam processos que devem persistir independentemente de mudanças de pessoal, garantindo efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1250,
+    "completion_tokens": 172,
+    "total_tokens": 1422,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 354
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

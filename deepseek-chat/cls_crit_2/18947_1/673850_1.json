@@ -1,0 +1,28 @@
+{
+  "id": "91c6ab31-b2f1-454e-8594-e7f7d20ae635",
+  "object": "chat.completion",
+  "created": 1760450752,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação se concentra na correção imediata da condição irregular específica (despesas sem comprovação), sem propor ações para tratar causas subjacentes, como falhas em processos de controle interno ou capacitação. No entanto, a fundamentação legal citada na recomendação poderia ser interpretada como indiretamente abordando causas, mas a ação proposta é claramente focada na condição atual.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1675,
+    "completion_tokens": 145,
+    "total_tokens": 1820,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 779
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

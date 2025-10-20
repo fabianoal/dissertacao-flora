@@ -1,0 +1,28 @@
+{
+  "id": "91cdd5cb-fdef-4527-9acf-e68e22c6addf",
+  "object": "chat.completion",
+  "created": 1760400676,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe alinhar procedimentos para que sejam previamente aprovados, o que aborda a causa do problema de autorizações posteriores ao início do tratamento, visando evitar sua recorrência. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como a implementação de procedimentos de aprovação prévia e a manutenção de prontuários completos, são baseadas em normas e leis, o que tende a garantir que os efeitos permaneçam mesmo com mudanças de atores envolvidos.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1115,
+    "completion_tokens": 161,
+    "total_tokens": 1276,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 283
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

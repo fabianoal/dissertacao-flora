@@ -1,0 +1,28 @@
+{
+  "id": "17d107c6-8b84-40b7-a96f-fdf6815f8b73",
+  "object": "chat.completion",
+  "created": 1760456125,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo considerou que a recomendação trata da causa do problema (processos de análise insuficientes) e que seus efeitos seriam duradouros devido ao estabelecimento de uma base processual robusta. No entanto, é necessário examinar se a recomendação realmente aborda a causa raiz da irregularidade específica (contratação de funcionário como Ouvidor) e se a implementação de instrumentos aprimorados garante efeitos permanentes.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1176,
+    "completion_tokens": 148,
+    "total_tokens": 1324,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 280
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

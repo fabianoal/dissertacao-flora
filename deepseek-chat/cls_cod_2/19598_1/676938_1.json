@@ -1,0 +1,28 @@
+{
+  "id": "ef10962b-978a-47cc-8c56-aaef3bccafb5",
+  "object": "chat.completion",
+  "created": 1760388886,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a capacitação dos Médicos Reguladores para realizar o pronto atendimento das demandas e, se necessário, retornar à ligação de socorro, conforme normativas. Essa ação visa tratar a causa do problema, que é a falta de capacitação adequada dos profissionais, em vez de apenas corrigir a condição específica de encaminhamentos sem atendimento. Quanto aos efeitos duradouros, a capacitação proporciona conhecimento e habilidades que permanecem mesmo com mudanças nos atores envolvidos, desde que integrada a processos contínuos de treinamento.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1014,
+    "completion_tokens": 166,
+    "total_tokens": 1180,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 182
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

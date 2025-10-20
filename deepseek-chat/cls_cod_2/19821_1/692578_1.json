@@ -1,0 +1,28 @@
+{
+  "id": "3def0c24-4fab-46f4-950a-695107e2962c",
+  "object": "chat.completion",
+  "created": 1760398280,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe que as UBSs realizem o acolhimento de casos de urgências e emergências de saúde mental, conforme a portaria citada, o que visa corrigir diretamente a condição encontrada (não realização desses acolhimentos), sem abordar as causas subjacentes que levam a essa não realização, como falta de capacitação, recursos ou protocolos. Portanto, a recomendação tem foco na condição, não na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1042,
+    "completion_tokens": 183,
+    "total_tokens": 1225,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 210
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "9fbfd306-907c-4ede-b923-7ca69cb8dabf",
+  "object": "chat.completion",
+  "created": 1760386742,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere a adoção de ações específicas propostas em documentos normativos para melhorar o resultado do indicador 2, mas não identifica ou propõe medidas para tratar a causa subjacente que levou o município a não adotar essas ações inicialmente (como falta de capacitação, recursos insuficientes ou problemas de gestão). Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1021,
+    "completion_tokens": 158,
+    "total_tokens": 1179,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 189
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

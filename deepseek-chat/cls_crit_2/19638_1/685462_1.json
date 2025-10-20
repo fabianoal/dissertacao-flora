@@ -1,0 +1,28 @@
+{
+  "id": "0d1a280e-7d8c-4838-91ad-889368b01729",
+  "object": "chat.completion",
+  "created": 1760458593,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe revisar as agendas dos profissionais médicos e realizar mapeamento da força de trabalho para adequar a oferta ambulatorial à carga horária, o que efetivamente visa tratar a causa do problema (desalinhamento estrutural entre capacidade e oferta) e não apenas corrigir a condição momentânea. Quanto ao critério 'Efeitos Duradouros', a implementação de processos de revisão de agendas e mapeamento individualizado estabelece mudanças estruturais que devem persistir independentemente de mudanças nos profissionais ou gestores, promovendo efeitos sustentáveis.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1267,
+    "completion_tokens": 189,
+    "total_tokens": 1456,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 371
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

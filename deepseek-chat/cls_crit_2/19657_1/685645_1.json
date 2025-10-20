@@ -1,0 +1,28 @@
+{
+  "id": "0a1e2303-6dbd-4bef-82a3-2e269bbb27bd",
+  "object": "chat.completion",
+  "created": 1760458913,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação aborda a causa raiz do problema (falta de organização e integração nos processos) e que as ações propostas têm potencial para efeitos duradouros, mesmo com mudanças de pessoal. No entanto, vale destacar que a recomendação é genérica e não especifica prazos ou responsabilidades, o que poderia afetar sua eficácia na prática.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1261,
+    "completion_tokens": 141,
+    "total_tokens": 1402,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 365
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

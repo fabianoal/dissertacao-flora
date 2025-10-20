@@ -1,0 +1,28 @@
+{
+  "id": "69c4c927-b4a6-485e-8d18-0d13c0b4e917",
+  "object": "chat.completion",
+  "created": 1760455385,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está parcialmente correta, mas requer ajustes em relação ao critério 'Foco Causa'. A recomendação, embora enfatize o monitoramento e ações corretivas para desvios, pode ser interpretada como abordando indiretamente causas relacionadas a falhas de gestão ou controle, embora não explicitamente. No critério 'Efeitos Duradouros', a conclusão de 'Não se aplica' está adequada, dado que o 'Foco Causa' não foi claramente atendido.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1425,
+    "completion_tokens": 163,
+    "total_tokens": 1588,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 465
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

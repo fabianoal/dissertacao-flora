@@ -1,0 +1,28 @@
+{
+  "id": "b53fc709-9ba0-430b-beee-e97b1c506322",
+  "object": "chat.completion",
+  "created": 1760400344,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a adoção de procedimentos estabelecidos em normativos para prevenir a recorrência do fato apresentado, indicando ações que visam tratar a causa do problema (irregularidade na cobrança) ao invés de apenas corrigir a condição atual. Já em relação aos efeitos pretendidos pela recomendação, a implementação de procedimentos baseados em normativos tende a criar estruturas ou processos permanentes que permanecem válidos independentemente de mudanças nos atores envolvidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1012,
+    "completion_tokens": 153,
+    "total_tokens": 1165,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 116
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d4eaeed3-49f5-4c5d-8df4-bbef613f16b7",
+  "object": "chat.completion",
+  "created": 1760390066,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a orientação de fiscais e gestores para conferir documentação comprobatória, o que visa corrigir a condição específica de afronta ao princípio da competitividade, mas não aborda ações para tratar as causas subjacentes, como falhas nos processos de cotação ou capacitação inadequada. Portanto, não há foco na causa. Quanto aos efeitos duradouros, como o critério 'Foco Causa' é 'Não', não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1043,
+    "completion_tokens": 157,
+    "total_tokens": 1200,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 211
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

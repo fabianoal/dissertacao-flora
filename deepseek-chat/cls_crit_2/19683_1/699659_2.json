@@ -1,0 +1,28 @@
+{
+  "id": "b2524c16-7d83-4496-ad84-34ea6471cd4b",
+  "object": "chat.completion",
+  "created": 1760459677,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise fornecida avalia corretamente que a recomendação se concentra em corrigir a condição imediata de ausência do contrato no sistema, sem abordar causas subjacentes, como falhas em processos ou capacitação. No entanto, a avaliação de 'Efeitos Duradouros' está corretamente marcada como 'Não se aplica', pois depende do critério 'Foco Causa' ser 'Sim'.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1176,
+    "completion_tokens": 138,
+    "total_tokens": 1314,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 280
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

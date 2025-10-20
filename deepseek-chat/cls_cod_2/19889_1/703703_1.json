@@ -1,0 +1,28 @@
+{
+  "id": "ea1de112-8f73-46ef-a87e-bdd7d41b81bd",
+  "object": "chat.completion",
+  "created": 1760400796,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação consiste em cumprir dispositivos normativos que estabelecem ações de regulação, controle e avaliação da produção assistencial, incluindo supervisão e processamento da produção ambulatorial e hospitalar. Essas ações visam implementar processos sistemáticos de controle e avaliação, o que pode abordar a causa subjacente das inconsistências na produção (como falhas nos sistemas de controle ou processamento), em vez de apenas corrigir as inconsistências específicas identificadas. Portanto, há foco na causa. Quanto aos efeitos duradouros, a implementação de processos de supervisão e avaliação analítica da produção tende a criar estruturas permanentes que independem de indivíduos específicos, mantendo seus efeitos mesmo com mudanças de atores.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1034,
+    "completion_tokens": 204,
+    "total_tokens": 1238,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 202
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

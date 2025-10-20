@@ -1,0 +1,28 @@
+{
+  "id": "9bed3ba7-0b93-40b6-bb74-0962a4e2b38d",
+  "object": "chat.completion",
+  "created": 1760394960,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a adequação do transporte com equipamentos que garantam monitoramento contínuo da temperatura e acondicionamento seguro, além da promoção de ações para validação dos processos. Essas medidas visam corrigir a condição atual de transporte inadequado, mas também incluem elementos que tratam de causas subjacentes, como a falta de processos validados e equipamentos adequados, que são fatores que podem evitar a recorrência do problema. Já em relação aos efeitos pretendidos, as ações sugeridas, como a implementação de equipamentos com monitoramento contínuo e processos validados, tendem a criar estruturas e procedimentos que permanecem independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1118,
+    "completion_tokens": 209,
+    "total_tokens": 1327,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 286
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

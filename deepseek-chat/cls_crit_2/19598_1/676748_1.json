@@ -1,0 +1,28 @@
+{
+  "id": "f7f9fefd-5129-4bc9-8fe3-0c3acf5d2faf",
+  "object": "chat.completion",
+  "created": 1760455685,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação aborda a causa do problema ao propor um critério permanente para inclusão de profissionais, mas superestimou os efeitos duradouros ao assumir que a mudança de procedimento persistiria automaticamente independentemente de mudanças nos atores.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1146,
+    "completion_tokens": 112,
+    "total_tokens": 1258,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 250
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

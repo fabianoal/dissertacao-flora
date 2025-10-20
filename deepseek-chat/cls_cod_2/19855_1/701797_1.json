@@ -1,0 +1,28 @@
+{
+  "id": "620501f4-305d-4129-a4ce-9254368110cc",
+  "object": "chat.completion",
+  "created": 1760399568,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a implantação de procedimentos para identificar e monitorar demandas reprimidas, incluindo integração entre unidades, padronização de registros e análise periódica, o que visa tratar a causa subjacente da falta de controle documentado, em vez de apenas corrigir a condição atual. Já em relação aos efeitos pretendidos pela recomendação, a padronização de procedimentos e a análise periódica tendem a criar estruturas e processos que podem persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1093,
+    "completion_tokens": 168,
+    "total_tokens": 1261,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 261
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

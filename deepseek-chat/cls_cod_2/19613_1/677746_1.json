@@ -1,0 +1,28 @@
+{
+  "id": "e6ae3eb1-d08b-4150-a8db-402d732a7806",
+  "object": "chat.completion",
+  "created": 1760390162,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe que o DSEI insira a avaliação de desempenho no sistema Transferegov, o que constitui uma ação para corrigir diretamente a condição encontrada (ausência da avaliação no sistema), sem evidenciar medidas para tratar a causa subjacente que levou a essa omissão. Já em relação aos efeitos pretendidos pela recomendação, como o critério 'Foco Causa' foi avaliado como 'Não', não se aplica a análise de efeitos duradouros.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 958,
+    "completion_tokens": 162,
+    "total_tokens": 1120,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 126
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

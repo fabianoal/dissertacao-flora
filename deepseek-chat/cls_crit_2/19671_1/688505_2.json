@@ -1,0 +1,28 @@
+{
+  "id": "6cf7864a-e933-4c6e-a82a-f2f308a423b4",
+  "object": "chat.completion",
+  "created": 1760459109,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação se concentra na comprovação da execução da manutenção e limpeza, sem abordar as causas subjacentes da falta de manutenção, como falhas em procedimentos, treinamento ou sistemas de controle. Portanto, a classificação como 'Não' para 'Foco Causa' é adequada. Quanto ao critério 'Efeitos Duradouros', como 'Foco Causa' foi 'Não', a resposta 'Não se aplica' está correta e não requer análise adicional.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1220,
+    "completion_tokens": 183,
+    "total_tokens": 1403,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 324
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

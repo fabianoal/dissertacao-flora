@@ -1,0 +1,28 @@
+{
+  "id": "c2c3033c-d616-446a-8179-f25bbd30e702",
+  "object": "chat.completion",
+  "created": 1760397856,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe uma ação que visa disponibilizar informações de atendimento para toda a rede, o que trata diretamente a causa do problema (falta de compartilhamento de registros), ao estabelecer um mecanismo permanente de acesso às informações. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um sistema de compartilhamento de informações cria uma estrutura que permanece funcional independentemente da mudança de profissionais ou gestores, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 928,
+    "completion_tokens": 149,
+    "total_tokens": 1077,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 96
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

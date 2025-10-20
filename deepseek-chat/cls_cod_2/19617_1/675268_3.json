@@ -1,0 +1,28 @@
+{
+  "id": "6b80da08-8585-4131-ae89-a2ae54b99ed5",
+  "object": "chat.completion",
+  "created": 1760390910,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a conferência da documentação para evitar a manutenção de informações incorretas, o que visa tratar a causa do problema (falta de verificação adequada) e não apenas corrigir as informações existentes. Já em relação aos efeitos pretendidos pela recomendação, a ação de conferência, se institucionalizada, pode gerar efeitos duradouros, pois estabelece um processo contínuo que independe de mudanças nos atores envolvidos.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 979,
+    "completion_tokens": 143,
+    "total_tokens": 1122,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 19
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

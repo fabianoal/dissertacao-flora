@@ -1,0 +1,28 @@
+{
+  "id": "821d0b93-9a88-4099-a971-ad19ae4c11a5",
+  "object": "chat.completion",
+  "created": 1760385103,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações para corrigir a condição imediata de ausência e preenchimento inadequado dos laudos nos prontuários, como anexar os documentos e garantir registros legíveis com assinaturas, sem abordar a causa subjacente que levou a essa falha (ex: falta de treinamento, processos deficientes). Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, não se aplica a análise.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1118,
+    "completion_tokens": 159,
+    "total_tokens": 1277,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 286
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

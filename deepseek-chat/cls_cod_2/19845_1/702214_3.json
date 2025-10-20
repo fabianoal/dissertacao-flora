@@ -1,0 +1,28 @@
+{
+  "id": "147ab85b-7a91-4306-8ee3-4165ca04787c",
+  "object": "chat.completion",
+  "created": 1760399160,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se concentra na recuperação do recurso financeiro que foi indevidamente utilizado, sem propor ações para tratar a causa subjacente da falta de documentação comprobatória das despesas. Não há menção a medidas como implementação de controles internos, capacitação de pessoal ou revisão de processos que poderiam prevenir a reincidência do problema. Portanto, a recomendação é focada na correção da condição atual (devolução dos recursos) e não na causa raiz que levou à falta de documentação.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1180,
+    "completion_tokens": 159,
+    "total_tokens": 1339,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 220
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

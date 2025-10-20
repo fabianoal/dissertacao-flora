@@ -1,0 +1,28 @@
+{
+  "id": "4aceb311-abdd-4a3f-9a19-0d66868cec38",
+  "object": "chat.completion",
+  "created": 1760392438,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a inserção do Laudo Técnico no sistema Transferegov para justificar o pagamento do adicional de insalubridade, o que trata diretamente a causa da não apresentação de documentos que respaldem os pagamentos, ao estabelecer um procedimento permanente de documentação. Já em relação aos efeitos pretendidos pela recomendação, a ação de inserir o laudo no sistema cria um registro formal e institucionalizado que permanece independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 993,
+    "completion_tokens": 164,
+    "total_tokens": 1157,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 161
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

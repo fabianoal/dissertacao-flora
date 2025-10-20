@@ -1,0 +1,28 @@
+{
+  "id": "beb288b4-f353-4b59-82f8-d3fe5b45f0bb",
+  "object": "chat.completion",
+  "created": 1760455365,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe acompanhar e apoiar tecnicamente a habilitação de um serviço de saúde, o que aborda diretamente a causa da ausência de serviço habilitado, que é a falta de implementação da política. Portanto, concordo com a classificação 'Sim'. Para o critério 'Efeitos Duradouros', a habilitação de um estabelecimento de saúde é um processo institucional que estabelece uma estrutura permanente, cujos efeitos, como a disponibilidade contínua do serviço, tendem a persistir independentemente de mudanças nos atores envolvidos, justificando a classificação 'Sim'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1178,
+    "completion_tokens": 201,
+    "total_tokens": 1379,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 218
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

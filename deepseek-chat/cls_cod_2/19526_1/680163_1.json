@@ -1,0 +1,28 @@
+{
+  "id": "bda6c173-9fd9-4930-8795-31ebbbd71424",
+  "object": "chat.completion",
+  "created": 1760387014,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe ações como manter o registro atualizado e adotar boas práticas, que visam corrigir a condição atual de preenchimento inadequado, mas não aborda explicitamente as causas subjacentes, como falta de treinamento ou recursos. Portanto, não há ação clara focada na causa. Quanto aos efeitos duradouros, como o critério 'Foco Causa' é 'Não', não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1010,
+    "completion_tokens": 142,
+    "total_tokens": 1152,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 178
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

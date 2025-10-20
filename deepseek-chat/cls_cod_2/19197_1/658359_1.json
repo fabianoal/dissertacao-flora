@@ -1,0 +1,28 @@
+{
+  "id": "3eee6d69-76b0-4a85-8a1f-74b9736057e3",
+  "object": "chat.completion",
+  "created": 1760384007,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação orienta o cumprimento de dispositivo legal que exige justificativa para adesão a atas de registro de preços, focando na conformidade normativa, mas não propõe ações específicas para tratar a causa subjacente da inadequação na elaboração de justificativas, como capacitação ou revisão de processos. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1031,
+    "completion_tokens": 153,
+    "total_tokens": 1184,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 199
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

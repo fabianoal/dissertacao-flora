@@ -1,0 +1,28 @@
+{
+  "id": "ca972bc3-6840-4315-9d5a-dbf8f02b312d",
+  "object": "chat.completion",
+  "created": 1760001941,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere uma ação imediata para comprovar ou providenciar a publicação da portaria, o que corrige a condição encontrada de falta de documentação. No entanto, não propõe ações adicionais para tratar a causa subjacente, como melhorias em processos ou políticas para prevenir futuras omissões, limitando-se a cumprir o acordado no plano de ação sem especificar medidas concretas além disso.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se Aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1150,
+    "completion_tokens": 145,
+    "total_tokens": 1295,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 190
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

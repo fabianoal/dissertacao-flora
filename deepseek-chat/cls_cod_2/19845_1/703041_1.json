@@ -1,0 +1,28 @@
+{
+  "id": "80310eff-5e86-4d97-ad82-968b60f576ce",
+  "object": "chat.completion",
+  "created": 1760399144,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação apenas cita normas existentes sobre parâmetros de produtividade (máximo de três pacientes por hora/médico e tempo médio de quatro minutos por classificação de risco) sem propor ações específicas para tratar a causa subjacente da falta de documentação que comprove a capacidade instalada e profissionais para executar os procedimentos informados. A recomendação não identifica nem aborda as causas que levaram à ausência dessa documentação. Já em relação aos efeitos pretendidos pela recomendação, como o critério 'Foco Causa' não foi atendido, não se aplica a análise de efeitos duradouros.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1067,
+    "completion_tokens": 185,
+    "total_tokens": 1252,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 235
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

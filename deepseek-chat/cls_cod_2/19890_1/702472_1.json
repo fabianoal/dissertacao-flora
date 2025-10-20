@@ -1,0 +1,28 @@
+{
+  "id": "05100ed0-e482-4e18-927f-0cb53ef42fbc",
+  "object": "chat.completion",
+  "created": 1760400920,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe intensificar o controle interno e cumprir orientações técnicas para garantir conformidade entre procedimentos autorizados e realizados, o que visa tratar a causa raiz do problema (falta de controle e desconformidade com normas), não apenas corrigir casos específicos. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas (controles internos e adesão a manuais técnicos) estabelecem processos e diretrizes que permanecem independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1415,
+    "completion_tokens": 167,
+    "total_tokens": 1582,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 583
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

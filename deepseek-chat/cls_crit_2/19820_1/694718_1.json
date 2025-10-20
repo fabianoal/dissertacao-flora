@@ -1,0 +1,28 @@
+{
+  "id": "deda8bae-6bb6-4a2e-a66b-79fd84548ec4",
+  "object": "chat.completion",
+  "created": 1760465781,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação possui ações voltadas para a causa do problema, que é a falta de estruturação de processos e sistemas para o acolhimento de urgência e emergência em saúde mental. No entanto, a avaliação sobre os efeitos duradouros merece uma análise mais aprofundada, considerando a natureza das ações propostas.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1399,
+    "completion_tokens": 128,
+    "total_tokens": 1527,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 503
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

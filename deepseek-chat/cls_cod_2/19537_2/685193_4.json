@@ -1,0 +1,28 @@
+{
+  "id": "72af2879-33a5-4316-93fc-6e6a9c3eb9ef",
+  "object": "chat.completion",
+  "created": 1760387219,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe ações para recuperar o valor indevidamente liquidado, focando na correção da condição específica de desembolso irregular, sem abordar as causas subjacentes que permitiram essa situação, como falhas em processos de controle interno ou capacitação de pessoal. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1036,
+    "completion_tokens": 140,
+    "total_tokens": 1176,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 140
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

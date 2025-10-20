@@ -1,0 +1,28 @@
+{
+  "id": "7780c657-888d-4773-9ad2-5ae737f095a3",
+  "object": "chat.completion",
+  "created": 1760399965,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a formalização da contratação das maternidades incluindo os indicadores da Rede Materna Infantil, o que visa corrigir a ausência de contratualização identificada na constatação. No entanto, essa ação trata diretamente da condição encontrada (falta de formalização) e não aborda as causas subjacentes que levaram a essa situação, como possíveis deficiências na gestão, falta de capacitação ou problemas estruturais. Portanto, a recomendação é focada na condição, não na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1011,
+    "completion_tokens": 190,
+    "total_tokens": 1201,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 179
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

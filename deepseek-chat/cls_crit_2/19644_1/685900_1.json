@@ -1,0 +1,28 @@
+{
+  "id": "b4d01706-4e65-4627-8ab6-acd4807ccce6",
+  "object": "chat.completion",
+  "created": 1760458729,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda a causa subjacente ao propor otimização de ações, aprimoramento de registros e educação continuada, que visam prevenir a reincidência da falta de comprovação. Quanto ao critério 'Efeitos Duradouros', as ações propostas, como educação continuada e institucionalização de práticas, têm potencial para sustentabilidade, mas a implementação efetiva depende de fatores externos, como adesão contínua e recursos, o que pode limitar a durabilidade absoluta.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1356,
+    "completion_tokens": 177,
+    "total_tokens": 1533,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 460
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

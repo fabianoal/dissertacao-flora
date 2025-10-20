@@ -1,0 +1,28 @@
+{
+  "id": "3e568768-9303-4cba-b0f7-e383163d856f",
+  "object": "chat.completion",
+  "created": 1760457341,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise fornecida avalia corretamente que a recomendação se concentra em corrigir a condição imediata da ausência dos relatórios, sem abordar causas subjacentes, como falhas processuais ou de capacitação. No entanto, a avaliação do critério 'Efeitos Duradouros' como 'Não se aplica' está alinhada com a ausência de foco na causa, mas é importante notar que, mesmo se houvesse foco na causa, a durabilidade dependeria da natureza das ações propostas.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1205,
+    "completion_tokens": 164,
+    "total_tokens": 1369,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 309
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

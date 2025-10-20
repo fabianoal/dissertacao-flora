@@ -1,0 +1,28 @@
+{
+  "id": "48672b89-dd68-41ff-910b-8dbdd9acde25",
+  "object": "chat.completion",
+  "created": 1760383935,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação se limita a citar o cumprimento de uma norma específica sem propor ações que abordem a causa subjacente da ausência de equipamentos, como falhas em processos de aquisição ou manutenção. Já em relação aos efeitos pretendidos pela recomendação, não se aplica, pois o foco não é na causa.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 954,
+    "completion_tokens": 118,
+    "total_tokens": 1072,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 122
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "b7fb2567-18bc-47c9-8721-768dcd0781da",
+  "object": "chat.completion",
+  "created": 1760387990,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe realizar reformas e reparos nas instalações físicas do SAMU Teresina para corrigir a condição encontrada de necessidade de reformas. No entanto, essa ação é focada na correção direta da condição física inadequada (reparos imediatos), sem evidências de que aborde as causas subjacentes que levaram à deterioração ou falta de manutenção (como falhas em processos de manutenção preventiva, alocação inadequada de recursos ou deficiências na gestão de infraestrutura). Portanto, não há ação proposta que trate da causa do problema. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1003,
+    "completion_tokens": 210,
+    "total_tokens": 1213,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 171
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

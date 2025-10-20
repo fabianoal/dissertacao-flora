@@ -1,0 +1,28 @@
+{
+  "id": "377ffb91-3aac-4bb0-b5db-bcc9b98323b1",
+  "object": "chat.completion",
+  "created": 1760388550,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que visam tratar a causa raiz da condição encontrada (falta de exames de imagem e laboratoriais), ao sugerir investimentos em equipamentos, profissionais e estrutura hospitalar para expandir a oferta desses exames, o que aborda a deficiência estrutural e de recursos que gerou a não realização dos exames. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas (investimentos em equipamentos e estrutura) criam uma capacidade permanente no serviço de saúde, cujos benefícios (oferta contínua de exames) devem persistir mesmo com mudanças nos atores envolvidos, como profissionais ou gestores.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1132,
+    "completion_tokens": 195,
+    "total_tokens": 1327,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 300
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

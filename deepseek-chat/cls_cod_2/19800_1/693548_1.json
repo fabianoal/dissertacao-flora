@@ -1,0 +1,28 @@
+{
+  "id": "d5cbabe8-64c6-44e0-9e07-b1070a9a7691",
+  "object": "chat.completion",
+  "created": 1760397324,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que visam estabelecer procedimentos sistemáticos de verificação e registro das condições de temperatura, transporte e armazenagem, além da adoção de áreas refrigeradas, o que trata diretamente as causas da falta de controle na cadeia de frio, como a ausência de monitoramento adequado e infraestrutura insuficiente. Já em relação aos efeitos pretendidos, as medidas sugeridas, como a implementação de áreas refrigeradas e procedimentos padronizados, criam estruturas e processos que permanecem independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1133,
+    "completion_tokens": 180,
+    "total_tokens": 1313,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 301
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

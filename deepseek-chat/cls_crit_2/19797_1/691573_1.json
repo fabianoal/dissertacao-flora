@@ -1,0 +1,28 @@
+{
+  "id": "c85d5c6c-a338-43eb-8433-27dada708542",
+  "object": "chat.completion",
+  "created": 1760464785,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A classificação do modelo foi analisada considerando a definição de recomendações com foco na causa (que abordam a raiz do problema para evitar recorrência) e efeitos duradouros (que persistem independentemente de mudanças nos atores).\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1158,
+    "completion_tokens": 105,
+    "total_tokens": 1263,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 262
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

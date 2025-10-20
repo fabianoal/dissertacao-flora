@@ -1,0 +1,28 @@
+{
+  "id": "b96ac357-bf5b-45aa-b0ae-0ac6650f19ad",
+  "object": "chat.completion",
+  "created": 1760392434,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere a atualização do registro de profissionais no CNES, o que é uma ação direta para corrigir a condição encontrada de registros desatualizados, sem propor medidas para tratar a causa subjacente do problema, como a implementação de um processo contínuo de atualização ou a designação de responsáveis pela manutenção dos registros. Portanto, o foco está na condição, não na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 972,
+    "completion_tokens": 162,
+    "total_tokens": 1134,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 140
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

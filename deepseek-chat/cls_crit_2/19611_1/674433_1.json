@@ -1,0 +1,28 @@
+{
+  "id": "d6d492f8-7fdc-4821-83a4-759222a1cda5",
+  "object": "chat.completion",
+  "created": 1760456533,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe uma ação de conferência sistemática da documentação no Transferegov, que visa prevenir a manutenção de informações incorretas, abordando assim a causa subjacente (falta de verificação adequada) e não apenas corrigindo informações existentes. Quanto ao critério 'Efeitos Duradouros', a implementação de um procedimento de conferência sistemática pode ser institucionalizada, mas a análise original assume que isso ocorrerá automaticamente, sem considerar que a mera determinação de realizar conferências não garante a permanência dos efeitos se não houver formalização de processos ou políticas.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1206,
+    "completion_tokens": 195,
+    "total_tokens": 1401,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 310
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

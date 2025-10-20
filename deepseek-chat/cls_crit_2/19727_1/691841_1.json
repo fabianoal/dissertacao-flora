@@ -1,0 +1,28 @@
+{
+  "id": "bd5a981a-b518-487c-af0a-8932c7016958",
+  "object": "chat.completion",
+  "created": 1760462398,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identifica corretamente que a recomendação se concentra em corrigir a condição imediata (layout inadequado) sem abordar causas subjacentes, como falhas em processos de implementação ou fiscalização. Para 'Efeitos Duradouros', a análise segue corretamente a premissa de que não se aplica quando 'Foco Causa' é 'Não'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1259,
+    "completion_tokens": 145,
+    "total_tokens": 1404,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1259
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "23e26df5-fddd-45fe-b90f-f2286e459b9e",
+  "object": "chat.completion",
+  "created": 1760389378,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe apenas a inserção dos relatórios ausentes no sistema Transferegov, o que corrige a condição imediata de falta de documentação, mas não aborda as causas subjacentes, como possíveis falhas nos processos de monitoramento ou capacitação. Já em relação aos efeitos pretendidos pela recomendação, como o critério 'Foco Causa' não foi atendido, essa análise não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 968,
+    "completion_tokens": 139,
+    "total_tokens": 1107,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 136
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

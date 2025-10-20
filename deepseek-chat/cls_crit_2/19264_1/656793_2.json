@@ -1,0 +1,28 @@
+{
+  "id": "d537bce2-7435-4e14-92a7-4cbcfd4e0abf",
+  "object": "chat.completion",
+  "created": 1760451360,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação se limita a garantir a anexação de exames de imagem pós-operatórios, o que é uma ação direta para corrigir a condição encontrada (apresentação parcial), sem propor medidas que abordem as causas subjacentes, como falhas nos processos de documentação, capacitação da equipe ou mecanismos de controle. Portanto, a classificação como 'Não' está correta. Quanto ao critério 'Efeitos Duradouros', como o 'Foco Causa' foi avaliado como 'Não', a resposta 'Não se aplica' é adequada, seguindo a regra estabelecida.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1420,
+    "completion_tokens": 197,
+    "total_tokens": 1617,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 460
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

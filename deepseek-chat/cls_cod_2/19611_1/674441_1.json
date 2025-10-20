@@ -1,0 +1,28 @@
+{
+  "id": "3725c7ba-f5a8-4f2b-8437-33f3aad304b3",
+  "object": "chat.completion",
+  "created": 1760389734,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe que o DSEI insira tempestivamente os relatórios no Transferegov, focando na correção da condição específica de intempestividade identificada. Não há menção a ações que abordem as causas subjacentes que levam à inserção tardia, como falhas de processo, capacitação insuficiente ou falta de recursos. Portanto, a recomendação é condition-based, não cause-based. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 962,
+    "completion_tokens": 169,
+    "total_tokens": 1131,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 130
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

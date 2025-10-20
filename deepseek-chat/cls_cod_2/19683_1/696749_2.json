@@ -1,0 +1,28 @@
+{
+  "id": "94a9a23d-98c1-4cd1-b621-a3694d3a728c",
+  "object": "chat.completion",
+  "created": 1760393082,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe apenas encaminhar a questão para que outros órgãos se manifestem sobre sua competência de acompanhamento, sem propor ações específicas para tratar a causa da ausência de atuação do fiscal financeiro. Não há menção a medidas como capacitação, revisão de processos, alocação de recursos ou mudanças estruturais que possam prevenir a recorrência do problema. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 974,
+    "completion_tokens": 173,
+    "total_tokens": 1147,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 142
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

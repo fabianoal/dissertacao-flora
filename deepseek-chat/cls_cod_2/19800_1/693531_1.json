@@ -1,0 +1,28 @@
+{
+  "id": "da3b492d-b1ca-490f-b4d4-b877fba5c3f0",
+  "object": "chat.completion",
+  "created": 1760397284,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe duas ações principais: manter o CNES atualizado e ajustar o quadro de profissionais da Rede de Frio para atender aos requisitos normativos. A ação de ajustar o quadro de profissionais aborda diretamente a causa da insuficiência de pessoal identificada na constatação, visando uma solução estrutural e de longo prazo, o que caracteriza foco na causa. Em relação aos efeitos duradouros, a implementação de um quadro adequado de profissionais, baseado em normas legais, tende a persistir mesmo com mudanças nos atores envolvidos, pois estabelece uma estrutura formal e contínua.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1125,
+    "completion_tokens": 175,
+    "total_tokens": 1300,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 293
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

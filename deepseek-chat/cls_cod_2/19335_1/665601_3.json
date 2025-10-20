@@ -1,0 +1,28 @@
+{
+  "id": "e36f96d3-96a7-49ce-ba74-ec0bc4dbbfb7",
+  "object": "chat.completion",
+  "created": 1760384731,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe ações de cobrança e devolução de valores, focando na correção da condição específica de irregularidade financeira identificada, sem propor medidas para tratar a causa raiz da ausência de exames comprobatórios nos prontuários médicos, como falhas em processos de documentação ou controle de qualidade. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1014,
+    "completion_tokens": 155,
+    "total_tokens": 1169,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 182
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

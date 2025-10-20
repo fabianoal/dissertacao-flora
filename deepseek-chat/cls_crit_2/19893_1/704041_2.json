@@ -1,0 +1,28 @@
+{
+  "id": "c56ffa17-f6e3-4380-93fd-d5fa2fec9855",
+  "object": "chat.completion",
+  "created": 1760448638,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação aborda a causa subjacente das irregularidades (falta de supervisão e controle) e que os efeitos são duradouros devido à institucionalização de processos. No entanto, há uma nuance a considerar: a recomendação é genérica e não especifica ações diretas para corrigir as causas imediatas das incompatibilidades identificadas, focando mais em melhorias sistêmicas.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1396,
+    "completion_tokens": 145,
+    "total_tokens": 1541,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 564
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

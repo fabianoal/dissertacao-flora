@@ -1,0 +1,28 @@
+{
+  "id": "610e4bff-dcd5-4eae-93b6-9ec48bd9c887",
+  "object": "chat.completion",
+  "created": 1760037372,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere a implementação de medidas para garantir que o Cerest Centro atenda e mantenha os critérios de habilitação, o que constitui uma ação corretiva para resolver a condição encontrada de não conformidade. No entanto, a recomendação é genérica, limitando-se a citar o cumprimento de normativos existentes sem propor ações específicas para tratar a causa subjacente, como melhorias em processos ou capacitação. Como a ação de foco na causa é genérica, os efeitos duradouros não são avaliados como presentes.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1233,
+    "completion_tokens": 170,
+    "total_tokens": 1403,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 209
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

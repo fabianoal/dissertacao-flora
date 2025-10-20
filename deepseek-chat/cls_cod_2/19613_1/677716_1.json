@@ -1,0 +1,28 @@
+{
+  "id": "565f35ab-ad2e-486c-b98c-d220826904ef",
+  "object": "chat.completion",
+  "created": 1760389998,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe notificar a convenente para apresentar justificativas sobre o faturamento e, caso não apresente, adotar medidas para ressarcimento dos valores. Essas ações visam corrigir a condição específica de ausência de comprovação de prestação de serviço e recuperar os recursos, sem propor medidas para evitar que situações semelhantes ocorram no futuro, como melhorias em processos de fiscalização ou controle interno. Portanto, a recomendação é focada na condição atual, não na causa subjacente. Quanto aos efeitos duradouros, como o foco não é na causa, não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1078,
+    "completion_tokens": 185,
+    "total_tokens": 1263,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 246
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

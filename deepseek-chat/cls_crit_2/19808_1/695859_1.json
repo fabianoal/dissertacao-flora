@@ -1,0 +1,28 @@
+{
+  "id": "69ea0ce6-f8e5-42f3-ab90-b30469143e05",
+  "object": "chat.completion",
+  "created": 1760465177,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação se limita a corrigir a condição observada de subutilização do sistema e-SUS, sem propor ações que abordem as causas subjacentes, como falta de treinamento, recursos inadequados ou políticas de implementação. No entanto, a avaliação do critério 'Efeitos Duradouros' está alinhada com a ausência de foco na causa, sendo corretamente marcada como 'Não se aplica'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1213,
+    "completion_tokens": 154,
+    "total_tokens": 1367,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 317
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

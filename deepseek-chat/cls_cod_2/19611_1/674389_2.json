@@ -1,0 +1,28 @@
+{
+  "id": "f9c03a31-1bb0-4d44-abff-055e6d596921",
+  "object": "chat.completion",
+  "created": 1760389498,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe ações de acompanhamento e monitoramento dos registros de horário de trabalho, que visam prevenir a ausência de comprovação de descontos por meio de um controle sistemático. Isso aborda a causa subjacente (falta de monitoramento) e não apenas corrige a condição atual. Os efeitos pretendidos (controle contínuo) provavelmente persistiriam mesmo com mudanças nos atores envolvidos, devido à institucionalização do processo.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 919,
+    "completion_tokens": 144,
+    "total_tokens": 1063,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 87
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

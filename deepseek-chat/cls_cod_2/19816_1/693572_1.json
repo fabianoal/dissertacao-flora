@@ -1,0 +1,28 @@
+{
+  "id": "d9010e5b-e8aa-4cd5-b263-ca7e2a65f39a",
+  "object": "chat.completion",
+  "created": 1760398028,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam das causas do problema, como a falta de capacitação profissional (treinamentos contínuos), a ausência de processos estruturados (inclusão da busca ativa no processo de trabalho) e deficiências no sistema de registro (melhorias no prontuário eletrônico). Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como a implementação de protocolos e melhorias sistêmicas, tendem a produzir efeitos duradouros, pois criam estruturas e processos que permanecem independentemente de mudanças nos atores envolvidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1259,
+    "completion_tokens": 181,
+    "total_tokens": 1440,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 427
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

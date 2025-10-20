@@ -1,0 +1,28 @@
+{
+  "id": "eb8d9e45-bd40-40ec-8aa8-b6bbe6286854",
+  "object": "chat.completion",
+  "created": 1760387574,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe que a Secretaria Municipal de Saúde detalhe nos próximos instrumentos de gestão as informações referentes a cada indicador do Programa Previne Brasil, o que visa corrigir a causa do problema (ausência de informações detalhadas nos instrumentos de gestão) e não apenas a condição atual. Já em relação aos efeitos pretendidos pela recomendação, a ação sugerida (detalhar informações nos instrumentos de gestão) estabelece um procedimento formal que deve ser seguido em ciclos futuros, mantendo seus efeitos mesmo com possíveis mudanças nos atores envolvidos, pois se trata de uma exigência documental permanente.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 966,
+    "completion_tokens": 185,
+    "total_tokens": 1151,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 134
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

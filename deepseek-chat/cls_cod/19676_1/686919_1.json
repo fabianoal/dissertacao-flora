@@ -1,0 +1,28 @@
+{
+  "id": "dbe5419d-6cff-4bd3-a628-b5456bb467b7",
+  "object": "chat.completion",
+  "created": 1760036120,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere uma ação corretiva para inserir o Laudo Técnico no sistema Transferegov, o que visa resolver a condição imediata de falta de documentação. No entanto, a ação proposta é genérica, pois se limita a cumprir normativos existentes sem especificar medidas adicionais para abordar a causa subjacente, como a implementação de processos para garantir a produção e inserção contínua de tais laudos.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1184,
+    "completion_tokens": 148,
+    "total_tokens": 1332,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 160
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

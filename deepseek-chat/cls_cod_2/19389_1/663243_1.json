@@ -1,0 +1,28 @@
+{
+  "id": "4c28f44a-98ca-4f44-8530-98a64deb36e4",
+  "object": "chat.completion",
+  "created": 1760384990,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a citar dispositivos legais que estabelecem obrigações gerais de controle, avaliação e fiscalização no SUS, sem propor ações específicas para tratar a causa da falta de análise sistemática dos dados de produção ambulatorial pós-COVID-19. Não há menção a medidas como implementação de processos de monitoramento, capacitação de pessoal ou desenvolvimento de ferramentas que ataquem a raiz do problema. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1164,
+    "completion_tokens": 182,
+    "total_tokens": 1346,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 396
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

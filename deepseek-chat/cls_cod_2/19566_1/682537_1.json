@@ -1,0 +1,28 @@
+{
+  "id": "a5c0d88b-2556-4590-9bfb-19a6a3f08bb2",
+  "object": "chat.completion",
+  "created": 1760388090,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe que a FMS acompanhe, fiscalize e trabalhe de forma articulada com a contratada para garantir o monitoramento dos indicadores de qualidade, o que visa tratar a causa do problema (falta de supervisão e articulação adequadas) e não apenas corrigir a condição atual. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas (acompanhamento, fiscalização e articulação) estabelecem processos e responsabilidades que podem permanecer mesmo com mudanças nos atores envolvidos, pois estão baseadas em normas e contratos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1173,
+    "completion_tokens": 172,
+    "total_tokens": 1345,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 341
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

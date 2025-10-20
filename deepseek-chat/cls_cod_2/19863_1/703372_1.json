@@ -1,0 +1,28 @@
+{
+  "id": "7e439dc2-8b7f-4d91-86ba-5dc949ed6824",
+  "object": "chat.completion",
+  "created": 1760399884,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a exigir o cumprimento de um item específico do Plano de Ação, que é revisar/elaborar o Regimento Interno do Hospital Regional de Araguaína, sem propor ações que tratem da causa subjacente da não revisão (como falhas no processo de governança, capacitação da equipe, ou mecanismos de monitoramento). Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 993,
+    "completion_tokens": 164,
+    "total_tokens": 1157,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 161
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

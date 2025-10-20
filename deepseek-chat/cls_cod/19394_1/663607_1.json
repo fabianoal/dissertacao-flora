@@ -1,0 +1,28 @@
+{
+  "id": "6b6f2bbc-9356-43a2-bcd4-92f84f68951d",
+  "object": "chat.completion",
+  "created": 1760035632,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere implantar o processo de monitoramento de referência e contra referência, o que constitui uma ação para resolver a condição encontrada de falta de comprovação do funcionamento do sistema. Além disso, a recomendação menciona garantir os serviços conforme a Política Nacional de Regulação, o que é uma ação genérica focada na causa, pois se limita a citar o cumprimento de um normativo sem propor ações concretas adicionais. Como a ação de foco na causa é genérica, os efeitos duradouros não são avaliados como positivos.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1142,
+    "completion_tokens": 179,
+    "total_tokens": 1321,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 182
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

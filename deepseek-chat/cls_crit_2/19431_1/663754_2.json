@@ -1,0 +1,28 @@
+{
+  "id": "ee690c11-7401-483f-a3e0-8cc79f9b9bd6",
+  "object": "chat.completion",
+  "created": 1760452408,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise Crítica\": \"A análise da codificação está correta ao identificar que a recomendação se concentra em ações corretivas imediatas, como devolução e dedução de valores, sem abordar medidas preventivas ou de longo prazo para resolver a causa subjacente da falta de comprovação das aquisições. Não há elementos na recomendação que sugiram ações como implementação de controles internos, revisão de processos ou capacitação, que poderiam tratar a causa do problema.\",\n  \"Análise Foco Causa\": \"Concordo\",\n  \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1424,
+    "completion_tokens": 145,
+    "total_tokens": 1569,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 464
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

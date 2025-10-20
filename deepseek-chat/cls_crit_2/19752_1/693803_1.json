@@ -1,0 +1,28 @@
+{
+  "id": "7425f02a-fb56-4c0b-9677-9877d830ae90",
+  "object": "chat.completion",
+  "created": 1760463121,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação se limita a citar normativos e manuais sem propor ações concretas para tratar a causa raiz da inadequação dos equipamentos. No entanto, é importante destacar que a recomendação poderia ser interpretada como uma ação genérica de 'atendimento aos normativos', mas sem especificar como isso seria implementado, ela não aborda efetivamente as causas subjacentes, como falhas na aquisição, manutenção ou gestão.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1520,
+    "completion_tokens": 156,
+    "total_tokens": 1676,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 624
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "25b26c02-e16a-4b25-b9f6-69405ff3204a",
+  "object": "chat.completion",
+  "created": 1760391002,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe múltiplas ações, incluindo o cumprimento de normas específicas para rastreabilidade de OPME, implementação de controles internos, governança e supervisão de atividades. Embora várias medidas tratem de aspectos processuais e de controle que podem atuar sobre causas sistêmicas (como a falta de mecanismos de rastreabilidade e controles internos), a recomendação não identifica explicitamente a causa raiz do problema (por exemplo, falhas na gestão de estoque, capacitação inadequada ou deficiências na cultura organizacional). As ações sugeridas são mais focadas em corrigir a condição atual (falta de comprovação de destinação) por meio da adesão a normas, sem uma abordagem clara para tratar a causa subjacente. Em relação aos efeitos duradouros, como o critério 'Foco Causa' não é atendido, a análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1342,
+    "completion_tokens": 247,
+    "total_tokens": 1589,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 510
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

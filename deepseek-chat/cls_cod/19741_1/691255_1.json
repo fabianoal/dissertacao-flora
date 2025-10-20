@@ -1,0 +1,28 @@
+{
+  "id": "d3f125f0-c76a-406a-b6c8-941c739cf919",
+  "object": "chat.completion",
+  "created": 1760037680,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere ações para corrigir a condição encontrada, como realizar manutenções preventivas e corretivas, estabelecer um cronograma de verificação e garantir a manutenção regular, o que atende ao critério de ação corretiva. No entanto, as ações propostas são baseadas principalmente no cumprimento de normativos específicos, sem propor medidas adicionais que abordem diretamente as causas subjacentes, como falhas em processos ou capacitação, sendo assim genéricas em foco na causa. Como o foco na causa é genérico, os efeitos duradouros não são avaliados como presentes.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1339,
+    "completion_tokens": 186,
+    "total_tokens": 1525,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 315
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

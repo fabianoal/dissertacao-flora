@@ -1,0 +1,28 @@
+{
+  "id": "30016708-6330-4ade-9620-d0f320f32439",
+  "object": "chat.completion",
+  "created": 1760387114,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a apresentação e manutenção de documentos comprobatórios, como notas fiscais, para regularizar a situação encontrada de dispensação sem comprovação. No entanto, não há ações que abordem a causa raiz do problema, como falhas nos processos de controle interno, capacitação de pessoal ou implementação de sistemas que previnam a ocorrência de dispensação sem documentação adequada. A recomendação foca na correção da condição atual (falta de documentos) e no cumprimento de normas, mas não propõe medidas para evitar que o problema se repita no futuro. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1143,
+    "completion_tokens": 221,
+    "total_tokens": 1364,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 311
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

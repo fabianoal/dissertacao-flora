@@ -1,0 +1,28 @@
+{
+  "id": "995d0480-d275-4bf0-84f3-782ee285d495",
+  "object": "chat.completion",
+  "created": 1760383802,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a recomposição do Fundo de Saúde e a destinação correta dos recursos, o que trata diretamente da causa do problema, que é o uso inadequado dos recursos fora do objeto da Atenção Básica, visando evitar futuros desvios. Já em relação aos efeitos pretendidos, as ações sugeridas, como a inserção na Programação Anual de Saúde e lançamento no RAG, estabelecem procedimentos formais que devem persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1127,
+    "completion_tokens": 164,
+    "total_tokens": 1291,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 295
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

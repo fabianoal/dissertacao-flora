@@ -1,0 +1,28 @@
+{
+  "id": "b415ea1f-c815-4635-9a51-adaa2613db48",
+  "object": "chat.completion",
+  "created": 1760386174,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe múltiplas ações que tratam da causa do problema, como a elaboração e implementação de um plano de manutenção predial detalhado, a instituição de um sistema de avaliação periódica das condições do edifício e a alocação de orçamento e recursos suficientes para manutenção contínua, visando evitar futuras degradações. Estas ações abordam a causa raiz da falta de manutenção predial adequada. Já em relação aos efeitos pretendidos pela recomendação, as medidas propostas, como o plano de manutenção, o sistema de avaliação periódica e a alocação orçamentária, são estruturadas para criar processos contínuos que devem permanecer efetivos mesmo com mudanças nos atores envolvidos, pois são institucionalizadas na gestão.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1212,
+    "completion_tokens": 224,
+    "total_tokens": 1436,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 380
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

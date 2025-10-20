@@ -1,0 +1,28 @@
+{
+  "id": "f91d9075-2db9-4926-96b2-51a69ee56458",
+  "object": "chat.completion",
+  "created": 1760450470,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação se concentra na correção da condição específica (despesa irregular) sem propor ações para tratar as causas subjacentes do problema. No entanto, vale ressaltar que a recomendação é típica de auditorias que visam a restituição de recursos, sendo comum que medidas preventivas sejam tratadas em recomendações separadas ou em relatórios complementares.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1272,
+    "completion_tokens": 140,
+    "total_tokens": 1412,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 312
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

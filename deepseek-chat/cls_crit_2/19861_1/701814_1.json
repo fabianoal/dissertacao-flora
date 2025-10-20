@@ -1,0 +1,28 @@
+{
+  "id": "d441b5d6-c7c3-4400-a62e-75ead5d11b9f",
+  "object": "chat.completion",
+  "created": 1760467269,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação efetivamente aborda as causas estruturais da insuficiência de infraestrutura e profissionais, propondo ações de dimensionamento baseadas em critérios normativos. Quanto ao critério 'Efeitos Duradouros', as mudanças propostas, embora institucionalizadas por diretrizes, dependem de implementação contínua e podem ser afetadas por mudanças na gestão ou alocação de recursos, o que questiona a permanência absoluta dos efeitos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1334,
+    "completion_tokens": 168,
+    "total_tokens": 1502,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 438
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "60ffc8f3-3bb5-4af6-b5de-6f9bc4b71499",
+  "object": "chat.completion",
+  "created": 1760464957,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a criação de um fluxo definido para o trânsito de informações, o que aborda a causa subjacente da desatualização (falta de processos organizados), e não apenas a condição imediata. Para o critério 'Efeitos Duradouros', a implementação de um fluxo estruturado visa estabelecer um sistema que pode operar independentemente de mudanças de pessoal, promovendo sustentabilidade. Ambas as classificações estão corretas.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1175,
+    "completion_tokens": 169,
+    "total_tokens": 1344,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 279
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

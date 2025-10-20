@@ -1,0 +1,28 @@
+{
+  "id": "48d34252-b020-4ae4-9b79-41b225fd7ef7",
+  "object": "chat.completion",
+  "created": 1760451776,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação apenas cita dispositivos normativos sem propor ações específicas para tratar a causa subjacente da ausência de exames. Para o critério 'Efeitos Duradouros', a resposta 'Não se aplica' é adequada, dado que o critério 'Foco Causa' foi avaliado como 'Não'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1378,
+    "completion_tokens": 139,
+    "total_tokens": 1517,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 482
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

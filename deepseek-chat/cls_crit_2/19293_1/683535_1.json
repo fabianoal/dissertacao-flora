@@ -1,0 +1,28 @@
+{
+  "id": "a580abf5-6371-4481-ba7d-3d1a5b7c6b8a",
+  "object": "chat.completion",
+  "created": 1760448662,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe identificar os motivos do não pagamento e analisar ações para revisar a política de remuneração, o que sugere uma abordagem voltada para a causa raiz do problema, como possíveis falhas na política ou na implementação. Já em relação aos efeitos pretendidos pela recomendação, a revisão da política de remuneração, se implementada, tende a gerar efeitos duradouros, pois estabelece diretrizes estruturais que independem de mudanças nos ocupantes dos cargos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1442,
+    "completion_tokens": 172,
+    "total_tokens": 1614,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 546
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "563a7749-3e41-4dd7-b9a3-c78d1f599815",
+  "object": "chat.completion",
+  "created": 1760385283,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a solicitar que o Departamento de Assistência Farmacêutica tome conhecimento da constatação e adote procedimentos administrativos para a devolução dos recursos, sem propor ações específicas que tratem da causa raiz do problema (como implementação de controles de acesso, sistemas de verificação de elegibilidade ou políticas de prevenção de conflitos de interesse). Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1097,
+    "completion_tokens": 162,
+    "total_tokens": 1259,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 265
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

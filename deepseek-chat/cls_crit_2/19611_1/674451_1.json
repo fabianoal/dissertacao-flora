@@ -1,0 +1,28 @@
+{
+  "id": "d9c8e27d-5ce0-48f0-95fd-82e9b29a5169",
+  "object": "chat.completion",
+  "created": 1760456585,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda tanto ações corretivas imediatas quanto preventivas, mas a ênfase em medidas preventivas sugere um tratamento da causa subjacente das impropriedades. Para o critério 'Efeitos Duradouros', a implementação de procedimentos padronizados e baseados em normas pode sustentar mudanças de longo prazo, embora dependa da adesão contínua das unidades.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1258,
+    "completion_tokens": 150,
+    "total_tokens": 1408,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 362
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

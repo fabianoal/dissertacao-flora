@@ -1,0 +1,28 @@
+{
+  "id": "1b6b43bc-3fbc-4ad8-b259-c318d3e6048d",
+  "object": "chat.completion",
+  "created": 1760385082,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe apenas a adoção de medidas para ressarcimento do valor faturado indevidamente, focando na correção da condição financeira específica identificada (faturamento sem comprovação). Não há menção a ações que abordem a causa raiz do problema, como implementação de controles para prevenir futuras ocorrências de faturamento sem comprovação adequada. Portanto, não atende ao critério de foco na causa.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 951,
+    "completion_tokens": 146,
+    "total_tokens": 1097,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 119
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

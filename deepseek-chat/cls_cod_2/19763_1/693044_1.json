@@ -1,0 +1,28 @@
+{
+  "id": "70e85743-56a6-436a-9284-8bfd6514d253",
+  "object": "chat.completion",
+  "created": 1760395984,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações como organizar pastas no drive, afixar o plano em local estratégico e implementar treinamentos periódicos, que visam melhorar o acesso e conhecimento do Plano de Contingência, mas não abordam diretamente a causa raiz do problema (como por que o plano não é de amplo conhecimento ou de fácil acesso inicialmente). Essas ações são mais focadas em corrigir a condição atual de falta de acesso e conhecimento. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, esta análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1080,
+    "completion_tokens": 179,
+    "total_tokens": 1259,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 248
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "22ceb91e-225b-4522-b7f4-6746785f2374",
+  "object": "chat.completion",
+  "created": 1760454105,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identifica corretamente que a recomendação propõe uma ação preventiva baseada em requisitos legais, mas não avalia adequadamente se esta ação trata efetivamente da causa raiz do problema identificado na constatação.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1205,
+    "completion_tokens": 101,
+    "total_tokens": 1306,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 373
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

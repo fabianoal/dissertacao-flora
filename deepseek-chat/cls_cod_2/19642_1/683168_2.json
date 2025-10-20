@@ -1,0 +1,28 @@
+{
+  "id": "8c5f1e1e-0922-49c6-be07-7e32f683c0f1",
+  "object": "chat.completion",
+  "created": 1760391926,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe que a entidade auditada apresente a documentação fiscal para comprovar a regularidade das dispensações já realizadas, focando na correção da condição específica identificada (ausência de comprovação documental). Não há menção a ações que abordem a causa raiz do problema, como a implementação de procedimentos permanentes para garantir a guarda e disponibilização contínua dos documentos ou a revisão de processos internos para prevenir futuras omissões. Portanto, a recomendação é condition-based, não cause-based. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, essa análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1109,
+    "completion_tokens": 195,
+    "total_tokens": 1304,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 213
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

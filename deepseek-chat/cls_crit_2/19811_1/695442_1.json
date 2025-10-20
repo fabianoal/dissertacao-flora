@@ -1,0 +1,28 @@
+{
+  "id": "98cd0541-87f9-4ea5-83f5-3cc715c74133",
+  "object": "chat.completion",
+  "created": 1760465325,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a definição de critérios para classificação de risco e monitoramento, o que aborda diretamente a causa do problema (ausência de critérios definidos), sendo uma ação preventiva de longo prazo. Quanto ao critério 'Efeitos Duradouros', a criação de critérios formais e monitoramento estabelece uma estrutura institucional que deve persistir independentemente de mudanças de pessoal, promovendo efeitos sustentáveis.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1363,
+    "completion_tokens": 161,
+    "total_tokens": 1524,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 467
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

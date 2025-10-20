@@ -1,0 +1,28 @@
+{
+  "id": "6a73e3ba-229e-4587-b110-27c0ac633421",
+  "object": "chat.completion",
+  "created": 1760386514,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a implementação de medidas para assegurar que os exames de imagem sejam anexados aos prontuários, focando na correção da condição específica de ausência de anexação, sem abordar explicitamente as causas subjacentes, como falhas em processos, treinamento ou supervisão. Portanto, não há ação direcionada à causa do problema. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1194,
+    "completion_tokens": 154,
+    "total_tokens": 1348,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 298
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

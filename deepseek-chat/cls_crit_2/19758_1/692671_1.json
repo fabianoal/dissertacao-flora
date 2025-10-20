@@ -1,0 +1,28 @@
+{
+  "id": "3acca33e-4bc2-43e7-a581-3eac43b65e73",
+  "object": "chat.completion",
+  "created": 1760463325,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação estabelece ações que tratam diretamente da causa raiz do problema, que é a falta de procedimentos sistemáticos para manutenção, calibração e qualificação térmica. Quanto ao critério 'Efeitos Duradouros', as ações propostas criam processos estruturados e documentados que devem persistir independentemente de mudanças na equipe.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1326,
+    "completion_tokens": 139,
+    "total_tokens": 1465,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 430
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

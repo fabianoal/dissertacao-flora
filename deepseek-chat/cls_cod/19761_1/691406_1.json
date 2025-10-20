@@ -1,0 +1,28 @@
+{
+  "id": "2c877cef-18e2-45bc-a872-60052aa21e78",
+  "object": "chat.completion",
+  "created": 1760038444,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere a elaboração de um Procedimento Operacional Padrão (POP) para estabelecer uma rotina de verificação diária do funcionamento dos equipamentos, o que corrige a condição encontrada de ausência dessa rotina. Além disso, ao propor a criação de um POP, a recomendação visa tratar a causa subjacente, que é a falta de procedimentos formalizados, promovendo uma solução duradoura. No entanto, a ação com foco na causa é genérica, pois se limita a cumprir o normativo citado (RDC n.º 63/2011) sem detalhar ações concretas adicionais.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1217,
+    "completion_tokens": 195,
+    "total_tokens": 1412,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 193
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

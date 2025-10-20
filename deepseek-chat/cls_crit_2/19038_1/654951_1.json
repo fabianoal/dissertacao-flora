@@ -1,0 +1,28 @@
+{
+  "id": "ab4dfce0-ab44-447f-9b3f-255afc5a6017",
+  "object": "chat.completion",
+  "created": 1760450836,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda diretamente a causa da ausência do enfermeiro, que é a falta de cumprimento da exigência legal de dimensionamento, ao propor garantir a presença ininterrupta. Quanto ao critério 'Efeitos Duradouros', a recomendação sugere uma mudança estrutural (como ajustes na escala ou contratações) que pode persistir independentemente de mudanças nos atores, mas a análise não detalha suficientemente se a solução é temporária ou permanente, e a resposta 'Sim' pode ser questionável sem evidências de que a estrutura organizacional proposta seja efetivamente duradoura.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1197,
+    "completion_tokens": 197,
+    "total_tokens": 1394,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 301
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

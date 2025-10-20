@@ -1,0 +1,28 @@
+{
+  "id": "99aad494-faba-4a91-812d-8173985ee2a3",
+  "object": "chat.completion",
+  "created": 1760383602,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a orientar a execução fiel do contrato conforme as cláusulas estabelecidas e a legislação citada, sem propor ações específicas para tratar a causa subjacente que permitiu o pagamento irregular (como falhas nos controles internos, processos de autorização ou capacitação). Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1233,
+    "completion_tokens": 151,
+    "total_tokens": 1384,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 401
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

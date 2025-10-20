@@ -1,0 +1,28 @@
+{
+  "id": "61672f21-0f12-4132-8b46-9c41db48a4b8",
+  "object": "chat.completion",
+  "created": 1760385494,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a encaminhar a constatação para conhecimento do órgão competente e menciona a adoção de procedimentos para devolução de valores, sem propor ações específicas que tratem da causa das irregularidades nas dispensações registradas. Não há menção a medidas como revisão de processos, capacitação de pessoal ou implementação de controles que possam prevenir a recorrência do problema. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1089,
+    "completion_tokens": 176,
+    "total_tokens": 1265,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 257
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

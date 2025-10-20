@@ -1,0 +1,28 @@
+{
+  "id": "3da81bf8-a67f-4158-8f63-969e1899f487",
+  "object": "chat.completion",
+  "created": 1760458333,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação aborda a causa raiz do problema (ausência de documentação formal) e que a implementação de normas e procedimentos formais tende a gerar efeitos duradouros. No entanto, é importante considerar que a mera elaboração de documentos não garante automaticamente a correção da causa subjacente se não houver implementação efetiva e monitoramento contínuo.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1208,
+    "completion_tokens": 142,
+    "total_tokens": 1350,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 312
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

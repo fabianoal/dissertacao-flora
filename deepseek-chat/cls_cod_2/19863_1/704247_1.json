@@ -1,0 +1,28 @@
+{
+  "id": "1a611b32-ecd2-45d3-b867-7c1e495df193",
+  "object": "chat.completion",
+  "created": 1760399888,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a elaboração do Plano de Segurança do Paciente, que é uma ação estruturante destinada a prevenir a ausência de tal plano no futuro, tratando assim da causa subjacente (falta de um plano formal) que gerou a condição encontrada (não comprovação da elaboração). Já em relação aos efeitos pretendidos pela recomendação, o Plano de Segurança do Paciente, uma vez implementado, estabelece diretrizes e procedimentos permanentes que devem perdurar independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 972,
+    "completion_tokens": 178,
+    "total_tokens": 1150,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 140
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

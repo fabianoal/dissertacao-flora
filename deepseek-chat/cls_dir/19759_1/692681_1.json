@@ -1,0 +1,28 @@
+{
+  "id": "d785bdda-af9c-4c11-b55e-1f5b191b240d",
+  "object": "chat.completion",
+  "created": 1759368014,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação identifica a causa da condição detectada (ausência de POPs), que está no nível institucional (falta de procedimentos padronizados), e as transformações propostas (elaboração, disponibilização e revisão periódica de POPs) possuem potencial para perdurar no tempo, promovendo mudanças estruturais na gestão da Cadeia de Frio.\",\n    \"categoria\": \"foco-causa\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1468,
+    "completion_tokens": 109,
+    "total_tokens": 1577,
+    "prompt_tokens_details": {
+      "cached_tokens": 1280
+    },
+    "prompt_cache_hit_tokens": 1280,
+    "prompt_cache_miss_tokens": 188
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

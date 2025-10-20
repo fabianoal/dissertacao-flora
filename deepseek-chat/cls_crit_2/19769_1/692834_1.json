@@ -1,0 +1,28 @@
+{
+  "id": "57b3797d-7404-47ca-b1d9-8d343ef36a02",
+  "object": "chat.completion",
+  "created": 1760463765,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda a causa subjacente do problema (falta de controle adequado sobre prontuários), mas não diretamente a causa da constatação específica (falta de comprovação de dados de produção). Para 'Efeitos Duradouros', a implementação de medidas estruturais poderia ter efeitos duradouros, mas a conexão com a constatação é indireta.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1298,
+    "completion_tokens": 148,
+    "total_tokens": 1446,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 402
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

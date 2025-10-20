@@ -1,0 +1,28 @@
+{
+  "id": "6a47451d-0632-40a8-b8bc-8d909c03e7f1",
+  "object": "chat.completion",
+  "created": 1760458701,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda tanto a implementação do prontuário eletrônico quanto a capacitação dos profissionais, que são medidas para prevenir a reocorrência do preenchimento inadequado, tratando assim da causa do problema. Quanto ao critério 'Efeitos Duradouros', a implementação do sistema eletrônico e os processos de capacitação e verificação de dados estabelecem estruturas e procedimentos que podem permanecer eficazes mesmo com mudanças nos profissionais, desde que haja manutenção e atualização contínuas.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1309,
+    "completion_tokens": 175,
+    "total_tokens": 1484,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 413
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

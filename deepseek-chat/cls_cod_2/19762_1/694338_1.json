@@ -1,0 +1,28 @@
+{
+  "id": "1d0f80ca-ca5e-4be2-bd22-aed4eaa6bdb4",
+  "object": "chat.completion",
+  "created": 1760395880,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe que o HFSE elabore motivações claras e congruentes para adesões futuras a atas de registro de preços, o que visa tratar a causa do problema (elaboração inadequada de motivação) estabelecendo um padrão permanente de conduta. Já em relação aos efeitos pretendidos pela recomendação, a ação de motivar adequadamente as adesões cria um procedimento formal que deve persistir independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1076,
+    "completion_tokens": 160,
+    "total_tokens": 1236,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 244
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

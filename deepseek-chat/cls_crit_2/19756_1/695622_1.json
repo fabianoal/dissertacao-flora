@@ -1,0 +1,28 @@
+{
+  "id": "6b5126d3-3d6e-4175-91b0-d5638db58774",
+  "object": "chat.completion",
+  "created": 1760463269,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações que vão além da correção imediata da condição encontrada, estabelecendo um sistema estruturado de manutenção preventiva, calibração e documentação que ataca a causa raiz da falta de manutenção sistemática. Quanto ao critério 'Efeitos Duradouros', a implementação de processos padronizados e contratualizados com empresa especializada cria uma estrutura organizacional que independe de pessoas específicas, garantindo continuidade mesmo com mudanças na equipe.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1403,
+    "completion_tokens": 172,
+    "total_tokens": 1575,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 507
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

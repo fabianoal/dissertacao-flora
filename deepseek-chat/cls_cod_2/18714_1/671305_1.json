@@ -1,0 +1,28 @@
+{
+  "id": "242d4d6e-bae8-4245-8517-a3a3f4a3f350",
+  "object": "chat.completion",
+  "created": 1760383428,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a criação de procedimentos de análise processual para garantir que futuras minutas de contrato estejam alinhadas com os editais, abordando assim a causa do problema (falta de procedimentos de verificação) e não apenas corrigindo as minutas específicas identificadas. Já em relação aos efeitos pretendidos pela recomendação, os procedimentos estabelecidos permaneceriam válidos independentemente de mudanças nos atores envolvidos, pois se tornariam parte do processo licitatório.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1009,
+    "completion_tokens": 153,
+    "total_tokens": 1162,
+    "prompt_tokens_details": {
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 817
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

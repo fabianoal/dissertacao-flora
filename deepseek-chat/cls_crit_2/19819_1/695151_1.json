@@ -1,0 +1,28 @@
+{
+  "id": "c55f11b3-6692-4836-87a7-e02f40ae0130",
+  "object": "chat.completion",
+  "created": 1760465721,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise da codificação está bem fundamentada, identificando corretamente que a recomendação contém ações com diferentes focos. No entanto, há nuances importantes a considerar na classificação dos critérios específicos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1584,
+    "completion_tokens": 91,
+    "total_tokens": 1675,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 688
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

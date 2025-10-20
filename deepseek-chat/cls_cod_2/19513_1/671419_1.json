@@ -1,0 +1,28 @@
+{
+  "id": "1a87ddb8-e4a8-420e-839e-b9fed50a0daf",
+  "object": "chat.completion",
+  "created": 1760386562,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe o cumprimento de uma norma específica (Portaria de Consolidação GM/MS n.º 01/2017) que estabelece a sistemática de alimentação dos bancos de dados, visando garantir que os dados reflitam fidedignamente a produção realizada. Isso trata da causa do problema, que é a não conformidade com os procedimentos estabelecidos para registro da produção. Já em relação aos efeitos pretendidos pela recomendação, a implementação da sistemática definida na portaria cria um processo estruturado e permanente para alimentação dos bancos de dados, cujos efeitos devem perdurar independentemente de mudanças nos atores envolvidos, uma vez que se baseia em norma consolidada.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1075,
+    "completion_tokens": 204,
+    "total_tokens": 1279,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 243
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

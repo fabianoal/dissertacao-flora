@@ -1,0 +1,28 @@
+{
+  "id": "3521bd49-c1a0-413f-9bbc-8b8d113db788",
+  "object": "chat.completion",
+  "created": 1760398520,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação cita dispositivos legais que atribuem responsabilidades pela atualização do CNES aos estabelecimentos de saúde e gestores, mas não propõe ações específicas para tratar a causa da falta de atualização, limitando-se a referenciar obrigações já existentes. Portanto, não há ação proposta que trate da causa do problema. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1098,
+    "completion_tokens": 146,
+    "total_tokens": 1244,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 266
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

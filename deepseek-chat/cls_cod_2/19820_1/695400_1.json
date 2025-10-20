@@ -1,0 +1,28 @@
+{
+  "id": "29b22a71-9c5d-427b-8a4d-b635aaa36b47",
+  "object": "chat.completion",
+  "created": 1760398224,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam da causa do problema, como identificar problemas nos encaminhamentos, adequar o quantitativo de profissionais à demanda real, estabelecer fluxos de atendimento baseados em critérios de gravidade e disseminar informações por meio de capacitações, visando resolver as dificuldades estruturais e processuais que geram a condição encontrada. Já em relação aos efeitos pretendidos, as ações sugeridas, como a definição de fluxos e a capacitação contínua, criam estruturas e processos que devem permanecer eficazes mesmo com mudanças nos atores envolvidos, promovendo soluções duradouras.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1119,
+    "completion_tokens": 188,
+    "total_tokens": 1307,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 287
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ef162b58-f7ba-4b82-96e9-e46c57c7c2a6",
+  "object": "chat.completion",
+  "created": 1760392750,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe que a convenente insira no Transferegov a documentação comprobatória da execução da despesa, com base em dispositivos legais específicos. Esta ação visa corrigir a condição encontrada de falta de documentação, mas não trata da causa subjacente do problema, que seria a contratação por inexigibilidade sem observância aos critérios legais. Portanto, a recomendação é focada na condição (corrigir a falta de documentação) e não na causa (evitar futuras contratações inadequadas). Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1019,
+    "completion_tokens": 197,
+    "total_tokens": 1216,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 123
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

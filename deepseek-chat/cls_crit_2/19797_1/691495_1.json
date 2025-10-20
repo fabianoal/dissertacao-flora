@@ -1,0 +1,28 @@
+{
+  "id": "13a21cfe-849f-41f4-8343-57eeed3ba700",
+  "object": "chat.completion",
+  "created": 1760464805,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe o desenvolvimento e implementação de um protocolo que estabelece procedimentos de inspeção para assegurar a integridade física e condições de temperatura dos imunobiológicos, abordando a causa raiz da falta de controles adequados no processo de inspeção. Isso visa prevenir a reocorrência da condição encontrada, caracterizando um foco na causa. Já em relação ao critério 'Efeitos Duradouros', a implementação do protocolo cria um sistema estruturado e documentado que deve permanecer eficaz independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1380,
+    "completion_tokens": 200,
+    "total_tokens": 1580,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 484
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

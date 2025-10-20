@@ -1,0 +1,28 @@
+{
+  "id": "580b5c8a-1762-40c8-b7a4-432d75863d06",
+  "object": "chat.completion",
+  "created": 1760389550,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe capacitar as áreas competentes para análise de custos, visando prevenir futuras irregularidades na contratação, o que sugere um tratamento da causa (falta de capacidade de análise) e não apenas da condição específica (irregularidade na contratação). Já em relação aos efeitos pretendidos pela recomendação, a capacitação conferiria competência duradoura às áreas, que permaneceria mesmo com mudanças nos atores envolvidos, pois se trata de um aprimoramento processual.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 916,
+    "completion_tokens": 158,
+    "total_tokens": 1074,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 20
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

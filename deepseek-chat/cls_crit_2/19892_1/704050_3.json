@@ -1,0 +1,28 @@
+{
+  "id": "df0e2411-7fda-40f0-bde8-122f9d8c772c",
+  "object": "chat.completion",
+  "created": 1760448594,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação trata especificamente da devolução de recursos financeiros identificados como dano ao erário, sem propor ações para modificar os processos ou protocolos que geraram as inconsistências nas cirurgias oncológicas. Quanto ao critério 'Efeitos Duradouros', como não há foco na causa, a análise corretamente não se aplica.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1352,
+    "completion_tokens": 137,
+    "total_tokens": 1489,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 520
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

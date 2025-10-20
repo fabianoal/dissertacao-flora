@@ -1,0 +1,28 @@
+{
+  "id": "9230e858-9308-4d20-8802-a75963c0dfb5",
+  "object": "chat.completion",
+  "created": 1760389350,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação solicita que a convenente apresente justificativas para a prorrogação do contrato, focando na correção imediata da condição de inobservância legal, sem propor ações que tratem da causa raiz do problema, como a implementação de processos de revisão de contratos para evitar futuras prorrogações indevidas. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 938,
+    "completion_tokens": 158,
+    "total_tokens": 1096,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 106
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

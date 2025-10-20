@@ -1,0 +1,28 @@
+{
+  "id": "11b53ab8-6bcc-4dfd-b4db-dc13b92868db",
+  "object": "chat.completion",
+  "created": 1760399492,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe garantir o quantitativo mínimo e as especialidades exigidas por lei para a equipe do CEREST, o que aborda diretamente a causa do problema (insuficiência de profissionais) ao estabelecer um padrão estrutural permanente. Em relação aos efeitos duradouros, a ação sugere uma mudança na composição da equipe que, uma vez implementada, tende a persistir independentemente de mudanças nos atores envolvidos, pois está ancorada em requisitos legais.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1016,
+    "completion_tokens": 149,
+    "total_tokens": 1165,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 184
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

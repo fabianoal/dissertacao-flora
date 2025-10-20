@@ -1,0 +1,28 @@
+{
+  "id": "be20fc2d-7e16-4776-ad00-c17029686d66",
+  "object": "chat.completion",
+  "created": 1760036728,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a revisão dos POPs para corrigir a condição encontrada de falta de comprovação, caracterizando uma ação corretiva. No entanto, a ação sugerida é genérica, limitando-se ao cumprimento do que foi acordado no Plano de Ação, sem especificar medidas concretas para abordar a causa subjacente, como falhas em processos de revisão contínua ou capacitação. Portanto, não há indicação de ações com foco na causa ou efeitos duradouros.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1170,
+    "completion_tokens": 165,
+    "total_tokens": 1335,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 146
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

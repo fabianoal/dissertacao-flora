@@ -1,0 +1,28 @@
+{
+  "id": "33bda17b-08e6-4bc0-8d6c-d59e186e0ac7",
+  "object": "chat.completion",
+  "created": 1760459125,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação não aborda diretamente a causa raiz da ausência da sala específica para hemodiálise de pacientes com sorologia positiva para hepatite B. A recomendação propõe ações de monitoramento e fiscalização contínua, que são reativas e focadas na condição de identificar futuras não conformidades, sem medidas para resolver causas subjacentes como falhas no planejamento físico, alocação de recursos ou adequação normativa. Quanto ao critério 'Efeitos Duradouros', como o 'Foco Causa' não foi atendido, a resposta 'Não se aplica' está adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1294,
+    "completion_tokens": 204,
+    "total_tokens": 1498,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 398
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

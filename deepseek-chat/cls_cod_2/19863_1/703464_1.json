@@ -1,0 +1,28 @@
+{
+  "id": "07f6ea78-3525-4f0b-bb2c-d42bac6cbb75",
+  "object": "chat.completion",
+  "created": 1760400068,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe apenas a comprovação documental da publicação da portaria ou, caso não tenha ocorrido, providenciar essa publicação. Esta ação visa corrigir a condição específica encontrada (ausência de documentação comprobatória), sem abordar as causas subjacentes que levaram à não publicação ou falta de registro da portaria. Portanto, trata-se de uma medida focada na condição imediata, não na causa raiz do problema. Como o critério 'Foco Causa' não foi atendido, a análise do critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1020,
+    "completion_tokens": 176,
+    "total_tokens": 1196,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 188
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

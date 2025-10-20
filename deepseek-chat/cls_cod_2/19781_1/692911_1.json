@@ -1,0 +1,28 @@
+{
+  "id": "9f11bb33-c9b2-4307-99c5-c5ebebb28ae8",
+  "object": "chat.completion",
+  "created": 1760396624,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a criação de procedimentos formais para o transporte de imunobiológicos, incluindo monitoramento contínuo de temperatura e protocolos específicos, o que visa tratar a causa raiz do problema (ausência de procedimentos padronizados) e não apenas corrigir a condição atual. Já em relação aos efeitos pretendidos pela recomendação, a implementação de procedimentos documentados e protocolos estabelecidos criará uma estrutura permanente que permanecerá efetiva mesmo com mudanças na equipe ou nos atores envolvidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1158,
+    "completion_tokens": 161,
+    "total_tokens": 1319,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 326
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

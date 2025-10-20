@@ -1,0 +1,28 @@
+{
+  "id": "cfe27378-e59a-40e7-9130-91a9dd90c571",
+  "object": "chat.completion",
+  "created": 1760035460,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere ações para resolver a condição encontrada (elaborar o Plano de Capacitação e realizar as capacitações), atendendo ao critério de Ação Corretiva. Para o foco na causa, a recomendação inclui a inclusão na Programação Anual de Saúde com objetivos, metas e indicadores, o que vai além do mero cumprimento normativo, sendo uma ação concreta para prevenir a reincidência, classificada como 'Específica'. Quanto aos efeitos duradouros, a ação de incluir na Programação Anual com objetivos e indicadores estabelece um processo estruturado que pode persistir independentemente de mudanças de atores, portanto, os efeitos são duradouros.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Específica\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1228,
+    "completion_tokens": 216,
+    "total_tokens": 1444,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 396
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

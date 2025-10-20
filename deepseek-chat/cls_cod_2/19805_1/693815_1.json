@@ -1,0 +1,28 @@
+{
+  "id": "96121e73-acc9-418a-a1e6-c9b474fb13f0",
+  "object": "chat.completion",
+  "created": 1760397504,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe estabelecer mecanismos de gestão de filas de espera, referência e contrarreferência na RAPS, o que visa tratar a causa do problema (falta de articulação e coordenação pela Atenção Básica) e não apenas a condição específica de não compartilhamento de registros. Já em relação aos efeitos pretendidos pela recomendação, a implementação de mecanismos estruturados de gestão de fluxos e referência tende a permanecer mesmo com mudanças de atores, pois se baseia em processos e normas estabelecidas.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1231,
+    "completion_tokens": 171,
+    "total_tokens": 1402,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 399
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "07030a33-e372-4664-bd51-f7bcab6a6dbb",
+  "object": "chat.completion",
+  "created": 1760452288,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise da codificação está correta ao identificar que a recomendação se concentra na correção imediata da condição irregular, sem propor ações para abordar as causas subjacentes do não repasse dos recursos. No entanto, a avaliação do critério 'Efeitos Duradouros' deve ser 'Não se aplica' apenas se 'Foco Causa' for 'Não', o que está alinhado com a definição fornecida.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1263,
+    "completion_tokens": 140,
+    "total_tokens": 1403,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 303
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

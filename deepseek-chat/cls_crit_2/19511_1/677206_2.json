@@ -1,0 +1,28 @@
+{
+  "id": "950a8edf-8583-4343-9879-fc632c817dd0",
+  "object": "chat.completion",
+  "created": 1760453445,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação estabelece medidas para assegurar o anexo das cópias das folhas de requisição de OPME aos prontuários, o que aborda a causa subjacente da ausência de processos ou controles adequados, em vez de apenas corrigir a condição imediata nos prontuários analisados. Para o critério 'Efeitos Duradouros', as medidas propostas, baseadas em normas e procedimentos permanentes, tendem a manter a eficácia independentemente de mudanças na equipe, alinhando-se com a definição de efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1329,
+    "completion_tokens": 193,
+    "total_tokens": 1522,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 369
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

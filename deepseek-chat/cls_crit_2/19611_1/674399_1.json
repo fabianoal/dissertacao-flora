@@ -1,0 +1,28 @@
+{
+  "id": "6e118efb-1b7c-4b4d-8409-19ea7e64cc0a",
+  "object": "chat.completion",
+  "created": 1760456365,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe capacitação para melhorar a análise de custos, o que pode abordar a causa subjacente de falta de capacidade técnica. Para 'Efeitos Duradouros', a capacitação pode criar competências institucionais duradouras, mas depende da implementação contínua e atualização. A análise do modelo está correta em ambos os critérios.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1126,
+    "completion_tokens": 141,
+    "total_tokens": 1267,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 166
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

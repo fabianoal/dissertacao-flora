@@ -1,0 +1,28 @@
+{
+  "id": "c314acb5-fa57-41fd-8869-f114871e0ee9",
+  "object": "chat.completion",
+  "created": 1760463865,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta em identificar que a recomendação aborda a causa raiz do problema, que é a falta de um processo sistemático de verificação e registro das condições de transporte e armazenagem. No entanto, a avaliação dos efeitos duradouros pode ser questionada, pois a implementação de um procedimento formal, embora institucional, depende da adesão contínua e da supervisão para manter sua eficácia ao longo do tempo, especialmente em contextos com rotatividade de pessoal ou mudanças organizacionais.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1205,
+    "completion_tokens": 165,
+    "total_tokens": 1370,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 309
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

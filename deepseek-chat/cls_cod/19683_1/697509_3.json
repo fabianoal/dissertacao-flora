@@ -1,0 +1,28 @@
+{
+  "id": "5224e4d6-ef17-4fb2-92ba-62c83745f9b1",
+  "object": "chat.completion",
+  "created": 1760038000,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere uma ação concreta para resolver a condição encontrada, que é a assinatura das folhas de frequência pelos superiores imediatos, focando na correção direta da falha de controle. No entanto, a ação proposta é genérica, pois se limita a orientar o cumprimento de uma função de supervisão sem especificar medidas adicionais, como treinamento ou implementação de sistemas, para abordar a causa subjacente, como possíveis deficiências em processos ou capacitação. Quanto aos efeitos duradouros, como a ação é genérica e não estabelece mudanças estruturais, os efeitos não são sustentáveis a longo prazo se os atores mudarem.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1165,
+    "completion_tokens": 207,
+    "total_tokens": 1372,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 141
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

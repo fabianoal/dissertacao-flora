@@ -1,0 +1,28 @@
+{
+  "id": "5b0b3237-63c9-4391-b757-731b3b7def3f",
+  "object": "chat.completion",
+  "created": 1760467853,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta em identificar que a recomendação propõe uma ação preventiva para evitar a reincidência da irregularidade, tratando a causa raiz relacionada à ausência de controle prévio. No entanto, há uma consideração importante sobre a durabilidade dos efeitos que merece atenção.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1209,
+    "completion_tokens": 115,
+    "total_tokens": 1324,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 249
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

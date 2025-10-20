@@ -1,0 +1,28 @@
+{
+  "id": "d0462e42-efa2-4b61-84a1-239d1c61a4bf",
+  "object": "chat.completion",
+  "created": 1760037980,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere que o estabelecimento mantenha a guarda dos documentos por dez anos, conforme exigido pela portaria, o que corrige a condição encontrada de não apresentação dos documentos. No entanto, a ação proposta é genérica, limitando-se ao cumprimento do normativo existente, sem propor medidas adicionais para tratar a causa subjacente, como falhas em processos de gestão documental ou treinamento de pessoal. Como a ação com foco na causa é genérica, a avaliação de efeitos duradouros não se aplica de forma positiva.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1197,
+    "completion_tokens": 179,
+    "total_tokens": 1376,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 173
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

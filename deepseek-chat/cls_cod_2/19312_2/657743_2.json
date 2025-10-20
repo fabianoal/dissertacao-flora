@@ -1,0 +1,28 @@
+{
+  "id": "5a878058-b153-4a76-98fd-ce73356401c8",
+  "object": "chat.completion",
+  "created": 1760384699,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"A recomendação propõe a adoção de medidas com os responsáveis pela irregularidade, especificamente a devolução de valores ao Fundo Nacional de Saúde, o que visa corrigir a condição financeira resultante da falta de arquivamento de documentações. No entanto, não há menção a ações que abordem a causa subjacente do problema, como a implementação de procedimentos para garantir o arquivamento adequado de prontuários no futuro. Portanto, a recomendação é focada na condição imediata (devolução de valores) e não na causa (falta de processos de arquivamento). Quanto aos efeitos duradouros, como o critério 'Foco Causa' não é atendido, essa análise não se aplica.\",\n   \"Foco Causa\": \"Não\",\n   \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 997,
+    "completion_tokens": 202,
+    "total_tokens": 1199,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 165
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

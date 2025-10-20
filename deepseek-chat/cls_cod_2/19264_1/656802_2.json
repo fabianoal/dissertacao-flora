@@ -1,0 +1,28 @@
+{
+  "id": "db2b21df-509f-49c4-8a5f-f036b537aa89",
+  "object": "chat.completion",
+  "created": 1760384366,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a anexação da nota fiscal ao prontuário do paciente, que é uma ação direta para corrigir a condição encontrada de notas fiscais não anexadas, sem abordar as causas subjacentes que levaram a essa falha, como possíveis deficiências em processos, treinamento ou supervisão. Portanto, a recomendação tem foco na condição, não na causa. Como o critério 'Foco Causa' não é atendido, a análise de 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1483,
+    "completion_tokens": 165,
+    "total_tokens": 1648,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 587
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

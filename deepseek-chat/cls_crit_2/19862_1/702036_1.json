@@ -1,0 +1,28 @@
+{
+  "id": "152b76cc-d986-49a7-a4c4-c9d47ca5f28e",
+  "object": "chat.completion",
+  "created": 1760467293,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a realização do mapeamento que estava ausente, tratando diretamente a causa da constatação. Para o critério 'Efeitos Duradouros', a recomendação visa criar um registro estruturado que pode ser mantido e atualizado, independentemente de mudanças na equipe, o que sugere efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1281,
+    "completion_tokens": 138,
+    "total_tokens": 1419,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 385
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

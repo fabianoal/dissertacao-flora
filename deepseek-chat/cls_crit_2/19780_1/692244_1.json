@@ -1,0 +1,28 @@
+{
+  "id": "f0c7a9d8-9349-41b2-ac52-26cf494cc1ed",
+  "object": "chat.completion",
+  "created": 1760464201,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações que visam estabelecer processos estruturados e documentados para monitoramento contínuo, o que aborda a causa raiz da falta de monitoramento (ausência de sistemas formais). Quanto ao critério 'Efeitos Duradouros', a implementação de POPs e indicadores cria estruturas institucionais que devem persistir independentemente de mudanças de pessoal, mas a efetividade prática depende da adesão contínua e da cultura organizacional, o que pode não ser totalmente garantido apenas pela documentação.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1361,
+    "completion_tokens": 179,
+    "total_tokens": 1540,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 465
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

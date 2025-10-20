@@ -1,0 +1,28 @@
+{
+  "id": "ad09d9c2-0452-47c7-b8ce-8dd4fffa84de",
+  "object": "chat.completion",
+  "created": 1760037280,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere ações para resolver a condição encontrada (falta de encaminhamento formal e controle de vagas/demanda) e propõe mecanismos de controle para garantir o cumprimento de normativos específicos. No entanto, as ações focadas na causa são genéricas, limitando-se a assegurar o cumprimento das diretrizes existentes sem propor medidas concretas além disso, como revisão de processos ou capacitação. Assim, os efeitos não são considerados duradouros, pois dependem da adesão contínua aos normativos sem mudanças estruturais.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1358,
+    "completion_tokens": 182,
+    "total_tokens": 1540,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 334
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

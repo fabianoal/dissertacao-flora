@@ -1,0 +1,28 @@
+{
+  "id": "050fb842-be9f-4b93-bb25-9f75fe8b0a33",
+  "object": "chat.completion",
+  "created": 1760399700,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a corrigir a condição específica encontrada (pagamento indevido de tarifa bancária) por meio da devolução do valor ao Fundo Nacional de Saúde, sem propor ações que abordem a causa subjacente do problema, como falhas nos processos de controle ou capacitação da equipe. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1001,
+    "completion_tokens": 150,
+    "total_tokens": 1151,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 169
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

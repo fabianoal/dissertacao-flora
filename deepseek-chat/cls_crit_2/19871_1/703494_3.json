@@ -1,0 +1,28 @@
+{
+  "id": "feee1adf-4c93-4e87-b046-8002f14b54d9",
+  "object": "chat.completion",
+  "created": 1760467693,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda a causa raiz ao propor a revisão e atualização dos processos de documentação clínica e registro, o que é consistente com a análise fornecida. Para o critério 'Efeitos Duradouros', a recomendação baseia-se em processos padronizados que podem sustentar mudanças na equipe, mas a análise original não considerou possíveis dependências de fatores humanos ou contextuais que poderiam limitar a durabilidade.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1332,
+    "completion_tokens": 155,
+    "total_tokens": 1487,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 372
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

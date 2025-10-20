@@ -1,0 +1,28 @@
+{
+  "id": "9b3c0dd4-0569-42a8-8c4b-cb4833939aec",
+  "object": "chat.completion",
+  "created": 1760448902,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação possui componentes distintos, sendo um focado na causa (estabelecimento de controles) e outro na condição (devolução de valores). No entanto, há imprecisão na avaliação do critério 'Efeitos Duradouros'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1418,
+    "completion_tokens": 114,
+    "total_tokens": 1532,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 522
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "e9bb6fab-cadf-451c-bd06-002319c7452a",
+  "object": "chat.completion",
+  "created": 1760386718,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"A recomendação propõe a ação de garantir o envio de dados para o SISAB com registros adequados em prontuários, o que visa corrigir a discrepância observada nos dados de cobertura vacinal. No entanto, essa ação foca na correção da condição imediata de inconsistência de dados, sem abordar explicitamente as causas subjacentes, como falhas nos processos de coleta, integração ou validação de dados entre sistemas. Portanto, não há ação clara que trate da causa raiz do problema. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não é atendido, essa análise não se aplica.\",\n   \"Foco Causa\": \"Não\",\n   \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1033,
+    "completion_tokens": 187,
+    "total_tokens": 1220,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 201
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

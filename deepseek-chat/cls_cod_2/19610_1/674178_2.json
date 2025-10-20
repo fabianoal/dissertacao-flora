@@ -1,0 +1,28 @@
+{
+  "id": "2f7a7d2a-bc81-45e3-9ad5-535905b93f47",
+  "object": "chat.completion",
+  "created": 1760389306,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a alimentação do Transferegov com documentação contratual, o que visa estabelecer um processo sistemático de registro e controle, tratando assim a causa do problema (falta de documentação adequada) e não apenas corrigindo a condição específica de pagamento sem cobertura contratual. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um sistema de registro permanente (Transferegov) assegura que os efeitos persistam independentemente de mudanças nos atores envolvidos, pois se baseia em um processo institucionalizado.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 941,
+    "completion_tokens": 170,
+    "total_tokens": 1111,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 109
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

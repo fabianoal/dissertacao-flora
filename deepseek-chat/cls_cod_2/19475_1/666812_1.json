@@ -1,0 +1,28 @@
+{
+  "id": "1e353982-cffe-4340-9fa5-4b8e325835f8",
+  "object": "chat.completion",
+  "created": 1760385886,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe duas ações: disponibilizar uniformes conforme o manual e implementar programas de controle interno para identificar uso inadequado. A primeira ação corrige a condição atual de falta de uniformes adequados, sendo focada na condição. A segunda ação, ao estabelecer controles internos para monitorar o uso, visa prevenir a recorrência do problema ao abordar a causa subjacente de falta de supervisão e fiscalização. Já em relação aos efeitos duradouros, os programas de controle interno, uma vez implementados, podem continuar funcionando independentemente de mudanças nos atores envolvidos, pois são processos institucionalizados.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 990,
+    "completion_tokens": 185,
+    "total_tokens": 1175,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 158
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "b1c9fd84-c0f8-4e58-adac-af796972a0da",
+  "object": "chat.completion",
+  "created": 1760388826,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe padronizar as escalas de trabalho e eliminar rasuras, o que visa prevenir a ocorrência futura da condição encontrada (ausência de escalas oficiais apresentadas), tratando assim da causa do problema. Já em relação aos efeitos pretendidos pela recomendação, a padronização das escalas estabelece um procedimento formal que permanece independentemente de mudanças nos profissionais envolvidos, gerando efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 926,
+    "completion_tokens": 145,
+    "total_tokens": 1071,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 30
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

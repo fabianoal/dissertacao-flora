@@ -1,0 +1,28 @@
+{
+  "id": "f5207d33-a82b-4d3a-9259-03babc01bdfb",
+  "object": "chat.completion",
+  "created": 1760391394,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a elaboração de relatórios mensais e a adoção de medidas preventivas ou corretivas em caso de descumprimento do convênio, o que sugere ações para evitar a reincidência da ausência de relatórios e impropriedades no acompanhamento, tratando assim a causa do problema. Já em relação aos efeitos pretendidos pela recomendação, a implementação de procedimentos sistemáticos para elaboração de relatórios e medidas corretivas tende a criar uma estrutura que permanece mesmo com mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1078,
+    "completion_tokens": 180,
+    "total_tokens": 1258,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 182
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

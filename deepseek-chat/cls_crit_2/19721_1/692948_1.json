@@ -1,0 +1,28 @@
+{
+  "id": "f2082a01-d91f-46d9-99c6-ee9c542bd4db",
+  "object": "chat.completion",
+  "created": 1760462342,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações de atualização e manutenção contínua dos dados cadastrais, que visam tratar a causa raiz do problema (dados desatualizados) para prevenir a reincidência da incompatibilidade. Quanto ao critério 'Efeitos Duradouros', a implementação de um processo sistemático de manutenção contínua tende a persistir independentemente de mudanças nos atores, desde que institucionalizado.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1229,
+    "completion_tokens": 159,
+    "total_tokens": 1388,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 333
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "5d3ded47-5343-4bb8-a818-94169d285ae4",
+  "object": "chat.completion",
+  "created": 1760464181,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação estabelece procedimentos formais para inspeção, o que efetivamente aborda a causa raiz da falta de processos estruturados que levou à condição encontrada. Quanto ao critério 'Efeitos Duradouros', a implementação de procedimentos formais cria um sistema que deve persistir independentemente de mudanças de pessoal, garantindo continuidade.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1277,
+    "completion_tokens": 141,
+    "total_tokens": 1418,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 381
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "02e68e63-5d3c-4af5-90fb-cf87e909785d",
+  "object": "chat.completion",
+  "created": 1760390994,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que vão além da simples correção da falta de registro nos prontuários específicos, incluindo a implementação de rotinas de verificação, controles internos, políticas de governança e sistemas de supervisão que visam prevenir a reocorrência do problema. Já em relação aos efeitos pretendidos pela recomendação, as medidas propostas (como implementação de rotinas, controles internos e políticas de governança) são estruturadas para permanecerem efetivas mesmo com mudanças nos atores envolvidos, pois se baseiam em sistemas e processos institucionalizados.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1298,
+    "completion_tokens": 176,
+    "total_tokens": 1474,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 402
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

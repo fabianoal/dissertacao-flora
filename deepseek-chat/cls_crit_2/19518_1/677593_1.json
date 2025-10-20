@@ -1,0 +1,28 @@
+{
+  "id": "1dd8c75e-a61a-4a33-93b2-7ff499cce999",
+  "object": "chat.completion",
+  "created": 1760453705,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise crítica considera a adequação da classificação fornecida pelo modelo em relação aos critérios 'Foco Causa' e 'Efeitos Duradouros', com base na finalidade da auditoria, constatação e recomendação apresentadas.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1369,
+    "completion_tokens": 103,
+    "total_tokens": 1472,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 473
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

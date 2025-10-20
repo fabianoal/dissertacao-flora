@@ -1,0 +1,28 @@
+{
+  "id": "6a80925a-fa93-48c2-917b-c7ea5eb90225",
+  "object": "chat.completion",
+  "created": 1760457633,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe uma ação de orientação para conferência documental que visa prevenir a reincidência do problema, mas não aborda diretamente a causa raiz da contratação de empresas com os mesmos sócios-administradores, que pode envolver falhas sistêmicas ou intencionalidade. Quanto ao critério 'Efeitos Duradouros', a orientação estabelece um procedimento que pode ser mantido com mudanças de pessoal, mas sua efetividade depende da adesão contínua e de possíveis atualizações normativas.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1288,
+    "completion_tokens": 183,
+    "total_tokens": 1471,
+    "prompt_tokens_details": {
+      "cached_tokens": 1152
+    },
+    "prompt_cache_hit_tokens": 1152,
+    "prompt_cache_miss_tokens": 136
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

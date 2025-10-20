@@ -1,0 +1,28 @@
+{
+  "id": "92fa0026-2daf-43c8-b72a-2106b4797a7d",
+  "object": "chat.completion",
+  "created": 1760455437,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identifica corretamente que a recomendação aborda a causa estrutural da falta de exames, mas não avalia adequadamente se os efeitos são verdadeiramente duradouros, considerando que investimentos pontuais podem não garantir sustentabilidade sem políticas institucionais contínuas.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1375,
+    "completion_tokens": 110,
+    "total_tokens": 1485,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 479
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

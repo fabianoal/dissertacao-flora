@@ -1,0 +1,28 @@
+{
+  "id": "6360cf0e-9e8f-4b19-a7ce-9b0c00823e6f",
+  "object": "chat.completion",
+  "created": 1760468425,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise original identificou corretamente que a recomendação possui foco na causa ao propor ações estruturais, mas superestimou a durabilidade dos efeitos ao não considerar que algumas ações dependem de fatores humanos variáveis.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1354,
+    "completion_tokens": 95,
+    "total_tokens": 1449,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 458
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "cc85694c-caec-4e1b-bdc3-965900aaf18a",
+  "object": "chat.completion",
+  "created": 1760396301,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a realização do processo de armazenamento conforme as orientações do PNI, o que representa uma ação direta para corrigir a condição encontrada (armazenamento inadequado), sem abordar explicitamente as causas subjacentes que levaram ao não cumprimento das orientações, como falta de capacitação, recursos insuficientes ou falhas nos controles internos. Portanto, não há evidência de foco na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 964,
+    "completion_tokens": 172,
+    "total_tokens": 1136,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 132
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

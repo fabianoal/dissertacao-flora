@@ -1,0 +1,28 @@
+{
+  "id": "50e1b8c4-33ba-410a-989a-697568efedab",
+  "object": "chat.completion",
+  "created": 1760454297,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda diretamente a ausência de supervisão técnica contínua, que é uma causa subjacente da estrutura operacional inadequada. Para 'Efeitos Duradouros', a presença obrigatória de um responsável técnico estabelece um requisito estrutural que deve persistir independentemente de mudanças de pessoal.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1233,
+    "completion_tokens": 132,
+    "total_tokens": 1365,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 273
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

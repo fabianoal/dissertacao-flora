@@ -1,0 +1,28 @@
+{
+  "id": "23db3673-7feb-46df-9e86-f8454bf3180b",
+  "object": "chat.completion",
+  "created": 1760390038,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe notificar a convenente para apresentar justificativas sobre a utilização indevida de recursos e, se necessário, adotar medidas administrativas para ressarcimento. Essas ações visam corrigir a condição específica de despesa vinculada incorretamente (foco na condição), sem propor medidas para tratar a causa subjacente que permitiu essa ocorrência, como falhas nos controles internos ou procedimentos. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, não se aplica a avaliação.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1081,
+    "completion_tokens": 178,
+    "total_tokens": 1259,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 249
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "e090faa8-b3e2-4c64-b5d7-4fcc0adfcf41",
+  "object": "chat.completion",
+  "created": 1760385263,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação se concentra em exigir a apresentação e comprovação da documentação necessária para o funcionamento do estabelecimento farmacêutico no PFPB, o que visa corrigir a condição específica encontrada (documentação em desconformidade) sem propor ações para tratar as causas subjacentes que levaram à falta de documentação, como falhas em processos internos ou capacitação. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não é atendido, não se aplica a análise.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1062,
+    "completion_tokens": 169,
+    "total_tokens": 1231,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 230
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

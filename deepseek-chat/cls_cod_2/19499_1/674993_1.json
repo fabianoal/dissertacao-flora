@@ -1,0 +1,28 @@
+{
+  "id": "57e96bd3-2aad-4dd9-add7-bdfa1794cd18",
+  "object": "chat.completion",
+  "created": 1760386294,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a manutenção mensal da atualização do cadastro no SCNES, o que constitui uma ação preventiva para evitar a reincidência da condição de não comprovação da atualização, tratando assim da causa do problema que é a falta de atualização regular. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um processo de atualização mensal sistemático criaria uma rotina que permaneceria mesmo com mudanças nos atores envolvidos, gerando efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 987,
+    "completion_tokens": 163,
+    "total_tokens": 1150,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 155
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

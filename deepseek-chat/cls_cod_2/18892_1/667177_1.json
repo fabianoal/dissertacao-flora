@@ -1,0 +1,28 @@
+{
+  "id": "c94a6e00-cae8-4a4e-a5eb-b6dab596afb6",
+  "object": "chat.completion",
+  "created": 1760383650,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a adoção de providências para cumprir normas específicas de higiene e limpeza, o que sugere uma ação voltada para a causa subjacente (falta de conformidade com as boas práticas) em vez de apenas corrigir a condição imediata. Já em relação aos efeitos pretendidos pela recomendação, a implementação de procedimentos regulares baseados em normas estabelecidas tende a criar efeitos duradouros, independentemente de mudanças nos atores envolvidos, pois institucionaliza práticas de manutenção.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1001,
+    "completion_tokens": 170,
+    "total_tokens": 1171,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 169
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

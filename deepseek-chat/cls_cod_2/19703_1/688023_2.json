@@ -1,0 +1,28 @@
+{
+  "id": "51d05a9a-0b59-48f2-a8e6-78901d1094d3",
+  "object": "chat.completion",
+  "created": 1760394208,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação foca exclusivamente na devolução de valores identificados como irregulares, sem propor ações que tratem das causas subjacentes à incompatibilidade entre os dados inseridos nos sistemas e a produção efetiva de serviços. Não há menção a medidas para melhorar processos, capacitar pessoal ou implementar controles que previnam a recorrência do problema. Portanto, a recomendação é condition-based, voltada para corrigir a condição atual (devolução de recursos), e não cause-based. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1176,
+    "completion_tokens": 182,
+    "total_tokens": 1358,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 216
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "4563d5ad-a252-4193-855b-824eacad52a1",
+  "object": "chat.completion",
+  "created": 1760400604,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe apenas a cobrança de devolução de recursos pagos indevidamente, focando na correção da condição financeira específica identificada (pagamento por procedimento não comprovado). Não há menção a ações que tratem da causa raiz da inconsistência na codificação dos procedimentos, como implementação de sistemas de verificação, capacitação de profissionais ou revisão de processos de codificação. Portanto, a recomendação é focada na condição atual (recuperação do valor) e não na causa do problema (inconsistência nos registros).\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1169,
+    "completion_tokens": 167,
+    "total_tokens": 1336,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 337
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

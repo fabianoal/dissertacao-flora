@@ -1,0 +1,28 @@
+{
+  "id": "168499e8-e765-40df-a9c5-bc70c51ab6c5",
+  "object": "chat.completion",
+  "created": 1760398764,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a adoção de medidas que garantam o transporte adequado dos imunobiológicos, incluindo acompanhamento de profissional capacitado e uso de veículo adequado. Essas ações visam estabelecer procedimentos permanentes para assegurar o cumprimento das normas, tratando assim da causa do problema (falta de controles adequados) e não apenas corrigindo condições específicas observadas. Já em relação aos efeitos pretendidos pela recomendação, as medidas propostas (como capacitação profissional e estabelecimento de procedimentos de transporte) criam estruturas e processos que devem permanecer efetivos mesmo com mudanças nos atores envolvidos, pois se baseiam em normas e protocolos institucionalizados.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1037,
+    "completion_tokens": 200,
+    "total_tokens": 1237,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 13
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

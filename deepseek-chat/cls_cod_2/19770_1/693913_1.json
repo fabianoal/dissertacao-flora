@@ -1,0 +1,28 @@
+{
+  "id": "b07f1912-97b0-4b3e-9369-f3e20b3b8d63",
+  "object": "chat.completion",
+  "created": 1760396164,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a devolução dos recursos recebidos indevidamente, o que constitui uma ação para corrigir a condição atual (recebimento indevido de recursos), sem abordar as causas subjacentes que permitiram esse recebimento irregular, como falhas nos controles internos ou processos de verificação. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1029,
+    "completion_tokens": 152,
+    "total_tokens": 1181,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 197
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6bd666fe-ace6-4225-8938-ca204e9770df",
+  "object": "chat.completion",
+  "created": 1760387554,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe adequações físicas e estruturais (como cumprir normas específicas e garantir área exclusiva) que visam corrigir a condição atual de inadequação das áreas adjacentes, mas não identifica ou trata explicitamente a causa raiz do problema (ex: falta de planejamento, recursos insuficientes ou falhas processuais). Portanto, o foco está na condição observada, não na causa. Como o critério 'Foco Causa' não foi atendido, o critério de 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 954,
+    "completion_tokens": 174,
+    "total_tokens": 1128,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 122
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

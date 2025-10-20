@@ -1,0 +1,28 @@
+{
+  "id": "a1782ccd-2da9-47a9-9c2c-c90a1cb4781d",
+  "object": "chat.completion",
+  "created": 1760386475,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe tanto a adoção de medidas para assegurar o cumprimento dos normativos internos (ação corretiva imediata) quanto a atualização desses instrumentos normativos de acordo com a legislação vigente (ação que visa tratar a causa raiz do problema, que é a inadequação dos normativos internos à legislação). Portanto, há ação proposta que trata da causa. Já em relação aos efeitos pretendidos pela recomendação, a atualização dos instrumentos normativos de acordo com a lei estabelece um marco regulatório interno que deve perdurar independentemente de mudanças nos atores envolvidos, configurando efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 993,
+    "completion_tokens": 191,
+    "total_tokens": 1184,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 225
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

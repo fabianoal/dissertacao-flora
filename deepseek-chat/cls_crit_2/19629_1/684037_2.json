@@ -1,0 +1,28 @@
+{
+  "id": "a3b2338f-32d9-4c97-9fe8-7d83467707c3",
+  "object": "chat.completion",
+  "created": 1760458441,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação estabelece um processo sistemático para registro de informações de rastreabilidade, o que efetivamente trata a causa do problema (falta de procedimentos ou adesão a normas), e não apenas a condição imediata (folhas não anexadas). Para 'Efeitos Duradouros', a implementação de uma prática padronizada e contínua, baseada em manual oficial, tende a persistir com mudanças de pessoal, desde que os protocolos sejam mantidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1210,
+    "completion_tokens": 166,
+    "total_tokens": 1376,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 250
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

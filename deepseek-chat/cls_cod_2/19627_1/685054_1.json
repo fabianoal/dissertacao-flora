@@ -1,0 +1,28 @@
+{
+  "id": "0c41be4a-f1ea-47ad-916d-70029665c9a2",
+  "object": "chat.completion",
+  "created": 1760391302,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a fiscalização dos atos praticados durante a execução do convênio para verificar conformidade com o Plano de Trabalho, visando prevenir erros na aplicação de recursos públicos. Esta ação é reativa e corretiva, focando na detecção e prevenção de desvios futuros, mas não aborda diretamente a causa raiz do problema (como falhas no processo de planejamento, capacitação ou controle interno que permitiram a contratação e pagamento de profissionais não previstos). Portanto, não há ação clara para tratar a causa subjacente. Como o critério 'Foco Causa' não é atendido, a análise de 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1045,
+    "completion_tokens": 211,
+    "total_tokens": 1256,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 213
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

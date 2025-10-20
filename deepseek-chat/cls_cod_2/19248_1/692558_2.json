@@ -1,0 +1,28 @@
+{
+  "id": "1828e50c-a6db-412c-b82a-ef82678dad32",
+  "object": "chat.completion",
+  "created": 1760384315,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe ações específicas para a guarda e arquivamento de documentos fiscais, como manter a guarda por 10 anos, arquivar em locais distintos e em duas cópias (física e digitalizada), com referência a normas específicas. No entanto, essas ações focam na correção da condição encontrada (falta de comprovação via notas fiscais) ao estabelecer procedimentos para documentação futura, sem abordar as causas subjacentes que levaram à ausência inicial desses registros, como possíveis falhas em processos de aquisição, treinamento de pessoal ou sistemas de controle. Portanto, não há ação proposta que trate diretamente da causa do problema. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1106,
+    "completion_tokens": 227,
+    "total_tokens": 1333,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 274
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2a3ff207-44a8-4ce5-80c2-4b5fc22b93e9",
+  "object": "chat.completion",
+  "created": 1760390690,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe uma ação direta para corrigir a condição específica de não cumprimento do prazo de inserção dos relatórios, sem abordar as causas subjacentes que levaram ao atraso, como falhas nos processos internos, capacitação da equipe ou recursos disponíveis. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 965,
+    "completion_tokens": 148,
+    "total_tokens": 1113,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 133
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

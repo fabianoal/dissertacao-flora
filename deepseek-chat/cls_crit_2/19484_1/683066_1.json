@@ -1,0 +1,28 @@
+{
+  "id": "0c6e7c8e-d9ac-4444-8eeb-4ea4a0f31922",
+  "object": "chat.completion",
+  "created": 1760469420,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A classificação original apresenta uma avaliação adequada em relação ao critério 'Foco Causa', mas há inconsistência no critério 'Efeitos Duradouros' devido à falta de especificidade sobre a implementação das medidas institucionais propostas.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1406,
+    "completion_tokens": 102,
+    "total_tokens": 1508,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 510
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

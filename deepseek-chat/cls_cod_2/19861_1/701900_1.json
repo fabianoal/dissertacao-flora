@@ -1,0 +1,28 @@
+{
+  "id": "7d38f620-aa25-4f65-9637-c145fa0511ec",
+  "object": "chat.completion",
+  "created": 1760399812,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a devolução de valores recebidos indevidamente, focando na correção da condição financeira atual, sem abordar as causas subjacentes, como falhas nos processos de inserção de dados ou controles internos. Portanto, não há ação para tratar a causa do problema. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1037,
+    "completion_tokens": 134,
+    "total_tokens": 1171,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 205
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

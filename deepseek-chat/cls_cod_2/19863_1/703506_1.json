@@ -1,0 +1,28 @@
+{
+  "id": "cbc9e75d-820c-48eb-9f61-13d912654fe1",
+  "object": "chat.completion",
+  "created": 1760399904,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação solicita o cumprimento de uma ação previamente acordada, que é a revisão do regimento interno do hospital, sem propor medidas para tratar a causa subjacente da não revisão, como falhas nos processos de gestão ou monitoramento. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 972,
+    "completion_tokens": 133,
+    "total_tokens": 1105,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 140
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

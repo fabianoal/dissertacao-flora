@@ -1,0 +1,28 @@
+{
+  "id": "60d55506-07fc-492a-a499-76551c4e6470",
+  "object": "chat.completion",
+  "created": 1760388190,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere alimentar os bancos de dados de forma tempestiva, o que é uma ação voltada para corrigir a discrepância imediata entre os sistemas (condição encontrada), mas não propõe medidas para tratar as causas subjacentes que levam à falta de equivalência dos dados, como possíveis falhas nos processos de registro, integração de sistemas ou capacitação de pessoal. Portanto, não há foco na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1227,
+    "completion_tokens": 169,
+    "total_tokens": 1396,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 331
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

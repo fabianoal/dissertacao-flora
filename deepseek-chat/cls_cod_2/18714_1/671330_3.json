@@ -1,0 +1,28 @@
+{
+  "id": "d4136da9-1b0f-4284-abe0-460285c4d87b",
+  "object": "chat.completion",
+  "created": 1760383435,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe apenas a restituição do valor irregularmente gasto, focando na correção da condição financeira específica identificada (devolução do dinheiro). Não há nenhuma ação que trate das causas que levaram à irregularidade na dispensa de licitação, como falhas nos processos de compra, capacitação de servidores ou implementação de controles preventivos. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1048,
+    "completion_tokens": 172,
+    "total_tokens": 1220,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 216
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

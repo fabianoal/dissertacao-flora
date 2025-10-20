@@ -1,0 +1,28 @@
+{
+  "id": "565e451e-e171-4da5-bd56-9e43bb86d619",
+  "object": "chat.completion",
+  "created": 1760386194,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a instalação de um sistema de gravação digital eficiente e contínua para registrar toda a comunicação, o que trata diretamente a causa do problema (falta de sistema adequado) e não apenas a condição atual de não realização das gravações. Já em relação aos efeitos pretendidos pela recomendação, o sistema implementado permanecerá funcional independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1061,
+    "completion_tokens": 147,
+    "total_tokens": 1208,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 229
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

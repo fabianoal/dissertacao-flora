@@ -1,0 +1,28 @@
+{
+  "id": "a83c82de-78dd-47cf-bbf0-3f478d31d8a4",
+  "object": "chat.completion",
+  "created": 1760400724,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe que a Secretaria cumpra as diretrizes técnicas específicas para o código de procedimento e desempenhe sua função de fiscalização conforme estabelecido no termo de convênio, o que visa tratar a causa da falta de controle e fiscalização que gerou a inconsistência observada. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um sistema de fiscalização baseado em normas técnicas e contratuais tende a produzir efeitos duradouros, pois estabelece procedimentos formais que permanecem independentemente de mudanças nos atores envolvidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1205,
+    "completion_tokens": 174,
+    "total_tokens": 1379,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 373
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

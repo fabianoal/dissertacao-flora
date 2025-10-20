@@ -1,0 +1,28 @@
+{
+  "id": "25140ac2-e041-47b7-9525-ffe452e6e1d8",
+  "object": "chat.completion",
+  "created": 1760468233,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise fornecida avalia corretamente que a recomendação se concentra na correção imediata da condição observada (ausência de APAC concomitante), sem propor ações para abordar causas subjacentes, como falhas em processos, treinamento ou sistemas. Isso está alinhado com a definição de recomendações com foco na condição, e não na causa.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1249,
+    "completion_tokens": 127,
+    "total_tokens": 1376,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 353
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

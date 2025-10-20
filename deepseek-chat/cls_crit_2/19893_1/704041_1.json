@@ -1,0 +1,28 @@
+{
+  "id": "801a5a14-e627-4a71-90eb-c87d1bdd61fb",
+  "object": "chat.completion",
+  "created": 1760468521,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise da classificação para os critérios 'Foco Causa' e 'Efeitos Duradouros' foi revisada com base na descrição da auditoria, constatação, recomendação e justificativa fornecida. A recomendação propõe ações que visam prevenir a recorrência das irregularidades identificadas, focando em causas sistêmicas e implementação de processos estruturados.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1569,
+    "completion_tokens": 135,
+    "total_tokens": 1704,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 609
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

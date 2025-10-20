@@ -1,0 +1,28 @@
+{
+  "id": "20667130-6ee8-41cb-b8f0-e7e16714db93",
+  "object": "chat.completion",
+  "created": 1760467213,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação realmente aborda a causa subjacente do problema, que é a implementação inadequada do ciclo de planejamento, ao propor ações para reforçar esse ciclo e seu acompanhamento contínuo. Quanto ao critério 'Efeitos Duradouros', a recomendação sugere a criação de processos estruturados e integrados de planejamento que, uma vez implementados, tendem a persistir independentemente de mudanças nos atores, promovendo assim efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1328,
+    "completion_tokens": 167,
+    "total_tokens": 1495,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 432
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

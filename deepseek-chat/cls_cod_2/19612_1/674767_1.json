@@ -1,0 +1,28 @@
+{
+  "id": "c5545f8f-fdcb-45a1-bc32-090352cfb97b",
+  "object": "chat.completion",
+  "created": 1760389814,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação inclui a ação de orientar a manutenção periódica das informações no CNES, o que visa prevenir a recorrência da condição de profissionais não inscritos, tratando assim da causa subjacente relacionada à falta de atualização contínua. Já em relação aos efeitos pretendidos pela recomendação, a manutenção periódica das informações estabelece um processo que pode persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 973,
+    "completion_tokens": 146,
+    "total_tokens": 1119,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 141
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "efe7b756-6ca4-4e10-aa1d-346f10d99165",
+  "object": "chat.completion",
+  "created": 1760395316,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe apenas a restituição dos recursos recebidos indevidamente, focando na correção da condição financeira irregular identificada (recebimento de valores sem comprovação documental). Não há menção a ações que tratem da causa subjacente do problema, como a implementação de controles para evitar registros de produção sem documentação comprobatória no futuro. Portanto, a recomendação é condition-based, não cause-based. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1143,
+    "completion_tokens": 172,
+    "total_tokens": 1315,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 247
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

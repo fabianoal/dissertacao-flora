@@ -1,0 +1,28 @@
+{
+  "id": "c104c170-4bad-49b7-a4b6-b29e88044f8a",
+  "object": "chat.completion",
+  "created": 1760448502,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda ações para melhorar a qualidade e consistência dos dados e estabelecer prazos, mas não identifica ou trata especificamente a causa raiz da inconsistência entre os dados consolidados e os prontuários, como possíveis falhas nos processos de coleta, registro ou integração de dados. Quanto ao critério 'Efeitos Duradouros', embora ações como verificação de qualidade e cumprimento de prazos possam criar estruturas, a falta de foco na causa raiz limita a durabilidade dos efeitos, pois problemas subjacentes não resolvidos podem persistir mesmo com mudanças de atores.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1274,
+    "completion_tokens": 202,
+    "total_tokens": 1476,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 378
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

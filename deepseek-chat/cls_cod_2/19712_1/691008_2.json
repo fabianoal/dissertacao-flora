@@ -1,0 +1,28 @@
+{
+  "id": "3576e04e-2b66-43df-98e8-ad6311352dab",
+  "object": "chat.completion",
+  "created": 1760394344,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação solicita à Saes/MS que adote medidas de apuração para cobrança administrativa de valores recebidos indevidamente, focando na correção financeira da condição irregular identificada (procedimentos não comprovados). Não há menção a ações que tratem da causa subjacente do problema, como falhas nos processos de registro ou controle interno que permitiram a inserção de produção não realizada no SIA/SUS. Portanto, a recomendação é condition-based, visando remediar a condição atual, sem abordar a causa raiz para prevenir recorrências.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1106,
+    "completion_tokens": 168,
+    "total_tokens": 1274,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 210
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

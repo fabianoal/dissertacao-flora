@@ -1,0 +1,28 @@
+{
+  "id": "14ae07ff-75a3-475a-abcb-99a7eb53afe9",
+  "object": "chat.completion",
+  "created": 1760385391,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a encaminhar a constatação para conhecimento do órgão competente e citar dispositivos legais genéricos, sem propor ações específicas para tratar a causa das irregularidades nos cupons e receitas médicas. Não há menção a medidas como implementação de controles, capacitação, revisão de processos ou outras ações que ataquem a origem do problema. Portanto, não atende ao critério de foco na causa.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1048,
+    "completion_tokens": 140,
+    "total_tokens": 1188,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 216
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

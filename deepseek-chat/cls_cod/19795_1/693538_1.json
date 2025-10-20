@@ -1,0 +1,28 @@
+{
+  "id": "fde0f912-6448-4c9a-8212-54fbc049947a",
+  "object": "chat.completion",
+  "created": 1760036756,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere uma ação corretiva ao propor a capacitação da equipe para garantir atualizações eficientes e precisas nos registros, visando corrigir a discrepância entre os registros no Sies e o estoque físico. Em relação ao foco na causa, a ação proposta é genérica, pois se limita a citar o cumprimento do normativo do Manual de Rede de Frio, sem especificar ações concretas além do treinamento obrigatório. Quanto aos efeitos duradouros, como a ação é genérica e não estabelece mecanismos sustentáveis que independam dos atores atuais, os efeitos não são considerados duradouros.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1293,
+    "completion_tokens": 194,
+    "total_tokens": 1487,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 269
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

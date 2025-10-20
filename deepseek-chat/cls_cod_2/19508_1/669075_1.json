@@ -1,0 +1,28 @@
+{
+  "id": "e851b8f4-8bb8-44cf-bbfc-90e1ef0ae851",
+  "object": "chat.completion",
+  "created": 1760386458,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a sugerir a dedução de valores não comprovados de pagamentos futuros e cita procedimentos administrativos genéricos, sem propor ações específicas para tratar a causa raiz da falta de comprovação das aquisições, como a implementação de controles preventivos ou melhorias nos processos de documentação. Portanto, não há foco na causa do problema. Como o critério 'Foco Causa' não é atendido, a avaliação de efeitos duradouros não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1168,
+    "completion_tokens": 156,
+    "total_tokens": 1324,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 336
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

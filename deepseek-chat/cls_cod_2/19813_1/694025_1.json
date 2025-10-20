@@ -1,0 +1,28 @@
+{
+  "id": "68f6b663-e92c-477e-990f-7e2a4757677f",
+  "object": "chat.completion",
+  "created": 1760397880,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe que a SMS realize atividades de redução de danos e continuidade dos cuidados, além de registros adequados, focando na correção direta da condição observada de não realização dessas ações. No entanto, não há menção a ações que abordem a causa subjacente dessa condição, como falta de capacitação, recursos insuficientes ou falhas na gestão. Em relação aos efeitos duradouros, como o critério 'Foco Causa' não é atendido, essa análise não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1030,
+    "completion_tokens": 156,
+    "total_tokens": 1186,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 198
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

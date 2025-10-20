@@ -1,0 +1,28 @@
+{
+  "id": "b39614c0-4523-48cc-b641-abfef617fc69",
+  "object": "chat.completion",
+  "created": 1760387822,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a adoção de medidas para garantir o preenchimento adequado dos prontuários, referenciando manuais e normas específicos, mas não identifica explicitamente ações que tratem da causa raiz do problema (como falta de capacitação, recursos ou processos inadequados). Portanto, foca na correção da condição atual (preenchimento inadequado) sem abordar diretamente as causas subjacentes. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, essa análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1111,
+    "completion_tokens": 171,
+    "total_tokens": 1282,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 279
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

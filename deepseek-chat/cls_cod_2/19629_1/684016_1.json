@@ -1,0 +1,28 @@
+{
+  "id": "34d4b5bf-fd9f-4254-a901-d9206877e64b",
+  "object": "chat.completion",
+  "created": 1760391646,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a implementação de um processo sistemático de registro de informações de rastreabilidade nos prontuários dos pacientes, o que visa tratar a causa do problema (falta de um procedimento adequado para garantir a rastreabilidade) e não apenas corrigir os casos específicos identificados. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um processo formal de registro conforme o manual do Ministério da Saúde estabelece uma prática institucional que deve permanecer independentemente de mudanças nos profissionais envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1012,
+    "completion_tokens": 167,
+    "total_tokens": 1179,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 180
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

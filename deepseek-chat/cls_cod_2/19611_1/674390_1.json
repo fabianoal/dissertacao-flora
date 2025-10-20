@@ -1,0 +1,28 @@
+{
+  "id": "9cd0b88c-21c7-4998-a2fd-19a9b17a5a31",
+  "object": "chat.completion",
+  "created": 1760389502,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe que a convenente insira a documentação comprobatória para sanear as impropriedades específicas (registros de afastamento sem atestado médico ou justificativa), focando na correção imediata da condição encontrada, sem mencionar ações para prevenir a recorrência do problema, como a implementação de procedimentos de controle ou capacitação. Portanto, não há ação voltada para a causa raiz. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 951,
+    "completion_tokens": 170,
+    "total_tokens": 1121,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

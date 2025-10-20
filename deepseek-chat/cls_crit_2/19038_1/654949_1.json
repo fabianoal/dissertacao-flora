@@ -1,0 +1,28 @@
+{
+  "id": "ccacf01f-3c3a-4643-b2d8-d6a00c943496",
+  "object": "chat.completion",
+  "created": 1760450828,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a adoção de medidas padronizadas para garantir a regularidade dos registros, o que aborda a causa subjacente (falta de padronização e conformidade) em vez de apenas corrigir registros individuais. Para o critério 'Efeitos Duradouros', a padronização estabelece processos que devem persistir independentemente de mudanças na equipe, promovendo efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1254,
+    "completion_tokens": 154,
+    "total_tokens": 1408,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 358
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

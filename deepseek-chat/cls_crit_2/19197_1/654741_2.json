@@ -1,0 +1,28 @@
+{
+  "id": "7ba69684-7d62-4c13-8b0c-e9d74699627e",
+  "object": "chat.completion",
+  "created": 1760451072,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise fornecida avalia corretamente que a recomendação se concentra na correção imediata da condição de pagamento em excesso, sem abordar as causas subjacentes que permitiram essa irregularidade, como falhas nos processos de verificação ou controle interno. No entanto, a avaliação do critério 'Efeitos Duradouros' está alinhada com a ausência de foco na causa, sendo apropriadamente classificada como não se aplica.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1221,
+    "completion_tokens": 145,
+    "total_tokens": 1366,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 261
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

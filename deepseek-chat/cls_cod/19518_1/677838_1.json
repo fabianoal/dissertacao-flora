@@ -1,0 +1,28 @@
+{
+  "id": "6ea38c8e-ef14-490c-9d9a-238d5df7ac59",
+  "object": "chat.completion",
+  "created": 1760037080,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere garantir o envio de dados para o SISAB com informações registradas em prontuários, o que visa corrigir a condição de discrepância entre sistemas. No entanto, a ação proposta é genérica, limitando-se a cumprir normativos existentes (Nota Técnica e Manual Instrutivo) sem especificar medidas concretas para abordar a causa raiz da inconsistência, como melhorias em processos de coleta ou integração de sistemas.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1230,
+    "completion_tokens": 154,
+    "total_tokens": 1384,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 206
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

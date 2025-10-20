@@ -1,0 +1,28 @@
+{
+  "id": "1504fa6c-efd6-49fa-a354-614c160eb007",
+  "object": "chat.completion",
+  "created": 1760037548,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere uma ação corretiva específica para resolver a condição encontrada (devolução do recurso), mas não propõe nenhuma ação para tratar a causa que permitiu a ocorrência da irregularidade na liquidação de despesas. A ação sugerida é focada apenas na correção imediata da condição, sem medidas para prevenir futuras ocorrências similares.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se Aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1223,
+    "completion_tokens": 140,
+    "total_tokens": 1363,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 199
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

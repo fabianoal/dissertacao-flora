@@ -1,0 +1,28 @@
+{
+  "id": "5bbf205f-1163-4f9e-a16b-93c9e2997f87",
+  "object": "chat.completion",
+  "created": 1760390638,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a solicitar justificativas para a condição encontrada (contratação de empresas com os mesmos sócios-administradores), sem propor ações para tratar a causa raiz do problema, como revisão de procedimentos de contratação ou implementação de controles preventivos. Portanto, não há foco na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 943,
+    "completion_tokens": 147,
+    "total_tokens": 1090,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 111
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

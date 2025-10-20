@@ -1,0 +1,28 @@
+{
+  "id": "2f133302-46f2-4337-a1c8-7dfcaf8cd028",
+  "object": "chat.completion",
+  "created": 1760390214,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a inserção de documentação comprobatória para sanear impropriedades específicas, o que corrige a condição imediata de falta de atestados/justificativas, mas não identifica ou aborda a causa subjacente (ex: falhas no processo de controle de frequência, capacitação inadequada). Portanto, é focada na condição. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não é atendido, não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1044,
+    "completion_tokens": 162,
+    "total_tokens": 1206,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 148
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

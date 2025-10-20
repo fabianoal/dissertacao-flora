@@ -1,0 +1,28 @@
+{
+  "id": "93788fae-dc70-4fa2-b0ee-ca3e6f699f50",
+  "object": "chat.completion",
+  "created": 1760398772,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a adoção de indicadores para monitorar o processo de trabalho e acompanhar os controles implementados, além de fomentar a elaboração de POPs para padronização dos processos. Essas ações visam tratar a causa subjacente da falta de monitoramento contínuo, que é a ausência de mecanismos estruturados e padronizados para avaliação e controle. Já em relação aos efeitos pretendidos pela recomendação, a implementação de indicadores e POPs cria estruturas e processos que podem persistir independentemente de mudanças nos atores envolvidos, pois se tornam parte da rotina organizacional e dos sistemas de gestão.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1006,
+    "completion_tokens": 188,
+    "total_tokens": 1194,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 174
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

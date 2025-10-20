@@ -1,0 +1,28 @@
+{
+  "id": "97a8afca-629f-458d-b5ab-143a7a2f56a9",
+  "object": "chat.completion",
+  "created": 1760462457,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe estabelecer um processo sistemático de registro e atualização de dados sobre treinamentos, o que aborda diretamente a causa raiz da falta de comprovação da participação dos profissionais, que é a ausência de um sistema adequado de documentação. Quanto ao critério 'Efeitos Duradouros', a implementação de um processo contínuo e sistemático de cadastramento e atualização cria uma estrutura que pode ser mantida independentemente de mudanças na equipe, assegurando que os efeitos perdurem ao longo do tempo.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1245,
+    "completion_tokens": 184,
+    "total_tokens": 1429,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 285
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

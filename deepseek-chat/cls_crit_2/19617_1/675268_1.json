@@ -1,0 +1,28 @@
+{
+  "id": "fd25b211-e56e-40ff-a0d3-c7582f7b9bb5",
+  "object": "chat.completion",
+  "created": 1760457709,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda diretamente a causa das impropriedades documentais ao propor a elaboração de documentos seguindo requisitos legais e arquivísticos, estabelecendo um padrão formal para prevenir recorrências. Quanto ao critério 'Efeitos Duradouros', a institucionalização desses padrões em leis e procedimentos sugere que os efeitos podem persistir mesmo com mudanças de atores, mas a análise original pode superestimar a garantia de durabilidade sem considerar possíveis falhas na implementação ou adesão contínua.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1340,
+    "completion_tokens": 182,
+    "total_tokens": 1522,
+    "prompt_tokens_details": {
+      "cached_tokens": 1088
+    },
+    "prompt_cache_hit_tokens": 1088,
+    "prompt_cache_miss_tokens": 252
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6be1e005-db55-4bc8-8b10-178a0377745b",
+  "object": "chat.completion",
+  "created": 1760049619,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Etiqueta\": \"Cumprimento de requisito normativo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2050,
+    "completion_tokens": 19,
+    "total_tokens": 2069,
+    "prompt_tokens_details": {
+      "cached_tokens": 1856
+    },
+    "prompt_cache_hit_tokens": 1856,
+    "prompt_cache_miss_tokens": 194
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

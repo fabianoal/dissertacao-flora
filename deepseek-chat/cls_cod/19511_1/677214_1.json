@@ -1,0 +1,28 @@
+{
+  "id": "7590b309-a5f3-4d96-8eba-5b855b7a6880",
+  "object": "chat.completion",
+  "created": 1760037100,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"A recomendação sugere ações para corrigir a condição encontrada de ausência do número da AIH nos prontuários, como estabelecer medidas para emissão do relatório e assegurar a inclusão do número. No entanto, as ações propostas são genéricas, limitando-se a citar o cumprimento de normativos existentes sem detalhar ações específicas para abordar a causa subjacente, como falhas em processos ou treinamento. Portanto, não há uma ação com foco na causa que vá além do mero cumprimento normativo.\",\n   \"Ação Corretiva\": \"Sim\",\n   \"Ação Foco Causa\": \"Genérica\",\n   \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1205,
+    "completion_tokens": 170,
+    "total_tokens": 1375,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 181
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

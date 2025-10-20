@@ -1,0 +1,28 @@
+{
+  "id": "a6bf73f5-9da4-497f-84ba-6d1074b385ce",
+  "object": "chat.completion",
+  "created": 1760035764,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação contém duas ações distintas. A primeira ação sugere o estabelecimento de controles financeiros para confrontar a execução física com notas fiscais, o que visa prevenir a reocorrência de problemas similares, indicando foco na causa. A segunda ação propõe a devolução de valores não comprovados, que é uma medida corretiva direta para resolver a condição encontrada. A ação com foco na causa é específica, pois vai além do mero cumprimento normativo ao detalhar um processo de controle. Os efeitos duradouros são considerados, pois a implementação de controles permanentes pode sustentar melhorias independentemente de mudanças nos atores.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Específica\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1309,
+    "completion_tokens": 201,
+    "total_tokens": 1510,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 285
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

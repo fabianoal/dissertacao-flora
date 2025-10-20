@@ -1,0 +1,28 @@
+{
+  "id": "9c322cdc-f316-4399-92c5-f52e5c046b71",
+  "object": "chat.completion",
+  "created": 1760466893,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação possui foco na causa ao propor ações sistemáticas para estabelecer processos contínuos de coleta e análise de dados, em vez de apenas corrigir os dados ausentes. No entanto, a avaliação sobre efeitos duradouros merece uma análise mais aprofundada sobre a implementação prática dessas ações.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1398,
+    "completion_tokens": 125,
+    "total_tokens": 1523,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 502
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

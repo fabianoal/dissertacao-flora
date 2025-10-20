@@ -1,0 +1,28 @@
+{
+  "id": "9b7775ab-808a-4999-a421-cea348e9c21d",
+  "object": "chat.completion",
+  "created": 1760459889,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise fornecida avalia corretamente que a recomendação aborda a causa subjacente (falta de instrumentos regulatórios) e prevê efeitos duradouros, mas há uma discordância no critério de Efeitos Duradouros, pois a recomendação não especifica mecanismos que garantam a continuidade independente de mudanças de pessoal.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1316,
+    "completion_tokens": 123,
+    "total_tokens": 1439,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 292
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

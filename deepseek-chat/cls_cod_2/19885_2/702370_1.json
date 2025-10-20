@@ -1,0 +1,28 @@
+{
+  "id": "5fd2e267-17fc-47df-af7c-638a0574f36d",
+  "object": "chat.completion",
+  "created": 1760400632,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a devolução de valores pagos indevidamente ao Fundo Nacional de Saúde, o que constitui uma medida corretiva para a condição específica identificada (pagamento por procedimento incompatível). Não há nenhuma ação proposta que trate das causas subjacentes que levaram à realização do procedimento inadequado, como falhas em processos de triagem, capacitação da equipe ou controles internos. Portanto, esta é uma recomendação com foco na condição imediata, não na causa raiz do problema.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1032,
+    "completion_tokens": 161,
+    "total_tokens": 1193,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 200
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

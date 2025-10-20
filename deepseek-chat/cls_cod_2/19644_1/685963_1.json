@@ -1,0 +1,28 @@
+{
+  "id": "be055d17-357c-4c39-a1a2-c6cb25a826c8",
+  "object": "chat.completion",
+  "created": 1760391986,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a divulgação dos resultados dos indicadores do Programa Previne Brasil, o que visa corrigir a condição específica de falta de transparência identificada na constatação. No entanto, não há menção a ações que tratem das causas subjacentes que levaram à ausência de divulgação, como falhas em processos internos, capacitação de pessoal ou definição de responsabilidades. Portanto, a recomendação é focada na condição imediata, não na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 951,
+    "completion_tokens": 184,
+    "total_tokens": 1135,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 119
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

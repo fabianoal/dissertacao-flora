@@ -1,0 +1,28 @@
+{
+  "id": "ef7e938a-b9a2-4eeb-ae37-999a8ac4d33f",
+  "object": "chat.completion",
+  "created": 1760387086,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação solicita ao DAF/SCTIE/MS que adote procedimentos para tratar a constatação de dispensações em nome de pessoas falecidas, mas não especifica ações que abordem a causa raiz do problema, como falhas no sistema de verificação de óbitos ou controle de acesso. Em vez disso, foca na correção imediata (devolução de recursos) e em medidas administrativas genéricas. Portanto, não há ação proposta que trate diretamente da causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1056,
+    "completion_tokens": 179,
+    "total_tokens": 1235,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 224
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

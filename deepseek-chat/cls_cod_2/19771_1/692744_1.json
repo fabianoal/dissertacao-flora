@@ -1,0 +1,28 @@
+{
+  "id": "abfe6e5a-afaf-4585-93b8-e6026e7f5006",
+  "object": "chat.completion",
+  "created": 1760396184,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"Em relação ao foco, a recomendação propõe adequar o sistema de ar condicionado para atender a requisitos técnicos específicos, o que visa corrigir diretamente a condição inadequada de climatização, sem indicar ações para tratar as causas subjacentes, como falhas em manutenção ou projeto. Já em relação aos efeitos pretendidos pela recomendação, como o critério 'Foco Causa' não é atendido, essa análise não se aplica.\",\n   \"Foco Causa\": \"Não\",\n   \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1027,
+    "completion_tokens": 140,
+    "total_tokens": 1167,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 195
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

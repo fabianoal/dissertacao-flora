@@ -1,0 +1,28 @@
+{
+  "id": "4f1e091f-463c-4389-b1e3-7b2b58d115bd",
+  "object": "chat.completion",
+  "created": 1760463905,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise da codificação apresenta uma avaliação fundamentada, mas requer revisão em relação ao critério de Efeitos Duradouros. A recomendação claramente aborda a causa raiz da falta de preparo para emergências, mas a sustentabilidade dos efeitos precisa ser mais criteriosamente examinada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1286,
+    "completion_tokens": 113,
+    "total_tokens": 1399,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 390
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

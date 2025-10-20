@@ -1,0 +1,28 @@
+{
+  "id": "0608c894-2a25-4169-9be2-886b136eadf0",
+  "object": "chat.completion",
+  "created": 1760395736,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam diretamente das causas do problema identificado, que são a ausência de Responsável Técnico habilitado e o registro desatualizado no Cnes. As medidas sugeridas incluem designação de RT legalmente habilitado, notificação ao órgão sanitário e atualização de cadastros, abordando as deficiências estruturais e processuais que geraram a condição encontrada. Já em relação aos efeitos pretendidos pela recomendação, as ações propostas estabelecem procedimentos formais e registros permanentes (designação de RT, notificação regulatória, atualização cadastral) que criam estruturas e processos que devem persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1097,
+    "completion_tokens": 216,
+    "total_tokens": 1313,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 265
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

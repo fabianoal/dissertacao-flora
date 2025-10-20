@@ -1,0 +1,28 @@
+{
+  "id": "9a02aba6-942b-476b-8078-48cc2c1aef89",
+  "object": "chat.completion",
+  "created": 1760385334,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe que a SAES/MS realize acompanhamento e adote medidas administrativas para a devolução dos recursos, focando na correção da condição específica de não repasse identificada. Não há menção a ações que tratem das causas subjacentes que levaram ao não repasse, como falhas em processos, controles ou políticas. Portanto, a recomendação é condition-based, não cause-based. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1107,
+    "completion_tokens": 162,
+    "total_tokens": 1269,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 275
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

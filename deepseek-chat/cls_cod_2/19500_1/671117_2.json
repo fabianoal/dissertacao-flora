@@ -1,0 +1,28 @@
+{
+  "id": "7bf6486d-4000-43fb-8995-a46ca23c794d",
+  "object": "chat.completion",
+  "created": 1760386378,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a devolução dos recursos cobrados indevidamente, o que constitui uma medida para corrigir a condição específica de cobrança excessiva identificada, sem abordar as causas subjacentes que permitiram essa discrepância, como falhas em processos de controle interno ou sistemas de verificação. Portanto, a recomendação é condition-based, focada na correção imediata do problema. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, essa análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1043,
+    "completion_tokens": 167,
+    "total_tokens": 1210,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 211
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

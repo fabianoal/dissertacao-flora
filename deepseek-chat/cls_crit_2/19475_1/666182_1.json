@@ -1,0 +1,28 @@
+{
+  "id": "441d3a8d-3f82-4444-9819-9bfa29b1a093",
+  "object": "chat.completion",
+  "created": 1760452832,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', discordo da análise, pois a recomendação de adequação da infraestrutura, ao exigir conformidade com normas legais específicas, implica a correção de causas subjacentes, como deficiências no planejamento ou execução de obras, que levaram à não conformidade. Para o critério 'Efeitos Duradouros', como discordo da classificação anterior, a resposta 'Não se aplica' é inconsistente; se a recomendação for considerada com foco na causa, os efeitos da adequação infraestrutural tendem a ser duradouros, independente de mudanças de atores.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1212,
+    "completion_tokens": 193,
+    "total_tokens": 1405,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 316
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

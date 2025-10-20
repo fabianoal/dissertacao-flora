@@ -1,0 +1,28 @@
+{
+  "id": "117c8cc2-9ca6-4df0-b50f-17de17d56f4e",
+  "object": "chat.completion",
+  "created": 1760386454,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação aborda a falta de apresentação do livro de Registro de Inventário, focando principalmente em ações corretivas imediatas, como prestar informações e cópias de documentos quando exigidas, e manter o livro de inventário conforme a legislação. Embora essas ações possam prevenir futuras ocorrências ao estabelecer conformidade, não há menção explícita a medidas que tratem da causa raiz do problema, como falhas em processos internos ou capacitação. Portanto, não é possível afirmar que há foco na causa. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1183,
+    "completion_tokens": 190,
+    "total_tokens": 1373,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 351
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

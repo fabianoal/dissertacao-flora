@@ -1,0 +1,28 @@
+{
+  "id": "c4b74bcd-8030-4d15-815c-f2ccc956543a",
+  "object": "chat.completion",
+  "created": 1760465161,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações que visam tratar a causa subjacente da falta de registros, como a articulação entre equipes e a manutenção de registros, o que é consistente com a análise fornecida. Para o critério 'Efeitos Duradouros', a implementação de processos estruturados pode criar mudanças duradouras, mas a análise não considera que a efetividade pode depender da adesão contínua dos atores, o que pode variar com mudanças de pessoal.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1283,
+    "completion_tokens": 173,
+    "total_tokens": 1456,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 387
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

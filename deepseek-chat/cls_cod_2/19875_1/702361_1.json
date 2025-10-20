@@ -1,0 +1,28 @@
+{
+  "id": "ca7429e1-f477-4db7-b129-4da9ce00cf7d",
+  "object": "chat.completion",
+  "created": 1760400304,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe estabelecer controles internos para validar a consistência entre tempo de permanência e procedimentos, o que visa tratar a causa do problema (falta de controles adequados) e não apenas corrigir as internações específicas identificadas. Já em relação aos efeitos pretendidos pela recomendação, os controles internos estabelecidos permanecerão funcionando independentemente de mudanças nos profissionais envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1024,
+    "completion_tokens": 143,
+    "total_tokens": 1167,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 192
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

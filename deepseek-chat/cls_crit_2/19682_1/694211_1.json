@@ -1,0 +1,28 @@
+{
+  "id": "9c56ef5f-335b-4985-90e2-1d9bea190ce4",
+  "object": "chat.completion",
+  "created": 1760459541,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise original argumenta que a recomendação não aborda a causa das impropriedades, como capacitação ou revisão de processos, focando apenas em medidas corretivas e de monitoramento. Para o critério 'Efeitos Duradouros', a análise corretamente não se aplica, dado que 'Foco Causa' foi avaliado como 'Não'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1221,
+    "completion_tokens": 138,
+    "total_tokens": 1359,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 325
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

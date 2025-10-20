@@ -1,0 +1,28 @@
+{
+  "id": "3e9ab11d-46a7-4ef1-8fd8-678d540f7054",
+  "object": "chat.completion",
+  "created": 1760388786,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a elaboração do Relatório Anual de Gestão (RAG) com detalhamento da aplicação dos recursos do SAMU, o que visa corrigir a condição específica de não identificação dos recursos no RAG de 2022. No entanto, não há menção a ações que abordem as causas subjacentes dessa falha, como deficiências em processos, capacitação ou sistemas. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não é atendido, não se aplica a análise.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1069,
+    "completion_tokens": 158,
+    "total_tokens": 1227,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 237
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

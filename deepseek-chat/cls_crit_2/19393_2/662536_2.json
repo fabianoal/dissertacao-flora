@@ -1,0 +1,28 @@
+{
+  "id": "94237372-15a5-4177-b4da-1e69a1ad572d",
+  "object": "chat.completion",
+  "created": 1760452076,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação se concentra exclusivamente na correção da condição financeira específica decorrente da irregularidade (devolução de valores), sem propor ações para tratar as causas subjacentes da falta de apresentação dos exames comprobatórios, como falhas em processos, documentação ou capacitação. Portanto, a classificação está correta. Quanto ao critério 'Efeitos Duradouros', como o 'Foco Causa' não foi atendido, a resposta 'Não se aplica' é adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1230,
+    "completion_tokens": 171,
+    "total_tokens": 1401,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 334
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

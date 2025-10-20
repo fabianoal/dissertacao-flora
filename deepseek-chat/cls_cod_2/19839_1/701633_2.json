@@ -1,0 +1,28 @@
+{
+  "id": "836a8cdb-02c7-4bf8-a697-ad2080c1095f",
+  "object": "chat.completion",
+  "created": 1760398996,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação inclui ações como implantar rotinas sistemáticas de verificação de consistência de dados e capacitação técnica, que visam prevenir a reincidência da irregularidade ao abordar causas como falta de processos de controle e capacitação inadequada, caracterizando foco na causa. Quanto aos efeitos duradouros, essas ações (rotinas de verificação e capacitação) estabelecem procedimentos e conhecimentos que permanecem independentemente de mudanças nos atores envolvidos, promovendo efeitos sustentáveis. A terceira recomendação de restituição de recursos é focada na condição atual e não é considerada para os critérios de causa e efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1310,
+    "completion_tokens": 194,
+    "total_tokens": 1504,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 478
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

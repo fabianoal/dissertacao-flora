@@ -1,0 +1,28 @@
+{
+  "id": "4738835e-4cbe-47a6-8c3b-03601e9b3f5a",
+  "object": "chat.completion",
+  "created": 1760392218,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação se concentra em assegurar o cumprimento de normas específicas sobre organização, registros e documentos obrigatórios nos prontuários, citando diversos artigos de portarias e resoluções. Ela propõe ações para corrigir a condição atual de não conformidade, como garantir que os prontuários sejam legíveis, assinados, e organizados conforme as regras. No entanto, não há menção a ações que abordem a causa subjacente do problema, como falhas em processos de treinamento, supervisão, ou políticas internas que levem ao não cumprimento das normas. Portanto, a recomendação é focada na condição, não na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1324,
+    "completion_tokens": 221,
+    "total_tokens": 1545,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 492
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

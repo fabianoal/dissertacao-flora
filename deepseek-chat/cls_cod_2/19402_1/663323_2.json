@@ -1,0 +1,28 @@
+{
+  "id": "95cef144-f01f-4d95-ad78-139328746b9d",
+  "object": "chat.completion",
+  "created": 1760385314,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação orienta o estabelecimento a seguir as regras do programa, mas não propõe ações específicas para tratar a causa das irregularidades, como implementação de controles internos ou treinamento de pessoal. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 997,
+    "completion_tokens": 129,
+    "total_tokens": 1126,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 101
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "da5052bc-992a-47bc-b364-c4c1d91337fa",
+  "object": "chat.completion",
+  "created": 1760036476,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação solicita que a SES/TO cumpra o acordado no plano de ação, que é revisar/elaborar o regimento interno do hospital, focando na correção da condição específica de não comprovação da revisão. No entanto, não propõe ações adicionais para abordar a causa subjacente que levou ao descumprimento, limitando-se a reforçar o cumprimento de um compromisso normativo existente.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1177,
+    "completion_tokens": 150,
+    "total_tokens": 1327,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 153
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

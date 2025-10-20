@@ -1,0 +1,28 @@
+{
+  "id": "ef77e722-9e69-4bbd-94a6-0528d2a216dc",
+  "object": "chat.completion",
+  "created": 1760454893,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação inclui ações que tratam da causa raiz da incompatibilidade das infraestruturas, como a adequação estrutural às normativas e a implementação de documentação essencial, que vão além de correções imediatas. Para o critério 'Efeitos Duradouros', a análise também está correta, pois as adequações estruturais e documentais propostas, baseadas em normativas e procedimentos institucionalizados, tendem a persistir independentemente de mudanças nos atores envolvidos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1360,
+    "completion_tokens": 181,
+    "total_tokens": 1541,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 464
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

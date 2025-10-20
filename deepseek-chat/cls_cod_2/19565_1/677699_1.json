@@ -1,0 +1,28 @@
+{
+  "id": "b74fdc3b-5edb-41b7-a8ec-af52c1488a6b",
+  "object": "chat.completion",
+  "created": 1760388058,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a revisão e incorporação de métricas específicas para monitorar tempos de resposta críticos, o que visa abordar a causa raiz do problema, que é a falta de indicadores adequados. Já em relação aos efeitos pretendidos pela recomendação, a implementação de novos indicadores deve resultar em um sistema de monitoramento aprimorado que permanece efetivo mesmo com mudanças na equipe ou gestão, garantindo efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1018,
+    "completion_tokens": 146,
+    "total_tokens": 1164,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 186
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

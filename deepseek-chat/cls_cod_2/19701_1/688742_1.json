@@ -1,0 +1,28 @@
+{
+  "id": "c776a75d-8c87-4bd3-af87-3ef44475fd0f",
+  "object": "chat.completion",
+  "created": 1760394176,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe o cumprimento de requisitos normativos que tratam da infraestrutura física, recursos humanos, equipamentos e insumos, que são causas fundamentais da insuficiência identificada na constatação. Já em relação aos efeitos pretendidos pela recomendação, a implementação desses requisitos normativos estabelece uma estrutura permanente que independe de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1013,
+    "completion_tokens": 142,
+    "total_tokens": 1155,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 181
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

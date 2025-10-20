@@ -1,0 +1,28 @@
+{
+  "id": "2208a374-4cdd-4e16-b204-e469ff28583d",
+  "object": "chat.completion",
+  "created": 1760464621,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que as recomendações tratam de causas estruturais e têm efeitos duradouros, mas merece aprofundamento sobre a natureza das ações propostas.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1618,
+    "completion_tokens": 89,
+    "total_tokens": 1707,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 722
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

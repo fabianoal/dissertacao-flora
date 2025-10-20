@@ -1,0 +1,28 @@
+{
+  "id": "80d1fea9-cae0-4b68-9fa6-a0f4c80868ef",
+  "object": "chat.completion",
+  "created": 1760383858,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação trata da apresentação de documentação comprobatória quando solicitada, o que é uma ação direta para corrigir a condição específica de falta de documentação identificada na constatação. Não há menção a ações que abordem as causas subjacentes que levaram à ausência dessa documentação, como falhas em processos internos, capacitação inadequada ou sistemas de controle deficientes. Portanto, a recomendação é focada na condição imediata, não na causa raiz. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não é atendido, essa análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1131,
+    "completion_tokens": 181,
+    "total_tokens": 1312,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 299
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

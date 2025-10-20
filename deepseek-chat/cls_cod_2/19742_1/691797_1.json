@@ -1,0 +1,28 @@
+{
+  "id": "8b1be7a4-a33c-401c-ac2a-4a6594c3b99f",
+  "object": "chat.completion",
+  "created": 1760395064,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe estabelecer uma cultura de melhoria contínua baseada em indicadores e treinar a equipe sobre a importância e uso desses indicadores, o que visa abordar a causa raiz do problema (falta de gestão baseada em indicadores) e não apenas corrigir a condição atual. Já em relação aos efeitos pretendidos pela recomendação, a implementação de uma cultura organizacional e capacitação da equipe tende a gerar efeitos duradouros, pois as práticas e conhecimentos institucionalizados permanecem mesmo com mudanças de pessoal.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1085,
+    "completion_tokens": 173,
+    "total_tokens": 1258,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 253
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "f5f1b96f-33e6-4785-82da-1c7ba082c24f",
+  "object": "chat.completion",
+  "created": 1760470437,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação se limita a citar dispositivos normativos sem propor ações específicas para tratar a causa do problema. No entanto, é necessário avaliar se essa citação normativa pode ser interpretada como uma ação indireta para tratar a causa.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1464,
+    "completion_tokens": 109,
+    "total_tokens": 1573,
+    "prompt_tokens_details": {
+      "cached_tokens": 1280
+    },
+    "prompt_cache_hit_tokens": 1280,
+    "prompt_cache_miss_tokens": 184
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

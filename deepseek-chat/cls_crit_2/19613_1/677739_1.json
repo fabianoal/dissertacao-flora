@@ -1,0 +1,28 @@
+{
+  "id": "73cdce8b-743d-4364-b692-24520d6c286b",
+  "object": "chat.completion",
+  "created": 1760456945,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe uma ação de conferência documental no sistema Transferegov para evitar a manutenção de informações incorretas, o que pode ser interpretado como um tratamento da causa subjacente (falta de verificação adequada) em vez de apenas corrigir a condição imediata. Para o critério 'Efeitos Duradouros', a ação estabelece um procedimento sistemático que, se institucionalizado, pode persistir independentemente de mudanças de pessoal, embora dependa da adesão contínua para garantir durabilidade.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1184,
+    "completion_tokens": 183,
+    "total_tokens": 1367,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 160
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

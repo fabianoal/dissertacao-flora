@@ -1,0 +1,28 @@
+{
+  "id": "4d971e85-6d17-453f-bf25-5bdf68edb6be",
+  "object": "chat.completion",
+  "created": 1760387590,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe que a gestão adote medidas orientadas por documentos normativos para acompanhar ações e atingir indicadores, incluindo a inserção de detalhamento qualitativo e quantitativo nos instrumentos de gestão. Isso sugere uma abordagem para tratar a causa subjacente da não adoção de ações, que pode ser a falta de estruturação ou planejamento adequado. Já em relação aos efeitos pretendidos pela recomendação, a implementação de instrumentos de gestão detalhados e o alinhamento a documentos normativos tendem a criar processos que podem persistir independentemente de mudanças nos atores envolvidos, indicando efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1160,
+    "completion_tokens": 192,
+    "total_tokens": 1352,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 328
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

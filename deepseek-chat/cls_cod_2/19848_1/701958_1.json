@@ -1,0 +1,28 @@
+{
+  "id": "71111774-bf14-4da7-8e82-2f9fda84acd8",
+  "object": "chat.completion",
+  "created": 1760399204,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe apenas corrigir o registro inadequado no sistema (SIA/SUS) para alinhar com a documentação existente, sem abordar as causas subjacentes que levaram à divergência, como possíveis falhas de capacitação, supervisão ou processos internos. Portanto, trata-se de uma medida corretiva da condição atual. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1061,
+    "completion_tokens": 155,
+    "total_tokens": 1216,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 229
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d79a7886-e4c4-4fd0-917a-d06e67960cf1",
+  "object": "chat.completion",
+  "created": 1760465269,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a implementação de estruturas organizacionais (protocolos, diretrizes, fluxos) que visam abordar a causa raiz da desorganização do processo de trabalho, que é a falta de diretrizes claras e sistemáticas. Para o critério 'Efeitos Duradouros', as estratégias institucionalizadas, como protocolos e fluxos, são projetadas para serem independentes de indivíduos específicos, promovendo sustentabilidade. No entanto, a análise original pode ter superestimado a efetividade dessas medidas sem considerar possíveis barreiras de implementação ou adaptação necessária ao contexto local.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1220,
+    "completion_tokens": 197,
+    "total_tokens": 1417,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 324
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

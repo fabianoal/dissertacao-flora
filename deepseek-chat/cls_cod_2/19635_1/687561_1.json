@@ -1,0 +1,28 @@
+{
+  "id": "27c4fe14-920a-49aa-9b38-c651cff5a64a",
+  "object": "chat.completion",
+  "created": 1760391790,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"A recomendação 1 propõe a restituição de valores recebidos indevidamente, o que é uma ação corretiva focada na condição específica de irregularidade financeira, sem abordar as causas subjacentes, como falhas nos processos de inserção de dados ou controle interno. A recomendação 2, embora mencione a responsabilidade pela alimentação dos bancos de dados, não especifica ações para prevenir a ocorrência futura de inserções irregulares, como melhorias em sistemas ou treinamento. Portanto, não há ações claras que tratem da causa do problema. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n   \"Foco Causa\": \"Não\",\n   \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1317,
+    "completion_tokens": 199,
+    "total_tokens": 1516,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 421
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "f7ecd30d-d5f8-4f29-b3ae-4ae49c62a66f",
+  "object": "chat.completion",
+  "created": 1760459445,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a adoção de ações específicas de saúde pública conforme diretriz técnica, o que pode ser interpretado como uma abordagem voltada para causas subjacentes, como a falta de implementação de diretrizes. No entanto, a recomendação não especifica claramente se essas ações visam resolver a causa raiz (ex.: falta de capacitação, recursos ou processos) ou apenas implementar uma solução genérica. Para 'Efeitos Duradouros', se a implementação criar processos institucionais, pode haver durabilidade, mas a análise depende da natureza das ações na nota técnica.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1188,
+    "completion_tokens": 189,
+    "total_tokens": 1377,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 292
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

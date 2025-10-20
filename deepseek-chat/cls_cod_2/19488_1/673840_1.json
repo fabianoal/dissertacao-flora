@@ -1,0 +1,28 @@
+{
+  "id": "9d4a4106-7c3f-40a8-9924-20c18e3fcbf0",
+  "object": "chat.completion",
+  "created": 1760386146,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe apenas a restituição do valor irregularmente gasto, focando na correção da condição financeira específica identificada (despesas não comprovadas). Não há menção a ações que tratem das causas subjacentes que levaram à falta de comprovação, como falhas nos processos de controle, capacitação de pessoal ou implementação de sistemas de gestão. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1028,
+    "completion_tokens": 173,
+    "total_tokens": 1201,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 196
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

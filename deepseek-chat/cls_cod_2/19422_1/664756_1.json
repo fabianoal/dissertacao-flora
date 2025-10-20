@@ -1,0 +1,28 @@
+{
+  "id": "e6995e6b-e5b2-4f41-851d-83441a619410",
+  "object": "chat.completion",
+  "created": 1760385343,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a solicitar o encaminhamento da documentação quando solicitada, sem propor ações para tratar a causa subjacente da não apresentação adequada do relatório de estoque. Não há menção a medidas como implementação de procedimentos internos, capacitação de pessoal ou revisão de processos que possam prevenir a recorrência do problema. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1077,
+    "completion_tokens": 166,
+    "total_tokens": 1243,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 245
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

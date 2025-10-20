@@ -1,0 +1,28 @@
+{
+  "id": "04d92575-409c-4102-8252-2af82771b3ce",
+  "object": "chat.completion",
+  "created": 1760398972,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação possui dois componentes distintos. O primeiro trata da restituição de valores recebidos indevidamente, que é uma medida corretiva para a condição específica identificada (pagamentos indevidos), caracterizando-se como foco na condição. O segundo componente propõe a garantia da veracidade, compatibilidade e comprovação documental da produção ambulatorial informada no SIA/SUS, o que constitui uma ação preventiva para evitar a reincidência do problema, tratando assim da causa subjacente (falta de controle e verificação adequada dos dados). Em relação aos efeitos duradouros, a implementação de sistemas de controle e verificação de dados permanece efetiva independentemente de mudanças nos atores envolvidos, pois se trata de um processo institucionalizado.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1328,
+    "completion_tokens": 215,
+    "total_tokens": 1543,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 496
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

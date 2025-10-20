@@ -1,0 +1,28 @@
+{
+  "id": "3c25df9f-7d49-49b4-ab1d-197052f579eb",
+  "object": "chat.completion",
+  "created": 1760465881,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação possui foco na causa ao propor a criação de estruturas permanentes de monitoramento, mas superestimou a durabilidade dos efeitos, pois a implementação efetiva depende de fatores humanos e institucionais que podem variar com o tempo.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1314,
+    "completion_tokens": 113,
+    "total_tokens": 1427,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 418
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

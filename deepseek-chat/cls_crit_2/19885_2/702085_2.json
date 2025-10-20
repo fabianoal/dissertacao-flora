@@ -1,0 +1,28 @@
+{
+  "id": "61e2aa02-d4fa-400d-9ca3-1900b987534d",
+  "object": "chat.completion",
+  "created": 1760468017,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações de capacitação, monitoramento e avaliação que visam melhorar processos e prevenir a reincidência da inconsistência na codificação, tratando assim a causa do problema. Quanto ao critério 'Efeitos Duradouros', a implementação de capacitação contínua e monitoramento sistemático cria processos que podem persistir independentemente de mudanças na equipe, sugerindo efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1196,
+    "completion_tokens": 153,
+    "total_tokens": 1349,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 300
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

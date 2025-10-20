@@ -1,0 +1,28 @@
+{
+  "id": "0b8f7e7b-d02e-4199-83fa-b19366ec99e0",
+  "object": "chat.completion",
+  "created": 1760452552,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação estabelece um prazo específico para envio do Relatório de Gestão, o que pode ser visto como uma ação para tratar a causa da irregularidade (falta de regularidade na prestação de contas), mas não aborda as causas subjacentes que levaram à não conformidade inicial. Para o critério 'Efeitos Duradouros', a institucionalização do processo através de normativa e prazos fixos sugere que os efeitos podem persistir, mas a dependência de ações anuais e conformidade contínua pode ser afetada por mudanças na gestão.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1267,
+    "completion_tokens": 188,
+    "total_tokens": 1455,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 435
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

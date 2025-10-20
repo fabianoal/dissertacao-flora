@@ -1,0 +1,28 @@
+{
+  "id": "af953de8-18c6-470d-abdd-1d510f445990",
+  "object": "chat.completion",
+  "created": 1760395396,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam da causa do problema, que é a ausência de um sistema adequado de monitoramento e documentação para garantir a rastreabilidade das condições térmicas durante o transporte. As medidas sugeridas, como estabelecer um sistema de monitoramento contínuo e formalizar o uso de formulários, visam corrigir a deficiência estrutural nos controles internos, indo além de uma solução temporária para a condição específica encontrada. Já em relação aos efeitos pretendidos pela recomendação, as ações propostas, como a implementação de sistemas de monitoramento e procedimentos documentados, criam estruturas e processos que permanecem funcionais independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1111,
+    "completion_tokens": 212,
+    "total_tokens": 1323,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 279
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

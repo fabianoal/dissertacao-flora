@@ -1,0 +1,28 @@
+{
+  "id": "73b69095-79dd-4276-9053-d45787df338a",
+  "object": "chat.completion",
+  "created": 1760392290,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe apenas o cumprimento das obrigações contratuais existentes, repassando os recursos financeiros pendentes, sem propor ações que tratem da causa subjacente dos atrasos nos pagamentos. Já em relação aos efeitos pretendidos pela recomendação, como o critério 'Foco Causa' não foi atendido, não se aplica a análise de efeitos duradouros.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1149,
+    "completion_tokens": 135,
+    "total_tokens": 1284,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 381
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "8487a0ed-344c-4fef-9842-3574c67a7bdf",
+  "object": "chat.completion",
+  "created": 1760464029,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação de formalizar a prestação de serviço de manutenção aborda diretamente a causa da constatação, que é a ausência de cobertura contratual, pois estabelece um contrato regular para garantir a execução adequada da manutenção. Quanto ao critério 'Efeitos Duradouros', a formalização cria um arranjo institucional que, uma vez implementado, tende a persistir independentemente de mudanças nos atores, assegurando a continuidade da manutenção preventiva e corretiva.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1169,
+    "completion_tokens": 177,
+    "total_tokens": 1346,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 273
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

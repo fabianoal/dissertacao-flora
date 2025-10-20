@@ -1,0 +1,28 @@
+{
+  "id": "5805534a-1cdb-4182-a0dc-06bec773902a",
+  "object": "chat.completion",
+  "created": 1760465485,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo argumenta que a recomendação visa corrigir a condição imediata (ausência de registros) sem abordar causas subjacentes, como falta de capacitação ou recursos. No entanto, a recomendação exige que os prontuários contenham registros completos conforme a portaria, o que pode ser interpretado como uma ação para prevenir a recorrência ao estabelecer um padrão documental obrigatório, potencialmente tratando a causa raiz (falta de conformidade com normas). Para 'Efeitos Duradouros', a análise depende da avaliação do 'Foco Causa'.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1229,
+    "completion_tokens": 193,
+    "total_tokens": 1422,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 333
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "de7b0275-5404-4137-952f-75afbe83f5f1",
+  "object": "chat.completion",
+  "created": 1760401100,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a citar dispositivos normativos que estabelecem competências gerais de regulação, sem propor ações específicas para tratar a causa do problema identificado (início de tratamento antes da autorização formal). Ela não sugere medidas como revisão de processos internos, implementação de controles preventivos ou capacitação que abordem a raiz do problema. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1045,
+    "completion_tokens": 161,
+    "total_tokens": 1206,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 149
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

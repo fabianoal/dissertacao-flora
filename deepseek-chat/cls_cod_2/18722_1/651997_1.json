@@ -1,0 +1,28 @@
+{
+  "id": "ec94226d-e7fc-4d95-bf43-d9f8b52aadc3",
+  "object": "chat.completion",
+  "created": 1760383514,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a citar normas e legislações que estabelecem a obrigatoriedade de estrutura física adequada, sem propor ações específicas para tratar a causa subjacente das não conformidades identificadas, como falhas nos processos de manutenção, planejamento orçamentário ou gestão de recursos. Portanto, não há ação focada na causa do problema. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1155,
+    "completion_tokens": 153,
+    "total_tokens": 1308,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 323
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

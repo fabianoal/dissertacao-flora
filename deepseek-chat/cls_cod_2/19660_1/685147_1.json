@@ -1,0 +1,28 @@
+{
+  "id": "9c8e4ea9-0624-4f52-8253-b7afe373b2b9",
+  "object": "chat.completion",
+  "created": 1760392258,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que vão além da simples correção da condição encontrada (falta de composição mínima e controle de carga horária), incluindo a implementação de sistemas de controle (ponto eletrônico) e providências administrativas que visam prevenir a recorrência do problema, tratando assim da causa. Já em relação aos efeitos pretendidos pela recomendação, a adoção de sistemas de controle estruturados e procedimentos administrativos permanentes tende a produzir efeitos duradouros, independentemente da mudança de atores envolvidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1390,
+    "completion_tokens": 169,
+    "total_tokens": 1559,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 558
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

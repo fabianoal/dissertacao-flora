@@ -1,0 +1,28 @@
+{
+  "id": "ba7dc9be-8e99-40cd-8cc1-402fd6ec5d42",
+  "object": "chat.completion",
+  "created": 1760392834,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe uma ação específica (conferência da documentação no Transferegov) para evitar a manutenção de informações incorretas, o que aborda diretamente a causa do problema de acompanhamento e monitoramento inadequados, ao estabelecer um processo de verificação contínua. Já em relação aos efeitos pretendidos, a ação de conferência documental, se implementada como procedimento regular, pode persistir independentemente de mudanças nos atores envolvidos, pois se baseia em um método sistemático.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 959,
+    "completion_tokens": 159,
+    "total_tokens": 1118,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 127
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "712b903e-5a13-4b4d-b0a3-db39a98ae2b6",
+  "object": "chat.completion",
+  "created": 1760398556,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações como a formalização do processo de revisão periódica do CNES, capacitação de responsáveis, validação de escalas e auditorias internas periódicas, que visam tratar as causas subjacentes da inconsistência entre a capacidade instalada/profissionais e o CNES, como a falta de processos sistemáticos de atualização e controle. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, especialmente a formalização de processos e a capacitação contínua, tendem a gerar efeitos duradouros, pois estabelecem estruturas e procedimentos que permanecem independentemente de mudanças nos atores envolvidos, como a rotina de revisão periódica e auditorias internas.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1053,
+    "completion_tokens": 204,
+    "total_tokens": 1257,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 221
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

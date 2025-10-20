@@ -1,0 +1,28 @@
+{
+  "id": "d81b34de-d041-422a-91dc-c1dfba5ab4a4",
+  "object": "chat.completion",
+  "created": 1760036988,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere uma ação corretiva ao exigir o registro detalhado e cronológico da história clínica do usuário SUS, incluindo procedimentos de tratamento em outros serviços, o que visa corrigir a condição de falta de registro que pode estar contribuindo para a não realização da terapia adjuvante no prazo. No entanto, a ação com foco na causa é genérica, pois se limita a recomendar a avaliação de manuais e protocolos existentes, sem propor ações concretas específicas para modificar processos ou implementar mecanismos que garantam o cumprimento dos prazos estabelecidos. Como a ação de foco na causa é genérica, os efeitos duradouros não são alcançados, pois a mera referência a normativos não assegura mudanças estruturais permanentes.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1403,
+    "completion_tokens": 231,
+    "total_tokens": 1634,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 379
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

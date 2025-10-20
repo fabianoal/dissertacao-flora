@@ -1,0 +1,28 @@
+{
+  "id": "643c8efd-3172-4c49-a051-79ae9ea95cd6",
+  "object": "chat.completion",
+  "created": 1760386215,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe ações para recuperar recursos financeiros (dedução de valores retidos e não pagos) em decorrência da falta de apresentação de notas fiscais, focando na correção da condição específica de irregularidade financeira identificada. Não há menção a ações que abordem a causa raiz do problema, como a implementação de controles para garantir a apresentação sistemática das notas fiscais no futuro. Portanto, a recomendação é condition-based, não cause-based. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1171,
+    "completion_tokens": 178,
+    "total_tokens": 1349,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 275
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

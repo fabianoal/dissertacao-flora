@@ -1,0 +1,28 @@
+{
+  "id": "9dc70575-cac3-42b2-89cd-81150db0b2a3",
+  "object": "chat.completion",
+  "created": 1760395568,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe a validação e estruturação de um cronograma de atividades, o que visa estabelecer uma rotina formal para o processo de distribuição, abordando a causa raiz da falta de rotina estabelecida. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um cronograma estruturado com descrições claras de atividades, frequência e responsáveis tende a criar um processo padronizado que pode persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1036,
+    "completion_tokens": 161,
+    "total_tokens": 1197,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 204
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "8eecdec4-cc7f-486c-865d-11697a3a030e",
+  "object": "chat.completion",
+  "created": 1760388798,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a implementação de mecanismos de monitoramento contínuo para manter o CNES atualizado, o que visa tratar a causa subjacente da divergência de informações, como possíveis falhas nos processos de atualização ou falta de verificações regulares, em vez de apenas corrigir a condição atual de divergência. Portanto, possui foco na causa. Em relação aos efeitos duradouros, a ação sugerida estabelece um processo contínuo que deve persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 930,
+    "completion_tokens": 160,
+    "total_tokens": 1090,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 34
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

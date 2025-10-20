@@ -1,0 +1,28 @@
+{
+  "id": "22bc02d9-422f-4ebe-b3ea-6a4032d764c0",
+  "object": "chat.completion",
+  "created": 1760398696,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe ações como padronizar o registro em prontuário e elaborar um documento operacional padrão para estabelecer o fluxo de atendimento, que visam abordar causas subjacentes, como a falta de procedimentos estruturados, em vez de apenas corrigir a condição imediata de não comprovação do acolhimento. Já em relação aos efeitos pretendidos pela recomendação, as ações focadas na causa, como a padronização de registros e a criação de um fluxo documentado, são projetadas para persistir independentemente de mudanças nos atores envolvidos, promovendo melhorias duradouras nos processos.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1175,
+    "completion_tokens": 186,
+    "total_tokens": 1361,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 343
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

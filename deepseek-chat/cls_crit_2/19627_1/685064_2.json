@@ -1,0 +1,28 @@
+{
+  "id": "f49383d6-9ea0-4865-878a-2d7c59b576ee",
+  "object": "chat.completion",
+  "created": 1760458057,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação possui foco na causa ao propor orientação sistemática para prevenir impropriedades futuras, mas superestimou os efeitos duradouros ao assumir que a mera orientação garantiria práticas permanentes sem considerar a necessidade de mecanismos mais robustos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1176,
+    "completion_tokens": 116,
+    "total_tokens": 1292,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 280
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

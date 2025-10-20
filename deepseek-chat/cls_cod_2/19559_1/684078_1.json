@@ -1,0 +1,28 @@
+{
+  "id": "edc8bf6e-415e-4d3e-b4de-34d60cfa1a2d",
+  "object": "chat.completion",
+  "created": 1760387774,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a criação de um local organizado, seguro e com mecanismo de busca para guarda e preservação do prontuário médico em suporte papel, o que visa tratar a causa do problema (falta de estrutura adequada) e não apenas corrigir a condição atual. Já em relação aos efeitos pretendidos pela recomendação, a implementação de uma estrutura física e organizacional permanente para preservação documental tende a produzir efeitos duradouros, que permaneceriam mesmo com eventual mudança dos atores envolvidos, pois se trata de uma infraestrutura e processo institucionalizado.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 986,
+    "completion_tokens": 177,
+    "total_tokens": 1163,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 154
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

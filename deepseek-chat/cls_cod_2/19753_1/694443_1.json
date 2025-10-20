@@ -1,0 +1,28 @@
+{
+  "id": "79dbc752-f52b-4726-9a5c-91210435a3ae",
+  "object": "chat.completion",
+  "created": 1760395464,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a atualização completa dos cadastros de funcionários no CNES, o que visa corrigir a condição encontrada (cadastro desatualizado) sem abordar explicitamente as causas que levaram a essa desatualização, como falta de processos de revisão periódica ou falhas no sistema de gestão de dados. Portanto, a ação é mais corretiva da condição atual do que preventiva de sua recorrência. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, esta análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 956,
+    "completion_tokens": 179,
+    "total_tokens": 1135,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 124
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "60e18f67-13f7-4bd2-b43c-25b9c7575a6d",
+  "object": "chat.completion",
+  "created": 1760459705,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação de orientar fiscais e gestores a conferir documentação comprobatória visa estabelecer um processo sistemático de verificação para prevenir a reincidência do problema de contratação sem a devida análise, tratando assim da causa subjacente (falta de controle ou procedimento inadequado). Quanto ao critério 'Efeitos Duradouros', a implementação de uma orientação formal para conferência documental cria um procedimento que pode ser institucionalizado e mantido independentemente de mudanças na equipe, promovendo efeitos sustentáveis.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1255,
+    "completion_tokens": 182,
+    "total_tokens": 1437,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 359
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

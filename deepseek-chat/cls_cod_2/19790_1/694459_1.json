@@ -1,0 +1,28 @@
+{
+  "id": "52d4420c-5d98-4b33-adc2-cbf27bb4f36c",
+  "object": "chat.completion",
+  "created": 1760396956,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a implementação de educação permanente e continuada para profissionais da atenção básica, o que visa tratar a causa subjacente da falta de capacitação identificada na constatação, ao estabelecer um processo contínuo de formação. Já em relação aos efeitos pretendidos pela recomendação, a ação de garantir educação permanente cria um sistema de capacitação que independe de indivíduos específicos, persistindo mesmo com mudanças na equipe, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1072,
+    "completion_tokens": 150,
+    "total_tokens": 1222,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 240
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

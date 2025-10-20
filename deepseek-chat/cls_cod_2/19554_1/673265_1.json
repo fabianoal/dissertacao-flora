@@ -1,0 +1,28 @@
+{
+  "id": "58f299e0-c67b-4e36-9c7b-7f9bd136d32f",
+  "object": "chat.completion",
+  "created": 1760387662,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe duas ações principais: garantir acesso ao apoio diagnóstico e laboratorial, e realizar monitoramento regular das gestantes para reduzir barreiras de acesso. A primeira ação aborda a causa subjacente de falta de infraestrutura ou recursos, enquanto a segunda foca na causa de gestantes não utilizarem os serviços devido a dificuldades de acesso. Ambas visam prevenir a reocorrência da condição de ausência de testes, caracterizando foco na causa. Quanto aos efeitos duradouros, as ações sugeridas, como garantir acesso e monitoramento contínuo, são projetadas para persistir independentemente de mudanças nos atores envolvidos, pois envolvem estruturas e processos institucionais.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1036,
+    "completion_tokens": 190,
+    "total_tokens": 1226,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 204
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

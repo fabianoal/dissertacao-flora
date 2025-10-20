@@ -1,0 +1,28 @@
+{
+  "id": "770c16e9-8a03-45c6-b207-06da32a0e95f",
+  "object": "chat.completion",
+  "created": 1760035792,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe ações específicas para implementar o Acolhimento com Classificação de Risco (ACR), incluindo a definição de profissionais responsáveis, métodos de avaliação de risco e organização de agendas, o que visa corrigir a condição de não aplicação do ACR. Além disso, sugere a implementação do ACR como ação contínua na avaliação de risco, com base em diretrizes e protocolos, o que aborda a causa subjacente, como a falta de estruturação de processos, embora se apoie fortemente em normativos existentes, tornando-a genérica em foco na causa.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1362,
+    "completion_tokens": 185,
+    "total_tokens": 1547,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 402
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

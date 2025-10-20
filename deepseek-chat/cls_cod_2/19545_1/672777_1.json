@@ -1,0 +1,28 @@
+{
+  "id": "18fc5a80-6e91-4ddd-b833-2fbff1efb2d2",
+  "object": "chat.completion",
+  "created": 1760387538,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"A recomendação exige o cumprimento de um normativo específico sobre dimensionamento técnico para a estruturação física das centrais, o que sugere uma ação para adequar a estrutura física, incluindo possivelmente a instalação de isolamento acústico. No entanto, a recomendação não propõe ações que tratem diretamente da causa subjacente da falta de isolamento, como deficiências em processos de planejamento, manutenção ou fiscalização, focando-se na correção imediata da condição observada. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n   \"Foco Causa\": \"Não\",\n   \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 979,
+    "completion_tokens": 199,
+    "total_tokens": 1178,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 147
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

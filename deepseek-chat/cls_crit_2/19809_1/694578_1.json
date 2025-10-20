@@ -1,0 +1,28 @@
+{
+  "id": "e1ffec83-bce4-45d4-acbe-ba12303c689c",
+  "object": "chat.completion",
+  "created": 1760465237,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a criação de um Programa de Capacitação Permanente baseado no levantamento das necessidades dos profissionais, o que efetivamente aborda a causa subjacente da falta de capacitação, que é a ausência de um sistema estruturado e contínuo. Para o critério 'Efeitos Duradouros', a natureza permanente e institucionalizada do programa sugere que os benefícios perdurariam mesmo com mudanças na equipe, desde que o programa seja mantido. Portanto, concordo com ambas as classificações.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1345,
+    "completion_tokens": 178,
+    "total_tokens": 1523,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 449
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

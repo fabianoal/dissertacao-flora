@@ -1,0 +1,28 @@
+{
+  "id": "56f5e81a-cd93-47f9-aace-be8432a44f90",
+  "object": "chat.completion",
+  "created": 1760398496,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a realização da manutenção dos dados cadastrais, o que consiste em uma ação corretiva para atualizar as informações no CNES, mas não aborda explicitamente as causas subjacentes que levaram à falta de atualização (como falhas em processos, treinamento insuficiente ou ausência de políticas de revisão periódica). Portanto, ela se concentra em corrigir a condição imediata (dados desatualizados) em vez de prevenir sua recorrência. Como o critério 'Foco Causa' não foi atendido, a avaliação de 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1064,
+    "completion_tokens": 192,
+    "total_tokens": 1256,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 232
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

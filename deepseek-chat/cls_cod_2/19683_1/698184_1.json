@@ -1,0 +1,28 @@
+{
+  "id": "bf0b4c0a-8ca3-4477-b2b4-6c1574a5b355",
+  "object": "chat.completion",
+  "created": 1760392978,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe orientar fiscais e gestores a conferir documentação comprobatória para evitar danos ao erário, o que visa prevenir a reincidência do problema de contratação sem a devida verificação, tratando assim da causa (falta de verificação sistemática). Já em relação aos efeitos pretendidos, a orientação para conferir documentação estabelece um procedimento que pode ser mantido independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1051,
+    "completion_tokens": 157,
+    "total_tokens": 1208,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 219
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

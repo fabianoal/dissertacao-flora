@@ -1,0 +1,28 @@
+{
+  "id": "4bc17cd5-4838-41fe-9f0e-9e3b350731ae",
+  "object": "chat.completion",
+  "created": 1760399468,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a citar dispositivos legais genéricos e solicitar que a entidade auditada 'tome conhecimento' e 'adote os procedimentos a seu cargo', sem propor ações específicas para tratar a causa raiz da divergência entre os dados registrados e os serviços efetivamente realizados. Não há menção a medidas como revisão de processos de registro, capacitação de pessoal, implementação de controles internos ou outras ações que ataquem a origem do problema. Portanto, a recomendação não possui foco na causa.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1049,
+    "completion_tokens": 160,
+    "total_tokens": 1209,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 217
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

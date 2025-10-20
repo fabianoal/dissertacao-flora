@@ -1,0 +1,28 @@
+{
+  "id": "a0b65963-a650-4bf4-9446-c82099e34c7d",
+  "object": "chat.completion",
+  "created": 1760391378,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que visam estabelecer procedimentos padronizados para elaboração e envio de relatórios mensais, incluindo prazos específicos e exigência de documentos de suporte, o que trata diretamente a causa da incompletude e inconsistência nas informações. Já em relação aos efeitos pretendidos pela recomendação, a padronização de processos e a definição clara de responsabilidades e prazos criam um sistema que deve persistir independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1105,
+    "completion_tokens": 166,
+    "total_tokens": 1271,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 209
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

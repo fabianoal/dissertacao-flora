@@ -1,0 +1,28 @@
+{
+  "id": "e43e29cf-d17a-4ba5-a535-5073e8cb511a",
+  "object": "chat.completion",
+  "created": 1760457021,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação de atualização periódica no CNES visa estabelecer um processo contínuo para evitar a recorrência do problema de excesso de carga horária, tratando a causa subjacente de falta de monitoramento sistemático. Para o critério 'Efeitos Duradouros', a implementação de um processo periódico cria uma estrutura que pode persistir independentemente de mudanças de pessoal, mas a análise original pode superestimar a durabilidade, pois depende da adesão contínua dos atores.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1163,
+    "completion_tokens": 171,
+    "total_tokens": 1334,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 267
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

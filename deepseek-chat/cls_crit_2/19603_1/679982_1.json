@@ -1,0 +1,28 @@
+{
+  "id": "baffe3d8-fa39-428d-9ffa-664443a9a19b",
+  "object": "chat.completion",
+  "created": 1760455873,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda diretamente a correção da condição encontrada (falta de materiais obrigatórios), mas não propõe ações para tratar as causas subjacentes, como problemas de dimensionamento ou gestão de suprimentos. Quanto ao critério 'Efeitos Duradouros', como o 'Foco Causa' não foi atendido, a análise corretamente não se aplica.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1276,
+    "completion_tokens": 145,
+    "total_tokens": 1421,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 380
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

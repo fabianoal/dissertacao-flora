@@ -1,0 +1,28 @@
+{
+  "id": "42ecacb6-fefa-445e-961f-4c15eef9c097",
+  "object": "chat.completion",
+  "created": 1759367714,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação identifica a causa da condição detectada (falta de equipamentos adequados para manter a temperatura dos imunobiológicos) e propõe a adoção de medidas para garantir esses equipamentos, especialmente fontes alternativas de energia. A causa está situada no nível institucional, relacionada à infraestrutura e aos controles internos da Central Municipal de Rede de Frio. As transformações produzidas pela implementação da recomendação (como a instalação de fontes alternativas de energia) possuem potencial para perdurar no tempo, pois envolvem mudanças estruturais na cadeia de frio, reduzindo a dependência de fontes primárias e prevenindo falhas futuras.\",\n    \"categoria\": \"foco-causa\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1475,
+    "completion_tokens": 175,
+    "total_tokens": 1650,
+    "prompt_tokens_details": {
+      "cached_tokens": 1280
+    },
+    "prompt_cache_hit_tokens": 1280,
+    "prompt_cache_miss_tokens": 195
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

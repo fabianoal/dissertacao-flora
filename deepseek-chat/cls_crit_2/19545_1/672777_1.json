@@ -1,0 +1,28 @@
+{
+  "id": "16eb4d88-8383-48fc-af71-dd84ed65c8dc",
+  "object": "chat.completion",
+  "created": 1760454461,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise Crítica\": \"A análise fornecida avalia corretamente que a recomendação se concentra na correção imediata da condição (falta de isolamento acústico) por meio do cumprimento de um normativo, sem abordar causas subjacentes como falhas em processos de planejamento ou manutenção. Portanto, concordo com a classificação para ambos os critérios.\",\n  \"Análise Foco Causa\": \"Concordo\",\n  \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1228,
+    "completion_tokens": 125,
+    "total_tokens": 1353,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 332
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "4537348e-c272-493a-9e34-76b21af45f52",
+  "object": "chat.completion",
+  "created": 1760395164,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a realização de manutenções preventivas e o estabelecimento de um cronograma para essas atividades, o que visa tratar a causa da falta de manutenção periódica programada, e não apenas corrigir a condição atual de equipamentos sem manutenção. Já em relação aos efeitos pretendidos pela recomendação, o estabelecimento de um cronograma de manutenções preventivas cria um processo estruturado que deve persistir independentemente de mudanças nos atores envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1023,
+    "completion_tokens": 163,
+    "total_tokens": 1186,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 191
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "9a59a801-5b59-48b6-a8f0-8e6cc72c9857",
+  "object": "chat.completion",
+  "created": 1760387782,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe fiscalizar e garantir a realização dos exames conforme a portaria, o que visa corrigir a condição encontrada de exames não realizados, mas não identifica ou trata a causa raiz do problema (como falta de recursos, capacitação ou processos). Portanto, a recomendação é focada na condição, não na causa. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1054,
+    "completion_tokens": 153,
+    "total_tokens": 1207,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 222
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

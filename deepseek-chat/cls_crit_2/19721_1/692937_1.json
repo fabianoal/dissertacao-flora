@@ -1,0 +1,28 @@
+{
+  "id": "2d5dc75e-6d93-4660-a1cb-c5bda2e8f2d9",
+  "object": "chat.completion",
+  "created": 1760462273,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identificou corretamente que a recomendação se concentra em corrigir a condição atual (falta de comprovação) por meio da disponibilização de documentação e acompanhamento de metas, sem abordar as causas subjacentes, como falhas nos processos de fiscalização ou controle interno. Quanto ao critério 'Efeitos Duradouros', a análise está correta ao considerar que não se aplica, dado que o critério 'Foco Causa' não foi atendido.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1255,
+    "completion_tokens": 169,
+    "total_tokens": 1424,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 359
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

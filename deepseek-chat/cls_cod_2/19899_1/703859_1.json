@@ -1,0 +1,28 @@
+{
+  "id": "1f9dea2c-b60a-49f3-b8fa-6cd79d8eb850",
+  "object": "chat.completion",
+  "created": 1760401156,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a ação de manter a APAC concomitante à internação, o que visa corrigir diretamente a condição encontrada de ausência da APAC, sem abordar as causas subjacentes, como possíveis falhas em processos de documentação ou treinamento. Portanto, o foco está na condição imediata, não na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 989,
+    "completion_tokens": 147,
+    "total_tokens": 1136,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 157
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "868b983c-a169-4a6c-89bf-3296505dce02",
+  "object": "chat.completion",
+  "created": 1760392214,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a correção imediata do quantitativo de leitos no CNES, que é a condição encontrada (registro indevido), sem abordar as causas subjacentes que levaram ao registro incorreto, como falhas nos processos de atualização cadastral ou falta de capacitação da equipe. Portanto, a ação sugerida é focada na condição, não na causa. Como o critério 'Foco Causa' não foi atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1031,
+    "completion_tokens": 169,
+    "total_tokens": 1200,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 199
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

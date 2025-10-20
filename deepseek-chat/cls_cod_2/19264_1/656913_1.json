@@ -1,0 +1,28 @@
+{
+  "id": "6b7840b0-9a5e-4876-86bd-920b14c2ce41",
+  "object": "chat.completion",
+  "created": 1760384378,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe ações específicas para garantir a anexação de documentos (Notas Fiscais das OPME-DMI e AIH) ao prontuário do paciente, conforme exigências normativas. No entanto, essas ações focam na correção da condição encontrada (ausência dos documentos) e no cumprimento de procedimentos estabelecidos, sem abordar as causas subjacentes que levaram à não apresentação dos documentos, como falhas nos processos internos, falta de capacitação ou deficiências na supervisão. Portanto, a recomendação é condition-based, não cause-based. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1273,
+    "completion_tokens": 203,
+    "total_tokens": 1476,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 441
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

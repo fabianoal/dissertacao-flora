@@ -1,0 +1,28 @@
+{
+  "id": "f0f412e3-08b0-4c96-afe8-2ba7ab05cf61",
+  "object": "chat.completion",
+  "created": 1760462997,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise Crítica\": \"A análise do modelo está correta em identificar que a recomendação aborda a causa da constatação, mas a avaliação de efeitos duradouros pode ser questionada, pois a inscrição no CNPJ é um ato administrativo que, embora permanente, depende de manutenção contínua e pode ser afetada por mudanças futuras.\",\n  \"Análise Foco Causa\": \"Concordo\",\n  \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1141,
+    "completion_tokens": 120,
+    "total_tokens": 1261,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 245
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "1a19a265-33d5-43c6-bd50-2923a6bde7d7",
+  "object": "chat.completion",
+  "created": 1760399992,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe apenas a comprovação ou realização de visitas técnicas para verificar a implementação de protocolos, sem abordar as causas subjacentes que impediram a realização dessas visitas anteriormente, como falta de recursos, capacitação ou definição de responsabilidades. Portanto, não há ação focada na causa do problema. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1007,
+    "completion_tokens": 154,
+    "total_tokens": 1161,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 175
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

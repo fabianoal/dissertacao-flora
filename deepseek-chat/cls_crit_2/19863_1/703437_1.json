@@ -1,0 +1,28 @@
+{
+  "id": "a1a471d6-d709-4b45-83a3-0280fb906882",
+  "object": "chat.completion",
+  "created": 1760467473,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise da codificação está bem fundamentada, mas merece uma avaliação mais detalhada em relação à distinção entre tratar a causa e a condição, bem como a durabilidade dos efeitos.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1198,
+    "completion_tokens": 92,
+    "total_tokens": 1290,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 302
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

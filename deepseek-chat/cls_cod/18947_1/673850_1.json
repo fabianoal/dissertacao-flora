@@ -1,0 +1,28 @@
+{
+  "id": "ce35c4bc-4a7c-4212-9bcb-7ec3494c8c1f",
+  "object": "chat.completion",
+  "created": 1760038060,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação exige que o município liquide as despesas comprovando a prestação de serviços, o que constitui uma ação corretiva para resolver a condição imediata de falta de comprovação. No entanto, a recomendação se baseia principalmente na citação de leis e normativos, sem propor ações específicas para abordar as causas subjacentes, como falhas em processos de controle interno ou capacitação de pessoal, focando apenas no cumprimento genérico da legislação.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1669,
+    "completion_tokens": 158,
+    "total_tokens": 1827,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 709
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

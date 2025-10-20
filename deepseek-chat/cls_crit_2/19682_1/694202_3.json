@@ -1,0 +1,28 @@
+{
+  "id": "0d517e03-b9a7-4410-b6b3-5c075b092da9",
+  "object": "chat.completion",
+  "created": 1760459501,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe uma ação de orientação para conferência documental que visa prevenir a recorrência do problema de contratação sem observância aos critérios legais, tratando assim a causa subjacente (falta de verificação adequada). Para o critério 'Efeitos Duradouros', a recomendação estabelece uma prática sistemática que, se implementada, pode persistir independentemente de mudanças de pessoal, promovendo efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1243,
+    "completion_tokens": 163,
+    "total_tokens": 1406,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 347
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2b57cefd-9d7f-4195-9b3b-a813ab9b98e3",
+  "object": "chat.completion",
+  "created": 1760394852,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a disposição de equipe assistencial dimensionada quantitativamente e qualitativamente conforme a proposta assistencial e perfil de demanda, o que trata da causa estrutural do problema (falta de dimensionamento adequado das equipes) e não apenas da condição imediata de equipes incompletas. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um dimensionamento adequado das equipes cria uma estrutura organizacional que permanece independentemente de mudanças nos profissionais envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 975,
+    "completion_tokens": 165,
+    "total_tokens": 1140,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 143
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

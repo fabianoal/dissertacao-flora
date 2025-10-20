@@ -1,0 +1,28 @@
+{
+  "id": "8726956e-4944-4852-8d29-c4eddf5eb053",
+  "object": "chat.completion",
+  "created": 1760392954,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe apenas a notificação para ressarcimento do valor pago indevidamente, focando na correção da condição financeira específica identificada (ausência de comprovação de serviços). Não há menção a ações que tratem da causa subjacente, como a implementação de controles para prevenir a contratação ou pagamento sem comprovação futura. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1033,
+    "completion_tokens": 171,
+    "total_tokens": 1204,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 201
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

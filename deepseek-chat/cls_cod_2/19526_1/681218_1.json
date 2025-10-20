@@ -1,0 +1,28 @@
+{
+  "id": "6ccbfb87-83a2-4e77-9b70-3c671063e6a8",
+  "object": "chat.completion",
+  "created": 1760387030,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe ações para assegurar o envio correto de dados ao SISAB, baseando-se no registro adequado nos prontuários e na qualificação dos indicadores conforme guias municipais. Isso aborda a causa do problema (inconsistência nos dados) ao estabelecer processos para garantir a precisão e equivalência dos registros entre sistemas. Quanto aos efeitos duradouros, as ações sugeridas (como seguir guias de qualificação e registrar corretamente) criam procedimentos que podem persistir independentemente de mudanças nos atores envolvidos, promovendo uma solução sustentável.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 975,
+    "completion_tokens": 173,
+    "total_tokens": 1148,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 143
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

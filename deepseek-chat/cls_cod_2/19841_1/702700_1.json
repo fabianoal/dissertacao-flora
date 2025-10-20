@@ -1,0 +1,28 @@
+{
+  "id": "69e86dcf-d9de-4da3-9c9c-9f62d51a8bd5",
+  "object": "chat.completion",
+  "created": 1760399044,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"Em relação ao foco, a recomendação propõe uma ação que visa estabelecer um processo sistemático para identificar e documentar boas práticas nos relatórios futuros, o que aborda a causa subjacente da falta de identificação organizada e verificável dessas práticas. Já em relação aos efeitos pretendidos pela recomendação, a implementação de critérios claros e mensuráveis para descrever as boas práticas tende a criar um procedimento padronizado que pode persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n   \"Foco Causa\": \"Sim\",\n   \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1092,
+    "completion_tokens": 164,
+    "total_tokens": 1256,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 260
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

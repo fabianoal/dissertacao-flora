@@ -1,0 +1,28 @@
+{
+  "id": "43d72381-067c-454f-8b4f-55651ff0585d",
+  "object": "chat.completion",
+  "created": 1760460049,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a instituição de uma rotina e disponibilização de testes rápidos e de biologia molecular, o que aborda diretamente a causa da não disponibilidade desses exames, que é a ausência de um processo estruturado. Para o critério 'Efeitos Duradouros', a implementação de uma rotina baseada em protocolos oficiais tende a criar um sistema sustentável, mas a análise original pode ter superestimado a durabilidade, considerando possíveis desafios na manutenção da conformidade ao longo do tempo.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1323,
+    "completion_tokens": 184,
+    "total_tokens": 1507,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 363
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

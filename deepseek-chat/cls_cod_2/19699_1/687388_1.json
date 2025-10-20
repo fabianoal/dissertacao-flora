@@ -1,0 +1,28 @@
+{
+  "id": "651fda85-cfef-4336-8ebb-27053b90c354",
+  "object": "chat.completion",
+  "created": 1760394112,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação solicita a apresentação de documentos específicos para comprovar a execução dos recursos financeiros, focando na correção da condição imediata de ausência de comprovação documental. Não propõe ações para tratar as causas subjacentes que levaram à não apresentação dos documentos, como falhas em processos, capacitação ou sistemas de controle interno. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1133,
+    "completion_tokens": 167,
+    "total_tokens": 1300,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 301
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

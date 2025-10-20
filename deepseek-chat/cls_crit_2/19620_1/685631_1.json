@@ -1,0 +1,28 @@
+{
+  "id": "4f06e4a0-9385-4a99-92d1-4ae69623b6d8",
+  "object": "chat.completion",
+  "created": 1760457833,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação inclui tanto ações para corrigir a condição imediata (lançamento e conferência da AIH) quanto para tratar a causa subjacente (nomeação de área responsável por controles internos), justificando a resposta 'Sim'. Para 'Efeitos Duradouros', a nomeação de uma área responsável estabelece uma estrutura organizacional que pode perdurar independentemente de mudanças de pessoal, apoiando a resposta 'Sim'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1505,
+    "completion_tokens": 159,
+    "total_tokens": 1664,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 609
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

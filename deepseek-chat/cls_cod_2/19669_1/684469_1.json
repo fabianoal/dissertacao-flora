@@ -1,0 +1,28 @@
+{
+  "id": "187d0bdf-6de7-499d-a36d-eeb75c64c660",
+  "object": "chat.completion",
+  "created": 1760392302,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se concentra na devolução de recursos recebidos indevidamente devido à falta de comprovação da produção de procedimentos médicos, o que constitui uma ação para corrigir a condição específica encontrada (recebimento indevido), mas não propõe medidas para tratar a causa subjacente do problema, como a implementação de controles para assegurar a compatibilidade entre os dados inseridos e a produção real no futuro. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1001,
+    "completion_tokens": 179,
+    "total_tokens": 1180,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 169
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

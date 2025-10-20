@@ -1,0 +1,28 @@
+{
+  "id": "db8d630b-6add-4df3-9dfe-0d4ee0bc255c",
+  "object": "chat.completion",
+  "created": 1760385922,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a inclusão da prestação de contas do SAMU 192 no RAG 2022 e nos relatórios posteriores, o que visa corrigir a ausência de prestação de contas, mas não aborda a causa subjacente dessa omissão, como falhas nos processos internos ou capacitação inadequada. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não é atendido, esta análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1041,
+    "completion_tokens": 153,
+    "total_tokens": 1194,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 209
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

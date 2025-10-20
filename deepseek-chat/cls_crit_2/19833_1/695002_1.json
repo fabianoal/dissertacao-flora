@@ -1,0 +1,28 @@
+{
+  "id": "9c2e4055-c3ee-4400-be7d-9d85ddaa3abb",
+  "object": "chat.completion",
+  "created": 1760466265,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a implementação de um cronograma sistemático de manutenções preventivas e corretivas, o que aborda diretamente a causa raiz da falta de manutenção regular, indo além da mera correção pontual. Quanto ao critério 'Efeitos Duradouros', a recomendação estabelece um processo formal e contínuo que, uma vez implementado, deve persistir independentemente de mudanças na equipe, assegurando a manutenção adequada a longo prazo.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1286,
+    "completion_tokens": 173,
+    "total_tokens": 1459,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 390
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "82f3fad5-0187-4fd3-8fdd-f1a7d53125db",
+  "object": "chat.completion",
+  "created": 1760457585,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação se concentra na correção imediata da condição encontrada (ausência de documentação comprobatória), sem propor ações para tratar as causas subjacentes, como falhas nos processos de gestão de pessoal ou controle documental. No entanto, é importante destacar que a recomendação visa sanear impropriedades específicas, o que é consistente com uma abordagem condition-based.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1258,
+    "completion_tokens": 144,
+    "total_tokens": 1402,
+    "prompt_tokens_details": {
+      "cached_tokens": 1088
+    },
+    "prompt_cache_hit_tokens": 1088,
+    "prompt_cache_miss_tokens": 170
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

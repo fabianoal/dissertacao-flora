@@ -1,0 +1,28 @@
+{
+  "id": "fdac2658-d167-42b2-a626-354e506aed34",
+  "object": "chat.completion",
+  "created": 1760387886,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações como 'atualizar periodicamente o cadastro' e 'adotar medidas para melhorar o desempenho do indicador', que visam tratar a causa da falta de atualização do cadastro, estabelecendo processos contínuos. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como a análise e verificação periódica da qualidade dos dados, criam procedimentos estruturados que devem persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1064,
+    "completion_tokens": 163,
+    "total_tokens": 1227,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 232
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

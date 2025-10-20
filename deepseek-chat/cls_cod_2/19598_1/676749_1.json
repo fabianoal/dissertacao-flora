@@ -1,0 +1,28 @@
+{
+  "id": "4cacd2d2-ac23-4645-9421-6497c686917e",
+  "object": "chat.completion",
+  "created": 1760388802,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe uma ação de gerenciamento do dimensionamento da presença dos profissionais reguladores, o que visa tratar a causa subjacente da lacuna temporal (possivelmente subdimensionamento ou má gestão de escalas), e não apenas corrigir a condição imediata de ausência de profissionais. Já em relação aos efeitos pretendidos pela recomendação, a implementação de um processo estruturado de dimensionamento tende a produzir efeitos duradouros, independentemente de mudanças nos profissionais específicos, pois estabelece uma sistemática organizacional.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 935,
+    "completion_tokens": 168,
+    "total_tokens": 1103,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 103
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

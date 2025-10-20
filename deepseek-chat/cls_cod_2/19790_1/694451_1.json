@@ -1,0 +1,28 @@
+{
+  "id": "7f8ed842-3cc6-40c1-badb-cccd072eb4b8",
+  "object": "chat.completion",
+  "created": 1760396924,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe que as equipes de Saúde da Família realizem ações coletivas de prevenção e promoção em saúde mental, conforme exigido pela Portaria GM/MS n.º 3/2017. No entanto, ela não identifica ou aborda a causa subjacente do problema (como falta de capacitação, recursos insuficientes ou falhas na gestão), focando apenas na correção da condição observada (a não realização das ações). Quanto aos efeitos duradouros, como o critério 'Foco Causa' não é atendido, essa análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1028,
+    "completion_tokens": 173,
+    "total_tokens": 1201,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 196
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

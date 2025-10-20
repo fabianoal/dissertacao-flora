@@ -1,0 +1,28 @@
+{
+  "id": "5ae12db5-9fb7-4dce-8393-2a6fea938fd2",
+  "object": "chat.completion",
+  "created": 1760385130,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a adoção de medidas administrativas para apuração e cobrança de valores indevidamente cobrados ao SUS, visando a recomposição do recurso ao Fundo Nacional de Saúde. Esta ação tem caráter corretivo, focando na recuperação do dano financeiro já ocorrido, sem propor medidas que atuem sobre as causas que permitiram a cobrança excessiva de OPME, como falhas nos processos de controle, registro ou fiscalização que possibilitaram essa discrepância entre quantidade cobrada e implantada. Portanto, não há ação proposta que trate da causa do problema. Como o critério 'Foco Causa' não é atendido, a avaliação de 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1128,
+    "completion_tokens": 207,
+    "total_tokens": 1335,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 232
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

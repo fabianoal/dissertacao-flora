@@ -1,0 +1,28 @@
+{
+  "id": "0ded9cee-33ca-4b4e-b287-01622e7c1702",
+  "object": "chat.completion",
+  "created": 1760457277,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação é reativa e não aborda a causa raiz da irregularidade contratual, focando apenas em justificar um evento passado. No entanto, a avaliação de 'Efeitos Duradouros' como 'Não se aplica' é apropriada, pois depende da presença de foco na causa.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1163,
+    "completion_tokens": 122,
+    "total_tokens": 1285,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 267
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

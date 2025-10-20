@@ -1,0 +1,28 @@
+{
+  "id": "d60d4e0d-4736-4335-b644-9b125ce7e1e9",
+  "object": "chat.completion",
+  "created": 1760467265,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a criação de uma estrutura formal (Setor de Controle, Avaliação, Regulação e Auditoria) para tratar a causa subjacente da falta de monitoramento e controle, em vez de apenas corrigir sintomas imediatos. Para o critério 'Efeitos Duradouros', a instituição de um setor formal estabelece processos e estruturas que devem persistir independentemente de mudanças de pessoal, promovendo sustentabilidade. Ambos os critérios foram avaliados corretamente.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1166,
+    "completion_tokens": 172,
+    "total_tokens": 1338,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 270
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "53614af9-8e8b-41d6-8335-ff13cd342a7b",
+  "object": "chat.completion",
+  "created": 1760396944,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe o acompanhamento dos usuários que realizam troca de receita para identificar e intervir nos riscos, o que se concentra em tratar a condição atual (falta de acompanhamento) sem abordar explicitamente as causas subjacentes, como a ausência de protocolos ou capacitação. Já em relação aos efeitos pretendidos pela recomendação, não se aplica a análise, pois o critério 'Foco Causa' não foi atendido.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1031,
+    "completion_tokens": 151,
+    "total_tokens": 1182,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 199
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

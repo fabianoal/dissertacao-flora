@@ -1,0 +1,28 @@
+{
+  "id": "9b6f6f10-1a73-42a7-b31f-9ecbf0a5d577",
+  "object": "chat.completion",
+  "created": 1760387106,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a solicitar a apresentação de documentação específica para regularizar a falta de informação sobre a posição de estoque, sem propor ações que abordem as causas subjacentes à não prestação dessas informações, como falhas em processos, sistemas ou capacitação. Portanto, não há foco na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 974,
+    "completion_tokens": 143,
+    "total_tokens": 1117,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 142
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

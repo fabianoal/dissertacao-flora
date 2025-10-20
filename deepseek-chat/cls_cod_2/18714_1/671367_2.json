@@ -1,0 +1,28 @@
+{
+  "id": "005ad72c-a171-4f59-8ec3-0fb844168d0a",
+  "object": "chat.completion",
+  "created": 1760383458,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a recomposição do valor utilizado indevidamente no Fundo Municipal de Saúde, o que constitui uma ação para corrigir a condição específica de despesa irregular identificada. Não há menção a ações que tratem das causas subjacentes que permitiram a ocorrência dessa irregularidade, como falhas em processos de controle interno, capacitação de pessoal ou revisão de procedimentos. Portanto, a recomendação é focada na condição imediata, não na causa. Como o critério 'Foco Causa' não foi atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1037,
+    "completion_tokens": 182,
+    "total_tokens": 1219,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 141
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

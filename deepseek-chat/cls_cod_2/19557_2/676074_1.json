@@ -1,0 +1,28 @@
+{
+  "id": "83500989-7a7e-4d24-ae6c-32c456dc80da",
+  "object": "chat.completion",
+  "created": 1760387730,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe que a SES/AM faça cumprir o dispositivo legal que estabelece a obrigação de informar os pacientes sobre a possibilidade de transplante e encaminhá-los para avaliação. Esta ação visa corrigir a condição específica de falta de informação, mas não aborda as causas subjacentes que levaram ao descumprimento da norma, como possíveis falhas nos processos internos, capacitação da equipe ou mecanismos de supervisão. Portanto, a recomendação tem foco na condição encontrada, não na causa. Como o critério 'Foco Causa' não foi atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1066,
+    "completion_tokens": 195,
+    "total_tokens": 1261,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 234
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

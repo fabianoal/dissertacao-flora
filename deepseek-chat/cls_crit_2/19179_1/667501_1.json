@@ -1,0 +1,28 @@
+{
+  "id": "02135254-24b5-489b-8bdc-0737eb7d60a6",
+  "object": "chat.completion",
+  "created": 1760450956,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação se limita a citar dispositivos normativos sem propor ações específicas para tratar a causa subjacente da não implementação sistemática das comissões e da ausência de designação formal do enfermeiro responsável técnico. No entanto, é importante considerar que a mera citação de normas pode ser interpretada como uma ação genérica de cumprimento, mas não aborda diretamente as causas raiz, como falta de recursos, capacitação ou processos, conforme definido no critério 'Foco Causa'.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1487,
+    "completion_tokens": 166,
+    "total_tokens": 1653,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 591
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

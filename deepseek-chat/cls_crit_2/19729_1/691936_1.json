@@ -1,0 +1,28 @@
+{
+  "id": "8b3d1096-4d36-4c54-94cf-c4695b944bef",
+  "object": "chat.completion",
+  "created": 1760462486,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda diretamente a causa do problema identificado na constatação, que é a falta de gestão adequada da frota, especificamente a ausência de seguro e regularidade documental. Quanto ao critério 'Efeitos Duradouros', as ações propostas visam estabelecer um estado permanente de conformidade, mas a análise não considera adequadamente se os efeitos persistiriam com mudanças nos atores, pois a recomendação não especifica mecanismos de institucionalização dos processos.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1190,
+    "completion_tokens": 168,
+    "total_tokens": 1358,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 294
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

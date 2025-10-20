@@ -1,0 +1,28 @@
+{
+  "id": "cc22fde4-2953-432d-9e65-a8a612e07fa9",
+  "object": "chat.completion",
+  "created": 1760394072,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe a disponibilização de exames específicos para corrigir a condição atual de não oferta, sem abordar as causas subjacentes, como falta de recursos, capacitação ou processos que levam à ausência desses exames. Portanto, o foco está na condição imediata, não na causa. Como o critério 'Foco Causa' não é atendido, a avaliação de efeitos duradouros não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1113,
+    "completion_tokens": 139,
+    "total_tokens": 1252,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 281
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

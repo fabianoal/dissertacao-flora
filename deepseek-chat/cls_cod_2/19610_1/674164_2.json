@@ -1,0 +1,28 @@
+{
+  "id": "ce72a9d9-2454-4b0f-90ba-7230ba8e044f",
+  "object": "chat.completion",
+  "created": 1760389230,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a inserção de documentação comprobatória para sanear impropriedades, o que corrige a condição imediata de falta de documentação, mas não aborda as causas subjacentes, como falhas nos processos de registro ou capacitação da equipe. Portanto, não há ação focada na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1042,
+    "completion_tokens": 151,
+    "total_tokens": 1193,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 210
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

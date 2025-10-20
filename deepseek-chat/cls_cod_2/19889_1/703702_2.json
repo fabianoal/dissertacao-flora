@@ -1,0 +1,28 @@
+{
+  "id": "7dd0842a-4979-4617-91d9-7bc4c4cf53f8",
+  "object": "chat.completion",
+  "created": 1760400784,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a devolução de valores pagos indevidamente, focando na correção da condição financeira específica identificada (pagamento incompatível com CID principal). Não há menção a ações que abordem a causa raiz do problema, como falhas no processo de codificação, validação de compatibilidade entre procedimentos e diagnósticos, ou implementação de controles preventivos para evitar recorrência. Portanto, trata-se de uma medida corretiva pontual, sem foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1094,
+    "completion_tokens": 184,
+    "total_tokens": 1278,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 198
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

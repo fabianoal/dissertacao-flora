@@ -1,0 +1,28 @@
+{
+  "id": "3ac1f9b3-c7d6-4670-895f-d6e8e3d76392",
+  "object": "chat.completion",
+  "created": 1760394308,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam da causa do problema, que é a falta de estrutura e processos adequados para o monitoramento dos dados de produção ambulatorial, incluindo padronização, criação de mecanismos de controle, capacitação e auditorias regulares. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como a informatização, padronização, criação de mecanismos de acompanhamento e capacitação, estabelecem processos e sistemas que devem permanecer efetivos mesmo com mudanças nos atores envolvidos, pois são incorporados à estrutura organizacional.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1161,
+    "completion_tokens": 170,
+    "total_tokens": 1331,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 329
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

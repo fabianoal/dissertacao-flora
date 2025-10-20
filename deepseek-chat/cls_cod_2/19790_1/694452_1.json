@@ -1,0 +1,28 @@
+{
+  "id": "bf2148e6-90cd-457f-ae7a-4830c7741651",
+  "object": "chat.completion",
+  "created": 1760396928,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe que as equipes de Saúde da Família realizem a continuidade do cuidado ou ação de redução de danos, o que constitui uma ação direta para corrigir a condição encontrada (ausência dessas atividades), sem abordar explicitamente as causas subjacentes, como falta de capacitação, recursos ou processos que levaram à não realização. Portanto, é focada na condição. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1022,
+    "completion_tokens": 167,
+    "total_tokens": 1189,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 190
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

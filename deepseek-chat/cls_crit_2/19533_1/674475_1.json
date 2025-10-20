@@ -1,0 +1,28 @@
+{
+  "id": "cab4d9f1-4422-42db-b563-c7e56f6424c2",
+  "object": "chat.completion",
+  "created": 1760453997,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identifica corretamente que a recomendação aborda a causa subjacente do problema, que é a falta de controle adequado no recebimento e armazenamento de materiais, conforme a instrução normativa citada. No entanto, para o critério 'Efeitos Duradouros', a análise do modelo pode ser questionada, pois a recomendação se limita a citar o cumprimento de uma norma existente sem propor ações específicas para garantir sua implementação contínua ou adaptação a mudanças, o que pode não assegurar efeitos duradouros se os atores mudarem.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1229,
+    "completion_tokens": 193,
+    "total_tokens": 1422,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 333
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "3e886a2a-a6a3-481c-8636-c302e5fe872a",
+  "object": "chat.completion",
+  "created": 1760001981,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere múltiplas ações para corrigir a condição encontrada, incluindo disponibilizar veículo adequado, estabelecer rotinas de higiene, criar checklist para monitoramento de temperatura, calibrar termômetros e capacitar motoristas. Essas ações visam resolver diretamente os problemas de integridade, higienização e controle de temperatura no transporte. Além disso, as ações de estabelecer rotinas, criar checklist, calibrar regularmente e capacitar motoristas indicam medidas que buscam tratar as causas subjacentes, como falta de procedimentos padronizados e capacitação inadequada, indo além do mero cumprimento normativo ao propor implementações concretas.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Específica\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1372,
+    "completion_tokens": 200,
+    "total_tokens": 1572,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 412
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

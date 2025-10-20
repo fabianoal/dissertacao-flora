@@ -1,0 +1,28 @@
+{
+  "id": "9117fcd2-fb22-4964-a818-ee3c2d698891",
+  "object": "chat.completion",
+  "created": 1760387902,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"Em relação ao foco, a recomendação propõe ações coordenadas entre equipes de saúde para planejar e executar cuidados odontológicos para gestantes, o que aborda a causa subjacente da falta de ações propostas no Documento Orientador, visando evitar a repetição da condição encontrada. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como a implementação de processos coordenados e mensuração de indicadores, tendem a criar estruturas e práticas que podem persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n  \"Foco Causa\": \"Sim\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1025,
+    "completion_tokens": 167,
+    "total_tokens": 1192,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 193
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

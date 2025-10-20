@@ -1,0 +1,28 @@
+{
+  "id": "b4462686-3572-4cd2-ae37-d934efb353d4",
+  "object": "chat.completion",
+  "created": 1760459493,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise original identifica corretamente que a recomendação se concentra em corrigir a condição imediata de falta de justificativa, sem propor ações para prevenir a recorrência da causa subjacente, como falhas processuais ou de capacitação. Para 'Efeitos Duradouros', como o 'Foco Causa' foi avaliado como 'Não', a resposta 'Não se aplica' está alinhada com a lógica definida.\",\n  \"Análise Foco Causa\": \"Concordo\",\n  \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1180,
+    "completion_tokens": 153,
+    "total_tokens": 1333,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 284
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

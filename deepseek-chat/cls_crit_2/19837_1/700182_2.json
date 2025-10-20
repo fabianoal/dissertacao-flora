@@ -1,0 +1,28 @@
+{
+  "id": "3c105b15-a699-4791-8a5b-2c8404e084f2",
+  "object": "chat.completion",
+  "created": 1760466485,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe medidas administrativas e operacionais para assegurar a compatibilidade entre dados informados e registros físicos, o que aborda a causa subjacente de falhas nos processos de registro ou alimentação do sistema, sendo adequado classificar como 'Sim'. Para o critério 'Efeitos Duradouros', as medidas administrativas e operacionais, se implementadas, podem estabelecer procedimentos padronizados que persistem independentemente de mudanças de pessoal, justificando a classificação como 'Sim'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1279,
+    "completion_tokens": 173,
+    "total_tokens": 1452,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 319
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "43f14d6b-0356-4e2b-8c40-0f884de571f1",
+  "object": "chat.completion",
+  "created": 1760038096,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação solicita a apresentação de toda informação necessária para atividades de controle, avaliação e auditoria, incluindo acesso a documentos, pessoas e instalações, conforme referências normativas. Esta ação visa corrigir a condição encontrada de falta de documentos obrigatórios no processo de pagamento, caracterizando uma ação corretiva. No entanto, a recomendação se limita a exigir o cumprimento de normativos existentes (Decreto nº 1.651/1995 e Caderno de Orientações Técnicas) sem propor ações específicas para tratar a causa que levou à ausência dos documentos, como implementação de procedimentos de verificação ou capacitação. Portanto, não há ação com foco na causa além do mero cumprimento normativo.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1283,
+    "completion_tokens": 218,
+    "total_tokens": 1501,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 259
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

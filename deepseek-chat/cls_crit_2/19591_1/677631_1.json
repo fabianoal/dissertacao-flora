@@ -1,0 +1,28 @@
+{
+  "id": "7351aeb5-e984-4acc-a891-102b5103b447",
+  "object": "chat.completion",
+  "created": 1760455517,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda adequações físicas e de infraestrutura que visam corrigir as causas subjacentes da condição inadequada de armazenamento, como falhas na infraestrutura, o que pode prevenir a recorrência do problema. Portanto, concordo com a classificação 'Sim'. Para o critério 'Efeitos Duradouros', as melhorias na estrutura física, como piso, teto e iluminação, são incorporadas ao ambiente e tendem a persistir independentemente de mudanças nos atores, justificando a classificação 'Sim'.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1233,
+    "completion_tokens": 185,
+    "total_tokens": 1418,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 337
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

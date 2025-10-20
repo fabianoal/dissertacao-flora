@@ -1,0 +1,28 @@
+{
+  "id": "aa2e6220-690f-482d-9dda-f0ae15f8d251",
+  "object": "chat.completion",
+  "created": 1760387986,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que vão além de corrigir apenas as condições imediatas (como consertar ar-condicionado ou eliminar mofo), incluindo adequação estrutural às normativas do Ministério da Saúde e implementação de documentação essencial, o que sugere tratamento da causa raiz da incompatibilidade das infraestruturas. Já em relação aos efeitos pretendidos pela recomendação, as adequações estruturais e documentais propostas tendem a permanecer independentemente de mudanças nos atores envolvidos, pois estão institucionalizadas por meio de normativas e procedimentos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1139,
+    "completion_tokens": 174,
+    "total_tokens": 1313,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 307
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

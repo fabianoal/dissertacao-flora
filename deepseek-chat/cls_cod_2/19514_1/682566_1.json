@@ -1,0 +1,28 @@
+{
+  "id": "ee3b72e9-5747-4c1c-87cc-42a53bb1e3fc",
+  "object": "chat.completion",
+  "created": 1760470386,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se limita a citar dispositivos normativos que estabelecem a obrigatoriedade de utilização dos instrumentos de gestão do SUS (Plano de Saúde, Programação Anual de Saúde e Relatório Anual de Gestão), sem propor ações específicas para tratar a causa raiz do problema identificado, que é a falta de procedimentos que permitam o monitoramento da produção executada versus inserida no SIA/SUS. Não há menção a ações como desenvolvimento de sistemas de controle, implementação de processos de verificação, capacitação de pessoal ou outras medidas que ataquem diretamente a causa da discrepância entre produção real e dados inseridos.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1236,
+    "completion_tokens": 181,
+    "total_tokens": 1417,
+    "prompt_tokens_details": {
+      "cached_tokens": 1216
+    },
+    "prompt_cache_hit_tokens": 1216,
+    "prompt_cache_miss_tokens": 20
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

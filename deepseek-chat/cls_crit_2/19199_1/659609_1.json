@@ -1,0 +1,28 @@
+{
+  "id": "42817ba1-30c5-44f2-b2ce-c8e32025cfdb",
+  "object": "chat.completion",
+  "created": 1760451256,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta ao identificar que a recomendação se limita a citar dispositivos normativos sem propor ações específicas para tratar a causa da divergência no quantitativo de leitos. Quanto ao critério 'Efeitos Duradouros', como o critério 'Foco Causa' foi avaliado como 'Não', a resposta 'Não se aplica' está adequada.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1512,
+    "completion_tokens": 143,
+    "total_tokens": 1655,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 616
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

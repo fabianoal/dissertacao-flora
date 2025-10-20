@@ -1,0 +1,28 @@
+{
+  "id": "b66afbfe-e88d-4020-8eaa-79f0d7e96286",
+  "object": "chat.completion",
+  "created": 1760392430,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a implantação de mecanismos de controle para garantir a inserção dos comprovantes de afastamento no sistema Transferegov, o que visa tratar a causa do problema (ausência de procedimentos sistemáticos) e não apenas corrigir a condição atual. Já em relação aos efeitos pretendidos pela recomendação, a implantação de mecanismos de controle institucionalizados tende a produzir efeitos duradouros, independentemente de mudanças nos atores envolvidos, pois se baseia em processos estruturados.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1012,
+    "completion_tokens": 160,
+    "total_tokens": 1172,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 180
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "238d8701-c37c-4d3a-aad1-3f32e01fc66d",
+  "object": "chat.completion",
+  "created": 1760469465,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo está correta, pois a recomendação propõe a criação de sistemas e processos para garantir o cumprimento normativo, abordando a causa raiz da falta de instrumentos de regulação. Quanto ao critério 'Efeitos Duradouros', também concordo, uma vez que a implementação de sistemas estruturados e processos institucionalizados tende a perdurar além de mudanças na equipe, promovendo sustentabilidade.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1576,
+    "completion_tokens": 155,
+    "total_tokens": 1731,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 680
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "40168163-996c-4c37-ba5c-69de780db212",
+  "object": "chat.completion",
+  "created": 1760396068,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que tratam da causa do problema, como estabelecer rotinas adequadas de desinfecção, criar um checklist para monitoramento contínuo, calibrar regularmente os termômetros e capacitar os motoristas, visando prevenir a reincidência das falhas na cadeia de frio. Já em relação aos efeitos pretendidos pela recomendação, as medidas estabelecidas (como rotinas, checklists e calibração regular) são institucionalizadas e devem permanecer eficazes mesmo com mudanças nos atores envolvidos, como motoristas ou gestores.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1214,
+    "completion_tokens": 171,
+    "total_tokens": 1385,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 382
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

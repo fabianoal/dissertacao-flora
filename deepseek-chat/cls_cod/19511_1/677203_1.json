@@ -1,0 +1,28 @@
+{
+  "id": "e1043768-8ee5-4541-bc86-097089416b98",
+  "object": "chat.completion",
+  "created": 1760037124,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere a implementação de medidas para garantir a realização anual de inventários físicos, o que constitui uma ação corretiva para resolver a condição de ausência desses inventários. No entanto, a ação proposta é genérica, limitando-se a cumprir normativos existentes sem especificar medidas concretas para abordar a causa subjacente da não realização, como falhas em processos ou recursos. Portanto, não há uma ação específica focada na causa, e os efeitos duradouros não são aplicáveis devido à natureza genérica da recomendação.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1267,
+    "completion_tokens": 173,
+    "total_tokens": 1440,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 243
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

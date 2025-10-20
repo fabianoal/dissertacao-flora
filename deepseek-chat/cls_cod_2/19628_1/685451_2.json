@@ -1,0 +1,28 @@
+{
+  "id": "e32bf7b7-d200-419f-83b0-def03980de35",
+  "object": "chat.completion",
+  "created": 1760391498,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação proposta é genérica e não especifica ações diretas para tratar a causa da ausência de exames de imagem nos prontuários. Ela sugere estabelecer medidas de direção, controle e supervisão de forma ampla, sem mencionar ações como revisão de processos de anexação de documentos, capacitação de pessoal ou implementação de sistemas de verificação que abordem a causa raiz do problema. Portanto, não há ação proposta que trate especificamente da causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 988,
+    "completion_tokens": 179,
+    "total_tokens": 1167,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 92
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

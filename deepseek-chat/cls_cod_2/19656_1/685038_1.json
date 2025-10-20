@@ -1,0 +1,28 @@
+{
+  "id": "b884abdf-6326-453f-a0a7-5457829de5b8",
+  "object": "chat.completion",
+  "created": 1760392114,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere manter a composição mínima das equipes de saúde da família conforme normativa, o que é uma ação para garantir a conformidade estrutural, mas não aborda diretamente a causa do problema relatado na constatação (falta de comprovação de que o cadastro no SCNES estava atualizado). A causa poderia estar relacionada a processos de atualização, capacitação ou monitoramento do cadastro, que não são tratados aqui. Portanto, não há ação proposta que trate da causa do problema. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não é atendido, não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1051,
+    "completion_tokens": 185,
+    "total_tokens": 1236,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 219
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

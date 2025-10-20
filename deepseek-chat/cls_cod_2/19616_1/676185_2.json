@@ -1,0 +1,28 @@
+{
+  "id": "17ae67c4-ff5b-481d-90d7-39e59a8aa5c0",
+  "object": "chat.completion",
+  "created": 1760390606,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe que a convenente insira a documentação comprobatória no sistema Transferegov para sanear as impropriedades identificadas, focando na correção da condição específica (ausência de documentação) para fins de prestação de contas. Não há menção a ações que abordem a causa subjacente do problema, como falhas em processos de gestão de documentos ou capacitação de pessoal. Portanto, o foco é na condição imediata, não na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1044,
+    "completion_tokens": 185,
+    "total_tokens": 1229,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 20
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

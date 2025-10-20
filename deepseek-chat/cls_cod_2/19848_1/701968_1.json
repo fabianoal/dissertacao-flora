@@ -1,0 +1,28 @@
+{
+  "id": "c675466e-26fb-460f-83ea-5c644b04c4a1",
+  "object": "chat.completion",
+  "created": 1760399232,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe ações para corrigir a condição atual de falta de instalações adequadas, como prover infraestrutura física e realizar manutenções, mas não identifica ou aborda explicitamente a causa raiz do problema, como falhas na gestão, alocação de recursos ou planejamento que levaram à situação. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1099,
+    "completion_tokens": 151,
+    "total_tokens": 1250,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 267
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

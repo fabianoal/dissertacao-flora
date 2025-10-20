@@ -1,0 +1,28 @@
+{
+  "id": "9dbc828f-919d-4acf-8fae-ded018a08d3a",
+  "object": "chat.completion",
+  "created": 1760462893,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe o desenvolvimento e implementação de ações de controle estruturadas para o transporte de imunobiológicos, incluindo definição de responsabilidades e etapas, o que visa abordar a causa subjacente da falta de conformidade (ausência de procedimentos adequados), e não apenas corrigir a condição imediata. Para o critério 'Efeitos Duradouros', as ações sugeridas estabelecem processos formais e responsabilidades definidas, que devem permanecer efetivos independentemente de mudanças nos atores envolvidos, garantindo continuidade.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1315,
+    "completion_tokens": 184,
+    "total_tokens": 1499,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 419
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

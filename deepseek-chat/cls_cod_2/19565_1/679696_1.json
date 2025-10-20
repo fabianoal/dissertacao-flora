@@ -1,0 +1,28 @@
+{
+  "id": "2b4e78dd-d1cd-46fd-a899-19b2815467e0",
+  "object": "chat.completion",
+  "created": 1760388038,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação 'b' propõe fortalecer procedimentos de controle e gerenciamento de abastecimento, implementando práticas que assegurem precisão e consistência das informações, o que visa tratar a causa do problema (falhas nos processos de controle) para evitar que inconsistências nos registros de combustível voltem a ocorrer. Já em relação aos efeitos pretendidos pela recomendação, a implementação de procedimentos fortalecidos e práticas permanentes tende a produzir efeitos duradouros, mantendo-se mesmo com mudanças nos atores envolvidos, pois se baseia em sistemas e processos institucionalizados.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 981,
+    "completion_tokens": 182,
+    "total_tokens": 1163,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 149
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "8df46f0f-a487-4432-9b3c-f4ab140eec6a",
+  "object": "chat.completion",
+  "created": 1760037512,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere a adoção de medidas concretas para garantir a conformidade com o manual de design visual, o que pode incluir ações corretivas imediatas para ajustar a padronização dos veículos. No entanto, a ação proposta é genérica, pois se limita a cumprir as diretrizes existentes sem especificar ações adicionais para tratar a causa subjacente, como falhas em processos de implementação ou monitoramento. Como a ação foco na causa é genérica, os efeitos duradouros não são abordados de forma específica.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1198,
+    "completion_tokens": 172,
+    "total_tokens": 1370,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 174
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

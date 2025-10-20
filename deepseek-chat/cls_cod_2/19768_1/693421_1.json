@@ -1,0 +1,28 @@
+{
+  "id": "bd1589b8-f9b3-41c8-aca6-1c83cb57b763",
+  "object": "chat.completion",
+  "created": 1760396064,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações que visam corrigir as causas subjacentes das não conformidades identificadas, como a instalação de divisórias para evitar contaminação cruzada, a troca de pallets por materiais adequados, a identificação detalhada dos equipamentos e o estabelecimento de uma rotina de monitoramento contínuo. Estas medidas buscam prevenir a recorrência dos problemas, caracterizando um foco na causa. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como estruturas físicas permanentes (divisórias, identificação de equipamentos) e rotinas estabelecidas (monitoramento contínuo), são projetadas para persistir independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1222,
+    "completion_tokens": 218,
+    "total_tokens": 1440,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 390
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

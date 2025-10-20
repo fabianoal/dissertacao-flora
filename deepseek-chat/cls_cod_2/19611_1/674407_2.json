@@ -1,0 +1,28 @@
+{
+  "id": "c1957061-5681-4f60-9002-2b56aa1862ad",
+  "object": "chat.completion",
+  "created": 1760389582,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a orientação de fiscais e gestores para conferir documentação comprobatória em processos de contratação, visando evitar desobediência a normativos e irregularidades. Essa ação busca tratar a causa do problema, que é a falta de verificação adequada da documentação, prevenindo a reincidência de impropriedades. Já em relação aos efeitos pretendidos pela recomendação, a orientação formalizada e a conformidade com normativos estabelecem um procedimento padrão que deve persistir independentemente da mudança de atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1072,
+    "completion_tokens": 179,
+    "total_tokens": 1251,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 48
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "fc435cac-ee9f-4fdc-a24d-d26ab389f873",
+  "object": "chat.completion",
+  "created": 1760394376,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação se limita a citar o cumprimento de portarias existentes, sem propor ações específicas para tratar a causa raiz das irregularidades na aprovação de laudos, como falhas em processos de revisão ou capacitação. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, esta análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1149,
+    "completion_tokens": 132,
+    "total_tokens": 1281,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 317
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

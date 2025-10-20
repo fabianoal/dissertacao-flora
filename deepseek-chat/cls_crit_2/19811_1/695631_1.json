@@ -1,0 +1,28 @@
+{
+  "id": "b00ce22f-aa13-49d2-999d-dc3dc6643a2b",
+  "object": "chat.completion",
+  "created": 1760465329,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a implantação de um fluxo de atendimento estruturado, o que efetivamente visa tratar a causa raiz da ausência de organização sistêmica, e não apenas corrigir a condição imediata. Quanto ao critério 'Efeitos Duradouros', a implantação de um fluxo formalizado tende a se integrar à estrutura organizacional, mantendo seus efeitos mesmo com mudanças de pessoal.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1280,
+    "completion_tokens": 156,
+    "total_tokens": 1436,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 384
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

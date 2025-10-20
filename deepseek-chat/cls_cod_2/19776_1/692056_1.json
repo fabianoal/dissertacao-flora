@@ -1,0 +1,28 @@
+{
+  "id": "00f1609a-4227-419c-9e8f-3336578725f2",
+  "object": "chat.completion",
+  "created": 1760396296,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a utilização do Mapa Ilustrativo para identificar os tipos de imunobiológicos armazenados, o que corrige diretamente a condição encontrada de ausência desse mapa. No entanto, não há menção a ações que abordem a causa subjacente que levou à não utilização do mapa, como falhas em procedimentos, falta de capacitação ou ausência de supervisão. Quanto aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, essa análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 984,
+    "completion_tokens": 163,
+    "total_tokens": 1147,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 152
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

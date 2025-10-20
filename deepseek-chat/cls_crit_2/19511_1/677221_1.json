@@ -1,0 +1,28 @@
+{
+  "id": "80f7a68c-c0eb-441f-a852-19300b2888e2",
+  "object": "chat.completion",
+  "created": 1760453485,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe estabelecer medidas para garantir a publicação e efetiva atuação da Comissão Técnica de Auditoria, o que aborda diretamente a causa da constatação (ausência ou ineficiência da comissão), em vez de apenas corrigir a condição imediata. Para o critério 'Efeitos Duradouros', a implementação de uma comissão formal cria uma estrutura organizacional que pode persistir independentemente de mudanças de pessoal, promovendo controle contínuo.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1234,
+    "completion_tokens": 174,
+    "total_tokens": 1408,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 338
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

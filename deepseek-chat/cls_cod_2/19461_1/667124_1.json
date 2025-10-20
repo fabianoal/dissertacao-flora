@@ -1,0 +1,28 @@
+{
+  "id": "edc539af-7cf9-4cff-8cd9-07b77054f32b",
+  "object": "chat.completion",
+  "created": 1760385654,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe garantir e monitorar o preenchimento regular do CFI, o que visa estabelecer um processo contínuo para evitar a irregularidade encontrada, tratando assim a causa do problema (falta de controle sistemático). Já em relação aos efeitos pretendidos, a implementação de um sistema de garantia e monitoramento cria uma estrutura que independe de indivíduos específicos, mantendo sua eficácia mesmo com mudanças de atores envolvidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1028,
+    "completion_tokens": 144,
+    "total_tokens": 1172,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 196
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

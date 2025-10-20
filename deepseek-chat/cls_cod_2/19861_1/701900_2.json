@@ -1,0 +1,28 @@
+{
+  "id": "4594bdcd-442a-41aa-8147-4e0b4b0e2b1a",
+  "object": "chat.completion",
+  "created": 1760399816,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação inclui duas ações distintas: a primeira ('Devolver ao Fundo Nacional de Saúde...') é uma medida corretiva direta para a condição específica (devolução de valores indevidamente recebidos), caracterizando foco na condição. A segunda ação ('Cumprir com as atribuições legais de realizar controle e avaliação dos procedimentos assistenciais...') propõe a implementação de processos de controle e avaliação para prevenir a reincidência de inserção de dados incorretos, o que aborda a causa subjacente (falta de controle adequado). Portanto, há ação proposta que trata da causa. Já em relação aos efeitos pretendidos pela recomendação de foco na causa, a implementação de processos de controle e avaliação, conforme a lei, estabelece um sistema que deve permanecer funcional independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1084,
+    "completion_tokens": 250,
+    "total_tokens": 1334,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 188
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

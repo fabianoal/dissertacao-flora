@@ -1,0 +1,28 @@
+{
+  "id": "3a9700be-bbb8-47b8-ad2a-c49302b7358e",
+  "object": "chat.completion",
+  "created": 1760395696,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a adoção de um cronograma para manutenções preventivas e corretivas, calibração periódica e qualificação térmica, o que visa tratar a causa raiz do problema (falta de manutenção e controle sistemático) e não apenas corrigir as condições atuais. Já em relação aos efeitos pretendidos, a implementação de procedimentos documentados e cronogramas permanentes assegura que os efeitos perdurem independentemente de mudanças nos atores envolvidos, pois se tornam parte dos processos institucionais.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1163,
+    "completion_tokens": 167,
+    "total_tokens": 1330,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 331
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

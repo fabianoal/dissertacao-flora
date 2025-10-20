@@ -1,0 +1,28 @@
+{
+  "id": "9849260c-de84-405e-8332-2ea9ba9ea8cd",
+  "object": "chat.completion",
+  "created": 1760455781,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise crítica avalia a classificação fornecida para os critérios 'Foco Causa' e 'Efeitos Duradouros' com base na finalidade da auditoria, constatação e recomendação. A constatação identifica inobservâncias nas escalas de profissionais médicos reguladores no turno noturno, indicando uma falta de padronização ou controle. A recomendação propõe a elaboração de um documento instrucional para definir regras sobre trocas de escalas, horários de descanso, atestados e trocas de serviços, visando internalizar e aplicar essas regras a todos os profissionais.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1227,
+    "completion_tokens": 181,
+    "total_tokens": 1408,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 267
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

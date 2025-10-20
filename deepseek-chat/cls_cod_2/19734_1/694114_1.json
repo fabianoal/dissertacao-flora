@@ -1,0 +1,28 @@
+{
+  "id": "6a8fc8fe-109c-425c-a3e6-a5b728411e2d",
+  "object": "chat.completion",
+  "created": 1760394836,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe suprir o quadro de profissionais de enfermagem conforme estabelecido na normativa específica, o que visa tratar diretamente a causa da deficiência na infraestrutura (falta de profissionais adequados) para a habilitação da UCINCA, caracterizando um foco na causa. Já em relação aos efeitos pretendidos pela recomendação, a ação de suprir o quadro conforme a normativa estabelece uma estrutura permanente que independe de atores específicos, garantindo que os efeitos se mantenham mesmo com mudanças futuras na equipe.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1007,
+    "completion_tokens": 166,
+    "total_tokens": 1173,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 111
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

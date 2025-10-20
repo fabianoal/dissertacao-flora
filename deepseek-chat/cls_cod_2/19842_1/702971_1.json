@@ -1,0 +1,28 @@
+{
+  "id": "b428236a-9ced-4911-9a61-e4e5d70649db",
+  "object": "chat.completion",
+  "created": 1760399076,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a elaboração, validação e implantação de protocolos e fluxos, o que visa tratar a causa da ausência de diretrizes estabelecidas, e a capacitação de profissionais para melhorar a eficiência, ambas ações direcionadas à causa raiz da falta de organização. Já em relação aos efeitos pretendidos pela recomendação, a implementação de protocolos e fluxos estruturados, bem como a capacitação, tende a criar sistemas e conhecimentos que permanecem independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1115,
+    "completion_tokens": 175,
+    "total_tokens": 1290,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 283
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

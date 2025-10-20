@@ -1,0 +1,28 @@
+{
+  "id": "e971b681-9b5c-4ffa-b985-a0aa5c2f0684",
+  "object": "chat.completion",
+  "created": 1760387742,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe que a SES/AM implemente o cumprimento do item 11 das Diretrizes Clínicas, que estabelece a obrigatoriedade de apresentar ao paciente apto a opção de inscrição na CNCDO no prazo de 90 dias após o início do tratamento dialítico. Esta ação visa tratar a causa do problema, que é a ausência de datas de entrada na fila de transplante, ao assegurar que os pacientes sejam inscritos adequadamente e em tempo hábil, prevenindo a reincidência da condição observada. Já em relação aos efeitos pretendidos pela recomendação, a implementação desta diretriz cria um procedimento formal e sistemático que permanece válido independentemente de mudanças nos atores envolvidos, como gestores ou profissionais de saúde, pois está baseada em normas estabelecidas.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1077,
+    "completion_tokens": 230,
+    "total_tokens": 1307,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 245
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

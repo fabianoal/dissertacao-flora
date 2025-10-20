@@ -1,0 +1,28 @@
+{
+  "id": "89cac828-6893-4103-8354-ea6236874a85",
+  "object": "chat.completion",
+  "created": 1760386374,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação propõe uma ação de ressarcimento financeiro, que visa corrigir a condição específica de cobrança excessiva identificada, sem abordar as causas subjacentes que levaram a essa discrepância, como falhas em processos de controle, supervisão ou sistemas de registro. Portanto, ela se concentra na condição imediata, não na causa. Como o critério 'Foco Causa' não é atendido, a avaliação de 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 964,
+    "completion_tokens": 151,
+    "total_tokens": 1115,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 132
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

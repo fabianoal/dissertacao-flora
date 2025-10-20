@@ -1,0 +1,28 @@
+{
+  "id": "6cf19439-714b-4f5d-a664-ef4661e1e9c4",
+  "object": "chat.completion",
+  "created": 1760387566,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a implantação do Sistema de Prontuário Eletrônico do Cidadão, o que visa tratar a causa do problema de inadequação no preenchimento dos prontuários, ao modernizar e padronizar o processo de registro de informações. Já em relação aos efeitos pretendidos pela recomendação, a implantação de um sistema eletrônico estabelece um processo estruturado e independente de indivíduos específicos, garantindo que os efeitos de padronização e acuidade das informações permaneçam mesmo com mudanças nos atores envolvidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1085,
+    "completion_tokens": 172,
+    "total_tokens": 1257,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 317
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

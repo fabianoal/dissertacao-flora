@@ -1,0 +1,28 @@
+{
+  "id": "7a5b737f-c751-4c58-be5b-c4f293478de6",
+  "object": "chat.completion",
+  "created": 1760395660,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a implementação de controle de temperatura e registro do monitoramento contínuo, o que visa corrigir a condição específica de transporte inadequado, mas não aborda explicitamente as causas subjacentes, como falhas de capacitação, supervisão ou recursos. Portanto, a ação proposta é mais direcionada à condição encontrada do que à causa raiz. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, essa análise não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1053,
+    "completion_tokens": 164,
+    "total_tokens": 1217,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 221
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

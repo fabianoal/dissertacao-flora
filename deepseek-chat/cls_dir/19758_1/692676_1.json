@@ -1,0 +1,28 @@
+{
+  "id": "112abd3f-2fcf-46a4-9024-4080b47f4ad6",
+  "object": "chat.completion",
+  "created": 1759367406,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"analise\": \"A recomendação identifica a causa estrutural (deficiências na infraestrutura física e nos sistemas de controle de temperatura) que levou à condição detectada de falhas na preservação da temperatura dos imunobiológicos. A causa está situada no nível institucional, envolvendo adequação de instalações e implementação de sistemas de controle. As transformações propostas (adequação da estrutura física e implementação de controle de temperatura) possuem potencial para perdurar no tempo, constituindo melhorias estruturais duradouras no processo de cadeia de frio.\",\n    \"categoria\": \"foco-causa\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1490,
+    "completion_tokens": 147,
+    "total_tokens": 1637,
+    "prompt_tokens_details": {
+      "cached_tokens": 1216
+    },
+    "prompt_cache_hit_tokens": 1216,
+    "prompt_cache_miss_tokens": 274
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

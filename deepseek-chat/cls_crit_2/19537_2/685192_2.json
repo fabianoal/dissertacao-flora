@@ -1,0 +1,28 @@
+{
+  "id": "52b7d27b-fb84-4afb-abf8-ff66b9922bdd",
+  "object": "chat.completion",
+  "created": 1760454161,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise Crítica\": \"A análise fornecida avalia corretamente que a recomendação se concentra na correção imediata da condição irregular, sem propor ações para abordar as causas subjacentes que levaram à falta de comprovação da liquidação de despesas. No entanto, a avaliação dos efeitos duradouros é consistente com a ausência de foco na causa.\",\n  \"Análise Foco Causa\": \"Concordo\",\n  \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1228,
+    "completion_tokens": 125,
+    "total_tokens": 1353,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 268
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

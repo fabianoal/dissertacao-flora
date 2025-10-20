@@ -1,0 +1,28 @@
+{
+  "id": "bbee59d6-0437-4ada-940d-15a7a0684104",
+  "object": "chat.completion",
+  "created": 1760466061,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação se concentra na correção da condição específica (devolução de recursos) sem abordar as causas subjacentes da falta de documentação. No entanto, é importante destacar que a recomendação poderia ser mais efetiva se incluísse ações preventivas para evitar recorrências.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1326,
+    "completion_tokens": 122,
+    "total_tokens": 1448,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 366
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

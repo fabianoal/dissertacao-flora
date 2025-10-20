@@ -1,0 +1,28 @@
+{
+  "id": "c4975ce3-3427-46ef-9c76-9a465d155d4b",
+  "object": "chat.completion",
+  "created": 1760467093,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação menciona a adoção de procedimentos conforme a Portaria GM/MS n.º 885/2021, que pode incluir medidas para prevenir danos futuros, mas não especifica ações direcionadas à causa raiz do problema (ex: revisão de processos de contratação ou implementação de controles para evitar superfaturamento). Portanto, concordo que a recomendação não propõe ações claras para tratar a causa. Para o critério 'Efeitos Duradouros', como o 'Foco Causa' é 'Não', a resposta 'Não se aplica' está correta.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1237,
+    "completion_tokens": 192,
+    "total_tokens": 1429,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 341
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

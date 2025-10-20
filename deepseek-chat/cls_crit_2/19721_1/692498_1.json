@@ -1,0 +1,28 @@
+{
+  "id": "4daf1eee-9ad2-4723-b99a-ea007939f8a1",
+  "object": "chat.completion",
+  "created": 1760462314,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo argumenta que a recomendação não aborda explicitamente as causas subjacentes das deficiências estruturais, como falhas no planejamento, manutenção preventiva ou alocação de recursos, focando apenas em corrigir as condições identificadas. Quanto ao critério 'Efeitos Duradouros', a análise é considerada não aplicável devido à resposta 'Não' no critério anterior.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1201,
+    "completion_tokens": 148,
+    "total_tokens": 1349,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 305
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

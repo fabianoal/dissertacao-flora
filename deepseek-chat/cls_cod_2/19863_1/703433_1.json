@@ -1,0 +1,28 @@
+{
+  "id": "21effeb4-b836-4490-9c81-ec485c709818",
+  "object": "chat.completion",
+  "created": 1760400016,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a elaboração ou apresentação do projeto de viabilidade para campanhas de prevenção, o que visa corrigir a ausência documental constatada. No entanto, não há menção a ações que tratem da causa subjacente dessa ausência, como falhas em processos de documentação ou capacitação da equipe. Portanto, a recomendação foca na condição imediata (falta do projeto) e não na causa raiz. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 981,
+    "completion_tokens": 173,
+    "total_tokens": 1154,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 149
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a9c6d4c7-3216-41d0-96dc-c2215e145810",
+  "object": "chat.completion",
+  "created": 1760036868,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere uma ação corretiva para resolver a condição encontrada, que é a ausência de comprovação da capacidade da Irmandade, ao solicitar o anexo de comprovantes no sistema Transferegov. Além disso, a ação proposta para tratar a causa é genérica, pois se limita a citar o cumprimento de normativos específicos, sem propor medidas concretas adicionais para prevenir futuras ocorrências. Como a ação de foco na causa é genérica, os efeitos duradouros não são avaliados como presentes.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1279,
+    "completion_tokens": 173,
+    "total_tokens": 1452,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 255
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

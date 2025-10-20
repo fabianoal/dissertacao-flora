@@ -1,0 +1,28 @@
+{
+  "id": "a665c7d2-5e23-491a-aa2c-6a0b42ab0821",
+  "object": "chat.completion",
+  "created": 1760400188,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe tanto ações para corrigir a condição atual (elisão do dano com devolução de recursos) quanto para prevenir a recorrência do fato, indicando que há tratamento da causa. Já em relação aos efeitos pretendidos pela recomendação, a prevenção da recorrência sugere a implementação de procedimentos permanentes que devem persistir independentemente de mudanças nos atores envolvidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1023,
+    "completion_tokens": 132,
+    "total_tokens": 1155,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 191
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

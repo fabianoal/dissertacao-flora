@@ -1,0 +1,28 @@
+{
+  "id": "411d929d-2d86-422c-aeb1-779ee92badd5",
+  "object": "chat.completion",
+  "created": 1760391014,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a implantação de uma rotina permanente para inserção das cópias das folhas de requisição de OPME nos prontuários, o que visa tratar a causa do problema (falta de procedimento padronizado) e não apenas corrigir as folhas ausentes nos casos específicos. Já em relação aos efeitos pretendidos pela recomendação, a implantação de uma rotina formal e o estabelecimento de controles internos permanentes garantirão que os efeitos se mantenham mesmo com mudanças nos atores envolvidos, pois se baseiam em procedimentos institucionalizados.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1259,
+    "completion_tokens": 175,
+    "total_tokens": 1434,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 427
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

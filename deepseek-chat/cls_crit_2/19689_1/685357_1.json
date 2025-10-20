@@ -1,0 +1,28 @@
+{
+  "id": "96717780-bd49-47d0-965b-7b1a4f6d2a62",
+  "object": "chat.completion",
+  "created": 1760459897,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo identificou corretamente que a recomendação é genérica e não especifica ações concretas para tratar a causa subjacente da não entrega da documentação, como falhas em processos ou capacitação. Quanto ao critério 'Efeitos Duradouros', a resposta 'Não se aplica' está correta, pois depende de um 'Sim' no critério anterior.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1297,
+    "completion_tokens": 142,
+    "total_tokens": 1439,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 401
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

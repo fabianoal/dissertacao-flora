@@ -1,0 +1,28 @@
+{
+  "id": "92c334d2-9cd8-4db0-bcc4-10ea548a6712",
+  "object": "chat.completion",
+  "created": 1760396476,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a implementação de melhorias na gestão dos recursos financeiros para assegurar o cumprimento do princípio da eficiência e a aplicação dos recursos conforme a finalidade específica, o que aborda a causa do problema relacionada à gestão inadequada dos recursos, e não apenas a condição específica do não uso do recurso para a unidade móvel. Já em relação aos efeitos pretendidos pela recomendação, as melhorias na gestão dos recursos, se implementadas, criariam processos e controles que persistiriam independentemente de mudanças nos atores envolvidos, promovendo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1213,
+    "completion_tokens": 186,
+    "total_tokens": 1399,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 381
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

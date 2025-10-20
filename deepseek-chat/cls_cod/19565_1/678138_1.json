@@ -1,0 +1,28 @@
+{
+  "id": "de9cdac4-d854-4d3c-8202-44c86fbbf393",
+  "object": "chat.completion",
+  "created": 1760035984,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação inclui ações corretivas, como implementar um plano de manutenção preventiva e revisar o processo de compra, que visam resolver diretamente a condição de não conformidade na quantidade de ambulâncias. Além disso, a ação de estabelecer uma Reserva Técnica funcional é específica e foca na causa, pois propõe uma solução concreta para evitar interrupções futuras devido a manutenções. No entanto, os efeitos duradouros dependem da manutenção contínua da RT e dos processos, que podem ser afetados por mudanças de atores.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Específica\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1381,
+    "completion_tokens": 184,
+    "total_tokens": 1565,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 357
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

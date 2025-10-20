@@ -1,0 +1,28 @@
+{
+  "id": "13253fde-35bd-4cc0-b35d-c7af3a45f8f8",
+  "object": "chat.completion",
+  "created": 1760451508,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise crítica avalia a classificação dos critérios 'Foco Causa' e 'Efeitos Duradouros' com base na definição fornecida. Para 'Foco Causa', a recomendação deve propor ações que tratem da causa do problema, não apenas a condição. Para 'Efeitos Duradouros', aplica-se apenas se 'Foco Causa' for 'Sim', e deve verificar se os efeitos persistem com mudanças de atores.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1363,
+    "completion_tokens": 153,
+    "total_tokens": 1516,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 467
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

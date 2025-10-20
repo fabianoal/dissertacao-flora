@@ -1,0 +1,28 @@
+{
+  "id": "ad0aa596-f04a-4cb5-8c87-9255e62cf126",
+  "object": "chat.completion",
+  "created": 1760394064,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação limita-se a solicitar que a SVSA/MS tome conhecimento da constatação e adote procedimentos conforme dispositivo legal, sem especificar ações concretas para tratar a causa subjacente da desorganização da rede estadual. Não há menção a medidas como capacitação de profissionais, revisão de fluxos, alocação de recursos ou outras ações que ataquem a raiz do problema. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1017,
+    "completion_tokens": 173,
+    "total_tokens": 1190,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 249
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

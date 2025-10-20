@@ -1,0 +1,28 @@
+{
+  "id": "b22f694a-c7ce-4175-9fb1-ebd678e9a8fe",
+  "object": "chat.completion",
+  "created": 1760399684,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação não propõe ações específicas para tratar a causa do problema (ausência de informação do período de execução em notas fiscais), limitando-se a orientar o tomador de conhecimento sobre procedimentos estabelecidos em portaria e indicar a proposição de devolução de recursos. Não há menção a ações que evitem a reincidência da condição, como implementação de controles ou capacitação. Portanto, não atende ao critério de foco na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 959,
+    "completion_tokens": 176,
+    "total_tokens": 1135,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 127
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

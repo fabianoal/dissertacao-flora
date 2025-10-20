@@ -1,0 +1,28 @@
+{
+  "id": "e59f8a2d-b366-4af9-9f8e-3b84de0a39db",
+  "object": "chat.completion",
+  "created": 1760396384,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe apenas a correção imediata da condição encontrada (organização inadequada das caixas térmicas), sem mencionar ações que abordem as causas subjacentes, como falhas nos procedimentos operacionais, capacitação da equipe ou mecanismos de supervisão. Já em relação aos efeitos duradouros, como o critério 'Foco Causa' não foi atendido, não se aplica a avaliação.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 979,
+    "completion_tokens": 146,
+    "total_tokens": 1125,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 147
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

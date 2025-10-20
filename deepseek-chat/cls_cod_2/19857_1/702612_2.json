@@ -1,0 +1,28 @@
+{
+  "id": "8defaa4d-14f6-4cc9-98a9-a352feac4ccf",
+  "object": "chat.completion",
+  "created": 1760399640,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação 1 propõe a realização de análise de custo-benefício entre locação e aquisição de bens, o que visa tratar a causa do problema (falta de análise prévia adequada) e não apenas a condição específica encontrada. A recomendação 2 reforça essa abordagem ao estabelecer a necessidade de incluir essa análise para aprovação do PT, criando um procedimento preventivo. Quanto aos efeitos duradouros, as ações propostas (análise sistemática e inclusão no processo de aprovação) criam mecanismos que permanecerão independentemente de mudanças nos atores envolvidos, estabelecendo um processo estruturado para decisões futuras.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1160,
+    "completion_tokens": 199,
+    "total_tokens": 1359,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 264
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

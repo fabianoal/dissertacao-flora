@@ -1,0 +1,28 @@
+{
+  "id": "277be172-60f5-490e-96ee-967f928bb4e1",
+  "object": "chat.completion",
+  "created": 1760451736,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a manutenção formal da Comissão de Revisão de Prontuários (CRP), que aborda diretamente a causa raiz da constatação (ausência de comissão formalizada), e não apenas corrige a condição imediata de prontuários não revisados. Quanto ao critério 'Efeitos Duradouros', a manutenção da CRP estabelece uma estrutura organizacional permanente, conforme exigido por resolução, que deve funcionar independentemente de mudanças nas pessoas envolvidas, assegurando a continuidade da revisão de prontuários.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1269,
+    "completion_tokens": 193,
+    "total_tokens": 1462,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 373
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

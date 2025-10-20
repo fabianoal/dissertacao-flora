@@ -1,0 +1,28 @@
+{
+  "id": "6d90db81-eab8-4564-a63e-a8d628850e91",
+  "object": "chat.completion",
+  "created": 1760455401,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe ações que visam estruturar o serviço de TRS (cadastro, estratificação de risco, definição de fluxo), abordando a causa subjacente da falta de organização que levou à constatação. Quanto ao critério 'Efeitos Duradouros', as ações sugeridas (organização de dados no sistema de regulação) estabelecem processos e sistemas que podem persistir independentemente de mudanças de pessoal, garantindo continuidade.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1305,
+    "completion_tokens": 161,
+    "total_tokens": 1466,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 409
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

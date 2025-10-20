@@ -1,0 +1,28 @@
+{
+  "id": "8f32f7d3-f8d1-437a-88a9-008489f9f828",
+  "object": "chat.completion",
+  "created": 1760386370,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação exige a apresentação de documentos comprobatórios, como as AIHs, para comprovar a utilização das OPMEs, o que visa corrigir a condição imediata de ausência desses documentos nos prontuários, mas não propõe ações para tratar a causa subjacente, como falhas nos processos de documentação ou treinamento de pessoal. Portanto, o foco é na condição, não na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1048,
+    "completion_tokens": 167,
+    "total_tokens": 1215,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 216
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

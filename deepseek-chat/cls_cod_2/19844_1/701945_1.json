@@ -1,0 +1,28 @@
+{
+  "id": "1ad9ac88-96ef-4c4b-acd5-baa0b2af6466",
+  "object": "chat.completion",
+  "created": 1760399128,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação exige que a Secretaria de Saúde de Osasco/SP cumpra as normas estabelecidas na Portaria de Consolidação GM/MS nº 1/2017, especificamente os artigos que tratam dos instrumentos de planejamento (Plano de Saúde, Programações Anuais de Saúde e Relatório Anual de Gestão). No entanto, a recomendação não propõe ações para tratar a causa subjacente da não apresentação ou assinatura das atas, como a falta de processos internos, capacitação da equipe ou falhas na governança. Ela se limita a corrigir a condição imediata (a impropriedade documental), sem abordar medidas preventivas para evitar a recorrência do problema. Portanto, não há foco na causa. Como o critério 'Foco Causa' não é atendido, a análise de 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1237,
+    "completion_tokens": 246,
+    "total_tokens": 1483,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 405
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

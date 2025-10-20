@@ -1,0 +1,28 @@
+{
+  "id": "37f3d3e5-d766-499a-a67b-5be56cf39b34",
+  "object": "chat.completion",
+  "created": 1760383743,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação é genérica e não propõe ações específicas para tratar a causa do problema (pagamentos indevidos de encargos trabalhistas, previdenciários e fiscais). Ela apenas reforça a necessidade de cumprir o contrato, sem identificar ou abordar as causas subjacentes que levaram ao descumprimento, como possíveis falhas nos processos de controle, capacitação insuficiente ou deficiências na fiscalização. Portanto, não há foco na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1003,
+    "completion_tokens": 181,
+    "total_tokens": 1184,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 171
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

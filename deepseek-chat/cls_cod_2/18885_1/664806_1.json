@@ -1,0 +1,28 @@
+{
+  "id": "c5f4b5a6-6eb6-4821-ad70-ddcdf3e598ac",
+  "object": "chat.completion",
+  "created": 1760383622,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação enfatiza a necessidade de executar o contrato conforme as cláusulas estabelecidas e as normas legais aplicáveis, focando na correção imediata da condição de pagamentos fora do escopo. Não propõe ações para tratar a causa subjacente, como falhas nos processos de controle ou supervisão que permitiram tais desvios, limitando-se a exigir conformidade sem medidas preventivas de longo prazo. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério de 'Efeitos Duradouros' não se aplica.\",\n  \"Foco Causa\": \"Não\",\n  \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1258,
+    "completion_tokens": 177,
+    "total_tokens": 1435,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 362
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

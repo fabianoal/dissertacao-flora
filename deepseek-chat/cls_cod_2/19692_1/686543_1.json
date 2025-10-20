@@ -1,0 +1,28 @@
+{
+  "id": "e5a2007e-e0b3-4b2b-94d0-1642c051df6d",
+  "object": "chat.completion",
+  "created": 1760470392,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação solicita que o gestor municipal forneça documentação quando solicitada, o que constitui uma ação para corrigir a condição imediata de não apresentação de documentos, sem propor medidas para tratar a causa subjacente, como falhas nos processos de gestão documental ou capacitação. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 933,
+    "completion_tokens": 145,
+    "total_tokens": 1078,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 101
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "33a04bc1-0efa-414a-9f99-49ef7cd521ab",
+  "object": "chat.completion",
+  "created": 1760395948,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação inclui ações que tratam da causa do problema, como a criação de procedimentos de fiscalização interna, capacitação em gestão de contratos e implementação de auditorias periódicas, que visam prevenir a reincidência da falta de comprovação contratual e de manutenções. Já em relação aos efeitos pretendidos pela recomendação, as ações sugeridas, como procedimentos estabelecidos e treinamentos contínuos, tendem a produzir efeitos duradouros, pois criam estruturas e conhecimentos que permanecem mesmo com mudanças de atores envolvidos.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1594,
+    "completion_tokens": 173,
+    "total_tokens": 1767,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 762
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

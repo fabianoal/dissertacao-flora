@@ -1,0 +1,28 @@
+{
+  "id": "2580d9ea-5dae-4648-91f4-9996a9796979",
+  "object": "chat.completion",
+  "created": 1760398544,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação não propõe ações específicas para tratar a causa do problema identificado (falta de comprovação da execução da produção inserida). Em vez disso, limita-se a citar dispositivos legais e normativos genéricos sobre competências e obrigações já existentes, sem indicar medidas concretas para resolver a causa subjacente à constatação. Portanto, não há ação focada na causa. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1073,
+    "completion_tokens": 164,
+    "total_tokens": 1237,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 177
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

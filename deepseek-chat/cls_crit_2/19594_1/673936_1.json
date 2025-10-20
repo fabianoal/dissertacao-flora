@@ -1,0 +1,28 @@
+{
+  "id": "f4310e79-8345-48cb-955e-dae5a2462d50",
+  "object": "chat.completion",
+  "created": 1760455561,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a análise do modelo considerou que a segunda recomendação aborda a causa do problema, porém as recomendações 1 e 3 não foram adequadamente avaliadas em seu conjunto. Quanto ao critério 'Efeitos Duradouros', a análise pressupôs que a implementação das orientações criaria processos sustentáveis, mas não considerou a natureza específica das ações recomendadas.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1451,
+    "completion_tokens": 142,
+    "total_tokens": 1593,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 555
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

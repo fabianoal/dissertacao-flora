@@ -1,0 +1,28 @@
+{
+  "id": "126f0adc-d511-49fb-9351-73c5ebd85bb3",
+  "object": "chat.completion",
+  "created": 1760453701,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda a capacitação de profissionais e a implementação de registros adequados, o que pode ser visto como uma ação que trata da causa do problema (falta de conhecimento e práticas inadequadas). No entanto, é importante considerar se essas ações são suficientes para abordar a causa raiz, como possíveis questões estruturais ou de recursos. Para o critério 'Efeitos Duradouros', a capacitação e a institucionalização de processos podem criar práticas sustentáveis, mas a durabilidade pode depender de fatores como a continuidade do treinamento e a adesão institucional.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1267,
+    "completion_tokens": 189,
+    "total_tokens": 1456,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 371
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

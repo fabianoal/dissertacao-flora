@@ -1,0 +1,28 @@
+{
+  "id": "a8bfd5fc-f4b7-4792-bcba-362509de41ce",
+  "object": "chat.completion",
+  "created": 1760037708,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere múltiplas ações para corrigir a condição de armazenamento inadequado, como implementar melhorias estruturais, adotar controles de validade, monitorar temperatura, e aplicar o sistema PEPS, que são ações corretivas diretas. Além disso, propõe ações específicas para tratar causas subjacentes, como garantir equipamentos de monitoramento adequados, realizar qualificação térmica, e planejar movimentações de estoque, que visam prevenir a recorrência do problema, indo além do mero cumprimento normativo. Essas ações específicas têm efeitos duradouros, pois estabelecem processos e infraestrutura que independem de mudanças de pessoal.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Específica\",\n  \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1884,
+    "completion_tokens": 205,
+    "total_tokens": 2089,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 860
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

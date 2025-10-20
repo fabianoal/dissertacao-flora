@@ -1,0 +1,28 @@
+{
+  "id": "1cef6367-4fb8-4c19-a2b5-42438ceb878f",
+  "object": "chat.completion",
+  "created": 1760392118,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise\": \"A recomendação enfatiza a necessidade de manter a composição mínima das equipes de Saúde da Família, conforme estabelecido pela portaria, focando na correção da condição atual de não comprovação da composição e carga horária. No entanto, não propõe ações específicas para abordar as causas subjacentes que levaram a essa condição, como falhas em processos de gestão, supervisão ou capacitação. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n   \"Foco Causa\": \"Não\",\n   \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1074,
+    "completion_tokens": 172,
+    "total_tokens": 1246,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 242
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a09d33f0-0ece-4d61-8d8a-97322583a1a3",
+  "object": "chat.completion",
+  "created": 1760454033,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação aborda tanto a correção imediata da condição encontrada (apresentar documentos) quanto medidas preventivas para evitar reincidência (arquivamento por 10 anos), o que caracteriza tratamento da causa. Para 'Efeitos Duradouros', as medidas de arquivamento estabelecem procedimentos padronizados que devem persistir independentemente de mudanças de pessoal.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1382,
+    "completion_tokens": 143,
+    "total_tokens": 1525,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 486
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

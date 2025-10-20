@@ -1,0 +1,28 @@
+{
+  "id": "85c7a7b0-af13-477b-8b26-d14c5f69c977",
+  "object": "chat.completion",
+  "created": 1760385338,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe apenas a devolução dos recursos utilizados irregularmente, focando na correção da condição específica identificada (falta de repasse dos recursos). Não há nenhuma ação que busque tratar as causas subjacentes que levaram ao não repasse, como falhas nos processos de gestão, controles internos ou capacitação da equipe. Portanto, não há foco na causa do problema. Como o critério 'Foco Causa' não é atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1052,
+    "completion_tokens": 163,
+    "total_tokens": 1215,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 156
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

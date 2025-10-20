@@ -1,0 +1,28 @@
+{
+  "id": "bfc4b5b8-d2b5-4841-8ed9-017ab55547a0",
+  "object": "chat.completion",
+  "created": 1760393202,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe uma ação de fiscalização para assegurar o preenchimento dos postos de trabalho conforme o contrato, focando na correção da condição específica de não preenchimento total durante a vigência contratual. Não há menção a ações que abordem as causas subjacentes desse problema, como falhas no processo de contratação, planejamento inadequado ou questões de gestão de recursos humanos. Portanto, a recomendação é condition-based. Como o critério 'Foco Causa' não foi atendido, o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 954,
+    "completion_tokens": 174,
+    "total_tokens": 1128,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 122
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

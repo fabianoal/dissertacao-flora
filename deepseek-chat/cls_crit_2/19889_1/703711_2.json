@@ -1,0 +1,28 @@
+{
+  "id": "bdc12257-ed34-4080-97ed-db75f4157fcc",
+  "object": "chat.completion",
+  "created": 1760468269,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise fornecida avalia corretamente que a recomendação se concentra na correção da condição financeira específica (devolução de valores) sem abordar as causas subjacentes das inconsistências nos procedimentos. No entanto, não explora se a ação de 'adotar providências legais' poderia, por interpretação, incluir medidas preventivas, embora o texto da recomendação não as especifique claramente.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1319,
+    "completion_tokens": 136,
+    "total_tokens": 1455,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 359
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

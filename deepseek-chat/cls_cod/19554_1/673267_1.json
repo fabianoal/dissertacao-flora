@@ -1,0 +1,28 @@
+{
+  "id": "449a2ca6-eb67-48c5-a04d-1a904541216e",
+  "object": "chat.completion",
+  "created": 1760036244,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação sugere uma ação para resolver a condição encontrada ao orientar a realização do exame citopatológico conforme a meta do Indicador 4. No entanto, a ação proposta é genérica, limitando-se a cumprir a Nota Técnica existente, sem especificar medidas adicionais para tratar a causa subjacente da divergência nos dados, como melhorias na coleta ou registro. Como a ação foco na causa é genérica, os efeitos duradouros não são avaliados positivamente.\",\n    \"Ação Corretiva\": \"Sim\",\n    \"Ação Foco Causa\": \"Genérica\",\n    \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1189,
+    "completion_tokens": 165,
+    "total_tokens": 1354,
+    "prompt_tokens_details": {
+      "cached_tokens": 960
+    },
+    "prompt_cache_hit_tokens": 960,
+    "prompt_cache_miss_tokens": 229
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

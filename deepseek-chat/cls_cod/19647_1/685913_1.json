@@ -1,0 +1,28 @@
+{
+  "id": "7410ba93-e652-4bb1-be8c-94955d084d27",
+  "object": "chat.completion",
+  "created": 1760037884,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere uma ação corretiva ao propor o preenchimento adequado dos prontuários para resolver a discrepância entre os dados do SISAB e os prontuários. No entanto, a ação com foco na causa é genérica, pois se limita a citar o cumprimento de uma nota técnica sem propor medidas concretas adicionais para evitar a reincidência, como treinamento ou revisão de processos. Como a ação foco causa é genérica, os efeitos duradouros não se aplicam de forma específica.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1197,
+    "completion_tokens": 169,
+    "total_tokens": 1366,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 173
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

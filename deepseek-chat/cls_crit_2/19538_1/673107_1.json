@@ -1,0 +1,28 @@
+{
+  "id": "b0fea142-c216-4974-b39d-0bf0e6e83b32",
+  "object": "chat.completion",
+  "created": 1760454241,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n   \"Análise Crítica\": \"A análise do modelo está correta ao identificar que a recomendação não aborda as causas subjacentes da não adesão às ações do Documento Orientador, focando apenas no cumprimento genérico das estratégias existentes. Isso resulta em uma classificação adequada para o critério 'Foco Causa' como 'Não', e consequentemente, 'Efeitos Duradouros' como 'Não se aplica'.\",\n   \"Análise Foco Causa\": \"Concordo\",\n   \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1161,
+    "completion_tokens": 135,
+    "total_tokens": 1296,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 265
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "46936ba3-9380-476c-8540-89eb0a86101f",
+  "object": "chat.completion",
+  "created": 1760038080,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"Análise\": \"A recomendação sugere uma ação corretiva para resolver a condição encontrada, que é a ausência de documentação comprobatória do monitoramento e avaliação. No entanto, a ação proposta é genérica, limitando-se a cumprir o que está acordado no Plano de Ação, sem especificar medidas concretas para tratar a causa subjacente, como a implementação de processos sistemáticos. Portanto, não há foco específico na causa nem efeitos duradouros.\",\n  \"Ação Corretiva\": \"Sim\",\n  \"Ação Foco Causa\": \"Genérica\",\n  \"Efeitos Duradouros\": \"Não\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1192,
+    "completion_tokens": 155,
+    "total_tokens": 1347,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_cache_hit_tokens": 1024,
+    "prompt_cache_miss_tokens": 168
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

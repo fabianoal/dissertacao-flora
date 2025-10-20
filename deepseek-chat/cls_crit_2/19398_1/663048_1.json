@@ -1,0 +1,28 @@
+{
+  "id": "f37dc7bf-49b2-49b2-b7a4-6b8f6c42348c",
+  "object": "chat.completion",
+  "created": 1760452204,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise realizada pelo modelo apresenta uma interpretação equivocada da natureza da recomendação em relação aos critérios estabelecidos. A recomendação trata especificamente da correção da condição encontrada (ausência de documentação) através de medidas de arquivamento, sem abordar as causas subjacentes que levaram à falta de documentação.\",\n    \"Análise Foco Causa\": \"Discordo\",\n    \"Análise Efeitos Duradouros\": \"Discordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1221,
+    "completion_tokens": 119,
+    "total_tokens": 1340,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 325
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

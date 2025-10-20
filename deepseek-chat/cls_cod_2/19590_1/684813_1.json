@@ -1,0 +1,28 @@
+{
+  "id": "716f556e-9dd1-4b03-8fdb-1aad5207d316",
+  "object": "chat.completion",
+  "created": 1760388526,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação inclui ações que tratam tanto da condição imediata (manutenção das instalações físicas) quanto da causa subjacente (elaboração de plano de manutenção predial, implementação de sistema de gestão da qualidade e atualização regular de dados), visando prevenir a reincidência dos problemas identificados. Já em relação aos efeitos duradouros, as ações propostas, como a criação de um plano de manutenção predial e a implementação de um sistema de gestão da qualidade, estabelecem processos e estruturas que devem persistir independentemente de mudanças nos atores envolvidos, garantindo continuidade na adequação às normas.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1460,
+    "completion_tokens": 190,
+    "total_tokens": 1650,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 628
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

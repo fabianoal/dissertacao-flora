@@ -1,0 +1,28 @@
+{
+  "id": "0077e5ca-4800-4a84-b940-273bca4642eb",
+  "object": "chat.completion",
+  "created": 1760386754,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe a adoção de ações específicas descritas em documentos normativos para melhorar o resultado do indicador 5, mas não identifica ou trata explicitamente a causa raiz do problema (como falta de capacitação, recursos insuficientes, falhas no processo de trabalho, ou outros fatores que levaram à não implementação das ações). A recomendação foca na implementação de soluções pré-definidas sem abordar as razões subjacentes para a não conformidade. Portanto, não há ação proposta que trate da causa do problema. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1024,
+    "completion_tokens": 199,
+    "total_tokens": 1223,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 192
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

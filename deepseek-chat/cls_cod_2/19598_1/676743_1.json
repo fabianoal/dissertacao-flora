@@ -1,0 +1,28 @@
+{
+  "id": "b4cb65d9-e34b-4c7a-a1f1-1a1b5342196c",
+  "object": "chat.completion",
+  "created": 1760388790,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação propõe a manutenção atualizada dos dados no SCNES, o que visa prevenir a ocorrência futura de divergências entre o cadastro e a listagem de profissionais, tratando assim a causa do problema de desatualização de informações. Em relação aos efeitos duradouros, a ação de manter os dados atualizados é uma prática contínua que independe de mudanças nos atores envolvidos, pois se baseia em processos e sistemas estabelecidos, garantindo que os efeitos permaneçam mesmo com alterações de pessoal.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 962,
+    "completion_tokens": 159,
+    "total_tokens": 1121,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 130
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

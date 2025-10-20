@@ -1,0 +1,28 @@
+{
+  "id": "d53fd6e6-2599-4e44-807a-8e2ecde38c72",
+  "object": "chat.completion",
+  "created": 1760448526,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"Em relação ao critério 'Foco Causa', a recomendação propõe a implementação de medidas para garantir a autorização prévia dos procedimentos, o que visa tratar a causa raiz do problema (falta de autorização prévia) e não apenas corrigir as APACs específicas com datas irregulares, indicando um foco na causa. Quanto ao critério 'Efeitos Duradouros', a implementação de medidas para garantir autorização prévia estabelece um processo ou controle que deve permanecer em vigor independentemente de mudanças nos atores envolvidos, sugerindo efeitos duradouros.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1316,
+    "completion_tokens": 180,
+    "total_tokens": 1496,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 484
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

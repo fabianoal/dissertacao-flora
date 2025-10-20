@@ -1,0 +1,28 @@
+{
+  "id": "16d3015a-1744-4293-b6ac-25319f5df513",
+  "object": "chat.completion",
+  "created": 1760462297,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise Crítica\": \"A análise do modelo identificou corretamente que a recomendação se concentra em corrigir a condição imediata (substituição de colchões danificados e garantia de equipamentos de proteção) sem abordar causas subjacentes, como falhas em processos de manutenção preventiva ou aquisição. No entanto, a avaliação dos efeitos duradouros foi adequadamente considerada como não aplicável, dado que o critério de foco na causa não foi atendido.\",\n    \"Análise Foco Causa\": \"Concordo\",\n    \"Análise Efeitos Duradouros\": \"Concordo\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1194,
+    "completion_tokens": 155,
+    "total_tokens": 1349,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 298
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

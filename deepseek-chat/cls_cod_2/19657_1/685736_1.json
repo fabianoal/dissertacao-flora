@@ -1,0 +1,28 @@
+{
+  "id": "d6f94ae7-5e76-46cf-9b5b-4f6e19fac963",
+  "object": "chat.completion",
+  "created": 1760392178,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"Em relação ao foco, a recomendação propõe ações como acompanhamento nominal e flexibilização de agenda, que visam modificar processos e práticas para prevenir a recorrência da baixa adesão às ações do indicador, tratando assim a causa do problema. Já em relação aos efeitos pretendidos pela recomendação, as mudanças propostas (como a flexibilização de agenda e o acompanhamento sistemático) são estruturais e devem persistir independentemente de mudanças nos profissionais envolvidos, garantindo efeitos duradouros.\",\n    \"Foco Causa\": \"Sim\",\n    \"Efeitos Duradouros\": \"Sim\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1043,
+    "completion_tokens": 156,
+    "total_tokens": 1199,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 211
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

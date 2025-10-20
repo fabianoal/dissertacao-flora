@@ -1,0 +1,28 @@
+{
+  "id": "172a0600-c5f7-428f-b714-1092153ed259",
+  "object": "chat.completion",
+  "created": 1760389834,
+  "model": "deepseek-chat",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n    \"Análise\": \"A recomendação se concentra em notificar a convenente para apresentar comprovação dos trabalhos realizados e, se constatado dano, adotar medidas para ressarcimento ao FNS. Essas ações visam corrigir a condição específica de não utilização da variação do salário-mínimo e possíveis danos financeiros, sem propor medidas para evitar a recorrência do problema, como revisão de processos de reajuste ou capacitação. Portanto, não há foco na causa. Como o critério 'Foco Causa' é 'Não', o critério 'Efeitos Duradouros' não se aplica.\",\n    \"Foco Causa\": \"Não\",\n    \"Efeitos Duradouros\": \"Não se aplica\"\n}"
+      },
+      "logprobs": {},
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1140,
+    "completion_tokens": 183,
+    "total_tokens": 1323,
+    "prompt_tokens_details": {
+      "cached_tokens": 832
+    },
+    "prompt_cache_hit_tokens": 832,
+    "prompt_cache_miss_tokens": 308
+  },
+  "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache"
+}

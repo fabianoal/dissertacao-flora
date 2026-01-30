@@ -1,0 +1,183 @@
+---
+title: "Tabelas Adicionais"
+author: Fabiano A. Lima
+lang: pt-BR
+format: 
+  docx:
+    reference-doc: ./Quarto/custom-reference-doc.docx
+execute: 
+  cache: false
+  echo: true
+knitr:
+  opts_chunk: 
+    collapse: true
+    comment: "#>" 
+    R.options:
+      knitr.graphics.auto_pdf: true
+---
+
+
+```{r}
+#| label: setup
+#| include: false
+#| echo: false
+
+# spellchecker:disable
+source("./R/funcoes_setup.r")
+
+instala_pacotes(c(
+        "tidyverse",
+        "httr2",
+        "dotenv",
+        "gt"))
+
+source("./R/util.r")
+
+library(tidyverse)
+library(gt)
+
+options(width = 190)
+# spellchecker:enable
+```
+
+
+```{r}
+#| label: cria_dataset_analise
+#| echo: false
+#| eval: true
+
+# spellchecker:disable
+dataset_consolidado <- read_rds("./Dados Gerados/dataset_consolidado.rds")
+
+prompt <- "cls_cod_2"
+ds_resultados <- read_rds(obtem_nome_arquivo_resultados(prompt))
+
+prompt_2 <- "cls_crit_2"
+ds_analise <- read_rds(obtem_nome_arquivo_resultados(prompt_2))
+
+dataset_analise <- read_rds("./Dados Gerados/dataset_consolidado.rds") |>
+    select(
+        `No. Auditoria`, 
+        `Ano`,
+        `Demandante`,
+        `Arquivo`, 
+        Finalidade, 
+        `# Constatação`, 
+        `Constatação`, 
+        `Item`,
+        `Grupo`,
+        `Subgrupo`,
+        `# Recomendação`, 
+        `Recomendação`) |>
+    adapta_dataframe(obtem_pasta(prompt), "") |>
+    inner_join(
+        ds_resultados |>
+        select(-finish_reason, -erro) |>
+        mutate(`Efeitos Duradouros` = str_to_sentence(`Efeitos Duradouros`)),
+        by = c("Arquivo Saída" = "arquivo")
+    ) |>
+    select(!c(`Arquivo Saída`)) |>
+    adapta_dataframe(obtem_pasta(prompt_2), "") |>
+    left_join(
+        ds_analise |>
+        select(-finish_reason, -erro) ,
+        by = c("Arquivo Saída" = "arquivo")
+    ) |>
+    rename(`Ação Foco Causa` = `Foco Causa`) |>
+    mutate(
+        `Foco` = if_else(`Ação Foco Causa` == "Sim" & `Efeitos Duradouros` == "Sim", "Causa", "≠ Causa"),
+        `Análise Crítica` = if_else(`Análise Foco Causa` == "Concordo" & `Análise Efeitos Duradouros` == "Concordo", "Convergente", "Divergente")
+    ) 
+
+# spellchecker:enable
+```
+
+# Resultados por Grupo
+
+
+```{r}
+#| label: resultados_por_grupo
+#| echo: false
+#| eval: true
+
+dataset_analise |>
+mutate(`Recomendações no Grupo` = n(), .by = Grupo) |>
+mutate(Grupo = if_else(`Recomendações no Grupo` >= 100 , Grupo, "* Outros (menos de 100 recomendações)")) |>
+summarise(
+    `Recomendações Foco Causa` = n(), 
+    .by = c(Grupo, `Foco`)) |>
+mutate(
+    `Recomendações Totais` = sum(`Recomendações Foco Causa`),
+    `% Foco Causa` = `Recomendações Foco Causa`/`Recomendações Totais`,
+    .by = Grupo
+) |>
+mutate(`Peso Relativo do Grupo` = `Recomendações Totais`/sum(`Recomendações Foco Causa`)) |>
+filter(Foco == "Causa" & `Recomendações Totais` >= 100) |>
+select(-Foco) |>
+arrange(desc(`% Foco Causa`)) |>
+gt() |>
+fmt_percent(c("% Foco Causa", "Peso Relativo do Grupo"), locale = "pt_BR") |>
+fmt_number(c("Recomendações Foco Causa", "Recomendações Totais"), locale = "pt_BR", suffixing = FALSE, decimals = 0) 
+
+```
+
+Esses grupos são atributos da constatação à qual a recomendação está vinculada. Os dois grupos com maior número de recomendações (Recursos Financeiros e Assistência Média e Alta Complexidade) giraram em torno de 53% de recomendações com foco na causa, enquanto que os outros grupos, à exceção do grupo Programa Farmácia Popular do Brasil, ficaram consistentemente acima dos 70%.
+
+## Resultados por Ano
+
+```{r}
+#| label: resultados_por_ano
+#| echo: false
+#| eval: true
+
+dataset_analise |>
+mutate(`Recomendações no Ano` = n(), .by = Ano) |>
+mutate(Ano = if_else(`Recomendações no Ano` >= 100 , Ano, "* Outros (menos de 100 recomendações)")) |>
+summarise(
+    `Recomendações Foco Causa` = n(), 
+    .by = c(Ano, `Foco`)) |>
+mutate(
+    `Recomendações Totais` = sum(`Recomendações Foco Causa`),
+    `% Foco Causa` = `Recomendações Foco Causa`/`Recomendações Totais`,
+    .by = Ano
+) |>
+mutate(`Peso Relativo do Ano` = `Recomendações Totais`/sum(`Recomendações Foco Causa`)) |>
+filter(Foco == "Causa" & `Recomendações Totais` >= 100) |>
+select(-Foco) |>
+arrange(Ano) |>
+gt() |>
+fmt_percent(c("% Foco Causa", "Peso Relativo do Ano"), locale = "pt_BR") |>
+fmt_number(c("Recomendações Foco Causa", "Recomendações Totais"), locale = "pt_BR", suffixing = FALSE, decimals = 0) 
+```
+
+Vê-se que o ano de 2023 foi o que registrou o menor índice de recomendações com foco na causa. Isso pode ser reflexo de um amadurecimento institucional.
+
+## Resultados por Demandante
+
+```{r}
+#| label: resultados_por_demandante
+#| echo: false
+#| eval: true
+
+dataset_analise |>
+mutate(`Recomendações no Demandante` = n(), .by = Demandante) |>
+mutate(Demandante = if_else(`Recomendações no Demandante` >= 100 , Demandante, "* Outros (menos de 100 recomendações)")) |>
+summarise(
+    `Recomendações Foco Causa` = n(), 
+    .by = c(Demandante, `Foco`)) |>
+mutate(
+    `Recomendações Totais` = sum(`Recomendações Foco Causa`),
+    `% Foco Causa` = `Recomendações Foco Causa`/`Recomendações Totais`,
+    .by = Demandante
+) |>
+mutate(`Peso Relativo do Demandante` = `Recomendações Totais`/sum(`Recomendações Foco Causa`)) |>
+filter(Foco == "Causa" & `Recomendações Totais` >= 100) |>
+select(-Foco) |>
+arrange(Demandante) |>
+gt() |>
+fmt_percent(c("% Foco Causa", "Peso Relativo do Demandante"), locale = "pt_BR") |>
+fmt_number(c("Recomendações Foco Causa", "Recomendações Totais"), locale = "pt_BR", suffixing = FALSE, decimals = 0) 
+```
+
+Interessante essa diferença bruta entre SAES e SVS. Entretanto, ambas tem um peso relativo muito pequeno.
+

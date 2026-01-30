@@ -27,11 +27,13 @@ source("./R/funcoes_setup.r")
 instala_pacotes(c(
         "tidyverse",
         "httr2",
-        "dotenv"))
+        "dotenv",
+        "gt"))
 
 source("./R/util.r")
 
 library(tidyverse)
+library(gt)
 
 options(width = 70)
 ```
@@ -94,7 +96,8 @@ dataset_analise <- read_rds("./Dados Gerados/dataset_consolidado.rds") |>
         ds_analise |>
         select(-finish_reason, -erro) ,
         by = c("Arquivo Saída" = "arquivo")
-    )
+    ) |>
+    rename(`Ação Foco Causa` = `Foco Causa`)
 
 
 # dataset_analise |>
@@ -116,7 +119,7 @@ obtem_funcao_print <- function(df){
             "**Constatação**: ", obtem_campo(i, "Constatação"), "\n\n",
             "**Recomendação**: " , obtem_campo(i, "Recomendação"), "\n\n",
             "**Análise Codificação**: " , obtem_campo(i, "Análise"), "\n\n",
-            "- Foco Causa: " , obtem_campo(i, "Foco Causa"), "\n",
+            "- Ação Foco Causa: " , obtem_campo(i, "Ação Foco Causa"), "\n",
             "- Efeitos Duradouros: " , obtem_campo(i, "Efeitos Duradouros"), "\n\n",
             "**Análise Crítica**: " , obtem_campo(i, "Análise Crítica"), "\n\n",
             "- Análise Foco Causa: " , obtem_campo(i, "Análise Foco Causa"), "\n",
@@ -160,28 +163,114 @@ cat_system_prompt("cls_crit_2")
 
 exemplos <- dataset_analise
 
-dataset_analise |>
+dataset_analise |> 
+mutate(
+    `Foco Causa` = if_else(
+        `Ação Foco Causa` == "Sim" & `Efeitos Duradouros` == "Sim", 
+        "Ação com foco na causa e efeitos duradouros", 
+        "Sem ação com foco causa ou sem efeitos duradouros")
+) |> 
 summarise(
     Total = n(),
     .by = c(`Foco Causa`, `Efeitos Duradouros`)
 ) |>
-mutate(`%` = 100 * Total/sum(Total)) |>
-knitr::kable(format.args = list(big.mark = ".", decimal.mark = ','))
+mutate(`%` = Total/sum(Total)) |>
+arrange(desc(Total)) |>
+gt(groupname_col = "Foco Causa") |>
+fmt_percent("%", locale = "pt_BR") |>
+fmt_number("Total", locale = "pt_BR", suffixing = FALSE, decimals = 0) |>
+# knitr::kable(format.args = list(big.mark = ".", decimal.mark = ','))
+gt::summary_rows(
+    columns = c("Total"),
+    fns = list(
+        Total = ~ sum(., na.rm = TRUE)
+    ),
+    fmt = list(
+        ~ gt::fmt_number(., locale = "pt_BR", suffixing = FALSE, decimals = 0)
+    )
+) |>
+gt::summary_rows(
+    columns = c("%"),
+    fns = list(
+        Total = ~ sum(., na.rm = TRUE)
+    ),
+    fmt = list(
+        ~ gt::fmt_percent(., locale = "pt_BR")
+    )
+) 
+
 ```
 
-## Análise Crítica
+## Análise Crítica - Análise da Convergência
 
 ```{r}
-#| label: analise_critica
+#| label: analise_critica_convergencia
 #| echo: false
 #| eval: true
 dataset_analise |>
+mutate(
+    `Foco Causa` = if_else(`Ação Foco Causa` == "Sim" & `Efeitos Duradouros` == "Sim", "Recomendação com foco causa (têm ação com foco causa e efeitos duradouros)", "Recomendações sem foco na causa"),
+    `Análise Crítica` = if_else(`Análise Foco Causa` == "Concordo" & `Análise Efeitos Duradouros` == "Concordo", "Convergente", "Divergente")
+) |> 
 summarise(
     Total = n(),
-    .by = c(`Análise Foco Causa`, `Análise Efeitos Duradouros`)
+    .by = c(`Foco Causa`, `Análise Crítica`)
 ) |>
-mutate(`%` = 100 * Total/sum(Total)) |>
-knitr::kable(format.args = list(big.mark = ".", decimal.mark = ','))
+mutate(`%` = Total/sum(Total), .by = "Foco Causa") |>
+arrange(desc(Total)) |>
+gt(groupname_col = "Foco Causa") |>
+fmt_percent("%", locale = "pt_BR") |>
+fmt_number("Total", locale = "pt_BR", suffixing = FALSE, decimals = 0) |>
+# knitr::kable(format.args = list(big.mark = ".", decimal.mark = ','))
+gt::summary_rows(
+    columns = c("Total"),
+    fns = list(
+        Total = ~ sum(., na.rm = TRUE)
+    ),
+    fmt = list(
+        ~ gt::fmt_number(., locale = "pt_BR", suffixing = FALSE, decimals = 0)
+    )
+) |>
+gt::summary_rows(
+    columns = c("%"),
+    fns = list(
+        Total = ~ sum(., na.rm = TRUE)
+    ),
+    fmt = list(
+        ~ gt::fmt_percent(., "%", locale = "pt_BR")
+    )
+) 
+```
+
+## Análise Crítica - Detalhamento
+
+```{r}
+#| label: analise_critica_detalhamento
+#| echo: false
+#| eval: true
+dataset_analise |>
+mutate(
+    `Foco Causa` = if_else(`Ação Foco Causa` == "Sim" & `Efeitos Duradouros` == "Sim", "Recomendação com foco causa (têm ação com foco causa e efeitos duradouros)", "Recomendações sem foco na causa")
+) |> 
+summarise(
+    Total = n(),
+    .by = c(`Foco Causa`, `Ação Foco Causa`, `Análise Foco Causa`, `Efeitos Duradouros`, `Análise Efeitos Duradouros`)
+) |>
+mutate(`%` = Total/sum(Total), .by = "Foco Causa") |>
+arrange(desc(Total)) |>
+gt(groupname_col = "Foco Causa") |>
+fmt_percent("%", locale = "pt_BR") |>
+fmt_number("Total", locale = "pt_BR", suffixing = FALSE, decimals = 0) |>
+# knitr::kable(format.args = list(big.mark = ".", decimal.mark = ','))
+gt::summary_rows(
+    columns = c("Total"),
+    fns = list(
+        Total = ~ sum(., na.rm = TRUE)
+    ),
+    fmt = list(
+        ~ gt::fmt_number(., locale = "pt_BR", suffixing = FALSE, decimals = 0)
+    )
+)
 ```
 
 ## Resultados
@@ -194,7 +283,7 @@ dataset_analise |>
 mutate(
     `Análise Foco Causa` = if_else(
             `Análise Foco Causa` == "Concordo" |
-            (`Análise Foco Causa` == `Foco Causa`) == "Nao se aplica", 
+            (`Análise Foco Causa` == `Ação Foco Causa`) == "Nao se aplica", 
             1, 
             0
         ),
@@ -208,7 +297,7 @@ summarise(
     Total = n(),
     `= Foco` = sum(`Análise Foco Causa`),
     `= Efeitos` = sum(`Análise Efeitos Duradouros`),
-    .by = c(`Foco Causa`, `Efeitos Duradouros`)
+    .by = c(`Ação Foco Causa`, `Efeitos Duradouros`)
 ) |>
 mutate(
     `≠ Foco (%)` = Total - `= Foco`,
@@ -238,12 +327,12 @@ Levando em conta que a discordância não representa a "resposta correta" mas si
 #| results: asis
 
 exemplos <- dataset_analise |>
-    mutate(Resultado = str_glue("Foco: {`Foco Causa`}, Efeitos: {`Efeitos Duradouros`}, Concordância Foco: {`Análise Foco Causa`}, Concordância Efeitos: {`Análise Efeitos Duradouros`}")) |>
+    mutate(Resultado = str_glue("Foco: {`Ação Foco Causa`}, Efeitos: {`Efeitos Duradouros`}, Concordância Foco: {`Análise Foco Causa`}, Concordância Efeitos: {`Análise Efeitos Duradouros`}")) |>
     group_by(Resultado) |>
     slice_sample(n = 10) |>
     ungroup() |>
     arrange(
-        `Foco Causa`, 
+        `Ação Foco Causa`, 
         `Efeitos Duradouros`, 
         `No. Auditoria`, 
         `# Constatação`, 

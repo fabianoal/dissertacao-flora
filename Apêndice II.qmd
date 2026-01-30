@@ -68,13 +68,15 @@ dotenv::load_dot_env()
 modelo <- "deepseek-chat"
 ```
 
-# Introdução
+# Apêndice II - Manual do Codificador para Análise de Recomendações do DENASUS
+
+## Introdução
 
 O presente documento registra os passos tomados para classificar as recomendações emitidas pelo DENASUS com base nos critérios definidos na pesquisa.
 
 Em linhas gerais, o processo consistiu em realizar chamadas à API do fornecedor de LLM escolhido com um prompt que instruiu o modelo a realizar a codificação da recomendação. Usou-se o papel (*role*) `system` para o prompt contendo as instruções de codificação e o papel (*role*) `user` com os dados da recomendação.
 
-Esse documento registra a forma como optou-se por organizar os dados, os passos tomados para chamar a API e guardar os resultados de acordo com a forma de organização de dados definida e, finalmente, a tabulação dos resultados.
+Este documento registra a forma escolhida para organizar os dados, os procedimentos adotados para acionar a API e armazenar os resultados conforme o modelo definido, bem como a tabulação final das informações.
 
 Abaixo, tem-se uma amostra dos dados que foram usados usados para montar os *prompts*.
 ```{r}
@@ -106,7 +108,7 @@ Por fim, realiza-se a tabulação dos dados em um *dataset* final para permitir 
 
 O modelo de organização dos dados foi tal que permitiu identificar chamadas que geraram erros e repetir o processo somente para essas chamadas até se obter o o resultado completo das chamadas para o conjunto das recomendações.
 
-# Organização dos Dados
+## Organização dos Dados
 
 Como os fornecedores de LLMs têm múltiplos modelos, e dado que a pesquisa utiliza vários prompts, optou-se por salvar os resultados de cada chamada em uma estrutura de diretórios que guarda relação com um identificador do prompt e com as variáveis de fornecedor, modelo, nome do arquivo do relatório, constatação e recomendação. O padrão escolhido foi o seguinte:
 
@@ -127,8 +129,7 @@ Para filtrar o conjunto de recomendações para as quais ainda precisa ser feita
 
 Importante frisar que, como o nome do arquivo de prompt, o nome do fornecedor e o nome do modelo usado compõem o nome do arquivo onde o resultado é salvo, basta alterar qualquer dessas variáveis para que o conjunto de recomendações pendentes de classificação mude, a depender do que já foi classificado para a combinação prompt/modelo.
 
-
-# Implementação das Funções de Necessárias
+## Implementação das Funções de Necessárias
 
 Com o modelo de organização de dados definido, define-se o processo de chamada da API em três partes descritas abaixo:
 
@@ -326,7 +327,7 @@ consolida_resultados <- function(identificador_prompt){
 
 ```
 
-# Etapa Codificação
+## Etapa Codificação
 
 ```{r}
 #| label: cls_cod_2
@@ -362,13 +363,14 @@ if (nrow(recomendacoes_pendentes) > 0 ){
 
 ```
 
-# Crítica da Categorização
+## Etapa de Crítica da Categorização
 
 ```{r}
 #| label: analise_todo
-#| echo: false
-#| eval: false
-#| include: false
+#| echo: true
+#| eval: true
+#| include: true
+#| results: asis
 
 prompt_crit <- "cls_crit_2"
 
@@ -411,206 +413,10 @@ if (nrow(recomendacoes_pendentes_prompt_crit) > 0 ){
 
 ```
 
-# Tabulação dos Resultados
-
-Com os dados das duas estapas de classificação devidamente salvos, cruza-se tais dados com os dados originais das recomendações afim de possibilitar uma análise dos resultados.
-
-```{r}
-#| label: cria_dataset_analise
-#| echo: true
-#| eval: true
-
-# cls_dir <- read_rds(obtem_nome_arquivo_resultados("cls_dir"))
-cls_cod <- read_rds(obtem_nome_arquivo_resultados("cls_cod"))
-etiquetas <- read_rds(obtem_nome_arquivo_resultados("etiquetador"))
-
-dataset_final <- recomendacoes |>
-    # adapta_dataframe(obtem_pasta("cls_dir"), "") |>
-    # left_join(
-    #     cls_dir |>
-    #     select(-finish_reason, -erro) |>
-    #     rename(
-    #         `Análise Categorização` = analise,
-    #         `Categoria (LLM)` = categoria),
-    #     by = c("Arquivo Saída" = "arquivo")
-    # ) |>
-    # select(!c(`Arquivo Saída`)) |>
-    #adapta_dataframe(obtem_pasta("cls_cod"), "") |>
-    # left_join(
-    #     cls_cod |>
-    #     select(-finish_reason, -erro),
-    #     by = c("Arquivo Saída" = "arquivo")
-    # ) |>
-    adapta_dataframe(obtem_pasta("etiquetador"), "") |>
-    inner_join(
-        etiquetas |>
-        select(-finish_reason, -erro),
-        by = c("Arquivo Saída" = "arquivo")
-    )
-
-write_rds(dataset_final, "./Dados Gerados/dataset_final.rds")
-```
-
-
-```{r}
-#| label: resultado_geral
-#| echo: false
-#| eval: false
-#| tbl-cap: "Resultado geral"
-dataset_final <- read_rds("./Dados Gerados/dataset_final.rds")
-
-dataset_final |>
-summarise(Total = n(), .by = c(`Categoria (LLM)`,`Categoria (Calculada)`)) |>
-mutate(`% Total` = 100 * Total / sum(Total)) |>
-knitr::kable()
-
-```
-
-
-```{r}
-#| label: analise_ano
-#| echo: false
-#| eval: false
-#| tbl-cap: "Resultado por Ano da Geração do Relatório"
-
-analise_por_var <- function(data, var_name, replace = "Outros *"){
-    data |>
-    summarise(Total = n(), .by = all_of(c("Classificação", var_name))) |>
-    pivot_wider(
-        id_cols = all_of(var_name), 
-        names_from = "Classificação", 
-        values_from = "Total", values_fill = 0) |>
-    mutate(`Total Recomendações` = `cause-based` + `condition-based`) |>
-    mutate("{var_name}" := if_else(`Total Recomendações` > 20 , .data[[var_name]], replace)) |>
-    summarise(
-        `Na Condição` = sum(`condition-based`),
-        `Na Causa` = sum(`cause-based`),
-        `Total Recomendações` = sum(`Total Recomendações`),
-        .by = all_of(var_name)
-    ) |>
-    mutate(`% Condição` = 100 * `Na Condição` / `Total Recomendações`) |>
-    arrange(desc(`% Condição`))
-}
-
-dataset_analise |>
-mutate(Ano = year(`Data Geração`) |> as.character()) |>
-analise_por_var("Ano") |>
-arrange(Ano) |>
-knitr::kable()
-```
-
-
-```{r}
-#| label: analise_grupo
-#| echo: false
-#| eval: false
-#| tbl-cap: "Resultado por Grupo de Constatação"
-
-dataset_analise |>
-analise_por_var("Grupo") |>
-knitr::kable()
-```
-
-
-```{r}
-#| label: analise_uf
-#| echo: false
-#| eval: false
-#| tbl-cap: "Resultado por UF da Auditoria"
-
-dataset_analise |>
-analise_por_var("UF") |>
-knitr::kable()
-```
-
-
-```{r}
-#| label: analise_demandante
-#| echo: false
-#| eval: true
-#| tbl-cap: "Resultado por Demandante da Auditoria"
-
-dataset_analise |>
-analise_por_var("Demandante") |>
-knitr::kable()
-```
-
-```{r}
-#| label: analise_combinacao_variaveis
-#| echo: false
-#| eval: false
-#| tbl-cap: "10 Maiores em Termos de Quantidade por Grupo, UF e Demandante"
-
-dataset_analise |> 
-summarise(
-    Total = n(),
-    .by = c(Grupo, UF, Demandante, `Classificação`)
-) |>
-pivot_wider(
-    id_cols = c(Grupo, UF, Demandante),
-    values_from = Total,
-    names_from = `Classificação`,
-    values_fill = 0) |>
-arrange(desc(`condition-based`)) |>
-rename(`Condição` = `condition-based`, `Causa` = `cause-based`) |>
-mutate(`% Cond` = 100 * `Condição`/(`Condição` + `Causa`)) |>
-mutate(
-    Grupo = str_trunc(Grupo, 28),
-    Demandante = str_trunc(Demandante, 25)) |>
-head(n = 10) |>
-knitr::kable()
-```
-
-
-```{r}
-#| label: arvore_decisao
-#| echo: false
-#| eval: false
-
-library(rpart)
-library(rpart.plot)
-library(RColorBrewer)
-library(rattle)
-
-data_set_rpart <- dataset_analise |>
-    mutate(`Foco Condição?` = as.integer(`Classificação` == "condition-based"))
-
-dataset_analise |>
-select(Objeto) |>
-distinct() |>
-mutate(
-    Objeto = Objeto |> 
-             str_replace(fixed(".Fora de bloco|"), "Sem Bloco|") |>
-             str_replace("\\.(?=[A-Z])", ". ") |>
-             str_replace(fixed("MAC-OPME"), "MAC|OPME") |>
-             str_replace(" Órgão\\(s\\).*", ""),
-    Bloco = str_extract(Objeto, "(.*?)\\|.*", 1),
-    `Sub bloco` = str_extract(Objeto, ".*?\\|(.*?)(\\|.*|$)", 1),
-    Bloco = coalesce(Bloco, Objeto),
-    Bloco = str_replace(Bloco, "REGULAÇÃO DO ACESSO.*", "Reg. Acesso Consultas/Exames")
-    ) |>
-select(Bloco, `Sub bloco`) |>
-distinct()
-
-options(colorDF_n = 40)
-
-mytree <- rpart::rpart(
-  `Classificação` ~ Bloco + Grupo + Ano + UF, 
-  data = data_set_rpart, 
-  method = "class", 
-  minsplit = 2, 
-  minbucket = 1, 
-  cp = -1
-)
-
-model <- glm(`Foco Condição?` ~ Grupo + Ano + UF, family = binomial(link='logit'), data=data_set_rpart)
-summary(model)
-rattle::fancyRpartPlot(mytree, caption = NULL)
-```
 
 {{< pagebreak >}}
 
-# Referências
+## Referências
 
 ::: {#refs}
 :::

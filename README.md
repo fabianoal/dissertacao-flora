@@ -1,16 +1,16 @@
-# Dissertacao Flora
+# Análise Recomendações DENASUS - Dados de Suporte
 
-Este repositorio contem os codigos, documentos de analise, prompts e materiais auxiliares usados na pesquisa sobre recomendacoes de auditoria do DENASUS no SUS.
+Este repositório contém os códigos, documentos de análise, prompts e materiais auxiliares usados no estudo sobre recomendações de auditoria do DENASUS no SUS.
 
 ## Dados
 
-Os arquivos grandes usados na pesquisa nao sao versionados neste repositorio. Eles foram depositados separadamente no Dataverse para preservar a reprodutibilidade sem ultrapassar os limites de tamanho do GitHub.
+Os arquivos grandes usados no estudo não são versionados neste repositório. Eles foram depositados separadamente no Dataverse para preservar a reprodutibilidade sem ultrapassar os limites de tamanho do GitHub.
 
 Baixe no Dataverse:
 
-- PDFs originais dos relatorios de auditoria do DENASUS
+- PDFs originais dos relatórios de auditoria do DENASUS
 - dataframes em formato RDS da pasta `Dados Gerados/`
-- saidas intermediarias da pasta `deepseek-chat/`
+- saídas intermediárias da pasta `deepseek-chat/`
 
 Link do dataset:
 
@@ -18,7 +18,7 @@ Link do dataset:
 https://doi.org/10.7910/DVN/O7JH7L
 ```
 
-Apos baixar os arquivos, restaure a estrutura local esperada pelo projeto:
+Após baixar os arquivos, restaure a estrutura local esperada pelo projeto:
 
 ```text
 Downloads/
@@ -26,21 +26,21 @@ Dados Gerados/
 deepseek-chat/
 ```
 
-Essas pastas estao no `.gitignore` de proposito. Elas devem existir localmente para reproduzir ou explorar os resultados, mas nao devem ser commitadas no Git.
+Essas pastas estão no `.gitignore` de propósito. Elas devem existir localmente para reproduzir ou explorar os resultados, mas não devem ser commitadas no Git.
 
-## Organizacao
+## Organização
 
-- `R/`: funcoes e scripts em R usados no processamento e analise.
-- `RPA/`: fluxo de automacao usado para obtencao dos relatorios.
-- `Prompts/`: prompts usados nas etapas de classificacao.
-- `Quarto/`: referencias e configuracoes de renderizacao.
-- `*.qmd`: documentos de analise e apendices.
+- `R/`: funções e scripts em R usados no processamento e análise.
+- `RPA/`: fluxo de automação usado para obtenção dos relatórios.
+- `Prompts/`: prompts usados nas etapas de classificação.
+- `Quarto/`: referências e configurações de renderização.
+- `*.qmd`: documentos de análise e apêndices.
 
-## Reproducao
+## Reprodução
 
-1. Clone este repositorio.
+1. Clone este repositório.
 2. Baixe o dataset complementar no Dataverse.
 3. Extraia ou copie os arquivos baixados para `Downloads/`, `Dados Gerados/` e `deepseek-chat/`, mantendo os nomes originais.
-4. Execute os documentos ou scripts de analise a partir da raiz do repositorio.
+4. Execute os documentos ou scripts de análise a partir da raiz do repositório.
 
-Os PDFs originais foram preservados no Dataverse porque a fonte publica consultada pode apresentar indisponibilidade ou instabilidade, o que prejudicaria a reproducao integral da pesquisa.
+Os PDFs originais foram preservados no Dataverse porque a fonte pública consultada pode apresentar indisponibilidade ou instabilidade, o que prejudicaria a reprodução integral do estudo.

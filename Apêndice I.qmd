@@ -33,7 +33,7 @@ instala_pacotes(c("tidyverse", "httr2", "dotenv", "duckdb",
 
 source("./R/util.r")
 
-options(width = 70)
+options(width = 180)
 
 library(tidyverse)
 
@@ -64,6 +64,31 @@ mutate(
 select(-`Órgão`, -`Atividade`) |>
 mutate(Encerramento = as.Date(Encerramento)) |>
 knitr::kable()
+
+lista_total <- lista_relatorios |> 
+    arrange(`Nº`) |> 
+    chuck("Nº") |> 
+    str_trim() |>
+    unique()
+
+lista_relatorios_baixados <- list.files("./Downloads", "*.pdf") |>
+    str_remove("_\\d.pdf") |>
+    unique()
+
+# tibble(arquivo = list.files("./Downloads", "*.pdf")) |>
+# separate(col = arquivo, into = c("num", "seq", "extension"), remove = FALSE) |>
+# mutate(
+#     min_seq = min(seq),
+#     .by = num
+# ) |>
+# filter(min_seq > "1") |>
+# chuck("arquivo") |>
+# map(\(arquivo) file.remove(str_glue("./Downloads/{arquivo}")))
+
+readr::write_file(
+    setdiff(lista_total, lista_relatorios_baixados) |>
+    str_c(collapse = "|"), 
+    "temp.txt")
 ```
 
 Nos dados acima, onde foram ocultados os campos "Órgão" e "Atividade" por limitação de espaço, vê-se que as as auditorias são identificadas pelo número da atividade. Dessa forma, usando essa informação, usou-se o script abaixo com a extensão UI.Vision para realizar o download dos relatórios.
@@ -124,7 +149,7 @@ converte_pdf_dataframe <- function(nome_do_arquivo) {
     mutate(`# Linha Fim Página` = max(`# Linha`), .by = `# Página`)
 }
 
-lista_arquivos |>
+list.files("./Downloads", "*.pdf", full.names = TRUE) |>
 map(converte_pdf_dataframe) |>
 bind_rows() |>
 write_rds("./Dados Gerados/textos_relatorios.rds")
@@ -176,7 +201,7 @@ A partir da análise da primeira página do documento de exemplo (listada abaixo
 #| echo: true
 #| tbl-cap: "Amostra página 1 relatório"
 
-mostra_pagina <- \(arquivo, pagina)
+mostra_pagina <- function(arquivo, pagina){
     textos_relatorios |> 
     filter(`Arquivo` == arquivo) |>
     filter(`# Página` == pagina) |>
@@ -184,6 +209,8 @@ mostra_pagina <- \(arquivo, pagina)
     rename(`# Linha` = `# Linha`) |>
     mutate(Linha = str_trunc(Linha, 70, ellipsis = "…")) |>
     knitr::kable()
+}
+
 
 mostra_pagina(arquivo_teste, 1)
 ```

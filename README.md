@@ -15,7 +15,7 @@ Baixe no Dataverse:
 Link do dataset:
 
 ```text
-INSERIR_AQUI_O_DOI_OU_URL_DO_DATAVERSE
+https://doi.org/10.7910/DVN/O7JH7L
 ```
 
 Apos baixar os arquivos, restaure a estrutura local esperada pelo projeto:

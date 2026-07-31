@@ -15,7 +15,7 @@ Baixe no Dataverse:
 Link do dataset:
 
 ```text
-https://doi.org/10.7910/DVN/O7JH7L
+10.5281/zenodo.21711929
 ```
 
 Após baixar os arquivos, restaure a estrutura local esperada pelo projeto:

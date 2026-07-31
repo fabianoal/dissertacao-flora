@@ -4,19 +4,13 @@ Este repositório contém os códigos, documentos de análise, prompts e materia
 
 ## Dados
 
-Os arquivos grandes usados no estudo não são versionados neste repositório. Eles foram depositados separadamente no Dataverse para preservar a reprodutibilidade sem ultrapassar os limites de tamanho do GitHub.
+Os arquivos grandes usados no estudo não são versionados neste repositório. Eles foram depositados separadamente e podem ser baixados pelo link [https://zenodo.org/records/21711929?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImRmNjc0OWY3LTk5YWYtNGJmMi04Y2YxLWE4ZTBmNDUwZDY4OCIsImRhdGEiOnt9LCJyYW5kb20iOiI5MzkyYzRmMzg3NjUzOWM1NjEzNDk4ZTM1YjIzN2UxOCJ9.HXP_0ocXnwzCw3fLuikIFDklfiEuHmvMG6I_bzA2Wwrs4mIISaKhIbfggbKixzRfeq1QOgKM8ioDP-Sz_3j7tw].
 
 Baixe no Dataverse:
 
 - PDFs originais dos relatórios de auditoria do DENASUS
 - dataframes em formato RDS da pasta `Dados Gerados/`
 - saídas intermediárias da pasta `deepseek-chat/`
-
-Link do dataset:
-
-```text
-10.5281/zenodo.21711929
-```
 
 Após baixar os arquivos, restaure a estrutura local esperada pelo projeto:
 

@@ -8,9 +8,47 @@ options(scipen=999,
     knitr.kable.NA = "",
     colorDF_theme = "dark")
 
-dotenv::load_dot_env()
-
 extrafont::loadfonts(device = "all", quiet = TRUE)
+
+#' Obtém a chave da API do DeepSeek a partir do arquivo dotenv.
+#'
+#' A chave definida no arquivo dotenv tem precedência sobre a variável de
+#' ambiente já existente. Se o arquivo não existir ou não definir uma chave,
+#' usa-se a variável de ambiente como fallback.
+#' @param arquivo caminho de um arquivo dotenv específico. Quando omitido,
+#' carrega primeiro `.env` e depois `.env-local`, permitindo que a configuração
+#' local sobrescreva a configuração padrão.
+#' @return chave da API como character de comprimento um
+obtem_api_key_deepseek <- function(arquivo = NULL) {
+    chave_ambiente <- Sys.getenv("API_KEY_DEEPSEEK", unset = "")
+    arquivos <- if (is.null(arquivo)) {
+        c(".env", ".env-local")
+    } else {
+        arquivo
+    }
+
+    for (arquivo_atual in arquivos) {
+        if (file.exists(arquivo_atual)) {
+            dotenv::load_dot_env(arquivo_atual)
+        }
+    }
+
+    chave_dotenv <- Sys.getenv("API_KEY_DEEPSEEK", unset = "")
+    chave <- if (nzchar(chave_dotenv)) {
+        chave_dotenv
+    } else {
+        chave_ambiente
+    }
+
+    if (!nzchar(chave)) {
+        stop(
+            "Não foi encontrada a variável API_KEY_DEEPSEEK no arquivo dotenv nem no ambiente.",
+            call. = FALSE
+        )
+    }
+
+    chave
+}
 
 pt_BR_locale_para_readr <- readr::locale(date_names = "pt", decimal_mark = ",", grouping_mark = ".", encoding = "UTF-8")
 
@@ -102,7 +140,7 @@ obtem_tema <- function(fonte_base = 12) {
     text_color <- "#002042"
 
     ggplot2::theme(
-        text = ggplot2::element_text(family = "DejaVu Sans"),
+        text = ggplot2::element_text(family = "Cambria"),
         legend.title = ggplot2::element_blank(),
         legend.text = ggplot2::element_text(size = fonte_pequena, color = text_color),
         plot.title = ggplot2::element_text(size = fonte_grande, color = text_color),

@@ -1,5 +1,5 @@
 ---
-title: "Apêndice III - Recolhimento de Amostra"
+title: "Recolhimento de Amostra"
 
 bibliography: ./Quarto/referencias.bibtex
 csl: ./Quarto/abnt-nbr-6023-2018-citacao-autor-data.csl
@@ -22,6 +22,9 @@ knitr:
 #| label: setup
 #| include: false
 #| echo: false
+
+# Rascunho de recolhimento de amostra baseado em cls_cod_2, com
+# set.seed(42). Este rascunho não integra a dissertação.
 
 source("./R/funcoes_setup.r")
 
@@ -151,4 +154,3 @@ print_fn <- resultados_para_impressao |>
 
 walk(1:nrow(resultados_para_impressao), print_fn)
 ```
-

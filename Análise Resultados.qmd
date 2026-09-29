@@ -22,6 +22,10 @@ knitr:
 #| include: false
 #| echo: false
 
+# Este script produz tabelas e exemplos para o capítulo de Resultados,
+# não um apêndice. Usa cls_cod_2 (codificação) e cls_crit_2 (análise
+# crítica), com set.seed(42) para a seleção reproduzível de exemplos.
+
 source("./R/funcoes_setup.r")
 
 instala_pacotes(c(

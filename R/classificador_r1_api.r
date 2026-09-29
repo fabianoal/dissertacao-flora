@@ -4,7 +4,8 @@ pacotes_necessarios <- c(
         "tidyverse",
         "httr2",
         "dotenv",
-        "logger")
+        "logger",
+        "extrafont")
 
 pacotes_instalados <- installed.packages()[, 1]
 
@@ -14,7 +15,7 @@ if (length(pacotes_para_instalar) > 0){
     install.packages(pacotes_para_instalar, quiet = TRUE, repos = "https://cloud.r-project.org")
 }
 
-dotenv::load_dot_env()
+source("./R/util.r")
 
 library(tidyverse)
 library(httr2)
@@ -23,6 +24,7 @@ library(httr2)
 
 model <- "deepseek-chat"
 base_saida <- "./DeepSeek"
+api_key_deepseek <- obtem_api_key_deepseek()
 
 constatacoes_processadas <- list.files(base_saida, "*.json$", full.names = TRUE, recursive = TRUE)
 
@@ -78,7 +80,7 @@ obtem_req_body <- function(i) {
 
 base_request <- request("https://api.deepseek.com") |> 
             req_method("POST") |> 
-            req_auth_bearer_token(Sys.getenv("API_KEY_DEEPSEEK")) |>
+            req_auth_bearer_token(api_key_deepseek) |>
             req_headers("Content-Type"= "application/json") |>
             req_url_path("chat/completions") |>
             req_throttle(capacity = 15, fill_time_s = 60)

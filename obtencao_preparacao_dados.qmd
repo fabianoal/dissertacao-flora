@@ -1,5 +1,5 @@
 ---
-title: "Apêndice I - Obtenção e Preparação de Dados"
+title: "Apêndice A --- Obtenção e Preparação de Dados"
 
 bibliography: ./Quarto/referencias.bibtex
 csl: ./Quarto/abnt-nbr-6023-2018-citacao-autor-data.csl
@@ -25,6 +25,8 @@ nocite: |
 #| include: false
 #| echo: false
 
+# Este script compõe o Apêndice A (Obtenção e Preparação de Dados).
+
 source("./R/funcoes_setup.r")
 
 instala_pacotes(c("tidyverse", "httr2", "dotenv", "duckdb",
@@ -42,13 +44,13 @@ dotenv::load_dot_env()
 
 # Introdução
 
-O presente documento registra os passos tomados para obter os dados referentes as auditorias realizadas pelo Denasus e estruturá-los afim de obter um conjunto de dados que permita a implementação de análises quantitativas.
+O presente documento registra os passos realizados para a obtenção dos dados referentes às auditorias realizadas pelo DENASUS, bem como sua estruturação com vistas a obter um conjunto de dados que permita a implementação de análises quantitativas.
 
-O foco principal está nos metadados das auditorias e de suas respectivas constatações e recomendações.
+Ressalta-se que o foco principal está nos metadados das auditorias e de suas respectivas constatações e recomendações.
 
 # Obtenção dos Relatórios
 
-Inicialmente, foi realizada a consulta dos relatórios publicados no site [https://consultaauditoria.saude.gov.br/visao/pages/principal.html] no período entre 01/01/2023 e 31/07/2025, selecionando o órgão **MS/SGEP/Departamento Nacional de Auditoria do Sus** e o tipo de atividade **Auditoria**. Os dados dessa consulta foram salvos em uma planilha cuja amostra dos dados pode ser conferida abaixo.
+Inicialmente, foi realizada a consulta dos relatórios publicados no site [Consulta Auditoria](https://consultaauditoria.saude.gov.br/visao/pages/principal.html), no período entre 01/01/2023 e 31/07/2025, selecionando-se o órgão MS/SGEP/Departamento Nacional de Auditoria do Sus e o tipo de atividade Auditoria. Os dados dessa consulta foram salvos em uma planilha cuja amostra pode ser conferida abaixo.
 
 ```{r}
 #| label: amostra_lista_relatorios
@@ -91,7 +93,7 @@ readr::write_file(
     "temp.txt")
 ```
 
-Nos dados acima, onde foram ocultados os campos "Órgão" e "Atividade" por limitação de espaço, vê-se que as as auditorias são identificadas pelo número da atividade. Dessa forma, usando essa informação, usou-se o script abaixo com a extensão UI.Vision para realizar o download dos relatórios.
+Nos dados apresentados, os campos "Órgão" e "Atividade" foram ocultados por limitação de espaço. Observa-se que as auditorias são identificadas pelo número da atividade. Com base nessa informação, utilizou-se o script abaixo, em conjunto com a extensão UI.Vision, para automatizar o download dos relatórios. O trecho reproduzido abrevia três valores extensos do campo `Target`; o script integral está em `RPA/download_relatorios.json`.
 
 ```{r}
 #| label: script_download
@@ -99,17 +101,26 @@ Nos dados acima, onde foram ocultados os campos "Órgão" e "Atividade" por limi
 #| eval: true
 #| results: asis
 
+script_exibicao <- jsonlite::fromJSON(
+  readr::read_file("./RPA/download_relatorios.json"),
+  simplifyVector = FALSE)
+script_exibicao$Commands <- lapply(script_exibicao$Commands, function(comando) {
+  if (!is.null(comando$Target) && nchar(comando$Target) > 55) {
+    comando$Target <- "<alvo abreviado>"
+  }
+  comando
+})
 cat(
-  "```{json}\n", 
-  read_file("./RPA/download_relatorios.json"), 
+  "```{json}\n",
+  jsonlite::toJSON(script_exibicao, auto_unbox = TRUE, pretty = TRUE),
   "\n```")
 ```
 
-O processo gerou `r (qtd_relatorios <- list.files("./Downloads", pattern = "*.pdf", full.names = TRUE) |> length())` arquivos. Ressalta-se que há auditorias que tem mais de um relatório registrado.
+O processo gerou `r (qtd_relatorios <- list.files("./Downloads", pattern = "*.pdf", full.names = TRUE) |> length())` arquivos. Além disso, observou-se que algumas auditorias possuem mais de um relatório registrado.
 
 # Extração de Texto
 
-Com os arquivos baixados, usou-se o pacote *pdftools* [@pdftools] para extrair o texto desses arquivos e consolidá-los em uma *dataframe* único, com um registro por linha extraída e com as seguintes informações de controle:
+Com os arquivos baixados, usou-se o pacote *pdftools* [@pdftools] para extrair os textos e consolidá-los em uma *dataframe* único, com um registro por linha extraída e as seguintes informações de controle:
 
 - Nome do arquivo,
 - Número da página,
@@ -189,11 +200,11 @@ knitr::kable(col.names = c("Pág.", "Linha", "# Ln", "# Ln Geral"))
 
 ```
 
-Escolheu-se o arquivo `r arquivo_teste` como exemplo para elaborar hipóteses sobre a estrutura básica dos arquivos. Dessa forma, o processo de obtenção de dados estruturados das auditorias e constatações se dará de forma interativa, elaborando hipóteses sobre a estrutura dos documentos, verificando as hipóteses, construindo passos para a obtenção de dados a partir das hipóteses verificadas.
+Optou-se pelo arquivo `r arquivo_teste` como exemplo inicial para formular hipóteses sobre a estrutura básica dos relatórios. A partir dessa escolha, o processo de extração de dados estruturados referentes às auditorias e constatações foi conduzido de forma interativa, envolvendo a formulação e a verificação de hipóteses sobre a organização dos documentos e a construção de procedimentos para obter os dados a partir das hipóteses confirmadas.
 
 # Estrutura Básica, Cabeçalhos e Rodapés
 
-A partir da análise da primeira página do documento de exemplo (listada abaixo), pode-se extrair alguns dados essenciais, a começar pelo número da auditoria, unidade e município. 
+A partir da análise da primeira página do documento de exemplo, listada abaixo, foi possível extrair alguns dados essenciais, a começar pelo número da auditoria, unidade e município.
 
 ```{r}
 #| label: amostra_pagina_1
@@ -215,7 +226,7 @@ mostra_pagina <- function(arquivo, pagina){
 mostra_pagina(arquivo_teste, 1)
 ```
 
-Já na página 2, tem-se o sumário do relatório.
+Já na página 2, identificou-se o sumário do relatório.
 
 ```{r}
 #| label: amostra_pagina_2
@@ -226,7 +237,7 @@ Já na página 2, tem-se o sumário do relatório.
 mostra_pagina(arquivo_teste, 2)
 ```
 
-Nota-se que a partir do sumário já vê-se tanto um cabeçalho que parece ser padronizado quanto um rodapé com a data de geração dos arquivos, a numeração das páginas e com o número da auditoria. O sumário está delimitado por duas linhas em branco. 
+Observou-se, a partir do sumário, a presença de um cabeçalho aparentemente padronizado e de um rodapé contendo a data de geração do arquivo, a numeração das páginas e o número da auditoria. Constatou-se, ainda, que o sumário estava delimitado por duas linhas em branco.
 
 ```{r}
 #| label: fn_deteccao_sumario
@@ -259,9 +270,9 @@ textos_sumarios_detectados |>
 knitr::kable()
 ```
 
-Na tabela acima, vê-se que a página "Sumário" ocorreu em 398 arquivos, e sempre na página 2. Ocorre que temos `r qtd_relatorios`, ou seja, em um relatório parece que não há um sumário que siga esse padrão. 
+Na tabela acima, observou-se que a página "Sumário" apareceu em 398 dos 399 arquivos analisados, sempre localizada na segunda página. Isso indica que, em um dos relatórios, o sumário não seguiu o padrão identificado.
 
-O código abaixo verifica de que arquivo se trata.
+O código apresentado a seguir foi utilizado para verificar qual arquivo destoava desse padrão.
 
 ```{r}
 #| label: arquivo_sem_sumario
@@ -283,9 +294,9 @@ arquivo_sem_sumario <- textos_relatorios |>
 mostra_pagina(arquivo_sem_sumario, 1)
 ```
 
-A tabela acima mostra que o arquivo `r arquivo_sem_sumario` de fato já começa na página da seção "I - DADOS BÁSICOS", que parece ser uma seção padronizada de todos os relatórios. Inclusive, no seu rodapé, vê-se que essa é a página 1. Nota-se ainda que a seção de "I - DADOS BÁSICOS" contém o município e a entidade responsável. Já o número da auditoria, só aparece no rodapé.
+A tabela acima demonstra que o arquivo `r arquivo_sem_sumario` iniciava diretamente na seção "I --- DADOS BÁSICOS", a qual parece compor uma estrutura padronizada nos relatórios. No rodapé dessa página, identificou-se que ela correspondia à página 1. Observou-se, ainda, que a seção contém o município e a entidade responsável, enquanto o número da auditoria aparece apenas no rodapé.
 
-Dessa forma, em somente um documento não há sumário e em todos os demais documentos o sumário ocorre na página 2. Assim, pode-se deduzir seguramente que somente o documento `r arquivo_sem_sumario` não tem capa.
+Com isso, confirmou-se que apenas esse documento não continha a seção de sumário, que, nos demais casos, aparecia consistentemente na segunda página. Dessa forma, pôde-se inferir com segurança que o arquivo `r arquivo_sem_sumario` era o único, entre os analisados, que não possuía capa.
 
 ```{r}
 #| label: secao_dados_basicos
@@ -306,9 +317,9 @@ summarise(
 knitr::kable()
 ```
 
-Conforme vê-se na tabela acima, a seção "I - DADOS BÁSICOS" ocorre em todos os arquivos e sempre na página 3, à exceção do arquivo sem sumário, caso onde ocorre na página 1.
+Conforme evidenciado na tabela acima, a seção "I --- DADOS BÁSICOS" foi identificada em todos os arquivos, sempre localizada na página 3 --- com exceção do documento sem sumário, no qual essa seção apareceu já na página 1.
 
-Em relação ao sumário, caso se mostre consistente entre os arquivos, pode-se retirar dali a data de geração do arquivo, que é útil para fins de reprodutibilidade (partindo da hipótese em que esses arquivos podem ser corrigidos e regerados em uma data posterior) bem como o número da auditoria, necessário para validar que o nome do arquivo está consistente com seu conteúdo, além da paginação lógica, que poderá servir para validar que não faltam páginas nos arquivos. 
+Em relação ao sumário, cuja estrutura se mostrou consistente entre os arquivos, foi possível extrair a data de geração do arquivo, útil para fins de reprodutibilidade, bem como o número da auditoria e a paginação lógica, utilizados para verificar a consistência entre o conteúdo e o nome dos arquivos e a existência de páginas faltantes.
 
 ```{r}
 #| label: validacao_rodape
@@ -385,11 +396,11 @@ paginas_sem_rodape <- textos_relatorios |>
 
 ```
 
-No código acima, o *dataframe* `paginas_sem_rodape` tem `r nrow(paginas_sem_rodape)` linhas, ou seja, não há páginas sem rodapé e o rodapé em todas as páginas segue o mesmo padrão.
+No código apresentado, o *dataframe* `paginas_sem_rodape` retornou `r nrow(paginas_sem_rodape)` linhas, o que indica que todas as páginas analisadas possuem rodapé e seguem um padrão consistente de formatação.
 
-No *dataframe* `arquivos_paginas_inconsistentes` são guardadas as páginas inconsistentes entre a página física do pdf e a página constante na numeração. Tal *dataframe* tem também `r nrow(arquivos_paginas_inconsistentes)` linhas.
+O *dataframe* `arquivos_paginas_inconsistentes`, por sua vez, foi utilizado para identificar possíveis divergências entre a numeração física das páginas dos arquivos PDF e a numeração lógica extraída dos rodapés. Assim como no caso anterior, não foram encontradas inconsistências, uma vez que esse *dataframe* também não apresentou registros.
 
-Por fim, no *dataframe*  `arquivos_inconsistentes` são guardados arquivos cujo número da quantidade de páginas extraído do rodapé é diferente do número de páginas do pdf. Esse *dataframe* contém os seguintes dados:
+Já o *dataframe* `arquivos_inconsistentes` concentrou os casos em que a quantidade total de páginas indicada no rodapé difere da contagem real de páginas do arquivo. Os dados a seguir apresentam essas ocorrências específicas:
 
 ```{r}
 #| label: arquivos_inconsistentes
@@ -413,7 +424,7 @@ mostra_pagina(
   arquivos_inconsistentes[1,2] |> pluck(1))
 ```
 
-Ao abrir o arquivo pdf diretamente, vemos que a extração está correta e realmente o arquivo não contém a última página.
+Ao abrir o arquivo PDF diretamente, concluiu-se que a extração estava correta e que o arquivo não continha a última página.
 
 Agora, o arquivo `r arquivos_inconsistentes[2,1] |> pluck(1)`.
 
@@ -427,9 +438,9 @@ mostra_pagina(
   arquivos_inconsistentes[2,2] |> pluck(1))
 ```
 
-Tem-se a mesma situação do arquivo anterior. Enfim, fica claro que o problema está nos arquivos.
+Observou-se a mesma situação identificada no arquivo anterior, o que reforça a conclusão de que o problema decorre de inconsistências nos próprios arquivos.
 
-Dessa forma, pode-se proceder à primeira transformação nos dados, extraindo o numero da auditoria a partir da capa e, no caso do arquivo sem capa, a partir do nome (que já se confirmou que é igual ao número constante no rodapé). Como os outros dados constantes na capa existem também na seção de "DADOS BÁSICOS", pode-se descartar as duas primeiras páginas (capa e sumário) de todos os arquivos (exceto do arquivo sem sumário), e pode-se agregar a `Data de Geração`, retirada dos rodapés, no *dataframe*.
+Diante disso, foi possível realizar a primeira transformação nos dados: a extração do número da auditoria a partir da capa dos documentos. Para o caso específico do único arquivo sem capa, utilizou-se o próprio nome do arquivo, cuja correspondência com o número registrado no rodapé já havia sido previamente confirmada. Considerando que os demais dados presentes na capa também estão reproduzidos na seção "I --- DADOS BÁSICOS", optou-se por descartar as duas primeiras páginas (capa e sumário) de todos os arquivos --- com exceção do arquivo que já não apresentava sumário. Além disso, agregou-se ao *dataframe* a `Data de Geração`, extraída de forma padronizada dos rodapés dos arquivos.
 
 ```{r}
 #| label: rel_sem_sumario_rodape
@@ -471,11 +482,11 @@ rel_sem_sumario_rodape <- rel_com_num_auditoria |>
     )
 ```
 
-No passo anterior, no *dataframe* `rel_num_inconsistente_nome` tem-se os registros cujo número da auditoria detectado da capa difere do número detectado do nome. Tal `dataframe` tem `r nrow(rel_num_inconsistente_nome)` registros.
+No passo anterior, o *dataframe* `rel_num_inconsistente_nome` registrou os casos em que o número da auditoria extraído da capa diferia daquele identificado a partir do nome do arquivo. Contudo, esse *dataframe* resultou vazio, indicando que não foram encontradas inconsistências entre essas duas fontes de informação.
 
 # Validação Completude Arquivos
 
-Agora que se tem os números das auditorias, pode-se validar tal número em relação à planilha usada como referência para baixar os arquivos.
+De posse dos números das auditorias extraídos dos documentos, foi possível prosseguir com a validação da completude dos arquivos, comparando-os com a planilha de referência utilizada originalmente para o download dos relatórios.
 
 ```{r}
 #| label: validacao_completude
@@ -495,11 +506,11 @@ qtd_relatorios_sobrando <- rel_sem_sumario_rodape |>
     nrow()
 ```
 
-Tem-se `r qtd_relatorios_faltantes` relatórios faltando e `r qtd_relatorios_sobrando` relatórios sobrando. Os dados estão completos.
+Verificou-se `r qtd_relatorios_faltantes` relatórios faltando e `r qtd_relatorios_sobrando` relatórios sobrando, confirmando-se, assim, a completude dos dados.
 
 # Limpeza
 
-Abaixo, tem-se o texto extraído da 4ª página do arquivo `r arquivo_teste` para usar como exemplo. 
+A seguir, a título de exemplo, tem-se o texto extraído da 4ª página do arquivo `r arquivo_teste`.
 
 ```{r}
 #| label: amostra_texto_relatorio
@@ -514,9 +525,9 @@ mutate(Linha = str_trunc(Linha, 70, ellipsis = "…")) |>
 knitr::kable()
 ```
 
-Conforme vê-se, é possível detectar um texto que se parece com um cabeçalho até a linha 3.
+Conforme observado, foi possível identificar, até a linha 3, a presença de um texto que se assemelha a um cabeçalho.
 
-Abaixo, verifica-se todas as três primeiras linhas de todas as páginas de todos os relatórios para verificar se o cabeçalho é padronizado. 
+A seguir, procedeu-se à análise das três primeiras linhas de todas as páginas de todos os relatórios, com o objetivo de verificar se esse cabeçalho apresenta um padrão recorrente entre os documentos.
 
 ```{r}
 #| label: identificacao_cabecalhos
@@ -533,7 +544,7 @@ summarise(
 knitr::kable()
 ```
 
-Conforme mostrado acima, as três primeiras linhas são realmente um cabeçalho em todos os documentos. Assim pode-se finalizar o processo de limpeza retirando os cabeçalhos, linhas órfãs e linhas que não contém nenhum character alfanumérico. Adicionalmente, foram excluídas as colunas de `Qtd Páginas` e `# Linha Fim Página` que não serão mais necessárias.
+Conforme demonstrado anteriormente, constatou-se que as três primeiras linhas de todas as páginas correspondem, de fato, a um cabeçalho padronizado. Com base nessa evidência, concluiu-se a etapa de limpeza dos dados, a qual consistiu na remoção dos cabeçalhos, de linhas órfãs e de linhas desprovidas de qualquer caractere alfanumérico. Adicionalmente, foram excluídas as colunas `Qtd Páginas` e `# Linha Fim Página`, por não serem mais necessárias para as etapas subsequentes da análise.
 
 ```{r}
 #| label: rel_texto_limpo
@@ -551,9 +562,9 @@ select(-`Qtd Páginas`, -`# Linha Fim Página`)
 
 # Seções
 
-Como o presente trabalho tem especial interesse nos metadados das auditorias e nas constatações e recomendações nela presentes, é preciso investigar as diversas seções que compõe um relatório. Conforme já vimos, seções seguem um padrão de numeração de algarismo romanos com um traço (`-`) separando a numeração do título. 
+Como este trabalho tem especial interesse nos metadados das auditorias, bem como nas constatações e recomendações nelas registradas, tornou-se necessário investigar a estrutura das seções que compõem os relatórios. Conforme já observado, essas seções seguem, em geral, um padrão de identificação baseado em algarismos romanos seguidos de um traço (`-`) que separa a numeração do título.
 
-A hipótese é que essas seções são razoavelmente padronizadas mas suas numerações podem variar de documento para documento. Assim, filtra-se as linhas que aderem ao padrão esperado de uma seção, separa-se a parte da numeração do título, e conta-se a quantidade de repetições dos títulos. Se esses títulos se repetirem em quantidades similares às quantidades dos documentos, podemos assumir que é seguro identificar as seções dessa forma.
+Parte-se da hipótese de que, embora a numeração das seções possa variar entre os documentos, os títulos dessas seções são razoavelmente padronizados. Com base nessa premissa, filtraram-se as linhas que aderem ao padrão esperado, separando-se a numeração do título, e contabilizou-se a frequência de ocorrência de cada título ao longo do conjunto de documentos. Caso os títulos se repitam em quantidades compatíveis com o número de relatórios analisados, considera-se válida a hipótese de padronização. Assim, torna-se possível utilizar essas marcações como referência confiável para a identificação das seções nos relatórios de auditoria.
 
 ```{r}
 #| label: possibilidades_secoes
@@ -594,9 +605,7 @@ secoes_candidatas |>
 knitr::kable()
 ```
 
-Conforme vê-se acima, a hipótese parece estar correta e detecta-se claramente que até para o título "PROPOSIÇÃO DA DEVOLUÇÃO" tem-se um numero grande de ocorrências. Vê-se também que a quantidade de ocorrências cai para somente 9 no título "DA CONCLUSÃO", o que leva a crer que não se trata de uma seção padronizada. 
-
-Considerando a hipótese em análise como confirmada, pode-se gerar a seguinte lista de seções possíveis:
+Com base nessa análise, consolidou-se a seguinte lista de seções possíveis:
 
 ```{r}
 #| label: secoes
@@ -617,7 +626,7 @@ unique(secoes$`Seção`) |>
 walk(\(secao) cat("- ", secao, "\n"))
 ```
 
-Abaixo, usamos essa lista de seções para marcar todas as linhas. Adicionalmente, como a delimitação da seção é essencial para identificação dos dados, numera-se as ocorrências de todas as seções para cada arquivo de forma que, se alguma seção se repetir, isso não afete a tabulação das informações. Por fim, as linhas que representam o início de cada seção poderão ser retiradas após essa junção.
+A lista de seções identificadas foi utilizada para marcar todas as linhas correspondentes nos documentos. Como a correta delimitação das seções é fundamental para a organização e extração dos dados, numeraram-se as ocorrências de cada seção por arquivo, garantindo que eventuais repetições não comprometessem a estruturação das informações. Após essa etapa de junção, as linhas que representam os títulos das seções puderam ser descartadas, uma vez que sua função de demarcação estrutural já havia sido cumprida.
 
 ```{r}
 #| label: rel_com_secoes
@@ -644,14 +653,14 @@ qtd_linhas_sem_secao <- rel_com_secoes |>
     nrow()
 ```
 
-O código acima gerou um *dataframe* onde `r qtd_linhas_sem_secao` estão sem sem uma seção associada.
+O código acima gerou um *dataframe* no qual `r qtd_linhas_sem_secao` linhas permaneceram sem uma seção associada.
 
 # Tabulação de Dados
 
 ## Rótulos de Campos
 
 
-Abaixo tem-se o texto extraído da seção "DADOS BÁSICOS" do arquivo `19796_1.pdf` guiar o processo de identificação de dados. 
+Abaixo, apresenta-se o texto extraído da seção "DADOS BÁSICOS" do arquivo `19796_1.pdf`, que serviu de referência para orientar o processo de identificação dos dados dessa seção.
 
 ```{r}
 #| label: amostra_texto_dados_estruturados
@@ -667,7 +676,7 @@ head(n = 20) |>
 knitr::kable()
 ```
 
-E abaixo, uma amostra da seção "CONSTATAÇÕES" do mesmo arquivo, porém mostrando as linhas originais (sem cortar os espaços antes e depois).
+A seguir, uma amostra da seção "CONSTATAÇÕES" do mesmo arquivo, exibindo as linhas em sua forma original, sem a remoção dos espaços em branco no início e no final.
 
 ```{r}
 #| label: amostra_texto_dados_estruturados_orig
@@ -682,14 +691,6 @@ mutate(Linha = str_trunc(Linha, 70, ellipsis = "…")) |>
 head(n = 20) |>
 knitr::kable()
 ```
-
-Os relatórios de auditoria parecem ser gerados via sistema automatizado de forma que os dados seguem um padrão. Dessa forma, pode-se executar alguns passos para descobrir as possibilidades de obtenção de dados estruturados a partir da detecção de determinados padrões. 
-
-Conforme já visto acima, alguns campos dos relatórios seguem o padrão `<Rótulo>: <Conteúdo>`. Dessa forma, aventa-se a seguinte hipótese: Dividindo-se as linhas que tem o caractere dois-pontos (`:`) em duas partes, a primeira parte conterá os rótulos candidatos. Mesmo que tal procedimento gere falsos positivos, se esse padrão estiver correto, os rótulos padronizados vão aparecer em quantidades aproximadamente iguais ou superiores à quantidade de documentos. 
-
-Como o corpus objeto desse trabalho já encontra-se delimitado por seções, e dado que a parte que interessa está nos metadados das auditorias, que estão na seção "DADOS BÁSICOS" e nas constatações e recomendações, que estão na seção "CONSTATAÇÕES", pode-se delimitar o escopo de validação da hipótese somente a tais seções.
-
-Abaixo, tem-se os rótulos candidatos com maiores ocorrências em suas respectivas seções filtrando somente os que tem mais de 150 ocorrências.
 
 ```{r}
 #| label: deteccao_rotulos
@@ -729,7 +730,7 @@ knitr::kable()
 
 ```
 
-A tabela acima possui um conjunto de rótulos que é suficiente para a continuação do presente trabalho.
+A tabela acima apresenta um conjunto de rótulos suficiente para a continuidade do presente trabalho.
 
 ```{r}
 #| label: rotulos_finais
@@ -746,11 +747,11 @@ rotulos <- rotulos_candidatos_rankeados |>
 
 ## Marcadores
 
-Outra situação observada é a da existência de rótulos não seguem o padrão explorado na seção anterior. É o que se observa na linha 7 do exemplo da seção anterior, onde tem-se o texto `Tipo da Fase Data Início Data Término`.
+Outra situação observada foi a existência de rótulos que não seguem o padrão explorado na etapa anterior. Um exemplo disso pôde ser identificado na linha 7 da amostra da seção anterior, onde se encontrava o texto `Tipo da Fase Data Início Data Término`.
 
-Esse é um rótulo que denota cabeçalhos de uma informação tabulada dentro do relatório.
+Trata-se de um rótulo que indica a presença de cabeçalhos associados a informações organizadas em formato tabular dentro do corpo do relatório.
 
-Assim, aventa-se a hipótese de que esse tipo de cabeçalho, se for padronizado, também ocorrerá multiplas vezes. Assim, usa-se técnica semelhante à usada na seção anterior para validar a hipótese.
+Diante disso, formulou-se a hipótese de que esse tipo de cabeçalho, caso seja padronizado, também apareceria em múltiplos documentos. Para testá-la, aplicou-se uma técnica semelhante à utilizada na seção anterior, conforme descrito anteriormente.
 
 ```{r}
 #| label: deteccao_marcadores
@@ -776,15 +777,15 @@ marcadores_candidatos |>
 knitr::kable()
 ```
 
-Da lista acima, dois rótulos são claramente falso-positivos. Assim, elege-se os 4 primeiros rótulos da tabela acima como rótulos padronizados.
+Da lista acima, dois rótulos são claramente falsos positivos. Assim, elegeram-se os quatro primeiros rótulos da tabela acima como rótulos padronizados.
 
 # Estruturação dos Dados
 
-De posse dos rótulos, procede-se à associação dos mesmos às linhas dos textos dos relatórios de forma que, quando houver correspondência, tem-se uma linha que se trata de um rótulo ou um marcador.
+De posse dos rótulos identificados, procedeu-se à sua associação com as linhas dos textos dos relatórios, de forma que, quando havia correspondência, a linha era classificada como um rótulo ou marcador.
 
-Como na seção anterior usou-se o nome "Marcador", deve-se consolidar essa informação numa única coluna `Rótulo`. Adicionalmente, deve-se criar um campo para numerar a ocorrência de cada rótulo em cada seção em cada documento. 
+Considerando que, na etapa anterior, o termo "Marcador" já havia sido utilizado para se referir a esses elementos, optou-se por consolidar essa informação em uma única coluna denominada `Rótulo`. Além disso, foi criado um campo adicional destinado a numerar a ocorrência de cada rótulo em cada seção de cada documento.
 
-Obs: Para certificar de que o rótulo é de fato um rótulo, pode-se testar se a linha original começa com um caractere maiúsculo. Se não for o caso, trata-se de falso positivo pois se trata de um texto encontrado dentro de um texto descritivo, como o de uma constatação ou justificativa e etc.
+Como estratégia de validação, adotou-se um critério para confirmar se a linha identificada corresponde, de fato, a um rótulo. Para isso, verificou-se se a linha original iniciava com uma letra maiúscula. Quando essa condição não era satisfeita, considerava-se que o conteúdo era, possivelmente, um falso positivo, ou seja, um trecho encontrado no corpo de um texto descritivo (como uma constatação ou justificativa), sem a função estruturante de um marcador informacional.
 
 ```{r}
 #| label: rel_com_secoes_rotulos
@@ -848,13 +849,13 @@ head(n = 10) |>
 knitr::kable()
 ```
 
-Conforme vê-se acima, o processo gerou uma tabela onde as linhas estão devidamente associadas às suas seções e rótulos. 
+Conforme se observou acima, o processo resultou em uma tabela na qual as linhas foram devidamente associadas às suas respectivas seções e rótulos.
 
-Agora passa-se para a parte de estruturar os dados com base nessas marcações. No caso dos rótulos com separador dois-pontos (`:`), a princípio, já tem-se o valor de cada rótulo, visto que se trata da parte que vem após o separador. Entretanto, há casos em que o valor transcede o limite da linha, como é o caso valor para o rótulo "Finalidade", presente na tabela acima.
+Com essa base consolidada, passou-se à etapa de estruturação dos dados a partir dessas marcações. Para os rótulos delimitados pelo separador dois-pontos (`:`), já se dispunha, em princípio, do valor correspondente a cada campo --- representado pela parte do texto localizada após o separador. No entanto, identificaram-se casos em que o conteúdo extrapolava os limites da linha original, como ocorre com o valor atribuído ao rótulo "Finalidade", conforme evidenciado na tabela anterior.
 
-Para consolidar o valor de campos como esse, basta concatenar todas as linhas associadas com cada ocorrência de cada rótulo.
+Para consolidar o valor de campos, optou-se por concatenar todas as linhas associadas a cada ocorrência de rótulo, preservando a integridade semântica dos dados.
 
-No código abaixo realiza-se tal operação e apresenta-se um exemplo das informações rotuladas para o arquivo `r arquivo_teste`.
+No código a seguir, executou-se tal operação, e apresenta-se, em seguida, um exemplo das informações rotuladas para o arquivo `r arquivo_teste`.
 
 ```{r}
 #| label: conteudo_estruturado
@@ -900,7 +901,11 @@ knitr::kable()
 
 # Checagem do Processo de Rotulação
 
-Para avaliar os rótulos, a questão principal é verificar se houve algum tipo de "vazamento", ou seja, se o algoritmo falhou em delimitar as linhas de um determinado rótulo, incluindo indevidamente informações que não fazem parte do conteúdo que deveria ser a ele atribuído. Para tanto, pode-se avaliar a distribuição da variável que representa a quantidades de linhas usadas em cada rótulo. Abaixo, vê-se uma visão geral dos rótulos que, pelo menos em um relatório, englobou **mais de uma linha** juntamente com as seguintes métricas calculadas em cima da lista ordenada de ocorrência de variáveis e quantidade de linhas utilizadas.
+Para avaliar a qualidade do processo de rotulação, a principal preocupação foi identificar possíveis casos de vazamento, situações em que o algoritmo falhou em delimitar corretamente o conteúdo associado a um determinado rótulo, incorporando indevidamente informações que pertencem a outras seções ou rótulos.
+
+Com esse objetivo, analisou-se a distribuição da variável que representa a quantidade de linhas agregadas por ocorrência de rótulo. A ideia central foi verificar se determinados rótulos concentraram um número atípico de linhas, o que poderia indicar um erro de associação.
+
+Abaixo, apresenta-se uma visão geral dos rótulos que, em pelo menos um relatório, agregaram mais de uma linha. Adicionalmente, foram calculadas métricas descritivas sobre o número de ocorrências e a quantidade de linhas utilizadas, ordenadas conforme a frequência e o volume de conteúdo por rótulo.
 
 - Min: quantidade mínima de linhas que esse rótulo usou
 - P.25: quantidade de linhas usadas em 25% das ocorrências
@@ -939,15 +944,11 @@ arrange(desc(Max)) |>
 knitr::kable()
 ```
 
-Ao todo, estão sendo usados `r num_rotulos`. Desses, `r nrow(rotulos_multilinhas)` foram resultado de consolidação de duas ou mais linhas em pelo menus um relatório.
+Ao todo, foram utilizados `r num_rotulos` rótulos na estruturação dos dados. Desses, `r nrow(rotulos_multilinhas)` consolidaram conteúdos distribuídos em duas ou mais linhas em pelo menos um relatório.
 
-Nota-se, por exemplo, que nos rótulos "Justificativa" e "Análise Justificativa" 75% dos documentos tem 15 e 10 linhas ou menos respectivamente, e que 99% dos documentos tem 101 e 64 linhas respectivamente.
+Observou-se, por exemplo, que nos rótulos Justificativa e Análise da Justificativa, 75% das ocorrências apresentaram, respectivamente, até 15 e 10 linhas. Já no percentil 99, esses valores aumentaram para 101 e 64 linhas, o que ainda se mostrou compatível com a natureza descritiva esperada dessas seções.
 
-O valor parece bastante razoável, principalmente em se tratando de justificativa quanto sua respectiva análise.
-
-Ao analisar o caso extermo para esses dois rótulos pode-se validar se o conteúdo foi corretamente detectado.
-
-Abaixo, detalhes de onde ocorreu o caso para o campo "Justificativa".
+A fim de verificar a robustez da extração, procedeu-se à análise dos casos extremos, em que se registrou o maior número de linhas para esses rótulos. Abaixo, detalha-se o caso referente ao campo Justificativa.
 
 ```{r}
 #| label: casos_extremos_justificativa
@@ -993,9 +994,9 @@ busca_linhas(caso_justificativa) |>
 knitr::kable()
 ```
 
-Conforme se vê, o texto foi corretamente atribuído a seu rótulo. Passa-se agora para o caso extremo para o rótulo "Análise da Justificativa".
+Conforme se vê, o texto foi corretamente atribuído ao seu rótulo. Passa-se, agora, à análise do caso extremo referente ao rótulo "Análise da Justificativa".
 
-Abaixo, os dados de onde o caso ocorreu.
+A seguir, apresentam-se os dados correspondentes ao relatório em que esse caso foi identificado.
 
 ```{r}
 #| label: caso_extremo_analise_justificativa
@@ -1019,13 +1020,13 @@ busca_linhas(caso_analise_justificativa)|>
 knitr::kable()
 ```
 
-Conforme se vê, trata-se de uma longa análise de justificativa que foi corretamente detectada pelo processo de tratamento de dados.
+Conforme se vê, trata-se de uma análise de justificativa extensa, corretamente identificada pelo processo de tratamento dos dados.
 
-Todos os rótulos que em algum caso foram compostos por valores de múltiplas linhas tem uma descrição que dá a entender que poderia ser esse o caso, seja por parecer um texto corrido, ou seja por parecer conter vários itens, como é o caso de "Responsável(eis)".
+Todos os rótulos que, em pelo menos um caso, apresentaram valores distribuídos em múltiplas linhas possuíam descrições compatíveis com essa possibilidade, seja por conterem texto contínuo, seja por conterem múltiplos itens, como em "Responsável(eis)".
 
-A exceção seria o rótulo "Nome CPF/CNPJ". Entretanto, vê-se que ele sempre ocupa pelo menos duas linhas. De qualquer forma, pode-se checar o conteúdo desse campo no caso extremo.
+A exceção foi o rótulo "Nome CPF/CNPJ", que sempre ocupou pelo menos duas linhas. Ainda assim, examinou-se o conteúdo desse campo no caso extremo.
 
-Abaixo, informações sobre sua ocorrência.
+A seguir, apresentam-se informações sobre essa ocorrência.
 
 ```{r}
 #| label: caso_extremo_cpf_cnpj
@@ -1036,7 +1037,7 @@ caso <- obtem_caso("Nome CPF/CNPJ", 37, "CONSTATAÇÕES")
 str(caso)
 ```
 
-Conforme mostrado na tabela abaixo, o valor atribuído ao rótulo está correto.
+Conforme demonstrado na tabela a seguir, o valor atribuído ao rótulo está correto.
 
 ```{r}
 #| label: caso_extremo_cpf_cnpj_texto
@@ -1050,7 +1051,7 @@ knitr::kable()
 
 # Identificação das Constatações
 
-Por fim, nota-se que as constatações tem vários rótulos, tais como Grupo, Subgrupo, Constatação, Evidência etc. Assim, torna-se necessário diferenciar o conjunto de rótulos de cada constatação. Abaixo, tem-se os rótulos de uma constatação na forma como aparecem no *dataframe*:
+Por fim, observou-se que cada constatação é composta por um conjunto de rótulos, tais como Grupo, Subgrupo, Constatação, Evidência, entre outros. Diante disso, tornou-se necessário diferenciar o conjunto de rótulos de cada constatação. Abaixo, apresenta-se um exemplo dos rótulos de uma constatação, conforme registrados no *dataframe*:
 
 ```{r}
 #| label: exemplo_constatacao
@@ -1066,7 +1067,7 @@ distinct() |>
 knitr::kable()
 ```
 
-Tem-se os seguintes rótulos **antes** do rótulo "Constatação": Tópico, Grupo, Subgrupo e Item. Assim, toda primeira ocorrência de Rótulo Tópico poderia ser usada para marcar o início de uma nova constatação. Pode-se validar tal hipótese avaliando se esses rótulos aparecem na mesma quantidade de vezes no nosso *corpus*.
+Foram identificados os seguintes rótulos que antecedem o campo "Constatação": Tópico, Grupo, Subgrupo e Item. A princípio, aventou-se a hipótese de que a primeira ocorrência do rótulo *Tópico* poderia ser utilizada como delimitador do início de uma nova constatação. Para testar essa hipótese, verificou-se se esses rótulos ocorrem com a mesma frequência no corpus analisado.
 
 
 ```{r}
@@ -1093,9 +1094,11 @@ summarise(
 knitr::kable()
 ```
 
-Conforme mostrado acima, o rótulo tópico aparece menos vezes. Mas os rótulos Grupo, Subgrupo, Item e Constatação aparecem na mesma quantidade. Assim, pode-se usar o Grupo quando não precedido do Tópico ou o Tópico para demarcar o início uma constatação. Para testar essa hipótese pode-se averiguar a condição de existência de rótulo "Tópico" que não seja sucedida por "Grupo", pois tal situação impediria o uso da solução aventada. 
+Conforme demonstrado, os rótulos Grupo, Subgrupo, Item e Constatação aparecem em igual quantidade, o que sugere uma estrutura padronizada de constatação. Já o rótulo Tópico ocorre com frequência menor, indicando que nem todas as constatações o utilizam.
 
-Adicionalmente, vê-se que a mesma linha que contém o rótulo "Grupo", contém também o número original da constatação. Assim, pode-se avaliar a hipótese de tal ocorrência ser uma regra e, sem sendo, extrair tal informação para o campo `# Constatação`.
+Diante disso, considera-se viável adotar como marcador do início de uma nova constatação tanto a ocorrência do rótulo Tópico (quando presente) quanto a do rótulo Grupo (quando não precedido por Tópico). Para validar essa abordagem, será necessário verificar se existem casos em que o rótulo Tópico aparece sem ser sucedido por Grupo, o que poderia inviabilizar a solução proposta.
+
+Adicionalmente, observa-se que a linha que contém o rótulo "Grupo" também apresenta o número original da constatação. Caso essa relação se confirme como uma regra, tal número poderá ser extraído sistematicamente e atribuído a um novo campo denominado `# Constatação`, contribuindo para a organização e rastreabilidade dos dados estruturados.
 
 ```{r}
 #| label: marcacao_constatacoes
@@ -1130,11 +1133,17 @@ conteudo_estruturado_const_delim <- conteudo_estruturado |>
 
 ```
 
-A hipótese do "Tópico" ser sempre sucedido por "Grupo" é valida, pois o contrário disso retorna `r qtd_topicos_nao_sucedidos_grupo` registros, o que autoriza a demarcação do início de cada constatação bem como a vinculação dos demais dados da constatação. Além disso, verifica-se que em `r qtd_rotulos_grupo_sem_constatacao` casos não foi encontrado o número da constatação no conteúdo associado ao rótulo "Grupo". Assim optou-se por usar essa numeração para vincular os demais dados da constatação.
+A hipótese de que o rótulo "Tópico" é sempre imediatamente seguido por "Grupo" foi validada, uma vez que a consulta correspondente retornou `r qtd_topicos_nao_sucedidos_grupo` registros em que essa ordem foi violada. Isso autoriza o uso do rótulo "Tópico" como marcador confiável do início de uma nova constatação e permite vincular corretamente os dados subsequentes a essa estrutura.
+
+Além disso, verificou-se que em todos os casos o rótulo "Grupo" contém, em seu conteúdo, a numeração original da constatação, o que corrobora a utilização dessa informação como identificador exclusivo. Como não foram encontrados registros em que essa numeração estivesse ausente, optou-se por extrair o número da constatação diretamente do conteúdo associado ao rótulo "Grupo" e utilizá-lo como chave de referência para vincular os demais campos relativos à mesma constatação.
+
+Com base nessa estrutura, também foi possível numerar as recomendações associadas a cada constatação, permitindo estabelecer uma relação clara entre elas e facilitar análises futuras.
 
 # Conclusão
 
-Para facilitar o uso das informações criadas nesse trabalho, particionou-se os dados em três conjunto distintos: um para guardar dados das auditorias, um segundo para as constatações e, finalmente, um para recomendações. Adicionalmente, criou-se um dataset consolidando todas as informações e realizando alguns pequenos ajustes nos dados.
+Para facilitar o uso e a manipulação das informações estruturadas ao longo deste trabalho, os dados foram organizados em três conjuntos distintos. O primeiro reúne os metadados das auditorias, extraídos da seção "DADOS BÁSICOS", contendo informações como número da auditoria, unidade auditada e data de geração do relatório. O segundo concentra os dados relativos às constatações identificadas em cada auditoria, excluindo os campos relacionados às recomendações. O terceiro conjunto agrega as recomendações vinculadas a cada constatação, devidamente numeradas e estruturadas com base em seus respectivos rótulos.
+
+A separação em três bases (auditorias, constatações e recomendações) tem como objetivo favorecer tanto a análise individualizada dos elementos quanto sua eventual recombinação, possibilitando o cruzamento de informações com alto grau de granularidade e reprodutibilidade.
 
 ```{r}
 #| label: criacao_datasets_finais
@@ -1212,7 +1221,7 @@ mutate(Objeto = Objeto |>
 write_rds("./Dados Gerados/dataset_consolidado.rds")
 ```
 
-Abaixo, algumas estatísticas descritivas sobre os datasets.
+A seguir, algumas estatísticas descritivas que evidenciam a abrangência do corpus analisado:
 
 ```{r}
 #| label: estatisticas_finais
@@ -1263,6 +1272,8 @@ walk(\(item) print(str_glue("- {names(item)}: {prettyNum(item, big.mark = '.', d
 
 
 ```
+
+Esses resultados expressam a magnitude do processo de estruturação automatizada e indicam o potencial analítico dos dados gerados para estudos futuros em auditoria governamental, transparência e avaliação de políticas públicas.
 
 {{< pagebreak >}}
 

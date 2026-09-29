@@ -1,0 +1,1714 @@
+---
+title: "Apêndice J --- Categorização das discordâncias em efeitos duradouros"
+
+bibliography: ./Quarto/referencias.bibtex
+csl: ./Quarto/abnt-nbr-6023-2018-citacao-autor-data.csl
+lang: pt-BR
+format:
+  docx:
+    reference-doc: ./Quarto/custom-reference-doc.docx
+execute:
+  cache: false
+  echo: true
+knitr:
+  opts_chunk:
+    collapse: true
+    comment: "#>"
+    R.options:
+      knitr.graphics.auto_pdf: true
+nocite: |
+  @jsonlite, @httr2
+---
+
+```{r}
+#| label: setup
+#| include: false
+#| echo: false
+
+# Este script gera o Apêndice J. Parâmetros da rodada documentada:
+# modelo = "gpt-5.6-luna", prompt = "etiquetador_divergencias_3",
+# semente = 42, numero_recomendacoes_por_rodada = 50 e numero_rodada = 3.
+# A classificação sequencial final usa etiquetador_divergencias_final e
+# lotes de tamanho 25 (tamanho_lote_final).
+
+source("./R/funcoes_setup.r")
+
+instala_pacotes(c(
+    "tidyverse",
+    "httr2",
+    "dotenv",
+    "jsonlite"))
+
+source("./R/util.r")
+
+library(tidyverse)
+library(httr2)
+
+options(
+    scipen = 999,
+    width = 100,
+    digits = 2)
+
+# O nome do modelo também compõe o caminho da resposta.
+modelo <- "gpt-5.6-luna"
+prompt <- "etiquetador_divergencias_3"
+semente <- 42
+numero_recomendacoes_por_rodada <- 50
+numero_rodada <- 3
+
+modelo_resultados_historicos <- "deepseek-chat"
+
+dotenv::load_dot_env(".env-local")
+api_key <- Sys.getenv("API_KEY_OPENAI", unset = "")
+
+if (!nzchar(api_key)) {
+    stop(
+        "Não foi encontrada API_KEY_OPENAI no arquivo .env-local.",
+        call. = FALSE)
+}
+
+mostra_resumo_rodada <- function(id_prompt) {
+    arquivo <- file.path(
+        modelo,
+        id_prompt,
+        paste0(id_prompt, ".json"))
+
+    resposta_bruta <- jsonlite::read_json(
+        arquivo,
+        simplifyVector = FALSE)
+
+    resposta <- jsonlite::fromJSON(
+        resposta_bruta$choices[[1]]$message$content,
+        simplifyVector = FALSE)
+
+    if (!is.null(resposta$categorias)) {
+        categorias <- resposta$categorias |>
+            map_dfr(
+                \(categoria) {
+                    tibble(
+                        id_categoria = categoria$id_categoria,
+                        nome_categoria = categoria$nome_categoria)
+                })
+
+        classificacoes <- resposta$classificacoes |>
+            map_chr(\(classificacao) classificacao$categoria_principal)
+
+        resultado <- categorias |>
+            count(
+                id_categoria = id_categoria,
+                nome_categoria,
+                name = "unidades_classificadas") |>
+            left_join(
+                tibble(
+                    id_categoria = classificacoes) |>
+                    count(id_categoria, name = "unidades_classificadas"),
+                by = "id_categoria",
+                suffix = c("", "_resposta")) |>
+            mutate(
+                unidades_classificadas = coalesce(
+                    unidades_classificadas_resposta,
+                    unidades_classificadas)) |>
+            select(-unidades_classificadas_resposta)
+
+        total_unidades <- length(classificacoes)
+    } else {
+        respostas <- resposta$respostas
+
+        resultado <- respostas |>
+            map_dfr(
+                \(item) {
+                    padrao <- item$padroes_provisorios[[1]]
+                    tibble(
+                        id_categoria = padrao$id_padrao_provisorio,
+                        nome_categoria = padrao$nome_padrao_provisorio)
+                }) |>
+            count(
+                id_categoria,
+                nome_categoria,
+                name = "unidades_classificadas")
+
+        total_unidades <- length(respostas)
+    }
+
+    cat(
+        "Modelo: ", resposta_bruta$model,
+        ". Unidades classificadas: ", total_unidades, ".\n\n",
+        sep = "")
+
+    resultado |>
+        arrange(id_categoria, desc(unidades_classificadas)) |>
+        knitr::kable()
+}
+
+texto_resultado <- function(valor) {
+    if (is.null(valor)) {
+        return("")
+    }
+
+    if (is.list(valor)) {
+        return(paste(unlist(valor), collapse = "; "))
+    }
+
+    as.character(valor)
+}
+
+mostra_resultados_rodada <- function(id_prompt) {
+    padrao <- if (id_prompt == "etiquetador_divergencias_final") {
+        "^lote_[0-9]+\\.json$"
+    } else {
+        "\\.json$"
+    }
+    arquivos <- list.files(
+        file.path(modelo, id_prompt),
+        pattern = padrao,
+        full.names = TRUE,
+        recursive = TRUE)
+
+    respostas <- map(
+        arquivos,
+        \(arquivo) {
+            bruto <- jsonlite::read_json(
+                arquivo,
+                simplifyVector = FALSE)
+            resposta <- jsonlite::fromJSON(
+                bruto$choices[[1]]$message$content,
+                simplifyVector = FALSE)
+
+            if (id_prompt == "etiquetador_divergencias_final") {
+                numero_lote <- str_extract(
+                    basename(arquivo), "(?<=lote_)\\d+")
+                taxonomia <- jsonlite::read_json(
+                    file.path(
+                        modelo,
+                        id_prompt,
+                        str_glue("taxonomia_{numero_lote}.json")),
+                    simplifyVector = FALSE) |>
+                    map_dfr(
+                        \(categoria) {
+                            tibble(
+                                id_categoria_definitivo = texto_resultado(
+                                    categoria$id_categoria),
+                                nome_categoria = texto_resultado(
+                                    categoria$nome_categoria))
+                        })
+
+                mapa_categorias <- resposta$categorias |>
+                    map_dfr(
+                        \(categoria) {
+                            tibble(
+                                id_categoria_resposta = texto_resultado(
+                                    categoria$id_categoria),
+                                nome_categoria = texto_resultado(
+                                    categoria$nome_categoria))
+                        }) |>
+                    inner_join(taxonomia, by = "nome_categoria")
+
+                resposta$categorias <- map(
+                    resposta$categorias,
+                    \(categoria) {
+                        id_resposta <- texto_resultado(
+                            categoria$id_categoria)
+                        id_definitivo <- mapa_categorias |>
+                            filter(id_categoria_resposta == id_resposta) |>
+                            pull(id_categoria_definitivo)
+                        if (length(id_definitivo) == 1) {
+                            categoria$id_categoria <- id_definitivo
+                        }
+                        categoria
+                    })
+
+                resposta$classificacoes <- map(
+                    resposta$classificacoes,
+                    \(classificacao) {
+                        id_resposta <- texto_resultado(
+                            classificacao$categoria_principal)
+                        id_definitivo <- mapa_categorias |>
+                            filter(id_categoria_resposta == id_resposta) |>
+                            pull(id_categoria_definitivo)
+                        if (length(id_definitivo) == 1) {
+                            classificacao$categoria_principal <-
+                                id_definitivo
+                        }
+                        classificacao
+                    })
+            }
+
+            resposta
+        })
+
+    categorias <- map_dfr(
+        respostas,
+        \(resposta) {
+            if (!is.null(resposta$categorias)) {
+                map_dfr(
+                    resposta$categorias,
+                    \(categoria) {
+                        tibble(
+                            id_categoria = texto_resultado(
+                                categoria$id_categoria),
+                            nome_categoria = texto_resultado(
+                                categoria$nome_categoria),
+                            definicao = texto_resultado(
+                                categoria$definicao),
+                            criterios_inclusao = texto_resultado(
+                                categoria$criterios_inclusao),
+                            criterios_exclusao = texto_resultado(
+                                categoria$criterios_exclusao))
+                    })
+            } else {
+                map_dfr(
+                    resposta$respostas,
+                    \(item) {
+                        padrao <- item$padroes_provisorios[[1]]
+                        tibble(
+                            id_categoria = texto_resultado(
+                                padrao$id_padrao_provisorio),
+                            nome_categoria = texto_resultado(
+                                padrao$nome_padrao_provisorio),
+                            definicao = texto_resultado(
+                                padrao$definicao),
+                            criterios_inclusao = texto_resultado(
+                                padrao$criterios_inclusao),
+                            criterios_exclusao = texto_resultado(
+                                padrao$criterios_exclusao))
+                    })
+            }
+        }) |>
+        distinct(id_categoria, .keep_all = TRUE)
+
+    classificacoes <- map_dfr(
+        respostas,
+        \(resposta) {
+            if (!is.null(resposta$classificacoes)) {
+                map_dfr(
+                    resposta$classificacoes,
+                    \(classificacao) {
+                        tibble(
+                            id_analise = texto_resultado(
+                                classificacao$id_analise),
+                            id_categoria = texto_resultado(
+                                classificacao$categoria_principal),
+                            justificativa = texto_resultado(
+                                classificacao$justificativa),
+                            observacoes_limite = texto_resultado(
+                                classificacao$observacoes_limite))
+                    })
+            } else {
+                map_dfr(
+                    resposta$respostas,
+                    \(item) {
+                        padrao <- item$padroes_provisorios[[1]]
+                        tibble(
+                            id_analise = texto_resultado(item$id_analise),
+                            id_categoria = texto_resultado(
+                                padrao$id_padrao_provisorio),
+                            justificativa = texto_resultado(
+                                item$justificativa),
+                            observacoes_limite = texto_resultado(
+                                item$observacoes_limite))
+                    })
+            }
+        })
+
+    resumo <- classificacoes |>
+        count(id_categoria, name = "unidades_classificadas") |>
+        left_join(
+            categorias |>
+                select(id_categoria, nome_categoria),
+            by = "id_categoria") |>
+        select(id_categoria, nome_categoria, unidades_classificadas) |>
+        arrange(id_categoria)
+
+    cat(
+        "Modelo: respostas carregadas de ", id_prompt,
+        ". Unidades classificadas: ", nrow(classificacoes), ".\n\n",
+        sep = "")
+    print(knitr::kable(resumo))
+    cat(
+        "\nSão apresentados dois exemplos selecionados aleatoriamente por " ,
+        "categoria quando há pelo menos duas unidades; categorias com uma " ,
+        "única unidade apresentam apenas esse exemplo.\n\n", sep = "")
+
+    exemplos <- classificacoes |>
+        left_join(
+            dataset_divergencias_com_id |>
+                select(id_analise, Recomendação),
+            by = "id_analise")
+
+    set.seed(semente + sum(utf8ToInt(id_prompt)))
+    exemplos <- exemplos |>
+        group_split(id_categoria) |>
+        map_dfr(
+            \(grupo) slice_sample(
+                grupo,
+                n = min(2, nrow(grupo))))
+
+    categorias |>
+        arrange(id_categoria) |>
+        pwalk(
+            \(
+                id_categoria,
+                nome_categoria,
+                definicao,
+                criterios_inclusao,
+                criterios_exclusao) {
+                cat(
+                    "#### ", id_categoria, " — ", nome_categoria,
+                    "\n\n", sep = "")
+
+                if (nzchar(definicao)) {
+                    cat("**Definição:** ", definicao, "\n\n", sep = "")
+                }
+                if (nzchar(criterios_inclusao)) {
+                    cat(
+                        "**Critérios de inclusão:** ",
+                        criterios_inclusao, "\n\n", sep = "")
+                }
+                if (nzchar(criterios_exclusao)) {
+                    cat(
+                        "**Critérios de exclusão:** ",
+                        criterios_exclusao, "\n\n", sep = "")
+                }
+
+                exemplos_categoria <- exemplos |>
+                    filter(id_categoria == !!id_categoria)
+
+                for (j in seq_len(nrow(exemplos_categoria))) {
+                    exemplo <- exemplos_categoria[j, ]
+                    cat(
+                        "**Exemplo ", j, " (", exemplo$id_analise,
+                        ")**\n\n", exemplo$Recomendação,
+                        "\n\n**Justificativa da IA:** ",
+                        exemplo$justificativa,
+                        "\n\n**Limites observados pela IA:** ",
+                        exemplo$observacoes_limite,
+                        "\n\n", sep = "")
+                }
+            })
+}
+```
+
+# Objetivo e desenho da etapa
+
+Esta terceira rodada amplia a codificação exploratória das divergências relacionadas ao critério “Efeitos Duradouros”. O corpus é construído a partir dos resultados históricos da codificação e da análise crítica. As categorias identificadas nas rodadas anteriores são informadas ao modelo como taxonomia de referência, mas o modelo pode propor novas categorias quando nenhuma das existentes for adequada.
+
+De acordo com a regra adotada na dissertação, uma ocorrência é considerada divergente quanto aos efeitos quando a análise crítica não registra `Concordo`. Essa regra inclui respostas `Não se aplica`, pois a avaliação dos efeitos depende logicamente do resultado atribuído ao critério “Foco Causa”.
+
+O sorteio é feito diretamente sobre as recomendações divergentes. Cada recomendação constitui uma unidade de análise independente, ainda que duas ou mais possam eventualmente pertencer à mesma constatação. Para garantir que esta rodada contenha 50 recomendações adicionais sem sobreposição com a primeira, a ordem aleatória reprodutível é gerada para 100 recomendações e a segunda faixa de 50 é utilizada. As recomendações são enviadas em uma única chamada.
+
+```{r}
+#| label: cria_corpus_divergencias
+#| echo: true
+#| eval: true
+
+dataset_consolidado <- read_rds("./Dados Gerados/dataset_consolidado.rds")
+
+ds_codificacao <- read_rds(
+    obtem_nome_arquivo_resultados(
+        "cls_cod_2",
+        modelo = modelo_resultados_historicos))
+
+ds_critica <- read_rds(
+    obtem_nome_arquivo_resultados(
+        "cls_crit_2",
+        modelo = modelo_resultados_historicos))
+
+dataset_analise <- dataset_consolidado |>
+    select(
+        `No. Auditoria`,
+        Arquivo,
+        Finalidade,
+        `# Constatação`,
+        Constatação,
+        Item,
+        Grupo,
+        Subgrupo,
+        `# Recomendação`,
+        Recomendação) |>
+    adapta_dataframe(
+        obtem_pasta("cls_cod_2", modelo = modelo_resultados_historicos),
+        "") |>
+    inner_join(
+        ds_codificacao |>
+            select(-finish_reason, -erro) |>
+            mutate(
+                `Efeitos Duradouros` = str_to_sentence(`Efeitos Duradouros`)),
+        by = c("Arquivo Saída" = "arquivo")) |>
+    select(-`Arquivo Saída`) |>
+    adapta_dataframe(
+        obtem_pasta("cls_crit_2", modelo = modelo_resultados_historicos),
+        "") |>
+    left_join(
+        ds_critica |>
+            select(-finish_reason, -erro),
+        by = c("Arquivo Saída" = "arquivo")) |>
+    rename(`Ação Foco Causa` = `Foco Causa`) |>
+    filter(`Análise Efeitos Duradouros` != "Concordo")
+
+dataset_divergencias_com_id <- dataset_analise |>
+    mutate(
+        `Prefixo Arquivo` = str_remove(Arquivo, "\\.pdf$"),
+        id_analise = str_glue(
+            "{`Prefixo Arquivo`}/{`# Constatação`}_{`# Recomendação`}.json"))
+
+set.seed(semente)
+
+dataset_ordenado_aleatorio <- dataset_analise |>
+    arrange(Arquivo, `# Constatação`, `# Recomendação`) |>
+    slice_sample(
+        n = min(
+            numero_recomendacoes_por_rodada * numero_rodada,
+            nrow(dataset_analise)))
+
+inicio_rodada <- (numero_rodada - 1) * numero_recomendacoes_por_rodada + 1
+fim_rodada <- min(
+    numero_rodada * numero_recomendacoes_por_rodada,
+    nrow(dataset_analise))
+
+corpus_amostra <- dataset_ordenado_aleatorio |>
+    slice(inicio_rodada:fim_rodada)
+
+stopifnot(
+    nrow(corpus_amostra) ==
+        min(numero_recomendacoes_por_rodada, nrow(dataset_analise) - inicio_rodada + 1))
+
+tibble(
+    `Total de divergências` = nrow(dataset_analise),
+    `Recomendações no corpus` = nrow(dataset_analise),
+    `Constatações no corpus` = n_distinct(
+        dataset_analise$Arquivo,
+        dataset_analise$`# Constatação`),
+    `Recomendações sorteadas` = nrow(corpus_amostra),
+    `Rodada` = numero_rodada,
+    `Semente` = semente) |>
+    knitr::kable()
+```
+
+## Rodadas de categorização
+
+### Rodada 1
+
+#### Prompt
+
+```{r}
+#| label: prompt_rodada_1
+#| echo: false
+#| eval: true
+#| results: asis
+
+cat_system_prompt("etiquetador_divergencias_1")
+```
+
+#### Resultados
+
+```{r}
+#| label: resultados_rodada_1
+#| echo: false
+#| eval: true
+#| results: asis
+
+mostra_resultados_rodada("etiquetador_divergencias_1")
+```
+
+### Rodada 2
+
+#### Prompt
+
+```{r}
+#| label: prompt_rodada_2
+#| echo: false
+#| eval: true
+#| results: asis
+
+cat_system_prompt("etiquetador_divergencias_2")
+```
+
+#### Resultados
+
+```{r}
+#| label: resultados_rodada_2
+#| echo: false
+#| eval: true
+#| results: asis
+
+mostra_resultados_rodada("etiquetador_divergencias_2")
+```
+
+### Rodada 3
+
+#### Prompt
+
+```{r}
+#| label: mostra_prompt_rodada_3
+#| echo: false
+#| eval: true
+#| results: asis
+
+cat_system_prompt(prompt)
+```
+
+```{r}
+#| label: prepara_prompts
+#| include: false
+#| echo: false
+#| eval: true
+
+unidades_lote <- corpus_amostra |>
+    mutate(
+        `Prefixo Arquivo` = str_remove(Arquivo, "\\.pdf$"),
+        id_analise = str_glue(
+            "{`Prefixo Arquivo`}/{`# Constatação`}_{`# Recomendação`}.json")) |>
+    transmute(
+        id_analise,
+        finalidade = Finalidade,
+        constatacao = Constatação,
+        recomendacao = Recomendação,
+        analise_inicial = Análise,
+        resultado_criterio_efeitos_duradouros = `Efeitos Duradouros`,
+        analise_critica = `Análise Crítica`,
+        resultado_criterio_efeitos_duradouros_analise_critica =
+            `Análise Efeitos Duradouros`)
+
+analises_lote <- unidades_lote |>
+    pmap(
+        \(
+            id_analise,
+            finalidade,
+            constatacao,
+            recomendacao,
+            analise_inicial,
+            resultado_criterio_efeitos_duradouros,
+            analise_critica,
+            resultado_criterio_efeitos_duradouros_analise_critica) {
+            list(
+                id_analise = id_analise,
+                finalidade = finalidade,
+                constatacao = constatacao,
+                recomendacao = recomendacao,
+                analise_inicial = analise_inicial,
+                resultado_criterio_efeitos_duradouros =
+                    resultado_criterio_efeitos_duradouros,
+                analise_critica = analise_critica,
+                resultado_criterio_efeitos_duradouros_analise_critica =
+                    resultado_criterio_efeitos_duradouros_analise_critica)
+        })
+
+entrada_lote <- list(
+    lote_id = prompt,
+    analises = analises_lote)
+
+prompt_lote <- jsonlite::toJSON(
+    entrada_lote,
+    auto_unbox = TRUE,
+    pretty = TRUE,
+    na = "null")
+
+arquivo_saida <- file.path(
+    modelo,
+    prompt,
+    paste0(prompt, ".json"))
+
+dir.create(
+    dirname(arquivo_saida),
+    showWarnings = FALSE,
+    recursive = TRUE)
+```
+
+#### Execução da chamada e preservação da resposta
+
+As respostas são gravadas sem extrair ou alterar o campo `content` retornado pela API. Isso permite revisar posteriormente tanto a classificação aberta quanto os metadados da chamada.
+
+```{r}
+#| label: executa_chamada
+#| echo: true
+#| eval: true
+
+base_request <- request("https://api.openai.com/v1/chat/completions") |>
+    req_method("POST") |>
+    req_auth_bearer_token(api_key) |>
+    req_headers("Content-Type" = "application/json") |>
+    # Lotes exploratórios podem levar mais tempo para serem processados pelo
+    # modelo; o limite é deliberadamente maior que o usado no teste mínimo.
+    req_timeout(300) |>
+    req_throttle(capacity = 15, fill_time_s = 60)
+
+# Guardião de idempotência: como esta interação possui uma única chamada,
+# a existência do arquivo indica que ela já foi executada. O arquivo nunca é
+# sobrescrito automaticamente.
+if (file.exists(arquivo_saida)) {
+    status_chamadas <- tibble(
+        `Arquivo Saída` = arquivo_saida,
+        status_code = NA_integer_,
+        salvo = TRUE,
+        chamada_realizada = FALSE,
+        observacao = "Chamada já realizada; arquivo preservado.")
+} else {
+    request_lote <- base_request |>
+        req_body_json(
+            list(
+                model = modelo,
+                messages = list(
+                    list(
+                        role = "system",
+                        content = obtem_prompt_system(prompt)),
+                    list(
+                        role = "user",
+                        content = prompt_lote)),
+                stream = FALSE,
+                response_format = list(type = "json_object")),
+            auto_unbox = TRUE)
+
+    resposta <- req_perform(request_lote)
+    resposta_ok <- inherits(resposta, "httr2_response") &&
+        resposta$status_code == 200 &&
+        resp_has_body(resposta)
+
+    if (resposta_ok) {
+        writeBin(resp_body_raw(resposta), arquivo_saida)
+    }
+
+    status_chamadas <- tibble(
+        `Arquivo Saída` = arquivo_saida,
+        status_code = if (inherits(resposta, "httr2_response")) {
+            resposta$status_code
+        } else {
+            NA_integer_
+        },
+        salvo = resposta_ok,
+        chamada_realizada = TRUE,
+        observacao = if (resposta_ok) {
+            "Resposta salva."
+        } else {
+            "Resposta não salva."
+        })
+}
+
+status_chamadas |>
+    count(salvo, status_code)
+```
+
+#### Resultados
+
+Os resultados abaixo apresentam todas as categorias identificadas na rodada e
+dois exemplos selecionados aleatoriamente para cada categoria.
+
+```{r}
+#| label: categorias_sugeridas
+#| echo: false
+#| eval: false
+#| results: asis
+
+resposta_bruta <- jsonlite::read_json(
+    arquivo_saida,
+    simplifyVector = FALSE)
+
+resposta_ia <- jsonlite::fromJSON(
+    resposta_bruta$choices[[1]]$message$content,
+    simplifyVector = FALSE)
+
+categorias_ia <- resposta_ia$categorias |>
+    map_dfr(
+        \(categoria) {
+            tibble(
+                id_categoria = categoria$id_categoria,
+                nome_categoria = categoria$nome_categoria,
+                definicao = categoria$definicao,
+                criterios_inclusao = paste(
+                    categoria$criterios_inclusao,
+                    collapse = "; "),
+                criterios_exclusao = paste(
+                    categoria$criterios_exclusao,
+                    collapse = "; "))
+        })
+
+classificacoes_tidy <- resposta_ia$classificacoes |>
+    map_dfr(
+        \(classificacao) {
+            tibble(
+                id_analise = classificacao$id_analise,
+                id_categoria = classificacao$categoria_principal,
+                categorias_secundarias = paste(
+                    classificacao$categorias_secundarias,
+                    collapse = ", "),
+                justificativa = classificacao$justificativa,
+                observacoes_limite = classificacao$observacoes_limite)
+        })
+
+exemplos_categorias <- classificacoes_tidy |>
+    left_join(
+        unidades_lote |>
+            select(id_analise, recomendacao),
+        by = "id_analise") |>
+    group_by(id_categoria) |>
+    arrange(row_number(), .by_group = TRUE) |>
+    slice_head(n = 2) |>
+    ungroup()
+
+categorias <- categorias_ia |>
+    mutate(numero_categoria = as.integer(str_remove(id_categoria, "^C"))) |>
+    arrange(id_categoria)
+
+for (i in seq_len(nrow(categorias))) {
+    categoria <- categorias[i, ]
+
+    cat(
+        "#### ", categoria$id_categoria, " — ",
+        categoria$nome_categoria, "\n\n",
+        "**Definição:** ", categoria$definicao,
+        "\n\n**Critérios de inclusão:** ", categoria$criterios_inclusao,
+        "\n\n**Critérios de exclusão:** ", categoria$criterios_exclusao,
+        "\n\n", sep = "")
+
+    exemplos <- if (categoria$numero_categoria >= 7) {
+        exemplos_categorias |>
+            filter(id_categoria == categoria$id_categoria)
+    } else {
+        exemplos_categorias |>
+            slice(0)
+    }
+
+    for (j in seq_len(nrow(exemplos))) {
+        exemplo <- exemplos[j, ]
+
+        cat(
+            "**Recomendação ", j, " (",
+            exemplo$id_analise, ")**\n\n",
+            exemplo$recomendacao,
+            "\n\n**Justificativa da IA:** ",
+            exemplo$justificativa,
+            "\n\n**Limites observados pela IA:** ",
+            exemplo$observacoes_limite,
+            "\n\n", sep = "")
+    }
+}
+```
+
+```{r}
+#| label: resultados_rodada_3
+#| echo: false
+#| eval: true
+#| results: asis
+
+mostra_resultados_rodada(prompt)
+```
+
+### Rodada final — Classificação sequencial do corpus
+
+Esta rodada reprocessa o corpus completo em lotes de 25 recomendações. A
+taxonomia é acumulada sequencialmente: depois de cada chamada, categorias novas
+são incorporadas ao prompt do lote seguinte.
+
+#### Prompt
+
+```{r}
+#| label: prompt_rodada_final
+#| echo: false
+#| eval: true
+#| results: asis
+
+cat_system_prompt("etiquetador_divergencias_final")
+```
+
+#### Resultados
+
+```{r}
+#| label: resultados_rodada_final
+#| echo: false
+#| eval: true
+#| results: asis
+
+mostra_resultados_rodada("etiquetador_divergencias_final")
+```
+
+::: {.content-visible when-format="html"}
+### Rodada 4 — Classificação do restante da base
+
+Esta etapa utiliza o mesmo prompt estrutural das rodadas 2 e 3. As
+recomendações já classificadas nas três rodadas anteriores são removidas
+por meio de `anti_join`. O restante da base é particionado em lotes de 50
+unidades, e cada lote é salvo em um arquivo JSON próprio.
+
+#### Prompt
+
+```{r}
+#| label: prompt_rodada_4
+#| include: false
+#| echo: false
+#| eval: true
+#| results: asis
+
+cat_system_prompt("etiquetador_divergencias_4")
+```
+
+#### Corpus restante
+
+```{r}
+#| label: prepara_corpus_restante
+#| include: false
+#| echo: false
+#| eval: true
+
+prompt_corpus_completo <- "etiquetador_divergencias_4"
+prompt_sistema_corpus <- prompt_corpus_completo
+tamanho_lote <- 50
+
+obtem_ids_classificados <- function(id_prompt) {
+    arquivos <- list.files(
+        file.path(modelo, id_prompt),
+        pattern = "\\.json$",
+        full.names = TRUE,
+        recursive = TRUE)
+
+    if (length(arquivos) == 0) {
+        return(tibble(id_analise = character()))
+    }
+
+    map_dfr(
+        arquivos,
+        \(arquivo) {
+            resposta_bruta <- jsonlite::read_json(
+                arquivo,
+                simplifyVector = FALSE)
+            resposta <- jsonlite::fromJSON(
+                resposta_bruta$choices[[1]]$message$content,
+                simplifyVector = FALSE)
+
+            if (!is.null(resposta$classificacoes)) {
+                tibble(
+                    id_analise = map_chr(
+                        resposta$classificacoes,
+                        \(classificacao) classificacao$id_analise))
+            } else {
+                tibble(
+                    id_analise = map_chr(
+                        resposta$respostas,
+                        \(item) item$id_analise))
+            }
+        })
+}
+
+dataset_divergencias_com_id <- dataset_analise |>
+    mutate(
+        `Prefixo Arquivo` = str_remove(Arquivo, "\\.pdf$"),
+        id_analise = str_glue(
+            "{`Prefixo Arquivo`}/{`# Constatação`}_{`# Recomendação`}.json"))
+
+ids_ja_classificados <- c(
+    "etiquetador_divergencias_1",
+    "etiquetador_divergencias_2",
+    "etiquetador_divergencias_3") |>
+    map_dfr(obtem_ids_classificados) |>
+    distinct(id_analise)
+
+ids_classificados_na_base <- ids_ja_classificados |>
+    semi_join(dataset_divergencias_com_id, by = "id_analise")
+
+corpus_restante <- dataset_divergencias_com_id |>
+    anti_join(ids_classificados_na_base, by = "id_analise") |>
+    arrange(id_analise)
+
+corpus_lotes <- corpus_restante |>
+    mutate(
+        numero_lote = (row_number() - 1) %/% tamanho_lote + 1) |>
+    group_split(numero_lote)
+
+tibble(
+    `Total de divergências` = nrow(dataset_analise),
+    `IDs registrados nas rodadas anteriores` = nrow(ids_ja_classificados),
+    `Unidades já classificadas na base` = nrow(ids_classificados_na_base),
+    `Unidades restantes` = nrow(corpus_restante),
+    `Tamanho do lote` = tamanho_lote,
+    `Número de lotes` = length(corpus_lotes)) |>
+    knitr::kable()
+```
+
+#### Execução dos lotes
+
+O guardião de idempotência é aplicado individualmente a cada lote. Assim,
+uma interrupção permite continuar a execução posteriormente sem repetir os
+lotes já salvos.
+
+```{r}
+#| label: executa_lotes_corpus_completo
+#| include: false
+#| echo: true
+#| eval: true
+
+dir.create(
+    file.path(modelo, prompt_corpus_completo),
+    showWarnings = FALSE,
+    recursive = TRUE)
+
+base_request_corpus <- request(
+    "https://api.openai.com/v1/chat/completions") |>
+    req_method("POST") |>
+    req_auth_bearer_token(api_key) |>
+    req_headers("Content-Type" = "application/json") |>
+    req_timeout(300) |>
+    req_throttle(capacity = 15, fill_time_s = 60)
+
+executa_lote_corpus <- function(lote, numero_lote) {
+    arquivo_lote <- file.path(
+        modelo,
+        prompt_corpus_completo,
+        str_glue("lote_{str_pad(numero_lote, 3, pad = '0')}.json"))
+
+    if (file.exists(arquivo_lote)) {
+        return(tibble(
+            numero_lote = numero_lote,
+            arquivo = arquivo_lote,
+            unidades = nrow(lote),
+            status_code = NA_integer_,
+            salvo = TRUE,
+            chamada_realizada = FALSE,
+            observacao = "Lote já processado; arquivo preservado."))
+    }
+
+    analises <- lote |>
+        select(
+            id_analise,
+            Finalidade,
+            Constatação,
+            Recomendação,
+            Análise,
+            `Efeitos Duradouros`,
+            `Análise Crítica`,
+            `Análise Efeitos Duradouros`) |>
+        pmap(
+            \(
+                id_analise,
+                Finalidade,
+                Constatação,
+                Recomendação,
+                Análise,
+                `Efeitos Duradouros`,
+                `Análise Crítica`,
+                `Análise Efeitos Duradouros`) {
+                list(
+                    id_analise = id_analise,
+                    finalidade = Finalidade,
+                    constatacao = Constatação,
+                    recomendacao = Recomendação,
+                    analise_inicial = Análise,
+                    resultado_criterio_efeitos_duradouros =
+                        `Efeitos Duradouros`,
+                    analise_critica = `Análise Crítica`,
+                    resultado_criterio_efeitos_duradouros_analise_critica =
+                        `Análise Efeitos Duradouros`)
+            })
+
+    entrada <- list(
+        lote_id = str_glue(
+            "{prompt_corpus_completo}_lote_{str_pad(numero_lote, 3, pad = '0')}"),
+        analises = analises)
+
+    corpo <- list(
+        model = modelo,
+        messages = list(
+            list(
+                role = "system",
+                content = obtem_prompt_system(prompt_sistema_corpus)),
+            list(
+                role = "user",
+                content = jsonlite::toJSON(
+                    entrada,
+                    auto_unbox = TRUE,
+                    pretty = TRUE,
+                    na = "null"))),
+        stream = FALSE,
+        response_format = list(type = "json_object"))
+
+    tryCatch(
+        {
+            resposta <- base_request_corpus |>
+                req_body_json(corpo, auto_unbox = TRUE) |>
+                req_perform()
+
+            resposta_ok <- resposta$status_code == 200 &&
+                resp_has_body(resposta)
+
+            if (resposta_ok) {
+                writeBin(resp_body_raw(resposta), arquivo_lote)
+            }
+
+            tibble(
+                numero_lote = numero_lote,
+                arquivo = arquivo_lote,
+                unidades = nrow(lote),
+                status_code = resposta$status_code,
+                salvo = resposta_ok,
+                chamada_realizada = TRUE,
+                observacao = if (resposta_ok) {
+                    "Resposta salva."
+                } else {
+                    "Resposta não salva."
+                })
+        },
+        error = \(erro) {
+            tibble(
+                numero_lote = numero_lote,
+                arquivo = arquivo_lote,
+                unidades = nrow(lote),
+                status_code = NA_integer_,
+                salvo = FALSE,
+                chamada_realizada = TRUE,
+                observacao = conditionMessage(erro))
+        })
+}
+
+status_lotes <- map_dfr(
+    corpus_lotes,
+    \(lote) executa_lote_corpus(
+        lote,
+        unique(lote$numero_lote)))
+
+status_lotes |>
+    arrange(numero_lote) |>
+    knitr::kable()
+```
+
+#### Resultados
+
+Os resultados abaixo apresentam todas as categorias identificadas na rodada e
+dois exemplos selecionados aleatoriamente para cada categoria.
+
+```{r}
+#| label: resultados_rodada_4
+#| include: false
+#| echo: false
+#| eval: true
+#| results: asis
+
+mostra_resultados_rodada("etiquetador_divergencias_4")
+```
+
+### Rodada 5 — Verificação de completude e classificação das restantes
+
+Após a Rodada 4, os arquivos produzidos são carregados novamente e seus
+identificadores são comparados com a base original. A classificação das
+unidades restantes utiliza o mesmo prompt da Rodada 4, mas é salva em um
+diretório próprio para manter a rastreabilidade da etapa de conclusão.
+
+#### Prompt
+
+```{r}
+#| label: prompt_rodada_5
+#| include: false
+#| echo: false
+#| eval: true
+#| results: asis
+
+cat_system_prompt("etiquetador_divergencias_4")
+```
+
+#### Anti-join de completude
+
+```{r}
+#| label: prepara_rodada_5
+#| include: false
+#| echo: false
+#| eval: true
+
+prompt_corpus_completo <- "etiquetador_divergencias_5"
+prompt_sistema_corpus <- "etiquetador_divergencias_4"
+
+ids_todas_rodadas <- paste0(
+    "etiquetador_divergencias_",
+    c(1, 2, 3, 4)) |>
+    map_dfr(obtem_ids_classificados) |>
+    distinct(id_analise)
+
+ids_todas_rodadas_na_base <- ids_todas_rodadas |>
+    semi_join(dataset_divergencias_com_id, by = "id_analise")
+
+corpus_restante_rodada_5 <- dataset_divergencias_com_id |>
+    anti_join(ids_todas_rodadas_na_base, by = "id_analise") |>
+    arrange(id_analise)
+
+corpus_lotes_rodada_5 <- corpus_restante_rodada_5 |>
+    mutate(
+        numero_lote = (row_number() - 1) %/% tamanho_lote + 1) |>
+    group_split(numero_lote)
+
+tibble(
+    `Total de divergências` = nrow(dataset_divergencias_com_id),
+    `IDs retornados pelas rodadas 1 a 4` = nrow(ids_todas_rodadas),
+    `IDs retornados pertencentes à base` = nrow(ids_todas_rodadas_na_base),
+    `Unidades restantes` = nrow(corpus_restante_rodada_5),
+    `Tamanho do lote` = tamanho_lote,
+    `Número de lotes` = length(corpus_lotes_rodada_5)) |>
+    knitr::kable()
+```
+
+#### Execução da Rodada 5
+
+O guardião de idempotência é aplicado novamente por lote. Se a execução for
+interrompida, os lotes já salvos serão preservados.
+
+```{r}
+#| label: executa_rodada_5
+#| include: false
+#| echo: true
+#| eval: true
+
+dir.create(
+    file.path(modelo, prompt_corpus_completo),
+    showWarnings = FALSE,
+    recursive = TRUE)
+
+status_lotes_rodada_5 <- map_dfr(
+    corpus_lotes_rodada_5,
+    \(lote) executa_lote_corpus(
+        lote,
+        unique(lote$numero_lote)))
+
+status_lotes_rodada_5 |>
+    arrange(numero_lote) |>
+    knitr::kable()
+```
+
+#### Resultados
+
+Os resultados abaixo apresentam todas as categorias identificadas na rodada e
+dois exemplos selecionados aleatoriamente para cada categoria.
+
+```{r}
+#| label: resultados_rodada_5
+#| include: false
+#| echo: false
+#| eval: true
+#| results: asis
+
+mostra_resultados_rodada("etiquetador_divergencias_5")
+```
+
+:::
+
+## Arquivos produzidos
+
+No modelo gpt-5.6-luna, os arquivos JSON de cada rodada foram salvos no subdiretório identificado pelo respectivo *prompt*. A semente utilizada foi 42.
+
+```{r}
+#| label: arquivos_produzidos
+#| echo: false
+#| eval: true
+
+prompts_resultados <- c(
+    paste0("etiquetador_divergencias_", c(1, 2, 3)),
+    "etiquetador_divergencias_final")
+
+tibble(
+    prompt = prompts_resultados,
+    `Arquivos JSON salvos` = map_int(
+        prompts_resultados,
+        \(id_prompt) {
+            padrao <- if (id_prompt == "etiquetador_divergencias_final") {
+                "^lote_[0-9]+\\.json$"
+            } else {
+                "\\.json$"
+            }
+            length(list.files(
+                file.path(modelo, id_prompt),
+                pattern = padrao,
+                full.names = TRUE,
+                recursive = TRUE))
+        })) |>
+    knitr::kable()
+```
+
+## Resumo
+
+O quadro abaixo resume a rodada final, que classificou novamente as 747
+recomendações com base na taxonomia acumulada e revista sob supervisão da
+pesquisadora, ainda aberta à incorporação de novas categorias. Suas frequências
+provêm exclusivamente dessa rodada, que aplicou ao corpus completo a versão
+mais atualizada da classificação. Antes da contagem, os identificadores
+retornados são conferidos contra o corpus original; respostas sem
+correspondência são descartadas.
+
+```{r}
+#| label: resumo_classificacoes
+#| echo: false
+#| eval: true
+
+carrega_classificacoes_resumo <- function(id_prompt) {
+    padrao <- if (id_prompt == "etiquetador_divergencias_final") {
+        "^lote_[0-9]+\\.json$"
+    } else {
+        "\\.json$"
+    }
+    arquivos <- list.files(
+        file.path(modelo, id_prompt),
+        pattern = padrao,
+        full.names = TRUE,
+        recursive = TRUE)
+
+    map_dfr(
+        arquivos,
+        \(arquivo) {
+            resposta_bruta <- jsonlite::read_json(
+                arquivo,
+                simplifyVector = FALSE)
+            resposta <- jsonlite::fromJSON(
+                resposta_bruta$choices[[1]]$message$content,
+                simplifyVector = FALSE)
+
+            if (id_prompt == "etiquetador_divergencias_final") {
+                numero_lote <- str_extract(
+                    basename(arquivo), "(?<=lote_)\\d+")
+                taxonomia <- jsonlite::read_json(
+                    file.path(
+                        modelo,
+                        id_prompt,
+                        str_glue("taxonomia_{numero_lote}.json")),
+                    simplifyVector = FALSE) |>
+                    map_dfr(
+                        \(categoria) {
+                            tibble(
+                                id_categoria_definitivo = texto_resultado(
+                                    categoria$id_categoria),
+                                nome_categoria = texto_resultado(
+                                    categoria$nome_categoria))
+                        })
+
+                categorias <- resposta$categorias |>
+                    map_dfr(
+                        \(categoria) {
+                            tibble(
+                                id_categoria_resposta = texto_resultado(
+                                    categoria$id_categoria),
+                                nome_categoria = texto_resultado(
+                                    categoria$nome_categoria))
+                        }) |>
+                    inner_join(
+                        taxonomia,
+                        by = "nome_categoria")
+
+                return(
+                    resposta$classificacoes |>
+                        map_dfr(
+                            \(classificacao) {
+                                tibble(
+                                    id_analise = texto_resultado(
+                                        classificacao$id_analise),
+                                    id_categoria_resposta = texto_resultado(
+                                        classificacao$categoria_principal))
+                            }) |>
+                        inner_join(
+                            categorias,
+                            by = "id_categoria_resposta") |>
+                        transmute(
+                            id_analise,
+                            id_categoria = id_categoria_definitivo,
+                            nome_categoria))
+            }
+
+            if (!is.null(resposta$classificacoes)) {
+                categorias <- resposta$categorias |>
+                    map_dfr(
+                        \(categoria) {
+                            tibble(
+                                id_categoria = texto_resultado(
+                                    categoria$id_categoria),
+                                nome_categoria = texto_resultado(
+                                    categoria$nome_categoria))
+                        })
+
+                resposta$classificacoes |>
+                    map_dfr(
+                        \(classificacao) {
+                            tibble(
+                                id_analise = texto_resultado(
+                                    classificacao$id_analise),
+                                id_categoria = texto_resultado(
+                                    classificacao$categoria_principal))
+                        }) |>
+                    left_join(categorias, by = "id_categoria")
+            } else {
+                resposta$respostas |>
+                    map_dfr(
+                        \(item) {
+                            padrao <- item$padroes_provisorios[[1]]
+                            tibble(
+                                id_analise = texto_resultado(
+                                    item$id_analise),
+                                id_categoria = texto_resultado(
+                                    padrao$id_padrao_provisorio),
+                                nome_categoria = texto_resultado(
+                                    padrao$nome_padrao_provisorio))
+                        })
+            }
+        })
+}
+
+classificacoes_todas <- carrega_classificacoes_resumo(
+    "etiquetador_divergencias_final")
+
+base_ids <- dataset_divergencias_com_id |>
+    select(id_analise) |>
+    distinct()
+
+classificacoes_validas <- classificacoes_todas |>
+    inner_join(base_ids, by = "id_analise")
+
+stopifnot(
+    nrow(classificacoes_validas) == nrow(base_ids),
+    n_distinct(classificacoes_validas$id_analise) == nrow(base_ids))
+
+resumo_categorias <- classificacoes_validas |>
+    group_by(id_categoria) |>
+    summarise(
+        nome_categoria = paste(
+            sort(unique(nome_categoria)),
+            collapse = " / "),
+        Quantidade = n(),
+        .groups = "drop") |>
+    arrange(desc(Quantidade), id_categoria)
+
+resumo_padroes_discordancia <- resumo_categorias |>
+    transmute(
+        `Padrão de discordância` = nome_categoria,
+        Recomendações = Quantidade,
+        Percentual = Quantidade / sum(Quantidade))
+
+resumo_padroes_discordancia <- bind_rows(
+    resumo_padroes_discordancia,
+    summarise(
+        resumo_padroes_discordancia,
+        `Padrão de discordância` = "Total",
+        Recomendações = sum(Recomendações),
+        Percentual = sum(Percentual)))
+
+arquivo_resumo_padroes <- file.path(
+    "Dados Gerados",
+    "resumo_padroes_discordancia_efeitos.rds")
+dir.create(dirname(arquivo_resumo_padroes), showWarnings = FALSE)
+arquivos_fonte_resumo <- sort(c(
+    "categorizacao_divergencias_efeitos_duradouros.qmd",
+    list.files(
+        file.path("gpt-5.6-luna", "etiquetador_divergencias_final"),
+        pattern = "^(lote|taxonomia)_[0-9]+\\.json$",
+        full.names = TRUE)))
+attr(resumo_padroes_discordancia, "arquivos_fonte") <- arquivos_fonte_resumo
+attr(resumo_padroes_discordancia, "hashes_fonte") <- unname(
+    tools::md5sum(arquivos_fonte_resumo))
+readr::write_rds(resumo_padroes_discordancia, arquivo_resumo_padroes)
+
+resumo_categorias |>
+    select(
+        `ID da categoria` = id_categoria,
+        Categoria = nome_categoria,
+        Quantidade) |>
+    knitr::kable()
+```
+
+::: {.content-visible when-format="html"}
+## Rodada final — Classificação sequencial do corpus
+
+Esta rodada reprocessa o corpus completo em lotes de 25 recomendações. A
+taxonomia é acumulada sequencialmente: depois de cada chamada, categorias novas
+são incorporadas ao prompt do lote seguinte. Os códigos temporários `NOVA_1`,
+`NOVA_2` etc. são convertidos pelo programa em códigos definitivos (`C7`,
+`C8`...) antes da próxima chamada.
+
+```{r}
+#| label: executa_rodada_final
+#| include: false
+#| echo: true
+#| eval: true
+
+prompt_final <- "etiquetador_divergencias_final"
+tamanho_lote_final <- 25
+
+categorias_iniciais_final <- list(
+    list(
+        id_categoria = "C1",
+        nome_categoria = "Conformidade normativa sem mecanismo de implementação",
+        definicao = "A recomendação determina ou referencia normas, mas não explicita mecanismos concretos de implementação, verificação ou sustentação.",
+        criterios_inclusao = c("cumprimento de norma ou requisito", "permanência inferida da validade da norma"),
+        criterios_exclusao = c("investigação sem ação corretiva", "pacote claramente heterogêneo")),
+    list(
+        id_categoria = "C2",
+        nome_categoria = "Execução continuada dependente de adesão",
+        definicao = "A durabilidade depende da realização reiterada de rotinas, controles ou supervisão por pessoas ou unidades.",
+        criterios_inclusao = c("monitoramento ou execução recorrente", "dependência de adesão continuada"),
+        criterios_exclusao = c("cumprimento normativo genérico", "capacitação como ação principal")),
+    list(
+        id_categoria = "C3",
+        nome_categoria = "Capacitação sujeita a atualização e retenção",
+        definicao = "A ação educacional pode produzir conhecimento persistente, mas depende de atualização, retenção de pessoal e incorporação institucional.",
+        criterios_inclusao = c("educação, treinamento ou qualificação como ação central", "dependência de atualização ou retenção"),
+        criterios_exclusao = c("capacitação secundária em pacote heterogêneo", "rotina de controle como ação principal")),
+    list(
+        id_categoria = "C4",
+        nome_categoria = "Pacote heterogêneo de ações",
+        definicao = "A recomendação combina medidas imediatas ou reparadoras com ações estruturais, preventivas ou de capacitação.",
+        criterios_inclusao = c("duas ou mais ações autônomas", "componentes com funções distintas"),
+        criterios_exclusao = c("etapas do mesmo procedimento", "divergência explicada por adesão continuada")),
+    list(
+        id_categoria = "C5",
+        nome_categoria = "Investigação sem tratamento assegurado",
+        definicao = "A recomendação solicita informação, justificativa ou apuração sem determinar a implementação das medidas que tratariam a causa.",
+        criterios_inclusao = c("investigação ou solicitação como ação principal", "ausência de tratamento assegurado"),
+        criterios_exclusao = c("investigação acompanhada de ação corretiva", "rotina de controle diretamente estabelecida")),
+    list(
+        id_categoria = "C6",
+        nome_categoria = "Formalização sem institucionalização demonstrada",
+        definicao = "A recomendação cria ou atualiza documentos, planos, registros ou fluxos sem demonstrar implementação, manutenção e integração institucional.",
+        criterios_inclusao = c("criação ou aprimoramento de instrumento formal", "ausência de implementação ou monitoramento demonstrado"),
+        criterios_exclusao = c("mera citação de norma", "execução reiterada por pessoas como mecanismo predominante")))
+
+proximo_codigo_final <- function(categorias) {
+    numeros <- map_int(
+        categorias,
+        \(categoria) {
+            codigo <- str_extract(categoria$id_categoria, "(?<=C)\\d+$")
+            ifelse(is.na(codigo), 0L, as.integer(codigo))
+        })
+    paste0("C", max(numeros, 0L) + 1L)
+}
+
+normaliza_resposta_final <- function(resposta, categorias) {
+    mapa_ids <- list()
+
+    for (categoria in resposta$categorias) {
+        id_original <- texto_resultado(categoria$id_categoria)
+        categoria_existente <- keep(
+            categorias,
+            \(item) item$id_categoria == id_original)
+
+        if (length(categoria_existente) == 1) {
+            mapa_ids[[id_original]] <- id_original
+        } else {
+            id_definitivo <- proximo_codigo_final(categorias)
+            categoria$id_categoria <- id_definitivo
+            categorias <- append(categorias, list(categoria))
+            mapa_ids[[id_original]] <- id_definitivo
+        }
+    }
+
+    resposta$classificacoes <- map(
+        resposta$classificacoes,
+        \(classificacao) {
+            id_principal <- texto_resultado(
+                classificacao$categoria_principal)
+            classificacao$categoria_principal <- mapa_ids[[id_principal]] %||%
+                id_principal
+            classificacao$categorias_secundarias <- map_chr(
+                classificacao$categorias_secundarias %||% list(),
+                \(id) mapa_ids[[texto_resultado(id)]] %||%
+                    texto_resultado(id))
+            classificacao
+        })
+
+    list(resposta = resposta, categorias = categorias)
+}
+
+renderiza_prompt_final <- function(categorias) {
+    prompt <- obtem_prompt_system(prompt_final)
+    substituto <- jsonlite::toJSON(
+        categorias,
+        auto_unbox = TRUE,
+        pretty = TRUE,
+        na = "null")
+    str_replace(prompt, fixed("{{CATEGORIAS_EXISTENTES}}"), substituto)
+}
+
+corpus_final <- dataset_divergencias_com_id |>
+    arrange(id_analise) |>
+    mutate(
+        numero_lote = (row_number() - 1) %/% tamanho_lote_final + 1) |>
+    group_split(numero_lote)
+
+dir.create(
+    file.path(modelo, prompt_final),
+    showWarnings = FALSE,
+    recursive = TRUE)
+
+base_request_final <- request(
+    "https://api.openai.com/v1/chat/completions") |>
+    req_method("POST") |>
+    req_auth_bearer_token(api_key) |>
+    req_headers("Content-Type" = "application/json") |>
+    req_timeout(300) |>
+    req_throttle(capacity = 15, fill_time_s = 60)
+
+categorias_acumuladas_final <- categorias_iniciais_final
+status_rodada_final <- vector("list", length(corpus_final))
+
+for (i in seq_along(corpus_final)) {
+    lote <- corpus_final[[i]]
+    arquivo_lote <- file.path(
+        modelo,
+        prompt_final,
+        str_glue("lote_{str_pad(i, 3, pad = '0')}.json"))
+    arquivo_taxonomia <- file.path(
+        modelo,
+        prompt_final,
+        str_glue("taxonomia_{str_pad(i, 3, pad = '0')}.json"))
+
+    if (file.exists(arquivo_lote) && file.exists(arquivo_taxonomia)) {
+        categorias_acumuladas_final <- jsonlite::read_json(
+            arquivo_taxonomia,
+            simplifyVector = FALSE)
+        status_rodada_final[[i]] <- tibble(
+            numero_lote = i,
+            unidades = nrow(lote),
+            salvo = TRUE,
+            chamada_realizada = FALSE,
+            observacao = "Lote já processado; arquivos preservados.")
+        next
+    }
+
+    analises <- lote |>
+        select(
+            id_analise,
+            Finalidade,
+            Constatação,
+            Recomendação,
+            Análise,
+            `Efeitos Duradouros`,
+            `Análise Crítica`,
+            `Análise Efeitos Duradouros`) |>
+        pmap(
+            \(
+                id_analise,
+                Finalidade,
+                Constatação,
+                Recomendação,
+                Análise,
+                `Efeitos Duradouros`,
+                `Análise Crítica`,
+                `Análise Efeitos Duradouros`) {
+                list(
+                    id_analise = id_analise,
+                    finalidade = Finalidade,
+                    constatacao = Constatação,
+                    recomendacao = Recomendação,
+                    analise_inicial = Análise,
+                    resultado_criterio_efeitos_duradouros =
+                        `Efeitos Duradouros`,
+                    analise_critica = `Análise Crítica`,
+                    resultado_criterio_efeitos_duradouros_analise_critica =
+                        `Análise Efeitos Duradouros`)
+            })
+
+    entrada <- list(
+        lote_id = str_glue(
+            "{prompt_final}_lote_{str_pad(i, 3, pad = '0')}"),
+        analises = analises)
+
+    corpo <- list(
+        model = modelo,
+        messages = list(
+            list(
+                role = "system",
+                content = renderiza_prompt_final(
+                    categorias_acumuladas_final)),
+            list(
+                role = "user",
+                content = jsonlite::toJSON(
+                    entrada,
+                    auto_unbox = TRUE,
+                    pretty = TRUE,
+                    na = "null"))),
+        stream = FALSE,
+        response_format = list(type = "json_object"))
+
+    resposta_http <- base_request_final |>
+        req_body_json(corpo, auto_unbox = TRUE) |>
+        req_perform()
+
+    if (resposta_http$status_code != 200 ||
+        !resp_has_body(resposta_http)) {
+        stop("A chamada do lote ", i, " não retornou uma resposta válida.")
+    }
+
+    writeBin(resp_body_raw(resposta_http), arquivo_lote)
+
+    resposta_bruta <- resp_body_json(
+        resposta_http,
+        simplifyVector = FALSE)
+    resposta <- jsonlite::fromJSON(
+        resposta_bruta$choices[[1]]$message$content,
+        simplifyVector = FALSE)
+
+    if (length(resposta$classificacoes) != nrow(lote)) {
+        stop(
+            "O lote ", i,
+            " retornou ", length(resposta$classificacoes),
+            " classificações para ", nrow(lote), " unidades.")
+    }
+    resultado_normalizado <- normaliza_resposta_final(
+        resposta,
+        categorias_acumuladas_final)
+    categorias_acumuladas_final <- resultado_normalizado$categorias
+
+    jsonlite::write_json(
+        categorias_acumuladas_final,
+        arquivo_taxonomia,
+        auto_unbox = TRUE,
+        pretty = TRUE,
+        na = "null")
+
+    status_rodada_final[[i]] <- tibble(
+        numero_lote = i,
+        unidades = nrow(lote),
+        salvo = TRUE,
+        chamada_realizada = TRUE,
+        observacao = "Resposta original e taxonomia acumulada salvas.")
+}
+
+arquivos_final <- list.files(
+    file.path(modelo, prompt_final),
+    pattern = "^lote_[0-9]+\\.json$",
+    full.names = TRUE)
+
+ids_final_retornados <- map_dfr(
+    arquivos_final,
+    \(arquivo) {
+        resposta_bruta <- jsonlite::read_json(
+            arquivo,
+            simplifyVector = FALSE)
+        resposta <- jsonlite::fromJSON(
+            resposta_bruta$choices[[1]]$message$content,
+            simplifyVector = FALSE)
+        map_dfr(
+            resposta$classificacoes,
+            \(classificacao) {
+                tibble(
+                    id_analise = texto_resultado(
+                        classificacao$id_analise))
+            })
+    })
+
+ids_base_final <- dataset_divergencias_com_id |>
+    select(id_analise) |>
+    distinct()
+
+ids_final_validos <- ids_final_retornados |>
+    inner_join(ids_base_final, by = "id_analise") |>
+    distinct()
+
+tibble(
+    `Unidades na base original` = nrow(ids_base_final),
+    `IDs retornados pela etiqueta final` = nrow(ids_final_retornados),
+    `IDs válidos após inner_join` = nrow(ids_final_validos),
+    `IDs inexistentes descartados` = nrow(
+        anti_join(ids_final_retornados, ids_base_final, by = "id_analise")),
+    `Unidades não retornadas` = nrow(
+        anti_join(ids_base_final, ids_final_validos, by = "id_analise"))) |>
+    knitr::kable()
+
+bind_rows(status_rodada_final) |>
+    knitr::kable()
+```
+
+:::
+
+{{< pagebreak >}}
+
+## Referências
+
+::: {#refs}
+:::

@@ -1,5 +1,5 @@
 ---
-title: "Apêndice II - Classificação de Recomendações"
+title: "Apêndice B --- Processo de Codificação para Análise das Recomendações do DENASUS"
 
 bibliography: ./Quarto/referencias.bibtex
 csl: ./Quarto/abnt-nbr-6023-2018-citacao-autor-data.csl
@@ -25,6 +25,14 @@ nocite: |
 #| label: setup
 #| include: false
 #| echo: false
+
+# Versão atual do fluxo que aparece no histórico como "Apêndice II.qmd".
+# O script documenta o procedimento do Apêndice B e executa os prompts finais
+# reproduzidos nos Apêndices H e I. Os testes das tentativas 1 a 5 foram
+# executados em versões anteriores desse fluxo, com prompts sucessivos da
+# pasta Prompts; seus textos e resultados estão preservados nos apêndices
+# correspondentes. Parâmetros desta versão: modelo = "deepseek-chat",
+# prompt = "cls_cod_2" e prompt_crit = "cls_crit_2".
 
 source("./R/funcoes_setup.r")
 
@@ -63,22 +71,20 @@ options(scipen = 999,
     colorDF_n = 10,
     tibble.print_max = 10)
 
-dotenv::load_dot_env()
-
 modelo <- "deepseek-chat"
 ```
 
-# Apêndice II - Manual do Codificador para Análise de Recomendações do DENASUS
+# Apêndice B --- Processo de Codificação para Análise das Recomendações do DENASUS
 
 ## Introdução
 
-O presente documento registra os passos tomados para classificar as recomendações emitidas pelo DENASUS com base nos critérios definidos na pesquisa.
+Este documento descreve os procedimentos adotados para classificar as recomendações emitidas pelo DENASUS, com base nos critérios definidos na pesquisa.
 
-Em linhas gerais, o processo consistiu em realizar chamadas à API do fornecedor de LLM escolhido com um prompt que instruiu o modelo a realizar a codificação da recomendação. Usou-se o papel (*role*) `system` para o prompt contendo as instruções de codificação e o papel (*role*) `user` com os dados da recomendação.
+De forma geral, a classificação foi realizada por meio de chamadas à API do provedor de LLM selecionado, utilizando-se um prompt estruturado. As instruções de codificação foram inseridas no papel *system*, enquanto os dados das recomendações foram inseridos no papel *user*.
 
-Este documento registra a forma escolhida para organizar os dados, os procedimentos adotados para acionar a API e armazenar os resultados conforme o modelo definido, bem como a tabulação final das informações.
+O texto também apresenta a estrutura de organização dos dados, os procedimentos de interação com a API, a forma de armazenamento dos resultados conforme o modelo definido e a posterior tabulação das informações.
 
-Abaixo, tem-se uma amostra dos dados que foram usados usados para montar os *prompts*.
+A seguir, apresenta-se uma amostra dos dados utilizados na composição dos prompts.
 ```{r}
 #| label: amostra_dados_recomendacoes
 #| echo: true
@@ -102,44 +108,44 @@ rename(
 knitr::kable()
 ```
 
-O processo de categorização foi dividido em etapas que correspondem aos prompts definidos na pesquisa. Para cada prompt definido, executa-se uma chamada na API do fornecedor escolhido e guarda-se o resultado e arquivos em pastas cujo modelo de organização está detalhado na próxima seção.
+O processo de categorização foi dividido em etapas correspondentes aos diferentes prompts definidos na pesquisa. Para cada *prompt*, foi realizada uma chamada à API do fornecedor selecionado, e os resultados foram armazenados em arquivos organizados segundo o modelo descrito na próxima seção.
 
-Por fim, realiza-se a tabulação dos dados em um *dataset* final para permitir a análise dos dados.
+Ao final, os dados foram consolidados em um *dataset* final, que serviu de base para a análise.
 
-O modelo de organização dos dados foi tal que permitiu identificar chamadas que geraram erros e repetir o processo somente para essas chamadas até se obter o o resultado completo das chamadas para o conjunto das recomendações.
+A estrutura adotada para organização dos arquivos permitiu identificar eventuais chamadas com erro e repetir apenas essas interações, assegurando a obtenção completa dos resultados para o conjunto de recomendações analisado.
 
 ## Organização dos Dados
 
-Como os fornecedores de LLMs têm múltiplos modelos, e dado que a pesquisa utiliza vários prompts, optou-se por salvar os resultados de cada chamada em uma estrutura de diretórios que guarda relação com um identificador do prompt e com as variáveis de fornecedor, modelo, nome do arquivo do relatório, constatação e recomendação. O padrão escolhido foi o seguinte:
+Considerando que os fornecedores de LLMs disponibilizam múltiplos modelos e que a pesquisa faz uso de diferentes prompts, optou-se por estruturar os resultados de cada chamada à API em diretórios organizados de forma hierárquica. Essa estrutura leva em conta o identificador do prompt, bem como as variáveis fornecedor, modelo, nome do relatório PDF, número da constatação e número da recomendação. O padrão de nomenclatura adotado para os arquivos foi o seguinte:
 
 ```
-<modelo>\<identificador_prompt>\<prefixo nome arquivo>\<# constatação>_<# recomendação>.json
+<modelo>\<prompt>\<arquivo>\<constatação>_<recomendação>.json
 ```
 
 Onde:
 
 - modelo: Nome do modelo (deepseek-chat, deepseek-reasoner, o4-mini etc.)
 - prompt: nome do arquivo que contém o prompt sem a extensão (ex: prompt_1)
-- prefixo nome arquivo: (nome do arquivo menos a extenção ".pdf")
-- \# constatação: número que identifica a constatação (extraído do texto do relatório)
-- \# recomendação: número que identifica a recomendação (numeração incremental criada para cada recomendação no contexto de uma constatação)
+- arquivo: nome do relatório PDF sem a extensão ".pdf"
+- constatação: número que identifica a constatação (extraído do texto do relatório)
+- recomendação: número que identifica a recomendação (numeração incremental criada para cada recomendação no contexto de uma constatação)
 - .json sufixo padrão para arquivos no formato `json`, que é o formato usado pelas APIs.
 
-Para filtrar o conjunto de recomendações para as quais ainda precisa ser feita a classificação, gera-se, no *dataframe* das recomendações, o nome do arquivo para onde o resultado da chamada para a recomendação será salvo (que é "montado" com base no modelo exposto no parágrafo anterior), e depois filtra-se somente recomendações cujo nome do arquivo de destino não conste na listagem de arquivos de recomendações já processadas. Dessa forma, se todas as recomendações já tiverem sido processadas e, portanto, seus respectivos arquivos já existirem, o filtro irá gerar um *dataframe* vazio.
+Para identificar quais recomendações ainda não foram classificadas, foi gerado, no *dataframe* das recomendações, o nome do arquivo de destino para cada chamada, conforme o padrão descrito acima. Em seguida, foram filtradas apenas aquelas recomendações cujos respectivos arquivos ainda não constavam entre os já processados. Assim, quando todas as recomendações já tiverem sido classificadas e os arquivos correspondentes existirem, o filtro resultará em um *dataframe* vazio.
 
-Importante frisar que, como o nome do arquivo de prompt, o nome do fornecedor e o nome do modelo usado compõem o nome do arquivo onde o resultado é salvo, basta alterar qualquer dessas variáveis para que o conjunto de recomendações pendentes de classificação mude, a depender do que já foi classificado para a combinação prompt/modelo.
+É importante destacar que, como o nome do arquivo de saída inclui o identificador do *prompt*, o nome do fornecedor e o modelo utilizado, qualquer alteração em uma dessas variáveis implicará uma nova rodada de classificação, limitada ao que ainda não foi processado para a nova combinação prompt/modelo.
 
 ## Implementação das Funções de Necessárias
 
-Com o modelo de organização de dados definido, define-se o processo de chamada da API em três partes descritas abaixo:
+Com o modelo de organização de dados definido, estruturou-se o processo de chamadas à API em três etapas principais, descritas a seguir:
 
-1. Obtencao das recomendações não processadas: consiste em gerar, no *dataframe* uma coluna com o nome do arquivo onde a recomendação deve ser salva, conforme detalhado na seção anterior e, com base nessa coluna filtrar somente recomendações para as quais o arquivo ainda não exista no sistema de arquivos,
-2. Com as recomendações pendentes, cria-se uma requisição (que representa uma chamada na api) por recomendação e executa-se todas essas chamadas usando-se a função `req_perform_parallel` do pacote *httr2* [@httr2] o qual implementa todo o controle de chamadas em paralelo. 
-3. Após o término das chamadas, salva-se o conteúdo de cada resposta em um arquivo `.json` conforme especificado na seção anterior para as chamadas que resultaram em sucesso.
+1. A obtenção das recomendações não processadas consiste em gerar, no *dataframe,* uma coluna com o nome do arquivo onde a recomendação será salva, conforme detalhado na seção anterior. Com base nessa coluna, filtra-se apenas recomendações cujos arquivos ainda não existem no sistema de arquivos, compondo assim o conjunto de recomendações pendentes.
+2. Com as recomendações pendentes, é criada uma requisição (que representa uma chamada na API) por recomendação e executam-se todas essas chamadas usando-se a função `req_perform_parallel` do pacote *httr2* (WICKHAM, 2025), que implementa o controle de chamadas em paralelo.
+3. Após o término das chamadas, salva-se o conteúdo de cada resposta em um arquivo `.json`, conforme especificado na seção anterior, para as chamadas que resultaram em sucesso.
 
-O processo definido acima é implementado pela função `executa_chamadas`, que foi usado nas seções subsequentes para implementar as duas etapas definidas para o presente trabalho.
+O fluxo definido acima foi implementado pela função `executa_chamadas`, utilizada nas seções posteriores para operacionalizar as duas etapas definidas para o presente trabalho.
 
-Abaixo, o conjunto de funções que serão usadas para cada prompt.
+A seguir, apresenta-se o conjunto de funções criado para aplicar os prompts e armazenar os resultados:
 
 ```{r}
 #| label: funcoes_uteis
@@ -173,7 +179,7 @@ executa_chamadas <- function(dataframe, system_prompt){
 
     base_request <- request("https://api.deepseek.com") |> 
                 req_method("POST") |> 
-                req_auth_bearer_token(Sys.getenv("API_KEY_DEEPSEEK")) |>
+                req_auth_bearer_token(obtem_api_key_deepseek()) |>
                 req_headers("Content-Type"= "application/json") |>
                 req_url_path("chat/completions") |>
                 req_throttle(capacity = 15, fill_time_s = 60)

@@ -77,13 +77,13 @@ Para identificar quais recomendações ainda não foram classificadas, foi gerad
 
 É importante destacar que, como o nome do arquivo de saída inclui o identificador do *prompt*, o nome do fornecedor e o modelo utilizado, qualquer alteração em uma dessas variáveis implicará uma nova rodada de classificação, limitada ao que ainda não foi processado para a nova combinação prompt/modelo.
 
-### Implementação das Funções de Necessárias
+### Implementação das Funções Necessárias
 
 Com o modelo de organização de dados definido, estruturou-se o processo de chamadas à API em três etapas principais, descritas a seguir:
 
 1.  A obtenção das recomendações não processadas consiste em gerar, no *dataframe,* uma coluna com o nome do arquivo onde a recomendação será salva, conforme detalhado na seção anterior. Com base nessa coluna, filtra-se apenas recomendações cujos arquivos ainda não existem no sistema de arquivos, compondo assim o conjunto de recomendações pendentes.
-2.  Com as recomendações pendentes, é criada uma requisição (que representa uma chamada na API) por recomendação e executa-se todas essas chamadas usando-se a função `req_perform_parallel` do pacote *httr2* (WICKHAM, 2025), o qual implementa todo o controle de chamadas em paralelo.
-3.  Após o término das chamadas, salva-se o conteúdo de cada resposta em um arquivo `.``json` conforme especificado na seção anterior para as chamadas que resultaram em sucesso.
+2.  Com as recomendações pendentes, cria-se uma requisição (que representa uma chamada à API) para cada recomendação, e todas essas chamadas são executadas por meio da função `req_perform_parallel` do pacote *httr2* (WICKHAM, 2025), que implementa o controle de chamadas em paralelo.
+3.  Após o término das chamadas, salva-se o conteúdo de cada resposta em um arquivo `.json`, conforme especificado na seção anterior, para cada chamada bem-sucedida.
 
 O fluxo definido acima foi implementado pela função `executa_chamadas`, utilizada nas seções posteriores para operacionalizar as duas etapas definidas para o presente trabalho.
 
@@ -172,11 +172,11 @@ A seguir, apresenta-se o conjunto de funções criado para aplicar os prompts e 
         invisible("Feito")
     }
 
-A partir da leitura do conteúdo da função `executa_chamadas``,` definida acima, observa-se que a lista de mensagens enviada em cada chamada à API possui duas entradas: uma para o papel (*role*) `system` e outra para o papel (*user*). Dessa forma, as etapas subsequentes utilizam as funções definidas acima, manipulando essas variáveis para implementar as etapas propostas no processo de classificação.
+A partir da leitura do conteúdo da função `executa_chamadas`, definida acima, observa-se que a lista de mensagens enviada em cada chamada à API possui duas entradas: uma para o papel (*role*) `system` e outra para o papel (*user*). Dessa forma, as etapas subsequentes utilizam as funções definidas acima, manipulando essas variáveis para implementar as etapas propostas no processo de classificação.
 
-Para tabular os dados produzidos, deve-se ler os arquivos `.``json` gerados, associando-os às suas respectivas recomendações. Para tanto, utilizam-se as informações contidas na própria estrutura de diretórios e nos nomes dos arquivos `.``json``,` que permitem criar a chave necessária para realizar essa associação.
+Para tabular os dados produzidos, devem-se ler os arquivos `.json` gerados e associá-los às respectivas recomendações. Para tanto, utilizam-se as informações contidas na própria estrutura de diretórios e nos nomes dos arquivos `.json`, que permitem criar a chave necessária para realizar essa associação.
 
-Ressalta-se terem sido utizados os pacotes *foreach* (MICROSOFT & WESTON, 2022) e *doParallel* (CORPORATION & WESTON, 2022) para executar a leitura desses arquivos em paralelo.
+Ressalta-se terem sido utilizados os pacotes *foreach* (MICROSOFT & WESTON, 2022) e *doParallel* (CORPORATION & WESTON, 2022) para executar a leitura desses arquivos em paralelo.
 
 ### Etapa Codificação
 

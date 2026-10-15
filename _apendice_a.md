@@ -195,7 +195,7 @@ O processo gerou 399 arquivos. Além disso, observou-se que algumas auditorias p
 
 ### Extração de Texto
 
-Com os arquivos baixados, usou-se o pacote *pdftools* (OOMS, 2025) para extrair os textos e consolidá-los em uma *dataframe* único, com um registro por linha extraída e as seguintes informações de controle:
+Com os arquivos baixados, usou-se o pacote *pdftools* (OOMS, 2025) para extrair os textos e consolidá-los em um único *dataframe*, com um registro por linha extraída e as seguintes informações de controle:
 
 - Nome do arquivo,
 - Número da página,

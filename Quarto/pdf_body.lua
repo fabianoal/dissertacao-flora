@@ -131,7 +131,7 @@ function Pandoc(doc)
 \clearpage
 \KOMAoptions{parskip=false}
 \setlength{\parindent}{1.25cm}
-\setlength{\parskip}{0pt}
+\setlength{\parskip}{4pt}
 \onehalfspacing
 ]])
 
@@ -187,5 +187,27 @@ function Pandoc(doc)
   end
 
   doc.blocks = blocks
+  -- gt repeats the entire longtable header. Keep the caption in the
+  -- first header only so continued pages do not duplicate list entries.
+  doc = doc:walk({
+    RawBlock = function(block)
+      if (block.format == "latex" or block.format == "tex") and
+          block.text:find("\\endhead", 1, true) and
+          not block.text:find("\\endfirsthead", 1, true) then
+        local columns = block.text:match("\\toprule\n(.-)\\midrule\\endhead")
+        if columns then
+          block.text = block.text:gsub(
+            "\\midrule\\endhead",
+            function()
+              return "\\midrule\\endfirsthead\n\\toprule\n" ..
+                columns .. "\\midrule\\endhead"
+            end,
+            1
+          )
+        end
+      end
+      return block
+    end
+  })
   return doc
 end

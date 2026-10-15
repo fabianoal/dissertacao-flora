@@ -388,6 +388,10 @@ mostra_resultados_rodada <- function(id_prompt) {
 }
 ```
 
+```{=latex}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{1}}
+```
+
 # Objetivo e desenho da etapa
 
 Esta terceira rodada amplia a codificação exploratória das divergências relacionadas ao critério “Efeitos Duradouros”. O corpus é construído a partir dos resultados históricos da codificação e da análise crítica. As categorias identificadas nas rodadas anteriores são informadas ao modelo como taxonomia de referência, mas o modelo pode propor novas categorias quando nenhuma das existentes for adequada.

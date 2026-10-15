@@ -1,5 +1,9 @@
 # Apêndice J --- Categorização das discordâncias em efeitos duradouros
 
+```{=latex}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{1}}
+```
+
 ## Objetivo e desenho da etapa
 
 Esta terceira rodada amplia a codificação exploratória das divergências

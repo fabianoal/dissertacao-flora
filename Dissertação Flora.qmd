@@ -1168,7 +1168,12 @@ ggplot2::ggplot(
     ggplot2::labs(
         x = "Constatações por auditoria",
         y = "Recomendações por auditoria",
-        caption = "Nota: a linha tracejada indica igualdade entre as contagens; a linha contínua representa o ajuste linear.\nFonte: Elaboração própria com base nos dados da pesquisa."
+        caption = paste(
+            "Nota: a linha tracejada indica igualdade entre as contagens;",
+            "a linha contínua representa o ajuste linear.",
+            "Fonte: Elaboração própria com base nos dados da pesquisa.",
+            sep = "\n"
+        )
     ) +
     tema_figuras_corpus()
 ```
@@ -1347,7 +1352,11 @@ extensao_textos |>
     ggplot2::labs(
         x = NULL,
         y = "Número de palavras",
-        caption = "Fonte: Elaboração própria a partir das constatações e recomendações extraídas dos relatórios de auditoria."
+        caption = paste(
+            "Fonte: Elaboração própria a partir das constatações e",
+            "recomendações extraídas dos relatórios de auditoria.",
+            sep = "\n"
+        )
     ) +
     tema_figuras_corpus()
 ```

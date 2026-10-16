@@ -4,11 +4,11 @@
 
 Este documento descreve os procedimentos adotados para classificar as recomendações emitidas pelo DENASUS, com base nos critérios definidos na pesquisa.
 
-De forma geral, a classificação foi realizada por meio de chamadas à API do provedor de LLM selecionado, utilizando-se um prompt estruturado. As instruções de codificação foram inseridas no papel *system*, enquanto os dados das recomendações foram inseridos no papel *user*.
+De forma geral, a classificação foi realizada por meio de chamadas à API do provedor de LLM selecionado, utilizando-se um *prompt* estruturado. As instruções de codificação foram inseridas no papel *system*, enquanto os dados das recomendações foram inseridos no papel *user*.
 
 O texto também apresenta a estrutura de organização dos dados, os procedimentos de interação com a API, a forma de armazenamento dos resultados conforme o modelo definido e a posterior tabulação das informações.
 
-A seguir, apresenta-se uma amostra dos dados utilizados na composição dos prompts.
+A seguir, apresenta-se uma amostra dos dados utilizados na composição dos *prompts*.
 
     recomendacoes <- read_rds("./Dados Gerados/dataset_consolidado.rds")
 
@@ -52,7 +52,7 @@ A seguir, apresenta-se uma amostra dos dados utilizados na composição dos prom
 
   : Amostra dos dados de recomendações
 
-O processo de categorização foi dividido em etapas correspondentes aos diferentes prompts definidos na pesquisa. Para cada *prompt*, foi realizada uma chamada à API do fornecedor selecionado, e os resultados foram armazenados em arquivos organizados segundo o modelo descrito na próxima seção.
+O processo de categorização foi dividido em etapas correspondentes aos diferentes *prompts* definidos na pesquisa. Para cada *prompt*, foi realizada uma chamada à API do fornecedor selecionado, e os resultados foram armazenados em arquivos organizados segundo o modelo descrito na próxima seção.
 
 Ao final, os dados foram consolidados em um *dataset* final, que serviu de base para a análise.
 
@@ -60,14 +60,14 @@ A estrutura adotada para organização dos arquivos permitiu identificar eventua
 
 ### Organização dos Dados
 
-Considerando que os fornecedores de LLMs disponibilizam múltiplos modelos e que a pesquisa faz uso de diferentes prompts, optou-se por estruturar os resultados de cada chamada à API em diretórios organizados de forma hierárquica. Essa estrutura leva em conta o identificador do prompt, bem como as variáveis fornecedor, modelo, nome do relatório PDF, número da constatação e número da recomendação. O padrão de nomenclatura adotado para os arquivos foi o seguinte:
+Considerando que os fornecedores de LLMs disponibilizam múltiplos modelos e que a pesquisa faz uso de diferentes *prompts*, optou-se por estruturar os resultados de cada chamada à API em diretórios organizados de forma hierárquica. Essa estrutura leva em conta o identificador do *prompt*, bem como as variáveis fornecedor, modelo, nome do relatório PDF, número da constatação e número da recomendação. O padrão de nomenclatura adotado para os arquivos foi o seguinte:
 
     <modelo>\<prompt>\<arquivo>\<constatação>_<recomendação>.json
 
 Onde:
 
 - modelo: Nome do modelo (deepseek-chat, deepseek-reasoner, o4-mini etc.)
-- prompt: nome do arquivo que contém o prompt sem a extensão (ex: prompt_1)
+- prompt: nome do arquivo que contém o *prompt* sem a extensão (ex: prompt_1)
 - arquivo: nome do relatório PDF sem a extensão ".pdf"
 - constatação: número que identifica a constatação (extraído do texto do relatório)
 - recomendação: número que identifica a recomendação (numeração incremental criada para cada recomendação no contexto de uma constatação)
@@ -75,7 +75,7 @@ Onde:
 
 Para identificar quais recomendações ainda não foram classificadas, foi gerado, no *dataframe* das recomendações, o nome do arquivo de destino para cada chamada, conforme o padrão descrito acima. Em seguida, foram filtradas apenas aquelas recomendações cujos respectivos arquivos ainda não constavam entre os já processados. Assim, quando todas as recomendações já tiverem sido classificadas e os arquivos correspondentes existirem, o filtro resultará em um *dataframe* vazio.
 
-É importante destacar que, como o nome do arquivo de saída inclui o identificador do *prompt*, o nome do fornecedor e o modelo utilizado, qualquer alteração em uma dessas variáveis implicará uma nova rodada de classificação, limitada ao que ainda não foi processado para a nova combinação prompt/modelo.
+É importante destacar que, como o nome do arquivo de saída inclui o identificador do *prompt*, o nome do fornecedor e o modelo utilizado, qualquer alteração em uma dessas variáveis implicará uma nova rodada de classificação, limitada ao que ainda não foi processado para a nova combinação de *prompt* e modelo.
 
 ### Implementação das Funções Necessárias
 
@@ -87,7 +87,7 @@ Com o modelo de organização de dados definido, estruturou-se o processo de cha
 
 O fluxo definido acima foi implementado pela função `executa_chamadas`, utilizada nas seções posteriores para operacionalizar as duas etapas definidas para o presente trabalho.
 
-A seguir, apresenta-se o conjunto de funções criado para aplicar os prompts e armazenar os resultados:
+A seguir, apresenta-se o conjunto de funções criado para aplicar os *prompts* e armazenar os resultados:
 
     #' Função auxiliar que, dada uma pasta de saída, lê os arquivos .json, e
     #' retorna o dataset recomendacoes filtrado contendo somente recomendações
